@@ -1,0 +1,167 @@
+
+
+<start> ::= <modified_competency>{20} ;
+
+
+<modified_competency> ::=  <process> ' ' <object_choice> ' ' <notation_object>{0,1} '.' <line_break> ; 
+
+<process> ::= <formal_process> | <knowledge> ;
+<knowledge> ::= <knowledge_process> ' by'  <knowledge_subprocess> ;
+
+
+<object_choice> ::= <mathOp_object> | <specific_object> ;
+<mathOp_object> ::= <math_operation> ' ' <object> ;
+
+
+<formal_process> ::=  'read'  |  'recite'  |  'write'  |  'represent' ' '  'with'  ' ' <representation>  |  'randomly sample' ;
+
+<representation> ::= <models> | <realia> | <glyphs> ;
+
+<models> ::=  'images'  |  'sounds' |  'activities' ;
+
+<realia> ::=  'specimens'  |  'body parts' ;
+
+<glyphs> ::=  'words'  |  'symbols'  |  'drawings'  |  'graphs' ;
+
+ 
+
+<knowledge_process> ::=  'identifying'  |  'describing'  |  'comparing'  |  'understanding'  |  'representing'  |  'applying'  |  'relating'  |  'analyzing'  |  'interpreting'  |  'extending'  |  'classifying'  | 'measuring' |  'iterating'  |  'solving'  |  'converting'  |  'reasoning'  |  'computing'  |  'approximating'  |  'estimating'  | 'inferring' | 'grouping' |  'strategizing'  | 'explaining' |  'constructing' ; 
+
+
+<knowledge_subprocess> ::=  ' putting together' | ' adding to' | ' taking apart' | ' taking from' ; 
+
+<math_operation> ::=  'naming'  |  'sequencing'  |  'ordering'  |  'adding'  |  'subtracting' |  'multiplying'  |  'dividing'  |  'negating'  |  'exponentiating'  |  'grouping' ; 
+
+<object> ::=  'Numbers' | 
+'Numerical Expressions' | 
+'Numerical Equations' | 
+'Terms' | 
+'Properties of Objects' | 
+'Properties of math_operations' | 
+'Patterns' | 
+'Factors' | 
+' Common Factors ' | 
+'Multiples' | 
+'Common Multiples' | 
+'Place Value' | 
+'Attributes' | 
+'Standard Units' | 
+'SI Units' | 
+'Area' | 
+'Perimeter' | 
+'Data' | 
+'Angles' | 
+'Volume' | 
+'Shapes' | 
+'Surface Area' | 
+'Realia' | 
+'Models' | 
+'Congruence' | 
+'Similarity' | 
+'Ratios' | 
+'Proportions' | 
+'Algebraic Expressions' | 
+'Variables' | 
+'Numerical Inequalities' | 
+'Algebraic Equations' | 
+'Algebraic Inequalities' | 
+'Lines' | 
+'Linear Equations' | 
+'Simultaneous Equations' | 
+'Functions' | 
+'Statistical Variability' | 
+'Distributions' | 
+'Populations' | 
+'Chance Processes' | 
+'Probability Models' | 
+'Bivariate Data' | 
+'Sets' | 
+'Elements' | 
+'Experiments' | 
+'Observations' | 
+'Dependent Variables' | 
+'Independent Variables' | 
+'Sum' | 
+'Difference' | 
+'Product' | 
+'Quotient' | 
+'Remainder' | 
+'Groups' | 
+'Length' | 
+'Width' | 
+'Depth or Height' | 
+'Qualitative Attributes' | 
+'Arrays' | 
+'Plane Figures' | 
+'Objects in Space' | 
+'Sample' | 
+'Random Sample' | 
+'Prisms and Cylinders' | 
+'Spheres' | 
+'Cones' | 
+'Quantitative Stories'
+ ;
+# can we input the list of Math Objects in our current K-12 database here in space of string? Also, do we mean to apply the math_operation definition here, or do we mean it as a specific string? 
+
+<specific_object> ::=  'Pythagorean Formula'  |  'Standard Algorithm for Multiplication' ;
+
+
+<scope_object> ::=   'Whole Numbers'   <sub_scope>  |  'Integers'  |  'Unit Fractions'  |  'Rational Numbers'  |  'Real Numbers'  |  'Imaginary Numbers'  |  'Complex Numbers'  |  'Vectors'  |  'Matrices'  |  'Infinite Numbers'  |  'Random Numbers'  |  'Expected Values'  |  'Probabilities'  |  'The Plane'  |  'Space'  |  'Algebraic Expressions'  |  'Numerical Expressions' ;
+
+
+<notation_object> ::=  'in' ' ' 'Fractional Notations'  | 'in' ' ' 'Decimal Notations'  | 'in' ' ' 'Proportional Notation'  | 'in' ' ' 'Addition Notation'  | 'in' ' ' 'Subtraction Notation'  | 'in' ' ' 'Multiplication Notations'  | 'in' ' ' 'Division Notations'  | 'in' ' ' 'Radical Notation'  | 'in' ' ' 'Exponential Notation'  | 'in' ' ' 'Scientific Notation'  | 'in' ' ' 'Base Ten'  ;
+
+<math_practice_competency> ::=  'Make Sense of Problems'  |  'Persevere in Solving Problems'  |  'Reason Abstractly'  |  'Reason Quantitatively'  |  'Construct Viable Arguments'  |  'Critique Reasoning'  |  'Model Problems'  |  'Use Tools Strategically'  |  'Attend to Precision'  |  'Look for Structure'  |  'Make Use of Structure'  |  'Look for Regularity in Repeated Reasoning'  |  'Express Regularity in Repeated Reasoning' ; 
+
+
+<sub_scope> ::=  '0'  |  '1'  |  'to 2'  |  'to 3'  |  'to 4'  |  'to 5'  |  'within 10'  |  'within 20'  |  'within 100'  |  'within 120'  |  'within 1000' ;
+
+
+<line_break> ::= '\n'
+
+
+
+
+
+
+
+
+Grammar  ::= Production*
+Production
+         ::= ( correlation | progression | recommendation | search | assessment | report | differentiation )
+
+correlation  ::= learning_object ', ' learning_verb ', ' modified_competency ', ' DOK_level
+
+progression   ::= learning_object ' "requires" '  learning_object ' "because all of the competencies of the former: " '  ( ( modified_competency ) ( ', ' modified_competency )+ ) ' "extend the competencies of the latter" ' 
+
+recommendation ::= learning_object ' “matches search for:” ' ( learning_verb ', ' modified_competency ', ' DOK_level )
+
+search ::= recommendation
+
+assessment ::= learning_object ' “is evidence of:” '  modified_competency ', ' DOK_level 
+
+report ::= ' “set of” ' ( learning_object )+  ' “is evidence of:” ' modified_competency ', ' DOK_level
+
+differentiation ::= learning_object ' “is similar to” ' learning_object ' “that” ' learning_verb  modified_competency  ( ', ' DOK_level)? 
+
+learning_verb ::= ' “teaches” ' | ' “practices” ' | ' “assesses” ' | ' “exemplifies” ' 
+
+DOK_level ::= ' “at DOK Level” ' ( ' “1” ' | ' “2” ' | ' “3” ' | ' “4” ' ) 
+
+
+learning_object ::= activity | learning_object_map 
+
+learning_object_map ::=  '{' ( learning_object )+ '}'
+
+activity ::= teaching_object | investigate_object | practice_object | assessment_object | differentiation_object | portfolio_object 
+
+teaching_object ::= metadata_object 
+investigate_object ::= metadata_object 
+practice_object ::= metadata_object 
+assessment_object ::=  metadata_object 
+differentiation_object ::= metadata_object 
+portfolio_object ::= metadata_object 
+
+metadata_object ::= "object file" | "object metadata"
+
+
