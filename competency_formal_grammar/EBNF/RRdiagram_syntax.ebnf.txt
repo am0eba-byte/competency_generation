@@ -87,7 +87,7 @@ math_operation ::= ' “naming” ' /* specific to scope domains */ | ' “seque
 object ::= ' "math operations" ' | ' "string" '
 /* can we input the list of Math Objects in our current K-12 database here in space of string? Also, do we mean to apply the math_operation definition here, or do we mean it as a specific string? */
 
-specific_object ::= ' "string" ' | ' "specific object string" '
+specific_object ::= ' “Pythagorean Theorem” ' | ' “Standard Algorithm for Addition” ' | ' “Standard Algorithm for Subtraction” '  |  ' “Standard Algorithm for Multiplication” ' | ' “Standard Algorithm for Division” ' | ' “European Algorithm for Subtraction” ' | ' “Lattice Algorithm for Multiplication” ' | ' “Common Factors” ' | ' “Distributive Property” ' | ' “Commutative Property” ' | ' “Associative Property” '
 
 !!!scope_object + math_operation!! = DOMAINS
 
