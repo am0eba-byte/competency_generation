@@ -41,6 +41,7 @@ modified_competency ::= ( ( ( formal_process )? | ( knowledge_process ( ' “by�
 
 
 
+
 formal_process ::= ' “read” ' | ' “recite” ' | ' “write” ' |  ( ' “represent” ' ( ' “with” ' representation )?) | ' “randomly sample” '
 
 representation ::= models | realia | glyphs 
@@ -53,25 +54,51 @@ glyphs ::= ' “words” ' | ' “symbols” ' | ' “drawings” ' | ' “graph
 
  
 
-knowledge_process ::= ' “identifying” ' | ' “describing” ' | ' “comparing” ' | ' “understanding” ' | ' “representing” ' | ' “applying” ' | ' “relating” ' | ' “analyzing” ' | ' “interpreting” ' | ' “extending” ' | ' “classifying” ' | ' “measuring” ' | ' “iterating” ' | ' “solving” ' | ' “converting” ' | ' “reasoning” ' | ' “computing” ' | ' “approximating” ' | ' “estimating” ' | ' “inferring” ' | ' “grouping” ' | ' “strategizing” ' | ' “explaining” ' | ' “constructing” ' 
+
+knowledge_process ::= ' “identifying” ' | ' “describing” ' | ' “comparing” ' | ' “understanding” ' | ' “representing” ' | ' “applying” ' | ' “relating” ' | ' “analyzing” ' | ' “interpreting” ' | ' “extending” ' | ' “classifying” ' | ' “measuring” ' | ' “iterating” ' | ' “solving” ' | ' “converting” ' | ' “reasoning” ' | ' “computing” ' | ' “approximating” ' | ' “estimating” ' | ' “inferring” ' | ' “grouping” ' | ' “strategizing” /* + knowledge_subprocess ==> whole numbers strategies */ ' | ' “explaining” ' | ' “constructing” ' 
+
+/* map these knowledge processes onto a smaller subset, Bloom's */
+6 of them: "remember", "understand" - <strategize>? , "apply" - <strategize>?, "analyze", "evaluate", "create"
+
+/* more on the strategies when we have time to big brain */
+
+knowledge_subprocess ::= ' ' putting together' /*scope: addition */ | ' adding to' | ' taking apart' | ' taking from'  '
+/*WHOLE NUMBERS ONLY ^^ (*these are strategies*) ==> turn these into Tags ? */
 
 
-knowledge_subprocess ::= ' "knowledge_subprocess" ' | ' "specific knowledge process string" '
+!! representing individual strategies as their own competencies 
 
-math_operation ::= ' “naming” ' | ' “sequencing” ' | ' “ordering” ' | ' “adding” ' | ' “subtracting” ' | ' “multiplying” ' | ' “dividing” ' | ' “negating” ' | ' “exponentiating” ' | ' “grouping” ' 
+
+Competencies split into specific scope_object domains:
+
+math_practice_competency ::= ' “Make Sense of Problems” ' | ' “Persevere in Solving Problems” ' | ' “Reason Abstractly” ' | ' “Reason Quantitatively” ' | ' “Construct Viable Arguments” ' | ' “Critique Reasoning” ' | ' “Model Problems” ' | ' “Use Tools Strategically” ' | ' “Attend to Precision” ' | ' “Look for Structure” ' | ' “Make Use of Structure” ' | ' “Look for Regularity in Repeated Reasoning” ' | ' “Express Regularity in Repeated Reasoning” ' 
+
+complex_competency ::=
+
+whole_number_competency ::=
+
+integers_competency ::=
+
+
+..
+
+math_operation ::= ' “naming” ' /* specific to scope domains */ | ' “sequencing” ' /* specific to scope domains */ | ' “ordering” ' /* */ | ' “adding” ' | ' “subtracting” ' | ' “multiplying” ' | ' “dividing” ' | ' “negating” ' | ' “exponentiating” ' | ' “grouping” ' 
 
 object ::= ' "math operations" ' | ' "string" '
 /* can we input the list of Math Objects in our current K-12 database here in space of string? Also, do we mean to apply the math_operation definition here, or do we mean it as a specific string? */
 
 specific_object ::= ' "string" ' | ' "specific object string" '
 
+!!!scope_object + math_operation!! = DOMAINS
+
+!!knowledge_processes + scope_objects!! = KNOWLEDGE PROCESS  DOMAINS
 
 scope_object ::=  (' "Whole Numbers" ' ( sub_scope )? ) | ' “Integers” ' | ' “Unit Fractions” ' | ' “Rational Numbers” ' | ' “Real Numbers” ' | ' “Imaginary Numbers” ' | ' “Complex Numbers” ' | ' “Vectors” ' | ' “Matrices” ' | ' “Infinite Numbers” ' | ' “Random Numbers” ' | ' “Expected Values” ' | ' “Probabilities” ' | ' “The Plane” ' | ' “Space” ' | ' “Algebraic Expressions” ' | ' “Numerical Expressions” '
 
 
 notation_object ::= ' “in” ' ', ' ( ' “Fractional Notations” ' | ' “Decimal Notations” ' | ' “Proportional Notation” ' | ' “Addition Notation” ' | ' “Subtraction Notation” ' | ' “Multiplication Notations” ' | ' “Division Notations” ' | ' “Radical Notation” ' | ' “Exponential Notation” ' | ' “Scientific Notation” ' | ' “Base Ten” ' ) 
 
-math_practice_competency ::= ' “Make Sense of Problems” ' | ' “Persevere in Solving Problems” ' | ' “Reason Abstractly” ' | ' “Reason Quantitatively” ' | ' “Construct Viable Arguments” ' | ' “Critique Reasoning” ' | ' “Model Problems” ' | ' “Use Tools Strategically” ' | ' “Attend to Precision” ' | ' “Look for Structure” ' | ' “Make Use of Structure” ' | ' “Look for Regularity in Repeated Reasoning” ' | ' “Express Regularity in Repeated Reasoning” ' 
+
 
 
 sub_scope ::= ' “0” ' | ' “1” ' | ' “to 2” ' | ' “to 3” ' | ' “to 4” ' | ' “to 5” ' | ' “within 10” ' | ' “within 20” ' | ' “within 100” ' | ' “within 120” ' | ' “within 1000” ' 
