@@ -43,14 +43,13 @@ math_operation ::= ' “naming” ' | ' “sequencing” ' | ' “ordering” ' 
 object ::= ' "math operations" ' | ' "string" '
 /* can we input the list of Math Objects in our current K-12 database here in space of string? Also, do we mean to apply the math_operation definition here, or do we mean it as a specific string? */
 
-specific_object ::= ' "string" ' | ' "specific object string" '
+specific_object ::= ' “Pythagorean Theorem” ' | ' “Standard Algorithm for Addition” ' | ' “Standard Algorithm for Subtraction” '  |  ' “Standard Algorithm for Multiplication” ' | ' “Standard Algorithm for Division” ' | ' “European Algorithm for Subtraction” ' | ' “Lattice Algorithm for Multiplication” ' | ' “Common Factors” ' | ' “Distributive Property” ' | ' “Commutative Property” ' | ' “Associative Property” '
 
 
 scope_object ::=  (' "Whole Numbers" ' ( sub_scope )? ) | ' “Integers” ' | ' “Unit Fractions” ' | ' “Rational Numbers” ' | ' “Real Numbers” ' | ' “Imaginary Numbers” ' | ' “Complex Numbers” ' | ' “Vectors” ' | ' “Matrices” ' | ' “Infinite Numbers” ' | ' “Random Numbers” ' | ' “Expected Values” ' | ' “Probabilities” ' | ' “The Plane” ' | ' “Space” ' | ' “Algebraic Expressions” ' | ' “Numerical Expressions” '
 
 
 notation_object ::= ' “in” ' ( ' “Fractional Notations” ' | ' “Decimal Notations” ' | ' “Proportional Notation” ' | ' “Addition Notation” ' | ' “Subtraction Notation” ' | ' “Multiplication Notations” ' | ' “Division Notations” ' | ' “Radical Notation” ' | ' “Exponential Notation” ' | ' “Scientific Notation” ' | ' “Base Ten” ' ) 
-
 
 
 
