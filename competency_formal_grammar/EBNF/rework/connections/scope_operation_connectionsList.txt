@@ -1,0 +1,21 @@
+complex_numbers_competency scope objects: 
+
+
+rational_numbers_competency scope objects:
+knowledge_process:
+apply
+
+formal_process: 
+write
+
+math_operation:
+sequencing? 
+ordering
+grouping?
+multiplying
+dividing
+adding
+subtracting
+negating
+
+
