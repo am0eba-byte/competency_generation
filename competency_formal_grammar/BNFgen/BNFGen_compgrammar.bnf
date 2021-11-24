@@ -1,6 +1,6 @@
 
 
-<start> ::= <modified_competency>{20} ;
+<start> ::= <modified_competency>{1000} ;
 
 
 <modified_competency> ::=  <process> ' ' <object_choice> ' ' <notation_object>{0,1} '.' <line_break> ; 
@@ -118,50 +118,3 @@
 
 
 <line_break> ::= '\n'
-
-
-
-
-
-
-
-
-Grammar  ::= Production*
-Production
-         ::= ( correlation | progression | recommendation | search | assessment | report | differentiation )
-
-correlation  ::= learning_object ', ' learning_verb ', ' modified_competency ', ' DOK_level
-
-progression   ::= learning_object ' "requires" '  learning_object ' "because all of the competencies of the former: " '  ( ( modified_competency ) ( ', ' modified_competency )+ ) ' "extend the competencies of the latter" ' 
-
-recommendation ::= learning_object ' “matches search for:” ' ( learning_verb ', ' modified_competency ', ' DOK_level )
-
-search ::= recommendation
-
-assessment ::= learning_object ' “is evidence of:” '  modified_competency ', ' DOK_level 
-
-report ::= ' “set of” ' ( learning_object )+  ' “is evidence of:” ' modified_competency ', ' DOK_level
-
-differentiation ::= learning_object ' “is similar to” ' learning_object ' “that” ' learning_verb  modified_competency  ( ', ' DOK_level)? 
-
-learning_verb ::= ' “teaches” ' | ' “practices” ' | ' “assesses” ' | ' “exemplifies” ' 
-
-DOK_level ::= ' “at DOK Level” ' ( ' “1” ' | ' “2” ' | ' “3” ' | ' “4” ' ) 
-
-
-learning_object ::= activity | learning_object_map 
-
-learning_object_map ::=  '{' ( learning_object )+ '}'
-
-activity ::= teaching_object | investigate_object | practice_object | assessment_object | differentiation_object | portfolio_object 
-
-teaching_object ::= metadata_object 
-investigate_object ::= metadata_object 
-practice_object ::= metadata_object 
-assessment_object ::=  metadata_object 
-differentiation_object ::= metadata_object 
-portfolio_object ::= metadata_object 
-
-metadata_object ::= "object file" | "object metadata"
-
-
