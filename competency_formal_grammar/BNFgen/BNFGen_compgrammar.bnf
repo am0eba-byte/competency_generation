@@ -25,7 +25,7 @@
 
  
 
-<knowledge_process> ::=  'identifying'  |  'describing'  |  'comparing'  |  'understanding'  |  'representing'  |  'applying'  |  'relating'  |  'analyzing'  |  'interpreting'  |  'extending'  |  'classifying'  | 'measuring' |  'iterating'  |  'solving'  |  'converting'  |  'reasoning'  |  'computing'  |  'approximating'  |  'estimating'  | 'inferring' | 'grouping' |  'strategizing'  | 'explaining' |  'constructing' ; 
+<knowledge_process> ::=  'remember' | 'understand' | 'apply' | 'analyze' | 'evaluate' | 'create' ; 
 
 
 <knowledge_subprocess> ::=  ' putting together' | ' adding to' | ' taking apart' | ' taking from' ; 
