@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>read Name 
+ recite Name 
+ write Name 
+ represent Name 
+ randomly sample Name 
+ remembering Name 
+ evaluating Name 
+ creating Name 
+ understanding Name 
+ applying Name 
+ analyzing Name 
+ read Sequence 
+ recite Sequence 
+ write Sequence 
+ represent Sequence 
+ randomly sample Sequence 
+ remembering Sequence 
+ evaluating Sequence 
+ creating Sequence 
+ understanding Sequence 
+ applying Sequence 
+ analyzing Sequence 
+ read Order 
+ recite Order 
+ write Order 
+ represent Order 
+ randomly sample Order 
+ remembering Order 
+ evaluating Order 
+ creating Order 
+ understanding Order 
+ applying Order 
+ analyzing Order 
+ read Add 
+ recite Add 
+ write Add 
+ represent Add 
+ randomly sample Add 
+ remembering Add 
+ evaluating Add 
+ creating Add 
+ understanding Add 
+ applying Add 
+ analyzing Add 
+ read Subtract 
+ recite Subtract 
+ write Subtract 
+ represent Subtract 
+ randomly sample Subtract 
+ remembering Subtract 
+ evaluating Subtract 
+ creating Subtract 
+ understanding Subtract 
+ applying Subtract 
+ analyzing Subtract 
+ read Multiply 
+ recite Multiply 
+ write Multiply 
+ represent Multiply 
+ randomly sample Multiply 
+ remembering Multiply 
+ evaluating Multiply 
+ creating Multiply 
+ understanding Multiply 
+ applying Multiply 
+ analyzing Multiply 
+ read Divide 
+ recite Divide 
+ write Divide 
+ represent Divide 
+ randomly sample Divide 
+ remembering Divide 
+ evaluating Divide 
+ creating Divide 
+ understanding Divide 
+ applying Divide 
+ analyzing Divide 
+ read Negate 
+ recite Negate 
+ write Negate 
+ represent Negate 
+ randomly sample Negate 
+ remembering Negate 
+ evaluating Negate 
+ creating Negate 
+ understanding Negate 
+ applying Negate 
+ analyzing Negate 
+ read Exponentiate 
+ recite Exponentiate 
+ write Exponentiate 
+ represent Exponentiate 
+ randomly sample Exponentiate 
+ remembering Exponentiate 
+ evaluating Exponentiate 
+ creating Exponentiate 
+ understanding Exponentiate 
+ applying Exponentiate 
+ analyzing Exponentiate 
+ read Group 
+ recite Group 
+ write Group 
+ represent Group 
+ randomly sample Group 
+ remembering Group 
+ evaluating Group 
+ creating Group 
+ understanding Group 
+ applying Group 
+ analyzing Group 
+ read Numbers 
+ recite Numbers 
+ write Numbers 
+ represent Numbers 
+ randomly sample Numbers 
+ remembering Numbers 
+ evaluating Numbers 
+ creating Numbers 
+ understanding Numbers 
+ applying Numbers 
+ analyzing Numbers 
+ read Numerical Expressions 
+ recite Numerical Expressions 
+ write Numerical Expressions 
+ represent Numerical Expressions 
+ randomly sample Numerical Expressions 
+ remembering Numerical Expressions 
+ evaluating Numerical Expressions 
+ creating Numerical Expressions 
+ understanding Numerical Expressions 
+ applying Numerical Expressions 
+ analyzing Numerical Expressions 
+ read Numerical Equations 
+ recite Numerical Equations 
+ write Numerical Equations 
+ represent Numerical Equations 
+ randomly sample Numerical Equations 
+ remembering Numerical Equations 
+ evaluating Numerical Equations 
+ creating Numerical Equations 
+ understanding Numerical Equations 
+ applying Numerical Equations 
+ analyzing Numerical Equations 
+ read Terms 
+ recite Terms 
+ write Terms 
+ represent Terms 
+ randomly sample Terms 
+ remembering Terms 
+ evaluating Terms 
+ creating Terms 
+ understanding Terms 
+ applying Terms 
+ analyzing Terms 
+ read Properties of Objects 
+ recite Properties of Objects 
+ write Properties of Objects 
+ represent Properties of Objects 
+ randomly sample Properties of Objects 
+ remembering Properties of Objects 
+ evaluating Properties of Objects 
+ creating Properties of Objects 
+ understanding Properties of Objects 
+ applying Properties of Objects 
+ analyzing Properties of Objects 
+ read Properties of math_operations 
+ recite Properties of math_operations 
+ write Properties of math_operations 
+ represent Properties of math_operations 
+ randomly sample Properties of math_operations 
+ remembering Properties of math_operations 
+ evaluating Properties of math_operations 
+ creating Properties of math_operations 
+ understanding Properties of math_operations 
+ applying Properties of math_operations 
+ analyzing Properties of math_operations 
+ read Patterns 
+ recite Patterns 
+ write Patterns 
+ represent Patterns 
+ randomly sample Patterns 
+ remembering Patterns 
+ evaluating Patterns 
+ creating Patterns 
+ understanding Patterns 
+ applying Patterns 
+ analyzing Patterns 
+ read Factors 
+ recite Factors 
+ write Factors 
+ represent Factors 
+ randomly sample Factors 
+ remembering Factors 
+ evaluating Factors 
+ creating Factors 
+ understanding Factors 
+ applying Factors 
+ analyzing Factors 
+ read  Common Factors  
+ recite  Common Factors  
+ write  Common Factors  
+ represent  Common Factors  
+ randomly sample  Common Factors  
+ remembering  Common Factors  
+ evaluating  Common Factors  
+ creating  Common Factors  
+ understanding  Common Factors  
+ applying  Common Factors  
+ analyzing  Common Factors  
+ read Multiples 
+ recite Multiples 
+ write Multiples 
+ represent Multiples 
+ randomly sample Multiples 
+ remembering Multiples 
+ evaluating Multiples 
+ creating Multiples 
+ understanding Multiples 
+ applying Multiples 
+ analyzing Multiples 
+ read Common Multiples 
+ recite Common Multiples 
+ write Common Multiples 
+ represent Common Multiples 
+ randomly sample Common Multiples 
+ remembering Common Multiples 
+ evaluating Common Multiples 
+ creating Common Multiples 
+ understanding Common Multiples 
+ applying Common Multiples 
+ analyzing Common Multiples 
+ read Place Value 
+ recite Place Value 
+ write Place Value 
+ represent Place Value 
+ randomly sample Place Value 
+ remembering Place Value 
+ evaluating Place Value 
+ creating Place Value 
+ understanding Place Value 
+ applying Place Value 
+ analyzing Place Value 
+ read Attributes 
+ recite Attributes 
+ write Attributes 
+ represent Attributes 
+ randomly sample Attributes 
+ remembering Attributes 
+ evaluating Attributes 
+ creating Attributes 
+ understanding Attributes 
+ applying Attributes 
+ analyzing Attributes 
+ read Standard Units 
+ recite Standard Units 
+ write Standard Units 
+ represent Standard Units 
+ randomly sample Standard Units 
+ remembering Standard Units 
+ evaluating Standard Units 
+ creating Standard Units 
+ understanding Standard Units 
+ applying Standard Units 
+ analyzing Standard Units 
+ read SI Units 
+ recite SI Units 
+ write SI Units 
+ represent SI Units 
+ randomly sample SI Units 
+ remembering SI Units 
+ evaluating SI Units 
+ creating SI Units 
+ understanding SI Units 
+ applying SI Units 
+ analyzing SI Units 
+ read Area 
+ recite Area 
+ write Area 
+ represent Area 
+ randomly sample Area 
+ remembering Area 
+ evaluating Area 
+ creating Area 
+ understanding Area 
+ applying Area 
+ analyzing Area 
+ read Perimeter 
+ recite Perimeter 
+ write Perimeter 
+ represent Perimeter 
+ randomly sample Perimeter 
+ remembering Perimeter 
+ evaluating Perimeter 
+ creating Perimeter 
+ understanding Perimeter 
+ applying Perimeter 
+ analyzing Perimeter 
+ read Data 
+ recite Data 
+ write Data 
+ represent Data 
+ randomly sample Data 
+ remembering Data 
+ evaluating Data 
+ creating Data 
+ understanding Data 
+ applying Data 
+ analyzing Data 
+ read Angles 
+ recite Angles 
+ write Angles 
+ represent Angles 
+ randomly sample Angles 
+ remembering Angles 
+ evaluating Angles 
+ creating Angles 
+ understanding Angles 
+ applying Angles 
+ analyzing Angles 
+ read Volume 
+ recite Volume 
+ write Volume 
+ represent Volume 
+ randomly sample Volume 
+ remembering Volume 
+ evaluating Volume 
+ creating Volume 
+ understanding Volume 
+ applying Volume 
+ analyzing Volume 
+ read Shapes 
+ recite Shapes 
+ write Shapes 
+ represent Shapes 
+ randomly sample Shapes 
+ remembering Shapes 
+ evaluating Shapes 
+ creating Shapes 
+ understanding Shapes 
+ applying Shapes 
+ analyzing Shapes 
+ read Surface Area 
+ recite Surface Area 
+ write Surface Area 
+ represent Surface Area 
+ randomly sample Surface Area 
+ remembering Surface Area 
+ evaluating Surface Area 
+ creating Surface Area 
+ understanding Surface Area 
+ applying Surface Area 
+ analyzing Surface Area 
+ read Realia 
+ recite Realia 
+ write Realia 
+ represent Realia 
+ randomly sample Realia 
+ remembering Realia 
+ evaluating Realia 
+ creating Realia 
+ understanding Realia 
+ applying Realia 
+ analyzing Realia 
+ read Models 
+ recite Models 
+ write Models 
+ represent Models 
+ randomly sample Models 
+ remembering Models 
+ evaluating Models 
+ creating Models 
+ understanding Models 
+ applying Models 
+ analyzing Models 
+ read Congruence 
+ recite Congruence 
+ write Congruence 
+ represent Congruence 
+ randomly sample Congruence 
+ remembering Congruence 
+ evaluating Congruence 
+ creating Congruence 
+ understanding Congruence 
+ applying Congruence 
+ analyzing Congruence 
+ read Similarity 
+ recite Similarity 
+ write Similarity 
+ represent Similarity 
+ randomly sample Similarity 
+ remembering Similarity 
+ evaluating Similarity 
+ creating Similarity 
+ understanding Similarity 
+ applying Similarity 
+ analyzing Similarity 
+ read Ratios 
+ recite Ratios 
+ write Ratios 
+ represent Ratios 
+ randomly sample Ratios 
+ remembering Ratios 
+ evaluating Ratios 
+ creating Ratios 
+ understanding Ratios 
+ applying Ratios 
+ analyzing Ratios 
+ read Proportions 
+ recite Proportions 
+ write Proportions 
+ represent Proportions 
+ randomly sample Proportions 
+ remembering Proportions 
+ evaluating Proportions 
+ creating Proportions 
+ understanding Proportions 
+ applying Proportions 
+ analyzing Proportions 
+ read Algebraic Expressions 
+ recite Algebraic Expressions 
+ write Algebraic Expressions 
+ represent Algebraic Expressions 
+ randomly sample Algebraic Expressions 
+ remembering Algebraic Expressions 
+ evaluating Algebraic Expressions 
+ creating Algebraic Expressions 
+ understanding Algebraic Expressions 
+ applying Algebraic Expressions 
+ analyzing Algebraic Expressions 
+ read Variables 
+ recite Variables 
+ write Variables 
+ represent Variables 
+ randomly sample Variables 
+ remembering Variables 
+ evaluating Variables 
+ creating Variables 
+ understanding Variables 
+ applying Variables 
+ analyzing Variables 
+ read Numerical Inequalities 
+ recite Numerical Inequalities 
+ write Numerical Inequalities 
+ represent Numerical Inequalities 
+ randomly sample Numerical Inequalities 
+ remembering Numerical Inequalities 
+ evaluating Numerical Inequalities 
+ creating Numerical Inequalities 
+ understanding Numerical Inequalities 
+ applying Numerical Inequalities 
+ analyzing Numerical Inequalities 
+ read Algebraic Equations 
+ recite Algebraic Equations 
+ write Algebraic Equations 
+ represent Algebraic Equations 
+ randomly sample Algebraic Equations 
+ remembering Algebraic Equations 
+ evaluating Algebraic Equations 
+ creating Algebraic Equations 
+ understanding Algebraic Equations 
+ applying Algebraic Equations 
+ analyzing Algebraic Equations 
+ read Algebraic Inequalities 
+ recite Algebraic Inequalities 
+ write Algebraic Inequalities 
+ represent Algebraic Inequalities 
+ randomly sample Algebraic Inequalities 
+ remembering Algebraic Inequalities 
+ evaluating Algebraic Inequalities 
+ creating Algebraic Inequalities 
+ understanding Algebraic Inequalities 
+ applying Algebraic Inequalities 
+ analyzing Algebraic Inequalities 
+ read Lines 
+ recite Lines 
+ write Lines 
+ represent Lines 
+ randomly sample Lines 
+ remembering Lines 
+ evaluating Lines 
+ creating Lines 
+ understanding Lines 
+ applying Lines 
+ analyzing Lines 
+ read Linear Equations 
+ recite Linear Equations 
+ write Linear Equations 
+ represent Linear Equations 
+ randomly sample Linear Equations 
+ remembering Linear Equations 
+ evaluating Linear Equations 
+ creating Linear Equations 
+ understanding Linear Equations 
+ applying Linear Equations 
+ analyzing Linear Equations 
+ read Simultaneous Equations 
+ recite Simultaneous Equations 
+ write Simultaneous Equations 
+ represent Simultaneous Equations 
+ randomly sample Simultaneous Equations 
+ remembering Simultaneous Equations 
+ evaluating Simultaneous Equations 
+ creating Simultaneous Equations 
+ understanding Simultaneous Equations 
+ applying Simultaneous Equations 
+ analyzing Simultaneous Equations 
+ read Functions 
+ recite Functions 
+ write Functions 
+ represent Functions 
+ randomly sample Functions 
+ remembering Functions 
+ evaluating Functions 
+ creating Functions 
+ understanding Functions 
+ applying Functions 
+ analyzing Functions 
+ read Statistical Variability 
+ recite Statistical Variability 
+ write Statistical Variability 
+ represent Statistical Variability 
+ randomly sample Statistical Variability 
+ remembering Statistical Variability 
+ evaluating Statistical Variability 
+ creating Statistical Variability 
+ understanding Statistical Variability 
+ applying Statistical Variability 
+ analyzing Statistical Variability 
+ read Distributions 
+ recite Distributions 
+ write Distributions 
+ represent Distributions 
+ randomly sample Distributions 
+ remembering Distributions 
+ evaluating Distributions 
+ creating Distributions 
+ understanding Distributions 
+ applying Distributions 
+ analyzing Distributions 
+ read Populations 
+ recite Populations 
+ write Populations 
+ represent Populations 
+ randomly sample Populations 
+ remembering Populations 
+ evaluating Populations 
+ creating Populations 
+ understanding Populations 
+ applying Populations 
+ analyzing Populations 
+ read Chance Processes 
+ recite Chance Processes 
+ write Chance Processes 
+ represent Chance Processes 
+ randomly sample Chance Processes 
+ remembering Chance Processes 
+ evaluating Chance Processes 
+ creating Chance Processes 
+ understanding Chance Processes 
+ applying Chance Processes 
+ analyzing Chance Processes 
+ read Probability Models 
+ recite Probability Models 
+ write Probability Models 
+ represent Probability Models 
+ randomly sample Probability Models 
+ remembering Probability Models 
+ evaluating Probability Models 
+ creating Probability Models 
+ understanding Probability Models 
+ applying Probability Models 
+ analyzing Probability Models 
+ read Bivariate Data 
+ recite Bivariate Data 
+ write Bivariate Data 
+ represent Bivariate Data 
+ randomly sample Bivariate Data 
+ remembering Bivariate Data 
+ evaluating Bivariate Data 
+ creating Bivariate Data 
+ understanding Bivariate Data 
+ applying Bivariate Data 
+ analyzing Bivariate Data 
+ read Sets 
+ recite Sets 
+ write Sets 
+ represent Sets 
+ randomly sample Sets 
+ remembering Sets 
+ evaluating Sets 
+ creating Sets 
+ understanding Sets 
+ applying Sets 
+ analyzing Sets 
+ read Elements 
+ recite Elements 
+ write Elements 
+ represent Elements 
+ randomly sample Elements 
+ remembering Elements 
+ evaluating Elements 
+ creating Elements 
+ understanding Elements 
+ applying Elements 
+ analyzing Elements 
+ read Experiments 
+ recite Experiments 
+ write Experiments 
+ represent Experiments 
+ randomly sample Experiments 
+ remembering Experiments 
+ evaluating Experiments 
+ creating Experiments 
+ understanding Experiments 
+ applying Experiments 
+ analyzing Experiments 
+ read Observations 
+ recite Observations 
+ write Observations 
+ represent Observations 
+ randomly sample Observations 
+ remembering Observations 
+ evaluating Observations 
+ creating Observations 
+ understanding Observations 
+ applying Observations 
+ analyzing Observations 
+ read Dependent Variables 
+ recite Dependent Variables 
+ write Dependent Variables 
+ represent Dependent Variables 
+ randomly sample Dependent Variables 
+ remembering Dependent Variables 
+ evaluating Dependent Variables 
+ creating Dependent Variables 
+ understanding Dependent Variables 
+ applying Dependent Variables 
+ analyzing Dependent Variables 
+ read Independent Variables 
+ recite Independent Variables 
+ write Independent Variables 
+ represent Independent Variables 
+ randomly sample Independent Variables 
+ remembering Independent Variables 
+ evaluating Independent Variables 
+ creating Independent Variables 
+ understanding Independent Variables 
+ applying Independent Variables 
+ analyzing Independent Variables 
+ read Sum 
+ recite Sum 
+ write Sum 
+ represent Sum 
+ randomly sample Sum 
+ remembering Sum 
+ evaluating Sum 
+ creating Sum 
+ understanding Sum 
+ applying Sum 
+ analyzing Sum 
+ read Difference 
+ recite Difference 
+ write Difference 
+ represent Difference 
+ randomly sample Difference 
+ remembering Difference 
+ evaluating Difference 
+ creating Difference 
+ understanding Difference 
+ applying Difference 
+ analyzing Difference 
+ read Product 
+ recite Product 
+ write Product 
+ represent Product 
+ randomly sample Product 
+ remembering Product 
+ evaluating Product 
+ creating Product 
+ understanding Product 
+ applying Product 
+ analyzing Product 
+ read Quotient 
+ recite Quotient 
+ write Quotient 
+ represent Quotient 
+ randomly sample Quotient 
+ remembering Quotient 
+ evaluating Quotient 
+ creating Quotient 
+ understanding Quotient 
+ applying Quotient 
+ analyzing Quotient 
+ read Remainder 
+ recite Remainder 
+ write Remainder 
+ represent Remainder 
+ randomly sample Remainder 
+ remembering Remainder 
+ evaluating Remainder 
+ creating Remainder 
+ understanding Remainder 
+ applying Remainder 
+ analyzing Remainder 
+ read Groups 
+ recite Groups 
+ write Groups 
+ represent Groups 
+ randomly sample Groups 
+ remembering Groups 
+ evaluating Groups 
+ creating Groups 
+ understanding Groups 
+ applying Groups 
+ analyzing Groups 
+ read Length 
+ recite Length 
+ write Length 
+ represent Length 
+ randomly sample Length 
+ remembering Length 
+ evaluating Length 
+ creating Length 
+ understanding Length 
+ applying Length 
+ analyzing Length 
+ read Width 
+ recite Width 
+ write Width 
+ represent Width 
+ randomly sample Width 
+ remembering Width 
+ evaluating Width 
+ creating Width 
+ understanding Width 
+ applying Width 
+ analyzing Width 
+ read Depth or Height 
+ recite Depth or Height 
+ write Depth or Height 
+ represent Depth or Height 
+ randomly sample Depth or Height 
+ remembering Depth or Height 
+ evaluating Depth or Height 
+ creating Depth or Height 
+ understanding Depth or Height 
+ applying Depth or Height 
+ analyzing Depth or Height 
+ read Qualitative Attributes 
+ recite Qualitative Attributes 
+ write Qualitative Attributes 
+ represent Qualitative Attributes 
+ randomly sample Qualitative Attributes 
+ remembering Qualitative Attributes 
+ evaluating Qualitative Attributes 
+ creating Qualitative Attributes 
+ understanding Qualitative Attributes 
+ applying Qualitative Attributes 
+ analyzing Qualitative Attributes 
+ read Arrays 
+ recite Arrays 
+ write Arrays 
+ represent Arrays 
+ randomly sample Arrays 
+ remembering Arrays 
+ evaluating Arrays 
+ creating Arrays 
+ understanding Arrays 
+ applying Arrays 
+ analyzing Arrays 
+ read Plane Figures 
+ recite Plane Figures 
+ write Plane Figures 
+ represent Plane Figures 
+ randomly sample Plane Figures 
+ remembering Plane Figures 
+ evaluating Plane Figures 
+ creating Plane Figures 
+ understanding Plane Figures 
+ applying Plane Figures 
+ analyzing Plane Figures 
+ read Objects in Space 
+ recite Objects in Space 
+ write Objects in Space 
+ represent Objects in Space 
+ randomly sample Objects in Space 
+ remembering Objects in Space 
+ evaluating Objects in Space 
+ creating Objects in Space 
+ understanding Objects in Space 
+ applying Objects in Space 
+ analyzing Objects in Space 
+ read Sample 
+ recite Sample 
+ write Sample 
+ represent Sample 
+ randomly sample Sample 
+ remembering Sample 
+ evaluating Sample 
+ creating Sample 
+ understanding Sample 
+ applying Sample 
+ analyzing Sample 
+ read Random Sample 
+ recite Random Sample 
+ write Random Sample 
+ represent Random Sample 
+ randomly sample Random Sample 
+ remembering Random Sample 
+ evaluating Random Sample 
+ creating Random Sample 
+ understanding Random Sample 
+ applying Random Sample 
+ analyzing Random Sample 
+ read Prisms and Cylinders 
+ recite Prisms and Cylinders 
+ write Prisms and Cylinders 
+ represent Prisms and Cylinders 
+ randomly sample Prisms and Cylinders 
+ remembering Prisms and Cylinders 
+ evaluating Prisms and Cylinders 
+ creating Prisms and Cylinders 
+ understanding Prisms and Cylinders 
+ applying Prisms and Cylinders 
+ analyzing Prisms and Cylinders 
+ read Spheres 
+ recite Spheres 
+ write Spheres 
+ represent Spheres 
+ randomly sample Spheres 
+ remembering Spheres 
+ evaluating Spheres 
+ creating Spheres 
+ understanding Spheres 
+ applying Spheres 
+ analyzing Spheres 
+ read Cones 
+ recite Cones 
+ write Cones 
+ represent Cones 
+ randomly sample Cones 
+ remembering Cones 
+ evaluating Cones 
+ creating Cones 
+ understanding Cones 
+ applying Cones 
+ analyzing Cones 
+ read Quantitative Stories 
+ recite Quantitative Stories 
+ write Quantitative Stories 
+ represent Quantitative Stories 
+ randomly sample Quantitative Stories 
+ remembering Quantitative Stories 
+ evaluating Quantitative Stories 
+ creating Quantitative Stories 
+ understanding Quantitative Stories 
+ applying Quantitative Stories 
+ analyzing Quantitative Stories 
+ read Pythagorean Theorem 
+ recite Pythagorean Theorem 
+ write Pythagorean Theorem 
+ represent Pythagorean Theorem 
+ randomly sample Pythagorean Theorem 
+ remembering Pythagorean Theorem 
+ evaluating Pythagorean Theorem 
+ creating Pythagorean Theorem 
+ understanding Pythagorean Theorem 
+ applying Pythagorean Theorem 
+ analyzing Pythagorean Theorem 
+ read Standard Algorithm for Addition 
+ recite Standard Algorithm for Addition 
+ write Standard Algorithm for Addition 
+ represent Standard Algorithm for Addition 
+ randomly sample Standard Algorithm for Addition 
+ remembering Standard Algorithm for Addition 
+ evaluating Standard Algorithm for Addition 
+ creating Standard Algorithm for Addition 
+ understanding Standard Algorithm for Addition 
+ applying Standard Algorithm for Addition 
+ analyzing Standard Algorithm for Addition 
+ read Standard Algorithm for Subtraction 
+ recite Standard Algorithm for Subtraction 
+ write Standard Algorithm for Subtraction 
+ represent Standard Algorithm for Subtraction 
+ randomly sample Standard Algorithm for Subtraction 
+ remembering Standard Algorithm for Subtraction 
+ evaluating Standard Algorithm for Subtraction 
+ creating Standard Algorithm for Subtraction 
+ understanding Standard Algorithm for Subtraction 
+ applying Standard Algorithm for Subtraction 
+ analyzing Standard Algorithm for Subtraction 
+ read Standard Algorithm for Multiplication 
+ recite Standard Algorithm for Multiplication 
+ write Standard Algorithm for Multiplication 
+ represent Standard Algorithm for Multiplication 
+ randomly sample Standard Algorithm for Multiplication 
+ remembering Standard Algorithm for Multiplication 
+ evaluating Standard Algorithm for Multiplication 
+ creating Standard Algorithm for Multiplication 
+ understanding Standard Algorithm for Multiplication 
+ applying Standard Algorithm for Multiplication 
+ analyzing Standard Algorithm for Multiplication 
+ read Standard Algorithm for Division 
+ recite Standard Algorithm for Division 
+ write Standard Algorithm for Division 
+ represent Standard Algorithm for Division 
+ randomly sample Standard Algorithm for Division 
+ remembering Standard Algorithm for Division 
+ evaluating Standard Algorithm for Division 
+ creating Standard Algorithm for Division 
+ understanding Standard Algorithm for Division 
+ applying Standard Algorithm for Division 
+ analyzing Standard Algorithm for Division 
+ read European Algorithm for Subtraction 
+ recite European Algorithm for Subtraction 
+ write European Algorithm for Subtraction 
+ represent European Algorithm for Subtraction 
+ randomly sample European Algorithm for Subtraction 
+ remembering European Algorithm for Subtraction 
+ evaluating European Algorithm for Subtraction 
+ creating European Algorithm for Subtraction 
+ understanding European Algorithm for Subtraction 
+ applying European Algorithm for Subtraction 
+ analyzing European Algorithm for Subtraction 
+ read Lattice Algorithm for Multiplication 
+ recite Lattice Algorithm for Multiplication 
+ write Lattice Algorithm for Multiplication 
+ represent Lattice Algorithm for Multiplication 
+ randomly sample Lattice Algorithm for Multiplication 
+ remembering Lattice Algorithm for Multiplication 
+ evaluating Lattice Algorithm for Multiplication 
+ creating Lattice Algorithm for Multiplication 
+ understanding Lattice Algorithm for Multiplication 
+ applying Lattice Algorithm for Multiplication 
+ analyzing Lattice Algorithm for Multiplication 
+ read Common Factors 
+ recite Common Factors 
+ write Common Factors 
+ represent Common Factors 
+ randomly sample Common Factors 
+ remembering Common Factors 
+ evaluating Common Factors 
+ creating Common Factors 
+ understanding Common Factors 
+ applying Common Factors 
+ analyzing Common Factors 
+ read Distributive Property 
+ recite Distributive Property 
+ write Distributive Property 
+ represent Distributive Property 
+ randomly sample Distributive Property 
+ remembering Distributive Property 
+ evaluating Distributive Property 
+ creating Distributive Property 
+ understanding Distributive Property 
+ applying Distributive Property 
+ analyzing Distributive Property 
+ read Commutative Property 
+ recite Commutative Property 
+ write Commutative Property 
+ represent Commutative Property 
+ randomly sample Commutative Property 
+ remembering Commutative Property 
+ evaluating Commutative Property 
+ creating Commutative Property 
+ understanding Commutative Property 
+ applying Commutative Property 
+ analyzing Commutative Property 
+ read Associative Property 
+ recite Associative Property 
+ write Associative Property 
+ represent Associative Property 
+ randomly sample Associative Property 
+ remembering Associative Property 
+ evaluating Associative Property 
+ creating Associative Property 
+ understanding Associative Property 
+ applying Associative Property 
+ analyzing Associative Property 
