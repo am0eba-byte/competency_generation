@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="string" type="xs:string"/>
+
+
+    <xs:element name="competency">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:group ref="process" maxOccurs="1" minOccurs="0"/>
+                <xs:group ref="object_choice" maxOccurs="1" minOccurs="1"/>
+                <xs:element name="notation_object" type="xs:string" maxOccurs="1" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:group name="process">
+        <xs:choice>
+            <xs:element name="formal_process">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element ref="string"/>
+                        <xs:group ref="representation" maxOccurs="1" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:group ref="knowledge"/>
+        </xs:choice>
+    </xs:group>
+
+    <xs:group name="knowledge">
+        <xs:choice>
+            <xs:element name="knowledge_process" type="xs:string"/>
+            <xs:element name="knowledge_subprocess" type="xs:string" maxOccurs="1" minOccurs="0"/>
+            <!--<xs:group ref="wholeNumKnowledge"/>-->
+        </xs:choice>
+    </xs:group>
+
+    <xs:group name="wholeNumKnowledge">
+        <xs:sequence>
+            <xs:element name="WHknowledge_process" type="xs:string"/>
+            <xs:element name="knowledge_subprocess" type="xs:string"/>
+        </xs:sequence>
+    </xs:group>
+
+
+
+    <xs:group name="object_choice">
+        <xs:choice>
+            <xs:group ref="mathOp_object"/>
+            <xs:element name="specific_object" type="xs:string"/>
+        </xs:choice>
+    </xs:group>
+
+    <xs:group name="mathOp_object">
+        <xs:sequence>
+            <xs:element name="math_operation" type="xs:string"/>
+            <xs:element name="object" type="xs:string"/>
+        </xs:sequence>
+    </xs:group>
+
+
+    <xs:group name="representation">
+        <xs:choice>
+            <xs:element name="models"/>
+            <xs:element name="realia"/>
+            <xs:element name="glyphs"/>
+        </xs:choice>
+    </xs:group>
+    <xs:group name="repString">
+        <xs:sequence>
+            <xs:element ref="string"/>
+            <xs:group ref="representation"/>
+        </xs:sequence>
+    </xs:group>
+
+</xs:schema>

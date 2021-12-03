@@ -57,10 +57,10 @@
                 </knowledge_process>
 
                 <whole_numbers_knowledge_subprocess>
-                    <string>putting together</string>
-                    <string>adding to</string>
-                    <string>taking apart</string>
-                    <string>taking from</string>
+                    <string>by putting together</string>
+                    <string>by adding to</string>
+                    <string>by taking apart</string>
+                    <string>by taking from</string>
                 </whole_numbers_knowledge_subprocess>
             </knowledge>
         </process>
