@@ -2,6 +2,7 @@
 
 Experimentation on competency formal grammar syntax rules and generation of competency data
 
+![Screen capture of the grammar](competencyGrammar.png)
 
 ## Tools:
 [BNFgen](https://baturin.org/tools/bnfgen/) 
