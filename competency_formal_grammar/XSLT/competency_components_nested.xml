@@ -54,14 +54,21 @@
                     <string sub="strategizing">understanding</string>
                     <string sub="strategizing">applying</string>
                     <string>analyzing</string>
+                    
+                    
+                    
+                    
+                    
+   <!-- the subprocess below will only apply to the whole Numbers scope competency. -->
+                    <whole_numbers_knowledge_subprocess>
+                        <string>by putting together</string>
+                        <string>by adding to</string>
+                        <string>by taking apart</string>
+                        <string>by taking from</string>
+                    </whole_numbers_knowledge_subprocess>
                 </knowledge_process>
 
-                <whole_numbers_knowledge_subprocess>
-                    <string>by putting together</string>
-                    <string>by adding to</string>
-                    <string>by taking apart</string>
-                    <string>by taking from</string>
-                </whole_numbers_knowledge_subprocess>
+                
             </knowledge>
         </process>
 
