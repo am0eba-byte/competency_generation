@@ -78,80 +78,82 @@
                     <string>Negate</string>
                     <string>Exponentiate</string>
                     <string>Group</string>
+                    
                     <!-- Operations -->
                     <!--<string>Order Operations</string>-->
+                    <object>
+                        <string>Numbers</string>
+                        <string>Numerical Expressions</string>
+                        <string>Numerical Equations</string>
+                        <string>Terms</string>
+                        <string>Properties of Objects</string>
+                        <string>Properties of math_operations</string>
+                        <string>Patterns</string>
+                        <string>Factors</string>
+                        <string> Common Factors </string>
+                        <string>Multiples</string>
+                        <string>Common Multiples</string>
+                        <string>Place Value</string>
+                        <string>Attributes</string>
+                        <string>Standard Units</string>
+                        <string>SI Units</string>
+                        <string>Area</string>
+                        <string>Perimeter</string>
+                        <string>Data</string>
+                        <string>Angles</string>
+                        <string>Volume</string>
+                        <string>Shapes</string>
+                        <string>Surface Area</string>
+                        <string>Realia</string>
+                        <string>Models</string>
+                        <string>Congruence</string>
+                        <string>Similarity</string>
+                        <string>Ratios</string>
+                        <string>Proportions</string>
+                        <string>Algebraic Expressions</string>
+                        <string>Variables</string>
+                        <string>Numerical Inequalities</string>
+                        <string>Algebraic Equations</string>
+                        <string>Algebraic Inequalities</string>
+                        <string>Lines</string>
+                        <string>Linear Equations</string>
+                        <string>Simultaneous Equations</string>
+                        <string>Functions</string>
+                        <string>Statistical Variability</string>
+                        <string>Distributions</string>
+                        <string>Populations</string>
+                        <string>Chance Processes</string>
+                        <string>Probability Models</string>
+                        <string>Bivariate Data</string>
+                        <string>Sets</string>
+                        <string>Elements</string>
+                        <string>Experiments</string>
+                        <string>Observations</string>
+                        <string>Dependent Variables</string>
+                        <string>Independent Variables</string>
+                        <string>Sum</string>
+                        <string>Difference</string>
+                        <string>Product</string>
+                        <string>Quotient</string>
+                        <string>Remainder</string>
+                        <string>Groups</string>
+                        <string>Length</string>
+                        <string>Width</string>
+                        <string>Depth or Height</string>
+                        <string>Qualitative Attributes</string>
+                        <string>Arrays</string>
+                        <string>Plane Figures</string>
+                        <string>Objects in Space</string>
+                        <string>Sample</string>
+                        <string>Random Sample</string>
+                        <string>Prisms and Cylinders</string>
+                        <string>Spheres</string>
+                        <string>Cones</string>
+                        <string>Quantitative Stories</string>
+                    </object>
                 </math_operation>
 
-                <object>
-                    <string>Numbers</string>
-                    <string>Numerical Expressions</string>
-                    <string>Numerical Equations</string>
-                    <string>Terms</string>
-                    <string>Properties of Objects</string>
-                    <string>Properties of math_operations</string>
-                    <string>Patterns</string>
-                    <string>Factors</string>
-                    <string> Common Factors </string>
-                    <string>Multiples</string>
-                    <string>Common Multiples</string>
-                    <string>Place Value</string>
-                    <string>Attributes</string>
-                    <string>Standard Units</string>
-                    <string>SI Units</string>
-                    <string>Area</string>
-                    <string>Perimeter</string>
-                    <string>Data</string>
-                    <string>Angles</string>
-                    <string>Volume</string>
-                    <string>Shapes</string>
-                    <string>Surface Area</string>
-                    <string>Realia</string>
-                    <string>Models</string>
-                    <string>Congruence</string>
-                    <string>Similarity</string>
-                    <string>Ratios</string>
-                    <string>Proportions</string>
-                    <string>Algebraic Expressions</string>
-                    <string>Variables</string>
-                    <string>Numerical Inequalities</string>
-                    <string>Algebraic Equations</string>
-                    <string>Algebraic Inequalities</string>
-                    <string>Lines</string>
-                    <string>Linear Equations</string>
-                    <string>Simultaneous Equations</string>
-                    <string>Functions</string>
-                    <string>Statistical Variability</string>
-                    <string>Distributions</string>
-                    <string>Populations</string>
-                    <string>Chance Processes</string>
-                    <string>Probability Models</string>
-                    <string>Bivariate Data</string>
-                    <string>Sets</string>
-                    <string>Elements</string>
-                    <string>Experiments</string>
-                    <string>Observations</string>
-                    <string>Dependent Variables</string>
-                    <string>Independent Variables</string>
-                    <string>Sum</string>
-                    <string>Difference</string>
-                    <string>Product</string>
-                    <string>Quotient</string>
-                    <string>Remainder</string>
-                    <string>Groups</string>
-                    <string>Length</string>
-                    <string>Width</string>
-                    <string>Depth or Height</string>
-                    <string>Qualitative Attributes</string>
-                    <string>Arrays</string>
-                    <string>Plane Figures</string>
-                    <string>Objects in Space</string>
-                    <string>Sample</string>
-                    <string>Random Sample</string>
-                    <string>Prisms and Cylinders</string>
-                    <string>Spheres</string>
-                    <string>Cones</string>
-                    <string>Quantitative Stories</string>
-                </object>
+                
             </mathOP_object>
             <specific_object>
                 <string>Pythagorean Theorem</string>
