@@ -3,17 +3,17 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
     version="3.0">
-    
+ <!--2021-12-04 ebb: Refactoring this stylesheet to work with functions to generate "sentences". 
+ GOAL: a human-readable and easily edited stylesheet. This reads an XML document that expresses competency relationships 
+ in a simple tree structure.
+ -->
     
     <xsl:output method="xml" indent="yes"/>
-    
-    
+      
     <!-- modified_competency = 
         ( ([ formal_process ] | [ knowledge_process, [ “by” knowledge_subprocess ] ]), ((math_operation,  object) | specific_object ), [ notation_object ] ) | math_practice_competency ;
  -->
-    
-    
-    
+     
     
     <xsl:template match="//compParts">
         <xml>
@@ -106,18 +106,18 @@
     
     <xsl:template match="math_operation/string">
       <xsl:param name="mathOP"/>
-        <xsl:param name="mathopString" as="xs:string" select="current() ! normalize-space()" tunnel="yes"/>
+        <xsl:param name="objectString" as="xs:string" select="current() ! normalize-space()" tunnel="yes"/>
         
               <!-- specOP is not being delivered here. we need special handling for this -->
         
      
                <xsl:comment>
-                   This is the <xsl:value-of select="$mathopString"/>
+                   This is the <xsl:value-of select="$objectString"/>
                </xsl:comment>
                     
         <!-- mode="mathopmode" -->
                         <xsl:apply-templates select="following-sibling::object/string" >
-                            <xsl:with-param name="mathopString" select="$mathopString" as="xs:string"/>
+                            <xsl:with-param name="objectString" select="$objectString" as="xs:string"/>
                             <xsl:with-param name="mathOP" select="$mathOP" as="xs:string"/>
                         </xsl:apply-templates>
         
@@ -130,12 +130,12 @@
     <!-- mode="mathopmode" -->
     <xsl:template match="object/string" >
         <xsl:param name="mathOP"/>
-        <xsl:param name="mathopString"/>
+        <xsl:param name="objectString"/>
         <componentSentence>
         
             <mathOP_object>
                 <mathopString>
-              <xsl:value-of select="$mathopString"/>
+              <xsl:value-of select="$objectString"/>
                 </mathopString>
                
               <object> <xsl:apply-templates/> </object>              
@@ -234,18 +234,18 @@
     
     <xsl:template match="math_operation/string"  mode="mathOPnotation">
         <xsl:param name="mathOP"/>
-        <xsl:param name="mathopString" as="xs:string" select="current() ! normalize-space()" tunnel="yes"/>
+        <xsl:param name="objectString" as="xs:string" select="current() ! normalize-space()" tunnel="yes"/>
         
         
         
         
         <xsl:comment>
-                   This is the <xsl:value-of select="$mathopString"/>
+                   This is the <xsl:value-of select="$objectString"/>
                </xsl:comment>
         
         <!-- mode="mathopmode" -->
         <xsl:apply-templates mode="mathOPnotation" select="following-sibling::object/string" >
-            <xsl:with-param name="mathopString" select="$mathopString" as="xs:string"/>
+            <xsl:with-param name="objectString" select="$objectString" as="xs:string"/>
             <xsl:with-param name="mathOP" select="$mathOP" as="xs:string"/>
         </xsl:apply-templates>
         
@@ -257,7 +257,7 @@
     <!-- mode="mathopmode" -->
     <xsl:template match="object/string"  mode="mathOPnotation" >
         <xsl:param name="mathOP"/>
-        <xsl:param name="mathopString"/>
+        <xsl:param name="objectString"/>
         <xsl:param name="objString" as="xs:string" select="current() ! normalize-space()" tunnel="yes"/>
         
       
@@ -265,7 +265,7 @@
                 
         <xsl:apply-templates select="//notation_object" mode="mathOPnotation">
                    <xsl:with-param name="mathOP" select="$mathOP" as="xs:string"/>
-                   <xsl:with-param name="mathopString" select="$mathopString" as="xs:string"/>
+                   <xsl:with-param name="objectString" select="$objectString" as="xs:string"/>
                    <xsl:with-param name="objString" select="$objString" as="xs:string"/>
                </xsl:apply-templates>               
             
@@ -276,12 +276,12 @@
     <!-- NOTATION OBJECT SENTENCE -->
     <xsl:template match="notation_object/string" mode="mathOPnotation">
         <xsl:param name="mathOP"/>
-        <xsl:param name="mathopString"/>
+        <xsl:param name="objectString"/>
         <xsl:param name="objString"/>
         <componentSentence>
             <mathOP_object>
                 <mathopString>
-                    <xsl:value-of select="$mathopString"/>
+                    <xsl:value-of select="$objectString"/>
                 </mathopString>
                 <object>
                     <xsl:value-of select="$objString"/>
