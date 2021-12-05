@@ -13,54 +13,18 @@
  <!--2021-12-04 ebb: GOAL: a human-readable and easily edited stylesheet. This reads an XML document that expresses competency relationships 
  in a simple tree structure, and outputs XML to mark the parts of a series of sentences organized in set combinations.
  Currently, any and all combinations are maximally generated, until we have set some indications of more exclusive combination rules. 
+ 
+ METHOD: XSLT parameters and a single XSLT named template that processes a series of conditions depending on the 
+ number of input parameters, goes and looks up the information from the source tree. 
+ This XSLT generates, currently, 16 different kinds of sentence outputs based on 7 possible input parameters.
+ 
  -->
     
     <xsl:output method="xml" indent="yes"/>
-    
-   <!--Named Template Call: (Was a function).
-       I've switched to Named Templates after rewading Michael Kay on the subject: Named Templates are designed for outputting new elements, 
-       which is what we're doing with the sentence constructions. Functions are preferred for XPath calculations that don't directly construct new trees.
-       
-  * ebb: Our sentenceWriter named template should be able to take be FOUR input parameters: two required, two optional.
-  
-   (a): (three params: two required, one optional: pulls from variable X, for-each over variable Y, add Z (notation) variable
-         Examples: 
-         MathOP + mathOPObject
-         Knowledge Process + SpecOP
-         specOP + notation: 
-         Formal Process + MathOP + mathOPObject + Notation?
-         Knowledge Process + SpecOP + Notation?
-       
-    (b) (four params: three required, one optional? OR just make this a possibility in function (a): s
-    For expressing Scopes as Knowledge Subprocesses 
-   
-   Param 1 defines the outside wrapper element, and can be: 
-        mathOp
-        specOp
-        formalProc
-        knowledgeProc
-        
-   Param 2 can be:
-        mathOp (if formal proc or knowledgeProc are param1)
-        specOp (if formal proc or knowledgeProc are param1)
-        mathOpObject
-        notation (if specOp is param 1)
-        wholeNumKSP (if knowlege subprocess present: this can ONLY be a param2)
-   
-   Param 3 can be:
-      Any of these if used with SubProcess  
-        mathOp (if knowlege subprocess present)
-        specOp (if knowlege subprocess present)
-        mathOpObject
-        notation
-        
-   Param 4 can only be:
-        notation
-        
-   THINKING: need to define input parameters as element names in order to construct the variables on the fly, since matching input param names to existing
-   variables seems dodgy. Also, really, no need to define the variables globally anyway if we can do this within the named template. 
-   -->
-
+ 
+ <!-- ebb: Here we have defined seven different global parameters that are just strings of text designed to match 
+element names in the source document. Parameters are very similar to variables in XSLT, but have a little more flexibility. 
+ -->
     <xsl:param name="math_operation" as="xs:string" select="'math_operation'"/>
     <xsl:param name="object" as="xs:string" select="'object'"/>
     <xsl:param name="notation" as="xs:string" select="'notation_object'"/>
@@ -69,13 +33,14 @@
     <xsl:param name="knowledge_process" as="xs:string" select="'knowledge_process'"/>
     <xsl:param name="wholeNumKSP" as="xs:string" select="'whole_numbers_knowledge_subprocess'"/>
     
- <!--   <xsl:variable name="mathOp" as="xs:string+" select="//math_operation/string ! normalize-space()"/>
-    <xsl:variable name="mathOpObject" as="xs:string+" select="//math_operation/object/string ! normalize-space()"/>
-    <xsl:variable name="notation" as="xs:string+" select="//notation_object/string ! normalize-space()"/>
-    <xsl:variable name="specOp" as="xs:string+" select="//specific_object/string ! normalize-space()"/>  
-    <xsl:variable name="formalProc" as="xs:string+" select="//formal_process/string ! normalize-space()"/>
-    <xsl:variable name="knowledgeProc" as="xs:string+" select="//knowledge_process/string ! normalize-space()"/>
-    <xsl:variable name="wholeNumKSP" as="xs:string+" select="//knowledge_process/whole_numbers_knowledge_subprocess/string ! normalize-space()"/>   
+<!--ebb: Here is our XSLT Named Template that handles the sentence construction: I've set this so we expect at least 
+    two required input parameters. The rest are optional. 
+    The input parameters are just strings that line up with the element names in the XML source document.
+    In the function, we first generate a series of five variables based on the five possible input parameters. 
+    Then we construct a series of nested for-each loops. I wonder if we can refine this, but it works to output 
+    single sentence components together at the deepest available level. 
+    So, if only two parameters are sent, the function outputs a "sentence" consisting of two elements. 
+    And if five parameters are sentence, the function outputs a "sentence" of five elements.
     -->
     <xsl:template name="arj:sentenceWriter" as="element()+">
         <xsl:param name="param1" as="xs:string" required="yes"/>
@@ -83,10 +48,10 @@
         <xsl:param name="param3" as="xs:string?"/>
         <xsl:param name="param4" as="xs:string?"/>
         <xsl:param name="param5" as="xs:string?"/>
-       <help><xsl:value-of select="$param1"/></help>
+      
        <xsl:variable name="allParams" select="($param1, $param2, $param3, $param4, $param5)" as="xs:string+"/>
   <!--ebb: Seems like we should be able to construct these variable names from a for-loop, but apparently not permitted due to how XSLT stylesheets
-      get compiled and run. So we'll hard code it. -->
+      get compiled and run. So we'll "hard code" them (sigh). -->
       <xsl:variable name="var1" as="xs:string+">
            <xsl:sequence select="//*[name() = $param1]/string ! normalize-space()"/>
       </xsl:variable>
@@ -102,8 +67,7 @@
         <xsl:variable name="var5" as="xs:string*">
             <xsl:sequence select="//*[name() = $param5]/string ! normalize-space()"/>
         </xsl:variable>
-        <moreHelp><xsl:sequence select="$var1"/></moreHelp>
-   
+        
         <xsl:for-each select="$var1">
             <xsl:variable name="currLevel1" as="xs:string" select="current()"/>
      
@@ -193,7 +157,11 @@
         </xsl:for-each>
       </xsl:template>
     
-   
+ <!--ebb: Here is a template matching on the source document node and set to output a new XML file that groups 
+     16 different kinds of sentences. We use <xsl:call-templates> to invoke a named template, and inside, we deliver
+     what parameters we need to construct a sentence. We pull these from the global parameters defined at the top of this
+     XSLT document. 
+ -->  
    <xsl:template match="/">
        <xml>
            <xsl:comment>###############################</xsl:comment>
@@ -342,67 +310,55 @@
                </xsl:call-template>
            </sentenceGroup>
            
-           <!--    <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
            <xsl:comment>13. Whole Numbers Scope: Knowledge Processes and Subprocesses with Math Operation Objects and No Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpson">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with math operation objects and without notations.</desc>
-               <xsl:for-each select="arj:subKnowlWholeNum()">
-                   <xsl:variable name="skwn" select="current()" as="element()"/>
-                   <xsl:for-each select="arj:mathOpConstructor()">
-                   <componentSentence>
-                       <xsl:sequence select="$skwn"/>
-                       <xsl:sequence select="current()"/>
-                   </componentSentence>
-                   </xsl:for-each>
-               </xsl:for-each>  
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$wholeNumKSP"/>
+                   <xsl:with-param name="param3" as="xs:string" select="$math_operation"/>
+                   <xsl:with-param name="param4" as="xs:string" select="$object"/>
+               </xsl:call-template>
            </sentenceGroup>
            
-           <xsl:comment>###############################</xsl:comment>
+              <xsl:comment>###############################</xsl:comment>
            <xsl:comment>14. Whole Numbers Scope: Knowledge Processes and Subprocesses with Math Operation Objects and Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpson">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with math operation objects and notations.</desc>
-               <xsl:for-each select="arj:subKnowlWholeNum()">
-                   <xsl:variable name="skwn" select="current()" as="element()"/>
-                   <xsl:for-each select="arj:mathOpNoter()">
-                       <componentSentence>
-                           <xsl:sequence select="$skwn"/>
-                           <xsl:sequence select="current()"/>
-                       </componentSentence>
-                   </xsl:for-each>
-               </xsl:for-each>  
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$wholeNumKSP"/>
+                   <xsl:with-param name="param3" as="xs:string" select="$math_operation"/>
+                   <xsl:with-param name="param4" as="xs:string" select="$object"/>
+                   <xsl:with-param name="param5" as="xs:string" select="$notation"/>
+               </xsl:call-template>
            </sentenceGroup>
-           <xsl:comment>###############################</xsl:comment>
+         <xsl:comment>###############################</xsl:comment>
            <xsl:comment>15. Whole Numbers Scope: Knowledge Processes and Subprocesses with Specific Objects</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpson">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with specific objects and without notations.</desc>
-               <xsl:for-each select="arj:subKnowlWholeNum()">
-                   <xsl:variable name="skwn" select="current()" as="element()"/>
-                   <xsl:for-each select="$specOp">
-                       <componentSentence>
-                           <xsl:sequence select="$skwn"/>
-                           <xsl:sequence select="current()"/>
-                       </componentSentence>
-                   </xsl:for-each>
-               </xsl:for-each>  
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$wholeNumKSP"/>
+                   <xsl:with-param name="param3" as="xs:string" select="$specific_object"/>
+               </xsl:call-template>
            </sentenceGroup>
-           <xsl:comment>###############################</xsl:comment>
+              <xsl:comment>###############################</xsl:comment>
            <xsl:comment>16. Whole Numbers Scope: Knowledge Processes and Subprocesses with Specific Objects and Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpson">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with specific objects and with notations.</desc>
-               <xsl:for-each select="arj:subKnowlWholeNum()">
-                   <xsl:variable name="skwn" select="current()" as="element()"/>
-                   <xsl:for-each select="arj:specOpNoter()">
-                       <componentSentence>
-                           <xsl:sequence select="$skwn"/>
-                           <xsl:sequence select="current()"/>
-                       </componentSentence>
-                   </xsl:for-each>
-               </xsl:for-each>  
-           </sentenceGroup> -->
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$wholeNumKSP"/>
+                   <xsl:with-param name="param3" as="xs:string" select="$specific_object"/>
+                   <xsl:with-param name="param4" as="xs:string" select="$notation"/>
+               </xsl:call-template>
+           </sentenceGroup> 
        </xml>
    </xsl:template>  
 </xsl:stylesheet>
