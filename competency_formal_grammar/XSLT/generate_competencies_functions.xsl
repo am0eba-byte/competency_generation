@@ -24,7 +24,7 @@
  
  <xsl:variable name="formalProc" as="xs:string+" select="//formal_process/string ! normalize-space()"/>
  <xsl:variable name="knowledgeProc" as="xs:string+" select="//knowledge_process/string ! normalize-space()"/>
-    
+ <xsl:variable name="wholeNumKSP" as="xs:string+" select="//knowledge_process/whole_numbers_knowledge_subprocess/string ! normalize-space()"/>   
     <xsl:function name="arj:mathOpConstructor" as="element()+" >
         <xsl:for-each select="$mathOp">
             <xsl:variable name="currMO" as="xs:string" select="current()"/>
@@ -126,6 +126,29 @@
                     <knowledgeProc><xsl:sequence select="$currKO"/></knowledgeProc>
                     <specificObject><xsl:sequence select="current()"/></specificObject>
                 </knowledgeProcMathOp>
+            </xsl:for-each>
+        </xsl:for-each>
+    </xsl:function>
+    <xsl:function name="arj:knowlSpecOpNoter" as="element()+">
+        <xsl:for-each select="$knowledgeProc">
+            <xsl:variable name="currKn" as="xs:string" select="current()"/>
+            <xsl:for-each select="arj:specOpNoter()">
+                <knowledgeProcMathOp>
+                    <knowledgeProc><xsl:sequence select="$currKn"/></knowledgeProc>
+                    <xsl:sequence select="current()"/>
+                </knowledgeProcMathOp>
+            </xsl:for-each>
+        </xsl:for-each>
+    </xsl:function>
+    <xsl:function name="arj:subKnowlWholeNum" as="element()+">
+        <xsl:for-each select="$knowledgeProc">
+            <xsl:variable name="currKno" as="xs:string" select="current()"/>
+            <xsl:for-each select="$wholeNumKSP">
+                <knowledgeScope>
+                    <knowledgeProc><xsl:sequence select="$currKno"/></knowledgeProc>
+                <knowlSubProc scope="whole-numbers"><xsl:sequence select="current()"/>
+                </knowlSubProc>
+                </knowledgeScope>
             </xsl:for-each>
         </xsl:for-each>
     </xsl:function>
@@ -255,6 +278,46 @@
                        <xsl:sequence select="current()"/>
                    </componentSentence>
                </xsl:for-each> 
+           </sentenceGroup>
+           
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>11. Knowledge Processes with Specific Objects Alone</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
+           <sentenceGroup xml:id="kpso">
+               <desc>Sentences describing knowledge processes with specific objects and without notations.</desc>
+               <xsl:for-each select="arj:knowlSpecOp()">
+                   <componentSentence>
+                       <xsl:sequence select="current()"/>
+                   </componentSentence>
+               </xsl:for-each>  
+           </sentenceGroup>
+           
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>12. Knowledge Processes with Specific Objects and Notations</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
+           <sentenceGroup xml:id="kpson">
+               <desc>Sentences describing knowledge processes with specific objects and without notations.</desc>
+               <xsl:for-each select="arj:knowlSpecOpNoter()">
+                   <componentSentence>
+                       <xsl:sequence select="current()"/>
+                   </componentSentence>
+               </xsl:for-each>  
+           </sentenceGroup>
+           
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>13. Whole Numbers Scope: Knowledge Processes and Subprocesses with Math Operation Objects and No Notations</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
+           <sentenceGroup xml:id="kpson">
+               <desc>Sentences describing knowledge processes and subprocesses associated with the Whole Numbers Scope, with Math Operation Objects and No Notations</desc>
+               <xsl:for-each select="arj:subKnowlWholeNum()">
+                   <xsl:variable name="skwn" select="current()" as="element()"/>
+                   <xsl:for-each select="arj:mathOpConstructor()">
+                   <componentSentence>
+                       <xsl:sequence select="$skwn"/>
+                       <xsl:sequence select="current()"/>
+                   </componentSentence>
+                   </xsl:for-each>
+               </xsl:for-each>  
            </sentenceGroup>
            
        </xml>
