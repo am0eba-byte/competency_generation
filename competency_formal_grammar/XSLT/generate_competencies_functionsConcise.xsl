@@ -16,143 +16,127 @@
  -->
     
     <xsl:output method="xml" indent="yes"/>
-      
- <xsl:variable name="mathOp" as="xs:string+" select="//math_operation/string ! normalize-space()"/>
- <xsl:variable name="mathOpObject" as="xs:string+" select="//math_operation/object/string ! normalize-space()"/>
- <xsl:variable name="notation" as="xs:string+" select="//notation_object/string ! normalize-space()"/>
- <xsl:variable name="specOp" as="xs:string+" select="//specific_object/string ! normalize-space()"/>  
- 
- <xsl:variable name="formalProc" as="xs:string+" select="//formal_process/string ! normalize-space()"/>
- <xsl:variable name="knowledgeProc" as="xs:string+" select="//knowledge_process/string ! normalize-space()"/>
- <xsl:variable name="wholeNumKSP" as="xs:string+" select="//knowledge_process/whole_numbers_knowledge_subprocess/string ! normalize-space()"/>   
-    <xsl:function name="arj:mathOpConstructor" as="element()+" >
-        <xsl:for-each select="$mathOp">
-            <xsl:variable name="currMO" as="xs:string" select="current()"/>
-        <xsl:for-each select="$mathOpObject"> 
-              <mathOP_object>
-               <mathopString><xsl:value-of select="$currMO"/></mathopString>
-                  <object><xsl:value-of select="current()"/></object>
-           </mathOP_object>
-        </xsl:for-each>
-        </xsl:for-each>
-    </xsl:function>
     
-    <xsl:function name="arj:mathOpNoter" as="element()+" >
-       <xsl:variable name="MOCoutput" as="element()+">
-           <xsl:sequence select="arj:mathOpConstructor()"/>
-       </xsl:variable>
-        <xsl:for-each select="$MOCoutput">
-            <xsl:variable name="currMOC" as="element()" select="current()"/>
-            <xsl:for-each select="$notation">
-                <mathOpNotation>
-                    <xsl:sequence select="$currMOC"/>
-                <notation><xsl:sequence select="current()"/></notation>
-                </mathOpNotation>
-            </xsl:for-each>
-        </xsl:for-each>
-    </xsl:function>
+   <!--Named Template Call: (Was a function).
+       I've switched to Named Templates after rewading Michael Kay on the subject: Named Templates are designed for outputting new elements, 
+       which is what we're doing with the sentence constructions. Functions are preferred for XPath calculations that don't directly construct new trees.
+       
+  * ebb: Our sentenceWriter named template should be able to take be FOUR input parameters: two required, two optional.
+  
+   (a): (three params: two required, one optional: pulls from variable X, for-each over variable Y, add Z (notation) variable
+         Examples: 
+         MathOP + mathOPObject
+         Knowledge Process + SpecOP
+         specOP + notation: 
+         Formal Process + MathOP + mathOPObject + Notation?
+         Knowledge Process + SpecOP + Notation?
+       
+    (b) (four params: three required, one optional? OR just make this a possibility in function (a): s
+    For expressing Scopes as Knowledge Subprocesses 
+   
+   Param 1 defines the outside wrapper element, and can be: 
+        mathOp
+        specOp
+        formalProc
+        knowledgeProc
+        
+   Param 2 can be:
+        mathOp (if formal proc or knowledgeProc are param1)
+        specOp (if formal proc or knowledgeProc are param1)
+        mathOpObject
+        notation (if specOp is param 1)
+        wholeNumKSP (if knowlege subprocess present: this can ONLY be a param2)
+   
+   Param 3 can be:
+      Any of these if used with SubProcess  
+        mathOp (if knowlege subprocess present)
+        specOp (if knowlege subprocess present)
+        mathOpObject
+        notation
+        
+   Param 4 can only be:
+        notation
+        
+   THINKING: need to define input parameters as element names in order to construct the variables on the fly, since matching input param names to existing
+   variables seems dodgy. Also, really, no need to define the variables globally anyway if we can do this within the named template. 
+   -->
     
-    <xsl:function name="arj:specOpNoter" as="element()+">
-        <xsl:for-each select="$specOp">
-            <xsl:variable name="currSOP" as="xs:string" select="current()"/>
-          <xsl:for-each select="$notation">  
-              <specOpNotation>
-                  <specificObject><xsl:sequence select="$currSOP"/></specificObject>
-                  <notation><xsl:sequence select="current()"/></notation>
-              </specOpNotation>
-          </xsl:for-each>
-        </xsl:for-each>
-    </xsl:function>  
-    <xsl:function name="arj:formalProcMathOp" as="element()+">
-        <xsl:for-each select="$formalProc">
-            <xsl:variable name="currFOP" as="xs:string" select="current()"/>
-            <xsl:for-each select="arj:mathOpConstructor()">
-                <formalProcMathOp>
-                    <formalProc><xsl:sequence select="$currFOP"/></formalProc>
-                    <xsl:sequence select="current()"/>
-                </formalProcMathOp>
-            </xsl:for-each>
-        </xsl:for-each>
-    </xsl:function>
-    <xsl:function name="arj:formalProcMathOpNoter" as="element()+">
-        <xsl:for-each select="$formalProc">
-            <xsl:variable name="currFOP" as="xs:string" select="current()"/>
-            <xsl:for-each select="arj:mathOpNoter()">
-                <formalProcMathOp>
-                    <formalProc><xsl:sequence select="$currFOP"/></formalProc>
-                    <xsl:sequence select="current()"/>
-                </formalProcMathOp>
-            </xsl:for-each>
-        </xsl:for-each>
-    </xsl:function>
-    <xsl:function name="arj:formalProcSpecNoter" as="element()+">
-        <xsl:for-each select="$formalProc">
-            <xsl:variable name="currF" as="xs:string" select="current()"/>
-            <xsl:for-each select="arj:specOpNoter()">
-                <formalProcSpecOp>
-                    <formalProc><xsl:sequence select="$currF"/></formalProc>
-                    <xsl:sequence select="current()"/>
-                </formalProcSpecOp>
-            </xsl:for-each>
-        </xsl:for-each>
-    </xsl:function>
-    <xsl:function name="arj:knowlMathOp" as="element()+">
-        <xsl:for-each select="$knowledgeProc">
-            <xsl:variable name="currKP" as="xs:string" select="current()"/>
-            <xsl:for-each select="arj:mathOpConstructor()">
-                <knowledgeProcMathOp>
-                    <knowledgeProc><xsl:sequence select="$currKP"/></knowledgeProc>
-                    <xsl:sequence select="current()"/>
-                </knowledgeProcMathOp>
-            </xsl:for-each>
-        </xsl:for-each>
-    </xsl:function>
-    <xsl:function name="arj:knowlMathOpNoter" as="element()+">
-        <xsl:for-each select="$knowledgeProc">
-            <xsl:variable name="currK" as="xs:string" select="current()"/>
-            <xsl:for-each select="arj:mathOpNoter()">
-                <knowledgeProcMathOp>
-                    <knowledgeProc><xsl:sequence select="$currK"/></knowledgeProc>
-                    <xsl:sequence select="current()"/>
-                </knowledgeProcMathOp>
-            </xsl:for-each>
-        </xsl:for-each>
-    </xsl:function>
-    <xsl:function name="arj:knowlSpecOp" as="element()+">
-        <xsl:for-each select="$knowledgeProc">
-            <xsl:variable name="currKO" as="xs:string" select="current()"/>
-            <xsl:for-each select="$specOp">
-                <knowledgeProcMathOp>
-                    <knowledgeProc><xsl:sequence select="$currKO"/></knowledgeProc>
-                    <specificObject><xsl:sequence select="current()"/></specificObject>
-                </knowledgeProcMathOp>
-            </xsl:for-each>
-        </xsl:for-each>
-    </xsl:function>
-    <xsl:function name="arj:knowlSpecOpNoter" as="element()+">
-        <xsl:for-each select="$knowledgeProc">
-            <xsl:variable name="currKn" as="xs:string" select="current()"/>
-            <xsl:for-each select="arj:specOpNoter()">
-                <knowledgeProcMathOp>
-                    <knowledgeProc><xsl:sequence select="$currKn"/></knowledgeProc>
-                    <xsl:sequence select="current()"/>
-                </knowledgeProcMathOp>
-            </xsl:for-each>
-        </xsl:for-each>
-    </xsl:function>
-    <xsl:function name="arj:subKnowlWholeNum" as="element()+">
-        <xsl:for-each select="$knowledgeProc">
-            <xsl:variable name="currKno" as="xs:string" select="current()"/>
-            <xsl:for-each select="$wholeNumKSP">
-                <knowledgeScope>
-                    <knowledgeProc><xsl:sequence select="$currKno"/></knowledgeProc>
-                <knowlSubProc scope="whole-numbers"><xsl:sequence select="current()"/>
-                </knowlSubProc>
-                </knowledgeScope>
-            </xsl:for-each>
-        </xsl:for-each>
-    </xsl:function>
     
+    
+    <xsl:variable name="mathOp" as="xs:string+" select="//math_operation/string ! normalize-space()"/>
+    <xsl:variable name="mathOpObject" as="xs:string+" select="//math_operation/object/string ! normalize-space()"/>
+    <xsl:variable name="notation" as="xs:string+" select="//notation_object/string ! normalize-space()"/>
+    <xsl:variable name="specOp" as="xs:string+" select="//specific_object/string ! normalize-space()"/>  
+    <xsl:variable name="formalProc" as="xs:string+" select="//formal_process/string ! normalize-space()"/>
+    <xsl:variable name="knowledgeProc" as="xs:string+" select="//knowledge_process/string ! normalize-space()"/>
+    <xsl:variable name="wholeNumKSP" as="xs:string+" select="//knowledge_process/whole_numbers_knowledge_subprocess/string ! normalize-space()"/>   
+    
+    <xsl:template name="arj:sentenceWriter" as="element()+">
+        <xsl:param name="param1" as="xs:string" required="yes"/>
+        <xsl:param name="param2" as="xs:string?"/>
+        <xsl:param name="param3" as="xs:string?"/>
+        <xsl:param name="param4" as="xs:string?"/>
+        <xsl:param name="param5" as="xs:string?"/>
+       
+       <xsl:variable name="allParams" select="($param1, $param2, $param3, $param4, $param5)" as="xs:string+"/>
+  <!--ebb: Seems like we should be able to construct these variable names from a for-loop, but apparently not permitted due to how XSLT stylesheets
+      get compiled and run. So we'll hard code it. -->
+      <xsl:variable name="var1" as="xs:string+">
+           <xsl:sequence select="//*[name() = $param1]/string ! normalize-space()"/>
+      </xsl:variable>
+        <xsl:variable name="var2" as="xs:string*">
+            <xsl:sequence select="//*[name() = $param2]/string ! normalize-space()"/>
+        </xsl:variable>
+        <xsl:variable name="var3" as="xs:string*">
+            <xsl:sequence select="//*[name() = $param3]/string ! normalize-space()"/>
+        </xsl:variable>
+        <xsl:variable name="var4" as="xs:string*">
+            <xsl:sequence select="//*[name() = $param4]/string ! normalize-space()"/>
+        </xsl:variable>
+        <xsl:variable name="var5" as="xs:string*">
+            <xsl:sequence select="//*[name() = $param5]/string ! normalize-space()"/>
+        </xsl:variable>
+   
+        <xsl:for-each select="$var1">
+            <xsl:variable name="currLevel1" as="xs:string" select="current()"/>
+          <xsl:for-each select="$var2">
+              <xsl:variable name="currLevel2" as="xs:string?" select="current()"/>
+               <xsl:for-each select="$var3">
+                   <xsl:variable name="currLevel3" as="xs:string?" select="current()"/>
+                   <xsl:for-each select="$var4">
+                       <xsl:variable name="currLevel4" as="xs:string?" select="current()"/>
+                       <xsl:for-each select="$var5">
+                           <componentSentence>
+                               <xsl:element name="{$param1}">
+                                   <xsl:sequence select="$currLevel1"/>
+                               </xsl:element> 
+                              <xsl:if test="$param2"> 
+                                  <xsl:element name="{$param2}">
+                                   <xsl:sequence select="$currLevel2"/>
+                                  </xsl:element> 
+                              </xsl:if>
+                               <xsl:if test="$param3"><xsl:element name="{$param3}">
+                                   <xsl:sequence select="$currLevel2"/>
+                                  </xsl:element> 
+                               </xsl:if>
+                               <xsl:if test="$param4"><xsl:element name="{$param4}">
+                                   <xsl:sequence select="$currLevel2"/>
+                                   </xsl:element> 
+                               </xsl:if>
+                               <xsl:if test="$param5">
+                                   <xsl:element name="{$param5}">
+                                   <xsl:sequence select="$currLevel2"/>
+                                   </xsl:element> 
+                               </xsl:if>
+                           </componentSentence>
+                       </xsl:for-each>
+                       </xsl:for-each>      
+                </xsl:for-each>
+        </xsl:for-each>
+        </xsl:for-each>
+      </xsl:template>
+    
+   
    <xsl:template match="/">
        <xml>
            <xsl:comment>###############################</xsl:comment>
@@ -161,15 +145,19 @@
       
          <sentenceGroup xml:id="mo">
              <desc>Sentences containing only math operation objects without notations.</desc>
-             <xsl:for-each select="arj:mathOpConstructor()">
+            <!-- <xsl:for-each select="arj:mathOpConstructor()">
                <componentSentence>
                    <xsl:sequence select="current()"/>
                </componentSentence>
-           </xsl:for-each>
+           </xsl:for-each>-->
+             <xsl:call-template name="arj:sentenceWriter">
+                 <xsl:with-param name="param1" as="xs:string" select="'math_operation'"/>
+                 <xsl:with-param name="param2" as="xs:string" select="'object'"/>
+             </xsl:call-template>
          </sentenceGroup>
           
            
-           <xsl:comment>###############################</xsl:comment>
+    <!--       <xsl:comment>###############################</xsl:comment>
            <xsl:comment>2. Math Operation Objects With Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
           <sentenceGroup xml:id="mon"> 
@@ -307,7 +295,7 @@
            <xsl:comment>###############################</xsl:comment>
            <xsl:comment>13. Whole Numbers Scope: Knowledge Processes and Subprocesses with Math Operation Objects and No Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
-           <sentenceGroup xml:id="kpsmo">
+           <sentenceGroup xml:id="kpson">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with math operation objects and without notations.</desc>
                <xsl:for-each select="arj:subKnowlWholeNum()">
                    <xsl:variable name="skwn" select="current()" as="element()"/>
@@ -323,7 +311,7 @@
            <xsl:comment>###############################</xsl:comment>
            <xsl:comment>14. Whole Numbers Scope: Knowledge Processes and Subprocesses with Math Operation Objects and Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
-           <sentenceGroup xml:id="kpsmon">
+           <sentenceGroup xml:id="kpson">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with math operation objects and notations.</desc>
                <xsl:for-each select="arj:subKnowlWholeNum()">
                    <xsl:variable name="skwn" select="current()" as="element()"/>
@@ -338,7 +326,7 @@
            <xsl:comment>###############################</xsl:comment>
            <xsl:comment>15. Whole Numbers Scope: Knowledge Processes and Subprocesses with Specific Objects</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
-           <sentenceGroup xml:id="kpsso">
+           <sentenceGroup xml:id="kpson">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with specific objects and without notations.</desc>
                <xsl:for-each select="arj:subKnowlWholeNum()">
                    <xsl:variable name="skwn" select="current()" as="element()"/>
@@ -353,7 +341,7 @@
            <xsl:comment>###############################</xsl:comment>
            <xsl:comment>16. Whole Numbers Scope: Knowledge Processes and Subprocesses with Specific Objects and Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
-           <sentenceGroup xml:id="kpsson">
+           <sentenceGroup xml:id="kpson">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with specific objects and with notations.</desc>
                <xsl:for-each select="arj:subKnowlWholeNum()">
                    <xsl:variable name="skwn" select="current()" as="element()"/>
@@ -364,7 +352,7 @@
                        </componentSentence>
                    </xsl:for-each>
                </xsl:for-each>  
-           </sentenceGroup>
+           </sentenceGroup> -->
        </xml>
    </xsl:template>  
 </xsl:stylesheet>
