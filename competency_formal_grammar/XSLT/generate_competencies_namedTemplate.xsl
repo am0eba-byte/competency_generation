@@ -60,24 +60,30 @@
    THINKING: need to define input parameters as element names in order to construct the variables on the fly, since matching input param names to existing
    variables seems dodgy. Also, really, no need to define the variables globally anyway if we can do this within the named template. 
    -->
+
+    <xsl:param name="math_operation" as="xs:string" select="'math_operation'"/>
+    <xsl:param name="object" as="xs:string" select="'object'"/>
+    <xsl:param name="notation" as="xs:string" select="'notation_object'"/>
+    <xsl:param name="specific_object" as="xs:string" select="'specific_object'"/>
+    <xsl:param name="formal_process" as="xs:string" select="'formal_process'"/>
+    <xsl:param name="knowledge_process" as="xs:string" select="'math_operation'"/>
+    <xsl:param name="wholeNumKSP" as="xs:string" select="'whole_numbers_knowledge_subprocess'"/>
     
-    
-    
-    <xsl:variable name="mathOp" as="xs:string+" select="//math_operation/string ! normalize-space()"/>
+ <!--   <xsl:variable name="mathOp" as="xs:string+" select="//math_operation/string ! normalize-space()"/>
     <xsl:variable name="mathOpObject" as="xs:string+" select="//math_operation/object/string ! normalize-space()"/>
     <xsl:variable name="notation" as="xs:string+" select="//notation_object/string ! normalize-space()"/>
     <xsl:variable name="specOp" as="xs:string+" select="//specific_object/string ! normalize-space()"/>  
     <xsl:variable name="formalProc" as="xs:string+" select="//formal_process/string ! normalize-space()"/>
     <xsl:variable name="knowledgeProc" as="xs:string+" select="//knowledge_process/string ! normalize-space()"/>
     <xsl:variable name="wholeNumKSP" as="xs:string+" select="//knowledge_process/whole_numbers_knowledge_subprocess/string ! normalize-space()"/>   
-    
+    -->
     <xsl:template name="arj:sentenceWriter" as="element()+">
         <xsl:param name="param1" as="xs:string" required="yes"/>
-        <xsl:param name="param2" as="xs:string?"/>
+        <xsl:param name="param2" as="xs:string" required="yes"/>
         <xsl:param name="param3" as="xs:string?"/>
         <xsl:param name="param4" as="xs:string?"/>
         <xsl:param name="param5" as="xs:string?"/>
-       
+       <help><xsl:value-of select="$param1"/></help>
        <xsl:variable name="allParams" select="($param1, $param2, $param3, $param4, $param5)" as="xs:string+"/>
   <!--ebb: Seems like we should be able to construct these variable names from a for-loop, but apparently not permitted due to how XSLT stylesheets
       get compiled and run. So we'll hard code it. -->
@@ -96,42 +102,93 @@
         <xsl:variable name="var5" as="xs:string*">
             <xsl:sequence select="//*[name() = $param5]/string ! normalize-space()"/>
         </xsl:variable>
+        <moreHelp><xsl:sequence select="$var1"/></moreHelp>
    
         <xsl:for-each select="$var1">
             <xsl:variable name="currLevel1" as="xs:string" select="current()"/>
-          <xsl:for-each select="$var2">
+     
+      <xsl:for-each select="$var2">
               <xsl:variable name="currLevel2" as="xs:string?" select="current()"/>
-               <xsl:for-each select="$var3">
-                   <xsl:variable name="currLevel3" as="xs:string?" select="current()"/>
-                   <xsl:for-each select="$var4">
+          
+          <xsl:choose><!-- CHOICE 1 -->
+          <xsl:when test="$param3">
+          <xsl:for-each select="$var3">
+                 <xsl:variable name="currLevel3" as="xs:string?" select="current()"/>
+              <xsl:choose><!-- CHOICE 2 -->
+                       <xsl:when test="$param4">
+                       <xsl:for-each select="$var4">
                        <xsl:variable name="currLevel4" as="xs:string?" select="current()"/>
-                       <xsl:for-each select="$var5">
-                           <componentSentence>
+                      <xsl:choose><!-- CHOICE 3 -->
+                          <xsl:when test="$param5">
+                          <xsl:for-each select="$var5">
+                           <componentSentence><!-- FIVE-PARAMETER SENTENCE -->
                                <xsl:element name="{$param1}">
                                    <xsl:sequence select="$currLevel1"/>
                                </xsl:element> 
-                              <xsl:if test="$param2"> 
                                   <xsl:element name="{$param2}">
                                    <xsl:sequence select="$currLevel2"/>
                                   </xsl:element> 
-                              </xsl:if>
-                               <xsl:if test="$param3"><xsl:element name="{$param3}">
-                                   <xsl:sequence select="$currLevel2"/>
-                                  </xsl:element> 
-                               </xsl:if>
-                               <xsl:if test="$param4"><xsl:element name="{$param4}">
-                                   <xsl:sequence select="$currLevel2"/>
-                                   </xsl:element> 
-                               </xsl:if>
-                               <xsl:if test="$param5">
-                                   <xsl:element name="{$param5}">
-                                   <xsl:sequence select="$currLevel2"/>
-                                   </xsl:element> 
-                               </xsl:if>
+                               <xsl:element name="{$param3}">
+                                   <xsl:sequence select="$currLevel3"/>
+                               </xsl:element>
+                               <xsl:element name="{$param4}">
+                                   <xsl:sequence select="$currLevel4"/>
+                               </xsl:element>
+                               <xsl:element name="{$param5}">
+                                   <xsl:sequence select="current()"/>
+                               </xsl:element>
                            </componentSentence>
                        </xsl:for-each>
+                      </xsl:when>
+                         <xsl:otherwise><!-- FOUR-PARAMETER SENTENCE -->
+                             <componentSentence>
+                                 <xsl:element name="{$param1}">
+                                     <xsl:sequence select="$currLevel1"/>
+                                 </xsl:element> 
+                                 <xsl:element name="{$param2}">
+                                     <xsl:sequence select="$currLevel2"/>
+                                 </xsl:element> 
+                                 <xsl:element name="{$param3}">
+                                     <xsl:sequence select="$currLevel3"/>
+                                 </xsl:element> 
+                                 <xsl:element name="{$param4}">
+                                     <xsl:sequence select="$currLevel4"/>
+                                 </xsl:element> 
+                             </componentSentence>
+                         </xsl:otherwise> 
+                      </xsl:choose>
                        </xsl:for-each>      
-                </xsl:for-each>
+
+                       </xsl:when>
+                  <xsl:otherwise><!-- THREE-PARAMETER SENTENCE -->
+                      <componentSentence>
+                          <xsl:element name="{$param1}">
+                              <xsl:sequence select="$currLevel1"/>
+                          </xsl:element> 
+                          <xsl:element name="{$param2}">
+                              <xsl:sequence select="$currLevel2"/>
+                          </xsl:element> 
+                          <xsl:element name="{$param3}">
+                              <xsl:sequence select="$currLevel3"/>
+                          </xsl:element> 
+                      </componentSentence>
+                  </xsl:otherwise>
+              </xsl:choose>
+           </xsl:for-each>
+          </xsl:when>
+              <xsl:otherwise>
+                  <!--TWO-PARAMETER SENTENCE -->
+                  <componentSentence>
+                      <xsl:element name="{$param1}">
+                          <xsl:sequence select="$currLevel1"/>
+                      </xsl:element> 
+                      <xsl:element name="{$param2}">
+                          <xsl:sequence select="$currLevel2"/>
+                      </xsl:element> 
+                  </componentSentence>
+              </xsl:otherwise>
+          </xsl:choose>
+            
         </xsl:for-each>
         </xsl:for-each>
       </xsl:template>
@@ -145,64 +202,60 @@
       
          <sentenceGroup xml:id="mo">
              <desc>Sentences containing only math operation objects without notations.</desc>
-            <!-- <xsl:for-each select="arj:mathOpConstructor()">
-               <componentSentence>
-                   <xsl:sequence select="current()"/>
-               </componentSentence>
-           </xsl:for-each>-->
+  
              <xsl:call-template name="arj:sentenceWriter">
-                 <xsl:with-param name="param1" as="xs:string" select="math_operation"/>
-                 <xsl:with-param name="param2" as="xs:string" select="object"/>
+                 <xsl:with-param name="param1" as="xs:string" select="$math_operation"/>
+                 <xsl:with-param name="param2" as="xs:string" select="$object"/>
              </xsl:call-template>
          </sentenceGroup>
           
            
-    <!--       <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
            <xsl:comment>2. Math Operation Objects With Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
           <sentenceGroup xml:id="mon"> 
               <desc>Sentences containing math operation objects with notations.</desc>
-              <xsl:for-each select="arj:mathOpNoter()">
-               <componentSentence>
-                   <xsl:sequence select="current()"/>
-               </componentSentence>
-           </xsl:for-each>
+              <xsl:call-template name="arj:sentenceWriter">
+                  <xsl:with-param name="param1" as="xs:string" select="$math_operation"/>
+                  <xsl:with-param name="param2" as="xs:string" select="$object"/>
+                  <xsl:with-param name="param3" as="xs:string" select="$notation"/>
+              </xsl:call-template>
            </sentenceGroup>
            
-           <xsl:comment>###############################</xsl:comment>
+             <xsl:comment>###############################</xsl:comment>
            <xsl:comment>3. Specific Objects Without Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
-           <sentenceGroup xml:id="so">
-               <desc>Sentences describing only specific objects.</desc>
-               <xsl:for-each select="$specOp">
+           <sentenceGroup xml:id="so"><!-- ebb: ??? should this really be considered a complete sentence on its own?  -->
+               <desc>Sentences describing only specific objects. Since this sentence only contains a single utterance, we question
+               whether it counts as a complete sentence in the competency grammar.</desc>
+               <xsl:for-each select="//specific_object/string ! normalize-space()">
                    <componentSentence>
                        <specificObject><xsl:sequence select="current()"/></specificObject>
                    </componentSentence>
                </xsl:for-each>
            </sentenceGroup>
            
-           <xsl:comment>###############################</xsl:comment>
+          <xsl:comment>###############################</xsl:comment>
            <xsl:comment>4. Specific Objects With Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="son">
                <desc>Sentences describing specific objects and notations.</desc>
-               <xsl:for-each select="arj:specOpNoter()">
-                   <componentSentence>
-                       <xsl:sequence select="current()"/>
-                   </componentSentence>
-               </xsl:for-each> 
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$specific_object"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$notation"/>
+               </xsl:call-template>
            </sentenceGroup>
           
-           <xsl:comment>###############################</xsl:comment>
+         <xsl:comment>###############################</xsl:comment>
            <xsl:comment>5. Formal Processes with Math Objects and No Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="fpmo">
-               <desc>Sentences describing formal processes with math operations.</desc>
-               <xsl:for-each select="arj:formalProcMathOp()">
-                   <componentSentence>
-                       <xsl:sequence select="current()"/>
-                   </componentSentence>
-               </xsl:for-each>
+               <desc>Sentences describing formal processes with math operations, and without notations.</desc>
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$formal_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$math_operation"/>
+                   <xsl:with-param name="param3" as="xs:string" select="$object"/>
+               </xsl:call-template>
            </sentenceGroup>
            
            <xsl:comment>###############################</xsl:comment>
@@ -210,38 +263,35 @@
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="fpmon">
                <desc>Sentences describing formal processes with math operations including notations.</desc>
-               <xsl:for-each select="arj:formalProcMathOpNoter()">
-                   <componentSentence>
-                       <xsl:sequence select="current()"/>
-                   </componentSentence>
-               </xsl:for-each>
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$formal_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$math_operation"/>
+                   <xsl:with-param name="param3" as="xs:string" select="$object"/>
+                   <xsl:with-param name="param4" as="xs:string" select="$notation"/>
+               </xsl:call-template>
            </sentenceGroup>
            
-           <xsl:comment>###############################</xsl:comment>
+              <xsl:comment>###############################</xsl:comment>
            <xsl:comment>7. Formal Processes with Specific Objects and No Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="fpso">
                <desc>Sentences describing formal processes with specific objects alone.</desc>
-               <xsl:for-each select="$formalProc">
-                   <xsl:variable name="currFP" as="xs:string" select="current()"/>
-                   <xsl:for-each select="$specOp">
-                   <componentSentence>
-                       <formalProc><xsl:sequence select="$currFP"/></formalProc>
-                       <specificObject><xsl:sequence select="current()"/></specificObject>
-                   </componentSentence>
-               </xsl:for-each></xsl:for-each>
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$formal_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$specific_object"/>
+               </xsl:call-template>
            </sentenceGroup>
            
-           <xsl:comment>###############################</xsl:comment>
+            <xsl:comment>###############################</xsl:comment>
            <xsl:comment>8. Formal Processes with Specific Objects and Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="fpson">
                <desc>Sentences describing formal processs with specific objects and notations.</desc>
-               <xsl:for-each select="arj:formalProcSpecNoter()">
-                   <componentSentence>
-                       <xsl:sequence select="current()"/>
-                   </componentSentence>
-               </xsl:for-each>
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$formal_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$specific_object"/>
+                   <xsl:with-param name="param3" as="xs:string" select="$notation"/>
+               </xsl:call-template>
            </sentenceGroup>
            
            <xsl:comment>###############################</xsl:comment>
@@ -249,18 +299,18 @@
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpmo">
                <desc>Sentences describing knowledge processes with math operation objects, without notations.</desc>
-              <xsl:for-each select="arj:knowlMathOp()">
-                  <componentSentence>
-                      <xsl:sequence select="current()"/>
-                  </componentSentence>
-              </xsl:for-each> 
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$math_operation"/>
+                   <xsl:with-param name="param3" as="xs:string" select="$object"/>
+               </xsl:call-template>
            </sentenceGroup>
            
-           <xsl:comment>###############################</xsl:comment>
+         <xsl:comment>###############################</xsl:comment>
            <xsl:comment>10. Knowledge Processes with Math Operation Objects And Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpmon">
-               <desc>Sentences describing knowledge processes with math operation objects, without notations.</desc>
+               <desc>Sentences describing knowledge processes with math operation objects and notations.</desc>
                <xsl:for-each select="arj:knowlMathOpNoter()">
                    <componentSentence>
                        <xsl:sequence select="current()"/>
@@ -268,7 +318,7 @@
                </xsl:for-each> 
            </sentenceGroup>
            
-           <xsl:comment>###############################</xsl:comment>
+           <!--    <xsl:comment>###############################</xsl:comment>
            <xsl:comment>11. Knowledge Processes with Specific Objects Alone</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpso">

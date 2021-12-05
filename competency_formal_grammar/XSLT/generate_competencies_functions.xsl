@@ -284,7 +284,7 @@
            <xsl:comment>11. Knowledge Processes with Specific Objects Alone</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpso">
-               <desc>Sentences describing knowledge processes with specific objects and without notations.</desc>
+               <desc>Sentences describing knowledge processes with specific objects and notations.</desc>
                <xsl:for-each select="arj:knowlSpecOp()">
                    <componentSentence>
                        <xsl:sequence select="current()"/>
