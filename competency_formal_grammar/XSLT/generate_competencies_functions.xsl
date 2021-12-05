@@ -339,7 +339,7 @@
            <xsl:comment>15. Whole Numbers Scope: Knowledge Processes and Subprocesses with Specific Objects</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpsso">
-               <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with specific objects and without notations.</desc>
+               <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with specific objects and notations.</desc>
                <xsl:for-each select="arj:subKnowlWholeNum()">
                    <xsl:variable name="skwn" select="current()" as="element()"/>
                    <xsl:for-each select="$specOp">

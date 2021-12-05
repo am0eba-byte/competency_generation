@@ -66,7 +66,7 @@
     <xsl:param name="notation" as="xs:string" select="'notation_object'"/>
     <xsl:param name="specific_object" as="xs:string" select="'specific_object'"/>
     <xsl:param name="formal_process" as="xs:string" select="'formal_process'"/>
-    <xsl:param name="knowledge_process" as="xs:string" select="'math_operation'"/>
+    <xsl:param name="knowledge_process" as="xs:string" select="'knowledge_process'"/>
     <xsl:param name="wholeNumKSP" as="xs:string" select="'whole_numbers_knowledge_subprocess'"/>
     
  <!--   <xsl:variable name="mathOp" as="xs:string+" select="//math_operation/string ! normalize-space()"/>
@@ -311,38 +311,38 @@
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpmon">
                <desc>Sentences describing knowledge processes with math operation objects and notations.</desc>
-               <xsl:for-each select="arj:knowlMathOpNoter()">
-                   <componentSentence>
-                       <xsl:sequence select="current()"/>
-                   </componentSentence>
-               </xsl:for-each> 
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$math_operation"/>
+                   <xsl:with-param name="param3" as="xs:string" select="$object"/>
+                   <xsl:with-param name="param4" as="xs:string" select="$notation"/>
+               </xsl:call-template>
            </sentenceGroup>
            
-           <!--    <xsl:comment>###############################</xsl:comment>
+          <xsl:comment>###############################</xsl:comment>
            <xsl:comment>11. Knowledge Processes with Specific Objects Alone</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpso">
                <desc>Sentences describing knowledge processes with specific objects and without notations.</desc>
-               <xsl:for-each select="arj:knowlSpecOp()">
-                   <componentSentence>
-                       <xsl:sequence select="current()"/>
-                   </componentSentence>
-               </xsl:for-each>  
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$specific_object"/>
+               </xsl:call-template>
            </sentenceGroup>
            
-           <xsl:comment>###############################</xsl:comment>
+        <xsl:comment>###############################</xsl:comment>
            <xsl:comment>12. Knowledge Processes with Specific Objects and Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpson">
-               <desc>Sentences describing knowledge processes with specific objects and without notations.</desc>
-               <xsl:for-each select="arj:knowlSpecOpNoter()">
-                   <componentSentence>
-                       <xsl:sequence select="current()"/>
-                   </componentSentence>
-               </xsl:for-each>  
+               <desc>Sentences describing knowledge processes with specific objects and notations.</desc>
+               <xsl:call-template name="arj:sentenceWriter">
+                   <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
+                   <xsl:with-param name="param2" as="xs:string" select="$specific_object"/>
+                   <xsl:with-param name="param3" as="xs:string" select="$notation"/>
+               </xsl:call-template>
            </sentenceGroup>
            
-           <xsl:comment>###############################</xsl:comment>
+           <!--    <xsl:comment>###############################</xsl:comment>
            <xsl:comment>13. Whole Numbers Scope: Knowledge Processes and Subprocesses with Math Operation Objects and No Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpson">
