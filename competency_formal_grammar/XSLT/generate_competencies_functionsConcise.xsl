@@ -151,8 +151,8 @@
                </componentSentence>
            </xsl:for-each>-->
              <xsl:call-template name="arj:sentenceWriter">
-                 <xsl:with-param name="param1" as="xs:string" select="'math_operation'"/>
-                 <xsl:with-param name="param2" as="xs:string" select="'object'"/>
+                 <xsl:with-param name="param1" as="xs:string" select="math_operation"/>
+                 <xsl:with-param name="param2" as="xs:string" select="object"/>
              </xsl:call-template>
          </sentenceGroup>
           
