@@ -308,7 +308,7 @@
            <xsl:comment>13. Whole Numbers Scope: Knowledge Processes and Subprocesses with Math Operation Objects and No Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpson">
-               <desc>Sentences describing knowledge processes and subprocesses associated with the Whole Numbers Scope, with Math Operation Objects and No Notations</desc>
+               <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with math operation objects and without notations.</desc>
                <xsl:for-each select="arj:subKnowlWholeNum()">
                    <xsl:variable name="skwn" select="current()" as="element()"/>
                    <xsl:for-each select="arj:mathOpConstructor()">
@@ -320,11 +320,51 @@
                </xsl:for-each>  
            </sentenceGroup>
            
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>14. Whole Numbers Scope: Knowledge Processes and Subprocesses with Math Operation Objects and Notations</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
+           <sentenceGroup xml:id="kpson">
+               <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with math operation objects and notations.</desc>
+               <xsl:for-each select="arj:subKnowlWholeNum()">
+                   <xsl:variable name="skwn" select="current()" as="element()"/>
+                   <xsl:for-each select="arj:mathOpNoter()">
+                       <componentSentence>
+                           <xsl:sequence select="$skwn"/>
+                           <xsl:sequence select="current()"/>
+                       </componentSentence>
+                   </xsl:for-each>
+               </xsl:for-each>  
+           </sentenceGroup>
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>15. Whole Numbers Scope: Knowledge Processes and Subprocesses with Specific Objects</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
+           <sentenceGroup xml:id="kpson">
+               <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with specific objects and without notations.</desc>
+               <xsl:for-each select="arj:subKnowlWholeNum()">
+                   <xsl:variable name="skwn" select="current()" as="element()"/>
+                   <xsl:for-each select="$specOp">
+                       <componentSentence>
+                           <xsl:sequence select="$skwn"/>
+                           <xsl:sequence select="current()"/>
+                       </componentSentence>
+                   </xsl:for-each>
+               </xsl:for-each>  
+           </sentenceGroup>
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>16. Whole Numbers Scope: Knowledge Processes and Subprocesses with Specific Objects and Notations</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
+           <sentenceGroup xml:id="kpson">
+               <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with specific objects and with notations.</desc>
+               <xsl:for-each select="arj:subKnowlWholeNum()">
+                   <xsl:variable name="skwn" select="current()" as="element()"/>
+                   <xsl:for-each select="arj:specOpNoter()">
+                       <componentSentence>
+                           <xsl:sequence select="$skwn"/>
+                           <xsl:sequence select="current()"/>
+                       </componentSentence>
+                   </xsl:for-each>
+               </xsl:for-each>  
+           </sentenceGroup>
        </xml>
-   </xsl:template> 
-    
-
-   
-    
-    
+   </xsl:template>  
 </xsl:stylesheet>
