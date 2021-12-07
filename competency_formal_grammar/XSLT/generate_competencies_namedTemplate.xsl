@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:arj="http://arjuna.bil.com"
+    xmlns:saxon="http://saxon.sf.net/"
     exclude-result-prefixes="xs arj"
     version="3.0">
     
@@ -42,7 +43,7 @@ element names in the source document. Parameters are very similar to variables i
     So, if only two parameters are sent, the function outputs a "sentence" consisting of two elements. 
     And if five parameters are sentence, the function outputs a "sentence" of five elements.
     -->
-    <xsl:template name="arj:sentenceWriter" as="element()+">
+    <xsl:template name="sentenceWriter" as="element()+">
         <xsl:param name="param1" as="xs:string" required="yes"/>
         <xsl:param name="param2" as="xs:string" required="yes"/>
         <xsl:param name="param3" as="xs:string?"/>
@@ -51,7 +52,18 @@ element names in the source document. Parameters are very similar to variables i
       
        <xsl:variable name="allParams" select="($param1, $param2, $param3, $param4, $param5)" as="xs:string+"/>
   <!--ebb: Seems like we should be able to construct these variable names from a for-loop, but apparently not permitted due to how XSLT stylesheets
-      get compiled and run. So we'll "hard code" them (sigh). -->
+      get compiled and run. So we'll "hard code" them (sigh). 
+        <xsl:for-each select="($param1, $param2, $param3, $param4,$param5)">
+           
+           <xsl:variable name="variableName" as="xs:string">
+               <xsl:sequence select="xs:QName(current())"/>
+           </xsl:variable>
+            
+            <xsl:variable name="EQName(var{position()})" select="//*[name() = current()]/string ! normalize-space()"/>
+            
+        </xsl:for-each> -->
+            
+            
       <xsl:variable name="var1" as="xs:string+">
            <xsl:sequence select="//*[name() = $param1]/string ! normalize-space()"/>
       </xsl:variable>
@@ -171,7 +183,7 @@ element names in the source document. Parameters are very similar to variables i
          <sentenceGroup xml:id="mo">
              <desc>Sentences containing only math operation objects without notations.</desc>
   
-             <xsl:call-template name="arj:sentenceWriter">
+             <xsl:call-template name="sentenceWriter">
                  <xsl:with-param name="param1" as="xs:string" select="$math_operation"/>
                  <xsl:with-param name="param2" as="xs:string" select="$object"/>
              </xsl:call-template>
@@ -183,7 +195,7 @@ element names in the source document. Parameters are very similar to variables i
            <xsl:comment>###############################</xsl:comment>
           <sentenceGroup xml:id="mon"> 
               <desc>Sentences containing math operation objects with notations.</desc>
-              <xsl:call-template name="arj:sentenceWriter">
+              <xsl:call-template name="sentenceWriter">
                   <xsl:with-param name="param1" as="xs:string" select="$math_operation"/>
                   <xsl:with-param name="param2" as="xs:string" select="$object"/>
                   <xsl:with-param name="param3" as="xs:string" select="$notation"/>
@@ -208,7 +220,7 @@ element names in the source document. Parameters are very similar to variables i
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="son">
                <desc>Sentences describing specific objects and notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$specific_object"/>
                    <xsl:with-param name="param2" as="xs:string" select="$notation"/>
                </xsl:call-template>
@@ -219,7 +231,7 @@ element names in the source document. Parameters are very similar to variables i
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="fpmo">
                <desc>Sentences describing formal processes with math operations, and without notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$formal_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$math_operation"/>
                    <xsl:with-param name="param3" as="xs:string" select="$object"/>
@@ -231,7 +243,7 @@ element names in the source document. Parameters are very similar to variables i
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="fpmon">
                <desc>Sentences describing formal processes with math operations including notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$formal_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$math_operation"/>
                    <xsl:with-param name="param3" as="xs:string" select="$object"/>
@@ -239,12 +251,12 @@ element names in the source document. Parameters are very similar to variables i
                </xsl:call-template>
            </sentenceGroup>
            
-              <xsl:comment>###############################</xsl:comment>
+         <xsl:comment>###############################</xsl:comment>
            <xsl:comment>7. Formal Processes with Specific Objects and No Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="fpso">
                <desc>Sentences describing formal processes with specific objects alone.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$formal_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$specific_object"/>
                </xsl:call-template>
@@ -255,7 +267,7 @@ element names in the source document. Parameters are very similar to variables i
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="fpson">
                <desc>Sentences describing formal processs with specific objects and notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$formal_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$specific_object"/>
                    <xsl:with-param name="param3" as="xs:string" select="$notation"/>
@@ -267,7 +279,7 @@ element names in the source document. Parameters are very similar to variables i
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpmo">
                <desc>Sentences describing knowledge processes with math operation objects, without notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$math_operation"/>
                    <xsl:with-param name="param3" as="xs:string" select="$object"/>
@@ -279,7 +291,7 @@ element names in the source document. Parameters are very similar to variables i
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpmon">
                <desc>Sentences describing knowledge processes with math operation objects and notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$math_operation"/>
                    <xsl:with-param name="param3" as="xs:string" select="$object"/>
@@ -292,7 +304,7 @@ element names in the source document. Parameters are very similar to variables i
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpso">
                <desc>Sentences describing knowledge processes with specific objects and without notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$specific_object"/>
                </xsl:call-template>
@@ -303,7 +315,7 @@ element names in the source document. Parameters are very similar to variables i
            <xsl:comment>###############################</xsl:comment>
            <sentenceGroup xml:id="kpson">
                <desc>Sentences describing knowledge processes with specific objects and notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$specific_object"/>
                    <xsl:with-param name="param3" as="xs:string" select="$notation"/>
@@ -313,9 +325,9 @@ element names in the source document. Parameters are very similar to variables i
            <xsl:comment>###############################</xsl:comment>
            <xsl:comment>13. Whole Numbers Scope: Knowledge Processes and Subprocesses with Math Operation Objects and No Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
-           <sentenceGroup xml:id="kpson">
+           <sentenceGroup xml:id="kpsmo">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with math operation objects and without notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$wholeNumKSP"/>
                    <xsl:with-param name="param3" as="xs:string" select="$math_operation"/>
@@ -326,9 +338,9 @@ element names in the source document. Parameters are very similar to variables i
               <xsl:comment>###############################</xsl:comment>
            <xsl:comment>14. Whole Numbers Scope: Knowledge Processes and Subprocesses with Math Operation Objects and Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
-           <sentenceGroup xml:id="kpson">
+           <sentenceGroup xml:id="kpsmon">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with math operation objects and notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$wholeNumKSP"/>
                    <xsl:with-param name="param3" as="xs:string" select="$math_operation"/>
@@ -339,9 +351,9 @@ element names in the source document. Parameters are very similar to variables i
          <xsl:comment>###############################</xsl:comment>
            <xsl:comment>15. Whole Numbers Scope: Knowledge Processes and Subprocesses with Specific Objects</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
-           <sentenceGroup xml:id="kpson">
+           <sentenceGroup xml:id="kpsso">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with specific objects and without notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$wholeNumKSP"/>
                    <xsl:with-param name="param3" as="xs:string" select="$specific_object"/>
@@ -350,9 +362,9 @@ element names in the source document. Parameters are very similar to variables i
               <xsl:comment>###############################</xsl:comment>
            <xsl:comment>16. Whole Numbers Scope: Knowledge Processes and Subprocesses with Specific Objects and Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
-           <sentenceGroup xml:id="kpson">
+           <sentenceGroup xml:id="kpsson">
                <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with specific objects and with notations.</desc>
-               <xsl:call-template name="arj:sentenceWriter">
+               <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="xs:string" select="$knowledge_process"/>
                    <xsl:with-param name="param2" as="xs:string" select="$wholeNumKSP"/>
                    <xsl:with-param name="param3" as="xs:string" select="$specific_object"/>
