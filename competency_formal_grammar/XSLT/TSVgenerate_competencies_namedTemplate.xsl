@@ -31,7 +31,14 @@ element names in the source document. Parameters are very similar to variables i
     <xsl:param name="specific_object" as="xs:string" select="'specific_object'"/>
     <xsl:param name="formal_process" as="xs:string" select="'formal_process'"/>
     <xsl:param name="knowledge_process" as="xs:string" select="'knowledge_process'"/>
+    
+    <!-- mb: The below parameters include those that are specific to a particular scope's competency sentence possibilities. (More to come) -->
+    
     <xsl:param name="wholeNumKSP" as="xs:string" select="'whole_numbers_knowledge_subprocess'"/>
+    
+    <!-- mb: This parameter attempts to capture the insert element within a string which wraps a list of possibilities which can occur within one string in a competency component. -->
+    <!--<xsl:param name="insert" as="xs:string" select="'insert'"/>-->
+    
     
 <!--ebb: Here is our XSLT Named Template that handles the sentence construction: I've set this so we expect at least 
     two required input parameters. The rest are optional. 
@@ -48,6 +55,8 @@ element names in the source document. Parameters are very similar to variables i
         <xsl:param name="param3" as="xs:string?"/>
         <xsl:param name="param4" as="xs:string?"/>
         <xsl:param name="param5" as="xs:string?"/>
+        <!--<xsl:param name="insert" as="xs:string"/>-->
+      <!-- mb: question for Dr. B: how does XSLT know which parameters to apply here? -->
       
        <xsl:variable name="allParams" select="($param1, $param2, $param3, $param4, $param5)" as="xs:string+"/>
   <!--ebb: Seems like we should be able to construct these variable names from a for-loop, but apparently not permitted due to how XSLT stylesheets
@@ -67,6 +76,14 @@ element names in the source document. Parameters are very similar to variables i
         <xsl:variable name="var5" as="xs:string*">
             <xsl:sequence select="//*[name() = $param5]/string ! normalize-space()"/>
         </xsl:variable>
+        
+        <!-- hopefully the below variable captures the strings in insert -->
+       <!-- <xsl:variable name="var6" as="xs:string*">
+            <xsl:sequence select="//string[./name() = $insert]//string ! normalize-space()"/>
+        </xsl:variable>-->
+        
+       
+        
         
         <!-- MB: QUESTION: why are there optional as=xs:strings in every variable except the first?-->
         <xsl:for-each select="$var1">

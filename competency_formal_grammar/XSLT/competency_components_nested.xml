@@ -42,7 +42,23 @@
                 <string>recite</string>
                 <string>write</string>
                 <string>represent</string>
-                <string>represent with <insert idref="#rep"/></string>
+                <string>represent with <insert xml:id="FPrep">
+                        <models>
+                            <string>images</string>
+                            <string>sounds</string>
+                            <string>activities</string>
+                        </models>
+                        <realia>
+                            <string>specimens</string>
+                            <string>body parts</string>
+                        </realia>
+                        <glyphs>
+                            <string>words</string>
+                            <string>symbols</string>
+                            <string>drawings</string>
+                            <string>graphs</string>
+                        </glyphs>
+                    </insert></string>
                 <string>randomly sample</string>
             </formal_process>
 
@@ -54,12 +70,12 @@
                     <string sub="strategizing">understanding</string>
                     <string sub="strategizing">applying</string>
                     <string>analyzing</string>
-                    
-                    
-                    
-                    
-                    
-   <!-- the subprocess below will only apply to the whole Numbers scope competency. -->
+
+
+
+
+
+                    <!-- the subprocess below will only apply to the whole Numbers scope competency. -->
                     <whole_numbers_knowledge_subprocess>
                         <string>by putting together</string>
                         <string>by adding to</string>
@@ -68,7 +84,7 @@
                     </whole_numbers_knowledge_subprocess>
                 </knowledge_process>
 
-                
+
             </knowledge>
         </process>
 
@@ -85,7 +101,7 @@
                     <string>Negate</string>
                     <string>Exponentiate</string>
                     <string>Group</string>
-                    
+
                     <!-- Operations -->
                     <!--<string>Order Operations</string>-->
                     <object>
@@ -160,7 +176,7 @@
                     </object>
                 </math_operation>
 
-                
+
             </mathOP_object>
             <specific_object>
                 <string>Pythagorean Theorem</string>
@@ -190,23 +206,7 @@
             <string>Scientific Notation</string>
             <string>Base Ten</string>
         </notation_object>
-        
-        <representation xml:id="rep">
-            <models>
-                <string>images</string>
-                <string>sounds</string>
-                <string>activities</string>
-            </models>
-            <realia>
-                <string>specimens</string>
-                <string>body parts</string>
-            </realia>
-            <glyphs>
-                <string>words</string>
-                <string>symbols</string>
-                <string>drawings</string>
-                <string>graphs</string>
-            </glyphs>
-        </representation>
+
+
     </compParts>
 </xml>

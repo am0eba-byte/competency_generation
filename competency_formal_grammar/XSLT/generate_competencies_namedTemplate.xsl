@@ -32,6 +32,8 @@ element names in the source document. Parameters are very similar to variables i
     <xsl:param name="specific_object" as="xs:string" select="'specific_object'"/>
     <xsl:param name="formal_process" as="xs:string" select="'formal_process'"/>
     <xsl:param name="knowledge_process" as="xs:string" select="'knowledge_process'"/>
+    
+    <!-- mb: The below parameters include those that are specific to a particular scope's competency sentence possibilities. (More to come) -->
     <xsl:param name="wholeNumKSP" as="xs:string" select="'whole_numbers_knowledge_subprocess'"/>
     
 <!--ebb: Here is our XSLT Named Template that handles the sentence construction: I've set this so we expect at least 
