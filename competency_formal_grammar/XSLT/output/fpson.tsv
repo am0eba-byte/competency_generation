@@ -1,0 +1,726 @@
+read	Pythagorean Theorem	Fractional Notations
+ read	Pythagorean Theorem	Decimal Notations
+ read	Pythagorean Theorem	Proportional Notation
+ read	Pythagorean Theorem	Addition Notation
+ read	Pythagorean Theorem	Subtraction Notation
+ read	Pythagorean Theorem	Multiplication Notations
+ read	Pythagorean Theorem	Division Notations
+ read	Pythagorean Theorem	Radical Notation
+ read	Pythagorean Theorem	Exponential Notation
+ read	Pythagorean Theorem	Scientific Notation
+ read	Pythagorean Theorem	Base Ten
+ read	Standard Algorithm for Addition	Fractional Notations
+ read	Standard Algorithm for Addition	Decimal Notations
+ read	Standard Algorithm for Addition	Proportional Notation
+ read	Standard Algorithm for Addition	Addition Notation
+ read	Standard Algorithm for Addition	Subtraction Notation
+ read	Standard Algorithm for Addition	Multiplication Notations
+ read	Standard Algorithm for Addition	Division Notations
+ read	Standard Algorithm for Addition	Radical Notation
+ read	Standard Algorithm for Addition	Exponential Notation
+ read	Standard Algorithm for Addition	Scientific Notation
+ read	Standard Algorithm for Addition	Base Ten
+ read	Standard Algorithm for Subtraction	Fractional Notations
+ read	Standard Algorithm for Subtraction	Decimal Notations
+ read	Standard Algorithm for Subtraction	Proportional Notation
+ read	Standard Algorithm for Subtraction	Addition Notation
+ read	Standard Algorithm for Subtraction	Subtraction Notation
+ read	Standard Algorithm for Subtraction	Multiplication Notations
+ read	Standard Algorithm for Subtraction	Division Notations
+ read	Standard Algorithm for Subtraction	Radical Notation
+ read	Standard Algorithm for Subtraction	Exponential Notation
+ read	Standard Algorithm for Subtraction	Scientific Notation
+ read	Standard Algorithm for Subtraction	Base Ten
+ read	Standard Algorithm for Multiplication	Fractional Notations
+ read	Standard Algorithm for Multiplication	Decimal Notations
+ read	Standard Algorithm for Multiplication	Proportional Notation
+ read	Standard Algorithm for Multiplication	Addition Notation
+ read	Standard Algorithm for Multiplication	Subtraction Notation
+ read	Standard Algorithm for Multiplication	Multiplication Notations
+ read	Standard Algorithm for Multiplication	Division Notations
+ read	Standard Algorithm for Multiplication	Radical Notation
+ read	Standard Algorithm for Multiplication	Exponential Notation
+ read	Standard Algorithm for Multiplication	Scientific Notation
+ read	Standard Algorithm for Multiplication	Base Ten
+ read	Standard Algorithm for Division	Fractional Notations
+ read	Standard Algorithm for Division	Decimal Notations
+ read	Standard Algorithm for Division	Proportional Notation
+ read	Standard Algorithm for Division	Addition Notation
+ read	Standard Algorithm for Division	Subtraction Notation
+ read	Standard Algorithm for Division	Multiplication Notations
+ read	Standard Algorithm for Division	Division Notations
+ read	Standard Algorithm for Division	Radical Notation
+ read	Standard Algorithm for Division	Exponential Notation
+ read	Standard Algorithm for Division	Scientific Notation
+ read	Standard Algorithm for Division	Base Ten
+ read	European Algorithm for Subtraction	Fractional Notations
+ read	European Algorithm for Subtraction	Decimal Notations
+ read	European Algorithm for Subtraction	Proportional Notation
+ read	European Algorithm for Subtraction	Addition Notation
+ read	European Algorithm for Subtraction	Subtraction Notation
+ read	European Algorithm for Subtraction	Multiplication Notations
+ read	European Algorithm for Subtraction	Division Notations
+ read	European Algorithm for Subtraction	Radical Notation
+ read	European Algorithm for Subtraction	Exponential Notation
+ read	European Algorithm for Subtraction	Scientific Notation
+ read	European Algorithm for Subtraction	Base Ten
+ read	Lattice Algorithm for Multiplication	Fractional Notations
+ read	Lattice Algorithm for Multiplication	Decimal Notations
+ read	Lattice Algorithm for Multiplication	Proportional Notation
+ read	Lattice Algorithm for Multiplication	Addition Notation
+ read	Lattice Algorithm for Multiplication	Subtraction Notation
+ read	Lattice Algorithm for Multiplication	Multiplication Notations
+ read	Lattice Algorithm for Multiplication	Division Notations
+ read	Lattice Algorithm for Multiplication	Radical Notation
+ read	Lattice Algorithm for Multiplication	Exponential Notation
+ read	Lattice Algorithm for Multiplication	Scientific Notation
+ read	Lattice Algorithm for Multiplication	Base Ten
+ read	Common Factors	Fractional Notations
+ read	Common Factors	Decimal Notations
+ read	Common Factors	Proportional Notation
+ read	Common Factors	Addition Notation
+ read	Common Factors	Subtraction Notation
+ read	Common Factors	Multiplication Notations
+ read	Common Factors	Division Notations
+ read	Common Factors	Radical Notation
+ read	Common Factors	Exponential Notation
+ read	Common Factors	Scientific Notation
+ read	Common Factors	Base Ten
+ read	Distributive Property	Fractional Notations
+ read	Distributive Property	Decimal Notations
+ read	Distributive Property	Proportional Notation
+ read	Distributive Property	Addition Notation
+ read	Distributive Property	Subtraction Notation
+ read	Distributive Property	Multiplication Notations
+ read	Distributive Property	Division Notations
+ read	Distributive Property	Radical Notation
+ read	Distributive Property	Exponential Notation
+ read	Distributive Property	Scientific Notation
+ read	Distributive Property	Base Ten
+ read	Commutative Property	Fractional Notations
+ read	Commutative Property	Decimal Notations
+ read	Commutative Property	Proportional Notation
+ read	Commutative Property	Addition Notation
+ read	Commutative Property	Subtraction Notation
+ read	Commutative Property	Multiplication Notations
+ read	Commutative Property	Division Notations
+ read	Commutative Property	Radical Notation
+ read	Commutative Property	Exponential Notation
+ read	Commutative Property	Scientific Notation
+ read	Commutative Property	Base Ten
+ read	Associative Property	Fractional Notations
+ read	Associative Property	Decimal Notations
+ read	Associative Property	Proportional Notation
+ read	Associative Property	Addition Notation
+ read	Associative Property	Subtraction Notation
+ read	Associative Property	Multiplication Notations
+ read	Associative Property	Division Notations
+ read	Associative Property	Radical Notation
+ read	Associative Property	Exponential Notation
+ read	Associative Property	Scientific Notation
+ read	Associative Property	Base Ten
+ recite	Pythagorean Theorem	Fractional Notations
+ recite	Pythagorean Theorem	Decimal Notations
+ recite	Pythagorean Theorem	Proportional Notation
+ recite	Pythagorean Theorem	Addition Notation
+ recite	Pythagorean Theorem	Subtraction Notation
+ recite	Pythagorean Theorem	Multiplication Notations
+ recite	Pythagorean Theorem	Division Notations
+ recite	Pythagorean Theorem	Radical Notation
+ recite	Pythagorean Theorem	Exponential Notation
+ recite	Pythagorean Theorem	Scientific Notation
+ recite	Pythagorean Theorem	Base Ten
+ recite	Standard Algorithm for Addition	Fractional Notations
+ recite	Standard Algorithm for Addition	Decimal Notations
+ recite	Standard Algorithm for Addition	Proportional Notation
+ recite	Standard Algorithm for Addition	Addition Notation
+ recite	Standard Algorithm for Addition	Subtraction Notation
+ recite	Standard Algorithm for Addition	Multiplication Notations
+ recite	Standard Algorithm for Addition	Division Notations
+ recite	Standard Algorithm for Addition	Radical Notation
+ recite	Standard Algorithm for Addition	Exponential Notation
+ recite	Standard Algorithm for Addition	Scientific Notation
+ recite	Standard Algorithm for Addition	Base Ten
+ recite	Standard Algorithm for Subtraction	Fractional Notations
+ recite	Standard Algorithm for Subtraction	Decimal Notations
+ recite	Standard Algorithm for Subtraction	Proportional Notation
+ recite	Standard Algorithm for Subtraction	Addition Notation
+ recite	Standard Algorithm for Subtraction	Subtraction Notation
+ recite	Standard Algorithm for Subtraction	Multiplication Notations
+ recite	Standard Algorithm for Subtraction	Division Notations
+ recite	Standard Algorithm for Subtraction	Radical Notation
+ recite	Standard Algorithm for Subtraction	Exponential Notation
+ recite	Standard Algorithm for Subtraction	Scientific Notation
+ recite	Standard Algorithm for Subtraction	Base Ten
+ recite	Standard Algorithm for Multiplication	Fractional Notations
+ recite	Standard Algorithm for Multiplication	Decimal Notations
+ recite	Standard Algorithm for Multiplication	Proportional Notation
+ recite	Standard Algorithm for Multiplication	Addition Notation
+ recite	Standard Algorithm for Multiplication	Subtraction Notation
+ recite	Standard Algorithm for Multiplication	Multiplication Notations
+ recite	Standard Algorithm for Multiplication	Division Notations
+ recite	Standard Algorithm for Multiplication	Radical Notation
+ recite	Standard Algorithm for Multiplication	Exponential Notation
+ recite	Standard Algorithm for Multiplication	Scientific Notation
+ recite	Standard Algorithm for Multiplication	Base Ten
+ recite	Standard Algorithm for Division	Fractional Notations
+ recite	Standard Algorithm for Division	Decimal Notations
+ recite	Standard Algorithm for Division	Proportional Notation
+ recite	Standard Algorithm for Division	Addition Notation
+ recite	Standard Algorithm for Division	Subtraction Notation
+ recite	Standard Algorithm for Division	Multiplication Notations
+ recite	Standard Algorithm for Division	Division Notations
+ recite	Standard Algorithm for Division	Radical Notation
+ recite	Standard Algorithm for Division	Exponential Notation
+ recite	Standard Algorithm for Division	Scientific Notation
+ recite	Standard Algorithm for Division	Base Ten
+ recite	European Algorithm for Subtraction	Fractional Notations
+ recite	European Algorithm for Subtraction	Decimal Notations
+ recite	European Algorithm for Subtraction	Proportional Notation
+ recite	European Algorithm for Subtraction	Addition Notation
+ recite	European Algorithm for Subtraction	Subtraction Notation
+ recite	European Algorithm for Subtraction	Multiplication Notations
+ recite	European Algorithm for Subtraction	Division Notations
+ recite	European Algorithm for Subtraction	Radical Notation
+ recite	European Algorithm for Subtraction	Exponential Notation
+ recite	European Algorithm for Subtraction	Scientific Notation
+ recite	European Algorithm for Subtraction	Base Ten
+ recite	Lattice Algorithm for Multiplication	Fractional Notations
+ recite	Lattice Algorithm for Multiplication	Decimal Notations
+ recite	Lattice Algorithm for Multiplication	Proportional Notation
+ recite	Lattice Algorithm for Multiplication	Addition Notation
+ recite	Lattice Algorithm for Multiplication	Subtraction Notation
+ recite	Lattice Algorithm for Multiplication	Multiplication Notations
+ recite	Lattice Algorithm for Multiplication	Division Notations
+ recite	Lattice Algorithm for Multiplication	Radical Notation
+ recite	Lattice Algorithm for Multiplication	Exponential Notation
+ recite	Lattice Algorithm for Multiplication	Scientific Notation
+ recite	Lattice Algorithm for Multiplication	Base Ten
+ recite	Common Factors	Fractional Notations
+ recite	Common Factors	Decimal Notations
+ recite	Common Factors	Proportional Notation
+ recite	Common Factors	Addition Notation
+ recite	Common Factors	Subtraction Notation
+ recite	Common Factors	Multiplication Notations
+ recite	Common Factors	Division Notations
+ recite	Common Factors	Radical Notation
+ recite	Common Factors	Exponential Notation
+ recite	Common Factors	Scientific Notation
+ recite	Common Factors	Base Ten
+ recite	Distributive Property	Fractional Notations
+ recite	Distributive Property	Decimal Notations
+ recite	Distributive Property	Proportional Notation
+ recite	Distributive Property	Addition Notation
+ recite	Distributive Property	Subtraction Notation
+ recite	Distributive Property	Multiplication Notations
+ recite	Distributive Property	Division Notations
+ recite	Distributive Property	Radical Notation
+ recite	Distributive Property	Exponential Notation
+ recite	Distributive Property	Scientific Notation
+ recite	Distributive Property	Base Ten
+ recite	Commutative Property	Fractional Notations
+ recite	Commutative Property	Decimal Notations
+ recite	Commutative Property	Proportional Notation
+ recite	Commutative Property	Addition Notation
+ recite	Commutative Property	Subtraction Notation
+ recite	Commutative Property	Multiplication Notations
+ recite	Commutative Property	Division Notations
+ recite	Commutative Property	Radical Notation
+ recite	Commutative Property	Exponential Notation
+ recite	Commutative Property	Scientific Notation
+ recite	Commutative Property	Base Ten
+ recite	Associative Property	Fractional Notations
+ recite	Associative Property	Decimal Notations
+ recite	Associative Property	Proportional Notation
+ recite	Associative Property	Addition Notation
+ recite	Associative Property	Subtraction Notation
+ recite	Associative Property	Multiplication Notations
+ recite	Associative Property	Division Notations
+ recite	Associative Property	Radical Notation
+ recite	Associative Property	Exponential Notation
+ recite	Associative Property	Scientific Notation
+ recite	Associative Property	Base Ten
+ write	Pythagorean Theorem	Fractional Notations
+ write	Pythagorean Theorem	Decimal Notations
+ write	Pythagorean Theorem	Proportional Notation
+ write	Pythagorean Theorem	Addition Notation
+ write	Pythagorean Theorem	Subtraction Notation
+ write	Pythagorean Theorem	Multiplication Notations
+ write	Pythagorean Theorem	Division Notations
+ write	Pythagorean Theorem	Radical Notation
+ write	Pythagorean Theorem	Exponential Notation
+ write	Pythagorean Theorem	Scientific Notation
+ write	Pythagorean Theorem	Base Ten
+ write	Standard Algorithm for Addition	Fractional Notations
+ write	Standard Algorithm for Addition	Decimal Notations
+ write	Standard Algorithm for Addition	Proportional Notation
+ write	Standard Algorithm for Addition	Addition Notation
+ write	Standard Algorithm for Addition	Subtraction Notation
+ write	Standard Algorithm for Addition	Multiplication Notations
+ write	Standard Algorithm for Addition	Division Notations
+ write	Standard Algorithm for Addition	Radical Notation
+ write	Standard Algorithm for Addition	Exponential Notation
+ write	Standard Algorithm for Addition	Scientific Notation
+ write	Standard Algorithm for Addition	Base Ten
+ write	Standard Algorithm for Subtraction	Fractional Notations
+ write	Standard Algorithm for Subtraction	Decimal Notations
+ write	Standard Algorithm for Subtraction	Proportional Notation
+ write	Standard Algorithm for Subtraction	Addition Notation
+ write	Standard Algorithm for Subtraction	Subtraction Notation
+ write	Standard Algorithm for Subtraction	Multiplication Notations
+ write	Standard Algorithm for Subtraction	Division Notations
+ write	Standard Algorithm for Subtraction	Radical Notation
+ write	Standard Algorithm for Subtraction	Exponential Notation
+ write	Standard Algorithm for Subtraction	Scientific Notation
+ write	Standard Algorithm for Subtraction	Base Ten
+ write	Standard Algorithm for Multiplication	Fractional Notations
+ write	Standard Algorithm for Multiplication	Decimal Notations
+ write	Standard Algorithm for Multiplication	Proportional Notation
+ write	Standard Algorithm for Multiplication	Addition Notation
+ write	Standard Algorithm for Multiplication	Subtraction Notation
+ write	Standard Algorithm for Multiplication	Multiplication Notations
+ write	Standard Algorithm for Multiplication	Division Notations
+ write	Standard Algorithm for Multiplication	Radical Notation
+ write	Standard Algorithm for Multiplication	Exponential Notation
+ write	Standard Algorithm for Multiplication	Scientific Notation
+ write	Standard Algorithm for Multiplication	Base Ten
+ write	Standard Algorithm for Division	Fractional Notations
+ write	Standard Algorithm for Division	Decimal Notations
+ write	Standard Algorithm for Division	Proportional Notation
+ write	Standard Algorithm for Division	Addition Notation
+ write	Standard Algorithm for Division	Subtraction Notation
+ write	Standard Algorithm for Division	Multiplication Notations
+ write	Standard Algorithm for Division	Division Notations
+ write	Standard Algorithm for Division	Radical Notation
+ write	Standard Algorithm for Division	Exponential Notation
+ write	Standard Algorithm for Division	Scientific Notation
+ write	Standard Algorithm for Division	Base Ten
+ write	European Algorithm for Subtraction	Fractional Notations
+ write	European Algorithm for Subtraction	Decimal Notations
+ write	European Algorithm for Subtraction	Proportional Notation
+ write	European Algorithm for Subtraction	Addition Notation
+ write	European Algorithm for Subtraction	Subtraction Notation
+ write	European Algorithm for Subtraction	Multiplication Notations
+ write	European Algorithm for Subtraction	Division Notations
+ write	European Algorithm for Subtraction	Radical Notation
+ write	European Algorithm for Subtraction	Exponential Notation
+ write	European Algorithm for Subtraction	Scientific Notation
+ write	European Algorithm for Subtraction	Base Ten
+ write	Lattice Algorithm for Multiplication	Fractional Notations
+ write	Lattice Algorithm for Multiplication	Decimal Notations
+ write	Lattice Algorithm for Multiplication	Proportional Notation
+ write	Lattice Algorithm for Multiplication	Addition Notation
+ write	Lattice Algorithm for Multiplication	Subtraction Notation
+ write	Lattice Algorithm for Multiplication	Multiplication Notations
+ write	Lattice Algorithm for Multiplication	Division Notations
+ write	Lattice Algorithm for Multiplication	Radical Notation
+ write	Lattice Algorithm for Multiplication	Exponential Notation
+ write	Lattice Algorithm for Multiplication	Scientific Notation
+ write	Lattice Algorithm for Multiplication	Base Ten
+ write	Common Factors	Fractional Notations
+ write	Common Factors	Decimal Notations
+ write	Common Factors	Proportional Notation
+ write	Common Factors	Addition Notation
+ write	Common Factors	Subtraction Notation
+ write	Common Factors	Multiplication Notations
+ write	Common Factors	Division Notations
+ write	Common Factors	Radical Notation
+ write	Common Factors	Exponential Notation
+ write	Common Factors	Scientific Notation
+ write	Common Factors	Base Ten
+ write	Distributive Property	Fractional Notations
+ write	Distributive Property	Decimal Notations
+ write	Distributive Property	Proportional Notation
+ write	Distributive Property	Addition Notation
+ write	Distributive Property	Subtraction Notation
+ write	Distributive Property	Multiplication Notations
+ write	Distributive Property	Division Notations
+ write	Distributive Property	Radical Notation
+ write	Distributive Property	Exponential Notation
+ write	Distributive Property	Scientific Notation
+ write	Distributive Property	Base Ten
+ write	Commutative Property	Fractional Notations
+ write	Commutative Property	Decimal Notations
+ write	Commutative Property	Proportional Notation
+ write	Commutative Property	Addition Notation
+ write	Commutative Property	Subtraction Notation
+ write	Commutative Property	Multiplication Notations
+ write	Commutative Property	Division Notations
+ write	Commutative Property	Radical Notation
+ write	Commutative Property	Exponential Notation
+ write	Commutative Property	Scientific Notation
+ write	Commutative Property	Base Ten
+ write	Associative Property	Fractional Notations
+ write	Associative Property	Decimal Notations
+ write	Associative Property	Proportional Notation
+ write	Associative Property	Addition Notation
+ write	Associative Property	Subtraction Notation
+ write	Associative Property	Multiplication Notations
+ write	Associative Property	Division Notations
+ write	Associative Property	Radical Notation
+ write	Associative Property	Exponential Notation
+ write	Associative Property	Scientific Notation
+ write	Associative Property	Base Ten
+ represent	Pythagorean Theorem	Fractional Notations
+ represent	Pythagorean Theorem	Decimal Notations
+ represent	Pythagorean Theorem	Proportional Notation
+ represent	Pythagorean Theorem	Addition Notation
+ represent	Pythagorean Theorem	Subtraction Notation
+ represent	Pythagorean Theorem	Multiplication Notations
+ represent	Pythagorean Theorem	Division Notations
+ represent	Pythagorean Theorem	Radical Notation
+ represent	Pythagorean Theorem	Exponential Notation
+ represent	Pythagorean Theorem	Scientific Notation
+ represent	Pythagorean Theorem	Base Ten
+ represent	Standard Algorithm for Addition	Fractional Notations
+ represent	Standard Algorithm for Addition	Decimal Notations
+ represent	Standard Algorithm for Addition	Proportional Notation
+ represent	Standard Algorithm for Addition	Addition Notation
+ represent	Standard Algorithm for Addition	Subtraction Notation
+ represent	Standard Algorithm for Addition	Multiplication Notations
+ represent	Standard Algorithm for Addition	Division Notations
+ represent	Standard Algorithm for Addition	Radical Notation
+ represent	Standard Algorithm for Addition	Exponential Notation
+ represent	Standard Algorithm for Addition	Scientific Notation
+ represent	Standard Algorithm for Addition	Base Ten
+ represent	Standard Algorithm for Subtraction	Fractional Notations
+ represent	Standard Algorithm for Subtraction	Decimal Notations
+ represent	Standard Algorithm for Subtraction	Proportional Notation
+ represent	Standard Algorithm for Subtraction	Addition Notation
+ represent	Standard Algorithm for Subtraction	Subtraction Notation
+ represent	Standard Algorithm for Subtraction	Multiplication Notations
+ represent	Standard Algorithm for Subtraction	Division Notations
+ represent	Standard Algorithm for Subtraction	Radical Notation
+ represent	Standard Algorithm for Subtraction	Exponential Notation
+ represent	Standard Algorithm for Subtraction	Scientific Notation
+ represent	Standard Algorithm for Subtraction	Base Ten
+ represent	Standard Algorithm for Multiplication	Fractional Notations
+ represent	Standard Algorithm for Multiplication	Decimal Notations
+ represent	Standard Algorithm for Multiplication	Proportional Notation
+ represent	Standard Algorithm for Multiplication	Addition Notation
+ represent	Standard Algorithm for Multiplication	Subtraction Notation
+ represent	Standard Algorithm for Multiplication	Multiplication Notations
+ represent	Standard Algorithm for Multiplication	Division Notations
+ represent	Standard Algorithm for Multiplication	Radical Notation
+ represent	Standard Algorithm for Multiplication	Exponential Notation
+ represent	Standard Algorithm for Multiplication	Scientific Notation
+ represent	Standard Algorithm for Multiplication	Base Ten
+ represent	Standard Algorithm for Division	Fractional Notations
+ represent	Standard Algorithm for Division	Decimal Notations
+ represent	Standard Algorithm for Division	Proportional Notation
+ represent	Standard Algorithm for Division	Addition Notation
+ represent	Standard Algorithm for Division	Subtraction Notation
+ represent	Standard Algorithm for Division	Multiplication Notations
+ represent	Standard Algorithm for Division	Division Notations
+ represent	Standard Algorithm for Division	Radical Notation
+ represent	Standard Algorithm for Division	Exponential Notation
+ represent	Standard Algorithm for Division	Scientific Notation
+ represent	Standard Algorithm for Division	Base Ten
+ represent	European Algorithm for Subtraction	Fractional Notations
+ represent	European Algorithm for Subtraction	Decimal Notations
+ represent	European Algorithm for Subtraction	Proportional Notation
+ represent	European Algorithm for Subtraction	Addition Notation
+ represent	European Algorithm for Subtraction	Subtraction Notation
+ represent	European Algorithm for Subtraction	Multiplication Notations
+ represent	European Algorithm for Subtraction	Division Notations
+ represent	European Algorithm for Subtraction	Radical Notation
+ represent	European Algorithm for Subtraction	Exponential Notation
+ represent	European Algorithm for Subtraction	Scientific Notation
+ represent	European Algorithm for Subtraction	Base Ten
+ represent	Lattice Algorithm for Multiplication	Fractional Notations
+ represent	Lattice Algorithm for Multiplication	Decimal Notations
+ represent	Lattice Algorithm for Multiplication	Proportional Notation
+ represent	Lattice Algorithm for Multiplication	Addition Notation
+ represent	Lattice Algorithm for Multiplication	Subtraction Notation
+ represent	Lattice Algorithm for Multiplication	Multiplication Notations
+ represent	Lattice Algorithm for Multiplication	Division Notations
+ represent	Lattice Algorithm for Multiplication	Radical Notation
+ represent	Lattice Algorithm for Multiplication	Exponential Notation
+ represent	Lattice Algorithm for Multiplication	Scientific Notation
+ represent	Lattice Algorithm for Multiplication	Base Ten
+ represent	Common Factors	Fractional Notations
+ represent	Common Factors	Decimal Notations
+ represent	Common Factors	Proportional Notation
+ represent	Common Factors	Addition Notation
+ represent	Common Factors	Subtraction Notation
+ represent	Common Factors	Multiplication Notations
+ represent	Common Factors	Division Notations
+ represent	Common Factors	Radical Notation
+ represent	Common Factors	Exponential Notation
+ represent	Common Factors	Scientific Notation
+ represent	Common Factors	Base Ten
+ represent	Distributive Property	Fractional Notations
+ represent	Distributive Property	Decimal Notations
+ represent	Distributive Property	Proportional Notation
+ represent	Distributive Property	Addition Notation
+ represent	Distributive Property	Subtraction Notation
+ represent	Distributive Property	Multiplication Notations
+ represent	Distributive Property	Division Notations
+ represent	Distributive Property	Radical Notation
+ represent	Distributive Property	Exponential Notation
+ represent	Distributive Property	Scientific Notation
+ represent	Distributive Property	Base Ten
+ represent	Commutative Property	Fractional Notations
+ represent	Commutative Property	Decimal Notations
+ represent	Commutative Property	Proportional Notation
+ represent	Commutative Property	Addition Notation
+ represent	Commutative Property	Subtraction Notation
+ represent	Commutative Property	Multiplication Notations
+ represent	Commutative Property	Division Notations
+ represent	Commutative Property	Radical Notation
+ represent	Commutative Property	Exponential Notation
+ represent	Commutative Property	Scientific Notation
+ represent	Commutative Property	Base Ten
+ represent	Associative Property	Fractional Notations
+ represent	Associative Property	Decimal Notations
+ represent	Associative Property	Proportional Notation
+ represent	Associative Property	Addition Notation
+ represent	Associative Property	Subtraction Notation
+ represent	Associative Property	Multiplication Notations
+ represent	Associative Property	Division Notations
+ represent	Associative Property	Radical Notation
+ represent	Associative Property	Exponential Notation
+ represent	Associative Property	Scientific Notation
+ represent	Associative Property	Base Ten
+ represent with	Pythagorean Theorem	Fractional Notations
+ represent with	Pythagorean Theorem	Decimal Notations
+ represent with	Pythagorean Theorem	Proportional Notation
+ represent with	Pythagorean Theorem	Addition Notation
+ represent with	Pythagorean Theorem	Subtraction Notation
+ represent with	Pythagorean Theorem	Multiplication Notations
+ represent with	Pythagorean Theorem	Division Notations
+ represent with	Pythagorean Theorem	Radical Notation
+ represent with	Pythagorean Theorem	Exponential Notation
+ represent with	Pythagorean Theorem	Scientific Notation
+ represent with	Pythagorean Theorem	Base Ten
+ represent with	Standard Algorithm for Addition	Fractional Notations
+ represent with	Standard Algorithm for Addition	Decimal Notations
+ represent with	Standard Algorithm for Addition	Proportional Notation
+ represent with	Standard Algorithm for Addition	Addition Notation
+ represent with	Standard Algorithm for Addition	Subtraction Notation
+ represent with	Standard Algorithm for Addition	Multiplication Notations
+ represent with	Standard Algorithm for Addition	Division Notations
+ represent with	Standard Algorithm for Addition	Radical Notation
+ represent with	Standard Algorithm for Addition	Exponential Notation
+ represent with	Standard Algorithm for Addition	Scientific Notation
+ represent with	Standard Algorithm for Addition	Base Ten
+ represent with	Standard Algorithm for Subtraction	Fractional Notations
+ represent with	Standard Algorithm for Subtraction	Decimal Notations
+ represent with	Standard Algorithm for Subtraction	Proportional Notation
+ represent with	Standard Algorithm for Subtraction	Addition Notation
+ represent with	Standard Algorithm for Subtraction	Subtraction Notation
+ represent with	Standard Algorithm for Subtraction	Multiplication Notations
+ represent with	Standard Algorithm for Subtraction	Division Notations
+ represent with	Standard Algorithm for Subtraction	Radical Notation
+ represent with	Standard Algorithm for Subtraction	Exponential Notation
+ represent with	Standard Algorithm for Subtraction	Scientific Notation
+ represent with	Standard Algorithm for Subtraction	Base Ten
+ represent with	Standard Algorithm for Multiplication	Fractional Notations
+ represent with	Standard Algorithm for Multiplication	Decimal Notations
+ represent with	Standard Algorithm for Multiplication	Proportional Notation
+ represent with	Standard Algorithm for Multiplication	Addition Notation
+ represent with	Standard Algorithm for Multiplication	Subtraction Notation
+ represent with	Standard Algorithm for Multiplication	Multiplication Notations
+ represent with	Standard Algorithm for Multiplication	Division Notations
+ represent with	Standard Algorithm for Multiplication	Radical Notation
+ represent with	Standard Algorithm for Multiplication	Exponential Notation
+ represent with	Standard Algorithm for Multiplication	Scientific Notation
+ represent with	Standard Algorithm for Multiplication	Base Ten
+ represent with	Standard Algorithm for Division	Fractional Notations
+ represent with	Standard Algorithm for Division	Decimal Notations
+ represent with	Standard Algorithm for Division	Proportional Notation
+ represent with	Standard Algorithm for Division	Addition Notation
+ represent with	Standard Algorithm for Division	Subtraction Notation
+ represent with	Standard Algorithm for Division	Multiplication Notations
+ represent with	Standard Algorithm for Division	Division Notations
+ represent with	Standard Algorithm for Division	Radical Notation
+ represent with	Standard Algorithm for Division	Exponential Notation
+ represent with	Standard Algorithm for Division	Scientific Notation
+ represent with	Standard Algorithm for Division	Base Ten
+ represent with	European Algorithm for Subtraction	Fractional Notations
+ represent with	European Algorithm for Subtraction	Decimal Notations
+ represent with	European Algorithm for Subtraction	Proportional Notation
+ represent with	European Algorithm for Subtraction	Addition Notation
+ represent with	European Algorithm for Subtraction	Subtraction Notation
+ represent with	European Algorithm for Subtraction	Multiplication Notations
+ represent with	European Algorithm for Subtraction	Division Notations
+ represent with	European Algorithm for Subtraction	Radical Notation
+ represent with	European Algorithm for Subtraction	Exponential Notation
+ represent with	European Algorithm for Subtraction	Scientific Notation
+ represent with	European Algorithm for Subtraction	Base Ten
+ represent with	Lattice Algorithm for Multiplication	Fractional Notations
+ represent with	Lattice Algorithm for Multiplication	Decimal Notations
+ represent with	Lattice Algorithm for Multiplication	Proportional Notation
+ represent with	Lattice Algorithm for Multiplication	Addition Notation
+ represent with	Lattice Algorithm for Multiplication	Subtraction Notation
+ represent with	Lattice Algorithm for Multiplication	Multiplication Notations
+ represent with	Lattice Algorithm for Multiplication	Division Notations
+ represent with	Lattice Algorithm for Multiplication	Radical Notation
+ represent with	Lattice Algorithm for Multiplication	Exponential Notation
+ represent with	Lattice Algorithm for Multiplication	Scientific Notation
+ represent with	Lattice Algorithm for Multiplication	Base Ten
+ represent with	Common Factors	Fractional Notations
+ represent with	Common Factors	Decimal Notations
+ represent with	Common Factors	Proportional Notation
+ represent with	Common Factors	Addition Notation
+ represent with	Common Factors	Subtraction Notation
+ represent with	Common Factors	Multiplication Notations
+ represent with	Common Factors	Division Notations
+ represent with	Common Factors	Radical Notation
+ represent with	Common Factors	Exponential Notation
+ represent with	Common Factors	Scientific Notation
+ represent with	Common Factors	Base Ten
+ represent with	Distributive Property	Fractional Notations
+ represent with	Distributive Property	Decimal Notations
+ represent with	Distributive Property	Proportional Notation
+ represent with	Distributive Property	Addition Notation
+ represent with	Distributive Property	Subtraction Notation
+ represent with	Distributive Property	Multiplication Notations
+ represent with	Distributive Property	Division Notations
+ represent with	Distributive Property	Radical Notation
+ represent with	Distributive Property	Exponential Notation
+ represent with	Distributive Property	Scientific Notation
+ represent with	Distributive Property	Base Ten
+ represent with	Commutative Property	Fractional Notations
+ represent with	Commutative Property	Decimal Notations
+ represent with	Commutative Property	Proportional Notation
+ represent with	Commutative Property	Addition Notation
+ represent with	Commutative Property	Subtraction Notation
+ represent with	Commutative Property	Multiplication Notations
+ represent with	Commutative Property	Division Notations
+ represent with	Commutative Property	Radical Notation
+ represent with	Commutative Property	Exponential Notation
+ represent with	Commutative Property	Scientific Notation
+ represent with	Commutative Property	Base Ten
+ represent with	Associative Property	Fractional Notations
+ represent with	Associative Property	Decimal Notations
+ represent with	Associative Property	Proportional Notation
+ represent with	Associative Property	Addition Notation
+ represent with	Associative Property	Subtraction Notation
+ represent with	Associative Property	Multiplication Notations
+ represent with	Associative Property	Division Notations
+ represent with	Associative Property	Radical Notation
+ represent with	Associative Property	Exponential Notation
+ represent with	Associative Property	Scientific Notation
+ represent with	Associative Property	Base Ten
+ randomly sample	Pythagorean Theorem	Fractional Notations
+ randomly sample	Pythagorean Theorem	Decimal Notations
+ randomly sample	Pythagorean Theorem	Proportional Notation
+ randomly sample	Pythagorean Theorem	Addition Notation
+ randomly sample	Pythagorean Theorem	Subtraction Notation
+ randomly sample	Pythagorean Theorem	Multiplication Notations
+ randomly sample	Pythagorean Theorem	Division Notations
+ randomly sample	Pythagorean Theorem	Radical Notation
+ randomly sample	Pythagorean Theorem	Exponential Notation
+ randomly sample	Pythagorean Theorem	Scientific Notation
+ randomly sample	Pythagorean Theorem	Base Ten
+ randomly sample	Standard Algorithm for Addition	Fractional Notations
+ randomly sample	Standard Algorithm for Addition	Decimal Notations
+ randomly sample	Standard Algorithm for Addition	Proportional Notation
+ randomly sample	Standard Algorithm for Addition	Addition Notation
+ randomly sample	Standard Algorithm for Addition	Subtraction Notation
+ randomly sample	Standard Algorithm for Addition	Multiplication Notations
+ randomly sample	Standard Algorithm for Addition	Division Notations
+ randomly sample	Standard Algorithm for Addition	Radical Notation
+ randomly sample	Standard Algorithm for Addition	Exponential Notation
+ randomly sample	Standard Algorithm for Addition	Scientific Notation
+ randomly sample	Standard Algorithm for Addition	Base Ten
+ randomly sample	Standard Algorithm for Subtraction	Fractional Notations
+ randomly sample	Standard Algorithm for Subtraction	Decimal Notations
+ randomly sample	Standard Algorithm for Subtraction	Proportional Notation
+ randomly sample	Standard Algorithm for Subtraction	Addition Notation
+ randomly sample	Standard Algorithm for Subtraction	Subtraction Notation
+ randomly sample	Standard Algorithm for Subtraction	Multiplication Notations
+ randomly sample	Standard Algorithm for Subtraction	Division Notations
+ randomly sample	Standard Algorithm for Subtraction	Radical Notation
+ randomly sample	Standard Algorithm for Subtraction	Exponential Notation
+ randomly sample	Standard Algorithm for Subtraction	Scientific Notation
+ randomly sample	Standard Algorithm for Subtraction	Base Ten
+ randomly sample	Standard Algorithm for Multiplication	Fractional Notations
+ randomly sample	Standard Algorithm for Multiplication	Decimal Notations
+ randomly sample	Standard Algorithm for Multiplication	Proportional Notation
+ randomly sample	Standard Algorithm for Multiplication	Addition Notation
+ randomly sample	Standard Algorithm for Multiplication	Subtraction Notation
+ randomly sample	Standard Algorithm for Multiplication	Multiplication Notations
+ randomly sample	Standard Algorithm for Multiplication	Division Notations
+ randomly sample	Standard Algorithm for Multiplication	Radical Notation
+ randomly sample	Standard Algorithm for Multiplication	Exponential Notation
+ randomly sample	Standard Algorithm for Multiplication	Scientific Notation
+ randomly sample	Standard Algorithm for Multiplication	Base Ten
+ randomly sample	Standard Algorithm for Division	Fractional Notations
+ randomly sample	Standard Algorithm for Division	Decimal Notations
+ randomly sample	Standard Algorithm for Division	Proportional Notation
+ randomly sample	Standard Algorithm for Division	Addition Notation
+ randomly sample	Standard Algorithm for Division	Subtraction Notation
+ randomly sample	Standard Algorithm for Division	Multiplication Notations
+ randomly sample	Standard Algorithm for Division	Division Notations
+ randomly sample	Standard Algorithm for Division	Radical Notation
+ randomly sample	Standard Algorithm for Division	Exponential Notation
+ randomly sample	Standard Algorithm for Division	Scientific Notation
+ randomly sample	Standard Algorithm for Division	Base Ten
+ randomly sample	European Algorithm for Subtraction	Fractional Notations
+ randomly sample	European Algorithm for Subtraction	Decimal Notations
+ randomly sample	European Algorithm for Subtraction	Proportional Notation
+ randomly sample	European Algorithm for Subtraction	Addition Notation
+ randomly sample	European Algorithm for Subtraction	Subtraction Notation
+ randomly sample	European Algorithm for Subtraction	Multiplication Notations
+ randomly sample	European Algorithm for Subtraction	Division Notations
+ randomly sample	European Algorithm for Subtraction	Radical Notation
+ randomly sample	European Algorithm for Subtraction	Exponential Notation
+ randomly sample	European Algorithm for Subtraction	Scientific Notation
+ randomly sample	European Algorithm for Subtraction	Base Ten
+ randomly sample	Lattice Algorithm for Multiplication	Fractional Notations
+ randomly sample	Lattice Algorithm for Multiplication	Decimal Notations
+ randomly sample	Lattice Algorithm for Multiplication	Proportional Notation
+ randomly sample	Lattice Algorithm for Multiplication	Addition Notation
+ randomly sample	Lattice Algorithm for Multiplication	Subtraction Notation
+ randomly sample	Lattice Algorithm for Multiplication	Multiplication Notations
+ randomly sample	Lattice Algorithm for Multiplication	Division Notations
+ randomly sample	Lattice Algorithm for Multiplication	Radical Notation
+ randomly sample	Lattice Algorithm for Multiplication	Exponential Notation
+ randomly sample	Lattice Algorithm for Multiplication	Scientific Notation
+ randomly sample	Lattice Algorithm for Multiplication	Base Ten
+ randomly sample	Common Factors	Fractional Notations
+ randomly sample	Common Factors	Decimal Notations
+ randomly sample	Common Factors	Proportional Notation
+ randomly sample	Common Factors	Addition Notation
+ randomly sample	Common Factors	Subtraction Notation
+ randomly sample	Common Factors	Multiplication Notations
+ randomly sample	Common Factors	Division Notations
+ randomly sample	Common Factors	Radical Notation
+ randomly sample	Common Factors	Exponential Notation
+ randomly sample	Common Factors	Scientific Notation
+ randomly sample	Common Factors	Base Ten
+ randomly sample	Distributive Property	Fractional Notations
+ randomly sample	Distributive Property	Decimal Notations
+ randomly sample	Distributive Property	Proportional Notation
+ randomly sample	Distributive Property	Addition Notation
+ randomly sample	Distributive Property	Subtraction Notation
+ randomly sample	Distributive Property	Multiplication Notations
+ randomly sample	Distributive Property	Division Notations
+ randomly sample	Distributive Property	Radical Notation
+ randomly sample	Distributive Property	Exponential Notation
+ randomly sample	Distributive Property	Scientific Notation
+ randomly sample	Distributive Property	Base Ten
+ randomly sample	Commutative Property	Fractional Notations
+ randomly sample	Commutative Property	Decimal Notations
+ randomly sample	Commutative Property	Proportional Notation
+ randomly sample	Commutative Property	Addition Notation
+ randomly sample	Commutative Property	Subtraction Notation
+ randomly sample	Commutative Property	Multiplication Notations
+ randomly sample	Commutative Property	Division Notations
+ randomly sample	Commutative Property	Radical Notation
+ randomly sample	Commutative Property	Exponential Notation
+ randomly sample	Commutative Property	Scientific Notation
+ randomly sample	Commutative Property	Base Ten
+ randomly sample	Associative Property	Fractional Notations
+ randomly sample	Associative Property	Decimal Notations
+ randomly sample	Associative Property	Proportional Notation
+ randomly sample	Associative Property	Addition Notation
+ randomly sample	Associative Property	Subtraction Notation
+ randomly sample	Associative Property	Multiplication Notations
+ randomly sample	Associative Property	Division Notations
+ randomly sample	Associative Property	Radical Notation
+ randomly sample	Associative Property	Exponential Notation
+ randomly sample	Associative Property	Scientific Notation
+ randomly sample	Associative Property	Base Ten
