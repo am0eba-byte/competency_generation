@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<start xmlns="http://relaxng.org/ns/structure/1.0">
+   <element name="modified_competency">
+      <choice>
+         <group>
+            <optional>
+               <choice>
+                  <element name="formal_process">
+                     <choice>
+                        <element name="terminal-read">
+                           <value>read</value>
+                        </element>
+                        <element name="terminal-recite">
+                           <value>recite</value>
+                        </element>
+                        <element name="terminal-write">
+                           <value>write</value>
+                        </element>
+                        <group>
+                           <element name="terminal-represent">
+                              <value>represent</value>
+                           </element>
+                           <optional>
+                              <element name="terminal-with">
+                                 <value>with</value>
+                              </element>
+                              <element name="representation">
+                                 <choice>
+                                    <element name="models">
+                                       <choice>
+                                          <element name="terminal-images">
+                                             <value>images</value>
+                                          </element>
+                                          <element name="terminal-sounds">
+                                             <value>sounds</value>
+                                          </element>
+                                          <element name="terminal-activities">
+                                             <value>activities</value>
+                                          </element>
+                                       </choice>
+                                    </element>
+                                    <element name="realia">
+                                       <choice>
+                                          <element name="terminal-specimens">
+                                             <value>specimens</value>
+                                          </element>
+                                          <element name="terminal-body_parts">
+                                             <value>body parts</value>
+                                          </element>
+                                       </choice>
+                                    </element>
+                                    <element name="glyphs">
+                                       <choice>
+                                          <element name="terminal-words">
+                                             <value>words</value>
+                                          </element>
+                                          <element name="terminal-symbols">
+                                             <value>symbols</value>
+                                          </element>
+                                          <element name="terminal-drawings">
+                                             <value>drawings</value>
+                                          </element>
+                                          <element name="terminal-graphs">
+                                             <value>graphs</value>
+                                          </element>
+                                       </choice>
+                                    </element>
+                                 </choice>
+                              </element>
+                           </optional>
+                        </group>
+                        <element name="terminal-randomly_sample">
+                           <value>randomly sample</value>
+                        </element>
+                     </choice>
+                  </element>
+                  <group>
+                     <element name="knowledge_process">
+                        <choice>
+                           <element name="terminal-identifying">
+                              <value>identifying</value>
+                           </element>
+                           <element name="terminal-describing">
+                              <value>describing</value>
+                           </element>
+                           <element name="terminal-comparing">
+                              <value>comparing</value>
+                           </element>
+                           <element name="terminal-understanding">
+                              <value>understanding</value>
+                           </element>
+                           <element name="terminal-representing">
+                              <value>representing</value>
+                           </element>
+                           <element name="terminal-applying">
+                              <value>applying</value>
+                           </element>
+                           <element name="terminal-relating">
+                              <value>relating</value>
+                           </element>
+                           <element name="terminal-analyzing">
+                              <value>analyzing</value>
+                           </element>
+                           <element name="terminal-interpreting">
+                              <value>interpreting</value>
+                           </element>
+                           <element name="terminal-extending">
+                              <value>extending</value>
+                           </element>
+                           <element name="terminal-classifying">
+                              <value>classifying</value>
+                           </element>
+                           <element name="terminal-measuring">
+                              <value>measuring</value>
+                           </element>
+                           <element name="terminal-iterating">
+                              <value>iterating</value>
+                           </element>
+                           <element name="terminal-solving">
+                              <value>solving</value>
+                           </element>
+                           <element name="terminal-converting">
+                              <value>converting</value>
+                           </element>
+                           <element name="terminal-reasoning">
+                              <value>reasoning</value>
+                           </element>
+                           <element name="terminal-computing">
+                              <value>computing</value>
+                           </element>
+                           <element name="terminal-approximating">
+                              <value>approximating</value>
+                           </element>
+                           <element name="terminal-estimating">
+                              <value>estimating</value>
+                           </element>
+                           <element name="terminal-inferring">
+                              <value>inferring</value>
+                           </element>
+                           <element name="terminal-grouping">
+                              <value>grouping</value>
+                           </element>
+                           <element name="terminal-strategizing">
+                              <value>strategizing</value>
+                           </element>
+                           <element name="terminal-explaining">
+                              <value>explaining</value>
+                           </element>
+                           <element name="terminal-constructing">
+                              <value>constructing</value>
+                           </element>
+                        </choice>
+                     </element>
+                     <optional>
+                        <element name="terminal-by">
+                           <value>by</value>
+                        </element>
+                        <element name="knowledge_subprocess">
+                           <choice>
+                              <element name="terminal-specific_knowledge_process_string">
+                                 <value>specific knowledge process string</value>
+                              </element>
+                              <element name="terminal-knowledge_subprocess">
+                                 <value>knowledge subprocess</value>
+                              </element>
+                           </choice>
+                        </element>
+                     </optional>
+                  </group>
+               </choice>
+            </optional>
+            <choice>
+               <group>
+                  <element name="math_operation">
+                     <choice>
+                        <element name="terminal-naming">
+                           <value>naming</value>
+                        </element>
+                        <element name="terminal-sequencing">
+                           <value>sequencing</value>
+                        </element>
+                        <element name="terminal-ordering">
+                           <value>ordering</value>
+                        </element>
+                        <element name="terminal-adding">
+                           <value>adding</value>
+                        </element>
+                        <element name="terminal-subtracting">
+                           <value>subtracting</value>
+                        </element>
+                        <element name="terminal-multiplying">
+                           <value>multiplying</value>
+                        </element>
+                        <element name="terminal-dividing">
+                           <value>dividing</value>
+                        </element>
+                        <element name="terminal-negating">
+                           <value>negating</value>
+                        </element>
+                        <element name="terminal-exponentiating">
+                           <value>exponentiating</value>
+                        </element>
+                        <element name="terminal-grouping">
+                           <value>grouping</value>
+                        </element>
+                     </choice>
+                  </element>
+                  <element name="terminal-comma">
+                     <value>,</value>
+                  </element>
+                  <element name="object">
+                     <choice>
+                        <element name="terminal-math_operations">
+                           <value>math operations</value>
+                        </element>
+                        <element name="terminal-string">
+                           <value>string</value>
+                        </element>
+                     </choice>
+                  </element>
+               </group>
+               <element name="specific_object">
+                  <choice>
+                     <element name="terminal-string">
+                        <value>string</value>
+                     </element>
+                     <element name="terminal-specific_object_string">
+                        <value>specific object string</value>
+                     </element>
+                  </choice>
+               </element>
+            </choice>
+            <optional>
+               <element name="notation_object">
+                  <element name="terminal-in">
+                     <value>in</value>
+                  </element>
+                  <element name="terminal-comma">
+                     <value>,</value>
+                  </element>
+                  <choice>
+                     <element name="terminal-fractional_notations">
+                        <value>fractional notation</value>
+                     </element>
+                     <element name="terminal-decimal_notations">
+                        <value>decimal notations</value>
+                     </element>
+                     <element name="terminal-proportional_notation">
+                        <value>proportional notation</value>
+                     </element>
+                     <element name="terminal-addition_notation">
+                        <value>addition notation</value>
+                     </element>
+                     <element name="terminal-subtraction_notation">
+                        <value>subtraction notation</value>
+                     </element>
+                     <element name="terminal-multiplication_notation">
+                        <value>multiplication notation</value>
+                     </element>
+                     <element name="terminal-division_notation">
+                        <value>division notation</value>
+                     </element>
+                     <element name="terminal-radical_notation">
+                        <value>radical notation</value>
+                     </element>
+                     <element name="terminal-exponential_notation">
+                        <value>exponential notation</value>
+                     </element>
+                     <element name="terminal-scientific_notation">
+                        <value>scientific notation</value>
+                     </element>
+                     <element name="terminal-base_ten">
+                        <value>base ten</value>
+                     </element>
+                  </choice>
+               </element>
+            </optional>
+         </group>
+         <element name="math_practice_competency">
+            <choice>
+               <element name="terminal-make_sense_of_problems">
+                  <value>make sense of problems</value>
+               </element>
+               <element name="terminal-persevere_in_solving_problems">
+                  <value>persevere in solving problems</value>
+               </element>
+               <element name="terminal-reason_abstractly">
+                  <value>reason abstractly</value>
+               </element>
+               <element name="terminal-reason_quantitatively">
+                  <value>reason quantitatively</value>
+               </element>
+               <element name="terminal-construct_viable_arguments">
+                  <value>construct viable arguments</value>
+               </element>
+               <element name="terminal-critique_reasoning">
+                  <value>critique reasoning</value>
+               </element>
+               <element name="terminal-model_problems">
+                  <value>model problems</value>
+               </element>
+               <element name="terminal-use_tools_strategically">
+                  <value>use tools strategically</value>
+               </element>
+               <element name="terminal-attend_to_precision">
+                  <value>attend to precision</value>
+               </element>
+               <element name="terminal-look_for_structure">
+                  <value>look for structure</value>
+               </element>
+               <element name="terminal-make_use_of_structure">
+                  <value>make use of structure</value>
+               </element>
+               <element name="terminal-look_for_regularity_in_repeated_reasoning">
+                  <value>look for regularity in repeated reasoning</value>
+               </element>
+               <element name="terminal-express_regularity_in_repeated_reasoning">
+                  <value>express regularity in repeated reasoning</value>
+               </element>
+            </choice>
+         </element>
+      </choice>
+      <element name="end">
+         <value>end</value>
+      </element>
+   </element>
+</start>

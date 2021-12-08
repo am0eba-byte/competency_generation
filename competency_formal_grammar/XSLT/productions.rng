@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <!--
+    productions.rnc
+    last modified 2021-12-05
+    
+    Based on competency_syntax_diagram.xhtml#modified_competency
+    
+    NB: scope_object is never used (no references), 
+      which means that sub_scope is never used
+    
+  -->
+  <start>
+    <ref name="modified_competency"/>
+  </start>
+  <define name="modified_competency">
+    <element name="modified_competency">
+      <choice>
+        <group>
+          <optional>
+            <choice>
+              <ref name="formal_process"/>
+              <group>
+                <ref name="knowledge_process"/>
+                <optional>
+                  <ref name="terminal-by"/>
+                  <ref name="knowledge_subprocess"/>
+                </optional>
+              </group>
+            </choice>
+          </optional>
+          <choice>
+            <group>
+              <ref name="math_operation"/>
+              <ref name="terminal-comma"/>
+              <ref name="object"/>
+            </group>
+            <ref name="specific_object"/>
+          </choice>
+          <optional>
+            <ref name="notation_object"/>
+          </optional>
+        </group>
+        <ref name="math_practice_competency"/>
+      </choice>
+      <ref name="end"/>
+    </element>
+  </define>
+  <define name="formal_process">
+    <element name="formal_process">
+      <choice>
+        <ref name="terminal-read"/>
+        <ref name="terminal-recite"/>
+        <ref name="terminal-write"/>
+        <group>
+          <ref name="terminal-represent"/>
+          <optional>
+            <ref name="terminal-with"/>
+            <ref name="representation"/>
+          </optional>
+        </group>
+        <ref name="terminal-randomly_sample"/>
+      </choice>
+    </element>
+  </define>
+  <define name="representation">
+    <element name="representation">
+      <choice>
+        <ref name="models"/>
+        <ref name="realia"/>
+        <ref name="glyphs"/>
+      </choice>
+    </element>
+  </define>
+  <define name="models">
+    <element name="models">
+      <choice>
+        <ref name="terminal-images"/>
+        <ref name="terminal-sounds"/>
+        <ref name="terminal-activities"/>
+      </choice>
+    </element>
+  </define>
+  <define name="realia">
+    <element name="realia">
+      <choice>
+        <ref name="terminal-specimens"/>
+        <ref name="terminal-body_parts"/>
+      </choice>
+    </element>
+  </define>
+  <define name="glyphs">
+    <element name="glyphs">
+      <choice>
+        <ref name="terminal-words"/>
+        <ref name="terminal-symbols"/>
+        <ref name="terminal-drawings"/>
+        <ref name="terminal-graphs"/>
+      </choice>
+    </element>
+  </define>
+  <define name="knowledge_process">
+    <element name="knowledge_process">
+      <choice>
+        <ref name="terminal-identifying"/>
+        <ref name="terminal-describing"/>
+        <ref name="terminal-comparing"/>
+        <ref name="terminal-understanding"/>
+        <ref name="terminal-representing"/>
+        <ref name="terminal-applying"/>
+        <ref name="terminal-relating"/>
+        <ref name="terminal-analyzing"/>
+        <ref name="terminal-interpreting"/>
+        <ref name="terminal-extending"/>
+        <ref name="terminal-classifying"/>
+        <ref name="terminal-measuring"/>
+        <ref name="terminal-iterating"/>
+        <ref name="terminal-solving"/>
+        <ref name="terminal-converting"/>
+        <ref name="terminal-reasoning"/>
+        <ref name="terminal-computing"/>
+        <ref name="terminal-approximating"/>
+        <ref name="terminal-estimating"/>
+        <ref name="terminal-inferring"/>
+        <ref name="terminal-grouping"/>
+        <ref name="terminal-strategizing"/>
+        <ref name="terminal-explaining"/>
+        <ref name="terminal-constructing"/>
+      </choice>
+    </element>
+  </define>
+  <define name="knowledge_subprocess">
+    <element name="knowledge_subprocess">
+      <choice>
+        <ref name="terminal-specific_knowledge_process_string"/>
+        <ref name="terminal-knowledge_subprocess"/>
+      </choice>
+    </element>
+  </define>
+  <define name="math_operation">
+    <element name="math_operation">
+      <choice>
+        <ref name="terminal-naming"/>
+        <ref name="terminal-sequencing"/>
+        <ref name="terminal-ordering"/>
+        <ref name="terminal-adding"/>
+        <ref name="terminal-subtracting"/>
+        <ref name="terminal-multiplying"/>
+        <ref name="terminal-dividing"/>
+        <ref name="terminal-negating"/>
+        <ref name="terminal-exponentiating"/>
+        <ref name="terminal-grouping"/>
+      </choice>
+    </element>
+  </define>
+  <define name="scope_object">
+    <element name="scope_object">
+      <choice>
+        <group>
+          <ref name="terminal-whole_numbers"/>
+          <optional>
+            <ref name="sub_scope"/>
+          </optional>
+        </group>
+        <ref name="terminal-integers"/>
+        <ref name="terminal-unit_fractions"/>
+        <ref name="terminal-rational_numbers"/>
+        <ref name="terminal-real_numbers"/>
+        <ref name="terminal-imaginary_numbers"/>
+        <ref name="terminal-complex_numbers"/>
+        <ref name="terminal-vectors"/>
+        <ref name="terminal-matrices"/>
+        <ref name="terminal-infinite_numbers"/>
+        <ref name="terminal-random_numbers"/>
+        <ref name="terminal-expected_values"/>
+        <ref name="terminal-probabilities"/>
+        <ref name="terminal-the_plane"/>
+        <ref name="terminal-space"/>
+        <ref name="terminal-algebraic_expressions"/>
+        <ref name="terminal-numerical_expressions"/>
+      </choice>
+    </element>
+  </define>
+  <define name="notation_object">
+    <element name="notation_object">
+      <ref name="terminal-in"/>
+      <ref name="terminal-comma"/>
+      <choice>
+        <ref name="terminal-fractional_notations"/>
+        <ref name="terminal-decimal_notations"/>
+        <ref name="terminal-proportional_notation"/>
+        <ref name="terminal-addition_notation"/>
+        <ref name="terminal-subtraction_notation"/>
+        <ref name="terminal-multiplication_notation"/>
+        <ref name="terminal-division_notation"/>
+        <ref name="terminal-radical_notation"/>
+        <ref name="terminal-exponential_notation"/>
+        <ref name="terminal-scientific_notation"/>
+        <ref name="terminal-base_ten"/>
+      </choice>
+    </element>
+  </define>
+  <define name="math_practice_competency">
+    <element name="math_practice_competency">
+      <choice>
+        <ref name="terminal-make_sense_of_problems"/>
+        <ref name="terminal-persevere_in_solving_problems"/>
+        <ref name="terminal-reason_abstractly"/>
+        <ref name="terminal-reason_quantitatively"/>
+        <ref name="terminal-construct_viable_arguments"/>
+        <ref name="terminal-critique_reasoning"/>
+        <ref name="terminal-model_problems"/>
+        <ref name="terminal-use_tools_strategically"/>
+        <ref name="terminal-attend_to_precision"/>
+        <ref name="terminal-look_for_structure"/>
+        <ref name="terminal-make_use_of_structure"/>
+        <ref name="terminal-look_for_regularity_in_repeated_reasoning"/>
+        <ref name="terminal-express_regularity_in_repeated_reasoning"/>
+      </choice>
+    </element>
+  </define>
+  <define name="object">
+    <element name="object">
+      <choice>
+        <ref name="terminal-math_operations"/>
+        <ref name="terminal-string"/>
+      </choice>
+    </element>
+  </define>
+  <define name="specific_object">
+    <element name="specific_object">
+      <choice>
+        <ref name="terminal-string"/>
+        <ref name="terminal-specific_object_string"/>
+      </choice>
+    </element>
+  </define>
+  <define name="sub_scope">
+    <element name="sub_scope">
+      <choice>
+        <ref name="terminal-0"/>
+        <ref name="terminal-1"/>
+        <ref name="terminal-to_2"/>
+        <ref name="terminal-to_3"/>
+        <ref name="terminal-to_4"/>
+        <ref name="terminal-to_5"/>
+        <ref name="terminal-within_10"/>
+        <ref name="terminal-within_20"/>
+        <ref name="terminal-within_100"/>
+        <ref name="terminal-within_120"/>
+        <ref name="terminal-within_1000"/>
+      </choice>
+    </element>
+  </define>
+  <!--
+    
+    String terminals
+    
+  -->
+  <define name="terminal-activities">
+    <element name="terminal-activities">
+      <value>activities</value>
+    </element>
+  </define>
+  <define name="terminal-adding">
+    <element name="terminal-adding">
+      <value>adding</value>
+    </element>
+  </define>
+  <define name="terminal-addition_notation">
+    <element name="terminal-addition_notation">
+      <value>addition notation</value>
+    </element>
+  </define>
+  <define name="terminal-algebraic_expressions">
+    <element name="terminal-algebraic_expressions">
+      <value>algebraic expressions</value>
+    </element>
+  </define>
+  <define name="terminal-analyzing">
+    <element name="terminal-analyzing">
+      <value>analyzing</value>
+    </element>
+  </define>
+  <define name="terminal-applying">
+    <element name="terminal-applying">
+      <value>applying</value>
+    </element>
+  </define>
+  <define name="terminal-approximating">
+    <element name="terminal-approximating">
+      <value>approximating</value>
+    </element>
+  </define>
+  <define name="terminal-attend_to_precision">
+    <element name="terminal-attend_to_precision">
+      <value>attend to precision</value>
+    </element>
+  </define>
+  <define name="terminal-base_ten">
+    <element name="terminal-base_ten">
+      <value>base ten</value>
+    </element>
+  </define>
+  <define name="terminal-body_parts">
+    <element name="terminal-body_parts">
+      <value>body parts</value>
+    </element>
+  </define>
+  <define name="terminal-by">
+    <element name="terminal-by">
+      <value>by</value>
+    </element>
+  </define>
+  <define name="terminal-classifying">
+    <element name="terminal-classifying">
+      <value>classifying</value>
+    </element>
+  </define>
+  <define name="terminal-comma">
+    <element name="terminal-comma">
+      <value>,</value>
+    </element>
+  </define>
+  <define name="terminal-comparing">
+    <element name="terminal-comparing">
+      <value>comparing</value>
+    </element>
+  </define>
+  <define name="terminal-complex_numbers">
+    <element name="terminal-complex_numbers">
+      <value>complex numbers</value>
+    </element>
+  </define>
+  <define name="terminal-computing">
+    <element name="terminal-computing">
+      <value>computing</value>
+    </element>
+  </define>
+  <define name="terminal-construct_viable_arguments">
+    <element name="terminal-construct_viable_arguments">
+      <value>construct viable arguments</value>
+    </element>
+  </define>
+  <define name="terminal-constructing">
+    <element name="terminal-constructing">
+      <value>constructing</value>
+    </element>
+  </define>
+  <define name="terminal-converting">
+    <element name="terminal-converting">
+      <value>converting</value>
+    </element>
+  </define>
+  <define name="terminal-critique_reasoning">
+    <element name="terminal-critique_reasoning">
+      <value>critique reasoning</value>
+    </element>
+  </define>
+  <define name="terminal-decimal_notations">
+    <element name="terminal-decimal_notations">
+      <value>decimal notations</value>
+    </element>
+  </define>
+  <define name="terminal-describing">
+    <element name="terminal-describing">
+      <value>describing</value>
+    </element>
+  </define>
+  <define name="terminal-dividing">
+    <element name="terminal-dividing">
+      <value>dividing</value>
+    </element>
+  </define>
+  <define name="terminal-division_notation">
+    <element name="terminal-division_notation">
+      <value>division notation</value>
+    </element>
+  </define>
+  <define name="terminal-drawings">
+    <element name="terminal-drawings">
+      <value>drawings</value>
+    </element>
+  </define>
+  <define name="terminal-estimating">
+    <element name="terminal-estimating">
+      <value>estimating</value>
+    </element>
+  </define>
+  <define name="terminal-expected_values">
+    <element name="terminal-expected_values">
+      <value>expected values</value>
+    </element>
+  </define>
+  <define name="terminal-explaining">
+    <element name="terminal-explaining">
+      <value>explaining</value>
+    </element>
+  </define>
+  <define name="terminal-exponential_notation">
+    <element name="terminal-exponential_notation">
+      <value>exponential notation</value>
+    </element>
+  </define>
+  <define name="terminal-exponentiating">
+    <element name="terminal-exponentiating">
+      <value>exponentiating</value>
+    </element>
+  </define>
+  <define name="terminal-express_regularity_in_repeated_reasoning">
+    <element name="terminal-express_regularity_in_repeated_reasoning">
+      <value>express regularity in repeated reasoning</value>
+    </element>
+  </define>
+  <define name="terminal-extending">
+    <element name="terminal-extending">
+      <value>extending</value>
+    </element>
+  </define>
+  <define name="terminal-fractional_notations">
+    <element name="terminal-fractional_notations">
+      <value>fractional notation</value>
+    </element>
+  </define>
+  <define name="terminal-graphs">
+    <element name="terminal-graphs">
+      <value>graphs</value>
+    </element>
+  </define>
+  <define name="terminal-grouping">
+    <element name="terminal-grouping">
+      <value>grouping</value>
+    </element>
+  </define>
+  <define name="terminal-identifying">
+    <element name="terminal-identifying">
+      <value>identifying</value>
+    </element>
+  </define>
+  <define name="terminal-images">
+    <element name="terminal-images">
+      <value>images</value>
+    </element>
+  </define>
+  <define name="terminal-imaginary_numbers">
+    <element name="terminal-imaginary_numbers">
+      <value>imaginary numbers</value>
+    </element>
+  </define>
+  <define name="terminal-in">
+    <element name="terminal-in">
+      <value>in</value>
+    </element>
+  </define>
+  <define name="terminal-inferring">
+    <element name="terminal-inferring">
+      <value>inferring</value>
+    </element>
+  </define>
+  <define name="terminal-infinite_numbers">
+    <element name="terminal-infinite_numbers">
+      <value>infinite numbers</value>
+    </element>
+  </define>
+  <define name="terminal-integers">
+    <element name="terminal-integers">
+      <value>integers</value>
+    </element>
+  </define>
+  <define name="terminal-interpreting">
+    <element name="terminal-interpreting">
+      <value>interpreting</value>
+    </element>
+  </define>
+  <define name="terminal-iterating">
+    <element name="terminal-iterating">
+      <value>iterating</value>
+    </element>
+  </define>
+  <define name="terminal-knowledge_subprocess">
+    <element name="terminal-knowledge_subprocess">
+      <value>knowledge subprocess</value>
+    </element>
+  </define>
+  <define name="terminal-look_for_regularity_in_repeated_reasoning">
+    <element name="terminal-look_for_regularity_in_repeated_reasoning">
+      <value>look for regularity in repeated reasoning</value>
+    </element>
+  </define>
+  <define name="terminal-look_for_structure">
+    <element name="terminal-look_for_structure">
+      <value>look for structure</value>
+    </element>
+  </define>
+  <define name="terminal-make_sense_of_problems">
+    <element name="terminal-make_sense_of_problems">
+      <value>make sense of problems</value>
+    </element>
+  </define>
+  <define name="terminal-make_use_of_structure">
+    <element name="terminal-make_use_of_structure">
+      <value>make use of structure</value>
+    </element>
+  </define>
+  <define name="terminal-math_operations">
+    <element name="terminal-math_operations">
+      <value>math operations</value>
+    </element>
+  </define>
+  <define name="terminal-matrices">
+    <element name="terminal-matrices">
+      <value>matrics</value>
+    </element>
+  </define>
+  <define name="terminal-measuring">
+    <element name="terminal-measuring">
+      <value>measuring</value>
+    </element>
+  </define>
+  <define name="terminal-model_problems">
+    <element name="terminal-model_problems">
+      <value>model problems</value>
+    </element>
+  </define>
+  <define name="terminal-multiplication_notation">
+    <element name="terminal-multiplication_notation">
+      <value>multiplication notation</value>
+    </element>
+  </define>
+  <define name="terminal-multiplying">
+    <element name="terminal-multiplying">
+      <value>multiplying</value>
+    </element>
+  </define>
+  <define name="terminal-naming">
+    <element name="terminal-naming">
+      <value>naming</value>
+    </element>
+  </define>
+  <define name="terminal-negating">
+    <element name="terminal-negating">
+      <value>negating</value>
+    </element>
+  </define>
+  <define name="terminal-numerical_expressions">
+    <element name="terminal-numerical_expressions">
+      <value>numerical expressions</value>
+    </element>
+  </define>
+  <define name="terminal-ordering">
+    <element name="terminal-ordering">
+      <value>ordering</value>
+    </element>
+  </define>
+  <define name="terminal-persevere_in_solving_problems">
+    <element name="terminal-persevere_in_solving_problems">
+      <value>persevere in solving problems</value>
+    </element>
+  </define>
+  <define name="terminal-probabilities">
+    <element name="terminal-probabilities">
+      <value>probabilities</value>
+    </element>
+  </define>
+  <define name="terminal-proportional_notation">
+    <element name="terminal-proportional_notation">
+      <value>proportional notation</value>
+    </element>
+  </define>
+  <define name="terminal-radical_notation">
+    <element name="terminal-radical_notation">
+      <value>radical notation</value>
+    </element>
+  </define>
+  <define name="terminal-random_numbers">
+    <element name="terminal-random_numbers">
+      <value>random numbers</value>
+    </element>
+  </define>
+  <define name="terminal-randomly_sample">
+    <element name="terminal-randomly_sample">
+      <value>randomly sample</value>
+    </element>
+  </define>
+  <define name="terminal-rational_numbers">
+    <element name="terminal-rational_numbers">
+      <value>rational numbers</value>
+    </element>
+  </define>
+  <define name="terminal-real_numbers">
+    <element name="terminal-real_numbers">
+      <value>real numbers</value>
+    </element>
+  </define>
+  <define name="terminal-read">
+    <element name="terminal-read">
+      <value>read</value>
+    </element>
+  </define>
+  <define name="terminal-reason_abstractly">
+    <element name="terminal-reason_abstractly">
+      <value>reason abstractly</value>
+    </element>
+  </define>
+  <define name="terminal-reason_quantitatively">
+    <element name="terminal-reason_quantitatively">
+      <value>reason quantitatively</value>
+    </element>
+  </define>
+  <define name="terminal-reasoning">
+    <element name="terminal-reasoning">
+      <value>reasoning</value>
+    </element>
+  </define>
+  <define name="terminal-recite">
+    <element name="terminal-recite">
+      <value>recite</value>
+    </element>
+  </define>
+  <define name="terminal-relating">
+    <element name="terminal-relating">
+      <value>relating</value>
+    </element>
+  </define>
+  <define name="terminal-represent">
+    <element name="terminal-represent">
+      <value>represent</value>
+    </element>
+  </define>
+  <define name="terminal-representing">
+    <element name="terminal-representing">
+      <value>representing</value>
+    </element>
+  </define>
+  <define name="terminal-scientific_notation">
+    <element name="terminal-scientific_notation">
+      <value>scientific notation</value>
+    </element>
+  </define>
+  <define name="terminal-sequencing">
+    <element name="terminal-sequencing">
+      <value>sequencing</value>
+    </element>
+  </define>
+  <define name="terminal-solving">
+    <element name="terminal-solving">
+      <value>solving</value>
+    </element>
+  </define>
+  <define name="terminal-sounds">
+    <element name="terminal-sounds">
+      <value>sounds</value>
+    </element>
+  </define>
+  <define name="terminal-space">
+    <element name="terminal-space">
+      <value>space</value>
+    </element>
+  </define>
+  <define name="terminal-specific_knowledge_process_string">
+    <element name="terminal-specific_knowledge_process_string">
+      <value>specific knowledge process string</value>
+    </element>
+  </define>
+  <define name="terminal-specific_object_string">
+    <element name="terminal-specific_object_string">
+      <value>specific object string</value>
+    </element>
+  </define>
+  <define name="terminal-specimens">
+    <element name="terminal-specimens">
+      <value>specimens</value>
+    </element>
+  </define>
+  <define name="terminal-strategizing">
+    <element name="terminal-strategizing">
+      <value>strategizing</value>
+    </element>
+  </define>
+  <define name="terminal-string">
+    <element name="terminal-string">
+      <value>string</value>
+    </element>
+  </define>
+  <define name="terminal-subtracting">
+    <element name="terminal-subtracting">
+      <value>subtracting</value>
+    </element>
+  </define>
+  <define name="terminal-subtraction_notation">
+    <element name="terminal-subtraction_notation">
+      <value>subtraction notation</value>
+    </element>
+  </define>
+  <define name="terminal-symbols">
+    <element name="terminal-symbols">
+      <value>symbols</value>
+    </element>
+  </define>
+  <define name="terminal-the_plane">
+    <element name="terminal-the_plane">
+      <value>the plane</value>
+    </element>
+  </define>
+  <define name="terminal-understanding">
+    <element name="terminal-understanding">
+      <value>understanding</value>
+    </element>
+  </define>
+  <define name="terminal-unit_fractions">
+    <element name="terminal-unit_fractions">
+      <value>unit fractions</value>
+    </element>
+  </define>
+  <define name="terminal-use_tools_strategically">
+    <element name="terminal-use_tools_strategically">
+      <value>use tools strategically</value>
+    </element>
+  </define>
+  <define name="terminal-vectors">
+    <element name="terminal-vectors">
+      <value>vectors</value>
+    </element>
+  </define>
+  <define name="terminal-whole_numbers">
+    <element name="terminal-whole_numbers">
+      <value>whole numbers</value>
+    </element>
+  </define>
+  <define name="terminal-with">
+    <element name="terminal-with">
+      <value>with</value>
+    </element>
+  </define>
+  <define name="terminal-words">
+    <element name="terminal-words">
+      <value>words</value>
+    </element>
+  </define>
+  <define name="terminal-write">
+    <element name="terminal-write">
+      <value>write</value>
+    </element>
+  </define>
+  <!--
+    
+    Subscope string terminals
+    
+  -->
+  <define name="terminal-0">
+    <element name="terminal-0">
+      <value>0</value>
+    </element>
+  </define>
+  <define name="terminal-1">
+    <element name="terminal-1">
+      <value>1</value>
+    </element>
+  </define>
+  <define name="terminal-to_2">
+    <element name="terminal-to_2">
+      <value>to 2</value>
+    </element>
+  </define>
+  <define name="terminal-to_3">
+    <element name="terminal-to_3">
+      <value>to 3</value>
+    </element>
+  </define>
+  <define name="terminal-to_4">
+    <element name="terminal-to_4">
+      <value>to 4</value>
+    </element>
+  </define>
+  <define name="terminal-to_5">
+    <element name="terminal-to_5">
+      <value>to 5</value>
+    </element>
+  </define>
+  <define name="terminal-within_10">
+    <element name="terminal-within_10">
+      <value>within 10</value>
+    </element>
+  </define>
+  <define name="terminal-within_20">
+    <element name="terminal-within_20">
+      <value>within 20</value>
+    </element>
+  </define>
+  <define name="terminal-within_100">
+    <element name="terminal-within_100">
+      <value>within 100</value>
+    </element>
+  </define>
+  <define name="terminal-within_120">
+    <element name="terminal-within_120">
+      <value>within 120</value>
+    </element>
+  </define>
+  <define name="terminal-within_1000">
+    <element name="terminal-within_1000">
+      <value>within 1000</value>
+    </element>
+  </define>
+  <!--
+    
+    End node
+    
+  -->
+  <define name="end">
+    <element name="end">
+      <value>end</value>
+    </element>
+  </define>
+</grammar>

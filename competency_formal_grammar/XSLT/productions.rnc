@@ -1,0 +1,273 @@
+# productions.rnc
+# last modified 2021-12-05
+# 
+# Based on competency_syntax_diagram.xhtml#modified_competency
+# 
+# NB: scope_object is never used (no references), 
+#   which means that sub_scope is never used
+#
+start = modified_competency
+modified_competency =
+  element modified_competency {
+    (((formal_process
+       | (knowledge_process, (terminal-by, knowledge_subprocess)?))?,
+      ((math_operation, terminal-comma, object) | specific_object),
+      notation_object?)
+     | math_practice_competency),
+    end
+  }
+formal_process =
+  element formal_process {
+    terminal-read
+    | terminal-recite
+    | terminal-write
+    | (terminal-represent, (terminal-with, representation)?)
+    | terminal-randomly_sample
+  }
+representation = element representation { models | realia | glyphs }
+models = element models { terminal-images | terminal-sounds | terminal-activities }
+realia = element realia { terminal-specimens | terminal-body_parts }
+glyphs = element glyphs { terminal-words | terminal-symbols | terminal-drawings | terminal-graphs }
+knowledge_process =
+  element knowledge_process {
+    terminal-identifying
+    | terminal-describing
+    | terminal-comparing
+    | terminal-understanding
+    | terminal-representing
+    | terminal-applying
+    | terminal-relating
+    | terminal-analyzing
+    | terminal-interpreting
+    | terminal-extending
+    | terminal-classifying
+    | terminal-measuring
+    | terminal-iterating
+    | terminal-solving
+    | terminal-converting
+    | terminal-reasoning
+    | terminal-computing
+    | terminal-approximating
+    | terminal-estimating
+    | terminal-inferring
+    | terminal-grouping
+    | terminal-strategizing
+    | terminal-explaining
+    | terminal-constructing
+  }
+knowledge_subprocess =
+  element knowledge_subprocess {
+    terminal-specific_knowledge_process_string | terminal-knowledge_subprocess
+  }
+math_operation =
+  element math_operation {
+    terminal-naming
+    | terminal-sequencing
+    | terminal-ordering
+    | terminal-adding
+    | terminal-subtracting
+    | terminal-multiplying
+    | terminal-dividing
+    | terminal-negating
+    | terminal-exponentiating
+    | terminal-grouping
+  }
+scope_object =
+  element scope_object {
+    (terminal-whole_numbers, sub_scope?)
+    | terminal-integers
+    | terminal-unit_fractions
+    | terminal-rational_numbers
+    | terminal-real_numbers
+    | terminal-imaginary_numbers
+    | terminal-complex_numbers
+    | terminal-vectors
+    | terminal-matrices
+    | terminal-infinite_numbers
+    | terminal-random_numbers
+    | terminal-expected_values
+    | terminal-probabilities
+    | terminal-the_plane
+    | terminal-space
+    | terminal-algebraic_expressions
+    | terminal-numerical_expressions
+  }
+notation_object =
+  element notation_object {
+    terminal-in,
+    terminal-comma,
+    (terminal-fractional_notations
+     | terminal-decimal_notations
+     | terminal-proportional_notation
+     | terminal-addition_notation
+     | terminal-subtraction_notation
+     | terminal-multiplication_notation
+     | terminal-division_notation
+     | terminal-radical_notation
+     | terminal-exponential_notation
+     | terminal-scientific_notation
+     | terminal-base_ten)
+  }
+math_practice_competency =
+  element math_practice_competency {
+    terminal-make_sense_of_problems
+    | terminal-persevere_in_solving_problems
+    | terminal-reason_abstractly
+    | terminal-reason_quantitatively
+    | terminal-construct_viable_arguments
+    | terminal-critique_reasoning
+    | terminal-model_problems
+    | terminal-use_tools_strategically
+    | terminal-attend_to_precision
+    | terminal-look_for_structure
+    | terminal-make_use_of_structure
+    | terminal-look_for_regularity_in_repeated_reasoning
+    | terminal-express_regularity_in_repeated_reasoning
+  }
+object = element object { terminal-math_operations | terminal-string }
+specific_object = element specific_object { terminal-string | terminal-specific_object_string }
+sub_scope =
+  element sub_scope {
+    terminal-0
+    | terminal-1
+    | terminal-to_2
+    | terminal-to_3
+    | terminal-to_4
+    | terminal-to_5
+    | terminal-within_10
+    | terminal-within_20
+    | terminal-within_100
+    | terminal-within_120
+    | terminal-within_1000
+  }
+# 
+# String terminals
+#
+terminal-activities = element terminal-activities { "activities" }
+terminal-adding = element terminal-adding { "adding" }
+terminal-addition_notation = element terminal-addition_notation { "addition notation" }
+terminal-algebraic_expressions = element terminal-algebraic_expressions { "algebraic expressions" }
+terminal-analyzing = element terminal-analyzing { "analyzing" }
+terminal-applying = element terminal-applying { "applying" }
+terminal-approximating = element terminal-approximating { "approximating" }
+terminal-attend_to_precision = element terminal-attend_to_precision { "attend to precision" }
+terminal-base_ten = element terminal-base_ten { "base ten" }
+terminal-body_parts = element terminal-body_parts { "body parts" }
+terminal-by = element terminal-by { "by" }
+terminal-classifying = element terminal-classifying { "classifying" }
+terminal-comma = element terminal-comma { "," }
+terminal-comparing = element terminal-comparing { "comparing" }
+terminal-complex_numbers = element terminal-complex_numbers { "complex numbers" }
+terminal-computing = element terminal-computing { "computing" }
+terminal-construct_viable_arguments =
+  element terminal-construct_viable_arguments { "construct viable arguments" }
+terminal-constructing = element terminal-constructing { "constructing" }
+terminal-converting = element terminal-converting { "converting" }
+terminal-critique_reasoning = element terminal-critique_reasoning { "critique reasoning" }
+terminal-decimal_notations = element terminal-decimal_notations { "decimal notations" }
+terminal-describing = element terminal-describing { "describing" }
+terminal-dividing = element terminal-dividing { "dividing" }
+terminal-division_notation = element terminal-division_notation { "division notation" }
+terminal-drawings = element terminal-drawings { "drawings" }
+terminal-estimating = element terminal-estimating { "estimating" }
+terminal-expected_values = element terminal-expected_values { "expected values" }
+terminal-explaining = element terminal-explaining { "explaining" }
+terminal-exponential_notation = element terminal-exponential_notation { "exponential notation" }
+terminal-exponentiating = element terminal-exponentiating { "exponentiating" }
+terminal-express_regularity_in_repeated_reasoning =
+  element terminal-express_regularity_in_repeated_reasoning {
+    "express regularity in repeated reasoning"
+  }
+terminal-extending = element terminal-extending { "extending" }
+terminal-fractional_notations = element terminal-fractional_notations { "fractional notation" }
+terminal-graphs = element terminal-graphs { "graphs" }
+terminal-grouping = element terminal-grouping { "grouping" }
+terminal-identifying = element terminal-identifying { "identifying" }
+terminal-images = element terminal-images { "images" }
+terminal-imaginary_numbers = element terminal-imaginary_numbers { "imaginary numbers" }
+terminal-in = element terminal-in { "in" }
+terminal-inferring = element terminal-inferring { "inferring" }
+terminal-infinite_numbers = element terminal-infinite_numbers { "infinite numbers" }
+terminal-integers = element terminal-integers { "integers" }
+terminal-interpreting = element terminal-interpreting { "interpreting" }
+terminal-iterating = element terminal-iterating { "iterating" }
+terminal-knowledge_subprocess = element terminal-knowledge_subprocess { "knowledge subprocess" }
+terminal-look_for_regularity_in_repeated_reasoning =
+  element terminal-look_for_regularity_in_repeated_reasoning {
+    "look for regularity in repeated reasoning"
+  }
+terminal-look_for_structure = element terminal-look_for_structure { "look for structure" }
+terminal-make_sense_of_problems =
+  element terminal-make_sense_of_problems { "make sense of problems" }
+terminal-make_use_of_structure = element terminal-make_use_of_structure { "make use of structure" }
+terminal-math_operations = element terminal-math_operations { "math operations" }
+terminal-matrices = element terminal-matrices { "matrics" }
+terminal-measuring = element terminal-measuring { "measuring" }
+terminal-model_problems = element terminal-model_problems { "model problems" }
+terminal-multiplication_notation =
+  element terminal-multiplication_notation { "multiplication notation" }
+terminal-multiplying = element terminal-multiplying { "multiplying" }
+terminal-naming = element terminal-naming { "naming" }
+terminal-negating = element terminal-negating { "negating" }
+terminal-numerical_expressions = element terminal-numerical_expressions { "numerical expressions" }
+terminal-ordering = element terminal-ordering { "ordering" }
+terminal-persevere_in_solving_problems =
+  element terminal-persevere_in_solving_problems { "persevere in solving problems" }
+terminal-probabilities = element terminal-probabilities { "probabilities" }
+terminal-proportional_notation = element terminal-proportional_notation { "proportional notation" }
+terminal-radical_notation = element terminal-radical_notation { "radical notation" }
+terminal-random_numbers = element terminal-random_numbers { "random numbers" }
+terminal-randomly_sample = element terminal-randomly_sample { "randomly sample" }
+terminal-rational_numbers = element terminal-rational_numbers { "rational numbers" }
+terminal-real_numbers = element terminal-real_numbers { "real numbers" }
+terminal-read = element terminal-read { "read" }
+terminal-reason_abstractly = element terminal-reason_abstractly { "reason abstractly" }
+terminal-reason_quantitatively = element terminal-reason_quantitatively { "reason quantitatively" }
+terminal-reasoning = element terminal-reasoning { "reasoning" }
+terminal-recite = element terminal-recite { "recite" }
+terminal-relating = element terminal-relating { "relating" }
+terminal-represent = element terminal-represent { "represent" }
+terminal-representing = element terminal-representing { "representing" }
+terminal-scientific_notation = element terminal-scientific_notation { "scientific notation" }
+terminal-sequencing = element terminal-sequencing { "sequencing" }
+terminal-solving = element terminal-solving { "solving" }
+terminal-sounds = element terminal-sounds { "sounds" }
+terminal-space = element terminal-space { "space" }
+terminal-specific_knowledge_process_string =
+  element terminal-specific_knowledge_process_string { "specific knowledge process string" }
+terminal-specific_object_string =
+  element terminal-specific_object_string { "specific object string" }
+terminal-specimens = element terminal-specimens { "specimens" }
+terminal-strategizing = element terminal-strategizing { "strategizing" }
+terminal-string = element terminal-string { "string" }
+terminal-subtracting = element terminal-subtracting { "subtracting" }
+terminal-subtraction_notation = element terminal-subtraction_notation { "subtraction notation" }
+terminal-symbols = element terminal-symbols { "symbols" }
+terminal-the_plane = element terminal-the_plane { "the plane" }
+terminal-understanding = element terminal-understanding { "understanding" }
+terminal-unit_fractions = element terminal-unit_fractions { "unit fractions" }
+terminal-use_tools_strategically =
+  element terminal-use_tools_strategically { "use tools strategically" }
+terminal-vectors = element terminal-vectors { "vectors" }
+terminal-whole_numbers = element terminal-whole_numbers { "whole numbers" }
+terminal-with = element terminal-with { "with" }
+terminal-words = element terminal-words { "words" }
+terminal-write = element terminal-write { "write" }
+# 
+# Subscope string terminals
+#
+terminal-0 = element terminal-0 { "0" }
+terminal-1 = element terminal-1 { "1" }
+terminal-to_2 = element terminal-to_2 { "to 2" }
+terminal-to_3 = element terminal-to_3 { "to 3" }
+terminal-to_4 = element terminal-to_4 { "to 4" }
+terminal-to_5 = element terminal-to_5 { "to 5" }
+terminal-within_10 = element terminal-within_10 { "within 10" }
+terminal-within_20 = element terminal-within_20 { "within 20" }
+terminal-within_100 = element terminal-within_100 { "within 100" }
+terminal-within_120 = element terminal-within_120 { "within 120" }
+terminal-within_1000 = element terminal-within_1000 { "within 1000" }
+# 
+# End node
+#
+end = element end { "end" }
