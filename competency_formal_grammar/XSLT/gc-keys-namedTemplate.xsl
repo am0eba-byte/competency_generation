@@ -12,6 +12,7 @@
    Of those that have a @class attribute, some have a single value, and some have multiple values separated by a space.
    
    INPUT file is test_attScopes_competency_components.xml
+   OUTPUT file is scopeKeySentences-output.xml
    
    As ever, our GOAL is to produce a human-readable and easily edited stylesheet. This reads an XML document that expresses competency relationships, and this time expresses scope delimiters too,
  in a simple tree structure. The stylesheet outputs XML to mark the parts of a series of sentences organized in set combinations.
