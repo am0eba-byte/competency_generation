@@ -5,27 +5,29 @@
     exclude-result-prefixes="xs arj"
     version="3.0">
     
+    <!--2021-12-08 ebb mb: This new XSLT is an experiment with xsl:keys for filtering and locating intersections/subsets using scopes. We have prepared a new input XML that applies scopes using @class attributes 
+   on <string> elements nested variously anywhere that a <string> may be found to be a sentence component: (In this sample, it's <math_operation>, <object>, <specific_object>, <formal_process>, <knowledge_process>, <notation_object>, and also in the <whole_numbers_knowledge_subprocess>.
+   
+   Some <string> elements have a @class attribute. Some don't.
+   Of those that have a @class attribute, some have a single value, and some have multiple values separated by a space.
+   
+   INPUT file is test_attScopes_competency_components.xml
+   
+   As ever, our GOAL is to produce a human-readable and easily edited stylesheet. This reads an XML document that expresses competency relationships, and this time expresses scope delimiters too,
+ in a simple tree structure. The stylesheet outputs XML to mark the parts of a series of sentences organized in set combinations.
+ 
+    
+    -->   
+    
     <!-- Sentence flow from EBNF:
         modified_competency = 
         ( ([ formal_process ] | [ knowledge_process, [ “by” knowledge_subprocess ] ]), ((math_operation,  object) | specific_object ), [ notation_object ] ) | math_practice_competency ;
  -->
-    
- <!--2021-12-08 ebb mb: UPDATE: Experiment with xsl:keys for filtering and locating intersections/subsets using scopes. -->   
-    
- <!--2021-12-04 ebb: GOAL: a human-readable and easily edited stylesheet. This reads an XML document that expresses competency relationships 
- in a simple tree structure, and outputs XML to mark the parts of a series of sentences organized in set combinations.
- Currently, any and all combinations are maximally generated, until we have set some indications of more exclusive combination rules. 
- 
- METHOD: XSLT parameters and a single XSLT named template that processes a series of conditions depending on the 
- number of input parameters, goes and looks up the information from the source tree. 
- This XSLT generates, currently, 16 different kinds of sentence outputs based on 7 possible input parameters.
- 
- -->
+   
     
     <xsl:output method="xml" indent="yes"/>
  
- <!-- ebb: Here we have defined seven different global parameters that are just strings of text designed to match 
-element names in the source document. Parameters are very similar to variables in XSLT, but have a little more flexibility. -->
+ <!-- ebb: Here we have defined a series of global parameters that are just strings of text designed to match element names in the source document. Parameters are very similar to variables in XSLT, but have a little more flexibility.They could be received into this XSLT as input, so imagine these as INPUT PARAMETERS to this XSLT. -->
 
     <xsl:param name="math_operation" as="xs:string" select="'math_operation'"/>
     <xsl:param name="object" as="xs:string" select="'object'"/>
@@ -33,36 +35,18 @@ element names in the source document. Parameters are very similar to variables i
     <xsl:param name="specific_object" as="xs:string" select="'specific_object'"/>
     <xsl:param name="formal_process" as="xs:string" select="'formal_process'"/>
     <xsl:param name="knowledge_process" as="xs:string" select="'knowledge_process'"/>
-
-<!-- mb: The below parameters include those that are specific to a particular scope's competency sentence possibilities. (More to come)
-  <xsl:param name="wholeNumKSP" as="xs:string" select="'whole_numbers_knowledge_subprocess'"/>
- -->
+<!-- mb: The below parameters include those that are specific to a particular scope's competency sentence possibilities. (More to come) -->
+    <xsl:param name="wholeNumKSP" as="xs:string" select="'whole_numbers_knowledge_subprocess'"/>
     
-    <!-- PARAMETERS for scopes -->
-  <!--  <xsl:param name="wholenum" as="xs:string" select="'wholenum'"/>
+ <!--ebb: We add some more strings for scope delimiters seeded throughout the document: -->
+    <xsl:param name="wholenum" as="xs:string" select="'wholenum'"/>
     <xsl:param name="complex" as="xs:string" select="'complex'"/>
-    -->
+   
     
-    <!--2021-12-08 ebb mb: We currently have "seeded" the input XML for this stylesheet with scopes specified by @class attributes on
-   various keyed elements. --> 
+    <!--2021-12-08 ebb mb: Below we introduce an xsl:key that reaches for scope delimiters in our source document. We have "seeded" the input XML for this stylesheet with scopes specified by @class attributes on various keyed elements. The The key reaches for all <string> elements and where they have @class attributes, it tokenizes them on one or more spaces in case there are multiple values.--> 
+    
     <xsl:key name="scopes" match="string" use="@class ! tokenize(., '\s+')"/>
    
-   <!-- KEYED SCOPE VARIABLES -->
-    <xsl:variable name="mathopWNS" as="element()+">
-        <xsl:for-each select="key('scopes', 'wholenum')">
-            <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>          
-        </xsl:for-each>
-    </xsl:variable>
-    <xsl:variable name="objectWNS" as="element()+">
-        <xsl:for-each select="key('scopes', 'wholenum')">
-            <xsl:sequence select=".[parent::* ! name() = $object]"/>          
-        </xsl:for-each>
-    </xsl:variable>
-    
-    
-    
-    
-    
     <!-- KEYS: all components -->
     <xsl:key name="elements" match="compParts" use="descendant::*"/>
     
@@ -196,49 +180,147 @@ element names in the source document. Parameters are very similar to variables i
         </xsl:for-each>
       </xsl:template>
     
- <!--ebb: Here is a template matching on the source document node and set to output a new XML file that groups 
-     16 different kinds of sentences. We use <xsl:call-templates> to invoke a named template, and inside, we deliver
-     what parameters we need to construct a sentence. We pull these from the global parameters defined at the top of this
-     XSLT document. 
+    
+    <!--ebb: In the xsl:template rule below, we set up each kind of sentence combination we want. 
+        This is a template matching on the source document node and set to output a new XML file
+        that groups different kinds of sentences. 
+        (This could be split into separate XSLT stylesheets designed to handle one or two related combinations, 
+        but for testing, we're putting them all together here.) 
+     We use <xsl:call-templates> to invoke a named template, and inside, we deliver
+     what parameters we need to construct a sentence. We pull these from the global parameters 
+     defined at the top of this XSLT document. 
  -->  
    <xsl:template match="/">
+       
+       <!-- KEYED SCOPE VARIABLES: Here we define a series of variables to filter each of our sentence components by the presence of keyed scopes. If this XSLT were to accept parameter input, say, in the form of text strings identifying a scope, those input parameters could be fed in as a key value to the variables below. We could define these at the top of the stylesheet, but since they're essential to coordinating sentence constructions, perhaps it's better to work out the combinations in this template that directs how sentences are written. -->
+     
        <xml>
            <xsl:comment>###############################</xsl:comment>
-           <xsl:comment>TEST. Math Operation Objects Without Notations, SCOPED to Whole Numbers</xsl:comment>
+           <xsl:comment>SCOPE DELIMITER A: Math Operation Objects Without Notations, Scoped to Whole Numbers</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
-         
-      
-
+           <xsl:variable name="mathopWN" as="element()+">
+               <xsl:for-each select="key('scopes', $wholenum)">
+                   <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>     
+               </xsl:for-each>
+           </xsl:variable>
+           <xsl:variable name="objectWN" as="element()+">
+               <xsl:for-each select="key('scopes', $wholenum)">
+                   <xsl:sequence select=".[parent::* ! name() = $object]"/>          
+               </xsl:for-each>
+           </xsl:variable>
+           <sentenceGroup xml:id="moW">
+               <desc>Math operations and objects, scoped to whole numbers</desc>
          <xsl:call-template name="sentenceWriter">
-               <xsl:with-param name="param1" as="element()+"  select="$mathopWNS"/>
-               <xsl:with-param name="param2" as="element()+" select="$objectWNS"/>
+               <xsl:with-param name="param1" as="element()+"  select="$mathopWN"/>
+               <xsl:with-param name="param2" as="element()+" select="$objectWN"/>
            </xsl:call-template>
- 
-    <!--    <xsl:variable name="wholenumScope">
-            <xsl:for-each select="key('scopes', 'wholenum')">
-            <xsl:sequence select="."/><xsl:text>, </xsl:text>            
-        </xsl:for-each>
-        </xsl:variable>
-               
-               <xsl:variable name="complexScope">
-                   <xsl:for-each select="key('scopes', 'complex')">
-                       <xsl:sequence select="."/><xsl:text>, </xsl:text>            
-                   </xsl:for-each>
-               </xsl:variable>
+       </sentenceGroup>
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>SCOPE DELIMITER B: Math Operation Objects With Notations, Scoped to Complex numbers</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
+           <!--ebb: NOTE that this picks up complex numbers when scoped together with wholenumbers thanks to the power of tokenize()! :-) -->
+           <xsl:variable name="mathopC" as="element()+">
+               <xsl:for-each select="key('scopes', $complex)">
+                   <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>     
+               </xsl:for-each>
+           </xsl:variable>
+           <xsl:variable name="objectC" as="element()+">
+               <xsl:for-each select="key('scopes', $complex)">
+                   <xsl:sequence select=".[parent::* ! name() = $object]"/>          
+               </xsl:for-each>
+           </xsl:variable>
+           <xsl:variable name="notationC" as="element()+">
+               <xsl:for-each select="key('scopes', $complex)">
+                   <xsl:sequence select=".[parent::* ! name() = $notation]"/>          
+               </xsl:for-each>
+           </xsl:variable>
+          <sentenceGroup xml:id="monC"> <desc>Math operations and objects with notations, scoped to complex numbers</desc>
+           <xsl:call-template name="sentenceWriter">
+               <xsl:with-param name="param1" as="element()+"  select="$mathopC"/>
+               <xsl:with-param name="param2" as="element()+" select="$objectC"/>
+               <xsl:with-param name="param3" as="element()+" select="$notationC"/>
+           </xsl:call-template>
+           </sentenceGroup>
+   
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>SCOPE DELIMITER C: Math Operation Objects With Notations, Scoped to Both Whole Numbers and Complex numbers</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:variable name="mathopWNC" as="element()+">
+               <xsl:for-each select="key('scopes', $complex)">
+                   <xsl:sequence select=".[contains(@class, $wholenum)][parent::* ! name() = $math_operation]"/>          
+               </xsl:for-each>
+           </xsl:variable>
+           <xsl:variable name="objectWNC" as="element()+">
+               <xsl:for-each select="key('scopes', $complex)">
+                   <xsl:sequence select=".[contains(@class, $wholenum)][parent::* ! name() = $object]"/>          
+               </xsl:for-each>
+           </xsl:variable>
+           <xsl:variable name="notationWNC" as="element()+">
+               <xsl:for-each select="key('scopes', $complex)">
+                   <xsl:sequence select=".[contains(@class, $wholenum)][parent::* ! name() = $notation]"/>          
+               </xsl:for-each>
+           </xsl:variable>
+          <sentenceGroup xml:id="monWC"> <desc>Math operations and objects with notations, scoped to the limited subset of BOTH whole numbers AND complex numbers</desc>
 
-              
-               
-          <xsl:for-each select="key('scopes', 'complex')">
-              <xsl:sequence select="./parent::* ! name()"/>
+           <xsl:call-template name="sentenceWriter">
+               <xsl:with-param name="param1" as="element()+"  select="$mathopWNC"/>
+               <xsl:with-param name="param2" as="element()+" select="$objectWNC"/>
+               <xsl:with-param name="param3" as="element()+" select="$notationWNC"/>
+           </xsl:call-template></sentenceGroup>
+   
+   
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>SCOPE DELIMITER D: Formal Processes with Specific Objects and Notations: , Scoped to Both Whole Numbers and Complex numbers</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:variable name="formal_processWNC" as="element()+">
+               <xsl:for-each select="key('scopes', $complex)">
+                   <xsl:sequence select=".[contains(@class, $wholenum)][parent::* ! name() = $formal_process]"/>          
+               </xsl:for-each>
+           </xsl:variable>
+           <xsl:variable name="specific_objectWNC" as="element()+">
+               <xsl:for-each select="key('scopes', $complex)">
+                   <xsl:sequence select=".[contains(@class, $wholenum)][parent::* ! name() = $specific_object]"/>          
+               </xsl:for-each>
+           </xsl:variable>
+           <sentenceGroup xml:id="fpsonWC">
+               <desc>Sentences describing formal processes with specific objects and notations, scoped to the limited subset of BOTH whole numbers AND complex numbers</desc>
  
-          </xsl:for-each>-->
-              
+               <xsl:call-template name="sentenceWriter">
+                   <xsl:with-param name="param1" as="element()+" select="$formal_processWNC"/>
+                   <xsl:with-param name="param2" as="element()+" select="$specific_objectWNC"/>
+                   <xsl:with-param name="param3" as="element()+" select="$notationWNC"/>
+               </xsl:call-template>
+           </sentenceGroup>
+           
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:comment>SCOPE DELIMITER E: Knowledge Processes with Whole Number Subprocesses with Specific Objects and Notations, Scoped to Both Whole Numbers and Complex numbers</xsl:comment>
+           <xsl:comment>###############################</xsl:comment>
+           <xsl:variable name="knowledge_processWNC" as="element()+">
+               <xsl:for-each select="key('scopes', $complex)">
+                   <xsl:sequence select=".[contains(@class, $wholenum)][parent::* ! name() = $knowledge_process]"/>          
+               </xsl:for-each>
+           </xsl:variable>  
+           <xsl:variable name="wholeNumkspWNC" as="element()+">
+               <xsl:for-each select="key('scopes', $complex)">
+                   <xsl:sequence select=".[contains(@class, $wholenum)][parent::* ! name() = $wholeNumKSP]"/>          
+               </xsl:for-each>
+           </xsl:variable>   
+           
+           <sentenceGroup xml:id="kpsmonWC">
+                   <desc>Sentences describing knowledge processes and subprocesses associated with the whole numbers scope, with math operation objects and notations.</desc>
+                   
                
-            
-        
-               
+                 <xsl:call-template name="sentenceWriter">
+                     <xsl:with-param name="param1" as="element()+" select="$knowledge_processWNC"/>
+                       <xsl:with-param name="param2" as="element()+" select="$wholeNumkspWNC"/>
+                       <xsl:with-param name="param3" as="element()+" select="$mathopWNC"/>
+                       <xsl:with-param name="param4" as="element()+" select="$objectWNC"/>
+                       <xsl:with-param name="param5" as="element()+" select="$notationWNC"/>
+                   </xsl:call-template>
+               </sentenceGroup>
            
            
+          
            <!--      <xsl:comment>###############################</xsl:comment>
            <xsl:comment>1. Math Operation Objects Without Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>

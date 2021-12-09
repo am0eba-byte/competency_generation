@@ -174,10 +174,14 @@ element names in the source document. Parameters are very similar to variables i
         </xsl:for-each>
       </xsl:template>
     
- <!--ebb: Here is a template matching on the source document node and set to output a new XML file that groups 
-     16 different kinds of sentences. We use <xsl:call-templates> to invoke a named template, and inside, we deliver
-     what parameters we need to construct a sentence. We pull these from the global parameters defined at the top of this
-     XSLT document. 
+    <!--ebb: In the xsl:template rule below, we set up each kind of sentence combination we want. 
+        This is a template matching on the source document node and set to output a new XML file
+        that groups different kinds of sentences. 
+        (This could be split into separate XSLT stylesheets designed to handle one or two related combinations, 
+        but for testing, we're putting them all together here.) 
+     We use <xsl:call-templates> to invoke a named template, and inside, we deliver
+     what parameters we need to construct a sentence. We pull these from the global parameters 
+     defined at the top of this XSLT document. 
  -->  
    <xsl:template match="/">
        <xml>
@@ -202,7 +206,7 @@ element names in the source document. Parameters are very similar to variables i
            </xsl:call-template>
            
            
-         <!--  <xsl:comment>###############################</xsl:comment>
+         <xsl:comment>###############################</xsl:comment>
            <xsl:comment>1. Math Operation Objects Without Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
       
@@ -396,7 +400,7 @@ element names in the source document. Parameters are very similar to variables i
                    <xsl:with-param name="param3" as="xs:string" select="$specific_object"/>
                    <xsl:with-param name="param4" as="xs:string" select="$notation"/>
                </xsl:call-template>
-           </sentenceGroup> -->
+           </sentenceGroup> 
        </xml>
    </xsl:template>  
 </xsl:stylesheet>
