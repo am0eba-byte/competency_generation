@@ -2,7 +2,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:arj="http://arjuna.bil.com"
-    xmlns:saxon="http://saxon.sf.net/"
     exclude-result-prefixes="xs arj"
     version="3.0">
     
@@ -10,6 +9,8 @@
         modified_competency = 
         ( ([ formal_process ] | [ knowledge_process, [ “by” knowledge_subprocess ] ]), ((math_operation,  object) | specific_object ), [ notation_object ] ) | math_practice_competency ;
  -->
+    
+ <!--2021-12-08 ebb mb: UPDATE: Experiment with xsl:keys for filtering and locating intersections/subsets using scopes. -->   
     
  <!--2021-12-04 ebb: GOAL: a human-readable and easily edited stylesheet. This reads an XML document that expresses competency relationships 
  in a simple tree structure, and outputs XML to mark the parts of a series of sentences organized in set combinations.
@@ -23,22 +24,64 @@
     
     <xsl:output method="xml" indent="yes"/>
  
-    <xsl:key name="scopes" match="string" use="@class ! tokenize(., '\s+')"/>
- 
  <!-- ebb: Here we have defined seven different global parameters that are just strings of text designed to match 
-element names in the source document. Parameters are very similar to variables in XSLT, but have a little more flexibility. 
- -->
-    
+element names in the source document. Parameters are very similar to variables in XSLT, but have a little more flexibility. -->
+
     <xsl:param name="math_operation" as="xs:string" select="'math_operation'"/>
     <xsl:param name="object" as="xs:string" select="'object'"/>
     <xsl:param name="notation" as="xs:string" select="'notation_object'"/>
     <xsl:param name="specific_object" as="xs:string" select="'specific_object'"/>
     <xsl:param name="formal_process" as="xs:string" select="'formal_process'"/>
     <xsl:param name="knowledge_process" as="xs:string" select="'knowledge_process'"/>
+
+<!-- mb: The below parameters include those that are specific to a particular scope's competency sentence possibilities. (More to come)
+  <xsl:param name="wholeNumKSP" as="xs:string" select="'whole_numbers_knowledge_subprocess'"/>
+ -->
     
-    <!-- mb: The below parameters include those that are specific to a particular scope's competency sentence possibilities. (More to come) -->
-    <xsl:param name="wholeNumKSP" as="xs:string" select="'whole_numbers_knowledge_subprocess'"/>
+    <!-- PARAMETERS for scopes -->
+  <!--  <xsl:param name="wholenum" as="xs:string" select="'wholenum'"/>
+    <xsl:param name="complex" as="xs:string" select="'complex'"/>
+    -->
     
+    <!--2021-12-08 ebb mb: We currently have "seeded" the input XML for this stylesheet with scopes specified by @class attributes on
+   various keyed elements. --> 
+    <xsl:key name="scopes" match="string" use="@class ! tokenize(., '\s+')"/>
+   
+   <!-- KEYED SCOPE VARIABLES -->
+    <xsl:variable name="mathopWNS" as="element()+">
+        <xsl:for-each select="key('scopes', 'wholenum')">
+            <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>          
+        </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="objectWNS" as="element()+">
+        <xsl:for-each select="key('scopes', 'wholenum')">
+            <xsl:sequence select=".[parent::* ! name() = $object]"/>          
+        </xsl:for-each>
+    </xsl:variable>
+    
+    
+    
+    
+    
+    <!-- KEYS: all components -->
+    <xsl:key name="elements" match="compParts" use="descendant::*"/>
+    
+  <!-- DOES NOT WORK   <xsl:variable name="mathops">
+        <xsl:for-each select="key('elements', 'math_operation')">
+            <xsl:sequence select="key('scopes', 'wholenum', current())"/>
+        </xsl:for-each>
+    </xsl:variable>-->
+    
+<!--    <!-\- KEYS: specific components: keyed to <string> elements. -\->
+    <xsl:key name="math_operation" match="math_operation" use="string"/>
+    <xsl:key name="object" match="object" use="string"/> 
+    <xsl:key name="notation" match="notation" use="string"/> 
+    <xsl:key name="specific_object" match="specific_object" use="string"/> 
+    <xsl:key name="formal_process" match="formal_process" use="string"/> 
+    <xsl:key name="knowledge_process" match="knowledge_process" use="string"/> 
+    -->
+
+ 
 <!--ebb: Here is our XSLT Named Template that handles the sentence construction: I've set this so we expect at least 
     two required input parameters. The rest are optional. 
     The input parameters are just strings that line up with the element names in the XML source document.
@@ -49,73 +92,52 @@ element names in the source document. Parameters are very similar to variables i
     And if five parameters are sentence, the function outputs a "sentence" of five elements.
     -->
     <xsl:template name="sentenceWriter" as="element()+">
-        <xsl:param name="param1" as="xs:string" required="yes"/>
-        <xsl:param name="param2" as="xs:string" required="yes"/>
-        <xsl:param name="param3" as="xs:string?"/>
-        <xsl:param name="param4" as="xs:string?"/>
-        <xsl:param name="param5" as="xs:string?"/>
-      
-       <xsl:variable name="allParams" select="($param1, $param2, $param3, $param4, $param5)" as="xs:string+"/>
-  <!--ebb: Seems like we should be able to construct these variable names from a for-loop, but apparently not permitted due to how XSLT stylesheets
-      get compiled and run. So we'll "hard code" them (sigh). 
-        <xsl:for-each select="($param1, $param2, $param3, $param4,$param5)">
-           
-           <xsl:variable name="variableName" as="xs:string">
-               <xsl:sequence select="xs:QName(current())"/>
-           </xsl:variable>
-            
-            <xsl:variable name="EQName(var{position()})" select="//*[name() = current()]/string ! normalize-space()"/>
-            
-        </xsl:for-each> -->
-            
-            
-      <xsl:variable name="var1" as="xs:string+">
-           <xsl:sequence select="//*[name() = $param1]/string ! normalize-space()"/>
-      </xsl:variable>
-        <xsl:variable name="var2" as="xs:string*">
-            <xsl:sequence select="//*[name() = $param2]/string ! normalize-space()"/>
-        </xsl:variable>
-        <xsl:variable name="var3" as="xs:string*">
-            <xsl:sequence select="//*[name() = $param3]/string ! normalize-space()"/>
-        </xsl:variable>
-        <xsl:variable name="var4" as="xs:string*">
-            <xsl:sequence select="//*[name() = $param4]/string ! normalize-space()"/>
-        </xsl:variable>
-        <xsl:variable name="var5" as="xs:string*">
-            <xsl:sequence select="//*[name() = $param5]/string ! normalize-space()"/>
-        </xsl:variable>
+        <xsl:param name="param1" as="element()+" required="yes"/>
+        <xsl:param name="param2" as="element()+" required="yes"/>
+        <xsl:param name="param3" as="element()*"/>
+        <xsl:param name="param4" as="element()*"/>
+        <xsl:param name="param5" as="element()*"/>
+     
+            <!-- YES WE DO NEED VARIABLES. JUST NOT THESE VARIABLES> 
+            TAKE THE NODES, CONVERT THEM TO STRINGS FOR SENTENCE CONSTRUCTION.
+            -->
+        <xsl:variable name="var1" as="xs:string+" select="$param1/parent::* ! name()"/>
+        <xsl:variable name="var2" as="xs:string+" select="$param2/parent::* ! name()"/>
+        <xsl:variable name="var3" as="xs:string*" select="$param3/parent::* ! name()"/>
+        <xsl:variable name="var4" as="xs:string*" select="$param4/parent::* ! name()"/>
+        <xsl:variable name="var5" as="xs:string*" select="$param5/parent::* ! name()"/>
         
-        <xsl:for-each select="$var1">
+        <xsl:for-each select="$param1 ! normalize-space()">
             <xsl:variable name="currLevel1" as="xs:string" select="current()"/>
      
-      <xsl:for-each select="$var2">
+            <xsl:for-each select="$param2 ! normalize-space()">
               <xsl:variable name="currLevel2" as="xs:string?" select="current()"/>
           
           <xsl:choose><!-- CHOICE 1 -->
           <xsl:when test="$param3">
-          <xsl:for-each select="$var3">
+          <xsl:for-each select="$param3 ! normalize-space()">
                  <xsl:variable name="currLevel3" as="xs:string?" select="current()"/>
               <xsl:choose><!-- CHOICE 2 -->
                        <xsl:when test="$param4">
-                       <xsl:for-each select="$var4">
+                           <xsl:for-each select="$param4 ! normalize-space()">
                        <xsl:variable name="currLevel4" as="xs:string?" select="current()"/>
                       <xsl:choose><!-- CHOICE 3 -->
                           <xsl:when test="$param5">
-                          <xsl:for-each select="$var5">
+                              <xsl:for-each select="$param5 ! normalize-space()">
                            <componentSentence><!-- FIVE-PARAMETER SENTENCE -->
-                               <xsl:element name="{$param1}">
+                               <xsl:element name="{$var1}">
                                    <xsl:sequence select="$currLevel1"/>
                                </xsl:element> 
-                                  <xsl:element name="{$param2}">
+                                  <xsl:element name="{$var2}">
                                    <xsl:sequence select="$currLevel2"/>
                                   </xsl:element> 
-                               <xsl:element name="{$param3}">
+                               <xsl:element name="{$var3}">
                                    <xsl:sequence select="$currLevel3"/>
                                </xsl:element>
-                               <xsl:element name="{$param4}">
+                               <xsl:element name="{$var4}">
                                    <xsl:sequence select="$currLevel4"/>
                                </xsl:element>
-                               <xsl:element name="{$param5}">
+                               <xsl:element name="{$var5}">
                                    <xsl:sequence select="current()"/>
                                </xsl:element>
                            </componentSentence>
@@ -123,16 +145,16 @@ element names in the source document. Parameters are very similar to variables i
                       </xsl:when>
                          <xsl:otherwise><!-- FOUR-PARAMETER SENTENCE -->
                              <componentSentence>
-                                 <xsl:element name="{$param1}">
+                                 <xsl:element name="{$var1}">
                                      <xsl:sequence select="$currLevel1"/>
                                  </xsl:element> 
-                                 <xsl:element name="{$param2}">
+                                 <xsl:element name="{$var2}">
                                      <xsl:sequence select="$currLevel2"/>
                                  </xsl:element> 
-                                 <xsl:element name="{$param3}">
+                                 <xsl:element name="{$var3}">
                                      <xsl:sequence select="$currLevel3"/>
                                  </xsl:element> 
-                                 <xsl:element name="{$param4}">
+                                 <xsl:element name="{$var4}">
                                      <xsl:sequence select="$currLevel4"/>
                                  </xsl:element> 
                              </componentSentence>
@@ -143,13 +165,13 @@ element names in the source document. Parameters are very similar to variables i
                        </xsl:when>
                   <xsl:otherwise><!-- THREE-PARAMETER SENTENCE -->
                       <componentSentence>
-                          <xsl:element name="{$param1}">
+                          <xsl:element name="{$var1}">
                               <xsl:sequence select="$currLevel1"/>
                           </xsl:element> 
-                          <xsl:element name="{$param2}">
+                          <xsl:element name="{$var2}">
                               <xsl:sequence select="$currLevel2"/>
                           </xsl:element> 
-                          <xsl:element name="{$param3}">
+                          <xsl:element name="{$var3}">
                               <xsl:sequence select="$currLevel3"/>
                           </xsl:element> 
                       </componentSentence>
@@ -160,10 +182,10 @@ element names in the source document. Parameters are very similar to variables i
               <xsl:otherwise>
                   <!--TWO-PARAMETER SENTENCE -->
                   <componentSentence>
-                      <xsl:element name="{$param1}">
+                      <xsl:element name="{$var1}">
                           <xsl:sequence select="$currLevel1"/>
                       </xsl:element> 
-                      <xsl:element name="{$param2}">
+                      <xsl:element name="{$var2}">
                           <xsl:sequence select="$currLevel2"/>
                       </xsl:element> 
                   </componentSentence>
@@ -184,29 +206,44 @@ element names in the source document. Parameters are very similar to variables i
            <xsl:comment>###############################</xsl:comment>
            <xsl:comment>TEST. Math Operation Objects Without Notations, SCOPED to Whole Numbers</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
-           <xsl:variable name="mathopWNS">
-               <xsl:for-each select="key('scopes', 'wholenum')">
-                   <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>          
-               </xsl:for-each>
-           </xsl:variable>
-           <xsl:variable name="objectWNS">
-               <xsl:for-each select="key('scopes', 'wholenum')">
-                   <xsl:sequence select=".[parent::* ! name() = $object]"/>          
-               </xsl:for-each>
-           </xsl:variable>
-          
-           
-           <xsl:call-template name="sentenceWriter">
-               <xsl:with-param name="param1" as="xs:string" select="$mathopWNS"/>
-               <xsl:with-param name="param2" as="xs:string" select="$objectWNS"/>
+         
+      
+
+         <xsl:call-template name="sentenceWriter">
+               <xsl:with-param name="param1" as="element()+"  select="$mathopWNS"/>
+               <xsl:with-param name="param2" as="element()+" select="$objectWNS"/>
            </xsl:call-template>
+ 
+    <!--    <xsl:variable name="wholenumScope">
+            <xsl:for-each select="key('scopes', 'wholenum')">
+            <xsl:sequence select="."/><xsl:text>, </xsl:text>            
+        </xsl:for-each>
+        </xsl:variable>
+               
+               <xsl:variable name="complexScope">
+                   <xsl:for-each select="key('scopes', 'complex')">
+                       <xsl:sequence select="."/><xsl:text>, </xsl:text>            
+                   </xsl:for-each>
+               </xsl:variable>
+
+              
+               
+          <xsl:for-each select="key('scopes', 'complex')">
+              <xsl:sequence select="./parent::* ! name()"/>
+ 
+          </xsl:for-each>-->
+              
+               
+            
+        
+               
            
            
-         <!--  <xsl:comment>###############################</xsl:comment>
+           <!--      <xsl:comment>###############################</xsl:comment>
            <xsl:comment>1. Math Operation Objects Without Notations</xsl:comment>
            <xsl:comment>###############################</xsl:comment>
       
-           <sentenceGroup xml:id="mo">
+         <sentenceGroup xml:id="mo">
              <desc>Sentences containing only math operation objects without notations.</desc>
   
              <xsl:call-template name="sentenceWriter">
@@ -214,6 +251,8 @@ element names in the source document. Parameters are very similar to variables i
                  <xsl:with-param name="param2" as="xs:string" select="$object"/>
              </xsl:call-template>
          </sentenceGroup>
+           
+       
           
            
            <xsl:comment>###############################</xsl:comment>
@@ -222,11 +261,13 @@ element names in the source document. Parameters are very similar to variables i
           <sentenceGroup xml:id="mon"> 
               <desc>Sentences containing math operation objects with notations.</desc>
               <xsl:call-template name="sentenceWriter">
-                  <xsl:with-param name="param1" as="xs:string" select="$math_operation"/>
+                  <xsl:with-param name="param1" as="xs:string" select=""/>
                   <xsl:with-param name="param2" as="xs:string" select="$object"/>
                   <xsl:with-param name="param3" as="xs:string" select="$notation"/>
               </xsl:call-template>
            </sentenceGroup>
+           
+   
            
              <xsl:comment>###############################</xsl:comment>
            <xsl:comment>3. Specific Objects Without Notations</xsl:comment>
@@ -396,7 +437,7 @@ element names in the source document. Parameters are very similar to variables i
                    <xsl:with-param name="param3" as="xs:string" select="$specific_object"/>
                    <xsl:with-param name="param4" as="xs:string" select="$notation"/>
                </xsl:call-template>
-           </sentenceGroup> -->
+           </sentenceGroup>  -->
        </xml>
    </xsl:template>  
 </xsl:stylesheet>

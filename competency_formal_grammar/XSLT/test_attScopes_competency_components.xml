@@ -80,7 +80,7 @@
                     <string>Name</string>
                     <string>Sequence</string>
                     <string>Order</string>
-                    <string class="wholenum complex">Add</string>
+                    <string class="wholenum">Add</string>
                     <string class="wholenum complex">Subtract</string>
                     <string class="wholenum complex">Multiply</string>
                     <string class="wholenum complex">Divide</string>
