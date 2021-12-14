@@ -83,6 +83,9 @@
         <xsl:param name="param4" as="element()*"/>
         <xsl:param name="param5" as="element()*"/>
      
+     <!-- MAX NUMBER OF COMPONENT PARAMS (whole numbers scope only): 5
+            knowledge process + subprocess + math operation + object -->
+     
             <!-- YES WE DO NEED VARIABLES. JUST NOT THESE VARIABLES> 
             TAKE THE NODES, CONVERT THEM TO STRINGS FOR SENTENCE CONSTRUCTION.
             -->
