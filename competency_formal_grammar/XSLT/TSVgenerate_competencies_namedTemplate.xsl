@@ -85,7 +85,7 @@ element names in the source document. Parameters are very similar to variables i
        
         
         
-        <!-- MB: QUESTION: why are there optional as=xs:strings in every variable except the first?-->
+      
         <xsl:for-each select="$var1">
             <xsl:variable name="currLevel1" as="xs:string" select="current()"/>
      
