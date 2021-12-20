@@ -92,16 +92,152 @@
     
     <xsl:template match="/">
         <xml>
-            <xsl:comment>Formal Process + Process Predicate</xsl:comment>
-          
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>Formal Process Branch </xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
             
-        
-            <sentenceGroup xml:id="fpPp">
+            
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>COMPLEX + IMAGINARY NUMBERS: Formal Process + Process Predicate</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+          <xsl:variable name="FPcomplex" as="element()+">
+              <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                  <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+              </xsl:for-each>
+          </xsl:variable>
+            <xsl:variable name="PrPredcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            
+            <sentenceGroup xml:id="fpPp_complex">
                 <xsl:call-template name="sentenceWriter">
-                    <xsl:with-param name="param1" as="element()" select="$formal_process"/>
-                    <xsl:with-param name="param2" as="element()" select="$processPred"/>
+                    <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
+                    <xsl:with-param name="param2" as="element()+" select="$PrPredcomplex"/>
                 </xsl:call-template>
             </sentenceGroup>
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>COMPLEX + IMAGINARY NUMBERS: Formal Process + Specific Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:variable name="FPcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="SpecObjcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $specific_object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            
+            <sentenceGroup xml:id="fpSo_complex">
+                <xsl:call-template name="sentenceWriter">
+                    <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
+                    <xsl:with-param name="param2" as="element()+" select="$SpecObjcomplex"/>
+                </xsl:call-template>
+            </sentenceGroup>
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>COMPLEX + IMAGINARY NUMBERS: Formal Process + Math Operation + Quant Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:variable name="FPcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="MathOpcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="QOcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            
+            <sentenceGroup xml:id="fpMathOP_complex">
+                <xsl:call-template name="sentenceWriter">
+                    <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
+                    <xsl:with-param name="param2" as="element()+" select="$MathOpcomplex"/>
+                    <xsl:with-param name="param3" as="element()+" select="$QOcomplex"/>
+                </xsl:call-template>
+            </sentenceGroup>
+            
+            
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>Knowledge Process Branch </xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            
+            
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>COMPLEX + IMAGINARY NUMBERS: Knowledge Process + Process Pred</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:variable name="KPcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="PrPredcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <sentenceGroup xml:id="KpPp_complex">
+                <xsl:call-template name="sentenceWriter">
+                    <xsl:with-param name="param1" as="element()+" select="$KPcomplex"/>
+                    <xsl:with-param name="param2" as="element()+" select="$PrPredcomplex"/>
+                </xsl:call-template>
+            </sentenceGroup>
+            
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>COMPLEX + IMAGINARY NUMBERS: Knowledge Process + Specific Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:variable name="KPcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="SpecObjcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $specific_object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <sentenceGroup xml:id="KpSo_complex">
+                <xsl:call-template name="sentenceWriter">
+                    <xsl:with-param name="param1" as="element()+" select="$KPcomplex"/>
+                    <xsl:with-param name="param2" as="element()+" select="$SpecObjcomplex"/>
+                </xsl:call-template>
+            </sentenceGroup>
+            
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>COMPLEX + IMAGINARY NUMBERS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:variable name="KPcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="MathOpcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="QOcomplex" as="element()+">
+                <xsl:for-each select="key('scopes', $complex) intersect key('scopes', $imag)">
+                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            
+            <sentenceGroup xml:id="KpMathOP_complex">
+                <xsl:call-template name="sentenceWriter">
+                    <xsl:with-param name="param1" as="element()+" select="$KPcomplex"/>
+                    <xsl:with-param name="param2" as="element()+" select="$MathOpcomplex"/>
+                    <xsl:with-param name="param3" as="element()+" select="$QOcomplex"/>
+                </xsl:call-template>
+            </sentenceGroup>
+            
+            
         </xml>
     </xsl:template>
     

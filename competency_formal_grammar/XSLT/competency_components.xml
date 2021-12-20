@@ -2,13 +2,13 @@
 <xml>
     <!--<domains>
         <scopes>
-            <string>Whole Numbers <insert idref="#sub_scope"/></string>
+            <string>Whole Numbers <insert idref="#sub_scope"/></string> = class="wholenum"
             <string>Integers</string>
             <string>Unit Fractions</string>
             <string>Rational Numbers</string>
             <string>Real Numbers</string>
-            <string>Imaginary Numbers</string>
-            <string>Complex Numbers</string>
+            <string>Imaginary Numbers</string> = class="imag"
+            <string>Complex Numbers</string> = class="complex"
             <string>Vectors</string>
             <string>Matrices</string>
             <string>Infinite Numbers</string>
@@ -46,30 +46,30 @@
                 <!-- SUBCLASS attribute values should be filtered according to the component this string will go with,
             the rest of the strings will not have the subclass attribute value-->
                 <formal_process>
-                    <string subclass="notation">read</string>
-                    <string>recite</string>
-                    <string subclass="notation">write</string>
-                    <string>represent</string>
-                    <string sub="models">represent with images</string>
-                    <string sub="models">represent with sounds</string>
-                    <string sub="models">represent with activities</string>
-                    <string sub="realia">represent with specimens</string>
-                    <string sub="realia">represent with body parts</string>
-                    <string sub="glyphs">represent with words</string>
-                    <string sub="glyphs">represent with symbols</string>
-                    <string sub="glyphs">represent with drawings</string>
-                    <string sub="glyphs">represent with graphs</string>
-                    <string>randomly sample</string>
+                    <string class="complex imag" subclass="notation">Read</string>
+                    <string>Recite</string>
+                    <string class="complex imag" subclass="notation">Write</string>
+                    <string class="complex imag">Represent</string>
+                    <string sub="models">Represent with images</string>
+                    <string sub="models">Represent with sounds</string>
+                    <string class="complex imag" sub="models">Represent with activities</string>
+                    <string sub="realia">Represent with specimens</string>
+                    <string sub="realia">Represent with body parts</string>
+                    <string class="complex imag" sub="glyphs">Represent with words</string>
+                    <string sub="glyphs">Represent with symbols</string>
+                    <string sub="glyphs">Represent with drawings</string>
+                    <string sub="glyphs">Represent with graphs</string>
+                    <string>Randomly sample</string>
                 </formal_process>
                 <!-- NO notations with knowledge process sentences -->
                 <knowledge>
                     <knowledge_process>
-                        <string>remembering</string>
-                        <string>evaluating</string>
-                        <string>creating</string>
-                        <string sub="strategizing">understanding</string>
-                        <string sub="strategizing">applying</string>
-                        <string>analyzing</string>
+                        <string class="complex imag">Remember</string>
+                        <string class="complex imag">Evaluate</string>
+                        <string class="complex imag">Create</string>
+                        <string class="complex imag" sub="strategizing">Understand</string>
+                        <string class="complex imag" sub="strategizing">Apply</string>
+                        <string class="complex imag">Analyze</string>
                         <!-- <whole_numbers_knowledge_subprocess>
                         <string class="wholenum">by putting together</string>
                         <string class="wholenum">by adding to</string>
@@ -80,7 +80,7 @@
                 </knowledge>
             </process>
             <!--BRANCHES HERE 
-                2 options: knowledge OR formal with processPred => end of chain
+                2 options: knowledge OR formal with processPred or specific_object => end of chain
                 knowledge OR formal -> mathopObject (quant) -> notation?-->
 
         </processGroup>
@@ -89,19 +89,15 @@
 
         <processBranch>
             <processPred>
-
-
                 <string>Volume</string>
-                <string>Numerical Expressions</string>
-                <string>Numerical Equations</string>
-
-                <string>Properties of Objects</string>
-                <string>Properties of math_operations</string>
+                <string class="complex imag">Numerical Expressions</string>
+                <string class="complex imag">Numerical Equations</string>
+                <string class="complex imag">Properties of Objects</string>
+                <string class="complex imag">Properties of Operations</string>
                 <string>Patterns</string>
-
-                <string>Common Factors</string>
-                <string>Multiples</string>
-                <string>Common Multiples</string>
+                <string class="complex imag">Common Factors</string>
+                <string class="complex imag">Multiples</string>
+                <string class="complex imag">Common Multiples</string>
                 <string>Place Value</string>
                 <string>Attributes</string>
                 <string>Standard Units</string>
@@ -113,43 +109,40 @@
                 <string>Surface Area</string>
                 <string>Realia</string>
                 <string>Models</string>
-                <string>Congruence</string>
-                <string>Similarity</string>
+                <string class="complex imag">Congruence</string>
+                <string class="complex imag">Similarity</string>
                 <string>Ratios</string>
                 <string>Proportions</string>
-                <string>Numerical Inequalities</string>
-                <string>Algebraic Equations</string>
-                <string>Algebraic Inequalities</string>
+                <string class="complex imag">Numerical Inequalities</string>
+                <string class="complex imag">Algebraic Equations</string>
+                <string class="complex imag">Algebraic Inequalities</string>
                 <string>Lines</string>
                 <string>Linear Equations</string>
-                <string>Simultaneous Equations</string>
-
-                <string>Statistical Variability</string>
-                <string>Distributions</string>
+                <string class="complex imag">Simultaneous Equations</string>
+                <string class="complex imag">Statistical Variability</string>
+                <string class="complex imag">Distributions</string>
                 <string>Populations</string>
-
-                <string>Probability Models</string>
-                <string>Bivariate Data</string>
+                <string class="complex imag">Probability Models</string>
+                <string class="complex imag">Bivariate Data</string>
                 <string>Sets</string>
                 <string>Elements</string>
                 <string>Experiments</string>
                 <string>Observations</string>
-                <string>Dependent Variables</string>
-                <string>Independent Variables</string>
-                <string>Sum</string>
-                <string>Difference</string>
-                <string>Product</string>
-                <string>Quotient</string>
-                <string>Remainder</string>
+                <string class="complex imag">Dependent Variables</string>
+                <string class="complex imag">Independent Variables</string>
+                <string class="complex imag">Sum</string>
+                <string class="complex imag">Difference</string>
+                <string class="complex imag">Product</string>
+                <string class="complex imag">Quotient</string>
+                <string class="complex imag">Remainder</string>
                 <string>Groups</string>
                 <string>Length</string>
                 <string>Width</string>
                 <string>Depth or Height</string>
                 <string>Qualitative Attributes</string>
-
                 <string>Plane Figures</string>
                 <string>Objects in Space</string>
-                <string>Sample</string>
+                <string class="complex imag">Sample</string>
                 <string>Random Sample</string>
                 <string>Prisms and Cylinders</string>
                 <string>Spheres</string>
@@ -158,34 +151,34 @@
             </processPred>
             <specific_object>
                 <string>Pythagorean Theorem</string>
-                <string>Standard Algorithm for Addition</string>
-                <string>Standard Algorithm for Subtraction</string>
-                <string>Standard Algorithm for Multiplication</string>
-                <string>Standard Algorithm for Division</string>
-                <string>European Algorithm for Subtraction</string>
-                <string>Lattice Algorithm for Multiplication</string>
-                <string>Common Factors</string>
+                <string class="complex imag">Standard Algorithm for Addition</string>
+                <string class="complex imag">Standard Algorithm for Subtraction</string>
+                <string class="complex imag">Standard Algorithm for Multiplication</string>
+                <string class="complex imag">Standard Algorithm for Division</string>
+                <string class="complex imag">European Algorithm for Subtraction</string>
+                <string class="complex imag">Lattice Algorithm for Multiplication</string>
+                <string class="complex imag">Common Factors</string>
                 <string>Distributive Property</string>
                 <string>Commutative Property</string>
                 <string>Associative Property</string>
             </specific_object>
+            
             <mathOP_object>
                 <math_operation>
-                    <string>Name</string>
-                    <string>Sequence</string>
-                    <string>Order</string>
-                    <string>Add</string>
-                    <string>Subtract</string>
-                    <string>Multiply</string>
-                    <string>Divide</string>
-                    <string>Negate</string>
-                    <string>Exponentiate</string>
-                    <string>Group</string>
+                    <string class="complex imag">Naming</string>
+                    <string class="complex imag">Sequencing</string>
+                    <string class="complex imag">Ordering</string>
+                    <string class="complex imag">Adding</string>
+                    <string class="complex imag">Subtracting</string>
+                    <string class="complex imag">Multiplying</string>
+                    <string class="complex imag">Dividing</string>
+                    <string class="complex imag">Negating</string>
+                    <string class="complex imag">Exponentiating</string>
+                    <string class="complex imag">Grouping</string>
                     <!-- Operations -->
                     <!--<string>Order Operations</string>-->
                 </math_operation>
                 <!-- -->
-
                 <quant>
                     <string>Numbers</string>
                     <string class="complex imag">Terms</string>
@@ -198,15 +191,15 @@
                     <string>Chance Processes</string>
                     <string>Arrays</string>
                 </quant>
-
             </mathOP_object>
+            
         </processBranch>
 
 
 
         <!-- specific object and notation object will never occur in the same sentence output -->
 
-        <notation_object class="wholenum">
+        <!--<notation_object class="wholenum">
             <string>Fractional Notations</string>
             <string>Decimal Notations</string>
             <string>Proportional Notation</string>
@@ -218,7 +211,7 @@
             <string>Exponential Notation</string>
             <string>Scientific Notation</string>
             <string>Base Ten</string>
-        </notation_object>
+        </notation_object>-->
 
     </compParts>
 </xml>

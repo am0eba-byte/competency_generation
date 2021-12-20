@@ -1,0 +1,4741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml><!--####################################--><!--Formal Process Branch --><!--####################################--><!--####################################--><!--COMPLEX + IMAGINARY NUMBERS: Formal Process + Process Predicate--><!--####################################-->
+   <sentenceGroup xml:id="fpPp_complex">
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Numerical Expressions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Numerical Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Properties of Objects</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Properties of Operations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Common Factors</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Common Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Congruence</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Similarity</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Numerical Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Algebraic Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Algebraic Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Simultaneous Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Statistical Variability</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Distributions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Probability Models</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Bivariate Data</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Dependent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Independent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Sum</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Difference</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Product</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Quotient</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Remainder</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <processPred>Sample</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Numerical Expressions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Numerical Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Properties of Objects</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Properties of Operations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Common Factors</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Common Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Congruence</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Similarity</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Numerical Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Algebraic Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Algebraic Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Simultaneous Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Statistical Variability</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Distributions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Probability Models</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Bivariate Data</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Dependent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Independent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Sum</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Difference</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Product</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Quotient</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Remainder</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <processPred>Sample</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Numerical Expressions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Numerical Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Properties of Objects</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Properties of Operations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Common Factors</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Common Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Congruence</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Similarity</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Numerical Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Algebraic Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Algebraic Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Simultaneous Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Statistical Variability</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Distributions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Probability Models</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Bivariate Data</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Dependent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Independent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Sum</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Difference</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Product</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Quotient</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Remainder</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <processPred>Sample</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Numerical Expressions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Numerical Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Properties of Objects</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Properties of Operations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Common Factors</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Common Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Congruence</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Similarity</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Numerical Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Algebraic Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Algebraic Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Simultaneous Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Statistical Variability</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Distributions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Probability Models</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Bivariate Data</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Dependent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Independent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Sum</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Difference</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Product</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Quotient</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Remainder</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <processPred>Sample</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Numerical Expressions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Numerical Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Properties of Objects</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Properties of Operations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Common Factors</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Common Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Congruence</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Similarity</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Numerical Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Algebraic Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Algebraic Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Simultaneous Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Statistical Variability</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Distributions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Probability Models</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Bivariate Data</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Dependent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Independent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Sum</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Difference</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Product</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Quotient</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Remainder</processPred>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <processPred>Sample</processPred>
+      </componentSentence>
+   </sentenceGroup>
+   <!--####################################-->
+   <!--COMPLEX + IMAGINARY NUMBERS: Formal Process + Specific Object-->
+   <!--####################################-->
+   <sentenceGroup xml:id="fpSo_complex">
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <specific_object>Standard Algorithm for Addition</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <specific_object>Standard Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <specific_object>Standard Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <specific_object>Standard Algorithm for Division</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <specific_object>European Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <specific_object>Lattice Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <specific_object>Common Factors</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <specific_object>Standard Algorithm for Addition</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <specific_object>Standard Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <specific_object>Standard Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <specific_object>Standard Algorithm for Division</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <specific_object>European Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <specific_object>Lattice Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <specific_object>Common Factors</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <specific_object>Standard Algorithm for Addition</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <specific_object>Standard Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <specific_object>Standard Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <specific_object>Standard Algorithm for Division</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <specific_object>European Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <specific_object>Lattice Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <specific_object>Common Factors</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <specific_object>Standard Algorithm for Addition</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <specific_object>Standard Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <specific_object>Standard Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <specific_object>Standard Algorithm for Division</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <specific_object>European Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <specific_object>Lattice Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <specific_object>Common Factors</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <specific_object>Standard Algorithm for Addition</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <specific_object>Standard Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <specific_object>Standard Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <specific_object>Standard Algorithm for Division</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <specific_object>European Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <specific_object>Lattice Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <specific_object>Common Factors</specific_object>
+      </componentSentence>
+   </sentenceGroup>
+   <!--####################################-->
+   <!--COMPLEX + IMAGINARY NUMBERS: Formal Process + Math Operation + Quant Object-->
+   <!--####################################-->
+   <sentenceGroup xml:id="fpMathOP_complex">
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Read</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Write</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with activities</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Naming</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Adding</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Negating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <formal_process>Represent with words</formal_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+   </sentenceGroup>
+   <!--####################################-->
+   <!--Knowledge Process Branch -->
+   <!--####################################-->
+   <!--####################################-->
+   <!--COMPLEX + IMAGINARY NUMBERS: Knowledge Process + Process Pred-->
+   <!--####################################-->
+   <sentenceGroup xml:id="KpPp_complex">
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Numerical Expressions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Numerical Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Properties of Objects</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Properties of Operations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Common Factors</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Common Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Congruence</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Similarity</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Numerical Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Algebraic Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Algebraic Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Simultaneous Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Statistical Variability</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Distributions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Probability Models</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Bivariate Data</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Dependent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Independent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Sum</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Difference</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Product</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Quotient</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Remainder</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <processPred>Sample</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Numerical Expressions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Numerical Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Properties of Objects</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Properties of Operations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Common Factors</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Common Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Congruence</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Similarity</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Numerical Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Algebraic Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Algebraic Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Simultaneous Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Statistical Variability</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Distributions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Probability Models</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Bivariate Data</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Dependent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Independent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Sum</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Difference</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Product</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Quotient</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Remainder</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <processPred>Sample</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Numerical Expressions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Numerical Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Properties of Objects</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Properties of Operations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Common Factors</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Common Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Congruence</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Similarity</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Numerical Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Algebraic Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Algebraic Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Simultaneous Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Statistical Variability</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Distributions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Probability Models</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Bivariate Data</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Dependent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Independent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Sum</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Difference</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Product</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Quotient</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Remainder</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <processPred>Sample</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Numerical Expressions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Numerical Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Properties of Objects</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Properties of Operations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Common Factors</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Common Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Congruence</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Similarity</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Numerical Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Algebraic Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Algebraic Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Simultaneous Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Statistical Variability</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Distributions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Probability Models</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Bivariate Data</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Dependent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Independent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Sum</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Difference</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Product</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Quotient</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Remainder</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <processPred>Sample</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Numerical Expressions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Numerical Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Properties of Objects</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Properties of Operations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Common Factors</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Common Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Congruence</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Similarity</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Numerical Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Algebraic Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Algebraic Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Simultaneous Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Statistical Variability</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Distributions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Probability Models</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Bivariate Data</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Dependent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Independent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Sum</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Difference</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Product</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Quotient</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Remainder</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <processPred>Sample</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Numerical Expressions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Numerical Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Properties of Objects</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Properties of Operations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Common Factors</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Common Multiples</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Congruence</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Similarity</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Numerical Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Algebraic Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Algebraic Inequalities</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Simultaneous Equations</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Statistical Variability</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Distributions</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Probability Models</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Bivariate Data</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Dependent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Independent Variables</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Sum</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Difference</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Product</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Quotient</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Remainder</processPred>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <processPred>Sample</processPred>
+      </componentSentence>
+   </sentenceGroup>
+   <!--####################################-->
+   <!--COMPLEX + IMAGINARY NUMBERS: Knowledge Process + Specific Object-->
+   <!--####################################-->
+   <sentenceGroup xml:id="KpSo_complex">
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <specific_object>Standard Algorithm for Addition</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <specific_object>Standard Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <specific_object>Standard Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <specific_object>Standard Algorithm for Division</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <specific_object>European Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <specific_object>Lattice Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <specific_object>Common Factors</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <specific_object>Standard Algorithm for Addition</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <specific_object>Standard Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <specific_object>Standard Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <specific_object>Standard Algorithm for Division</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <specific_object>European Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <specific_object>Lattice Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <specific_object>Common Factors</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <specific_object>Standard Algorithm for Addition</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <specific_object>Standard Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <specific_object>Standard Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <specific_object>Standard Algorithm for Division</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <specific_object>European Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <specific_object>Lattice Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <specific_object>Common Factors</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <specific_object>Standard Algorithm for Addition</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <specific_object>Standard Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <specific_object>Standard Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <specific_object>Standard Algorithm for Division</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <specific_object>European Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <specific_object>Lattice Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <specific_object>Common Factors</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <specific_object>Standard Algorithm for Addition</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <specific_object>Standard Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <specific_object>Standard Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <specific_object>Standard Algorithm for Division</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <specific_object>European Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <specific_object>Lattice Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <specific_object>Common Factors</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <specific_object>Standard Algorithm for Addition</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <specific_object>Standard Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <specific_object>Standard Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <specific_object>Standard Algorithm for Division</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <specific_object>European Algorithm for Subtraction</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <specific_object>Lattice Algorithm for Multiplication</specific_object>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <specific_object>Common Factors</specific_object>
+      </componentSentence>
+   </sentenceGroup>
+   <!--####################################-->
+   <!--COMPLEX + IMAGINARY NUMBERS: Knowledge Process + Math Operation + Quant Object-->
+   <!--####################################-->
+   <sentenceGroup xml:id="KpMathOP_complex">
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Remember</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Evaluate</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Create</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Understand</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Apply</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Naming</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Sequencing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Ordering</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Adding</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Subtracting</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Multiplying</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Dividing</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Negating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Exponentiating</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Terms</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Factors</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Angles</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Algebraic Expressions</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Variables</quant>
+      </componentSentence>
+      <componentSentence>
+         <knowledge_process>Analyze</knowledge_process>
+         <math_operation>Grouping</math_operation>
+         <quant>Functions</quant>
+      </componentSentence>
+   </sentenceGroup>
+</xml>
