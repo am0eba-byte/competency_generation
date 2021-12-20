@@ -1,0 +1,621 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      
+      <meta name="generator" content="Railroad Diagram Generator 1.63">
+      
+      <style type="text/css">
+    ::-moz-selection
+    {
+      color: #FFFCF0;
+      background: #0F0C00;
+    }
+    ::selection
+    {
+      color: #FFFCF0;
+      background: #0F0C00;
+    }
+    .ebnf a, .grammar a
+    {
+      text-decoration: none;
+    }
+    .ebnf a:hover, .grammar a:hover
+    {
+      color: #050400;
+      text-decoration: underline;
+    }
+    .signature
+    {
+      color: #806600;
+      font-size: 11px;
+      text-align: right;
+    }
+    body
+    {
+      font: normal 12px Verdana, sans-serif;
+      color: #0F0C00;
+      background: #FFFCF0;
+    }
+    a:link, a:visited
+    {
+      color: #0F0C00;
+    }
+    a:link.signature, a:visited.signature
+    {
+      color: #806600;
+    }
+    a.button, #tabs li a
+    {
+      padding: 0.25em 0.5em;
+      border: 1px solid #806600;
+      background: #F1E8C6;
+      color: #806600;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.button:hover, #tabs li a:hover
+    {
+      color: #050400;
+      background: #FFF6D1;
+      border-color: #050400;
+    }
+    #tabs
+    {
+      padding: 3px 10px;
+      margin-left: 0;
+      margin-top: 58px;
+      border-bottom: 1px solid #0F0C00;
+    }
+    #tabs li
+    {
+      list-style: none;
+      margin-left: 5px;
+      display: inline;
+    }
+    #tabs li a
+    {
+      border-bottom: 1px solid #0F0C00;
+    }
+    #tabs li a.active
+    {
+      color: #0F0C00;
+      background: #FFFCF0;
+      border-color: #0F0C00;
+      border-bottom: 1px solid #FFFCF0;
+      outline: none;
+    }
+    #divs div
+    {
+      display: none;
+      overflow:auto;
+    }
+    #divs div.active
+    {
+      display: block;
+    }
+    #text
+    {
+      border-color: #806600;
+      background: #FFFEFA;
+      color: #050400;
+    }
+    .small
+    {
+      vertical-align: top;
+      text-align: right;
+      font-size: 9px;
+      font-weight: normal;
+      line-height: 120%;
+    }
+    td.small
+    {
+      padding-top: 0px;
+    }
+    .hidden
+    {
+      visibility: hidden;
+    }
+    td:hover .hidden
+    {
+      visibility: visible;
+    }
+    div.download
+    {
+      display: none;
+      background: #FFFCF0;
+      position: absolute;
+      right: 34px;
+      top: 94px;
+      padding: 10px;
+      border: 1px dotted #0F0C00;
+    }
+    #divs div.ebnf, .ebnf code
+    {
+      display: block;
+      padding: 10px;
+      background: #FFF6D1;
+      width: 992px;
+    }
+    #divs div.grammar
+    {
+      display: block;
+      padding-left: 16px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      background: #FFF6D1;
+    }
+    pre
+    {
+      margin: 0px;
+    }
+    .ebnf div
+    {
+      padding-left: 13ch;
+      text-indent: -13ch;
+    }
+    .ebnf code, .grammar code, textarea, pre
+    {
+      font:12px SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+    }
+    tr.option-line td:first-child
+    {
+      text-align: right
+    }
+    tr.option-text td
+    {
+      padding-bottom: 10px
+    }
+    table.palette
+    {
+      border-top: 1px solid #050400;
+      border-right: 1px solid #050400;
+      margin-bottom: 4px
+    }
+    td.palette
+    {
+      border-bottom: 1px solid #050400;
+      border-left: 1px solid #050400;
+    }
+    a.palette
+    {
+      padding: 2px 3px 2px 10px;
+      text-decoration: none;
+    }
+    .palette
+    {
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -o-user-select: none;
+      -ms-user-select: none;
+    }
+  </style>
+   </head>
+   
+   <body>
+      
+      <p style="font-size: 14px; font-weight:bold"><a name="scope_competency">scope_competency:</a></p><img border="0" src="diagram/scope_competency.png" height="125" width="599" usemap="#scope_competency.map"><map name="scope_competency.map"><area shape="rect" coords="49,1,167,33" href="#formal_process" title="formal_process"><area shape="rect" coords="49,45,195,77" href="#knowledge_process" title="knowledge_process"><area shape="rect" coords="255,1,377,33" href="#math_operation" title="math_operation"><area shape="rect" coords="445,1,549,33" href="#quant_object" title="quant_object"><area shape="rect" coords="255,45,369,77" href="#specific_object" title="specific_object"><area shape="rect" coords="255,89,353,121" href="#processPred" title="processPred"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#scope_competency" title="scope_competency">scope_competency</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ( <a href="#formal_process" title="formal_process">formal_process</a> | <a href="#knowledge_process" title="knowledge_process">knowledge_process</a> ) ( <a href="#math_operation" title="math_operation">math_operation</a> ', ' <a href="#quant_object" title="quant_object">quant_object</a> | <a href="#specific_object" title="specific_object">specific_object</a> | <a href="#processPred" title="processPred">processPred</a> )</div></code></div>
+         </p>
+      
+      <p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="whole_number_competency">whole_number_competency:</a></p><img border="0" src="diagram/whole_number_competency.png" height="257" width="859" usemap="#whole_number_competency.map"><map name="whole_number_competency.map"><area shape="rect" coords="49,1,167,33" href="#formal_process" title="formal_process"><area shape="rect" coords="227,1,349,33" href="#math_operation" title="math_operation"><area shape="rect" coords="417,1,475,33" href="#object" title="object"><area shape="rect" coords="227,45,325,77" href="#processPred" title="processPred"><area shape="rect" coords="535,33,655,65" href="#notation_object" title="notation_object"><area shape="rect" coords="207,89,321,121" href="#specific_object" title="specific_object"><area shape="rect" coords="49,133,195,165" href="#knowledge_process" title="knowledge_process"><area shape="rect" coords="313,165,481,197" href="#knowledge_subprocess" title="knowledge_subprocess"><area shape="rect" coords="541,133,663,165" href="#math_operation" title="math_operation"><area shape="rect" coords="731,133,789,165" href="#object" title="object"><area shape="rect" coords="541,177,655,209" href="#specific_object" title="specific_object"><area shape="rect" coords="541,221,639,253" href="#processPred" title="processPred"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#whole_number_competency" title="whole_number_competency">whole_number_competency</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= <a href="#formal_process" title="formal_process">formal_process</a> ( ( <a href="#math_operation" title="math_operation">math_operation</a> ', ' <a href="#object" title="object">object</a> | <a href="#processPred" title="processPred">processPred</a> ) <a href="#notation_object" title="notation_object">notation_object</a>? | <a href="#specific_object" title="specific_object">specific_object</a> )</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <a href="#knowledge_process" title="knowledge_process">knowledge_process</a> ( ' “by” ' <a href="#knowledge_subprocess" title="knowledge_subprocess">knowledge_subprocess</a> )? ( <a href="#math_operation" title="math_operation">math_operation</a> ', ' <a href="#object" title="object">object</a> | <a href="#specific_object" title="specific_object">specific_object</a> | <a href="#processPred" title="processPred">processPred</a> )</div></code></div>
+         </p>
+      
+      <p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="formal_process">formal_process:</a></p><img border="0" src="diagram/formal_process.png" height="245" width="443" usemap="#formal_process.map"><map name="formal_process.map"><area shape="rect" coords="259,165,373,197" href="#representation" title="representation"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#formal_process" title="formal_process">formal_process</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ' read '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' recite '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' write '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' represent ' ( ' with ' <a href="#representation" title="representation">representation</a> )?</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' randomly sample '</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#scope_competency" title="scope_competency">scope_competency</a></li>
+            
+            <li><a href="#whole_number_competency" title="whole_number_competency">whole_number_competency</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="representation">representation:</a></p><img border="0" src="diagram/representation.png" height="125" width="165" usemap="#representation.map"><map name="representation.map"><area shape="rect" coords="49,1,115,33" href="#models" title="models"><area shape="rect" coords="49,45,105,77" href="#realia" title="realia"><area shape="rect" coords="49,89,109,121" href="#glyphs" title="glyphs"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#representation" title="representation">representation</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= <a href="#models" title="models">models</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <a href="#realia" title="realia">realia</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <a href="#glyphs" title="glyphs">glyphs</a></div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#formal_process" title="formal_process">formal_process</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="models">models:</a></p><img border="0" src="diagram/models.png" height="125" width="201"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#models" title="models">models</a>&nbsp;&nbsp;&nbsp;::= ' “images” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “sounds” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “activities” '</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#representation" title="representation">representation</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="realia">realia:</a></p><img border="0" src="diagram/realia.png" height="81" width="213"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#realia" title="realia">realia</a>&nbsp;&nbsp;&nbsp;::= ' “specimens” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “body parts” '</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#representation" title="representation">representation</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="glyphs">glyphs:</a></p><img border="0" src="diagram/glyphs.png" height="169" width="203"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#glyphs" title="glyphs">glyphs</a>&nbsp;&nbsp;&nbsp;::= ' “words” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “symbols” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “drawings” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “graphs” '</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#representation" title="representation">representation</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="knowledge_process">knowledge_process:</a></p><img border="0" src="diagram/knowledge_process.png" height="257" width="217"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#knowledge_process" title="knowledge_process">knowledge_process</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ' "remember" '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' "understand" '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' "apply" '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' "analyze" '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| '"evaluate" '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' "create" '</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#scope_competency" title="scope_competency">scope_competency</a></li>
+            
+            <li><a href="#whole_number_competency" title="whole_number_competency">whole_number_competency</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="knowledge_subprocess">knowledge_subprocess:</a></p><img border="0" src="diagram/knowledge_subprocess.png" height="169" width="251"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#knowledge_subprocess" title="knowledge_subprocess">knowledge_subprocess</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ' "putting together" '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' "adding to" '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' "taking apart" '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' "taking from"  '</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#whole_number_competency" title="whole_number_competency">whole_number_competency</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="math_practice_competency">math_practice_competency:</a></p><img border="0" src="diagram/math_practice_competency.png" height="565" width="429"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#math_practice_competency" title="math_practice_competency">math_practice_competency</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ' “Make Sense of Problems” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Persevere in Solving Problems” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Reason Abstractly” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Reason Quantitatively” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Construct Viable Arguments” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Critique Reasoning” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Model Problems” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Use Tools Strategically” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Attend to Precision” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Look for Structure” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Make Use of Structure” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Look for Regularity in Repeated Reasoning” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Express Regularity in Repeated Reasoning” '</div></code></div>
+         </p>
+      
+      <p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="math_operation">math_operation:</a></p><img border="0" src="diagram/math_operation.png" height="433" width="243"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#math_operation" title="math_operation">math_operation</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ' “naming” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “sequencing” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “ordering” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “adding” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “subtracting” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “multiplying” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “dividing” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “negating” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “exponentiating” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “grouping” '</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#scope_competency" title="scope_competency">scope_competency</a></li>
+            
+            <li><a href="#whole_number_competency" title="whole_number_competency">whole_number_competency</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="quant_object">quant_object:</a></p><img border="0" src="diagram/quant_object.png" height="81" width="337"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#quant_object" title="quant_object">quant_object</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ' "quantitative math operations" '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' "quantitative object string" '</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#scope_competency" title="scope_competency">scope_competency</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="processPred">processPred:</a></p><img border="0" src="diagram/processPred.png" height="125" width="343"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#processPred" title="processPred">processPred</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ' "non-quantitative math op" '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' "non-quantitative object string" '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' "misc object string" '</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#scope_competency" title="scope_competency">scope_competency</a></li>
+            
+            <li><a href="#whole_number_competency" title="whole_number_competency">whole_number_competency</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="specific_object">specific_object:</a></p><img border="0" src="diagram/specific_object.png" height="477" width="391"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#specific_object" title="specific_object">specific_object</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ' “Pythagorean Theorem” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Standard Algorithm for Addition” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Standard Algorithm for Subtraction” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Standard Algorithm for Multiplication” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Standard Algorithm for Division” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “European Algorithm for Subtraction” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Lattice Algorithm for Multiplication” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Common Factors” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Distributive Property” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Commutative Property” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Associative Property” '</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#scope_competency" title="scope_competency">scope_competency</a></li>
+            
+            <li><a href="#whole_number_competency" title="whole_number_competency">whole_number_competency</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="scope_object">scope_object:</a></p><img border="0" src="diagram/scope_object.png" height="773" width="397" usemap="#scope_object.map"><map name="scope_object.map"><area shape="rect" coords="239,33,327,65" href="#sub_scope" title="sub_scope"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#scope_object" title="scope_object">scope_object</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ' "Whole Numbers" ' <a href="#sub_scope" title="sub_scope">sub_scope</a>?</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Integers” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Unit Fractions” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Rational Numbers” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Real Numbers” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Imaginary Numbers” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Complex Numbers” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Vectors” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Matrices” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Infinite Numbers” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Random Numbers” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Expected Values” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Probabilities” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “The Plane” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Space” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Algebraic Expressions” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “Numerical Expressions” '</div></code></div>
+         </p>
+      
+      <p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="notation_object">notation_object:</a></p><img border="0" src="diagram/notation_object.png" height="477" width="375"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#notation_object" title="notation_object">notation_object</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ' “in” ' ( ' “Fractional Notations” ' | ' “Decimal Notations” ' | ' “Proportional
+                  Notation” ' | ' “Addition Notation” ' | ' “Subtraction Notation” ' | ' “Multiplication
+                  Notations” ' | ' “Division Notations” ' | ' “Radical Notation” ' | ' “Exponential
+                  Notation” ' | ' “Scientific Notation” ' | ' “Base Ten” ' )</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#whole_number_competency" title="whole_number_competency">whole_number_competency</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="sub_scope">sub_scope:</a></p><img border="0" src="diagram/sub_scope.png" height="477" width="223"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#sub_scope" title="sub_scope">sub_scope</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ' “0” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “1” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “to 2” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “to 3” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “to 4” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “to 5” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “within 10” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “within 20” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “within 100” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “within 120” '</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ' “within 1000” '</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#scope_object" title="scope_object">scope_object</a></li>
+            </ul>
+         </p><br><hr>
+      
+      <p>
+         
+         <table class="signature" border="0">
+            
+            <tr>
+               
+               <td style="width: 100%">&nbsp;</td>
+               
+               <td valign="top">
+                  
+                  <nobr class="signature">... generated by <a name="Railroad-Diagram-Generator" class="signature" title="https://bottlecaps.de/rr/ui" href="https://bottlecaps.de/rr/ui" target="_blank">RR - Railroad Diagram Generator</a></nobr>
+                  </td>
+               
+               <td><a name="Railroad-Diagram-Generator" title="https://bottlecaps.de/rr/ui" href="https://bottlecaps.de/rr/ui" target="_blank"><img border="0" src="diagram/rr-1.63.png" height="16" width="16"></a></td>
+               </tr>
+            </table>
+         </p>
+      </body>
+   </html>
