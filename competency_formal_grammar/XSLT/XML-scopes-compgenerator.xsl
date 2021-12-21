@@ -5,24 +5,40 @@
     version="3.0">
     
     
+   
     <xsl:output method="xml" indent="yes"/>
     
     
     <!-- ebb: Here we have defined a series of global parameters that are just strings of text designed to match element names in the source document. Parameters are very similar to variables in XSLT, but have a little more flexibility.They could be received into this XSLT as input, so imagine these as INPUT PARAMETERS to this XSLT. -->
     
-    <xsl:param name="formal_process" as="xs:string" select="'formal_process'"/>
-    <xsl:param name="knowledge_process" as="xs:string" select="'knowledge_process'"/>
+    <xsl:param name="formal_process" as="xs:string" select="'formalProcess'"/>
+    <xsl:param name="knowledge_process" as="xs:string" select="'knowledgeProcess'"/>
     
     <xsl:param name="processPred" as="xs:string" select="'processPred'"/>
     
-    <xsl:param name="specific_object" as="xs:string" select="'specific_object'"/>
+    <xsl:param name="specific_object" as="xs:string" select="'specificObject'"/>
     
-    <xsl:param name="math_operation" as="xs:string" select="'math_operation'"/>
+    <xsl:param name="math_operation" as="xs:string" select="'mathOperation'"/>
     <xsl:param name="object" as="xs:string" select="'quant'"/>
    
    <!-- SCOPE PARAMS -->
     <xsl:param name="complex" as="xs:string" select="'complex'"/>
     <xsl:param name="imag" as="xs:string" select="'imag'"/>
+    <xsl:param name="int" as="xs:string" select="'int'"/>
+    <xsl:param name="rational" as="xs:string" select="'rational'"/>
+    <xsl:param name="real" as="xs:string" select="'real'"/>
+    <xsl:param name="unit" as="xs:string" select="'unit'"/>
+    <xsl:param name="vector" as="xs:string" select="'vector'"/>
+    <xsl:param name="matrix" as="xs:string" select="'matrix'"/>
+    <xsl:param name="infinite" as="xs:string" select="'infinite'"/>
+    <xsl:param name="random" as="xs:string" select="'random'"/>
+    <xsl:param name="expect" as="xs:string" select="'expect'"/>
+    <xsl:param name="prob" as="xs:string" select="'prob'"/>
+    <xsl:param name="plane" as="xs:string" select="'plane'"/>
+    <xsl:param name="space" as="xs:string" select="'space'"/>
+    <xsl:param name="algexp" as="xs:string" select="'algexp'"/>
+    <xsl:param name="numexp" as="xs:string" select="'numexp'"/>
+    <xsl:param name="wholenum" as="xs:string" select="'wholenum'"/>
     
     <!-- KEYS -->
     <!-- SCOPE KEYS -->
@@ -49,6 +65,8 @@
         <xsl:variable name="var1" as="xs:string+" select="$param1/parent::* ! name()"/>
         <xsl:variable name="var2" as="xs:string+" select="$param2/parent::* ! name()"/>
         <xsl:variable name="var3" as="xs:string*" select="$param3/parent::* ! name()"/>
+        <!-- add new variable(?) to insert scope string @ end of sentence -->
+        <xsl:variable name="scopeName" as="xs:string*" select="'of '"/>
         
         <xsl:for-each select="$param1 ! normalize-space()">
             <xsl:variable name="currLevel1" as="xs:string" select="current()"/>
@@ -81,6 +99,7 @@
                             <xsl:element name="{$var2}">
                                 <xsl:sequence select="$currLevel2"/>
                             </xsl:element> 
+                            <!--<xsl:element name=""-->
                         </componentSentence>
                     </xsl:otherwise>
                 </xsl:choose>
@@ -161,6 +180,7 @@
                     <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
                     <xsl:with-param name="param2" as="element()+" select="$MathOpcomplex"/>
                     <xsl:with-param name="param3" as="element()+" select="$QOcomplex"/>
+                    <!-- maybe put the domain name text here?? -->
                 </xsl:call-template>
             </sentenceGroup>
             

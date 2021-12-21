@@ -10,14 +10,14 @@
     
     <!-- ebb: Here we have defined a series of global parameters that are just strings of text designed to match element names in the source document. Parameters are very similar to variables in XSLT, but have a little more flexibility.They could be received into this XSLT as input, so imagine these as INPUT PARAMETERS to this XSLT. -->
     
-    <xsl:param name="formal_process" as="xs:string" select="'formal_process'"/>
-    <xsl:param name="knowledge_process" as="xs:string" select="'knowledge_process'"/>
+    <xsl:param name="formal_process" as="xs:string" select="'formalProcess'"/>
+    <xsl:param name="knowledge_process" as="xs:string" select="'knowledgeProcess'"/>
     
     <xsl:param name="processPred" as="xs:string" select="'processPred'"/>
     
-    <xsl:param name="specific_object" as="xs:string" select="'specific_object'"/>
+    <xsl:param name="specific_object" as="xs:string" select="'specificObject'"/>
     
-    <xsl:param name="math_operation" as="xs:string" select="'math_operation'"/>
+    <xsl:param name="math_operation" as="xs:string" select="'mathOperation'"/>
     <xsl:param name="object" as="xs:string" select="'quant'"/>
    
    <!-- SCOPE PARAMS -->

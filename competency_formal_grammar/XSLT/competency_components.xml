@@ -38,45 +38,50 @@
 
 
     <!-- ANYTHING FILTERING WHOLENUMS ONLY - DON'T WORRY ABOOT IT FOR NOW -->
-
+   
+    
+    
+    
+    <!-- dont you heckin dare snakelcase - un-snakelcase the things-->
+    
 
     <compParts>
         <processGroup>
             <process>
                 <!-- SUBCLASS attribute values should be filtered according to the component this string will go with,
             the rest of the strings will not have the subclass attribute value-->
-                <formal_process>
-                    <string class="complex imag" subclass="notation">Read</string>
-                    <string>Recite</string>
-                    <string class="complex imag" subclass="notation">Write</string>
-                    <string class="complex imag">Represent</string>
+                <formalProcess>
+                    <string class="complex imag int" subclass="notation">Read</string>
+                    <string class="int">Recite</string>
+                    <string class="complex imag int" subclass="notation">Write</string>
+                    <string class="complex imag int">Represent</string>
                     <string sub="models">Represent with images</string>
                     <string sub="models">Represent with sounds</string>
                     <string class="complex imag" sub="models">Represent with activities</string>
-                    <string sub="realia">Represent with specimens</string>
-                    <string sub="realia">Represent with body parts</string>
-                    <string class="complex imag" sub="glyphs">Represent with words</string>
-                    <string sub="glyphs">Represent with symbols</string>
-                    <string sub="glyphs">Represent with drawings</string>
-                    <string sub="glyphs">Represent with graphs</string>
-                    <string>Randomly sample</string>
-                </formal_process>
+                    <string class="int" sub="realia">Represent with specimens</string>
+                    <string class="int" sub="realia">Represent with body parts</string>
+                    <string class="complex imag int" sub="glyphs">Represent with words</string>
+                    <string class="" sub="glyphs">Represent with symbols</string>
+                    <string class="" sub="glyphs">Represent with drawings</string>
+                    <string class="" sub="glyphs">Represent with graphs</string>
+                    <string class="int">Randomly sample</string>
+                </formalProcess>
                 <!-- NO notations with knowledge process sentences -->
                 <knowledge>
-                    <knowledge_process>
-                        <string class="complex imag">Remember</string>
-                        <string class="complex imag">Evaluate</string>
-                        <string class="complex imag">Create</string>
-                        <string class="complex imag" sub="strategizing">Understand</string>
-                        <string class="complex imag" sub="strategizing">Apply</string>
-                        <string class="complex imag">Analyze</string>
+                    <knowledgeProcess>
+                        <string class="complex imag int">Remember</string>
+                        <string class="complex imag int">Evaluate</string>
+                        <string class="complex imag int">Create</string>
+                        <string class="complex imag int" sub="strategizing">Understand</string>
+                        <string class="complex imag int" sub="strategizing">Apply</string>
+                        <string class="complex imag int">Analyze</string>
                         <!-- <whole_numbers_knowledge_subprocess>
                         <string class="wholenum">by putting together</string>
                         <string class="wholenum">by adding to</string>
                         <string class="wholenum">by taking apart</string>
                         <string class="wholenum">by taking from</string>
                     </whole_numbers_knowledge_subprocess>-->
-                    </knowledge_process>
+                    </knowledgeProcess>
                 </knowledge>
             </process>
             <!--BRANCHES HERE 
@@ -90,15 +95,15 @@
         <processBranch>
             <processPred>
                 <string>Volume</string>
-                <string class="complex imag">Numerical Expressions</string>
-                <string class="complex imag">Numerical Equations</string>
-                <string class="complex imag">Properties of Objects</string>
-                <string class="complex imag">Properties of Operations</string>
+                <string class="complex imag int">Numerical Expressions</string>
+                <string class="complex imag int">Numerical Equations</string>
+                <string class="complex imag int">Properties of Objects</string>
+                <string class="complex imag int">Properties of Operations</string>
                 <string>Patterns</string>
                 <string class="complex imag">Common Factors</string>
-                <string class="complex imag">Multiples</string>
-                <string class="complex imag">Common Multiples</string>
-                <string>Place Value</string>
+                <string class="complex imag int">Multiples</string>
+                <string class="complex imag int">Common Multiples</string>
+                <string class="int">Place Value</string>
                 <string>Attributes</string>
                 <string>Standard Units</string>
                 <string>SI Units</string>
@@ -130,11 +135,11 @@
                 <string>Observations</string>
                 <string class="complex imag">Dependent Variables</string>
                 <string class="complex imag">Independent Variables</string>
-                <string class="complex imag">Sum</string>
-                <string class="complex imag">Difference</string>
-                <string class="complex imag">Product</string>
-                <string class="complex imag">Quotient</string>
-                <string class="complex imag">Remainder</string>
+                <string class="complex imag int">Sum</string>
+                <string class="complex imag int">Difference</string>
+                <string class="complex imag int">Product</string>
+                <string class="complex imag int">Quotient</string>
+                <string class="complex imag int">Remainder</string>
                 <string>Groups</string>
                 <string>Length</string>
                 <string>Width</string>
@@ -142,16 +147,19 @@
                 <string>Qualitative Attributes</string>
                 <string>Plane Figures</string>
                 <string>Objects in Space</string>
-                <string class="complex imag">Sample</string>
-                <string>Random Sample</string>
+                <string class="complex imag int">Sample</string>
+                <string class="int">Random Sample</string>
                 <string>Prisms and Cylinders</string>
                 <string>Spheres</string>
                 <string>Cones</string>
                 <string>Quantitative Stories</string>
             </processPred>
-            <specific_object>
+            <!-- REVIEW SPECIFIC OBJECT SCOPE ALIGNMENTS WITH TIM/MATH TEAM -->
+            <!-- ignore further specific object generations - take specific object out of the filtering/generation (use bulk/unfiltered gen) -->
+            
+            <specificObject>
                 <string>Pythagorean Theorem</string>
-                <string class="complex imag">Standard Algorithm for Addition</string>
+                <string>Standard Algorithm for Addition</string>
                 <string class="complex imag">Standard Algorithm for Subtraction</string>
                 <string class="complex imag">Standard Algorithm for Multiplication</string>
                 <string class="complex imag">Standard Algorithm for Division</string>
@@ -161,10 +169,10 @@
                 <string>Distributive Property</string>
                 <string>Commutative Property</string>
                 <string>Associative Property</string>
-            </specific_object>
+            </specificObject>
             
-            <mathOP_object>
-                <math_operation>
+            <mathOPobject>
+                <mathOperation>
                     <string class="complex imag">Naming</string>
                     <string class="complex imag">Sequencing</string>
                     <string class="complex imag">Ordering</string>
@@ -177,10 +185,11 @@
                     <string class="complex imag">Grouping</string>
                     <!-- Operations -->
                     <!--<string>Order Operations</string>-->
-                </math_operation>
+                </mathOperation>
                 <!-- -->
                 <quant>
                     <string>Numbers</string>
+                    <!-- putting the name of the scope INSIDE the string outputs -->
                     <string class="complex imag">Terms</string>
                     <string class="complex imag">Factors</string>
                     <string class="complex imag">Angles</string>
@@ -191,7 +200,7 @@
                     <string>Chance Processes</string>
                     <string>Arrays</string>
                 </quant>
-            </mathOP_object>
+            </mathOPobject>
             
         </processBranch>
 
@@ -199,7 +208,7 @@
 
         <!-- specific object and notation object will never occur in the same sentence output -->
 
-        <!--<notation_object class="wholenum">
+        <!--<notationObject class="wholenum">
             <string>Fractional Notations</string>
             <string>Decimal Notations</string>
             <string>Proportional Notation</string>
@@ -211,7 +220,7 @@
             <string>Exponential Notation</string>
             <string>Scientific Notation</string>
             <string>Base Ten</string>
-        </notation_object>-->
+        </notationObject>-->
 
     </compParts>
 </xml>
