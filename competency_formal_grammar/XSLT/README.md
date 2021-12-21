@@ -50,8 +50,10 @@ The XSLT generator scripts have two basic components:
      what keyed variables we need to construct a sentence. 
      
 ##### Global Component Params:
-  ``
-  <xsl:param name="formal_process" as="xs:string" select="'formal_process'"/>
+  
+ ```
+ <xsl:param name="formal_process" as="xs:string" select="'formal_process'"/>
+ 
     <xsl:param name="knowledge_process" as="xs:string" select="'knowledge_process'"/>
     
     <xsl:param name="processPred" as="xs:string" select="'processPred'"/>
@@ -59,11 +61,13 @@ The XSLT generator scripts have two basic components:
     <xsl:param name="specific_object" as="xs:string" select="'specific_object'"/>
     
     <xsl:param name="math_operation" as="xs:string" select="'math_operation'"/>
-    <xsl:param name="object" as="xs:string" select="'quant'"/>
-    ``
+    <xsl:param name="object" as="xs:string" select="'quant'"/> 
+```
+    
     
 ##### Global Scope Params:
-``
+
+``` 
 <xsl:param name="complex" as="xs:string" select="'complex'"/>
     <xsl:param name="imag" as="xs:string" select="'imag'"/>
     <xsl:param name="int" as="xs:string" select="'int'"/>
@@ -80,8 +84,8 @@ The XSLT generator scripts have two basic components:
     <xsl:param name="space" as="xs:string" select="'space'"/>
     <xsl:param name="algexp" as="xs:string" select="'algexp'"/>
     <xsl:param name="numexp" as="xs:string" select="'numexp'"/>
-    <xsl:param name="wholenum" as="xs:string" select="'wholenum'"/>
-``
+    <xsl:param name="wholenum" as="xs:string" select="'wholenum'"/> 
+```
 
 ##### Scope Key:
 ``
