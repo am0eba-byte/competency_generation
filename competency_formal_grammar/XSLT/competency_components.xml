@@ -64,7 +64,7 @@
                     <string class="" sub="glyphs">Represent, with symbols,</string>
                     <string class="" sub="glyphs">Represent, with drawings,</string>
                     <string class="" sub="glyphs">Represent, with graphs,</string>
-                    <string class="int">Randomly sample</string>
+                    <string>Randomly sample</string>
                 </formalProcess>
                 <!-- NO notations with knowledge process sentences -->
                 <knowledge>
