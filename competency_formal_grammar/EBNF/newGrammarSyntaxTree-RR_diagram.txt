@@ -1,6 +1,6 @@
-scope_competency ::=  ( formal_process | knowledge_process ) (( math_operation ', ' quant_object ) | specific_object | processPred ) 
+scope_competency ::=  ( formal_process | knowledge_process ) (( math_operation ', ' quant_object ) | processPred ) 
 
-whole_number_competency ::= formal_process  (((math_operation ', ' object  | processPred) (notation_object)?) | specific_object)   |  knowledge_process ( ' “by” ' knowledge_subprocess )?  (( math_operation ', ' object ) | specific_object | processPred )
+whole_number_competency ::= formal_process  (((math_operation ', ' quant_object  | processPred) (notation_object)?) )   |  knowledge_process ( ' “by” ' knowledge_subprocess )?  (( math_operation ', ' quant_object ) | processPred )
 
 formal_process ::= ' read ' | ' recite ' | ' write ' |  ' represent ' ( ' with ' representation )? | ' randomly sample '
 
@@ -14,7 +14,6 @@ glyphs ::= ' “words” ' | ' “symbols” ' | ' “drawings” ' | ' “graph
 
  
 
-
 knowledge_process ::= ' "remember" ' | ' "understand" ' | ' "apply" ' | ' "analyze" ' | '"evaluate" ' | ' "create" ' 
 
 
@@ -26,24 +25,71 @@ knowledge_subprocess ::= ' "putting together" ' | ' "adding to" ' | ' "taking ap
 math_practice_competency ::= ' “Make Sense of Problems” ' | ' “Persevere in Solving Problems” ' | ' “Reason Abstractly” ' | ' “Reason Quantitatively” ' | ' “Construct Viable Arguments” ' | ' “Critique Reasoning” ' | ' “Model Problems” ' | ' “Use Tools Strategically” ' | ' “Attend to Precision” ' | ' “Look for Structure” ' | ' “Make Use of Structure” ' | ' “Look for Regularity in Repeated Reasoning” ' | ' “Express Regularity in Repeated Reasoning” ' 
 
 
-/* Competencies split into specific scope_object domains:
-
-complex_competency ::=
-
-whole_number_competency ::=
-
-integers_competency ::=
-
-
-.. */
-
-
 math_operation ::= ' “naming” ' | ' “sequencing” ' | ' “ordering” ' | ' “adding” ' | ' “subtracting” ' | ' “multiplying” ' | ' “dividing” ' | ' “negating” ' | ' “exponentiating” ' | ' “grouping” ' 
 /* specific to scope domains */
 
-quant_object ::= ' "quantitative math operations" ' | ' "quantitative object string" '
+quant_object ::= ' "Numbers" ' | ' "Terms" ' | ' "Factors" ' | ' "Angles" ' | ' "Algebraic Expressions" ' | ' "Variables" ' | ' "Functions" ' | ' "Chance Processes" ' | ' "Arrays" '
 
-processPred ::= ' "non-quantitative math op" ' | ' "non-quantitative object string" ' | ' "misc object string" '
+processPred ::= 
+' "Volumes" ' |
+' "Numerical Expressions" ' |
+' "Numerical Equations" ' |
+' "Properties of Objects" ' |
+' "Properties of Operations" ' |
+' "Patterns" ' |
+' "Common Factors" ' |
+' "Multiples" ' |
+' "Common Multiples" ' |
+' "Place Values" ' |
+' "Attributes" ' |
+' "Standard Units" ' |
+' "SI Units" ' |
+' "Areas" ' |
+' "Perimeters" ' |
+' "Data" ' |
+' "Shapes" ' |
+' "Surface Areas" ' |
+' "Realia" ' |
+' "Models" ' |
+' "Congruence" ' |
+' "Similarity" ' |
+' "Ratios" ' |
+' "Proportions" ' |
+' "Numerical Inequalities" ' |
+' "Algebraic Equations" ' |
+' "Algebraic Inequalities" ' |
+' "Lines" ' |
+' "Linear Equations" ' |
+' "Simultaneous Equations" ' |
+' "Statistical Variability" ' |
+' "Distributions" ' |
+' "Populations" ' |
+' "Probability Models" ' |
+' "Bivariate Data" ' |
+' "Sets" ' |
+' "Elements" ' |
+' "Experiments" ' |
+' "Observations" ' |
+' "Dependent Variables" ' |
+' "Independent Variables" ' |
+' "Sums" ' |
+' "Differences" ' |
+' "Products" ' |
+' "Quotients" ' |
+' "Remainders" ' |
+' "Groups" ' |
+' "Length" ' |
+' "Width" ' |
+' "Depth or Height" ' |
+' "Qualitative Attributes" ' |
+' "Plane Figures" ' |
+' "Objects in Space" ' |
+' "Samples" ' |
+' "Random Samples" ' |
+' "Prisms and Cylinders" ' |
+' "Spheres" ' |
+' "Cones" ' |
+' "Quantitative Stories" '
 
 specific_object ::= ' “Pythagorean Theorem” ' | ' “Standard Algorithm for Addition” ' | ' “Standard Algorithm for Subtraction” '  |  ' “Standard Algorithm for Multiplication” ' | ' “Standard Algorithm for Division” ' | ' “European Algorithm for Subtraction” ' | ' “Lattice Algorithm for Multiplication” ' | ' “Common Factors” ' | ' “Distributive Property” ' | ' “Commutative Property” ' | ' “Associative Property” '
 
