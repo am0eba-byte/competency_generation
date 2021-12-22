@@ -147,9 +147,9 @@ The TSV files are separated by which competency sentence components each group o
 
 - complex numbers + imaginary numbers
 - integers
+- rational numbers
 
 ### scopes to do:
-- rational numbers
 - real numbers 
 - unit fractions
 - vectors

@@ -450,6 +450,133 @@
         
         
         
+<!--**************** RATIONAL NUMBERS SCOPE *********************************************-->
+      
+        <xsl:result-document method="text" href="rational_nums/text/rationalSeedOutput.txt">
+        <!-- <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>Formal Process Branch </xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            -->
+        <!--
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>RATIONAL NUMBERS: Formal Process + Process Predicate</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+        
+            <xsl:variable name="FPrational" as="element()+">
+                
+                <xsl:for-each select="key('scopes', $rational)">
+                    <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="PrPredrational" as="element()+">
+                <xsl:for-each select="key('scopes', $rational)">
+                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$FPrational"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPredrational"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$rationalScopeString"/>
+            </xsl:call-template>
+            
+        
+        
+        <!--
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>RATIONAL NUMBERS: Formal Process + Math Operation + Quant Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+      
+            <xsl:variable name="FPrational" as="element()+">
+                <xsl:for-each select="key('scopes', $rational)">
+                    <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="MathOprational" as="element()+">
+                <xsl:for-each select="key('scopes', $rational)">
+                    <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="QOrational" as="element()+">
+                <xsl:for-each select="key('scopes', $rational)">
+                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$FPrational"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOprational"/>
+                <xsl:with-param name="param3" as="element()+" select="$QOrational"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$rationalScopeString"/>
+            </xsl:call-template>
+            
+        
+        
+        <!-- <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>Knowledge Process Branch </xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            
+            
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>RATIONAL NUMBERS: Knowledge Process + Process Pred</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+       
+            <xsl:variable name="KPrational" as="element()+">
+                <xsl:for-each select="key('scopes', $rational)">
+                    <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="PrPredrational" as="element()+">
+                <xsl:for-each select="key('scopes', $rational)">
+                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$KPrational"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPredrational"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$rationalScopeString"/>
+            </xsl:call-template>
+            
+        
+        
+        
+        <!--  <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>RATIONAL NUMBERS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+       
+            <xsl:variable name="KPrational" as="element()+">
+                <xsl:for-each select="key('scopes', $rational)">
+                    <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="MathOprational" as="element()+">
+                <xsl:for-each select="key('scopes', $rational)">
+                    <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="QOrational" as="element()+">
+                <xsl:for-each select="key('scopes', $rational)">
+                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$KPrational"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOprational"/>
+                <xsl:with-param name="param3" as="element()+" select="$QOrational"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$rationalScopeString"/>
+            </xsl:call-template>
+            
+        </xsl:result-document>
+        
         
         <!--</xml>-->
     </xsl:template>
