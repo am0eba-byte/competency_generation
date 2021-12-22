@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xml><!--####################################--><!--Formal Process Branch --><!--####################################--><!--####################################--><!--COMPLEX + IMAGINARY NUMBERS: Formal Process + Process Predicate--><!--####################################-->
-   <sentenceGroup xml:id="fpPp_complex">
+<xml><!--####################################--><!--Formal Process Branch --><!--####################################--><!--####################################--><!--COMPLEX NUMBERS: Formal Process + Process Predicate--><!--####################################-->
+   <sentenceGroup xml:id="complex">
       <componentSentence>
          <formalProcess>Read</formalProcess>
          <processPred>Numerical Expressions</processPred>
@@ -79,27 +79,27 @@
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
-         <processPred>Sum</processPred>
+         <processPred>Sums</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
-         <processPred>Difference</processPred>
+         <processPred>Differences</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
-         <processPred>Product</processPred>
+         <processPred>Products</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
-         <processPred>Quotient</processPred>
+         <processPred>Quotients</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
-         <processPred>Remainder</processPred>
+         <processPred>Remainders</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
-         <processPred>Sample</processPred>
+         <processPred>Samples</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Write</formalProcess>
@@ -179,27 +179,27 @@
       </componentSentence>
       <componentSentence>
          <formalProcess>Write</formalProcess>
-         <processPred>Sum</processPred>
+         <processPred>Sums</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Write</formalProcess>
-         <processPred>Difference</processPred>
+         <processPred>Differences</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Write</formalProcess>
-         <processPred>Product</processPred>
+         <processPred>Products</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Write</formalProcess>
-         <processPred>Quotient</processPred>
+         <processPred>Quotients</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Write</formalProcess>
-         <processPred>Remainder</processPred>
+         <processPred>Remainders</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Write</formalProcess>
-         <processPred>Sample</processPred>
+         <processPred>Samples</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Represent</formalProcess>
@@ -279,358 +279,233 @@
       </componentSentence>
       <componentSentence>
          <formalProcess>Represent</formalProcess>
-         <processPred>Sum</processPred>
+         <processPred>Sums</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Represent</formalProcess>
-         <processPred>Difference</processPred>
+         <processPred>Differences</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Represent</formalProcess>
-         <processPred>Product</processPred>
+         <processPred>Products</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Represent</formalProcess>
-         <processPred>Quotient</processPred>
+         <processPred>Quotients</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Represent</formalProcess>
-         <processPred>Remainder</processPred>
+         <processPred>Remainders</processPred>
       </componentSentence>
       <componentSentence>
          <formalProcess>Represent</formalProcess>
-         <processPred>Sample</processPred>
+         <processPred>Samples</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Numerical Expressions</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Numerical Equations</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Properties of Objects</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Properties of Operations</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Common Factors</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Multiples</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Common Multiples</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Congruence</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Similarity</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Numerical Inequalities</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Algebraic Equations</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Algebraic Inequalities</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Simultaneous Equations</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Statistical Variability</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Distributions</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Probability Models</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Bivariate Data</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Dependent Variables</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <processPred>Independent Variables</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <processPred>Sum</processPred>
+         <formalProcess>Represent, with activities,</formalProcess>
+         <processPred>Sums</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <processPred>Difference</processPred>
+         <formalProcess>Represent, with activities,</formalProcess>
+         <processPred>Differences</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <processPred>Product</processPred>
+         <formalProcess>Represent, with activities,</formalProcess>
+         <processPred>Products</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <processPred>Quotient</processPred>
+         <formalProcess>Represent, with activities,</formalProcess>
+         <processPred>Quotients</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <processPred>Remainder</processPred>
+         <formalProcess>Represent, with activities,</formalProcess>
+         <processPred>Remainders</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <processPred>Sample</processPred>
+         <formalProcess>Represent, with activities,</formalProcess>
+         <processPred>Samples</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Numerical Expressions</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Numerical Equations</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Properties of Objects</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Properties of Operations</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Common Factors</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Multiples</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Common Multiples</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Congruence</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Similarity</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Numerical Inequalities</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Algebraic Equations</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Algebraic Inequalities</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Simultaneous Equations</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Statistical Variability</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Distributions</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Probability Models</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Bivariate Data</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Dependent Variables</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <processPred>Independent Variables</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <processPred>Sum</processPred>
+         <formalProcess>Represent, with words,</formalProcess>
+         <processPred>Sums</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <processPred>Difference</processPred>
+         <formalProcess>Represent, with words,</formalProcess>
+         <processPred>Differences</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <processPred>Product</processPred>
+         <formalProcess>Represent, with words,</formalProcess>
+         <processPred>Products</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <processPred>Quotient</processPred>
+         <formalProcess>Represent, with words,</formalProcess>
+         <processPred>Quotients</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <processPred>Remainder</processPred>
+         <formalProcess>Represent, with words,</formalProcess>
+         <processPred>Remainders</processPred>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <processPred>Sample</processPred>
+         <formalProcess>Represent, with words,</formalProcess>
+         <processPred>Samples</processPred>
       </componentSentence>
    </sentenceGroup>
    <!--####################################-->
-   <!--COMPLEX + IMAGINARY NUMBERS: Formal Process + Specific Object-->
+   <!--COMPLEX NUMBERS: Formal Process + Math Operation + Quant Object-->
    <!--####################################-->
-   <sentenceGroup xml:id="fpSo_complex">
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <specificObject>Standard Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <specificObject>Standard Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <specificObject>Standard Algorithm for Division</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <specificObject>European Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <specificObject>Lattice Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <specificObject>Common Factors</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <specificObject>Standard Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <specificObject>Standard Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <specificObject>Standard Algorithm for Division</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <specificObject>European Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <specificObject>Lattice Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <specificObject>Common Factors</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <specificObject>Standard Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <specificObject>Standard Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <specificObject>Standard Algorithm for Division</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <specificObject>European Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <specificObject>Lattice Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <specificObject>Common Factors</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <specificObject>Standard Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <specificObject>Standard Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <specificObject>Standard Algorithm for Division</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <specificObject>European Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <specificObject>Lattice Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <specificObject>Common Factors</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <specificObject>Standard Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <specificObject>Standard Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <specificObject>Standard Algorithm for Division</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <specificObject>European Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <specificObject>Lattice Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <specificObject>Common Factors</specificObject>
-      </componentSentence>
-   </sentenceGroup>
-   <!--####################################-->
-   <!--COMPLEX + IMAGINARY NUMBERS: Formal Process + Math Operation + Quant Object-->
-   <!--####################################-->
-   <sentenceGroup xml:id="fpMathOP_complex">
+   <sentenceGroup xml:id="complex">
       <componentSentence>
          <formalProcess>Read</formalProcess>
          <mathOperation>Naming</mathOperation>
@@ -640,11 +515,6 @@
          <formalProcess>Read</formalProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <mathOperation>Naming</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
@@ -674,11 +544,6 @@
       <componentSentence>
          <formalProcess>Read</formalProcess>
          <mathOperation>Sequencing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <mathOperation>Sequencing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -704,11 +569,6 @@
       <componentSentence>
          <formalProcess>Read</formalProcess>
          <mathOperation>Ordering</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <mathOperation>Ordering</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -730,11 +590,6 @@
          <formalProcess>Read</formalProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <mathOperation>Adding</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
@@ -760,11 +615,6 @@
          <formalProcess>Read</formalProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <mathOperation>Subtracting</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
@@ -790,11 +640,6 @@
          <formalProcess>Read</formalProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <mathOperation>Multiplying</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
@@ -820,11 +665,6 @@
          <formalProcess>Read</formalProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <mathOperation>Dividing</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
@@ -850,11 +690,6 @@
          <formalProcess>Read</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <mathOperation>Negating</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
@@ -880,11 +715,6 @@
          <formalProcess>Read</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <mathOperation>Exponentiating</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <formalProcess>Read</formalProcess>
@@ -914,11 +744,6 @@
       <componentSentence>
          <formalProcess>Read</formalProcess>
          <mathOperation>Grouping</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Read</formalProcess>
-         <mathOperation>Grouping</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -944,11 +769,6 @@
       <componentSentence>
          <formalProcess>Write</formalProcess>
          <mathOperation>Naming</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <mathOperation>Naming</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -974,11 +794,6 @@
       <componentSentence>
          <formalProcess>Write</formalProcess>
          <mathOperation>Sequencing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <mathOperation>Sequencing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1004,11 +819,6 @@
       <componentSentence>
          <formalProcess>Write</formalProcess>
          <mathOperation>Ordering</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <mathOperation>Ordering</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1034,11 +844,6 @@
       <componentSentence>
          <formalProcess>Write</formalProcess>
          <mathOperation>Adding</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <mathOperation>Adding</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1064,11 +869,6 @@
       <componentSentence>
          <formalProcess>Write</formalProcess>
          <mathOperation>Subtracting</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <mathOperation>Subtracting</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1094,11 +894,6 @@
       <componentSentence>
          <formalProcess>Write</formalProcess>
          <mathOperation>Multiplying</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <mathOperation>Multiplying</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1124,11 +919,6 @@
       <componentSentence>
          <formalProcess>Write</formalProcess>
          <mathOperation>Dividing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <mathOperation>Dividing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1150,11 +940,6 @@
          <formalProcess>Write</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <mathOperation>Negating</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <formalProcess>Write</formalProcess>
@@ -1184,11 +969,6 @@
       <componentSentence>
          <formalProcess>Write</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <mathOperation>Exponentiating</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1210,11 +990,6 @@
          <formalProcess>Write</formalProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Write</formalProcess>
-         <mathOperation>Grouping</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <formalProcess>Write</formalProcess>
@@ -1244,11 +1019,6 @@
       <componentSentence>
          <formalProcess>Represent</formalProcess>
          <mathOperation>Naming</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <mathOperation>Naming</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1274,11 +1044,6 @@
       <componentSentence>
          <formalProcess>Represent</formalProcess>
          <mathOperation>Sequencing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <mathOperation>Sequencing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1304,11 +1069,6 @@
       <componentSentence>
          <formalProcess>Represent</formalProcess>
          <mathOperation>Ordering</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <mathOperation>Ordering</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1334,11 +1094,6 @@
       <componentSentence>
          <formalProcess>Represent</formalProcess>
          <mathOperation>Adding</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <mathOperation>Adding</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1364,11 +1119,6 @@
       <componentSentence>
          <formalProcess>Represent</formalProcess>
          <mathOperation>Subtracting</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <mathOperation>Subtracting</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1394,11 +1144,6 @@
       <componentSentence>
          <formalProcess>Represent</formalProcess>
          <mathOperation>Multiplying</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <mathOperation>Multiplying</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1424,11 +1169,6 @@
       <componentSentence>
          <formalProcess>Represent</formalProcess>
          <mathOperation>Dividing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <mathOperation>Dividing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1450,11 +1190,6 @@
          <formalProcess>Represent</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <mathOperation>Negating</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <formalProcess>Represent</formalProcess>
@@ -1484,11 +1219,6 @@
       <componentSentence>
          <formalProcess>Represent</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <mathOperation>Exponentiating</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1514,11 +1244,6 @@
       <componentSentence>
          <formalProcess>Represent</formalProcess>
          <mathOperation>Grouping</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent</formalProcess>
-         <mathOperation>Grouping</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -1532,602 +1257,502 @@
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <mathOperation>Naming</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Sequencing</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Sequencing</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <mathOperation>Sequencing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Sequencing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Sequencing</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Sequencing</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Ordering</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Ordering</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <mathOperation>Ordering</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Ordering</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Ordering</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Ordering</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <mathOperation>Adding</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <mathOperation>Subtracting</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <mathOperation>Multiplying</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <mathOperation>Dividing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <mathOperation>Negating</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <mathOperation>Exponentiating</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
-         <mathOperation>Grouping</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with activities</formalProcess>
+         <formalProcess>Represent, with activities,</formalProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <mathOperation>Naming</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Sequencing</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Sequencing</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <mathOperation>Sequencing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Sequencing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Sequencing</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Sequencing</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Ordering</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Ordering</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <mathOperation>Ordering</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Ordering</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Ordering</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Ordering</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <mathOperation>Adding</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <mathOperation>Subtracting</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <mathOperation>Multiplying</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <mathOperation>Dividing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <mathOperation>Negating</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <mathOperation>Exponentiating</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Terms</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Factors</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
-         <mathOperation>Grouping</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Variables</quant>
       </componentSentence>
       <componentSentence>
-         <formalProcess>Represent with words</formalProcess>
+         <formalProcess>Represent, with words,</formalProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Functions</quant>
       </componentSentence>
@@ -2136,9 +1761,9 @@
    <!--Knowledge Process Branch -->
    <!--####################################-->
    <!--####################################-->
-   <!--COMPLEX + IMAGINARY NUMBERS: Knowledge Process + Process Pred-->
+   <!--COMPLEX NUMBERS: Knowledge Process + Process Pred-->
    <!--####################################-->
-   <sentenceGroup xml:id="KpPp_complex">
+   <sentenceGroup xml:id="complex">
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
          <processPred>Numerical Expressions</processPred>
@@ -2217,27 +1842,27 @@
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
-         <processPred>Sum</processPred>
+         <processPred>Sums</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
-         <processPred>Difference</processPred>
+         <processPred>Differences</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
-         <processPred>Product</processPred>
+         <processPred>Products</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
-         <processPred>Quotient</processPred>
+         <processPred>Quotients</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
-         <processPred>Remainder</processPred>
+         <processPred>Remainders</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
-         <processPred>Sample</processPred>
+         <processPred>Samples</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
@@ -2317,27 +1942,27 @@
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
-         <processPred>Sum</processPred>
+         <processPred>Sums</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
-         <processPred>Difference</processPred>
+         <processPred>Differences</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
-         <processPred>Product</processPred>
+         <processPred>Products</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
-         <processPred>Quotient</processPred>
+         <processPred>Quotients</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
-         <processPred>Remainder</processPred>
+         <processPred>Remainders</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
-         <processPred>Sample</processPred>
+         <processPred>Samples</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
@@ -2417,27 +2042,27 @@
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
-         <processPred>Sum</processPred>
+         <processPred>Sums</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
-         <processPred>Difference</processPred>
+         <processPred>Differences</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
-         <processPred>Product</processPred>
+         <processPred>Products</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
-         <processPred>Quotient</processPred>
+         <processPred>Quotients</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
-         <processPred>Remainder</processPred>
+         <processPred>Remainders</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
-         <processPred>Sample</processPred>
+         <processPred>Samples</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
@@ -2517,27 +2142,27 @@
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
-         <processPred>Sum</processPred>
+         <processPred>Sums</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
-         <processPred>Difference</processPred>
+         <processPred>Differences</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
-         <processPred>Product</processPred>
+         <processPred>Products</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
-         <processPred>Quotient</processPred>
+         <processPred>Quotients</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
-         <processPred>Remainder</processPred>
+         <processPred>Remainders</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
-         <processPred>Sample</processPred>
+         <processPred>Samples</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
@@ -2617,27 +2242,27 @@
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
-         <processPred>Sum</processPred>
+         <processPred>Sums</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
-         <processPred>Difference</processPred>
+         <processPred>Differences</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
-         <processPred>Product</processPred>
+         <processPred>Products</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
-         <processPred>Quotient</processPred>
+         <processPred>Quotients</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
-         <processPred>Remainder</processPred>
+         <processPred>Remainders</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
-         <processPred>Sample</processPred>
+         <processPred>Samples</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
@@ -2717,182 +2342,33 @@
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
-         <processPred>Sum</processPred>
+         <processPred>Sums</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
-         <processPred>Difference</processPred>
+         <processPred>Differences</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
-         <processPred>Product</processPred>
+         <processPred>Products</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
-         <processPred>Quotient</processPred>
+         <processPred>Quotients</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
-         <processPred>Remainder</processPred>
+         <processPred>Remainders</processPred>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
-         <processPred>Sample</processPred>
+         <processPred>Samples</processPred>
       </componentSentence>
    </sentenceGroup>
    <!--####################################-->
-   <!--COMPLEX + IMAGINARY NUMBERS: Knowledge Process + Specific Object-->
+   <!--COMPLEX NUMBERS: Knowledge Process + Math Operation + Quant Object-->
    <!--####################################-->
-   <sentenceGroup xml:id="KpSo_complex">
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <specificObject>Standard Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <specificObject>Standard Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <specificObject>Standard Algorithm for Division</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <specificObject>European Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <specificObject>Lattice Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <specificObject>Common Factors</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <specificObject>Standard Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <specificObject>Standard Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <specificObject>Standard Algorithm for Division</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <specificObject>European Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <specificObject>Lattice Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <specificObject>Common Factors</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <specificObject>Standard Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <specificObject>Standard Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <specificObject>Standard Algorithm for Division</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <specificObject>European Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <specificObject>Lattice Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <specificObject>Common Factors</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <specificObject>Standard Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <specificObject>Standard Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <specificObject>Standard Algorithm for Division</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <specificObject>European Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <specificObject>Lattice Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <specificObject>Common Factors</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <specificObject>Standard Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <specificObject>Standard Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <specificObject>Standard Algorithm for Division</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <specificObject>European Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <specificObject>Lattice Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <specificObject>Common Factors</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <specificObject>Standard Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <specificObject>Standard Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <specificObject>Standard Algorithm for Division</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <specificObject>European Algorithm for Subtraction</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <specificObject>Lattice Algorithm for Multiplication</specificObject>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <specificObject>Common Factors</specificObject>
-      </componentSentence>
-   </sentenceGroup>
-   <!--####################################-->
-   <!--COMPLEX + IMAGINARY NUMBERS: Knowledge Process + Math Operation + Quant Object-->
-   <!--####################################-->
-   <sentenceGroup xml:id="KpMathOP_complex">
+   <sentenceGroup xml:id="complex">
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
          <mathOperation>Naming</mathOperation>
@@ -2902,11 +2378,6 @@
          <knowledgeProcess>Remember</knowledgeProcess>
          <mathOperation>Naming</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <mathOperation>Naming</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
@@ -2936,11 +2407,6 @@
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
          <mathOperation>Sequencing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <mathOperation>Sequencing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -2966,11 +2432,6 @@
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
          <mathOperation>Ordering</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <mathOperation>Ordering</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -2992,11 +2453,6 @@
          <knowledgeProcess>Remember</knowledgeProcess>
          <mathOperation>Adding</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <mathOperation>Adding</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
@@ -3022,11 +2478,6 @@
          <knowledgeProcess>Remember</knowledgeProcess>
          <mathOperation>Subtracting</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <mathOperation>Subtracting</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
@@ -3052,11 +2503,6 @@
          <knowledgeProcess>Remember</knowledgeProcess>
          <mathOperation>Multiplying</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <mathOperation>Multiplying</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
@@ -3082,11 +2528,6 @@
          <knowledgeProcess>Remember</knowledgeProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <mathOperation>Dividing</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
@@ -3112,11 +2553,6 @@
          <knowledgeProcess>Remember</knowledgeProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <mathOperation>Negating</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
@@ -3142,11 +2578,6 @@
          <knowledgeProcess>Remember</knowledgeProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <mathOperation>Exponentiating</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
@@ -3176,11 +2607,6 @@
       <componentSentence>
          <knowledgeProcess>Remember</knowledgeProcess>
          <mathOperation>Grouping</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Remember</knowledgeProcess>
-         <mathOperation>Grouping</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3206,11 +2632,6 @@
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
          <mathOperation>Naming</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <mathOperation>Naming</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3236,11 +2657,6 @@
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
          <mathOperation>Sequencing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <mathOperation>Sequencing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3266,11 +2682,6 @@
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
          <mathOperation>Ordering</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <mathOperation>Ordering</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3296,11 +2707,6 @@
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
          <mathOperation>Adding</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <mathOperation>Adding</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3326,11 +2732,6 @@
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
          <mathOperation>Subtracting</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <mathOperation>Subtracting</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3356,11 +2757,6 @@
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
          <mathOperation>Multiplying</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <mathOperation>Multiplying</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3382,11 +2778,6 @@
          <knowledgeProcess>Evaluate</knowledgeProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <mathOperation>Dividing</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
@@ -3416,11 +2807,6 @@
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
          <mathOperation>Negating</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <mathOperation>Negating</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3442,11 +2828,6 @@
          <knowledgeProcess>Evaluate</knowledgeProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <mathOperation>Exponentiating</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
@@ -3476,11 +2857,6 @@
       <componentSentence>
          <knowledgeProcess>Evaluate</knowledgeProcess>
          <mathOperation>Grouping</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Evaluate</knowledgeProcess>
-         <mathOperation>Grouping</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3506,11 +2882,6 @@
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
          <mathOperation>Naming</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <mathOperation>Naming</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3536,11 +2907,6 @@
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
          <mathOperation>Sequencing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <mathOperation>Sequencing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3566,11 +2932,6 @@
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
          <mathOperation>Ordering</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <mathOperation>Ordering</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3596,11 +2957,6 @@
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
          <mathOperation>Adding</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <mathOperation>Adding</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3626,11 +2982,6 @@
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
          <mathOperation>Subtracting</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <mathOperation>Subtracting</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3656,11 +3007,6 @@
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
          <mathOperation>Multiplying</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <mathOperation>Multiplying</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3682,11 +3028,6 @@
          <knowledgeProcess>Create</knowledgeProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <mathOperation>Dividing</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
@@ -3716,11 +3057,6 @@
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
          <mathOperation>Negating</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <mathOperation>Negating</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3742,11 +3078,6 @@
          <knowledgeProcess>Create</knowledgeProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <mathOperation>Exponentiating</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
@@ -3776,11 +3107,6 @@
       <componentSentence>
          <knowledgeProcess>Create</knowledgeProcess>
          <mathOperation>Grouping</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Create</knowledgeProcess>
-         <mathOperation>Grouping</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3806,11 +3132,6 @@
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
          <mathOperation>Naming</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <mathOperation>Naming</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3836,11 +3157,6 @@
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
          <mathOperation>Sequencing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <mathOperation>Sequencing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3866,11 +3182,6 @@
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
          <mathOperation>Ordering</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <mathOperation>Ordering</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3896,11 +3207,6 @@
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
          <mathOperation>Adding</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <mathOperation>Adding</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3926,11 +3232,6 @@
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
          <mathOperation>Subtracting</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <mathOperation>Subtracting</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3956,11 +3257,6 @@
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
          <mathOperation>Multiplying</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <mathOperation>Multiplying</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -3982,11 +3278,6 @@
          <knowledgeProcess>Understand</knowledgeProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <mathOperation>Dividing</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
@@ -4016,11 +3307,6 @@
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
          <mathOperation>Negating</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <mathOperation>Negating</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4042,11 +3328,6 @@
          <knowledgeProcess>Understand</knowledgeProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <mathOperation>Exponentiating</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
@@ -4076,11 +3357,6 @@
       <componentSentence>
          <knowledgeProcess>Understand</knowledgeProcess>
          <mathOperation>Grouping</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Understand</knowledgeProcess>
-         <mathOperation>Grouping</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4106,11 +3382,6 @@
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
          <mathOperation>Naming</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <mathOperation>Naming</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4136,11 +3407,6 @@
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
          <mathOperation>Sequencing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <mathOperation>Sequencing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4166,11 +3432,6 @@
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
          <mathOperation>Ordering</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <mathOperation>Ordering</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4196,11 +3457,6 @@
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
          <mathOperation>Adding</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <mathOperation>Adding</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4226,11 +3482,6 @@
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
          <mathOperation>Subtracting</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <mathOperation>Subtracting</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4256,11 +3507,6 @@
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
          <mathOperation>Multiplying</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <mathOperation>Multiplying</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4282,11 +3528,6 @@
          <knowledgeProcess>Apply</knowledgeProcess>
          <mathOperation>Dividing</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <mathOperation>Dividing</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
@@ -4316,11 +3557,6 @@
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
          <mathOperation>Negating</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <mathOperation>Negating</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4342,11 +3578,6 @@
          <knowledgeProcess>Apply</knowledgeProcess>
          <mathOperation>Exponentiating</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <mathOperation>Exponentiating</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
@@ -4376,11 +3607,6 @@
       <componentSentence>
          <knowledgeProcess>Apply</knowledgeProcess>
          <mathOperation>Grouping</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Apply</knowledgeProcess>
-         <mathOperation>Grouping</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4406,11 +3632,6 @@
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
          <mathOperation>Naming</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <mathOperation>Naming</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4436,11 +3657,6 @@
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
          <mathOperation>Sequencing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <mathOperation>Sequencing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4466,11 +3682,6 @@
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
          <mathOperation>Ordering</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <mathOperation>Ordering</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4496,11 +3707,6 @@
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
          <mathOperation>Adding</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <mathOperation>Adding</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4526,11 +3732,6 @@
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
          <mathOperation>Subtracting</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <mathOperation>Subtracting</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4556,11 +3757,6 @@
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
          <mathOperation>Multiplying</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <mathOperation>Multiplying</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4586,11 +3782,6 @@
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
          <mathOperation>Dividing</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <mathOperation>Dividing</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4612,11 +3803,6 @@
          <knowledgeProcess>Analyze</knowledgeProcess>
          <mathOperation>Negating</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <mathOperation>Negating</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
@@ -4646,11 +3832,6 @@
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>
          <mathOperation>Exponentiating</mathOperation>
-         <quant>Angles</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <mathOperation>Exponentiating</mathOperation>
          <quant>Algebraic Expressions</quant>
       </componentSentence>
       <componentSentence>
@@ -4672,11 +3853,6 @@
          <knowledgeProcess>Analyze</knowledgeProcess>
          <mathOperation>Grouping</mathOperation>
          <quant>Factors</quant>
-      </componentSentence>
-      <componentSentence>
-         <knowledgeProcess>Analyze</knowledgeProcess>
-         <mathOperation>Grouping</mathOperation>
-         <quant>Angles</quant>
       </componentSentence>
       <componentSentence>
          <knowledgeProcess>Analyze</knowledgeProcess>

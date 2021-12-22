@@ -55,15 +55,15 @@
                     <string class="int">Recite</string>
                     <string class="complex imag int" subclass="notation">Write</string>
                     <string class="complex imag int">Represent</string>
-                    <string sub="models">Represent with images</string>
-                    <string sub="models">Represent with sounds</string>
-                    <string class="complex imag" sub="models">Represent with activities</string>
-                    <string class="int" sub="realia">Represent with specimens</string>
-                    <string class="int" sub="realia">Represent with body parts</string>
-                    <string class="complex imag int" sub="glyphs">Represent with words</string>
-                    <string class="" sub="glyphs">Represent with symbols</string>
-                    <string class="" sub="glyphs">Represent with drawings</string>
-                    <string class="" sub="glyphs">Represent with graphs</string>
+                    <string sub="models">Represent, with images,</string>
+                    <string sub="models">Represent, with sounds,</string>
+                    <string class="complex imag" sub="models">Represent, with activities,</string>
+                    <string class="int" sub="realia">Represent, with specimens,</string>
+                    <string class="int" sub="realia">Represent, with body parts,</string>
+                    <string class="complex imag int" sub="glyphs">Represent, with words,</string>
+                    <string class="" sub="glyphs">Represent, with symbols,</string>
+                    <string class="" sub="glyphs">Represent, with drawings,</string>
+                    <string class="" sub="glyphs">Represent, with graphs,</string>
                     <string class="int">Randomly sample</string>
                 </formalProcess>
                 <!-- NO notations with knowledge process sentences -->
@@ -94,7 +94,7 @@
 
         <processBranch>
             <processPred>
-                <string>Volume</string>
+                <string>Volumes</string>
                 <string class="complex imag int">Numerical Expressions</string>
                 <string class="complex imag int">Numerical Equations</string>
                 <string class="complex imag int">Properties of Objects</string>
@@ -103,26 +103,26 @@
                 <string class="complex imag">Common Factors</string>
                 <string class="complex imag int">Multiples</string>
                 <string class="complex imag int">Common Multiples</string>
-                <string class="int">Place Value</string>
+                <string class="int">Place Values</string>
                 <string>Attributes</string>
-                <string>Standard Units</string>
+                <string class="int">Standard Units</string>
                 <string>SI Units</string>
-                <string>Area</string>
-                <string>Perimeter</string>
-                <string>Data</string>
+                <string>Areas</string>
+                <string>Perimeters</string>
+                <string class="int">Data</string>
                 <string>Shapes</string>
-                <string>Surface Area</string>
+                <string>Surface Areas</string>
                 <string>Realia</string>
                 <string>Models</string>
                 <string class="complex imag">Congruence</string>
                 <string class="complex imag">Similarity</string>
-                <string>Ratios</string>
+                <string class="int">Ratios</string>
                 <string>Proportions</string>
-                <string class="complex imag">Numerical Inequalities</string>
-                <string class="complex imag">Algebraic Equations</string>
-                <string class="complex imag">Algebraic Inequalities</string>
-                <string>Lines</string>
-                <string>Linear Equations</string>
+                <string class="complex imag int">Numerical Inequalities</string>
+                <string class="complex imag int">Algebraic Equations</string>
+                <string class="complex imag int">Algebraic Inequalities</string>
+                <string class="int">Lines</string>
+                <string class="int">Linear Equations</string>
                 <string class="complex imag">Simultaneous Equations</string>
                 <string class="complex imag">Statistical Variability</string>
                 <string class="complex imag">Distributions</string>
@@ -135,11 +135,11 @@
                 <string>Observations</string>
                 <string class="complex imag">Dependent Variables</string>
                 <string class="complex imag">Independent Variables</string>
-                <string class="complex imag int">Sum</string>
-                <string class="complex imag int">Difference</string>
-                <string class="complex imag int">Product</string>
-                <string class="complex imag int">Quotient</string>
-                <string class="complex imag int">Remainder</string>
+                <string class="complex imag int">Sums</string>
+                <string class="complex imag int">Differences</string>
+                <string class="complex imag int">Products</string>
+                <string class="complex imag int">Quotients</string>
+                <string class="complex imag int">Remainders</string>
                 <string>Groups</string>
                 <string>Length</string>
                 <string>Width</string>
@@ -147,25 +147,27 @@
                 <string>Qualitative Attributes</string>
                 <string>Plane Figures</string>
                 <string>Objects in Space</string>
-                <string class="complex imag int">Sample</string>
-                <string class="int">Random Sample</string>
+                <string class="complex imag int">Samples</string>
+                <string class="int">Random Samples</string>
                 <string>Prisms and Cylinders</string>
                 <string>Spheres</string>
                 <string>Cones</string>
                 <string>Quantitative Stories</string>
             </processPred>
             <!-- REVIEW SPECIFIC OBJECT SCOPE ALIGNMENTS WITH TIM/MATH TEAM -->
+            
+            
             <!-- ignore further specific object generations - take specific object out of the filtering/generation (use bulk/unfiltered gen) -->
             
             <specificObject>
                 <string>Pythagorean Theorem</string>
                 <string>Standard Algorithm for Addition</string>
-                <string class="complex imag">Standard Algorithm for Subtraction</string>
-                <string class="complex imag">Standard Algorithm for Multiplication</string>
-                <string class="complex imag">Standard Algorithm for Division</string>
-                <string class="complex imag">European Algorithm for Subtraction</string>
-                <string class="complex imag">Lattice Algorithm for Multiplication</string>
-                <string class="complex imag">Common Factors</string>
+                <string>Standard Algorithm for Subtraction</string>
+                <string>Standard Algorithm for Multiplication</string>
+                <string>Standard Algorithm for Division</string>
+                <string>European Algorithm for Subtraction</string>
+                <string>Lattice Algorithm for Multiplication</string>
+                <string>Common Factors</string>
                 <string>Distributive Property</string>
                 <string>Commutative Property</string>
                 <string>Associative Property</string>
@@ -174,29 +176,29 @@
             <mathOPobject>
                 <mathOperation>
                     <string class="complex imag">Naming</string>
-                    <string class="complex imag">Sequencing</string>
-                    <string class="complex imag">Ordering</string>
-                    <string class="complex imag">Adding</string>
-                    <string class="complex imag">Subtracting</string>
-                    <string class="complex imag">Multiplying</string>
-                    <string class="complex imag">Dividing</string>
-                    <string class="complex imag">Negating</string>
-                    <string class="complex imag">Exponentiating</string>
-                    <string class="complex imag">Grouping</string>
+                    <string class="complex imag int">Sequencing</string>
+                    <string class="complex imag int">Ordering</string>
+                    <string class="complex imag int">Adding</string>
+                    <string class="complex imag int">Subtracting</string>
+                    <string class="complex imag int">Multiplying</string>
+                    <string class="complex imag int">Dividing</string>
+                    <string class="complex imag int">Negating</string>
+                    <string class="complex imag int">Exponentiating</string>
+                    <string class="complex imag int">Grouping</string>
                     <!-- Operations -->
                     <!--<string>Order Operations</string>-->
                 </mathOperation>
                 <!-- -->
                 <quant>
-                    <string>Numbers</string>
+                    <string class="int">Numbers</string>
                     <!-- putting the name of the scope INSIDE the string outputs -->
-                    <string class="complex imag">Terms</string>
-                    <string class="complex imag">Factors</string>
-                    <string class="complex imag">Angles</string>
+                    <string class="complex imag int">Terms</string>
+                    <string class="complex imag int">Factors</string>
+                    <string>Angles</string>
 
-                    <string class="complex imag">Algebraic Expressions</string>
-                    <string class="complex imag">Variables</string>
-                    <string class="complex imag">Functions</string>
+                    <string class="complex imag int">Algebraic Expressions</string>
+                    <string class="complex imag int">Variables</string>
+                    <string class="complex imag int">Functions</string>
                     <string>Chance Processes</string>
                     <string>Arrays</string>
                 </quant>
