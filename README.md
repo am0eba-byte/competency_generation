@@ -8,7 +8,7 @@ Experimentation on competency formal grammar syntax rules and generation of comp
 ## Whole Numbers Scope competency syntax:
 ![Screen capture of whole numbers competency grammar](whole_number_competency.png)
 
-[Click Here to see the Full Interactive Competency Grammar Syntax Diagram](competency_formal_grammar/syntax_visualization/compGrammarSyntaxDiagram/index.html)
+[Click Here to see the Full Interactive Competency Grammar Syntax Diagram](https://am0eba-byte.github.io/competency_generation/)
 
 
 ## The Input
