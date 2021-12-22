@@ -7,7 +7,7 @@
 ## Whole Numbers Scope competency syntax:
 ![Screen capture of whole numbers competency grammar](whole_number_competency.png)
 
-[Click Here to see the Full Interactive Competency Grammar Syntax Diagram](..\syntax_visualization\compGrammarSyntaxDiagram.xhtml)
+[Click Here to see the Full Interactive Competency Grammar Syntax Diagram](https://am0eba-byte.github.io/competency_generation/)
 
 
 ## The Input
