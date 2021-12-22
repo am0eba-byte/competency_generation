@@ -582,7 +582,7 @@
         
         <!--**************** ALGEBRAIC EXPRESSIONS SCOPE *********************************************-->
         
-        <xsl:result-document method="text" href="algebra_exp/text/rationalSeedOutput.txt">
+        <xsl:result-document method="text" href="algebra_exp/text/algebraExpSeedOutput.txt">
             <!-- <xsl:comment>####################################</xsl:comment>
             <xsl:comment>Formal Process Branch </xsl:comment>
             <xsl:comment>####################################</xsl:comment>
