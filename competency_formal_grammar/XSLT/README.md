@@ -151,6 +151,7 @@ The TSV files are separated by which competency sentence components each group o
 - complex numbers + imaginary numbers
 - integers
 - rational numbers
+- algebraic expressions
 
 ### scopes to do:
 - real numbers 

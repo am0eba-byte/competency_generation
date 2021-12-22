@@ -51,30 +51,30 @@
                 <!-- SUBCLASS attribute values should be filtered according to the component this string will go with,
             the rest of the strings will not have the subclass attribute value-->
                 <formalProcess>
-                    <string class="complex imag int rational" subclass="notation">Read</string>
-                    <string class="int rational">Recite</string>
-                    <string class="complex imag int rational" subclass="notation">Write</string>
-                    <string class="complex imag int rational">Represent</string>
+                    <string class="complex imag int rational algexp" subclass="notation">Read</string>
+                    <string class="int rational algexp">Recite</string>
+                    <string class="complex imag int rational algexp" subclass="notation">Write</string>
+                    <string class="complex imag int rational algexp">Represent</string>
                     <string sub="models">Represent, with images,</string>
                     <string sub="models">Represent, with sounds,</string>
-                    <string class="complex imag rational" sub="models">Represent, with activities,</string>
+                    <string class="complex imag rational algexp" sub="models">Represent, with activities,</string>
                     <string class="int" sub="realia">Represent, with specimens,</string>
                     <string class="int" sub="realia">Represent, with body parts,</string>
-                    <string class="complex imag int rational" sub="glyphs">Represent, with words,</string>
-                    <string class="" sub="glyphs">Represent, with symbols,</string>
+                    <string class="complex imag int rational algexp" sub="glyphs">Represent, with words,</string>
+                    <string class="algexp" sub="glyphs">Represent, with symbols,</string>
                     <string class="" sub="glyphs">Represent, with drawings,</string>
-                    <string class="" sub="glyphs">Represent, with graphs,</string>
-                    <string class="rational">Randomly sample</string>
+                    <string class="algexp" sub="glyphs">Represent, with graphs,</string>
+                    <string class="rational algexp">Randomly sample</string>
                 </formalProcess>
                 <!-- NO notations with knowledge process sentences -->
                 <knowledge>
                     <knowledgeProcess>
                         <string class="complex imag int rational">Remember</string>
-                        <string class="complex imag int rational">Evaluate</string>
+                        <string class="complex imag int rational algexp">Evaluate</string>
                         <string class="complex imag int rational">Create</string>
-                        <string class="complex imag int rational" sub="strategizing">Understand</string>
-                        <string class="complex imag int rational" sub="strategizing">Apply</string>
-                        <string class="complex imag int rational">Analyze</string>
+                        <string class="complex imag int rational algexp" sub="strategizing">Understand</string>
+                        <string class="complex imag int rational algexp" sub="strategizing">Apply</string>
+                        <string class="complex imag int rational algexp">Analyze</string>
                         <!-- <whole_numbers_knowledge_subprocess>
                         <string class="wholenum">by putting together</string>
                         <string class="wholenum">by adding to</string>
@@ -94,12 +94,12 @@
 
         <processBranch>
             <processPred>
-                <string>Volumes</string>
+                <string class="algexp">Volumes</string>
                 <string class="complex imag int rational">Numerical Expressions</string>
                 <string class="complex imag int rational">Numerical Equations</string>
                 <string class="complex imag int rational">Properties of Objects</string>
                 <string class="complex imag int rational">Properties of Operations</string>
-                <string class="rational">Patterns</string>
+                <string class="rational algexp">Patterns</string>
                 <string class="complex imag rational">Common Factors</string>
                 <string class="complex imag int rational">Multiples</string>
                 <string class="complex imag int rational">Common Multiples</string>
@@ -107,11 +107,11 @@
                 <string>Attributes</string>
                 <string class="int">Standard Units</string>
                 <string>SI Units</string>
-                <string>Areas</string>
-                <string>Perimeters</string>
-                <string class="int rational">Data</string>
+                <string class="algexp">Areas</string>
+                <string class="algexp">Perimeters</string>
+                <string class="int rational algexp">Data</string>
                 <string>Shapes</string>
-                <string>Surface Areas</string>
+                <string class="algexp">Surface Areas</string>
                 <string>Realia</string>
                 <string>Models</string>
                 <string class="complex imag">Congruence</string>
@@ -119,36 +119,36 @@
                 <string class="int rational">Ratios</string>
                 <string class="rational">Proportions</string>
                 <string class="complex imag int rational">Numerical Inequalities</string>
-                <string class="complex imag int rational">Algebraic Equations</string>
-                <string class="complex imag int rational">Algebraic Inequalities</string>
+                <string class="complex imag int rational algexp">Algebraic Equations</string>
+                <string class="complex imag int rational algexp">Algebraic Inequalities</string>
                 <string class="int">Lines</string>
-                <string class="int rational">Linear Equations</string>
-                <string class="complex imag rational">Simultaneous Equations</string>
-                <string class="complex imag rational">Statistical Variability</string>
-                <string class="complex imag rational">Distributions</string>
-                <string>Populations</string>
-                <string class="complex imag rational">Probability Models</string>
-                <string class="complex imag rational">Bivariate Data</string>
+                <string class="int rational algexp">Linear Equations</string>
+                <string class="complex imag rational algexp">Simultaneous Equations</string>
+                <string class="complex imag rational algexp">Statistical Variability</string>
+                <string class="complex imag rational algexp">Distributions</string>
+                <string class="algexp">Populations</string>
+                <string class="complex imag rational algexp">Probability Models</string>
+                <string class="complex imag rational algexp">Bivariate Data</string>
                 <string>Sets</string>
                 <string>Elements</string>
                 <string>Experiments</string>
-                <string class="rational">Observations</string>
-                <string class="complex imag">Dependent Variables</string>
-                <string class="complex imag">Independent Variables</string>
-                <string class="complex imag int rational">Sums</string>
-                <string class="complex imag int rational">Differences</string>
-                <string class="complex imag int rational">Products</string>
-                <string class="complex imag int rational">Quotients</string>
-                <string class="complex imag int rational">Remainders</string>
-                <string>Groups</string>
-                <string>Length</string>
-                <string>Width</string>
-                <string>Depth or Height</string>
+                <string class="rational algexp">Observations</string>
+                <string class="complex imag algexp">Dependent Variables</string>
+                <string class="complex imag algexp">Independent Variables</string>
+                <string class="complex imag int rational algexp">Sums</string>
+                <string class="complex imag int rational algexp">Differences</string>
+                <string class="complex imag int rational algexp">Products</string>
+                <string class="complex imag int rational algexp">Quotients</string>
+                <string class="complex imag int rational algexp">Remainders</string>
+                <string class="algexp">Groups</string>
+                <string class="algexp">Length</string>
+                <string class="algexp">Width</string>
+                <string class="algexp">Depth or Height</string>
                 <string>Qualitative Attributes</string>
                 <string>Plane Figures</string>
                 <string>Objects in Space</string>
-                <string class="complex imag int rational">Samples</string>
-                <string class="int rational">Random Samples</string>
+                <string class="complex imag int rational algexp">Samples</string>
+                <string class="int rational algexp">Random Samples</string>
                 <string>Prisms and Cylinders</string>
                 <string>Spheres</string>
                 <string>Cones</string>
@@ -175,31 +175,31 @@
             
             <mathOPobject>
                 <mathOperation>
-                    <string class="complex imag">Naming</string>
+                    <string class="complex imag algexp">Naming</string>
                     <string class="complex imag int rational">Sequencing</string>
                     <string class="complex imag int rational">Ordering</string>
-                    <string class="complex imag int rational">Adding</string>
-                    <string class="complex imag int rational">Subtracting</string>
-                    <string class="complex imag int rational">Multiplying</string>
-                    <string class="complex imag int rational">Dividing</string>
-                    <string class="complex imag int rational">Negating</string>
-                    <string class="complex imag int rational">Exponentiating</string>
-                    <string class="complex imag int rational">Grouping</string>
+                    <string class="complex imag int rational algexp">Adding</string>
+                    <string class="complex imag int rational algexp">Subtracting</string>
+                    <string class="complex imag int rational algexp">Multiplying</string>
+                    <string class="complex imag int rational algexp">Dividing</string>
+                    <string class="complex imag int rational algexp">Negating</string>
+                    <string class="complex imag int rational algexp">Exponentiating</string>
+                    <string class="complex imag int rational algexp">Grouping</string>
                     <!-- Operations -->
                     <!--<string>Order Operations</string>-->
                 </mathOperation>
                 <!-- -->
                 <quant>
-                    <string class="int rational">Numbers</string>
+                    <string class="int rational algexp">Numbers</string>
                     <!-- putting the name of the scope INSIDE the string outputs -->
-                    <string class="complex imag int rational">Terms</string>
-                    <string class="complex imag int rational">Factors</string>
-                    <string>Angles</string>
+                    <string class="complex imag int rational algexp">Terms</string>
+                    <string class="complex imag int rational algexp">Factors</string>
+                    <string class="algexp">Angles</string>
 
-                    <string class="complex imag int rational">Algebraic Expressions</string>
-                    <string class="complex imag int rational">Variables</string>
-                    <string class="complex imag int rational">Functions</string>
-                    <string>Chance Processes</string>
+                    <string class="complex imag int rational algexp">Algebraic Expressions</string>
+                    <string class="complex imag int rational algexp">Variables</string>
+                    <string class="complex imag int rational algexp">Functions</string>
+                    <string class="algexp">Chance Processes</string>
                     <string>Arrays</string>
                 </quant>
             </mathOPobject>

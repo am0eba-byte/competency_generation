@@ -628,6 +628,136 @@
             </xsl:call-template>
             
         </xsl:result-document>
+        
+        
+        
+        
+        <!--**************** ALGEBRAIC EXPRESSIONS SCOPE *********************************************-->
+        
+       
+            <!-- <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>Formal Process Branch </xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            -->
+            <!--
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>ALGEBRAIC EXPRESSIONS: Formal Process + Process Predicate</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            <xsl:result-document method="text" href="algebra_exp/TSV/fp-Pp.tsv">
+            <xsl:variable name="FPalgexp" as="element()+">
+                
+                <xsl:for-each select="key('scopes', $algexp)">
+                    <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="PrPredalgexp" as="element()+">
+                <xsl:for-each select="key('scopes', $algexp)">
+                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="algexpScopeString" select="'Algebraic Expressions'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$FPalgexp"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPredalgexp"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$algexpScopeString"/>
+            </xsl:call-template>
+            </xsl:result-document>
+            
+            
+            <!--
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>ALGEBRAIC EXPRESSIONS: Formal Process + Math Operation + Quant Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            <xsl:result-document method="text" href="algebra_exp/TSV/fp-mathop.tsv">
+            <xsl:variable name="FPalgexp" as="element()+">
+                <xsl:for-each select="key('scopes', $algexp)">
+                    <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="MathOpalgexp" as="element()+">
+                <xsl:for-each select="key('scopes', $algexp)">
+                    <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="QOalgexp" as="element()+">
+                <xsl:for-each select="key('scopes', $algexp)">
+                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="algexpScopeString" select="'Algebraic Expressions'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$FPalgexp"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOpalgexp"/>
+                <xsl:with-param name="param3" as="element()+" select="$QOalgexp"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$algexpScopeString"/>
+            </xsl:call-template>
+            </xsl:result-document>
+            
+            
+            <!-- <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>Knowledge Process Branch </xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            
+            
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>ALGEBRAIC EXPRESSIONS: Knowledge Process + Process Pred</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            <xsl:result-document method="text" href="algebra_exp/TSV/kp-Pp.tsv">
+            <xsl:variable name="KPalgexp" as="element()+">
+                <xsl:for-each select="key('scopes', $algexp)">
+                    <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="PrPredalgexp" as="element()+">
+                <xsl:for-each select="key('scopes', $algexp)">
+                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="algexpScopeString" select="'Algebraic Expressions'"/>
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$KPalgexp"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPredalgexp"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$algexpScopeString"/>
+            </xsl:call-template>
+            </xsl:result-document>
+            
+            
+            
+            <!--  <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>ALGEBRAIC EXPRESSIONS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            <xsl:result-document method="text" href="algebra_exp/TSV/kp-mathop.tsv">
+            <xsl:variable name="KPalgexp" as="element()+">
+                <xsl:for-each select="key('scopes', $algexp)">
+                    <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="MathOpalgexp" as="element()+">
+                <xsl:for-each select="key('scopes', $algexp)">
+                    <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="QOalgexp" as="element()+">
+                <xsl:for-each select="key('scopes', $algexp)">
+                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="algexpScopeString" select="'Algebraic Expressions'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$KPalgexp"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOpalgexp"/>
+                <xsl:with-param name="param3" as="element()+" select="$QOalgexp"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$algexpScopeString"/>
+            </xsl:call-template>
+            </xsl:result-document>
+        
             
         <!--</xml>-->
     </xsl:template>
