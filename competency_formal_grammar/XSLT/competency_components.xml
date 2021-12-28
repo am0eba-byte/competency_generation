@@ -53,28 +53,28 @@
                 <formalProcess>
                     <string class="complex imag int rational algexp" subclass="notation">Read</string>
                     <string class="int rational algexp">Recite</string>
-                    <string class="complex imag int rational algexp" subclass="notation">Write</string>
-                    <string class="complex imag int rational algexp">Represent</string>
+                    <string class="complex imag int rational algexp space" subclass="notation">Write</string>
+                    <string class="complex imag int rational algexp space">Represent</string>
                     <string sub="models">Represent, with images,</string>
                     <string sub="models">Represent, with sounds,</string>
-                    <string class="complex imag rational algexp" sub="models">Represent, with activities,</string>
+                    <string class="complex imag rational algexp space" sub="models">Represent, with activities,</string>
                     <string class="int" sub="realia">Represent, with specimens,</string>
                     <string class="int" sub="realia">Represent, with body parts,</string>
                     <string class="complex imag int rational algexp" sub="glyphs">Represent, with words,</string>
                     <string class="algexp" sub="glyphs">Represent, with symbols,</string>
-                    <string class="" sub="glyphs">Represent, with drawings,</string>
-                    <string class="algexp" sub="glyphs">Represent, with graphs,</string>
+                    <string class="space" sub="glyphs">Represent, with drawings,</string>
+                    <string class="algexp space" sub="glyphs">Represent, with graphs,</string>
                     <string class="rational algexp">Randomly sample</string>
                 </formalProcess>
                 <!-- NO notations with knowledge process sentences -->
                 <knowledge>
                     <knowledgeProcess>
                         <string class="complex imag int rational">Remember</string>
-                        <string class="complex imag int rational algexp">Evaluate</string>
-                        <string class="complex imag int rational">Create</string>
-                        <string class="complex imag int rational algexp" sub="strategizing">Understand</string>
-                        <string class="complex imag int rational algexp" sub="strategizing">Apply</string>
-                        <string class="complex imag int rational algexp">Analyze</string>
+                        <string class="complex imag int rational algexp space">Evaluate</string>
+                        <string class="complex imag int rational space">Create</string>
+                        <string class="complex imag int rational algexp space" sub="strategizing">Understand</string>
+                        <string class="complex imag int rational algexp space" sub="strategizing">Apply</string>
+                        <string class="complex imag int rational algexp space">Analyze</string>
                         <!-- <whole_numbers_knowledge_subprocess>
                         <string class="wholenum">by putting together</string>
                         <string class="wholenum">by adding to</string>

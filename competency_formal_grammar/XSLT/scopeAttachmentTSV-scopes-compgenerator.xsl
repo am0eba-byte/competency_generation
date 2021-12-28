@@ -130,13 +130,13 @@
             <xsl:comment>COMPLEX NUMBERS: Formal Process + Process Predicate</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="complex_nums/TSV/fp-Pp.tsv">
-          <xsl:variable name="FPcomplex" as="element()+">
+          <xsl:variable name="FP_complex" as="element()+">
               <!--  intersect key('scopes', $imag) -->
               <xsl:for-each select="key('scopes', $complex)">
                   <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
               </xsl:for-each>
           </xsl:variable>
-            <xsl:variable name="PrPredcomplex" as="element()+">
+            <xsl:variable name="PrPred_complex" as="element()+">
                 <xsl:for-each select="key('scopes', $complex)">
                     <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                 </xsl:for-each>
@@ -146,8 +146,8 @@
             
             <!--<sentenceGroup xml:id="fpPp_complex">-->
                 <xsl:call-template name="sentenceWriter">
-                    <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
-                    <xsl:with-param name="param2" as="element()+" select="$PrPredcomplex"/>
+                    <xsl:with-param name="param1" as="element()+" select="$FP_complex"/>
+                    <xsl:with-param name="param2" as="element()+" select="$PrPred_complex"/>
                     <xsl:with-param name="scopeParam" as="xs:string" select="$complexScopeString"/>
                 </xsl:call-template>
             <!--</sentenceGroup>-->
@@ -158,17 +158,17 @@
             <xsl:comment>COMPLEX NUMBERS: Formal Process + Math Operation + Quant Object</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="complex_nums/TSV/fp-mathop.tsv">
-            <xsl:variable name="FPcomplex" as="element()+">
+            <xsl:variable name="FP_complex" as="element()+">
                 <xsl:for-each select="key('scopes', $complex)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="MathOpcomplex" as="element()+">
+            <xsl:variable name="MathOP_complex" as="element()+">
                 <xsl:for-each select="key('scopes', $complex)">
                     <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="QOcomplex" as="element()+">
+            <xsl:variable name="QO_complex" as="element()+">
                 <xsl:for-each select="key('scopes', $complex)">
                     <xsl:sequence select=".[parent::* ! name() = $object]"/>
                 </xsl:for-each>
@@ -177,9 +177,9 @@
             
             <!--<sentenceGroup xml:id="fpMathOP_complex">-->
                 <xsl:call-template name="sentenceWriter">
-                    <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
-                    <xsl:with-param name="param2" as="element()+" select="$MathOpcomplex"/>
-                    <xsl:with-param name="param3" as="element()+" select="$QOcomplex"/>
+                    <xsl:with-param name="param1" as="element()+" select="$FP_complex"/>
+                    <xsl:with-param name="param2" as="element()+" select="$MathOP_complex"/>
+                    <xsl:with-param name="param3" as="element()+" select="$QO_complex"/>
                     <xsl:with-param name="scopeParam" as="xs:string" select="$complexScopeString"/>
                 </xsl:call-template>
             <!--</sentenceGroup>-->
@@ -194,12 +194,12 @@
             <xsl:comment>COMPLEX NUMBERS: Knowledge Process + Process Pred</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="complex_nums/TSV/kp-Pp.tsv">
-            <xsl:variable name="KPcomplex" as="element()+">
+            <xsl:variable name="KP_complex" as="element()+">
                 <xsl:for-each select="key('scopes', $complex)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="PrPredcomplex" as="element()+">
+            <xsl:variable name="PrPred_complex" as="element()+">
                 <xsl:for-each select="key('scopes', $complex)">
                     <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                 </xsl:for-each>
@@ -207,8 +207,8 @@
             <xsl:variable name="complexScopeString" select="'Complex Numbers'"/>
            <!-- <sentenceGroup xml:id="KpPp_complex">-->
                 <xsl:call-template name="sentenceWriter">
-                    <xsl:with-param name="param1" as="element()+" select="$KPcomplex"/>
-                    <xsl:with-param name="param2" as="element()+" select="$PrPredcomplex"/>
+                    <xsl:with-param name="param1" as="element()+" select="$KP_complex"/>
+                    <xsl:with-param name="param2" as="element()+" select="$PrPred_complex"/>
                     <xsl:with-param name="scopeParam" as="xs:string" select="$complexScopeString"/>
                 </xsl:call-template>
             <!--</sentenceGroup>-->
@@ -219,17 +219,17 @@
             <xsl:comment>COMPLEX NUMBERS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="complex_nums/TSV/kp-mathop.tsv">
-            <xsl:variable name="KPcomplex" as="element()+">
+            <xsl:variable name="KP_complex" as="element()+">
                 <xsl:for-each select="key('scopes', $complex)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="MathOpcomplex" as="element()+">
+            <xsl:variable name="MathOP_complex" as="element()+">
                 <xsl:for-each select="key('scopes', $complex)">
                     <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="QOcomplex" as="element()+">
+            <xsl:variable name="QO_complex" as="element()+">
                 <xsl:for-each select="key('scopes', $complex)">
                     <xsl:sequence select=".[parent::* ! name() = $object]"/>
                 </xsl:for-each>
@@ -238,9 +238,9 @@
             
            <!-- <sentenceGroup xml:id="KpMathOP_complex">-->
                 <xsl:call-template name="sentenceWriter">
-                    <xsl:with-param name="param1" as="element()+" select="$KPcomplex"/>
-                    <xsl:with-param name="param2" as="element()+" select="$MathOpcomplex"/>
-                    <xsl:with-param name="param3" as="element()+" select="$QOcomplex"/>
+                    <xsl:with-param name="param1" as="element()+" select="$KP_complex"/>
+                    <xsl:with-param name="param2" as="element()+" select="$MathOP_complex"/>
+                    <xsl:with-param name="param3" as="element()+" select="$QO_complex"/>
                     <xsl:with-param name="scopeParam" as="xs:string" select="$complexScopeString"/>
                 </xsl:call-template>
             <!--</sentenceGroup>-->
@@ -259,13 +259,13 @@
             <xsl:comment>IMAGINARY NUMBERS: Formal Process + Process Predicate</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="imaginary_nums/TSV/fp-Pp.tsv">
-            <xsl:variable name="FPimag" as="element()+">
+            <xsl:variable name="FP_imag" as="element()+">
                 <!--  intersect key('scopes', $imag) -->
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="PrPredimag" as="element()+">
+            <xsl:variable name="PrPred_imag" as="element()+">
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                 </xsl:for-each>
@@ -274,8 +274,8 @@
             
            
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$FPimag"/>
-                <xsl:with-param name="param2" as="element()+" select="$PrPredimag"/>
+                <xsl:with-param name="param1" as="element()+" select="$FP_imag"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_imag"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$imagScopeString"/>
             </xsl:call-template>
            
@@ -286,17 +286,17 @@
             <xsl:comment>IMAGINARY NUMBERS: Formal Process + Math Operation + Quant Object</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="imaginary_nums/TSV/fp-mathop.tsv">
-            <xsl:variable name="FPimag" as="element()+">
+            <xsl:variable name="FP_imag" as="element()+">
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="MathOpimag" as="element()+">
+            <xsl:variable name="MathOP_imag" as="element()+">
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="QOimag" as="element()+">
+            <xsl:variable name="QO_imag" as="element()+">
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $object]"/>
                 </xsl:for-each>
@@ -305,9 +305,9 @@
             
            
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$FPimag"/>
-                <xsl:with-param name="param2" as="element()+" select="$MathOpimag"/>
-                <xsl:with-param name="param3" as="element()+" select="$QOimag"/>
+                <xsl:with-param name="param1" as="element()+" select="$FP_imag"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_imag"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_imag"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$imagScopeString"/>
             </xsl:call-template>
            
@@ -322,12 +322,12 @@
             <xsl:comment>IMAGINARY NUMBERS: Knowledge Process + Process Pred</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="imaginary_nums/TSV/kp-Pp.tsv">
-            <xsl:variable name="KPimag" as="element()+">
+            <xsl:variable name="KP_imag" as="element()+">
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="PrPredimag" as="element()+">
+            <xsl:variable name="PrPred_imag" as="element()+">
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                 </xsl:for-each>
@@ -335,8 +335,8 @@
             <xsl:variable name="imagScopeString" select="'Imaginary Numbers'"/>
            
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$KPimag"/>
-                <xsl:with-param name="param2" as="element()+" select="$PrPredimag"/>
+                <xsl:with-param name="param1" as="element()+" select="$KP_imag"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_imag"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$imagScopeString"/>
             </xsl:call-template>
             
@@ -347,17 +347,17 @@
             <xsl:comment>IMAGINARY NUMBERS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="imaginary_nums/TSV/kp-mathop.tsv">
-            <xsl:variable name="KPimag" as="element()+">
+            <xsl:variable name="KP_imag" as="element()+">
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="MathOpimag" as="element()+">
+            <xsl:variable name="MathOP_imag" as="element()+">
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="QOimag" as="element()+">
+            <xsl:variable name="QO_imag" as="element()+">
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $object]"/>
                 </xsl:for-each>
@@ -366,9 +366,9 @@
             
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$KPimag"/>
-                <xsl:with-param name="param2" as="element()+" select="$MathOpimag"/>
-                <xsl:with-param name="param3" as="element()+" select="$QOimag"/>
+                <xsl:with-param name="param1" as="element()+" select="$KP_imag"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_imag"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_imag"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$imagScopeString"/>
             </xsl:call-template>
            
@@ -387,13 +387,13 @@
             <xsl:comment>INTEGERS: Formal Process + Process Predicate</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="integers/TSV/fp-Pp.tsv">
-            <xsl:variable name="FPint" as="element()+">
+            <xsl:variable name="FP_int" as="element()+">
               
                 <xsl:for-each select="key('scopes', $int)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="PrPredint" as="element()+">
+            <xsl:variable name="PrPred_int" as="element()+">
                 <xsl:for-each select="key('scopes', $int)">
                     <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                 </xsl:for-each>
@@ -402,8 +402,8 @@
             
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$FPint"/>
-                <xsl:with-param name="param2" as="element()+" select="$PrPredint"/>
+                <xsl:with-param name="param1" as="element()+" select="$FP_int"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_int"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
             </xsl:call-template>
             
@@ -414,17 +414,17 @@
             <xsl:comment>INTEGERS: Formal Process + Math Operation + Quant Object</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="integers/TSV/fp-mathop.tsv">
-            <xsl:variable name="FPint" as="element()+">
+            <xsl:variable name="FP_int" as="element()+">
                 <xsl:for-each select="key('scopes', $int)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="MathOpint" as="element()+">
+            <xsl:variable name="MathOP_int" as="element()+">
                 <xsl:for-each select="key('scopes', $int)">
                     <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="QOint" as="element()+">
+            <xsl:variable name="QO_int" as="element()+">
                 <xsl:for-each select="key('scopes', $int)">
                     <xsl:sequence select=".[parent::* ! name() = $object]"/>
                 </xsl:for-each>
@@ -433,9 +433,9 @@
             
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$FPint"/>
-                <xsl:with-param name="param2" as="element()+" select="$MathOpint"/>
-                <xsl:with-param name="param3" as="element()+" select="$QOint"/>
+                <xsl:with-param name="param1" as="element()+" select="$FP_int"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_int"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_int"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
             </xsl:call-template>
             
@@ -450,12 +450,12 @@
             <xsl:comment>INTEGERS: Knowledge Process + Process Pred</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="integers/TSV/kp-Pp.tsv">
-            <xsl:variable name="KPint" as="element()+">
+            <xsl:variable name="KP_int" as="element()+">
                 <xsl:for-each select="key('scopes', $int)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="PrPredint" as="element()+">
+            <xsl:variable name="PrPred_int" as="element()+">
                 <xsl:for-each select="key('scopes', $int)">
                     <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                 </xsl:for-each>
@@ -463,8 +463,8 @@
             <xsl:variable name="intScopeString" select="'Integers'"/>
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$KPint"/>
-                <xsl:with-param name="param2" as="element()+" select="$PrPredint"/>
+                <xsl:with-param name="param1" as="element()+" select="$KP_int"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_int"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
             </xsl:call-template>
             
@@ -475,17 +475,17 @@
             <xsl:comment>INTEGERS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="integers/TSV/kp-mathop.tsv">
-            <xsl:variable name="KPint" as="element()+">
+            <xsl:variable name="KP_int" as="element()+">
                 <xsl:for-each select="key('scopes', $int)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="MathOpint" as="element()+">
+            <xsl:variable name="MathOP_int" as="element()+">
                 <xsl:for-each select="key('scopes', $int)">
                     <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="QOint" as="element()+">
+            <xsl:variable name="QO_int" as="element()+">
                 <xsl:for-each select="key('scopes', $int)">
                     <xsl:sequence select=".[parent::* ! name() = $object]"/>
                 </xsl:for-each>
@@ -494,9 +494,9 @@
             
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$KPint"/>
-                <xsl:with-param name="param2" as="element()+" select="$MathOpint"/>
-                <xsl:with-param name="param3" as="element()+" select="$QOint"/>
+                <xsl:with-param name="param1" as="element()+" select="$KP_int"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_int"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_int"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
             </xsl:call-template>
             
@@ -514,13 +514,13 @@
             <xsl:comment>RATIONAL NUMBERS: Formal Process + Process Predicate</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="rational_nums/TSV/fp-Pp.tsv">
-            <xsl:variable name="FPrational" as="element()+">
+            <xsl:variable name="FP_rational" as="element()+">
                 
                 <xsl:for-each select="key('scopes', $rational)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="PrPredrational" as="element()+">
+            <xsl:variable name="PrPred_rational" as="element()+">
                 <xsl:for-each select="key('scopes', $rational)">
                     <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                 </xsl:for-each>
@@ -529,8 +529,8 @@
             
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$FPrational"/>
-                <xsl:with-param name="param2" as="element()+" select="$PrPredrational"/>
+                <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_rational"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$rationalScopeString"/>
             </xsl:call-template>
             
@@ -541,17 +541,17 @@
             <xsl:comment>RATIONAL NUMBERS: Formal Process + Math Operation + Quant Object</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="rational_nums/TSV/fp-mathop.tsv">
-            <xsl:variable name="FPrational" as="element()+">
+            <xsl:variable name="FP_rational" as="element()+">
                 <xsl:for-each select="key('scopes', $rational)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="MathOprational" as="element()+">
+            <xsl:variable name="MathOP_rational" as="element()+">
                 <xsl:for-each select="key('scopes', $rational)">
                     <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="QOrational" as="element()+">
+            <xsl:variable name="QO_rational" as="element()+">
                 <xsl:for-each select="key('scopes', $rational)">
                     <xsl:sequence select=".[parent::* ! name() = $object]"/>
                 </xsl:for-each>
@@ -560,9 +560,9 @@
             
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$FPrational"/>
-                <xsl:with-param name="param2" as="element()+" select="$MathOprational"/>
-                <xsl:with-param name="param3" as="element()+" select="$QOrational"/>
+                <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_rational"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_rational"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$rationalScopeString"/>
             </xsl:call-template>
             
@@ -577,12 +577,12 @@
             <xsl:comment>RATIONAL NUMBERS: Knowledge Process + Process Pred</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="rational_nums/TSV/kp-Pp.tsv">
-            <xsl:variable name="KPrational" as="element()+">
+            <xsl:variable name="KP_rational" as="element()+">
                 <xsl:for-each select="key('scopes', $rational)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="PrPredrational" as="element()+">
+            <xsl:variable name="PrPred_rational" as="element()+">
                 <xsl:for-each select="key('scopes', $rational)">
                     <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                 </xsl:for-each>
@@ -590,8 +590,8 @@
             <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$KPrational"/>
-                <xsl:with-param name="param2" as="element()+" select="$PrPredrational"/>
+                <xsl:with-param name="param1" as="element()+" select="$KP_rational"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_rational"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$rationalScopeString"/>
             </xsl:call-template>
             
@@ -602,17 +602,17 @@
             <xsl:comment>RATIONAL NUMBERS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
         <xsl:result-document method="text" href="rational_nums/TSV/kp-mathop.tsv">
-            <xsl:variable name="KPrational" as="element()+">
+            <xsl:variable name="KP_rational" as="element()+">
                 <xsl:for-each select="key('scopes', $rational)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="MathOprational" as="element()+">
+            <xsl:variable name="MathOP_rational" as="element()+">
                 <xsl:for-each select="key('scopes', $rational)">
                     <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="QOrational" as="element()+">
+            <xsl:variable name="QO_rational" as="element()+">
                 <xsl:for-each select="key('scopes', $rational)">
                     <xsl:sequence select=".[parent::* ! name() = $object]"/>
                 </xsl:for-each>
@@ -621,9 +621,9 @@
             
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$KPrational"/>
-                <xsl:with-param name="param2" as="element()+" select="$MathOprational"/>
-                <xsl:with-param name="param3" as="element()+" select="$QOrational"/>
+                <xsl:with-param name="param1" as="element()+" select="$KP_rational"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_rational"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_rational"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$rationalScopeString"/>
             </xsl:call-template>
             
@@ -644,13 +644,13 @@
             <xsl:comment>ALGEBRAIC EXPRESSIONS: Formal Process + Process Predicate</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
             <xsl:result-document method="text" href="algebra_exp/TSV/fp-Pp.tsv">
-            <xsl:variable name="FPalgexp" as="element()+">
+            <xsl:variable name="FP_algexp" as="element()+">
                 
                 <xsl:for-each select="key('scopes', $algexp)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="PrPredalgexp" as="element()+">
+            <xsl:variable name="PrPred_algexp" as="element()+">
                 <xsl:for-each select="key('scopes', $algexp)">
                     <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                 </xsl:for-each>
@@ -659,8 +659,8 @@
             
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$FPalgexp"/>
-                <xsl:with-param name="param2" as="element()+" select="$PrPredalgexp"/>
+                <xsl:with-param name="param1" as="element()+" select="$FP_algexp"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_algexp"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$algexpScopeString"/>
             </xsl:call-template>
             </xsl:result-document>
@@ -671,17 +671,17 @@
             <xsl:comment>ALGEBRAIC EXPRESSIONS: Formal Process + Math Operation + Quant Object</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
             <xsl:result-document method="text" href="algebra_exp/TSV/fp-mathop.tsv">
-            <xsl:variable name="FPalgexp" as="element()+">
+            <xsl:variable name="FP_algexp" as="element()+">
                 <xsl:for-each select="key('scopes', $algexp)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="MathOpalgexp" as="element()+">
+            <xsl:variable name="MathOP_algexp" as="element()+">
                 <xsl:for-each select="key('scopes', $algexp)">
                     <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="QOalgexp" as="element()+">
+            <xsl:variable name="QO_algexp" as="element()+">
                 <xsl:for-each select="key('scopes', $algexp)">
                     <xsl:sequence select=".[parent::* ! name() = $object]"/>
                 </xsl:for-each>
@@ -690,9 +690,9 @@
             
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$FPalgexp"/>
-                <xsl:with-param name="param2" as="element()+" select="$MathOpalgexp"/>
-                <xsl:with-param name="param3" as="element()+" select="$QOalgexp"/>
+                <xsl:with-param name="param1" as="element()+" select="$FP_algexp"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_algexp"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_algexp"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$algexpScopeString"/>
             </xsl:call-template>
             </xsl:result-document>
@@ -707,12 +707,12 @@
             <xsl:comment>ALGEBRAIC EXPRESSIONS: Knowledge Process + Process Pred</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
             <xsl:result-document method="text" href="algebra_exp/TSV/kp-Pp.tsv">
-            <xsl:variable name="KPalgexp" as="element()+">
+            <xsl:variable name="KP_algexp" as="element()+">
                 <xsl:for-each select="key('scopes', $algexp)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="PrPredalgexp" as="element()+">
+            <xsl:variable name="PrPred_algexp" as="element()+">
                 <xsl:for-each select="key('scopes', $algexp)">
                     <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                 </xsl:for-each>
@@ -720,8 +720,8 @@
             <xsl:variable name="algexpScopeString" select="'Algebraic Expressions'"/>
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$KPalgexp"/>
-                <xsl:with-param name="param2" as="element()+" select="$PrPredalgexp"/>
+                <xsl:with-param name="param1" as="element()+" select="$KP_algexp"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_algexp"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$algexpScopeString"/>
             </xsl:call-template>
             </xsl:result-document>
@@ -732,17 +732,17 @@
             <xsl:comment>ALGEBRAIC EXPRESSIONS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
             <xsl:result-document method="text" href="algebra_exp/TSV/kp-mathop.tsv">
-            <xsl:variable name="KPalgexp" as="element()+">
+            <xsl:variable name="KP_algexp" as="element()+">
                 <xsl:for-each select="key('scopes', $algexp)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="MathOpalgexp" as="element()+">
+            <xsl:variable name="MathOP_algexp" as="element()+">
                 <xsl:for-each select="key('scopes', $algexp)">
                     <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:variable name="QOalgexp" as="element()+">
+            <xsl:variable name="QO_algexp" as="element()+">
                 <xsl:for-each select="key('scopes', $algexp)">
                     <xsl:sequence select=".[parent::* ! name() = $object]"/>
                 </xsl:for-each>
@@ -751,9 +751,9 @@
             
             
             <xsl:call-template name="sentenceWriter">
-                <xsl:with-param name="param1" as="element()+" select="$KPalgexp"/>
-                <xsl:with-param name="param2" as="element()+" select="$MathOpalgexp"/>
-                <xsl:with-param name="param3" as="element()+" select="$QOalgexp"/>
+                <xsl:with-param name="param1" as="element()+" select="$KP_algexp"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_algexp"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_algexp"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$algexpScopeString"/>
             </xsl:call-template>
             </xsl:result-document>

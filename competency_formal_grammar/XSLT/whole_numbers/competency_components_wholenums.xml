@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <!--<domains>
+        <scopes>
+            <string>Whole Numbers <insert idref="#sub_scope"/></string> = class="wholenum"
+            <string>Integers</string>
+            <string>Unit Fractions</string>
+            <string>Rational Numbers</string>
+            <string>Real Numbers</string>
+            <string>Imaginary Numbers</string> = class="imag"
+            <string>Complex Numbers</string> = class="complex"
+            <string>Vectors</string>
+            <string>Matrices</string>
+            <string>Infinite Numbers</string>
+            <string>Random Numbers</string>
+            <string>Expected Values</string>
+            <string>Probabilities</string>
+            <string>The Plane</string>
+            <string>Space</string>
+            <string>Algebraic Expressions</string>
+            <string>Numerical Expressions</string>
+        </scopes>
+
+        <sub_scope xml:id="sub_scope">
+            <string>0</string>
+            <string>1</string>
+            <string>to 2</string>
+            <string>to 3</string>
+            <string>to 4</string>
+            <string>to 5</string>
+            <string>within 10</string>
+            <string>within 20</string>
+            <string>within 100</string>
+            <string>within 120</string>
+            <string>within 1000</string>
+        </sub_scope>
+    </domains>-->
+
+
+    <!-- ANYTHING FILTERING WHOLENUMS ONLY - DON'T WORRY ABOOT IT FOR NOW -->
+
+
+
+
+    <!-- dont you heckin dare snakelcase - un-snakelcase the things-->
+
+
+    <compParts>
+        <processGroup>
+            <process>
+                <!-- SUBCLASS attribute values should be filtered according to the component this string will go with,
+            the rest of the strings will not have the subclass attribute value-->
+                <formalProcess>
+                    <string subclass="notation"
+                        >Read</string>
+                    <string subclass="noNot">Recite</string>
+                    <string subclass="notation"
+                        >Write</string>
+                    <string subclass="noNot">Represent</string>
+                    <string subclass="noNot" sub="models">Represent, with images,</string>
+                    <string subclass="noNot" sub="models">Represent, with sounds,</string>
+                    <string subclass="noNot" sub="models">Represent, with
+                        activities,</string>
+                    <string subclass="noNot" sub="realia">Represent, with specimens,</string>
+                    <string subclass="noNot" sub="realia">Represent, with body parts,</string>
+                    <string subclass="noNot" sub="glyphs">Represent, with
+                        words,</string>
+                    <string subclass="noNot" sub="glyphs">Represent, with symbols,</string>
+                    <string subclass="noNot" sub="glyphs">Represent, with drawings,</string>
+                    <string subclass="noNot" sub="glyphs">Represent, with graphs,</string>
+                    <string subclass="noNot">Randomly sample</string>
+                </formalProcess>
+                <!-- NO notations with knowledge process sentences -->
+                <knowledge>
+                    <knowledgeProcess>
+                        <string class="wholenum">Remember</string>
+                        <string class="wholenum">Evaluate</string>
+                        <string class="wholenum">Create</string>
+                        <string class="wholenum" sub="strategizing"
+                            >Understand</string>
+                        <string class="wholenum" sub="strategizing"
+                            >Apply</string>
+                        <string class="wholenum">Analyze</string>
+                        <knowledgeSubprocess>
+                            <string class="wholenum">by putting together</string>
+                            <string class="wholenum">by adding to</string>
+                            <string class="wholenum">by taking apart</string>
+                            <string class="wholenum">by taking from</string>
+                        </knowledgeSubprocess>
+                    </knowledgeProcess>
+                </knowledge>
+            </process>
+            <!--BRANCHES HERE 
+                2 options: knowledge OR formal with processPred or specific_object => end of chain
+                knowledge OR formal -> mathopObject (quant) -> notation?-->
+
+        </processGroup>
+        <!-- END OF CHAIN -->
+
+
+        <processBranch>
+            <processPred>
+                <string class="wholenum">Volumes</string>
+                <string class="wholenum">Numerical Expressions</string>
+                <string class="wholenum">Numerical Equations</string>
+                <string class="wholenum">Properties of Objects</string>
+                <string>Properties of Operations</string>
+                <string class="wholenum">Patterns</string>
+                <string class="wholenum">Common Factors</string>
+                <string class="wholenum">Multiples</string>
+                <string class="wholenum">Common Multiples</string>
+                <string class="wholenum">Place Values</string>
+                <string class="wholenum">Attributes</string>
+                <string class="wholenum">Standard Units</string>
+                <string class="wholenum">SI Units</string>
+                <string class="wholenum">Areas</string>
+                <string class="wholenum">Perimeters</string>
+                <string class="wholenum">Data</string>
+                <string>Shapes</string>
+                <string class="wholenum">Surface Areas</string>
+                <string class="wholenum">Realia</string>
+                <string class="wholenum">Models</string>
+                <string class="wholenum">Congruence</string>
+                <string class="wholenum">Similarity</string>
+                <string class="wholenum">Ratios</string>
+                <string class="wholenum">Proportions</string>
+                <string class="wholenum">Numerical Inequalities</string>
+                <string>Algebraic Equations</string>
+                <string>Algebraic Inequalities</string>
+                <string>Lines</string>
+                <string class="wholenum">Linear Equations</string>
+                <string class="wholenum">Simultaneous Equations</string>
+                <string class="wholenum">Statistical Variability</string>
+                <string class="wholenum">Distributions</string>
+                <string class="wholenum">Populations</string>
+                <string class="wholenum">Probability Models</string>
+                <string class="wholenum">Bivariate Data</string>
+                <string class="wholenum">Sets</string>
+                <string>Elements</string>
+                <string>Experiments</string>
+                <string>Observations</string>
+                <string>Dependent Variables</string>
+                <string>Independent Variables</string>
+                <string class="wholenum">Sums</string>
+                <string class="wholenum">Differences</string>
+                <string class="wholenum">Products</string>
+                <string class="wholenum">Quotients</string>
+                <string class="wholenum">Remainders</string>
+                <string class="wholenum">Groups</string>
+                <string class="wholenum">Length</string>
+                <string class="wholenum">Width</string>
+                <string class="wholenum">Depth or Height</string>
+                <string class="wholenum">Qualitative Attributes</string>
+                <string>Plane Figures</string>
+                <string>Objects in Space</string>
+                <string class="wholenum">Samples</string>
+                <string class="wholenum">Random Samples</string>
+                <string>Prisms and Cylinders</string>
+                <string>Spheres</string>
+                <string>Cones</string>
+                <string class="wholenum">Quantitative Stories</string>
+            </processPred>
+            <!-- REVIEW SPECIFIC OBJECT SCOPE ALIGNMENTS WITH TIM/MATH TEAM -->
+
+
+            <!-- ignore further specific object generations - take specific object out of the filtering/generation (use bulk/unfiltered gen) -->
+
+            <specificObject>
+                <string>Pythagorean Theorem</string>
+                <string>Standard Algorithm for Addition</string>
+                <string>Standard Algorithm for Subtraction</string>
+                <string>Standard Algorithm for Multiplication</string>
+                <string>Standard Algorithm for Division</string>
+                <string>European Algorithm for Subtraction</string>
+                <string>Lattice Algorithm for Multiplication</string>
+                <string>Common Factors</string>
+                <string>Distributive Property</string>
+                <string>Commutative Property</string>
+                <string>Associative Property</string>
+            </specificObject>
+
+            <mathOPobject>
+                <mathOperation>
+                    <string class="wholenum">Naming</string>
+                    <string class="wholenum">Sequencing</string>
+                    <string class="wholenum">Ordering</string>
+                    <string class="wholenum">Adding</string>
+                    <string class="wholenum">Subtracting</string>
+                    <string class="wholenum">Multiplying</string>
+                    <string class="wholenum">Dividing</string>
+                    <string class="wholenum">Negating</string>
+                    <string class="wholenum">Exponentiating</string>
+                    <string class="wholenum">Grouping</string>
+                    <!-- Operations -->
+                    <!--<string>Order Operations</string>-->
+                </mathOperation>
+                <!-- -->
+                <quant>
+                    <string class="wholenum">Numbers</string>
+                    <!-- putting the name of the scope INSIDE the string outputs -->
+                    <string class="wholenum">Terms</string>
+                    <string class="wholenum">Factors</string>
+                    <string class="wholenum">Angles</string>
+
+                    <string class="wholenum">Algebraic Expressions</string>
+                    <string class="wholenum">Variables</string>
+                    <string class="wholenum">Functions</string>
+                    <string class="wholenum">Chance Processes</string>
+                    <string class="wholenum">Arrays</string>
+                </quant>
+            </mathOPobject>
+
+        </processBranch>
+
+
+
+        <!-- specific object and notation object will never occur in the same sentence output -->
+
+       <notationObject>
+           <string class="wholenum">in Fractional Notation</string>
+           <string class="wholenum">in Decimal Notation</string>
+           <string class="wholenum">in Proportional Notation</string>
+           <string class="wholenum">in Addition Notation</string>
+           <string class="wholenum">in Subtraction Notation</string>
+           <string class="wholenum">in Multiplication Notation</string>
+           <string class="wholenum">in Division Notation</string>
+           <string class="wholenum">in Radical Notation</string>
+           <string class="wholenum">in Exponential Notation</string>
+           <string class="wholenum">in Scientific Notation</string>
+           <string class="wholenum">in Base Ten</string>
+        </notationObject>
+
+    </compParts>
+</xml>
