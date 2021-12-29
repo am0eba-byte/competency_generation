@@ -267,7 +267,7 @@ The TSV files are separated by which competency sentence components each group o
 
 `` <xsl:param name="wholenum" as="xs:string" select="'wholenum'"/> ``
 
-#### Notation Object Filtering - Special Formal Process String Keys
+### Notation Object Filtering - Special Formal Process String Keys
 Since only two of the formalProcess strings will occur with a Notation Object string in the
 Whole Numbers Competency sentences, the Formal process string elements have attributes which
 define whether or not they go with a notation object, to be picked up by the following keys.
@@ -286,6 +286,49 @@ formalProcess strings that do NOT have notation objects are tagged with a `` @su
     <xsl:param name="notation" as="xs:string" select="'notation'"/>
     <xsl:param name="noNot" as="xs:string" select="'noNot'"/> 
 ```
+
+#### How to use Notation Object key to filter Formal Process strings:
+The Notation key works the same way that the scope filtering key does. Here's an example
+of generating a set of Whole Numbers competency sentences that contain a Formal Process, a 
+Process Predicate, and a Notation Object. 
+
+```
+           <xsl:variable name="FP_notation" as="element()+">
+               <xsl:for-each select="key('notationKey', $notation)">
+                   <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>          
+               </xsl:for-each>
+           </xsl:variable>
+           
+           <xsl:variable name="PrPred" as="element()+">
+               <xsl:for-each select="key('scopes', $wholenum)">
+                   <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+               </xsl:for-each>
+           </xsl:variable>
+           
+           <xsl:variable name="NO" as="element()+">
+               <xsl:for-each select="key('scopes', $wholenum)">
+                   <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+               </xsl:for-each>
+           </xsl:variable>
+```
+
+Notice how the variable for formalProcess uses the `notationKey` key name instead of `scopes`, and
+calls on the `$notation` global parameter to grab only the formalProcess strings with a `notation` attribute value.
+If you wanted to grab all of the formalProcess strings that do NOT go with a notation object, you'd
+ call the `$noNot` param in that key instead.
+
+Then, you call on the sentenceWriter template and apply those variables as ordered params using `xsl:with-param`, 
+just as you would with the scopes variables:
+
+```
+           <xsl:call-template name="sentenceWriter">
+               <xsl:with-param name="param1"  as="element()+" select="$FP_notation"/>
+               <xsl:with-param name="param2" as="element()+" select="$PrPred"/>
+               <xsl:with-param name="param3" as="element()+" select="$NO"/>
+           </xsl:call-template>
+```
+
+
 
 
 

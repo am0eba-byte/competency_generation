@@ -57,7 +57,8 @@ The XSLT generator scripts have two basic components:
     <xsl:param name="processPred" as="xs:string" select="'processPred'"/>
     
     <xsl:param name="specific_object" as="xs:string" select="'specific_object'"/>
-    <!-- The specific_object param is not used in competency sets keyed to specific scopes - all specific object competencies are generated once, with no filter rules. -->
+    <!-- The specific_object param is not used in competency sets keyed to specific scopes. -->
+    <!-- All specific object competencies are generated once, with no filter rules. -->
     
     <xsl:param name="math_operation" as="xs:string" select="'math_operation'"/>
     <xsl:param name="object" as="xs:string" select="'quant'"/> 
@@ -83,7 +84,8 @@ The XSLT generator scripts have two basic components:
     <xsl:param name="space" as="xs:string" select="'space'"/>
     <xsl:param name="algexp" as="xs:string" select="'algexp'"/>
     <xsl:param name="numexp" as="xs:string" select="'numexp'"/>
-    <!-- The wholenum scope param is only applied to the separate Whole Numbers scope competency generation workflow - see below for more details. -->    
+    <!-- The wholenum scope param is only applied to the separate Whole Numbers scope -->
+    <!-- competency generation workflow - see below for more details. -->    
     <xsl:param name="wholenum" as="xs:string" select="'wholenum'"/> 
 ```
 
@@ -111,33 +113,33 @@ the `$imag` global param which selects the imaginary numbers attribute value.
 For each string that has an `@class` attribute value of `imag`, we tell it to call on a sequence of those strings
 within a component whose node name is equal to a global component param:
 ###### Knowledge Process component variable:
-``
+```
             <xsl:variable name="KPimag" as="element()+">
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
-``
+```
 ###### Process Predicate component variable:
-``
+```
             <xsl:variable name="PrPredimag" as="element()+">
                 <xsl:for-each select="key('scopes', $imag)">
                     <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                 </xsl:for-each>
             </xsl:variable>
-``
+```
 
 Now, to apply those filtering rules to the Sentence Writer template, we must call on that template
 and send to it these variables in the order in which they should occur in the sentence. To do that,
 we apply `xsl:with-param` elements for each component variable within an `xsl:call-template` that calls
 on our sentence writer template:
 
-``
+```
             <xsl:call-template name="sentenceWriter">
                 <xsl:with-param name="param1" as="element()+" select="$KPimag"/>
                 <xsl:with-param name="param2" as="element()+" select="$PrPredimag"/>
             </xsl:call-template>
-``
+```
 
 
 ## File Locations: 
@@ -264,7 +266,7 @@ The TSV files are separated by which competency sentence components each group o
 
 `` <xsl:param name="wholenum" as="xs:string" select="'wholenum'"/> ``
 
-#### Notation Object Filtering - Special Formal Process String Keys
+### Notation Object Filtering - Special Formal Process String Keys
 Since only two of the formalProcess strings will occur with a Notation Object string in the
 Whole Numbers Competency sentences, the Formal process string elements have attributes which
 define whether or not they go with a notation object, to be picked up by the following keys.
@@ -279,8 +281,53 @@ formalProcess strings that do NOT have notation objects are tagged with a `` @su
 
 #### Subclass Notation Params:
 
-`` <xsl:param name="notation" as="xs:string" select="'notation'"/>
-    <xsl:param name="noNot" as="xs:string" select="'noNot'"/> ``
+``` 
+    <xsl:param name="notation" as="xs:string" select="'notation'"/>
+    <xsl:param name="noNot" as="xs:string" select="'noNot'"/> 
+```
+
+#### How to use Notation Object key to filter Formal Process strings:
+The Notation key works the same way that the scope filtering key does. Here's an example
+of generating a set of Whole Numbers competency sentences that contain a Formal Process, a 
+Process Predicate, and a Notation Object. 
+
+```
+           <xsl:variable name="FP_notation" as="element()+">
+               <xsl:for-each select="key('notationKey', $notation)">
+                   <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>          
+               </xsl:for-each>
+           </xsl:variable>
+           
+           <xsl:variable name="PrPred" as="element()+">
+               <xsl:for-each select="key('scopes', $wholenum)">
+                   <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+               </xsl:for-each>
+           </xsl:variable>
+           
+           <xsl:variable name="NO" as="element()+">
+               <xsl:for-each select="key('scopes', $wholenum)">
+                   <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+               </xsl:for-each>
+           </xsl:variable>
+```
+
+Notice how the variable for formalProcess uses the `notationKey` key name instead of `scopes`, and
+calls on the `$notation` global parameter to grab only the formalProcess strings with a `notation` attribute value.
+If you wanted to grab all of the formalProcess strings that do NOT go with a notation object, you'd
+ call the `$noNot` param in that key instead.
+
+Then, you call on the sentenceWriter template and apply those variables as ordered params using `xsl:with-param`, 
+just as you would with the scopes variables:
+
+```
+           <xsl:call-template name="sentenceWriter">
+               <xsl:with-param name="param1"  as="element()+" select="$FP_notation"/>
+               <xsl:with-param name="param2" as="element()+" select="$PrPred"/>
+               <xsl:with-param name="param3" as="element()+" select="$NO"/>
+           </xsl:call-template>
+```
+
+
 
 
 
@@ -316,4 +363,5 @@ formalProcess strings that do NOT have notation objects are tagged with a `` @su
 - the plane
 - numerical expressions
 - whole numbers
+
 
