@@ -46,6 +46,7 @@
         <xsl:param name="param2" as="element()+" required="yes"/>
         <xsl:param name="param3" as="element()*"/>
         <xsl:param name="param4" as="element()*"/>
+        <xsl:param name="scopeParam" as="xs:string?"/>
        
        
         <xsl:variable name="var1" as="xs:string+" select="$param1/parent::* ! name()"/>
@@ -69,6 +70,9 @@
                                     <xsl:for-each select="$param4 ! normalize-space()">
                                         <xsl:variable name="currLevel4" as="xs:string?" select="current()"/>
                                         <!-- FOUR-PARAMETER SENTENCE -->
+                                       <xsl:choose> <xsl:when test="$scopeParam">
+                                           <xsl:for-each select="$scopeParam">
+                                            <xsl:variable name="scopeInsert" as="xs:string" select="current()"/>
                                                 <componentSentence>
                                                     <xsl:element name="{$var1}">
                                                         <xsl:sequence select="$currLevel1"/>
@@ -82,12 +86,38 @@
                                                     <xsl:element name="{$var4}">
                                                         <xsl:sequence select="$currLevel4"/>
                                                     </xsl:element> 
+                                                    <xsl:element name="scopeName">
+                                                        <xsl:sequence select="concat('involving ', $scopeInsert)"/>
+                                                    </xsl:element>
                                                 </componentSentence>
-                                          
+                                        </xsl:for-each>
+                                       </xsl:when>
+                                           <xsl:otherwise>
+                                               <componentSentence>
+                                                   <xsl:element name="{$var1}">
+                                                       <xsl:sequence select="$currLevel1"/>
+                                                   </xsl:element> 
+                                                   <xsl:element name="{$var2}">
+                                                       <xsl:sequence select="$currLevel2"/>
+                                                   </xsl:element> 
+                                                   <xsl:element name="{$var3}">
+                                                       <xsl:sequence select="$currLevel3"/>
+                                                   </xsl:element> 
+                                                   <xsl:element name="{$var4}">
+                                                       <xsl:sequence select="$currLevel4"/>
+                                                   </xsl:element> 
+                                                 
+                                               </componentSentence>
+                                           </xsl:otherwise>
+                                       </xsl:choose>
                                     </xsl:for-each>      
                                     
                                 </xsl:when>
                                 <xsl:otherwise><!-- THREE-PARAMETER SENTENCE -->
+                                   <xsl:choose>
+                                      <xsl:when test="$scopeParam">
+                                          <xsl:for-each select="$scopeParam">
+                                        <xsl:variable name="scopeInsert" as="xs:string" select="current()"/>
                                     <componentSentence>
                                         <xsl:element name="{$var1}">
                                             <xsl:sequence select="$currLevel1"/>
@@ -98,13 +128,35 @@
                                         <xsl:element name="{$var3}">
                                             <xsl:sequence select="$currLevel3"/>
                                         </xsl:element> 
+                                        <xsl:element name="scopeName">
+                                            <xsl:sequence select="concat('involving ', $scopeInsert)"/>
+                                        </xsl:element>
                                     </componentSentence>
+                                    </xsl:for-each>
+                                      </xsl:when>
+                                       <xsl:otherwise>
+                                           <componentSentence>
+                                               <xsl:element name="{$var1}">
+                                                   <xsl:sequence select="$currLevel1"/>
+                                               </xsl:element> 
+                                               <xsl:element name="{$var2}">
+                                                   <xsl:sequence select="$currLevel2"/>
+                                               </xsl:element> 
+                                               <xsl:element name="{$var3}">
+                                                   <xsl:sequence select="$currLevel3"/>
+                                               </xsl:element> 
+                                              
+                                           </componentSentence>
+                                       </xsl:otherwise>
+                                   </xsl:choose>
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:for-each>
                     </xsl:when>
                     <xsl:otherwise>
                         <!--TWO-PARAMETER SENTENCE -->
+                        <xsl:for-each select="$scopeParam">
+                            <xsl:variable name="scopeInsert" as="xs:string" select="current()"/>
                         <componentSentence>
                             <xsl:element name="{$var1}">
                                 <xsl:sequence select="$currLevel1"/>
@@ -112,7 +164,11 @@
                             <xsl:element name="{$var2}">
                                 <xsl:sequence select="$currLevel2"/>
                             </xsl:element> 
+                            <xsl:element name="scopeName">
+                                <xsl:sequence select="concat('involving ', $scopeInsert)"/>
+                            </xsl:element>
                         </componentSentence>
+                        </xsl:for-each>
                     </xsl:otherwise>
                 </xsl:choose>
                 
@@ -152,11 +208,14 @@
                    <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
                </xsl:for-each>
            </xsl:variable>
+          
+           
 <sentenceGroup xml:id="fp-prPred-n">
            <xsl:call-template name="sentenceWriter">
                <xsl:with-param name="param1"  as="element()+" select="$FP_notation"/>
                <xsl:with-param name="param2" as="element()+" select="$PrPred"/>
                <xsl:with-param name="param3" as="element()+" select="$NO"/>
+               
            </xsl:call-template>
            </sentenceGroup>
            
@@ -206,12 +265,14 @@
                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                </xsl:for-each>
            </xsl:variable>
+           <xsl:variable name="wholenumScopeString" select="'Whole Numbers'"/>
+           
            <!-- ADD "involving Whole Numbers [subscope]" STRING -->
            <sentenceGroup xml:id="fp-prPred">
                <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="element()+" select="$FP_noNot"/>
                    <xsl:with-param name="param2" as="element()+" select="$PrPred"/>
-                  
+                   <xsl:with-param name="scopeParam" as="xs:string" select="$wholenumScopeString"/>
                </xsl:call-template>
            </sentenceGroup>
            
@@ -233,12 +294,15 @@
                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
                </xsl:for-each>
            </xsl:variable>
+           <xsl:variable name="wholenumScopeString" select="'Whole Numbers'"/>
+           
            <!-- ADD "involving Whole Numbers [subscope]" STRING -->
            <sentenceGroup xml:id="fp-mathOp">
                <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="element()+" select="$FP_noNot"/>
                    <xsl:with-param name="param2" as="element()+" select="$MathOp"/>
                    <xsl:with-param name="param3" as="element()+" select="$QO"/>
+                   <xsl:with-param name="scopeParam" as="xs:string" select="$wholenumScopeString"/>
                </xsl:call-template>
            </sentenceGroup>
         
@@ -266,12 +330,15 @@
                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
                </xsl:for-each>
            </xsl:variable>
+           <xsl:variable name="wholenumScopeString" select="'Whole Numbers'"/>
+           
            <!-- ADD "involving Whole Numbers [subscope]" STRING -->
            <sentenceGroup xml:id="kp-mathOp">
               <xsl:call-template name="sentenceWriter">
                   <xsl:with-param name="param1" as="element()+" select="$KP"/>
                   <xsl:with-param name="param2" as="element()+" select="$MathOp"/>
                   <xsl:with-param name="param3" as="element()+" select="$QO"/>
+                  <xsl:with-param name="scopeParam" as="xs:string" select="$wholenumScopeString"/>
                </xsl:call-template>
            </sentenceGroup>
            
@@ -288,11 +355,14 @@
                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                </xsl:for-each>
            </xsl:variable>
+           <xsl:variable name="wholenumScopeString" select="'Whole Numbers'"/>
+           
            <!-- ADD "involving Whole Numbers [subscope]" STRING -->
            <sentenceGroup xml:id="kp-prPred">
               <xsl:call-template name="sentenceWriter">
                   <xsl:with-param name="param1" as="element()+" select="$KP"/>
                   <xsl:with-param name="param2" as="element()+" select="$PrPred"/>
+                  <xsl:with-param name="scopeParam" as="xs:string" select="$wholenumScopeString"/>
                </xsl:call-template>
            </sentenceGroup>
   
@@ -321,6 +391,8 @@
                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
                </xsl:for-each>
            </xsl:variable>
+           <xsl:variable name="wholenumScopeString" select="'Whole Numbers'"/>
+           
            <!-- ADD "involving Whole Numbers [subscope]" STRING -->
            <sentenceGroup xml:id="kp-sp-mathop">
               <xsl:call-template name="sentenceWriter">
@@ -328,6 +400,7 @@
                   <xsl:with-param name="param2" as="element()+" select="$KSP"/>
                   <xsl:with-param name="param3" as="element()+" select="$MathOp"/>
                   <xsl:with-param name="param4" as="element()+" select="$QO"/>
+                  <xsl:with-param name="scopeParam" as="xs:string" select="$wholenumScopeString"/>
                </xsl:call-template>
            </sentenceGroup>
          
@@ -349,12 +422,15 @@
                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
                </xsl:for-each>
            </xsl:variable>
+           <xsl:variable name="wholenumScopeString" select="'Whole Numbers'"/>
+           
            <!-- ADD "involving Whole Numbers [subscope]" STRING -->
            <sentenceGroup xml:id="kp-sp-prPred">
                <xsl:call-template name="sentenceWriter">
                    <xsl:with-param name="param1" as="element()+" select="$KP"/>
                    <xsl:with-param name="param2" as="element()+" select="$KSP"/>
                    <xsl:with-param name="param3" as="element()+" select="$PrPred"/>
+                   <xsl:with-param name="scopeParam" as="xs:string" select="$wholenumScopeString"/>
                </xsl:call-template>
            </sentenceGroup>
        </xml>
