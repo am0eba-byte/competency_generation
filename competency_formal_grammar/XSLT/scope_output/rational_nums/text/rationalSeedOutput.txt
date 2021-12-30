@@ -6,19 +6,26 @@ Read Numerical Expressions involving Rational Numbers
  Read Common Factors involving Rational Numbers
  Read Multiples involving Rational Numbers
  Read Common Multiples involving Rational Numbers
+ Read SI Units involving Rational Numbers
  Read Data involving Rational Numbers
  Read Ratios involving Rational Numbers
  Read Proportions involving Rational Numbers
  Read Numerical Inequalities involving Rational Numbers
  Read Algebraic Equations involving Rational Numbers
  Read Algebraic Inequalities involving Rational Numbers
+ Read Lines involving Rational Numbers
  Read Linear Equations involving Rational Numbers
  Read Simultaneous Equations involving Rational Numbers
  Read Statistical Variability involving Rational Numbers
  Read Distributions involving Rational Numbers
+ Read Populations involving Rational Numbers
  Read Probability Models involving Rational Numbers
  Read Bivariate Data involving Rational Numbers
+ Read Sets involving Rational Numbers
+ Read Elements involving Rational Numbers
  Read Observations involving Rational Numbers
+ Read Dependent Variables involving Rational Numbers
+ Read Independent Variables involving Rational Numbers
  Read Sums involving Rational Numbers
  Read Differences involving Rational Numbers
  Read Products involving Rational Numbers
@@ -34,19 +41,26 @@ Read Numerical Expressions involving Rational Numbers
  Recite Common Factors involving Rational Numbers
  Recite Multiples involving Rational Numbers
  Recite Common Multiples involving Rational Numbers
+ Recite SI Units involving Rational Numbers
  Recite Data involving Rational Numbers
  Recite Ratios involving Rational Numbers
  Recite Proportions involving Rational Numbers
  Recite Numerical Inequalities involving Rational Numbers
  Recite Algebraic Equations involving Rational Numbers
  Recite Algebraic Inequalities involving Rational Numbers
+ Recite Lines involving Rational Numbers
  Recite Linear Equations involving Rational Numbers
  Recite Simultaneous Equations involving Rational Numbers
  Recite Statistical Variability involving Rational Numbers
  Recite Distributions involving Rational Numbers
+ Recite Populations involving Rational Numbers
  Recite Probability Models involving Rational Numbers
  Recite Bivariate Data involving Rational Numbers
+ Recite Sets involving Rational Numbers
+ Recite Elements involving Rational Numbers
  Recite Observations involving Rational Numbers
+ Recite Dependent Variables involving Rational Numbers
+ Recite Independent Variables involving Rational Numbers
  Recite Sums involving Rational Numbers
  Recite Differences involving Rational Numbers
  Recite Products involving Rational Numbers
@@ -62,19 +76,26 @@ Read Numerical Expressions involving Rational Numbers
  Write Common Factors involving Rational Numbers
  Write Multiples involving Rational Numbers
  Write Common Multiples involving Rational Numbers
+ Write SI Units involving Rational Numbers
  Write Data involving Rational Numbers
  Write Ratios involving Rational Numbers
  Write Proportions involving Rational Numbers
  Write Numerical Inequalities involving Rational Numbers
  Write Algebraic Equations involving Rational Numbers
  Write Algebraic Inequalities involving Rational Numbers
+ Write Lines involving Rational Numbers
  Write Linear Equations involving Rational Numbers
  Write Simultaneous Equations involving Rational Numbers
  Write Statistical Variability involving Rational Numbers
  Write Distributions involving Rational Numbers
+ Write Populations involving Rational Numbers
  Write Probability Models involving Rational Numbers
  Write Bivariate Data involving Rational Numbers
+ Write Sets involving Rational Numbers
+ Write Elements involving Rational Numbers
  Write Observations involving Rational Numbers
+ Write Dependent Variables involving Rational Numbers
+ Write Independent Variables involving Rational Numbers
  Write Sums involving Rational Numbers
  Write Differences involving Rational Numbers
  Write Products involving Rational Numbers
@@ -90,19 +111,26 @@ Read Numerical Expressions involving Rational Numbers
  Represent Common Factors involving Rational Numbers
  Represent Multiples involving Rational Numbers
  Represent Common Multiples involving Rational Numbers
+ Represent SI Units involving Rational Numbers
  Represent Data involving Rational Numbers
  Represent Ratios involving Rational Numbers
  Represent Proportions involving Rational Numbers
  Represent Numerical Inequalities involving Rational Numbers
  Represent Algebraic Equations involving Rational Numbers
  Represent Algebraic Inequalities involving Rational Numbers
+ Represent Lines involving Rational Numbers
  Represent Linear Equations involving Rational Numbers
  Represent Simultaneous Equations involving Rational Numbers
  Represent Statistical Variability involving Rational Numbers
  Represent Distributions involving Rational Numbers
+ Represent Populations involving Rational Numbers
  Represent Probability Models involving Rational Numbers
  Represent Bivariate Data involving Rational Numbers
+ Represent Sets involving Rational Numbers
+ Represent Elements involving Rational Numbers
  Represent Observations involving Rational Numbers
+ Represent Dependent Variables involving Rational Numbers
+ Represent Independent Variables involving Rational Numbers
  Represent Sums involving Rational Numbers
  Represent Differences involving Rational Numbers
  Represent Products involving Rational Numbers
@@ -118,19 +146,26 @@ Read Numerical Expressions involving Rational Numbers
  Represent, with activities, Common Factors involving Rational Numbers
  Represent, with activities, Multiples involving Rational Numbers
  Represent, with activities, Common Multiples involving Rational Numbers
+ Represent, with activities, SI Units involving Rational Numbers
  Represent, with activities, Data involving Rational Numbers
  Represent, with activities, Ratios involving Rational Numbers
  Represent, with activities, Proportions involving Rational Numbers
  Represent, with activities, Numerical Inequalities involving Rational Numbers
  Represent, with activities, Algebraic Equations involving Rational Numbers
  Represent, with activities, Algebraic Inequalities involving Rational Numbers
+ Represent, with activities, Lines involving Rational Numbers
  Represent, with activities, Linear Equations involving Rational Numbers
  Represent, with activities, Simultaneous Equations involving Rational Numbers
  Represent, with activities, Statistical Variability involving Rational Numbers
  Represent, with activities, Distributions involving Rational Numbers
+ Represent, with activities, Populations involving Rational Numbers
  Represent, with activities, Probability Models involving Rational Numbers
  Represent, with activities, Bivariate Data involving Rational Numbers
+ Represent, with activities, Sets involving Rational Numbers
+ Represent, with activities, Elements involving Rational Numbers
  Represent, with activities, Observations involving Rational Numbers
+ Represent, with activities, Dependent Variables involving Rational Numbers
+ Represent, with activities, Independent Variables involving Rational Numbers
  Represent, with activities, Sums involving Rational Numbers
  Represent, with activities, Differences involving Rational Numbers
  Represent, with activities, Products involving Rational Numbers
@@ -146,19 +181,26 @@ Read Numerical Expressions involving Rational Numbers
  Represent, with words, Common Factors involving Rational Numbers
  Represent, with words, Multiples involving Rational Numbers
  Represent, with words, Common Multiples involving Rational Numbers
+ Represent, with words, SI Units involving Rational Numbers
  Represent, with words, Data involving Rational Numbers
  Represent, with words, Ratios involving Rational Numbers
  Represent, with words, Proportions involving Rational Numbers
  Represent, with words, Numerical Inequalities involving Rational Numbers
  Represent, with words, Algebraic Equations involving Rational Numbers
  Represent, with words, Algebraic Inequalities involving Rational Numbers
+ Represent, with words, Lines involving Rational Numbers
  Represent, with words, Linear Equations involving Rational Numbers
  Represent, with words, Simultaneous Equations involving Rational Numbers
  Represent, with words, Statistical Variability involving Rational Numbers
  Represent, with words, Distributions involving Rational Numbers
+ Represent, with words, Populations involving Rational Numbers
  Represent, with words, Probability Models involving Rational Numbers
  Represent, with words, Bivariate Data involving Rational Numbers
+ Represent, with words, Sets involving Rational Numbers
+ Represent, with words, Elements involving Rational Numbers
  Represent, with words, Observations involving Rational Numbers
+ Represent, with words, Dependent Variables involving Rational Numbers
+ Represent, with words, Independent Variables involving Rational Numbers
  Represent, with words, Sums involving Rational Numbers
  Represent, with words, Differences involving Rational Numbers
  Represent, with words, Products involving Rational Numbers
@@ -174,19 +216,26 @@ Read Numerical Expressions involving Rational Numbers
  Randomly sample Common Factors involving Rational Numbers
  Randomly sample Multiples involving Rational Numbers
  Randomly sample Common Multiples involving Rational Numbers
+ Randomly sample SI Units involving Rational Numbers
  Randomly sample Data involving Rational Numbers
  Randomly sample Ratios involving Rational Numbers
  Randomly sample Proportions involving Rational Numbers
  Randomly sample Numerical Inequalities involving Rational Numbers
  Randomly sample Algebraic Equations involving Rational Numbers
  Randomly sample Algebraic Inequalities involving Rational Numbers
+ Randomly sample Lines involving Rational Numbers
  Randomly sample Linear Equations involving Rational Numbers
  Randomly sample Simultaneous Equations involving Rational Numbers
  Randomly sample Statistical Variability involving Rational Numbers
  Randomly sample Distributions involving Rational Numbers
+ Randomly sample Populations involving Rational Numbers
  Randomly sample Probability Models involving Rational Numbers
  Randomly sample Bivariate Data involving Rational Numbers
+ Randomly sample Sets involving Rational Numbers
+ Randomly sample Elements involving Rational Numbers
  Randomly sample Observations involving Rational Numbers
+ Randomly sample Dependent Variables involving Rational Numbers
+ Randomly sample Independent Variables involving Rational Numbers
  Randomly sample Sums involving Rational Numbers
  Randomly sample Differences involving Rational Numbers
  Randomly sample Products involving Rational Numbers
@@ -197,381 +246,507 @@ Read Numerical Expressions involving Rational Numbers
  Read Sequencing Numbers involving Rational Numbers
  Read Sequencing Terms involving Rational Numbers
  Read Sequencing Factors involving Rational Numbers
+ Read Sequencing Angles involving Rational Numbers
  Read Sequencing Algebraic Expressions involving Rational Numbers
  Read Sequencing Variables involving Rational Numbers
  Read Sequencing Functions involving Rational Numbers
+ Read Sequencing Arrays involving Rational Numbers
  Read Ordering Numbers involving Rational Numbers
  Read Ordering Terms involving Rational Numbers
  Read Ordering Factors involving Rational Numbers
+ Read Ordering Angles involving Rational Numbers
  Read Ordering Algebraic Expressions involving Rational Numbers
  Read Ordering Variables involving Rational Numbers
  Read Ordering Functions involving Rational Numbers
+ Read Ordering Arrays involving Rational Numbers
  Read Adding Numbers involving Rational Numbers
  Read Adding Terms involving Rational Numbers
  Read Adding Factors involving Rational Numbers
+ Read Adding Angles involving Rational Numbers
  Read Adding Algebraic Expressions involving Rational Numbers
  Read Adding Variables involving Rational Numbers
  Read Adding Functions involving Rational Numbers
+ Read Adding Arrays involving Rational Numbers
  Read Subtracting Numbers involving Rational Numbers
  Read Subtracting Terms involving Rational Numbers
  Read Subtracting Factors involving Rational Numbers
+ Read Subtracting Angles involving Rational Numbers
  Read Subtracting Algebraic Expressions involving Rational Numbers
  Read Subtracting Variables involving Rational Numbers
  Read Subtracting Functions involving Rational Numbers
+ Read Subtracting Arrays involving Rational Numbers
  Read Multiplying Numbers involving Rational Numbers
  Read Multiplying Terms involving Rational Numbers
  Read Multiplying Factors involving Rational Numbers
+ Read Multiplying Angles involving Rational Numbers
  Read Multiplying Algebraic Expressions involving Rational Numbers
  Read Multiplying Variables involving Rational Numbers
  Read Multiplying Functions involving Rational Numbers
+ Read Multiplying Arrays involving Rational Numbers
  Read Dividing Numbers involving Rational Numbers
  Read Dividing Terms involving Rational Numbers
  Read Dividing Factors involving Rational Numbers
+ Read Dividing Angles involving Rational Numbers
  Read Dividing Algebraic Expressions involving Rational Numbers
  Read Dividing Variables involving Rational Numbers
  Read Dividing Functions involving Rational Numbers
+ Read Dividing Arrays involving Rational Numbers
  Read Negating Numbers involving Rational Numbers
  Read Negating Terms involving Rational Numbers
  Read Negating Factors involving Rational Numbers
+ Read Negating Angles involving Rational Numbers
  Read Negating Algebraic Expressions involving Rational Numbers
  Read Negating Variables involving Rational Numbers
  Read Negating Functions involving Rational Numbers
+ Read Negating Arrays involving Rational Numbers
  Read Exponentiating Numbers involving Rational Numbers
  Read Exponentiating Terms involving Rational Numbers
  Read Exponentiating Factors involving Rational Numbers
+ Read Exponentiating Angles involving Rational Numbers
  Read Exponentiating Algebraic Expressions involving Rational Numbers
  Read Exponentiating Variables involving Rational Numbers
  Read Exponentiating Functions involving Rational Numbers
+ Read Exponentiating Arrays involving Rational Numbers
  Read Grouping Numbers involving Rational Numbers
  Read Grouping Terms involving Rational Numbers
  Read Grouping Factors involving Rational Numbers
+ Read Grouping Angles involving Rational Numbers
  Read Grouping Algebraic Expressions involving Rational Numbers
  Read Grouping Variables involving Rational Numbers
  Read Grouping Functions involving Rational Numbers
+ Read Grouping Arrays involving Rational Numbers
  Recite Sequencing Numbers involving Rational Numbers
  Recite Sequencing Terms involving Rational Numbers
  Recite Sequencing Factors involving Rational Numbers
+ Recite Sequencing Angles involving Rational Numbers
  Recite Sequencing Algebraic Expressions involving Rational Numbers
  Recite Sequencing Variables involving Rational Numbers
  Recite Sequencing Functions involving Rational Numbers
+ Recite Sequencing Arrays involving Rational Numbers
  Recite Ordering Numbers involving Rational Numbers
  Recite Ordering Terms involving Rational Numbers
  Recite Ordering Factors involving Rational Numbers
+ Recite Ordering Angles involving Rational Numbers
  Recite Ordering Algebraic Expressions involving Rational Numbers
  Recite Ordering Variables involving Rational Numbers
  Recite Ordering Functions involving Rational Numbers
+ Recite Ordering Arrays involving Rational Numbers
  Recite Adding Numbers involving Rational Numbers
  Recite Adding Terms involving Rational Numbers
  Recite Adding Factors involving Rational Numbers
+ Recite Adding Angles involving Rational Numbers
  Recite Adding Algebraic Expressions involving Rational Numbers
  Recite Adding Variables involving Rational Numbers
  Recite Adding Functions involving Rational Numbers
+ Recite Adding Arrays involving Rational Numbers
  Recite Subtracting Numbers involving Rational Numbers
  Recite Subtracting Terms involving Rational Numbers
  Recite Subtracting Factors involving Rational Numbers
+ Recite Subtracting Angles involving Rational Numbers
  Recite Subtracting Algebraic Expressions involving Rational Numbers
  Recite Subtracting Variables involving Rational Numbers
  Recite Subtracting Functions involving Rational Numbers
+ Recite Subtracting Arrays involving Rational Numbers
  Recite Multiplying Numbers involving Rational Numbers
  Recite Multiplying Terms involving Rational Numbers
  Recite Multiplying Factors involving Rational Numbers
+ Recite Multiplying Angles involving Rational Numbers
  Recite Multiplying Algebraic Expressions involving Rational Numbers
  Recite Multiplying Variables involving Rational Numbers
  Recite Multiplying Functions involving Rational Numbers
+ Recite Multiplying Arrays involving Rational Numbers
  Recite Dividing Numbers involving Rational Numbers
  Recite Dividing Terms involving Rational Numbers
  Recite Dividing Factors involving Rational Numbers
+ Recite Dividing Angles involving Rational Numbers
  Recite Dividing Algebraic Expressions involving Rational Numbers
  Recite Dividing Variables involving Rational Numbers
  Recite Dividing Functions involving Rational Numbers
+ Recite Dividing Arrays involving Rational Numbers
  Recite Negating Numbers involving Rational Numbers
  Recite Negating Terms involving Rational Numbers
  Recite Negating Factors involving Rational Numbers
+ Recite Negating Angles involving Rational Numbers
  Recite Negating Algebraic Expressions involving Rational Numbers
  Recite Negating Variables involving Rational Numbers
  Recite Negating Functions involving Rational Numbers
+ Recite Negating Arrays involving Rational Numbers
  Recite Exponentiating Numbers involving Rational Numbers
  Recite Exponentiating Terms involving Rational Numbers
  Recite Exponentiating Factors involving Rational Numbers
+ Recite Exponentiating Angles involving Rational Numbers
  Recite Exponentiating Algebraic Expressions involving Rational Numbers
  Recite Exponentiating Variables involving Rational Numbers
  Recite Exponentiating Functions involving Rational Numbers
+ Recite Exponentiating Arrays involving Rational Numbers
  Recite Grouping Numbers involving Rational Numbers
  Recite Grouping Terms involving Rational Numbers
  Recite Grouping Factors involving Rational Numbers
+ Recite Grouping Angles involving Rational Numbers
  Recite Grouping Algebraic Expressions involving Rational Numbers
  Recite Grouping Variables involving Rational Numbers
  Recite Grouping Functions involving Rational Numbers
+ Recite Grouping Arrays involving Rational Numbers
  Write Sequencing Numbers involving Rational Numbers
  Write Sequencing Terms involving Rational Numbers
  Write Sequencing Factors involving Rational Numbers
+ Write Sequencing Angles involving Rational Numbers
  Write Sequencing Algebraic Expressions involving Rational Numbers
  Write Sequencing Variables involving Rational Numbers
  Write Sequencing Functions involving Rational Numbers
+ Write Sequencing Arrays involving Rational Numbers
  Write Ordering Numbers involving Rational Numbers
  Write Ordering Terms involving Rational Numbers
  Write Ordering Factors involving Rational Numbers
+ Write Ordering Angles involving Rational Numbers
  Write Ordering Algebraic Expressions involving Rational Numbers
  Write Ordering Variables involving Rational Numbers
  Write Ordering Functions involving Rational Numbers
+ Write Ordering Arrays involving Rational Numbers
  Write Adding Numbers involving Rational Numbers
  Write Adding Terms involving Rational Numbers
  Write Adding Factors involving Rational Numbers
+ Write Adding Angles involving Rational Numbers
  Write Adding Algebraic Expressions involving Rational Numbers
  Write Adding Variables involving Rational Numbers
  Write Adding Functions involving Rational Numbers
+ Write Adding Arrays involving Rational Numbers
  Write Subtracting Numbers involving Rational Numbers
  Write Subtracting Terms involving Rational Numbers
  Write Subtracting Factors involving Rational Numbers
+ Write Subtracting Angles involving Rational Numbers
  Write Subtracting Algebraic Expressions involving Rational Numbers
  Write Subtracting Variables involving Rational Numbers
  Write Subtracting Functions involving Rational Numbers
+ Write Subtracting Arrays involving Rational Numbers
  Write Multiplying Numbers involving Rational Numbers
  Write Multiplying Terms involving Rational Numbers
  Write Multiplying Factors involving Rational Numbers
+ Write Multiplying Angles involving Rational Numbers
  Write Multiplying Algebraic Expressions involving Rational Numbers
  Write Multiplying Variables involving Rational Numbers
  Write Multiplying Functions involving Rational Numbers
+ Write Multiplying Arrays involving Rational Numbers
  Write Dividing Numbers involving Rational Numbers
  Write Dividing Terms involving Rational Numbers
  Write Dividing Factors involving Rational Numbers
+ Write Dividing Angles involving Rational Numbers
  Write Dividing Algebraic Expressions involving Rational Numbers
  Write Dividing Variables involving Rational Numbers
  Write Dividing Functions involving Rational Numbers
+ Write Dividing Arrays involving Rational Numbers
  Write Negating Numbers involving Rational Numbers
  Write Negating Terms involving Rational Numbers
  Write Negating Factors involving Rational Numbers
+ Write Negating Angles involving Rational Numbers
  Write Negating Algebraic Expressions involving Rational Numbers
  Write Negating Variables involving Rational Numbers
  Write Negating Functions involving Rational Numbers
+ Write Negating Arrays involving Rational Numbers
  Write Exponentiating Numbers involving Rational Numbers
  Write Exponentiating Terms involving Rational Numbers
  Write Exponentiating Factors involving Rational Numbers
+ Write Exponentiating Angles involving Rational Numbers
  Write Exponentiating Algebraic Expressions involving Rational Numbers
  Write Exponentiating Variables involving Rational Numbers
  Write Exponentiating Functions involving Rational Numbers
+ Write Exponentiating Arrays involving Rational Numbers
  Write Grouping Numbers involving Rational Numbers
  Write Grouping Terms involving Rational Numbers
  Write Grouping Factors involving Rational Numbers
+ Write Grouping Angles involving Rational Numbers
  Write Grouping Algebraic Expressions involving Rational Numbers
  Write Grouping Variables involving Rational Numbers
  Write Grouping Functions involving Rational Numbers
+ Write Grouping Arrays involving Rational Numbers
  Represent Sequencing Numbers involving Rational Numbers
  Represent Sequencing Terms involving Rational Numbers
  Represent Sequencing Factors involving Rational Numbers
+ Represent Sequencing Angles involving Rational Numbers
  Represent Sequencing Algebraic Expressions involving Rational Numbers
  Represent Sequencing Variables involving Rational Numbers
  Represent Sequencing Functions involving Rational Numbers
+ Represent Sequencing Arrays involving Rational Numbers
  Represent Ordering Numbers involving Rational Numbers
  Represent Ordering Terms involving Rational Numbers
  Represent Ordering Factors involving Rational Numbers
+ Represent Ordering Angles involving Rational Numbers
  Represent Ordering Algebraic Expressions involving Rational Numbers
  Represent Ordering Variables involving Rational Numbers
  Represent Ordering Functions involving Rational Numbers
+ Represent Ordering Arrays involving Rational Numbers
  Represent Adding Numbers involving Rational Numbers
  Represent Adding Terms involving Rational Numbers
  Represent Adding Factors involving Rational Numbers
+ Represent Adding Angles involving Rational Numbers
  Represent Adding Algebraic Expressions involving Rational Numbers
  Represent Adding Variables involving Rational Numbers
  Represent Adding Functions involving Rational Numbers
+ Represent Adding Arrays involving Rational Numbers
  Represent Subtracting Numbers involving Rational Numbers
  Represent Subtracting Terms involving Rational Numbers
  Represent Subtracting Factors involving Rational Numbers
+ Represent Subtracting Angles involving Rational Numbers
  Represent Subtracting Algebraic Expressions involving Rational Numbers
  Represent Subtracting Variables involving Rational Numbers
  Represent Subtracting Functions involving Rational Numbers
+ Represent Subtracting Arrays involving Rational Numbers
  Represent Multiplying Numbers involving Rational Numbers
  Represent Multiplying Terms involving Rational Numbers
  Represent Multiplying Factors involving Rational Numbers
+ Represent Multiplying Angles involving Rational Numbers
  Represent Multiplying Algebraic Expressions involving Rational Numbers
  Represent Multiplying Variables involving Rational Numbers
  Represent Multiplying Functions involving Rational Numbers
+ Represent Multiplying Arrays involving Rational Numbers
  Represent Dividing Numbers involving Rational Numbers
  Represent Dividing Terms involving Rational Numbers
  Represent Dividing Factors involving Rational Numbers
+ Represent Dividing Angles involving Rational Numbers
  Represent Dividing Algebraic Expressions involving Rational Numbers
  Represent Dividing Variables involving Rational Numbers
  Represent Dividing Functions involving Rational Numbers
+ Represent Dividing Arrays involving Rational Numbers
  Represent Negating Numbers involving Rational Numbers
  Represent Negating Terms involving Rational Numbers
  Represent Negating Factors involving Rational Numbers
+ Represent Negating Angles involving Rational Numbers
  Represent Negating Algebraic Expressions involving Rational Numbers
  Represent Negating Variables involving Rational Numbers
  Represent Negating Functions involving Rational Numbers
+ Represent Negating Arrays involving Rational Numbers
  Represent Exponentiating Numbers involving Rational Numbers
  Represent Exponentiating Terms involving Rational Numbers
  Represent Exponentiating Factors involving Rational Numbers
+ Represent Exponentiating Angles involving Rational Numbers
  Represent Exponentiating Algebraic Expressions involving Rational Numbers
  Represent Exponentiating Variables involving Rational Numbers
  Represent Exponentiating Functions involving Rational Numbers
+ Represent Exponentiating Arrays involving Rational Numbers
  Represent Grouping Numbers involving Rational Numbers
  Represent Grouping Terms involving Rational Numbers
  Represent Grouping Factors involving Rational Numbers
+ Represent Grouping Angles involving Rational Numbers
  Represent Grouping Algebraic Expressions involving Rational Numbers
  Represent Grouping Variables involving Rational Numbers
  Represent Grouping Functions involving Rational Numbers
+ Represent Grouping Arrays involving Rational Numbers
  Represent, with activities, Sequencing Numbers involving Rational Numbers
  Represent, with activities, Sequencing Terms involving Rational Numbers
  Represent, with activities, Sequencing Factors involving Rational Numbers
+ Represent, with activities, Sequencing Angles involving Rational Numbers
  Represent, with activities, Sequencing Algebraic Expressions involving Rational Numbers
  Represent, with activities, Sequencing Variables involving Rational Numbers
  Represent, with activities, Sequencing Functions involving Rational Numbers
+ Represent, with activities, Sequencing Arrays involving Rational Numbers
  Represent, with activities, Ordering Numbers involving Rational Numbers
  Represent, with activities, Ordering Terms involving Rational Numbers
  Represent, with activities, Ordering Factors involving Rational Numbers
+ Represent, with activities, Ordering Angles involving Rational Numbers
  Represent, with activities, Ordering Algebraic Expressions involving Rational Numbers
  Represent, with activities, Ordering Variables involving Rational Numbers
  Represent, with activities, Ordering Functions involving Rational Numbers
+ Represent, with activities, Ordering Arrays involving Rational Numbers
  Represent, with activities, Adding Numbers involving Rational Numbers
  Represent, with activities, Adding Terms involving Rational Numbers
  Represent, with activities, Adding Factors involving Rational Numbers
+ Represent, with activities, Adding Angles involving Rational Numbers
  Represent, with activities, Adding Algebraic Expressions involving Rational Numbers
  Represent, with activities, Adding Variables involving Rational Numbers
  Represent, with activities, Adding Functions involving Rational Numbers
+ Represent, with activities, Adding Arrays involving Rational Numbers
  Represent, with activities, Subtracting Numbers involving Rational Numbers
  Represent, with activities, Subtracting Terms involving Rational Numbers
  Represent, with activities, Subtracting Factors involving Rational Numbers
+ Represent, with activities, Subtracting Angles involving Rational Numbers
  Represent, with activities, Subtracting Algebraic Expressions involving Rational Numbers
  Represent, with activities, Subtracting Variables involving Rational Numbers
  Represent, with activities, Subtracting Functions involving Rational Numbers
+ Represent, with activities, Subtracting Arrays involving Rational Numbers
  Represent, with activities, Multiplying Numbers involving Rational Numbers
  Represent, with activities, Multiplying Terms involving Rational Numbers
  Represent, with activities, Multiplying Factors involving Rational Numbers
+ Represent, with activities, Multiplying Angles involving Rational Numbers
  Represent, with activities, Multiplying Algebraic Expressions involving Rational Numbers
  Represent, with activities, Multiplying Variables involving Rational Numbers
  Represent, with activities, Multiplying Functions involving Rational Numbers
+ Represent, with activities, Multiplying Arrays involving Rational Numbers
  Represent, with activities, Dividing Numbers involving Rational Numbers
  Represent, with activities, Dividing Terms involving Rational Numbers
  Represent, with activities, Dividing Factors involving Rational Numbers
+ Represent, with activities, Dividing Angles involving Rational Numbers
  Represent, with activities, Dividing Algebraic Expressions involving Rational Numbers
  Represent, with activities, Dividing Variables involving Rational Numbers
  Represent, with activities, Dividing Functions involving Rational Numbers
+ Represent, with activities, Dividing Arrays involving Rational Numbers
  Represent, with activities, Negating Numbers involving Rational Numbers
  Represent, with activities, Negating Terms involving Rational Numbers
  Represent, with activities, Negating Factors involving Rational Numbers
+ Represent, with activities, Negating Angles involving Rational Numbers
  Represent, with activities, Negating Algebraic Expressions involving Rational Numbers
  Represent, with activities, Negating Variables involving Rational Numbers
  Represent, with activities, Negating Functions involving Rational Numbers
+ Represent, with activities, Negating Arrays involving Rational Numbers
  Represent, with activities, Exponentiating Numbers involving Rational Numbers
  Represent, with activities, Exponentiating Terms involving Rational Numbers
  Represent, with activities, Exponentiating Factors involving Rational Numbers
+ Represent, with activities, Exponentiating Angles involving Rational Numbers
  Represent, with activities, Exponentiating Algebraic Expressions involving Rational Numbers
  Represent, with activities, Exponentiating Variables involving Rational Numbers
  Represent, with activities, Exponentiating Functions involving Rational Numbers
+ Represent, with activities, Exponentiating Arrays involving Rational Numbers
  Represent, with activities, Grouping Numbers involving Rational Numbers
  Represent, with activities, Grouping Terms involving Rational Numbers
  Represent, with activities, Grouping Factors involving Rational Numbers
+ Represent, with activities, Grouping Angles involving Rational Numbers
  Represent, with activities, Grouping Algebraic Expressions involving Rational Numbers
  Represent, with activities, Grouping Variables involving Rational Numbers
  Represent, with activities, Grouping Functions involving Rational Numbers
+ Represent, with activities, Grouping Arrays involving Rational Numbers
  Represent, with words, Sequencing Numbers involving Rational Numbers
  Represent, with words, Sequencing Terms involving Rational Numbers
  Represent, with words, Sequencing Factors involving Rational Numbers
+ Represent, with words, Sequencing Angles involving Rational Numbers
  Represent, with words, Sequencing Algebraic Expressions involving Rational Numbers
  Represent, with words, Sequencing Variables involving Rational Numbers
  Represent, with words, Sequencing Functions involving Rational Numbers
+ Represent, with words, Sequencing Arrays involving Rational Numbers
  Represent, with words, Ordering Numbers involving Rational Numbers
  Represent, with words, Ordering Terms involving Rational Numbers
  Represent, with words, Ordering Factors involving Rational Numbers
+ Represent, with words, Ordering Angles involving Rational Numbers
  Represent, with words, Ordering Algebraic Expressions involving Rational Numbers
  Represent, with words, Ordering Variables involving Rational Numbers
  Represent, with words, Ordering Functions involving Rational Numbers
+ Represent, with words, Ordering Arrays involving Rational Numbers
  Represent, with words, Adding Numbers involving Rational Numbers
  Represent, with words, Adding Terms involving Rational Numbers
  Represent, with words, Adding Factors involving Rational Numbers
+ Represent, with words, Adding Angles involving Rational Numbers
  Represent, with words, Adding Algebraic Expressions involving Rational Numbers
  Represent, with words, Adding Variables involving Rational Numbers
  Represent, with words, Adding Functions involving Rational Numbers
+ Represent, with words, Adding Arrays involving Rational Numbers
  Represent, with words, Subtracting Numbers involving Rational Numbers
  Represent, with words, Subtracting Terms involving Rational Numbers
  Represent, with words, Subtracting Factors involving Rational Numbers
+ Represent, with words, Subtracting Angles involving Rational Numbers
  Represent, with words, Subtracting Algebraic Expressions involving Rational Numbers
  Represent, with words, Subtracting Variables involving Rational Numbers
  Represent, with words, Subtracting Functions involving Rational Numbers
+ Represent, with words, Subtracting Arrays involving Rational Numbers
  Represent, with words, Multiplying Numbers involving Rational Numbers
  Represent, with words, Multiplying Terms involving Rational Numbers
  Represent, with words, Multiplying Factors involving Rational Numbers
+ Represent, with words, Multiplying Angles involving Rational Numbers
  Represent, with words, Multiplying Algebraic Expressions involving Rational Numbers
  Represent, with words, Multiplying Variables involving Rational Numbers
  Represent, with words, Multiplying Functions involving Rational Numbers
+ Represent, with words, Multiplying Arrays involving Rational Numbers
  Represent, with words, Dividing Numbers involving Rational Numbers
  Represent, with words, Dividing Terms involving Rational Numbers
  Represent, with words, Dividing Factors involving Rational Numbers
+ Represent, with words, Dividing Angles involving Rational Numbers
  Represent, with words, Dividing Algebraic Expressions involving Rational Numbers
  Represent, with words, Dividing Variables involving Rational Numbers
  Represent, with words, Dividing Functions involving Rational Numbers
+ Represent, with words, Dividing Arrays involving Rational Numbers
  Represent, with words, Negating Numbers involving Rational Numbers
  Represent, with words, Negating Terms involving Rational Numbers
  Represent, with words, Negating Factors involving Rational Numbers
+ Represent, with words, Negating Angles involving Rational Numbers
  Represent, with words, Negating Algebraic Expressions involving Rational Numbers
  Represent, with words, Negating Variables involving Rational Numbers
  Represent, with words, Negating Functions involving Rational Numbers
+ Represent, with words, Negating Arrays involving Rational Numbers
  Represent, with words, Exponentiating Numbers involving Rational Numbers
  Represent, with words, Exponentiating Terms involving Rational Numbers
  Represent, with words, Exponentiating Factors involving Rational Numbers
+ Represent, with words, Exponentiating Angles involving Rational Numbers
  Represent, with words, Exponentiating Algebraic Expressions involving Rational Numbers
  Represent, with words, Exponentiating Variables involving Rational Numbers
  Represent, with words, Exponentiating Functions involving Rational Numbers
+ Represent, with words, Exponentiating Arrays involving Rational Numbers
  Represent, with words, Grouping Numbers involving Rational Numbers
  Represent, with words, Grouping Terms involving Rational Numbers
  Represent, with words, Grouping Factors involving Rational Numbers
+ Represent, with words, Grouping Angles involving Rational Numbers
  Represent, with words, Grouping Algebraic Expressions involving Rational Numbers
  Represent, with words, Grouping Variables involving Rational Numbers
  Represent, with words, Grouping Functions involving Rational Numbers
+ Represent, with words, Grouping Arrays involving Rational Numbers
  Randomly sample Sequencing Numbers involving Rational Numbers
  Randomly sample Sequencing Terms involving Rational Numbers
  Randomly sample Sequencing Factors involving Rational Numbers
+ Randomly sample Sequencing Angles involving Rational Numbers
  Randomly sample Sequencing Algebraic Expressions involving Rational Numbers
  Randomly sample Sequencing Variables involving Rational Numbers
  Randomly sample Sequencing Functions involving Rational Numbers
+ Randomly sample Sequencing Arrays involving Rational Numbers
  Randomly sample Ordering Numbers involving Rational Numbers
  Randomly sample Ordering Terms involving Rational Numbers
  Randomly sample Ordering Factors involving Rational Numbers
+ Randomly sample Ordering Angles involving Rational Numbers
  Randomly sample Ordering Algebraic Expressions involving Rational Numbers
  Randomly sample Ordering Variables involving Rational Numbers
  Randomly sample Ordering Functions involving Rational Numbers
+ Randomly sample Ordering Arrays involving Rational Numbers
  Randomly sample Adding Numbers involving Rational Numbers
  Randomly sample Adding Terms involving Rational Numbers
  Randomly sample Adding Factors involving Rational Numbers
+ Randomly sample Adding Angles involving Rational Numbers
  Randomly sample Adding Algebraic Expressions involving Rational Numbers
  Randomly sample Adding Variables involving Rational Numbers
  Randomly sample Adding Functions involving Rational Numbers
+ Randomly sample Adding Arrays involving Rational Numbers
  Randomly sample Subtracting Numbers involving Rational Numbers
  Randomly sample Subtracting Terms involving Rational Numbers
  Randomly sample Subtracting Factors involving Rational Numbers
+ Randomly sample Subtracting Angles involving Rational Numbers
  Randomly sample Subtracting Algebraic Expressions involving Rational Numbers
  Randomly sample Subtracting Variables involving Rational Numbers
  Randomly sample Subtracting Functions involving Rational Numbers
+ Randomly sample Subtracting Arrays involving Rational Numbers
  Randomly sample Multiplying Numbers involving Rational Numbers
  Randomly sample Multiplying Terms involving Rational Numbers
  Randomly sample Multiplying Factors involving Rational Numbers
+ Randomly sample Multiplying Angles involving Rational Numbers
  Randomly sample Multiplying Algebraic Expressions involving Rational Numbers
  Randomly sample Multiplying Variables involving Rational Numbers
  Randomly sample Multiplying Functions involving Rational Numbers
+ Randomly sample Multiplying Arrays involving Rational Numbers
  Randomly sample Dividing Numbers involving Rational Numbers
  Randomly sample Dividing Terms involving Rational Numbers
  Randomly sample Dividing Factors involving Rational Numbers
+ Randomly sample Dividing Angles involving Rational Numbers
  Randomly sample Dividing Algebraic Expressions involving Rational Numbers
  Randomly sample Dividing Variables involving Rational Numbers
  Randomly sample Dividing Functions involving Rational Numbers
+ Randomly sample Dividing Arrays involving Rational Numbers
  Randomly sample Negating Numbers involving Rational Numbers
  Randomly sample Negating Terms involving Rational Numbers
  Randomly sample Negating Factors involving Rational Numbers
+ Randomly sample Negating Angles involving Rational Numbers
  Randomly sample Negating Algebraic Expressions involving Rational Numbers
  Randomly sample Negating Variables involving Rational Numbers
  Randomly sample Negating Functions involving Rational Numbers
+ Randomly sample Negating Arrays involving Rational Numbers
  Randomly sample Exponentiating Numbers involving Rational Numbers
  Randomly sample Exponentiating Terms involving Rational Numbers
  Randomly sample Exponentiating Factors involving Rational Numbers
+ Randomly sample Exponentiating Angles involving Rational Numbers
  Randomly sample Exponentiating Algebraic Expressions involving Rational Numbers
  Randomly sample Exponentiating Variables involving Rational Numbers
  Randomly sample Exponentiating Functions involving Rational Numbers
+ Randomly sample Exponentiating Arrays involving Rational Numbers
  Randomly sample Grouping Numbers involving Rational Numbers
  Randomly sample Grouping Terms involving Rational Numbers
  Randomly sample Grouping Factors involving Rational Numbers
+ Randomly sample Grouping Angles involving Rational Numbers
  Randomly sample Grouping Algebraic Expressions involving Rational Numbers
  Randomly sample Grouping Variables involving Rational Numbers
  Randomly sample Grouping Functions involving Rational Numbers
+ Randomly sample Grouping Arrays involving Rational Numbers
  Remember Numerical Expressions involving Rational Numbers
  Remember Numerical Equations involving Rational Numbers
  Remember Properties of Objects involving Rational Numbers
@@ -580,19 +755,26 @@ Read Numerical Expressions involving Rational Numbers
  Remember Common Factors involving Rational Numbers
  Remember Multiples involving Rational Numbers
  Remember Common Multiples involving Rational Numbers
+ Remember SI Units involving Rational Numbers
  Remember Data involving Rational Numbers
  Remember Ratios involving Rational Numbers
  Remember Proportions involving Rational Numbers
  Remember Numerical Inequalities involving Rational Numbers
  Remember Algebraic Equations involving Rational Numbers
  Remember Algebraic Inequalities involving Rational Numbers
+ Remember Lines involving Rational Numbers
  Remember Linear Equations involving Rational Numbers
  Remember Simultaneous Equations involving Rational Numbers
  Remember Statistical Variability involving Rational Numbers
  Remember Distributions involving Rational Numbers
+ Remember Populations involving Rational Numbers
  Remember Probability Models involving Rational Numbers
  Remember Bivariate Data involving Rational Numbers
+ Remember Sets involving Rational Numbers
+ Remember Elements involving Rational Numbers
  Remember Observations involving Rational Numbers
+ Remember Dependent Variables involving Rational Numbers
+ Remember Independent Variables involving Rational Numbers
  Remember Sums involving Rational Numbers
  Remember Differences involving Rational Numbers
  Remember Products involving Rational Numbers
@@ -608,19 +790,26 @@ Read Numerical Expressions involving Rational Numbers
  Evaluate Common Factors involving Rational Numbers
  Evaluate Multiples involving Rational Numbers
  Evaluate Common Multiples involving Rational Numbers
+ Evaluate SI Units involving Rational Numbers
  Evaluate Data involving Rational Numbers
  Evaluate Ratios involving Rational Numbers
  Evaluate Proportions involving Rational Numbers
  Evaluate Numerical Inequalities involving Rational Numbers
  Evaluate Algebraic Equations involving Rational Numbers
  Evaluate Algebraic Inequalities involving Rational Numbers
+ Evaluate Lines involving Rational Numbers
  Evaluate Linear Equations involving Rational Numbers
  Evaluate Simultaneous Equations involving Rational Numbers
  Evaluate Statistical Variability involving Rational Numbers
  Evaluate Distributions involving Rational Numbers
+ Evaluate Populations involving Rational Numbers
  Evaluate Probability Models involving Rational Numbers
  Evaluate Bivariate Data involving Rational Numbers
+ Evaluate Sets involving Rational Numbers
+ Evaluate Elements involving Rational Numbers
  Evaluate Observations involving Rational Numbers
+ Evaluate Dependent Variables involving Rational Numbers
+ Evaluate Independent Variables involving Rational Numbers
  Evaluate Sums involving Rational Numbers
  Evaluate Differences involving Rational Numbers
  Evaluate Products involving Rational Numbers
@@ -636,19 +825,26 @@ Read Numerical Expressions involving Rational Numbers
  Create Common Factors involving Rational Numbers
  Create Multiples involving Rational Numbers
  Create Common Multiples involving Rational Numbers
+ Create SI Units involving Rational Numbers
  Create Data involving Rational Numbers
  Create Ratios involving Rational Numbers
  Create Proportions involving Rational Numbers
  Create Numerical Inequalities involving Rational Numbers
  Create Algebraic Equations involving Rational Numbers
  Create Algebraic Inequalities involving Rational Numbers
+ Create Lines involving Rational Numbers
  Create Linear Equations involving Rational Numbers
  Create Simultaneous Equations involving Rational Numbers
  Create Statistical Variability involving Rational Numbers
  Create Distributions involving Rational Numbers
+ Create Populations involving Rational Numbers
  Create Probability Models involving Rational Numbers
  Create Bivariate Data involving Rational Numbers
+ Create Sets involving Rational Numbers
+ Create Elements involving Rational Numbers
  Create Observations involving Rational Numbers
+ Create Dependent Variables involving Rational Numbers
+ Create Independent Variables involving Rational Numbers
  Create Sums involving Rational Numbers
  Create Differences involving Rational Numbers
  Create Products involving Rational Numbers
@@ -664,19 +860,26 @@ Read Numerical Expressions involving Rational Numbers
  Understand Common Factors involving Rational Numbers
  Understand Multiples involving Rational Numbers
  Understand Common Multiples involving Rational Numbers
+ Understand SI Units involving Rational Numbers
  Understand Data involving Rational Numbers
  Understand Ratios involving Rational Numbers
  Understand Proportions involving Rational Numbers
  Understand Numerical Inequalities involving Rational Numbers
  Understand Algebraic Equations involving Rational Numbers
  Understand Algebraic Inequalities involving Rational Numbers
+ Understand Lines involving Rational Numbers
  Understand Linear Equations involving Rational Numbers
  Understand Simultaneous Equations involving Rational Numbers
  Understand Statistical Variability involving Rational Numbers
  Understand Distributions involving Rational Numbers
+ Understand Populations involving Rational Numbers
  Understand Probability Models involving Rational Numbers
  Understand Bivariate Data involving Rational Numbers
+ Understand Sets involving Rational Numbers
+ Understand Elements involving Rational Numbers
  Understand Observations involving Rational Numbers
+ Understand Dependent Variables involving Rational Numbers
+ Understand Independent Variables involving Rational Numbers
  Understand Sums involving Rational Numbers
  Understand Differences involving Rational Numbers
  Understand Products involving Rational Numbers
@@ -692,19 +895,26 @@ Read Numerical Expressions involving Rational Numbers
  Apply Common Factors involving Rational Numbers
  Apply Multiples involving Rational Numbers
  Apply Common Multiples involving Rational Numbers
+ Apply SI Units involving Rational Numbers
  Apply Data involving Rational Numbers
  Apply Ratios involving Rational Numbers
  Apply Proportions involving Rational Numbers
  Apply Numerical Inequalities involving Rational Numbers
  Apply Algebraic Equations involving Rational Numbers
  Apply Algebraic Inequalities involving Rational Numbers
+ Apply Lines involving Rational Numbers
  Apply Linear Equations involving Rational Numbers
  Apply Simultaneous Equations involving Rational Numbers
  Apply Statistical Variability involving Rational Numbers
  Apply Distributions involving Rational Numbers
+ Apply Populations involving Rational Numbers
  Apply Probability Models involving Rational Numbers
  Apply Bivariate Data involving Rational Numbers
+ Apply Sets involving Rational Numbers
+ Apply Elements involving Rational Numbers
  Apply Observations involving Rational Numbers
+ Apply Dependent Variables involving Rational Numbers
+ Apply Independent Variables involving Rational Numbers
  Apply Sums involving Rational Numbers
  Apply Differences involving Rational Numbers
  Apply Products involving Rational Numbers
@@ -720,19 +930,26 @@ Read Numerical Expressions involving Rational Numbers
  Analyze Common Factors involving Rational Numbers
  Analyze Multiples involving Rational Numbers
  Analyze Common Multiples involving Rational Numbers
+ Analyze SI Units involving Rational Numbers
  Analyze Data involving Rational Numbers
  Analyze Ratios involving Rational Numbers
  Analyze Proportions involving Rational Numbers
  Analyze Numerical Inequalities involving Rational Numbers
  Analyze Algebraic Equations involving Rational Numbers
  Analyze Algebraic Inequalities involving Rational Numbers
+ Analyze Lines involving Rational Numbers
  Analyze Linear Equations involving Rational Numbers
  Analyze Simultaneous Equations involving Rational Numbers
  Analyze Statistical Variability involving Rational Numbers
  Analyze Distributions involving Rational Numbers
+ Analyze Populations involving Rational Numbers
  Analyze Probability Models involving Rational Numbers
  Analyze Bivariate Data involving Rational Numbers
+ Analyze Sets involving Rational Numbers
+ Analyze Elements involving Rational Numbers
  Analyze Observations involving Rational Numbers
+ Analyze Dependent Variables involving Rational Numbers
+ Analyze Independent Variables involving Rational Numbers
  Analyze Sums involving Rational Numbers
  Analyze Differences involving Rational Numbers
  Analyze Products involving Rational Numbers
@@ -743,324 +960,432 @@ Read Numerical Expressions involving Rational Numbers
  Remember Sequencing Numbers involving Rational Numbers
  Remember Sequencing Terms involving Rational Numbers
  Remember Sequencing Factors involving Rational Numbers
+ Remember Sequencing Angles involving Rational Numbers
  Remember Sequencing Algebraic Expressions involving Rational Numbers
  Remember Sequencing Variables involving Rational Numbers
  Remember Sequencing Functions involving Rational Numbers
+ Remember Sequencing Arrays involving Rational Numbers
  Remember Ordering Numbers involving Rational Numbers
  Remember Ordering Terms involving Rational Numbers
  Remember Ordering Factors involving Rational Numbers
+ Remember Ordering Angles involving Rational Numbers
  Remember Ordering Algebraic Expressions involving Rational Numbers
  Remember Ordering Variables involving Rational Numbers
  Remember Ordering Functions involving Rational Numbers
+ Remember Ordering Arrays involving Rational Numbers
  Remember Adding Numbers involving Rational Numbers
  Remember Adding Terms involving Rational Numbers
  Remember Adding Factors involving Rational Numbers
+ Remember Adding Angles involving Rational Numbers
  Remember Adding Algebraic Expressions involving Rational Numbers
  Remember Adding Variables involving Rational Numbers
  Remember Adding Functions involving Rational Numbers
+ Remember Adding Arrays involving Rational Numbers
  Remember Subtracting Numbers involving Rational Numbers
  Remember Subtracting Terms involving Rational Numbers
  Remember Subtracting Factors involving Rational Numbers
+ Remember Subtracting Angles involving Rational Numbers
  Remember Subtracting Algebraic Expressions involving Rational Numbers
  Remember Subtracting Variables involving Rational Numbers
  Remember Subtracting Functions involving Rational Numbers
+ Remember Subtracting Arrays involving Rational Numbers
  Remember Multiplying Numbers involving Rational Numbers
  Remember Multiplying Terms involving Rational Numbers
  Remember Multiplying Factors involving Rational Numbers
+ Remember Multiplying Angles involving Rational Numbers
  Remember Multiplying Algebraic Expressions involving Rational Numbers
  Remember Multiplying Variables involving Rational Numbers
  Remember Multiplying Functions involving Rational Numbers
+ Remember Multiplying Arrays involving Rational Numbers
  Remember Dividing Numbers involving Rational Numbers
  Remember Dividing Terms involving Rational Numbers
  Remember Dividing Factors involving Rational Numbers
+ Remember Dividing Angles involving Rational Numbers
  Remember Dividing Algebraic Expressions involving Rational Numbers
  Remember Dividing Variables involving Rational Numbers
  Remember Dividing Functions involving Rational Numbers
+ Remember Dividing Arrays involving Rational Numbers
  Remember Negating Numbers involving Rational Numbers
  Remember Negating Terms involving Rational Numbers
  Remember Negating Factors involving Rational Numbers
+ Remember Negating Angles involving Rational Numbers
  Remember Negating Algebraic Expressions involving Rational Numbers
  Remember Negating Variables involving Rational Numbers
  Remember Negating Functions involving Rational Numbers
+ Remember Negating Arrays involving Rational Numbers
  Remember Exponentiating Numbers involving Rational Numbers
  Remember Exponentiating Terms involving Rational Numbers
  Remember Exponentiating Factors involving Rational Numbers
+ Remember Exponentiating Angles involving Rational Numbers
  Remember Exponentiating Algebraic Expressions involving Rational Numbers
  Remember Exponentiating Variables involving Rational Numbers
  Remember Exponentiating Functions involving Rational Numbers
+ Remember Exponentiating Arrays involving Rational Numbers
  Remember Grouping Numbers involving Rational Numbers
  Remember Grouping Terms involving Rational Numbers
  Remember Grouping Factors involving Rational Numbers
+ Remember Grouping Angles involving Rational Numbers
  Remember Grouping Algebraic Expressions involving Rational Numbers
  Remember Grouping Variables involving Rational Numbers
  Remember Grouping Functions involving Rational Numbers
+ Remember Grouping Arrays involving Rational Numbers
  Evaluate Sequencing Numbers involving Rational Numbers
  Evaluate Sequencing Terms involving Rational Numbers
  Evaluate Sequencing Factors involving Rational Numbers
+ Evaluate Sequencing Angles involving Rational Numbers
  Evaluate Sequencing Algebraic Expressions involving Rational Numbers
  Evaluate Sequencing Variables involving Rational Numbers
  Evaluate Sequencing Functions involving Rational Numbers
+ Evaluate Sequencing Arrays involving Rational Numbers
  Evaluate Ordering Numbers involving Rational Numbers
  Evaluate Ordering Terms involving Rational Numbers
  Evaluate Ordering Factors involving Rational Numbers
+ Evaluate Ordering Angles involving Rational Numbers
  Evaluate Ordering Algebraic Expressions involving Rational Numbers
  Evaluate Ordering Variables involving Rational Numbers
  Evaluate Ordering Functions involving Rational Numbers
+ Evaluate Ordering Arrays involving Rational Numbers
  Evaluate Adding Numbers involving Rational Numbers
  Evaluate Adding Terms involving Rational Numbers
  Evaluate Adding Factors involving Rational Numbers
+ Evaluate Adding Angles involving Rational Numbers
  Evaluate Adding Algebraic Expressions involving Rational Numbers
  Evaluate Adding Variables involving Rational Numbers
  Evaluate Adding Functions involving Rational Numbers
+ Evaluate Adding Arrays involving Rational Numbers
  Evaluate Subtracting Numbers involving Rational Numbers
  Evaluate Subtracting Terms involving Rational Numbers
  Evaluate Subtracting Factors involving Rational Numbers
+ Evaluate Subtracting Angles involving Rational Numbers
  Evaluate Subtracting Algebraic Expressions involving Rational Numbers
  Evaluate Subtracting Variables involving Rational Numbers
  Evaluate Subtracting Functions involving Rational Numbers
+ Evaluate Subtracting Arrays involving Rational Numbers
  Evaluate Multiplying Numbers involving Rational Numbers
  Evaluate Multiplying Terms involving Rational Numbers
  Evaluate Multiplying Factors involving Rational Numbers
+ Evaluate Multiplying Angles involving Rational Numbers
  Evaluate Multiplying Algebraic Expressions involving Rational Numbers
  Evaluate Multiplying Variables involving Rational Numbers
  Evaluate Multiplying Functions involving Rational Numbers
+ Evaluate Multiplying Arrays involving Rational Numbers
  Evaluate Dividing Numbers involving Rational Numbers
  Evaluate Dividing Terms involving Rational Numbers
  Evaluate Dividing Factors involving Rational Numbers
+ Evaluate Dividing Angles involving Rational Numbers
  Evaluate Dividing Algebraic Expressions involving Rational Numbers
  Evaluate Dividing Variables involving Rational Numbers
  Evaluate Dividing Functions involving Rational Numbers
+ Evaluate Dividing Arrays involving Rational Numbers
  Evaluate Negating Numbers involving Rational Numbers
  Evaluate Negating Terms involving Rational Numbers
  Evaluate Negating Factors involving Rational Numbers
+ Evaluate Negating Angles involving Rational Numbers
  Evaluate Negating Algebraic Expressions involving Rational Numbers
  Evaluate Negating Variables involving Rational Numbers
  Evaluate Negating Functions involving Rational Numbers
+ Evaluate Negating Arrays involving Rational Numbers
  Evaluate Exponentiating Numbers involving Rational Numbers
  Evaluate Exponentiating Terms involving Rational Numbers
  Evaluate Exponentiating Factors involving Rational Numbers
+ Evaluate Exponentiating Angles involving Rational Numbers
  Evaluate Exponentiating Algebraic Expressions involving Rational Numbers
  Evaluate Exponentiating Variables involving Rational Numbers
  Evaluate Exponentiating Functions involving Rational Numbers
+ Evaluate Exponentiating Arrays involving Rational Numbers
  Evaluate Grouping Numbers involving Rational Numbers
  Evaluate Grouping Terms involving Rational Numbers
  Evaluate Grouping Factors involving Rational Numbers
+ Evaluate Grouping Angles involving Rational Numbers
  Evaluate Grouping Algebraic Expressions involving Rational Numbers
  Evaluate Grouping Variables involving Rational Numbers
  Evaluate Grouping Functions involving Rational Numbers
+ Evaluate Grouping Arrays involving Rational Numbers
  Create Sequencing Numbers involving Rational Numbers
  Create Sequencing Terms involving Rational Numbers
  Create Sequencing Factors involving Rational Numbers
+ Create Sequencing Angles involving Rational Numbers
  Create Sequencing Algebraic Expressions involving Rational Numbers
  Create Sequencing Variables involving Rational Numbers
  Create Sequencing Functions involving Rational Numbers
+ Create Sequencing Arrays involving Rational Numbers
  Create Ordering Numbers involving Rational Numbers
  Create Ordering Terms involving Rational Numbers
  Create Ordering Factors involving Rational Numbers
+ Create Ordering Angles involving Rational Numbers
  Create Ordering Algebraic Expressions involving Rational Numbers
  Create Ordering Variables involving Rational Numbers
  Create Ordering Functions involving Rational Numbers
+ Create Ordering Arrays involving Rational Numbers
  Create Adding Numbers involving Rational Numbers
  Create Adding Terms involving Rational Numbers
  Create Adding Factors involving Rational Numbers
+ Create Adding Angles involving Rational Numbers
  Create Adding Algebraic Expressions involving Rational Numbers
  Create Adding Variables involving Rational Numbers
  Create Adding Functions involving Rational Numbers
+ Create Adding Arrays involving Rational Numbers
  Create Subtracting Numbers involving Rational Numbers
  Create Subtracting Terms involving Rational Numbers
  Create Subtracting Factors involving Rational Numbers
+ Create Subtracting Angles involving Rational Numbers
  Create Subtracting Algebraic Expressions involving Rational Numbers
  Create Subtracting Variables involving Rational Numbers
  Create Subtracting Functions involving Rational Numbers
+ Create Subtracting Arrays involving Rational Numbers
  Create Multiplying Numbers involving Rational Numbers
  Create Multiplying Terms involving Rational Numbers
  Create Multiplying Factors involving Rational Numbers
+ Create Multiplying Angles involving Rational Numbers
  Create Multiplying Algebraic Expressions involving Rational Numbers
  Create Multiplying Variables involving Rational Numbers
  Create Multiplying Functions involving Rational Numbers
+ Create Multiplying Arrays involving Rational Numbers
  Create Dividing Numbers involving Rational Numbers
  Create Dividing Terms involving Rational Numbers
  Create Dividing Factors involving Rational Numbers
+ Create Dividing Angles involving Rational Numbers
  Create Dividing Algebraic Expressions involving Rational Numbers
  Create Dividing Variables involving Rational Numbers
  Create Dividing Functions involving Rational Numbers
+ Create Dividing Arrays involving Rational Numbers
  Create Negating Numbers involving Rational Numbers
  Create Negating Terms involving Rational Numbers
  Create Negating Factors involving Rational Numbers
+ Create Negating Angles involving Rational Numbers
  Create Negating Algebraic Expressions involving Rational Numbers
  Create Negating Variables involving Rational Numbers
  Create Negating Functions involving Rational Numbers
+ Create Negating Arrays involving Rational Numbers
  Create Exponentiating Numbers involving Rational Numbers
  Create Exponentiating Terms involving Rational Numbers
  Create Exponentiating Factors involving Rational Numbers
+ Create Exponentiating Angles involving Rational Numbers
  Create Exponentiating Algebraic Expressions involving Rational Numbers
  Create Exponentiating Variables involving Rational Numbers
  Create Exponentiating Functions involving Rational Numbers
+ Create Exponentiating Arrays involving Rational Numbers
  Create Grouping Numbers involving Rational Numbers
  Create Grouping Terms involving Rational Numbers
  Create Grouping Factors involving Rational Numbers
+ Create Grouping Angles involving Rational Numbers
  Create Grouping Algebraic Expressions involving Rational Numbers
  Create Grouping Variables involving Rational Numbers
  Create Grouping Functions involving Rational Numbers
+ Create Grouping Arrays involving Rational Numbers
  Understand Sequencing Numbers involving Rational Numbers
  Understand Sequencing Terms involving Rational Numbers
  Understand Sequencing Factors involving Rational Numbers
+ Understand Sequencing Angles involving Rational Numbers
  Understand Sequencing Algebraic Expressions involving Rational Numbers
  Understand Sequencing Variables involving Rational Numbers
  Understand Sequencing Functions involving Rational Numbers
+ Understand Sequencing Arrays involving Rational Numbers
  Understand Ordering Numbers involving Rational Numbers
  Understand Ordering Terms involving Rational Numbers
  Understand Ordering Factors involving Rational Numbers
+ Understand Ordering Angles involving Rational Numbers
  Understand Ordering Algebraic Expressions involving Rational Numbers
  Understand Ordering Variables involving Rational Numbers
  Understand Ordering Functions involving Rational Numbers
+ Understand Ordering Arrays involving Rational Numbers
  Understand Adding Numbers involving Rational Numbers
  Understand Adding Terms involving Rational Numbers
  Understand Adding Factors involving Rational Numbers
+ Understand Adding Angles involving Rational Numbers
  Understand Adding Algebraic Expressions involving Rational Numbers
  Understand Adding Variables involving Rational Numbers
  Understand Adding Functions involving Rational Numbers
+ Understand Adding Arrays involving Rational Numbers
  Understand Subtracting Numbers involving Rational Numbers
  Understand Subtracting Terms involving Rational Numbers
  Understand Subtracting Factors involving Rational Numbers
+ Understand Subtracting Angles involving Rational Numbers
  Understand Subtracting Algebraic Expressions involving Rational Numbers
  Understand Subtracting Variables involving Rational Numbers
  Understand Subtracting Functions involving Rational Numbers
+ Understand Subtracting Arrays involving Rational Numbers
  Understand Multiplying Numbers involving Rational Numbers
  Understand Multiplying Terms involving Rational Numbers
  Understand Multiplying Factors involving Rational Numbers
+ Understand Multiplying Angles involving Rational Numbers
  Understand Multiplying Algebraic Expressions involving Rational Numbers
  Understand Multiplying Variables involving Rational Numbers
  Understand Multiplying Functions involving Rational Numbers
+ Understand Multiplying Arrays involving Rational Numbers
  Understand Dividing Numbers involving Rational Numbers
  Understand Dividing Terms involving Rational Numbers
  Understand Dividing Factors involving Rational Numbers
+ Understand Dividing Angles involving Rational Numbers
  Understand Dividing Algebraic Expressions involving Rational Numbers
  Understand Dividing Variables involving Rational Numbers
  Understand Dividing Functions involving Rational Numbers
+ Understand Dividing Arrays involving Rational Numbers
  Understand Negating Numbers involving Rational Numbers
  Understand Negating Terms involving Rational Numbers
  Understand Negating Factors involving Rational Numbers
+ Understand Negating Angles involving Rational Numbers
  Understand Negating Algebraic Expressions involving Rational Numbers
  Understand Negating Variables involving Rational Numbers
  Understand Negating Functions involving Rational Numbers
+ Understand Negating Arrays involving Rational Numbers
  Understand Exponentiating Numbers involving Rational Numbers
  Understand Exponentiating Terms involving Rational Numbers
  Understand Exponentiating Factors involving Rational Numbers
+ Understand Exponentiating Angles involving Rational Numbers
  Understand Exponentiating Algebraic Expressions involving Rational Numbers
  Understand Exponentiating Variables involving Rational Numbers
  Understand Exponentiating Functions involving Rational Numbers
+ Understand Exponentiating Arrays involving Rational Numbers
  Understand Grouping Numbers involving Rational Numbers
  Understand Grouping Terms involving Rational Numbers
  Understand Grouping Factors involving Rational Numbers
+ Understand Grouping Angles involving Rational Numbers
  Understand Grouping Algebraic Expressions involving Rational Numbers
  Understand Grouping Variables involving Rational Numbers
  Understand Grouping Functions involving Rational Numbers
+ Understand Grouping Arrays involving Rational Numbers
  Apply Sequencing Numbers involving Rational Numbers
  Apply Sequencing Terms involving Rational Numbers
  Apply Sequencing Factors involving Rational Numbers
+ Apply Sequencing Angles involving Rational Numbers
  Apply Sequencing Algebraic Expressions involving Rational Numbers
  Apply Sequencing Variables involving Rational Numbers
  Apply Sequencing Functions involving Rational Numbers
+ Apply Sequencing Arrays involving Rational Numbers
  Apply Ordering Numbers involving Rational Numbers
  Apply Ordering Terms involving Rational Numbers
  Apply Ordering Factors involving Rational Numbers
+ Apply Ordering Angles involving Rational Numbers
  Apply Ordering Algebraic Expressions involving Rational Numbers
  Apply Ordering Variables involving Rational Numbers
  Apply Ordering Functions involving Rational Numbers
+ Apply Ordering Arrays involving Rational Numbers
  Apply Adding Numbers involving Rational Numbers
  Apply Adding Terms involving Rational Numbers
  Apply Adding Factors involving Rational Numbers
+ Apply Adding Angles involving Rational Numbers
  Apply Adding Algebraic Expressions involving Rational Numbers
  Apply Adding Variables involving Rational Numbers
  Apply Adding Functions involving Rational Numbers
+ Apply Adding Arrays involving Rational Numbers
  Apply Subtracting Numbers involving Rational Numbers
  Apply Subtracting Terms involving Rational Numbers
  Apply Subtracting Factors involving Rational Numbers
+ Apply Subtracting Angles involving Rational Numbers
  Apply Subtracting Algebraic Expressions involving Rational Numbers
  Apply Subtracting Variables involving Rational Numbers
  Apply Subtracting Functions involving Rational Numbers
+ Apply Subtracting Arrays involving Rational Numbers
  Apply Multiplying Numbers involving Rational Numbers
  Apply Multiplying Terms involving Rational Numbers
  Apply Multiplying Factors involving Rational Numbers
+ Apply Multiplying Angles involving Rational Numbers
  Apply Multiplying Algebraic Expressions involving Rational Numbers
  Apply Multiplying Variables involving Rational Numbers
  Apply Multiplying Functions involving Rational Numbers
+ Apply Multiplying Arrays involving Rational Numbers
  Apply Dividing Numbers involving Rational Numbers
  Apply Dividing Terms involving Rational Numbers
  Apply Dividing Factors involving Rational Numbers
+ Apply Dividing Angles involving Rational Numbers
  Apply Dividing Algebraic Expressions involving Rational Numbers
  Apply Dividing Variables involving Rational Numbers
  Apply Dividing Functions involving Rational Numbers
+ Apply Dividing Arrays involving Rational Numbers
  Apply Negating Numbers involving Rational Numbers
  Apply Negating Terms involving Rational Numbers
  Apply Negating Factors involving Rational Numbers
+ Apply Negating Angles involving Rational Numbers
  Apply Negating Algebraic Expressions involving Rational Numbers
  Apply Negating Variables involving Rational Numbers
  Apply Negating Functions involving Rational Numbers
+ Apply Negating Arrays involving Rational Numbers
  Apply Exponentiating Numbers involving Rational Numbers
  Apply Exponentiating Terms involving Rational Numbers
  Apply Exponentiating Factors involving Rational Numbers
+ Apply Exponentiating Angles involving Rational Numbers
  Apply Exponentiating Algebraic Expressions involving Rational Numbers
  Apply Exponentiating Variables involving Rational Numbers
  Apply Exponentiating Functions involving Rational Numbers
+ Apply Exponentiating Arrays involving Rational Numbers
  Apply Grouping Numbers involving Rational Numbers
  Apply Grouping Terms involving Rational Numbers
  Apply Grouping Factors involving Rational Numbers
+ Apply Grouping Angles involving Rational Numbers
  Apply Grouping Algebraic Expressions involving Rational Numbers
  Apply Grouping Variables involving Rational Numbers
  Apply Grouping Functions involving Rational Numbers
+ Apply Grouping Arrays involving Rational Numbers
  Analyze Sequencing Numbers involving Rational Numbers
  Analyze Sequencing Terms involving Rational Numbers
  Analyze Sequencing Factors involving Rational Numbers
+ Analyze Sequencing Angles involving Rational Numbers
  Analyze Sequencing Algebraic Expressions involving Rational Numbers
  Analyze Sequencing Variables involving Rational Numbers
  Analyze Sequencing Functions involving Rational Numbers
+ Analyze Sequencing Arrays involving Rational Numbers
  Analyze Ordering Numbers involving Rational Numbers
  Analyze Ordering Terms involving Rational Numbers
  Analyze Ordering Factors involving Rational Numbers
+ Analyze Ordering Angles involving Rational Numbers
  Analyze Ordering Algebraic Expressions involving Rational Numbers
  Analyze Ordering Variables involving Rational Numbers
  Analyze Ordering Functions involving Rational Numbers
+ Analyze Ordering Arrays involving Rational Numbers
  Analyze Adding Numbers involving Rational Numbers
  Analyze Adding Terms involving Rational Numbers
  Analyze Adding Factors involving Rational Numbers
+ Analyze Adding Angles involving Rational Numbers
  Analyze Adding Algebraic Expressions involving Rational Numbers
  Analyze Adding Variables involving Rational Numbers
  Analyze Adding Functions involving Rational Numbers
+ Analyze Adding Arrays involving Rational Numbers
  Analyze Subtracting Numbers involving Rational Numbers
  Analyze Subtracting Terms involving Rational Numbers
  Analyze Subtracting Factors involving Rational Numbers
+ Analyze Subtracting Angles involving Rational Numbers
  Analyze Subtracting Algebraic Expressions involving Rational Numbers
  Analyze Subtracting Variables involving Rational Numbers
  Analyze Subtracting Functions involving Rational Numbers
+ Analyze Subtracting Arrays involving Rational Numbers
  Analyze Multiplying Numbers involving Rational Numbers
  Analyze Multiplying Terms involving Rational Numbers
  Analyze Multiplying Factors involving Rational Numbers
+ Analyze Multiplying Angles involving Rational Numbers
  Analyze Multiplying Algebraic Expressions involving Rational Numbers
  Analyze Multiplying Variables involving Rational Numbers
  Analyze Multiplying Functions involving Rational Numbers
+ Analyze Multiplying Arrays involving Rational Numbers
  Analyze Dividing Numbers involving Rational Numbers
  Analyze Dividing Terms involving Rational Numbers
  Analyze Dividing Factors involving Rational Numbers
+ Analyze Dividing Angles involving Rational Numbers
  Analyze Dividing Algebraic Expressions involving Rational Numbers
  Analyze Dividing Variables involving Rational Numbers
  Analyze Dividing Functions involving Rational Numbers
+ Analyze Dividing Arrays involving Rational Numbers
  Analyze Negating Numbers involving Rational Numbers
  Analyze Negating Terms involving Rational Numbers
  Analyze Negating Factors involving Rational Numbers
+ Analyze Negating Angles involving Rational Numbers
  Analyze Negating Algebraic Expressions involving Rational Numbers
  Analyze Negating Variables involving Rational Numbers
  Analyze Negating Functions involving Rational Numbers
+ Analyze Negating Arrays involving Rational Numbers
  Analyze Exponentiating Numbers involving Rational Numbers
  Analyze Exponentiating Terms involving Rational Numbers
  Analyze Exponentiating Factors involving Rational Numbers
+ Analyze Exponentiating Angles involving Rational Numbers
  Analyze Exponentiating Algebraic Expressions involving Rational Numbers
  Analyze Exponentiating Variables involving Rational Numbers
  Analyze Exponentiating Functions involving Rational Numbers
+ Analyze Exponentiating Arrays involving Rational Numbers
  Analyze Grouping Numbers involving Rational Numbers
  Analyze Grouping Terms involving Rational Numbers
  Analyze Grouping Factors involving Rational Numbers
+ Analyze Grouping Angles involving Rational Numbers
  Analyze Grouping Algebraic Expressions involving Rational Numbers
  Analyze Grouping Variables involving Rational Numbers
  Analyze Grouping Functions involving Rational Numbers
+ Analyze Grouping Arrays involving Rational Numbers

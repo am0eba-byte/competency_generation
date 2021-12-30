@@ -4,8 +4,12 @@ Read Volumes involving Algebraic Expressions
  Read Perimeters involving Algebraic Expressions
  Read Data involving Algebraic Expressions
  Read Surface Areas involving Algebraic Expressions
+ Read Congruence involving Algebraic Expressions
+ Read Similarity involving Algebraic Expressions
+ Read Proportions involving Algebraic Expressions
  Read Algebraic Equations involving Algebraic Expressions
  Read Algebraic Inequalities involving Algebraic Expressions
+ Read Lines involving Algebraic Expressions
  Read Linear Equations involving Algebraic Expressions
  Read Simultaneous Equations involving Algebraic Expressions
  Read Statistical Variability involving Algebraic Expressions
@@ -13,6 +17,9 @@ Read Volumes involving Algebraic Expressions
  Read Populations involving Algebraic Expressions
  Read Probability Models involving Algebraic Expressions
  Read Bivariate Data involving Algebraic Expressions
+ Read Sets involving Algebraic Expressions
+ Read Elements involving Algebraic Expressions
+ Read Experiments involving Algebraic Expressions
  Read Observations involving Algebraic Expressions
  Read Dependent Variables involving Algebraic Expressions
  Read Independent Variables involving Algebraic Expressions
@@ -33,8 +40,12 @@ Read Volumes involving Algebraic Expressions
  Recite Perimeters involving Algebraic Expressions
  Recite Data involving Algebraic Expressions
  Recite Surface Areas involving Algebraic Expressions
+ Recite Congruence involving Algebraic Expressions
+ Recite Similarity involving Algebraic Expressions
+ Recite Proportions involving Algebraic Expressions
  Recite Algebraic Equations involving Algebraic Expressions
  Recite Algebraic Inequalities involving Algebraic Expressions
+ Recite Lines involving Algebraic Expressions
  Recite Linear Equations involving Algebraic Expressions
  Recite Simultaneous Equations involving Algebraic Expressions
  Recite Statistical Variability involving Algebraic Expressions
@@ -42,6 +53,9 @@ Read Volumes involving Algebraic Expressions
  Recite Populations involving Algebraic Expressions
  Recite Probability Models involving Algebraic Expressions
  Recite Bivariate Data involving Algebraic Expressions
+ Recite Sets involving Algebraic Expressions
+ Recite Elements involving Algebraic Expressions
+ Recite Experiments involving Algebraic Expressions
  Recite Observations involving Algebraic Expressions
  Recite Dependent Variables involving Algebraic Expressions
  Recite Independent Variables involving Algebraic Expressions
@@ -62,8 +76,12 @@ Read Volumes involving Algebraic Expressions
  Write Perimeters involving Algebraic Expressions
  Write Data involving Algebraic Expressions
  Write Surface Areas involving Algebraic Expressions
+ Write Congruence involving Algebraic Expressions
+ Write Similarity involving Algebraic Expressions
+ Write Proportions involving Algebraic Expressions
  Write Algebraic Equations involving Algebraic Expressions
  Write Algebraic Inequalities involving Algebraic Expressions
+ Write Lines involving Algebraic Expressions
  Write Linear Equations involving Algebraic Expressions
  Write Simultaneous Equations involving Algebraic Expressions
  Write Statistical Variability involving Algebraic Expressions
@@ -71,6 +89,9 @@ Read Volumes involving Algebraic Expressions
  Write Populations involving Algebraic Expressions
  Write Probability Models involving Algebraic Expressions
  Write Bivariate Data involving Algebraic Expressions
+ Write Sets involving Algebraic Expressions
+ Write Elements involving Algebraic Expressions
+ Write Experiments involving Algebraic Expressions
  Write Observations involving Algebraic Expressions
  Write Dependent Variables involving Algebraic Expressions
  Write Independent Variables involving Algebraic Expressions
@@ -91,8 +112,12 @@ Read Volumes involving Algebraic Expressions
  Represent Perimeters involving Algebraic Expressions
  Represent Data involving Algebraic Expressions
  Represent Surface Areas involving Algebraic Expressions
+ Represent Congruence involving Algebraic Expressions
+ Represent Similarity involving Algebraic Expressions
+ Represent Proportions involving Algebraic Expressions
  Represent Algebraic Equations involving Algebraic Expressions
  Represent Algebraic Inequalities involving Algebraic Expressions
+ Represent Lines involving Algebraic Expressions
  Represent Linear Equations involving Algebraic Expressions
  Represent Simultaneous Equations involving Algebraic Expressions
  Represent Statistical Variability involving Algebraic Expressions
@@ -100,6 +125,9 @@ Read Volumes involving Algebraic Expressions
  Represent Populations involving Algebraic Expressions
  Represent Probability Models involving Algebraic Expressions
  Represent Bivariate Data involving Algebraic Expressions
+ Represent Sets involving Algebraic Expressions
+ Represent Elements involving Algebraic Expressions
+ Represent Experiments involving Algebraic Expressions
  Represent Observations involving Algebraic Expressions
  Represent Dependent Variables involving Algebraic Expressions
  Represent Independent Variables involving Algebraic Expressions
@@ -120,8 +148,12 @@ Read Volumes involving Algebraic Expressions
  Represent, with activities, Perimeters involving Algebraic Expressions
  Represent, with activities, Data involving Algebraic Expressions
  Represent, with activities, Surface Areas involving Algebraic Expressions
+ Represent, with activities, Congruence involving Algebraic Expressions
+ Represent, with activities, Similarity involving Algebraic Expressions
+ Represent, with activities, Proportions involving Algebraic Expressions
  Represent, with activities, Algebraic Equations involving Algebraic Expressions
  Represent, with activities, Algebraic Inequalities involving Algebraic Expressions
+ Represent, with activities, Lines involving Algebraic Expressions
  Represent, with activities, Linear Equations involving Algebraic Expressions
  Represent, with activities, Simultaneous Equations involving Algebraic Expressions
  Represent, with activities, Statistical Variability involving Algebraic Expressions
@@ -129,6 +161,9 @@ Read Volumes involving Algebraic Expressions
  Represent, with activities, Populations involving Algebraic Expressions
  Represent, with activities, Probability Models involving Algebraic Expressions
  Represent, with activities, Bivariate Data involving Algebraic Expressions
+ Represent, with activities, Sets involving Algebraic Expressions
+ Represent, with activities, Elements involving Algebraic Expressions
+ Represent, with activities, Experiments involving Algebraic Expressions
  Represent, with activities, Observations involving Algebraic Expressions
  Represent, with activities, Dependent Variables involving Algebraic Expressions
  Represent, with activities, Independent Variables involving Algebraic Expressions
@@ -149,8 +184,12 @@ Read Volumes involving Algebraic Expressions
  Represent, with words, Perimeters involving Algebraic Expressions
  Represent, with words, Data involving Algebraic Expressions
  Represent, with words, Surface Areas involving Algebraic Expressions
+ Represent, with words, Congruence involving Algebraic Expressions
+ Represent, with words, Similarity involving Algebraic Expressions
+ Represent, with words, Proportions involving Algebraic Expressions
  Represent, with words, Algebraic Equations involving Algebraic Expressions
  Represent, with words, Algebraic Inequalities involving Algebraic Expressions
+ Represent, with words, Lines involving Algebraic Expressions
  Represent, with words, Linear Equations involving Algebraic Expressions
  Represent, with words, Simultaneous Equations involving Algebraic Expressions
  Represent, with words, Statistical Variability involving Algebraic Expressions
@@ -158,6 +197,9 @@ Read Volumes involving Algebraic Expressions
  Represent, with words, Populations involving Algebraic Expressions
  Represent, with words, Probability Models involving Algebraic Expressions
  Represent, with words, Bivariate Data involving Algebraic Expressions
+ Represent, with words, Sets involving Algebraic Expressions
+ Represent, with words, Elements involving Algebraic Expressions
+ Represent, with words, Experiments involving Algebraic Expressions
  Represent, with words, Observations involving Algebraic Expressions
  Represent, with words, Dependent Variables involving Algebraic Expressions
  Represent, with words, Independent Variables involving Algebraic Expressions
@@ -178,8 +220,12 @@ Read Volumes involving Algebraic Expressions
  Represent, with symbols, Perimeters involving Algebraic Expressions
  Represent, with symbols, Data involving Algebraic Expressions
  Represent, with symbols, Surface Areas involving Algebraic Expressions
+ Represent, with symbols, Congruence involving Algebraic Expressions
+ Represent, with symbols, Similarity involving Algebraic Expressions
+ Represent, with symbols, Proportions involving Algebraic Expressions
  Represent, with symbols, Algebraic Equations involving Algebraic Expressions
  Represent, with symbols, Algebraic Inequalities involving Algebraic Expressions
+ Represent, with symbols, Lines involving Algebraic Expressions
  Represent, with symbols, Linear Equations involving Algebraic Expressions
  Represent, with symbols, Simultaneous Equations involving Algebraic Expressions
  Represent, with symbols, Statistical Variability involving Algebraic Expressions
@@ -187,6 +233,9 @@ Read Volumes involving Algebraic Expressions
  Represent, with symbols, Populations involving Algebraic Expressions
  Represent, with symbols, Probability Models involving Algebraic Expressions
  Represent, with symbols, Bivariate Data involving Algebraic Expressions
+ Represent, with symbols, Sets involving Algebraic Expressions
+ Represent, with symbols, Elements involving Algebraic Expressions
+ Represent, with symbols, Experiments involving Algebraic Expressions
  Represent, with symbols, Observations involving Algebraic Expressions
  Represent, with symbols, Dependent Variables involving Algebraic Expressions
  Represent, with symbols, Independent Variables involving Algebraic Expressions
@@ -207,8 +256,12 @@ Read Volumes involving Algebraic Expressions
  Represent, with graphs, Perimeters involving Algebraic Expressions
  Represent, with graphs, Data involving Algebraic Expressions
  Represent, with graphs, Surface Areas involving Algebraic Expressions
+ Represent, with graphs, Congruence involving Algebraic Expressions
+ Represent, with graphs, Similarity involving Algebraic Expressions
+ Represent, with graphs, Proportions involving Algebraic Expressions
  Represent, with graphs, Algebraic Equations involving Algebraic Expressions
  Represent, with graphs, Algebraic Inequalities involving Algebraic Expressions
+ Represent, with graphs, Lines involving Algebraic Expressions
  Represent, with graphs, Linear Equations involving Algebraic Expressions
  Represent, with graphs, Simultaneous Equations involving Algebraic Expressions
  Represent, with graphs, Statistical Variability involving Algebraic Expressions
@@ -216,6 +269,9 @@ Read Volumes involving Algebraic Expressions
  Represent, with graphs, Populations involving Algebraic Expressions
  Represent, with graphs, Probability Models involving Algebraic Expressions
  Represent, with graphs, Bivariate Data involving Algebraic Expressions
+ Represent, with graphs, Sets involving Algebraic Expressions
+ Represent, with graphs, Elements involving Algebraic Expressions
+ Represent, with graphs, Experiments involving Algebraic Expressions
  Represent, with graphs, Observations involving Algebraic Expressions
  Represent, with graphs, Dependent Variables involving Algebraic Expressions
  Represent, with graphs, Independent Variables involving Algebraic Expressions
@@ -236,8 +292,12 @@ Read Volumes involving Algebraic Expressions
  Randomly sample Perimeters involving Algebraic Expressions
  Randomly sample Data involving Algebraic Expressions
  Randomly sample Surface Areas involving Algebraic Expressions
+ Randomly sample Congruence involving Algebraic Expressions
+ Randomly sample Similarity involving Algebraic Expressions
+ Randomly sample Proportions involving Algebraic Expressions
  Randomly sample Algebraic Equations involving Algebraic Expressions
  Randomly sample Algebraic Inequalities involving Algebraic Expressions
+ Randomly sample Lines involving Algebraic Expressions
  Randomly sample Linear Equations involving Algebraic Expressions
  Randomly sample Simultaneous Equations involving Algebraic Expressions
  Randomly sample Statistical Variability involving Algebraic Expressions
@@ -245,6 +305,9 @@ Read Volumes involving Algebraic Expressions
  Randomly sample Populations involving Algebraic Expressions
  Randomly sample Probability Models involving Algebraic Expressions
  Randomly sample Bivariate Data involving Algebraic Expressions
+ Randomly sample Sets involving Algebraic Expressions
+ Randomly sample Elements involving Algebraic Expressions
+ Randomly sample Experiments involving Algebraic Expressions
  Randomly sample Observations involving Algebraic Expressions
  Randomly sample Dependent Variables involving Algebraic Expressions
  Randomly sample Independent Variables involving Algebraic Expressions
@@ -267,6 +330,7 @@ Read Volumes involving Algebraic Expressions
  Read Naming Variables involving Algebraic Expressions
  Read Naming Functions involving Algebraic Expressions
  Read Naming Chance Processes involving Algebraic Expressions
+ Read Naming Arrays involving Algebraic Expressions
  Read Adding Numbers involving Algebraic Expressions
  Read Adding Terms involving Algebraic Expressions
  Read Adding Factors involving Algebraic Expressions
@@ -275,6 +339,7 @@ Read Volumes involving Algebraic Expressions
  Read Adding Variables involving Algebraic Expressions
  Read Adding Functions involving Algebraic Expressions
  Read Adding Chance Processes involving Algebraic Expressions
+ Read Adding Arrays involving Algebraic Expressions
  Read Subtracting Numbers involving Algebraic Expressions
  Read Subtracting Terms involving Algebraic Expressions
  Read Subtracting Factors involving Algebraic Expressions
@@ -283,6 +348,7 @@ Read Volumes involving Algebraic Expressions
  Read Subtracting Variables involving Algebraic Expressions
  Read Subtracting Functions involving Algebraic Expressions
  Read Subtracting Chance Processes involving Algebraic Expressions
+ Read Subtracting Arrays involving Algebraic Expressions
  Read Multiplying Numbers involving Algebraic Expressions
  Read Multiplying Terms involving Algebraic Expressions
  Read Multiplying Factors involving Algebraic Expressions
@@ -291,6 +357,7 @@ Read Volumes involving Algebraic Expressions
  Read Multiplying Variables involving Algebraic Expressions
  Read Multiplying Functions involving Algebraic Expressions
  Read Multiplying Chance Processes involving Algebraic Expressions
+ Read Multiplying Arrays involving Algebraic Expressions
  Read Dividing Numbers involving Algebraic Expressions
  Read Dividing Terms involving Algebraic Expressions
  Read Dividing Factors involving Algebraic Expressions
@@ -299,6 +366,7 @@ Read Volumes involving Algebraic Expressions
  Read Dividing Variables involving Algebraic Expressions
  Read Dividing Functions involving Algebraic Expressions
  Read Dividing Chance Processes involving Algebraic Expressions
+ Read Dividing Arrays involving Algebraic Expressions
  Read Negating Numbers involving Algebraic Expressions
  Read Negating Terms involving Algebraic Expressions
  Read Negating Factors involving Algebraic Expressions
@@ -307,6 +375,7 @@ Read Volumes involving Algebraic Expressions
  Read Negating Variables involving Algebraic Expressions
  Read Negating Functions involving Algebraic Expressions
  Read Negating Chance Processes involving Algebraic Expressions
+ Read Negating Arrays involving Algebraic Expressions
  Read Exponentiating Numbers involving Algebraic Expressions
  Read Exponentiating Terms involving Algebraic Expressions
  Read Exponentiating Factors involving Algebraic Expressions
@@ -315,6 +384,7 @@ Read Volumes involving Algebraic Expressions
  Read Exponentiating Variables involving Algebraic Expressions
  Read Exponentiating Functions involving Algebraic Expressions
  Read Exponentiating Chance Processes involving Algebraic Expressions
+ Read Exponentiating Arrays involving Algebraic Expressions
  Read Grouping Numbers involving Algebraic Expressions
  Read Grouping Terms involving Algebraic Expressions
  Read Grouping Factors involving Algebraic Expressions
@@ -323,6 +393,7 @@ Read Volumes involving Algebraic Expressions
  Read Grouping Variables involving Algebraic Expressions
  Read Grouping Functions involving Algebraic Expressions
  Read Grouping Chance Processes involving Algebraic Expressions
+ Read Grouping Arrays involving Algebraic Expressions
  Recite Naming Numbers involving Algebraic Expressions
  Recite Naming Terms involving Algebraic Expressions
  Recite Naming Factors involving Algebraic Expressions
@@ -331,6 +402,7 @@ Read Volumes involving Algebraic Expressions
  Recite Naming Variables involving Algebraic Expressions
  Recite Naming Functions involving Algebraic Expressions
  Recite Naming Chance Processes involving Algebraic Expressions
+ Recite Naming Arrays involving Algebraic Expressions
  Recite Adding Numbers involving Algebraic Expressions
  Recite Adding Terms involving Algebraic Expressions
  Recite Adding Factors involving Algebraic Expressions
@@ -339,6 +411,7 @@ Read Volumes involving Algebraic Expressions
  Recite Adding Variables involving Algebraic Expressions
  Recite Adding Functions involving Algebraic Expressions
  Recite Adding Chance Processes involving Algebraic Expressions
+ Recite Adding Arrays involving Algebraic Expressions
  Recite Subtracting Numbers involving Algebraic Expressions
  Recite Subtracting Terms involving Algebraic Expressions
  Recite Subtracting Factors involving Algebraic Expressions
@@ -347,6 +420,7 @@ Read Volumes involving Algebraic Expressions
  Recite Subtracting Variables involving Algebraic Expressions
  Recite Subtracting Functions involving Algebraic Expressions
  Recite Subtracting Chance Processes involving Algebraic Expressions
+ Recite Subtracting Arrays involving Algebraic Expressions
  Recite Multiplying Numbers involving Algebraic Expressions
  Recite Multiplying Terms involving Algebraic Expressions
  Recite Multiplying Factors involving Algebraic Expressions
@@ -355,6 +429,7 @@ Read Volumes involving Algebraic Expressions
  Recite Multiplying Variables involving Algebraic Expressions
  Recite Multiplying Functions involving Algebraic Expressions
  Recite Multiplying Chance Processes involving Algebraic Expressions
+ Recite Multiplying Arrays involving Algebraic Expressions
  Recite Dividing Numbers involving Algebraic Expressions
  Recite Dividing Terms involving Algebraic Expressions
  Recite Dividing Factors involving Algebraic Expressions
@@ -363,6 +438,7 @@ Read Volumes involving Algebraic Expressions
  Recite Dividing Variables involving Algebraic Expressions
  Recite Dividing Functions involving Algebraic Expressions
  Recite Dividing Chance Processes involving Algebraic Expressions
+ Recite Dividing Arrays involving Algebraic Expressions
  Recite Negating Numbers involving Algebraic Expressions
  Recite Negating Terms involving Algebraic Expressions
  Recite Negating Factors involving Algebraic Expressions
@@ -371,6 +447,7 @@ Read Volumes involving Algebraic Expressions
  Recite Negating Variables involving Algebraic Expressions
  Recite Negating Functions involving Algebraic Expressions
  Recite Negating Chance Processes involving Algebraic Expressions
+ Recite Negating Arrays involving Algebraic Expressions
  Recite Exponentiating Numbers involving Algebraic Expressions
  Recite Exponentiating Terms involving Algebraic Expressions
  Recite Exponentiating Factors involving Algebraic Expressions
@@ -379,6 +456,7 @@ Read Volumes involving Algebraic Expressions
  Recite Exponentiating Variables involving Algebraic Expressions
  Recite Exponentiating Functions involving Algebraic Expressions
  Recite Exponentiating Chance Processes involving Algebraic Expressions
+ Recite Exponentiating Arrays involving Algebraic Expressions
  Recite Grouping Numbers involving Algebraic Expressions
  Recite Grouping Terms involving Algebraic Expressions
  Recite Grouping Factors involving Algebraic Expressions
@@ -387,6 +465,7 @@ Read Volumes involving Algebraic Expressions
  Recite Grouping Variables involving Algebraic Expressions
  Recite Grouping Functions involving Algebraic Expressions
  Recite Grouping Chance Processes involving Algebraic Expressions
+ Recite Grouping Arrays involving Algebraic Expressions
  Write Naming Numbers involving Algebraic Expressions
  Write Naming Terms involving Algebraic Expressions
  Write Naming Factors involving Algebraic Expressions
@@ -395,6 +474,7 @@ Read Volumes involving Algebraic Expressions
  Write Naming Variables involving Algebraic Expressions
  Write Naming Functions involving Algebraic Expressions
  Write Naming Chance Processes involving Algebraic Expressions
+ Write Naming Arrays involving Algebraic Expressions
  Write Adding Numbers involving Algebraic Expressions
  Write Adding Terms involving Algebraic Expressions
  Write Adding Factors involving Algebraic Expressions
@@ -403,6 +483,7 @@ Read Volumes involving Algebraic Expressions
  Write Adding Variables involving Algebraic Expressions
  Write Adding Functions involving Algebraic Expressions
  Write Adding Chance Processes involving Algebraic Expressions
+ Write Adding Arrays involving Algebraic Expressions
  Write Subtracting Numbers involving Algebraic Expressions
  Write Subtracting Terms involving Algebraic Expressions
  Write Subtracting Factors involving Algebraic Expressions
@@ -411,6 +492,7 @@ Read Volumes involving Algebraic Expressions
  Write Subtracting Variables involving Algebraic Expressions
  Write Subtracting Functions involving Algebraic Expressions
  Write Subtracting Chance Processes involving Algebraic Expressions
+ Write Subtracting Arrays involving Algebraic Expressions
  Write Multiplying Numbers involving Algebraic Expressions
  Write Multiplying Terms involving Algebraic Expressions
  Write Multiplying Factors involving Algebraic Expressions
@@ -419,6 +501,7 @@ Read Volumes involving Algebraic Expressions
  Write Multiplying Variables involving Algebraic Expressions
  Write Multiplying Functions involving Algebraic Expressions
  Write Multiplying Chance Processes involving Algebraic Expressions
+ Write Multiplying Arrays involving Algebraic Expressions
  Write Dividing Numbers involving Algebraic Expressions
  Write Dividing Terms involving Algebraic Expressions
  Write Dividing Factors involving Algebraic Expressions
@@ -427,6 +510,7 @@ Read Volumes involving Algebraic Expressions
  Write Dividing Variables involving Algebraic Expressions
  Write Dividing Functions involving Algebraic Expressions
  Write Dividing Chance Processes involving Algebraic Expressions
+ Write Dividing Arrays involving Algebraic Expressions
  Write Negating Numbers involving Algebraic Expressions
  Write Negating Terms involving Algebraic Expressions
  Write Negating Factors involving Algebraic Expressions
@@ -435,6 +519,7 @@ Read Volumes involving Algebraic Expressions
  Write Negating Variables involving Algebraic Expressions
  Write Negating Functions involving Algebraic Expressions
  Write Negating Chance Processes involving Algebraic Expressions
+ Write Negating Arrays involving Algebraic Expressions
  Write Exponentiating Numbers involving Algebraic Expressions
  Write Exponentiating Terms involving Algebraic Expressions
  Write Exponentiating Factors involving Algebraic Expressions
@@ -443,6 +528,7 @@ Read Volumes involving Algebraic Expressions
  Write Exponentiating Variables involving Algebraic Expressions
  Write Exponentiating Functions involving Algebraic Expressions
  Write Exponentiating Chance Processes involving Algebraic Expressions
+ Write Exponentiating Arrays involving Algebraic Expressions
  Write Grouping Numbers involving Algebraic Expressions
  Write Grouping Terms involving Algebraic Expressions
  Write Grouping Factors involving Algebraic Expressions
@@ -451,6 +537,7 @@ Read Volumes involving Algebraic Expressions
  Write Grouping Variables involving Algebraic Expressions
  Write Grouping Functions involving Algebraic Expressions
  Write Grouping Chance Processes involving Algebraic Expressions
+ Write Grouping Arrays involving Algebraic Expressions
  Represent Naming Numbers involving Algebraic Expressions
  Represent Naming Terms involving Algebraic Expressions
  Represent Naming Factors involving Algebraic Expressions
@@ -459,6 +546,7 @@ Read Volumes involving Algebraic Expressions
  Represent Naming Variables involving Algebraic Expressions
  Represent Naming Functions involving Algebraic Expressions
  Represent Naming Chance Processes involving Algebraic Expressions
+ Represent Naming Arrays involving Algebraic Expressions
  Represent Adding Numbers involving Algebraic Expressions
  Represent Adding Terms involving Algebraic Expressions
  Represent Adding Factors involving Algebraic Expressions
@@ -467,6 +555,7 @@ Read Volumes involving Algebraic Expressions
  Represent Adding Variables involving Algebraic Expressions
  Represent Adding Functions involving Algebraic Expressions
  Represent Adding Chance Processes involving Algebraic Expressions
+ Represent Adding Arrays involving Algebraic Expressions
  Represent Subtracting Numbers involving Algebraic Expressions
  Represent Subtracting Terms involving Algebraic Expressions
  Represent Subtracting Factors involving Algebraic Expressions
@@ -475,6 +564,7 @@ Read Volumes involving Algebraic Expressions
  Represent Subtracting Variables involving Algebraic Expressions
  Represent Subtracting Functions involving Algebraic Expressions
  Represent Subtracting Chance Processes involving Algebraic Expressions
+ Represent Subtracting Arrays involving Algebraic Expressions
  Represent Multiplying Numbers involving Algebraic Expressions
  Represent Multiplying Terms involving Algebraic Expressions
  Represent Multiplying Factors involving Algebraic Expressions
@@ -483,6 +573,7 @@ Read Volumes involving Algebraic Expressions
  Represent Multiplying Variables involving Algebraic Expressions
  Represent Multiplying Functions involving Algebraic Expressions
  Represent Multiplying Chance Processes involving Algebraic Expressions
+ Represent Multiplying Arrays involving Algebraic Expressions
  Represent Dividing Numbers involving Algebraic Expressions
  Represent Dividing Terms involving Algebraic Expressions
  Represent Dividing Factors involving Algebraic Expressions
@@ -491,6 +582,7 @@ Read Volumes involving Algebraic Expressions
  Represent Dividing Variables involving Algebraic Expressions
  Represent Dividing Functions involving Algebraic Expressions
  Represent Dividing Chance Processes involving Algebraic Expressions
+ Represent Dividing Arrays involving Algebraic Expressions
  Represent Negating Numbers involving Algebraic Expressions
  Represent Negating Terms involving Algebraic Expressions
  Represent Negating Factors involving Algebraic Expressions
@@ -499,6 +591,7 @@ Read Volumes involving Algebraic Expressions
  Represent Negating Variables involving Algebraic Expressions
  Represent Negating Functions involving Algebraic Expressions
  Represent Negating Chance Processes involving Algebraic Expressions
+ Represent Negating Arrays involving Algebraic Expressions
  Represent Exponentiating Numbers involving Algebraic Expressions
  Represent Exponentiating Terms involving Algebraic Expressions
  Represent Exponentiating Factors involving Algebraic Expressions
@@ -507,6 +600,7 @@ Read Volumes involving Algebraic Expressions
  Represent Exponentiating Variables involving Algebraic Expressions
  Represent Exponentiating Functions involving Algebraic Expressions
  Represent Exponentiating Chance Processes involving Algebraic Expressions
+ Represent Exponentiating Arrays involving Algebraic Expressions
  Represent Grouping Numbers involving Algebraic Expressions
  Represent Grouping Terms involving Algebraic Expressions
  Represent Grouping Factors involving Algebraic Expressions
@@ -515,6 +609,7 @@ Read Volumes involving Algebraic Expressions
  Represent Grouping Variables involving Algebraic Expressions
  Represent Grouping Functions involving Algebraic Expressions
  Represent Grouping Chance Processes involving Algebraic Expressions
+ Represent Grouping Arrays involving Algebraic Expressions
  Represent, with activities, Naming Numbers involving Algebraic Expressions
  Represent, with activities, Naming Terms involving Algebraic Expressions
  Represent, with activities, Naming Factors involving Algebraic Expressions
@@ -523,6 +618,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with activities, Naming Variables involving Algebraic Expressions
  Represent, with activities, Naming Functions involving Algebraic Expressions
  Represent, with activities, Naming Chance Processes involving Algebraic Expressions
+ Represent, with activities, Naming Arrays involving Algebraic Expressions
  Represent, with activities, Adding Numbers involving Algebraic Expressions
  Represent, with activities, Adding Terms involving Algebraic Expressions
  Represent, with activities, Adding Factors involving Algebraic Expressions
@@ -531,6 +627,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with activities, Adding Variables involving Algebraic Expressions
  Represent, with activities, Adding Functions involving Algebraic Expressions
  Represent, with activities, Adding Chance Processes involving Algebraic Expressions
+ Represent, with activities, Adding Arrays involving Algebraic Expressions
  Represent, with activities, Subtracting Numbers involving Algebraic Expressions
  Represent, with activities, Subtracting Terms involving Algebraic Expressions
  Represent, with activities, Subtracting Factors involving Algebraic Expressions
@@ -539,6 +636,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with activities, Subtracting Variables involving Algebraic Expressions
  Represent, with activities, Subtracting Functions involving Algebraic Expressions
  Represent, with activities, Subtracting Chance Processes involving Algebraic Expressions
+ Represent, with activities, Subtracting Arrays involving Algebraic Expressions
  Represent, with activities, Multiplying Numbers involving Algebraic Expressions
  Represent, with activities, Multiplying Terms involving Algebraic Expressions
  Represent, with activities, Multiplying Factors involving Algebraic Expressions
@@ -547,6 +645,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with activities, Multiplying Variables involving Algebraic Expressions
  Represent, with activities, Multiplying Functions involving Algebraic Expressions
  Represent, with activities, Multiplying Chance Processes involving Algebraic Expressions
+ Represent, with activities, Multiplying Arrays involving Algebraic Expressions
  Represent, with activities, Dividing Numbers involving Algebraic Expressions
  Represent, with activities, Dividing Terms involving Algebraic Expressions
  Represent, with activities, Dividing Factors involving Algebraic Expressions
@@ -555,6 +654,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with activities, Dividing Variables involving Algebraic Expressions
  Represent, with activities, Dividing Functions involving Algebraic Expressions
  Represent, with activities, Dividing Chance Processes involving Algebraic Expressions
+ Represent, with activities, Dividing Arrays involving Algebraic Expressions
  Represent, with activities, Negating Numbers involving Algebraic Expressions
  Represent, with activities, Negating Terms involving Algebraic Expressions
  Represent, with activities, Negating Factors involving Algebraic Expressions
@@ -563,6 +663,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with activities, Negating Variables involving Algebraic Expressions
  Represent, with activities, Negating Functions involving Algebraic Expressions
  Represent, with activities, Negating Chance Processes involving Algebraic Expressions
+ Represent, with activities, Negating Arrays involving Algebraic Expressions
  Represent, with activities, Exponentiating Numbers involving Algebraic Expressions
  Represent, with activities, Exponentiating Terms involving Algebraic Expressions
  Represent, with activities, Exponentiating Factors involving Algebraic Expressions
@@ -571,6 +672,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with activities, Exponentiating Variables involving Algebraic Expressions
  Represent, with activities, Exponentiating Functions involving Algebraic Expressions
  Represent, with activities, Exponentiating Chance Processes involving Algebraic Expressions
+ Represent, with activities, Exponentiating Arrays involving Algebraic Expressions
  Represent, with activities, Grouping Numbers involving Algebraic Expressions
  Represent, with activities, Grouping Terms involving Algebraic Expressions
  Represent, with activities, Grouping Factors involving Algebraic Expressions
@@ -579,6 +681,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with activities, Grouping Variables involving Algebraic Expressions
  Represent, with activities, Grouping Functions involving Algebraic Expressions
  Represent, with activities, Grouping Chance Processes involving Algebraic Expressions
+ Represent, with activities, Grouping Arrays involving Algebraic Expressions
  Represent, with words, Naming Numbers involving Algebraic Expressions
  Represent, with words, Naming Terms involving Algebraic Expressions
  Represent, with words, Naming Factors involving Algebraic Expressions
@@ -587,6 +690,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with words, Naming Variables involving Algebraic Expressions
  Represent, with words, Naming Functions involving Algebraic Expressions
  Represent, with words, Naming Chance Processes involving Algebraic Expressions
+ Represent, with words, Naming Arrays involving Algebraic Expressions
  Represent, with words, Adding Numbers involving Algebraic Expressions
  Represent, with words, Adding Terms involving Algebraic Expressions
  Represent, with words, Adding Factors involving Algebraic Expressions
@@ -595,6 +699,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with words, Adding Variables involving Algebraic Expressions
  Represent, with words, Adding Functions involving Algebraic Expressions
  Represent, with words, Adding Chance Processes involving Algebraic Expressions
+ Represent, with words, Adding Arrays involving Algebraic Expressions
  Represent, with words, Subtracting Numbers involving Algebraic Expressions
  Represent, with words, Subtracting Terms involving Algebraic Expressions
  Represent, with words, Subtracting Factors involving Algebraic Expressions
@@ -603,6 +708,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with words, Subtracting Variables involving Algebraic Expressions
  Represent, with words, Subtracting Functions involving Algebraic Expressions
  Represent, with words, Subtracting Chance Processes involving Algebraic Expressions
+ Represent, with words, Subtracting Arrays involving Algebraic Expressions
  Represent, with words, Multiplying Numbers involving Algebraic Expressions
  Represent, with words, Multiplying Terms involving Algebraic Expressions
  Represent, with words, Multiplying Factors involving Algebraic Expressions
@@ -611,6 +717,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with words, Multiplying Variables involving Algebraic Expressions
  Represent, with words, Multiplying Functions involving Algebraic Expressions
  Represent, with words, Multiplying Chance Processes involving Algebraic Expressions
+ Represent, with words, Multiplying Arrays involving Algebraic Expressions
  Represent, with words, Dividing Numbers involving Algebraic Expressions
  Represent, with words, Dividing Terms involving Algebraic Expressions
  Represent, with words, Dividing Factors involving Algebraic Expressions
@@ -619,6 +726,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with words, Dividing Variables involving Algebraic Expressions
  Represent, with words, Dividing Functions involving Algebraic Expressions
  Represent, with words, Dividing Chance Processes involving Algebraic Expressions
+ Represent, with words, Dividing Arrays involving Algebraic Expressions
  Represent, with words, Negating Numbers involving Algebraic Expressions
  Represent, with words, Negating Terms involving Algebraic Expressions
  Represent, with words, Negating Factors involving Algebraic Expressions
@@ -627,6 +735,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with words, Negating Variables involving Algebraic Expressions
  Represent, with words, Negating Functions involving Algebraic Expressions
  Represent, with words, Negating Chance Processes involving Algebraic Expressions
+ Represent, with words, Negating Arrays involving Algebraic Expressions
  Represent, with words, Exponentiating Numbers involving Algebraic Expressions
  Represent, with words, Exponentiating Terms involving Algebraic Expressions
  Represent, with words, Exponentiating Factors involving Algebraic Expressions
@@ -635,6 +744,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with words, Exponentiating Variables involving Algebraic Expressions
  Represent, with words, Exponentiating Functions involving Algebraic Expressions
  Represent, with words, Exponentiating Chance Processes involving Algebraic Expressions
+ Represent, with words, Exponentiating Arrays involving Algebraic Expressions
  Represent, with words, Grouping Numbers involving Algebraic Expressions
  Represent, with words, Grouping Terms involving Algebraic Expressions
  Represent, with words, Grouping Factors involving Algebraic Expressions
@@ -643,6 +753,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with words, Grouping Variables involving Algebraic Expressions
  Represent, with words, Grouping Functions involving Algebraic Expressions
  Represent, with words, Grouping Chance Processes involving Algebraic Expressions
+ Represent, with words, Grouping Arrays involving Algebraic Expressions
  Represent, with symbols, Naming Numbers involving Algebraic Expressions
  Represent, with symbols, Naming Terms involving Algebraic Expressions
  Represent, with symbols, Naming Factors involving Algebraic Expressions
@@ -651,6 +762,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with symbols, Naming Variables involving Algebraic Expressions
  Represent, with symbols, Naming Functions involving Algebraic Expressions
  Represent, with symbols, Naming Chance Processes involving Algebraic Expressions
+ Represent, with symbols, Naming Arrays involving Algebraic Expressions
  Represent, with symbols, Adding Numbers involving Algebraic Expressions
  Represent, with symbols, Adding Terms involving Algebraic Expressions
  Represent, with symbols, Adding Factors involving Algebraic Expressions
@@ -659,6 +771,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with symbols, Adding Variables involving Algebraic Expressions
  Represent, with symbols, Adding Functions involving Algebraic Expressions
  Represent, with symbols, Adding Chance Processes involving Algebraic Expressions
+ Represent, with symbols, Adding Arrays involving Algebraic Expressions
  Represent, with symbols, Subtracting Numbers involving Algebraic Expressions
  Represent, with symbols, Subtracting Terms involving Algebraic Expressions
  Represent, with symbols, Subtracting Factors involving Algebraic Expressions
@@ -667,6 +780,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with symbols, Subtracting Variables involving Algebraic Expressions
  Represent, with symbols, Subtracting Functions involving Algebraic Expressions
  Represent, with symbols, Subtracting Chance Processes involving Algebraic Expressions
+ Represent, with symbols, Subtracting Arrays involving Algebraic Expressions
  Represent, with symbols, Multiplying Numbers involving Algebraic Expressions
  Represent, with symbols, Multiplying Terms involving Algebraic Expressions
  Represent, with symbols, Multiplying Factors involving Algebraic Expressions
@@ -675,6 +789,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with symbols, Multiplying Variables involving Algebraic Expressions
  Represent, with symbols, Multiplying Functions involving Algebraic Expressions
  Represent, with symbols, Multiplying Chance Processes involving Algebraic Expressions
+ Represent, with symbols, Multiplying Arrays involving Algebraic Expressions
  Represent, with symbols, Dividing Numbers involving Algebraic Expressions
  Represent, with symbols, Dividing Terms involving Algebraic Expressions
  Represent, with symbols, Dividing Factors involving Algebraic Expressions
@@ -683,6 +798,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with symbols, Dividing Variables involving Algebraic Expressions
  Represent, with symbols, Dividing Functions involving Algebraic Expressions
  Represent, with symbols, Dividing Chance Processes involving Algebraic Expressions
+ Represent, with symbols, Dividing Arrays involving Algebraic Expressions
  Represent, with symbols, Negating Numbers involving Algebraic Expressions
  Represent, with symbols, Negating Terms involving Algebraic Expressions
  Represent, with symbols, Negating Factors involving Algebraic Expressions
@@ -691,6 +807,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with symbols, Negating Variables involving Algebraic Expressions
  Represent, with symbols, Negating Functions involving Algebraic Expressions
  Represent, with symbols, Negating Chance Processes involving Algebraic Expressions
+ Represent, with symbols, Negating Arrays involving Algebraic Expressions
  Represent, with symbols, Exponentiating Numbers involving Algebraic Expressions
  Represent, with symbols, Exponentiating Terms involving Algebraic Expressions
  Represent, with symbols, Exponentiating Factors involving Algebraic Expressions
@@ -699,6 +816,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with symbols, Exponentiating Variables involving Algebraic Expressions
  Represent, with symbols, Exponentiating Functions involving Algebraic Expressions
  Represent, with symbols, Exponentiating Chance Processes involving Algebraic Expressions
+ Represent, with symbols, Exponentiating Arrays involving Algebraic Expressions
  Represent, with symbols, Grouping Numbers involving Algebraic Expressions
  Represent, with symbols, Grouping Terms involving Algebraic Expressions
  Represent, with symbols, Grouping Factors involving Algebraic Expressions
@@ -707,6 +825,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with symbols, Grouping Variables involving Algebraic Expressions
  Represent, with symbols, Grouping Functions involving Algebraic Expressions
  Represent, with symbols, Grouping Chance Processes involving Algebraic Expressions
+ Represent, with symbols, Grouping Arrays involving Algebraic Expressions
  Represent, with graphs, Naming Numbers involving Algebraic Expressions
  Represent, with graphs, Naming Terms involving Algebraic Expressions
  Represent, with graphs, Naming Factors involving Algebraic Expressions
@@ -715,6 +834,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with graphs, Naming Variables involving Algebraic Expressions
  Represent, with graphs, Naming Functions involving Algebraic Expressions
  Represent, with graphs, Naming Chance Processes involving Algebraic Expressions
+ Represent, with graphs, Naming Arrays involving Algebraic Expressions
  Represent, with graphs, Adding Numbers involving Algebraic Expressions
  Represent, with graphs, Adding Terms involving Algebraic Expressions
  Represent, with graphs, Adding Factors involving Algebraic Expressions
@@ -723,6 +843,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with graphs, Adding Variables involving Algebraic Expressions
  Represent, with graphs, Adding Functions involving Algebraic Expressions
  Represent, with graphs, Adding Chance Processes involving Algebraic Expressions
+ Represent, with graphs, Adding Arrays involving Algebraic Expressions
  Represent, with graphs, Subtracting Numbers involving Algebraic Expressions
  Represent, with graphs, Subtracting Terms involving Algebraic Expressions
  Represent, with graphs, Subtracting Factors involving Algebraic Expressions
@@ -731,6 +852,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with graphs, Subtracting Variables involving Algebraic Expressions
  Represent, with graphs, Subtracting Functions involving Algebraic Expressions
  Represent, with graphs, Subtracting Chance Processes involving Algebraic Expressions
+ Represent, with graphs, Subtracting Arrays involving Algebraic Expressions
  Represent, with graphs, Multiplying Numbers involving Algebraic Expressions
  Represent, with graphs, Multiplying Terms involving Algebraic Expressions
  Represent, with graphs, Multiplying Factors involving Algebraic Expressions
@@ -739,6 +861,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with graphs, Multiplying Variables involving Algebraic Expressions
  Represent, with graphs, Multiplying Functions involving Algebraic Expressions
  Represent, with graphs, Multiplying Chance Processes involving Algebraic Expressions
+ Represent, with graphs, Multiplying Arrays involving Algebraic Expressions
  Represent, with graphs, Dividing Numbers involving Algebraic Expressions
  Represent, with graphs, Dividing Terms involving Algebraic Expressions
  Represent, with graphs, Dividing Factors involving Algebraic Expressions
@@ -747,6 +870,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with graphs, Dividing Variables involving Algebraic Expressions
  Represent, with graphs, Dividing Functions involving Algebraic Expressions
  Represent, with graphs, Dividing Chance Processes involving Algebraic Expressions
+ Represent, with graphs, Dividing Arrays involving Algebraic Expressions
  Represent, with graphs, Negating Numbers involving Algebraic Expressions
  Represent, with graphs, Negating Terms involving Algebraic Expressions
  Represent, with graphs, Negating Factors involving Algebraic Expressions
@@ -755,6 +879,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with graphs, Negating Variables involving Algebraic Expressions
  Represent, with graphs, Negating Functions involving Algebraic Expressions
  Represent, with graphs, Negating Chance Processes involving Algebraic Expressions
+ Represent, with graphs, Negating Arrays involving Algebraic Expressions
  Represent, with graphs, Exponentiating Numbers involving Algebraic Expressions
  Represent, with graphs, Exponentiating Terms involving Algebraic Expressions
  Represent, with graphs, Exponentiating Factors involving Algebraic Expressions
@@ -763,6 +888,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with graphs, Exponentiating Variables involving Algebraic Expressions
  Represent, with graphs, Exponentiating Functions involving Algebraic Expressions
  Represent, with graphs, Exponentiating Chance Processes involving Algebraic Expressions
+ Represent, with graphs, Exponentiating Arrays involving Algebraic Expressions
  Represent, with graphs, Grouping Numbers involving Algebraic Expressions
  Represent, with graphs, Grouping Terms involving Algebraic Expressions
  Represent, with graphs, Grouping Factors involving Algebraic Expressions
@@ -771,6 +897,7 @@ Read Volumes involving Algebraic Expressions
  Represent, with graphs, Grouping Variables involving Algebraic Expressions
  Represent, with graphs, Grouping Functions involving Algebraic Expressions
  Represent, with graphs, Grouping Chance Processes involving Algebraic Expressions
+ Represent, with graphs, Grouping Arrays involving Algebraic Expressions
  Randomly sample Naming Numbers involving Algebraic Expressions
  Randomly sample Naming Terms involving Algebraic Expressions
  Randomly sample Naming Factors involving Algebraic Expressions
@@ -779,6 +906,7 @@ Read Volumes involving Algebraic Expressions
  Randomly sample Naming Variables involving Algebraic Expressions
  Randomly sample Naming Functions involving Algebraic Expressions
  Randomly sample Naming Chance Processes involving Algebraic Expressions
+ Randomly sample Naming Arrays involving Algebraic Expressions
  Randomly sample Adding Numbers involving Algebraic Expressions
  Randomly sample Adding Terms involving Algebraic Expressions
  Randomly sample Adding Factors involving Algebraic Expressions
@@ -787,6 +915,7 @@ Read Volumes involving Algebraic Expressions
  Randomly sample Adding Variables involving Algebraic Expressions
  Randomly sample Adding Functions involving Algebraic Expressions
  Randomly sample Adding Chance Processes involving Algebraic Expressions
+ Randomly sample Adding Arrays involving Algebraic Expressions
  Randomly sample Subtracting Numbers involving Algebraic Expressions
  Randomly sample Subtracting Terms involving Algebraic Expressions
  Randomly sample Subtracting Factors involving Algebraic Expressions
@@ -795,6 +924,7 @@ Read Volumes involving Algebraic Expressions
  Randomly sample Subtracting Variables involving Algebraic Expressions
  Randomly sample Subtracting Functions involving Algebraic Expressions
  Randomly sample Subtracting Chance Processes involving Algebraic Expressions
+ Randomly sample Subtracting Arrays involving Algebraic Expressions
  Randomly sample Multiplying Numbers involving Algebraic Expressions
  Randomly sample Multiplying Terms involving Algebraic Expressions
  Randomly sample Multiplying Factors involving Algebraic Expressions
@@ -803,6 +933,7 @@ Read Volumes involving Algebraic Expressions
  Randomly sample Multiplying Variables involving Algebraic Expressions
  Randomly sample Multiplying Functions involving Algebraic Expressions
  Randomly sample Multiplying Chance Processes involving Algebraic Expressions
+ Randomly sample Multiplying Arrays involving Algebraic Expressions
  Randomly sample Dividing Numbers involving Algebraic Expressions
  Randomly sample Dividing Terms involving Algebraic Expressions
  Randomly sample Dividing Factors involving Algebraic Expressions
@@ -811,6 +942,7 @@ Read Volumes involving Algebraic Expressions
  Randomly sample Dividing Variables involving Algebraic Expressions
  Randomly sample Dividing Functions involving Algebraic Expressions
  Randomly sample Dividing Chance Processes involving Algebraic Expressions
+ Randomly sample Dividing Arrays involving Algebraic Expressions
  Randomly sample Negating Numbers involving Algebraic Expressions
  Randomly sample Negating Terms involving Algebraic Expressions
  Randomly sample Negating Factors involving Algebraic Expressions
@@ -819,6 +951,7 @@ Read Volumes involving Algebraic Expressions
  Randomly sample Negating Variables involving Algebraic Expressions
  Randomly sample Negating Functions involving Algebraic Expressions
  Randomly sample Negating Chance Processes involving Algebraic Expressions
+ Randomly sample Negating Arrays involving Algebraic Expressions
  Randomly sample Exponentiating Numbers involving Algebraic Expressions
  Randomly sample Exponentiating Terms involving Algebraic Expressions
  Randomly sample Exponentiating Factors involving Algebraic Expressions
@@ -827,6 +960,7 @@ Read Volumes involving Algebraic Expressions
  Randomly sample Exponentiating Variables involving Algebraic Expressions
  Randomly sample Exponentiating Functions involving Algebraic Expressions
  Randomly sample Exponentiating Chance Processes involving Algebraic Expressions
+ Randomly sample Exponentiating Arrays involving Algebraic Expressions
  Randomly sample Grouping Numbers involving Algebraic Expressions
  Randomly sample Grouping Terms involving Algebraic Expressions
  Randomly sample Grouping Factors involving Algebraic Expressions
@@ -835,14 +969,19 @@ Read Volumes involving Algebraic Expressions
  Randomly sample Grouping Variables involving Algebraic Expressions
  Randomly sample Grouping Functions involving Algebraic Expressions
  Randomly sample Grouping Chance Processes involving Algebraic Expressions
+ Randomly sample Grouping Arrays involving Algebraic Expressions
  Evaluate Volumes involving Algebraic Expressions
  Evaluate Patterns involving Algebraic Expressions
  Evaluate Areas involving Algebraic Expressions
  Evaluate Perimeters involving Algebraic Expressions
  Evaluate Data involving Algebraic Expressions
  Evaluate Surface Areas involving Algebraic Expressions
+ Evaluate Congruence involving Algebraic Expressions
+ Evaluate Similarity involving Algebraic Expressions
+ Evaluate Proportions involving Algebraic Expressions
  Evaluate Algebraic Equations involving Algebraic Expressions
  Evaluate Algebraic Inequalities involving Algebraic Expressions
+ Evaluate Lines involving Algebraic Expressions
  Evaluate Linear Equations involving Algebraic Expressions
  Evaluate Simultaneous Equations involving Algebraic Expressions
  Evaluate Statistical Variability involving Algebraic Expressions
@@ -850,6 +989,9 @@ Read Volumes involving Algebraic Expressions
  Evaluate Populations involving Algebraic Expressions
  Evaluate Probability Models involving Algebraic Expressions
  Evaluate Bivariate Data involving Algebraic Expressions
+ Evaluate Sets involving Algebraic Expressions
+ Evaluate Elements involving Algebraic Expressions
+ Evaluate Experiments involving Algebraic Expressions
  Evaluate Observations involving Algebraic Expressions
  Evaluate Dependent Variables involving Algebraic Expressions
  Evaluate Independent Variables involving Algebraic Expressions
@@ -870,8 +1012,12 @@ Read Volumes involving Algebraic Expressions
  Understand Perimeters involving Algebraic Expressions
  Understand Data involving Algebraic Expressions
  Understand Surface Areas involving Algebraic Expressions
+ Understand Congruence involving Algebraic Expressions
+ Understand Similarity involving Algebraic Expressions
+ Understand Proportions involving Algebraic Expressions
  Understand Algebraic Equations involving Algebraic Expressions
  Understand Algebraic Inequalities involving Algebraic Expressions
+ Understand Lines involving Algebraic Expressions
  Understand Linear Equations involving Algebraic Expressions
  Understand Simultaneous Equations involving Algebraic Expressions
  Understand Statistical Variability involving Algebraic Expressions
@@ -879,6 +1025,9 @@ Read Volumes involving Algebraic Expressions
  Understand Populations involving Algebraic Expressions
  Understand Probability Models involving Algebraic Expressions
  Understand Bivariate Data involving Algebraic Expressions
+ Understand Sets involving Algebraic Expressions
+ Understand Elements involving Algebraic Expressions
+ Understand Experiments involving Algebraic Expressions
  Understand Observations involving Algebraic Expressions
  Understand Dependent Variables involving Algebraic Expressions
  Understand Independent Variables involving Algebraic Expressions
@@ -899,8 +1048,12 @@ Read Volumes involving Algebraic Expressions
  Apply Perimeters involving Algebraic Expressions
  Apply Data involving Algebraic Expressions
  Apply Surface Areas involving Algebraic Expressions
+ Apply Congruence involving Algebraic Expressions
+ Apply Similarity involving Algebraic Expressions
+ Apply Proportions involving Algebraic Expressions
  Apply Algebraic Equations involving Algebraic Expressions
  Apply Algebraic Inequalities involving Algebraic Expressions
+ Apply Lines involving Algebraic Expressions
  Apply Linear Equations involving Algebraic Expressions
  Apply Simultaneous Equations involving Algebraic Expressions
  Apply Statistical Variability involving Algebraic Expressions
@@ -908,6 +1061,9 @@ Read Volumes involving Algebraic Expressions
  Apply Populations involving Algebraic Expressions
  Apply Probability Models involving Algebraic Expressions
  Apply Bivariate Data involving Algebraic Expressions
+ Apply Sets involving Algebraic Expressions
+ Apply Elements involving Algebraic Expressions
+ Apply Experiments involving Algebraic Expressions
  Apply Observations involving Algebraic Expressions
  Apply Dependent Variables involving Algebraic Expressions
  Apply Independent Variables involving Algebraic Expressions
@@ -928,8 +1084,12 @@ Read Volumes involving Algebraic Expressions
  Analyze Perimeters involving Algebraic Expressions
  Analyze Data involving Algebraic Expressions
  Analyze Surface Areas involving Algebraic Expressions
+ Analyze Congruence involving Algebraic Expressions
+ Analyze Similarity involving Algebraic Expressions
+ Analyze Proportions involving Algebraic Expressions
  Analyze Algebraic Equations involving Algebraic Expressions
  Analyze Algebraic Inequalities involving Algebraic Expressions
+ Analyze Lines involving Algebraic Expressions
  Analyze Linear Equations involving Algebraic Expressions
  Analyze Simultaneous Equations involving Algebraic Expressions
  Analyze Statistical Variability involving Algebraic Expressions
@@ -937,6 +1097,9 @@ Read Volumes involving Algebraic Expressions
  Analyze Populations involving Algebraic Expressions
  Analyze Probability Models involving Algebraic Expressions
  Analyze Bivariate Data involving Algebraic Expressions
+ Analyze Sets involving Algebraic Expressions
+ Analyze Elements involving Algebraic Expressions
+ Analyze Experiments involving Algebraic Expressions
  Analyze Observations involving Algebraic Expressions
  Analyze Dependent Variables involving Algebraic Expressions
  Analyze Independent Variables involving Algebraic Expressions
@@ -959,6 +1122,7 @@ Read Volumes involving Algebraic Expressions
  Evaluate Naming Variables involving Algebraic Expressions
  Evaluate Naming Functions involving Algebraic Expressions
  Evaluate Naming Chance Processes involving Algebraic Expressions
+ Evaluate Naming Arrays involving Algebraic Expressions
  Evaluate Adding Numbers involving Algebraic Expressions
  Evaluate Adding Terms involving Algebraic Expressions
  Evaluate Adding Factors involving Algebraic Expressions
@@ -967,6 +1131,7 @@ Read Volumes involving Algebraic Expressions
  Evaluate Adding Variables involving Algebraic Expressions
  Evaluate Adding Functions involving Algebraic Expressions
  Evaluate Adding Chance Processes involving Algebraic Expressions
+ Evaluate Adding Arrays involving Algebraic Expressions
  Evaluate Subtracting Numbers involving Algebraic Expressions
  Evaluate Subtracting Terms involving Algebraic Expressions
  Evaluate Subtracting Factors involving Algebraic Expressions
@@ -975,6 +1140,7 @@ Read Volumes involving Algebraic Expressions
  Evaluate Subtracting Variables involving Algebraic Expressions
  Evaluate Subtracting Functions involving Algebraic Expressions
  Evaluate Subtracting Chance Processes involving Algebraic Expressions
+ Evaluate Subtracting Arrays involving Algebraic Expressions
  Evaluate Multiplying Numbers involving Algebraic Expressions
  Evaluate Multiplying Terms involving Algebraic Expressions
  Evaluate Multiplying Factors involving Algebraic Expressions
@@ -983,6 +1149,7 @@ Read Volumes involving Algebraic Expressions
  Evaluate Multiplying Variables involving Algebraic Expressions
  Evaluate Multiplying Functions involving Algebraic Expressions
  Evaluate Multiplying Chance Processes involving Algebraic Expressions
+ Evaluate Multiplying Arrays involving Algebraic Expressions
  Evaluate Dividing Numbers involving Algebraic Expressions
  Evaluate Dividing Terms involving Algebraic Expressions
  Evaluate Dividing Factors involving Algebraic Expressions
@@ -991,6 +1158,7 @@ Read Volumes involving Algebraic Expressions
  Evaluate Dividing Variables involving Algebraic Expressions
  Evaluate Dividing Functions involving Algebraic Expressions
  Evaluate Dividing Chance Processes involving Algebraic Expressions
+ Evaluate Dividing Arrays involving Algebraic Expressions
  Evaluate Negating Numbers involving Algebraic Expressions
  Evaluate Negating Terms involving Algebraic Expressions
  Evaluate Negating Factors involving Algebraic Expressions
@@ -999,6 +1167,7 @@ Read Volumes involving Algebraic Expressions
  Evaluate Negating Variables involving Algebraic Expressions
  Evaluate Negating Functions involving Algebraic Expressions
  Evaluate Negating Chance Processes involving Algebraic Expressions
+ Evaluate Negating Arrays involving Algebraic Expressions
  Evaluate Exponentiating Numbers involving Algebraic Expressions
  Evaluate Exponentiating Terms involving Algebraic Expressions
  Evaluate Exponentiating Factors involving Algebraic Expressions
@@ -1007,6 +1176,7 @@ Read Volumes involving Algebraic Expressions
  Evaluate Exponentiating Variables involving Algebraic Expressions
  Evaluate Exponentiating Functions involving Algebraic Expressions
  Evaluate Exponentiating Chance Processes involving Algebraic Expressions
+ Evaluate Exponentiating Arrays involving Algebraic Expressions
  Evaluate Grouping Numbers involving Algebraic Expressions
  Evaluate Grouping Terms involving Algebraic Expressions
  Evaluate Grouping Factors involving Algebraic Expressions
@@ -1015,6 +1185,7 @@ Read Volumes involving Algebraic Expressions
  Evaluate Grouping Variables involving Algebraic Expressions
  Evaluate Grouping Functions involving Algebraic Expressions
  Evaluate Grouping Chance Processes involving Algebraic Expressions
+ Evaluate Grouping Arrays involving Algebraic Expressions
  Understand Naming Numbers involving Algebraic Expressions
  Understand Naming Terms involving Algebraic Expressions
  Understand Naming Factors involving Algebraic Expressions
@@ -1023,6 +1194,7 @@ Read Volumes involving Algebraic Expressions
  Understand Naming Variables involving Algebraic Expressions
  Understand Naming Functions involving Algebraic Expressions
  Understand Naming Chance Processes involving Algebraic Expressions
+ Understand Naming Arrays involving Algebraic Expressions
  Understand Adding Numbers involving Algebraic Expressions
  Understand Adding Terms involving Algebraic Expressions
  Understand Adding Factors involving Algebraic Expressions
@@ -1031,6 +1203,7 @@ Read Volumes involving Algebraic Expressions
  Understand Adding Variables involving Algebraic Expressions
  Understand Adding Functions involving Algebraic Expressions
  Understand Adding Chance Processes involving Algebraic Expressions
+ Understand Adding Arrays involving Algebraic Expressions
  Understand Subtracting Numbers involving Algebraic Expressions
  Understand Subtracting Terms involving Algebraic Expressions
  Understand Subtracting Factors involving Algebraic Expressions
@@ -1039,6 +1212,7 @@ Read Volumes involving Algebraic Expressions
  Understand Subtracting Variables involving Algebraic Expressions
  Understand Subtracting Functions involving Algebraic Expressions
  Understand Subtracting Chance Processes involving Algebraic Expressions
+ Understand Subtracting Arrays involving Algebraic Expressions
  Understand Multiplying Numbers involving Algebraic Expressions
  Understand Multiplying Terms involving Algebraic Expressions
  Understand Multiplying Factors involving Algebraic Expressions
@@ -1047,6 +1221,7 @@ Read Volumes involving Algebraic Expressions
  Understand Multiplying Variables involving Algebraic Expressions
  Understand Multiplying Functions involving Algebraic Expressions
  Understand Multiplying Chance Processes involving Algebraic Expressions
+ Understand Multiplying Arrays involving Algebraic Expressions
  Understand Dividing Numbers involving Algebraic Expressions
  Understand Dividing Terms involving Algebraic Expressions
  Understand Dividing Factors involving Algebraic Expressions
@@ -1055,6 +1230,7 @@ Read Volumes involving Algebraic Expressions
  Understand Dividing Variables involving Algebraic Expressions
  Understand Dividing Functions involving Algebraic Expressions
  Understand Dividing Chance Processes involving Algebraic Expressions
+ Understand Dividing Arrays involving Algebraic Expressions
  Understand Negating Numbers involving Algebraic Expressions
  Understand Negating Terms involving Algebraic Expressions
  Understand Negating Factors involving Algebraic Expressions
@@ -1063,6 +1239,7 @@ Read Volumes involving Algebraic Expressions
  Understand Negating Variables involving Algebraic Expressions
  Understand Negating Functions involving Algebraic Expressions
  Understand Negating Chance Processes involving Algebraic Expressions
+ Understand Negating Arrays involving Algebraic Expressions
  Understand Exponentiating Numbers involving Algebraic Expressions
  Understand Exponentiating Terms involving Algebraic Expressions
  Understand Exponentiating Factors involving Algebraic Expressions
@@ -1071,6 +1248,7 @@ Read Volumes involving Algebraic Expressions
  Understand Exponentiating Variables involving Algebraic Expressions
  Understand Exponentiating Functions involving Algebraic Expressions
  Understand Exponentiating Chance Processes involving Algebraic Expressions
+ Understand Exponentiating Arrays involving Algebraic Expressions
  Understand Grouping Numbers involving Algebraic Expressions
  Understand Grouping Terms involving Algebraic Expressions
  Understand Grouping Factors involving Algebraic Expressions
@@ -1079,6 +1257,7 @@ Read Volumes involving Algebraic Expressions
  Understand Grouping Variables involving Algebraic Expressions
  Understand Grouping Functions involving Algebraic Expressions
  Understand Grouping Chance Processes involving Algebraic Expressions
+ Understand Grouping Arrays involving Algebraic Expressions
  Apply Naming Numbers involving Algebraic Expressions
  Apply Naming Terms involving Algebraic Expressions
  Apply Naming Factors involving Algebraic Expressions
@@ -1087,6 +1266,7 @@ Read Volumes involving Algebraic Expressions
  Apply Naming Variables involving Algebraic Expressions
  Apply Naming Functions involving Algebraic Expressions
  Apply Naming Chance Processes involving Algebraic Expressions
+ Apply Naming Arrays involving Algebraic Expressions
  Apply Adding Numbers involving Algebraic Expressions
  Apply Adding Terms involving Algebraic Expressions
  Apply Adding Factors involving Algebraic Expressions
@@ -1095,6 +1275,7 @@ Read Volumes involving Algebraic Expressions
  Apply Adding Variables involving Algebraic Expressions
  Apply Adding Functions involving Algebraic Expressions
  Apply Adding Chance Processes involving Algebraic Expressions
+ Apply Adding Arrays involving Algebraic Expressions
  Apply Subtracting Numbers involving Algebraic Expressions
  Apply Subtracting Terms involving Algebraic Expressions
  Apply Subtracting Factors involving Algebraic Expressions
@@ -1103,6 +1284,7 @@ Read Volumes involving Algebraic Expressions
  Apply Subtracting Variables involving Algebraic Expressions
  Apply Subtracting Functions involving Algebraic Expressions
  Apply Subtracting Chance Processes involving Algebraic Expressions
+ Apply Subtracting Arrays involving Algebraic Expressions
  Apply Multiplying Numbers involving Algebraic Expressions
  Apply Multiplying Terms involving Algebraic Expressions
  Apply Multiplying Factors involving Algebraic Expressions
@@ -1111,6 +1293,7 @@ Read Volumes involving Algebraic Expressions
  Apply Multiplying Variables involving Algebraic Expressions
  Apply Multiplying Functions involving Algebraic Expressions
  Apply Multiplying Chance Processes involving Algebraic Expressions
+ Apply Multiplying Arrays involving Algebraic Expressions
  Apply Dividing Numbers involving Algebraic Expressions
  Apply Dividing Terms involving Algebraic Expressions
  Apply Dividing Factors involving Algebraic Expressions
@@ -1119,6 +1302,7 @@ Read Volumes involving Algebraic Expressions
  Apply Dividing Variables involving Algebraic Expressions
  Apply Dividing Functions involving Algebraic Expressions
  Apply Dividing Chance Processes involving Algebraic Expressions
+ Apply Dividing Arrays involving Algebraic Expressions
  Apply Negating Numbers involving Algebraic Expressions
  Apply Negating Terms involving Algebraic Expressions
  Apply Negating Factors involving Algebraic Expressions
@@ -1127,6 +1311,7 @@ Read Volumes involving Algebraic Expressions
  Apply Negating Variables involving Algebraic Expressions
  Apply Negating Functions involving Algebraic Expressions
  Apply Negating Chance Processes involving Algebraic Expressions
+ Apply Negating Arrays involving Algebraic Expressions
  Apply Exponentiating Numbers involving Algebraic Expressions
  Apply Exponentiating Terms involving Algebraic Expressions
  Apply Exponentiating Factors involving Algebraic Expressions
@@ -1135,6 +1320,7 @@ Read Volumes involving Algebraic Expressions
  Apply Exponentiating Variables involving Algebraic Expressions
  Apply Exponentiating Functions involving Algebraic Expressions
  Apply Exponentiating Chance Processes involving Algebraic Expressions
+ Apply Exponentiating Arrays involving Algebraic Expressions
  Apply Grouping Numbers involving Algebraic Expressions
  Apply Grouping Terms involving Algebraic Expressions
  Apply Grouping Factors involving Algebraic Expressions
@@ -1143,6 +1329,7 @@ Read Volumes involving Algebraic Expressions
  Apply Grouping Variables involving Algebraic Expressions
  Apply Grouping Functions involving Algebraic Expressions
  Apply Grouping Chance Processes involving Algebraic Expressions
+ Apply Grouping Arrays involving Algebraic Expressions
  Analyze Naming Numbers involving Algebraic Expressions
  Analyze Naming Terms involving Algebraic Expressions
  Analyze Naming Factors involving Algebraic Expressions
@@ -1151,6 +1338,7 @@ Read Volumes involving Algebraic Expressions
  Analyze Naming Variables involving Algebraic Expressions
  Analyze Naming Functions involving Algebraic Expressions
  Analyze Naming Chance Processes involving Algebraic Expressions
+ Analyze Naming Arrays involving Algebraic Expressions
  Analyze Adding Numbers involving Algebraic Expressions
  Analyze Adding Terms involving Algebraic Expressions
  Analyze Adding Factors involving Algebraic Expressions
@@ -1159,6 +1347,7 @@ Read Volumes involving Algebraic Expressions
  Analyze Adding Variables involving Algebraic Expressions
  Analyze Adding Functions involving Algebraic Expressions
  Analyze Adding Chance Processes involving Algebraic Expressions
+ Analyze Adding Arrays involving Algebraic Expressions
  Analyze Subtracting Numbers involving Algebraic Expressions
  Analyze Subtracting Terms involving Algebraic Expressions
  Analyze Subtracting Factors involving Algebraic Expressions
@@ -1167,6 +1356,7 @@ Read Volumes involving Algebraic Expressions
  Analyze Subtracting Variables involving Algebraic Expressions
  Analyze Subtracting Functions involving Algebraic Expressions
  Analyze Subtracting Chance Processes involving Algebraic Expressions
+ Analyze Subtracting Arrays involving Algebraic Expressions
  Analyze Multiplying Numbers involving Algebraic Expressions
  Analyze Multiplying Terms involving Algebraic Expressions
  Analyze Multiplying Factors involving Algebraic Expressions
@@ -1175,6 +1365,7 @@ Read Volumes involving Algebraic Expressions
  Analyze Multiplying Variables involving Algebraic Expressions
  Analyze Multiplying Functions involving Algebraic Expressions
  Analyze Multiplying Chance Processes involving Algebraic Expressions
+ Analyze Multiplying Arrays involving Algebraic Expressions
  Analyze Dividing Numbers involving Algebraic Expressions
  Analyze Dividing Terms involving Algebraic Expressions
  Analyze Dividing Factors involving Algebraic Expressions
@@ -1183,6 +1374,7 @@ Read Volumes involving Algebraic Expressions
  Analyze Dividing Variables involving Algebraic Expressions
  Analyze Dividing Functions involving Algebraic Expressions
  Analyze Dividing Chance Processes involving Algebraic Expressions
+ Analyze Dividing Arrays involving Algebraic Expressions
  Analyze Negating Numbers involving Algebraic Expressions
  Analyze Negating Terms involving Algebraic Expressions
  Analyze Negating Factors involving Algebraic Expressions
@@ -1191,6 +1383,7 @@ Read Volumes involving Algebraic Expressions
  Analyze Negating Variables involving Algebraic Expressions
  Analyze Negating Functions involving Algebraic Expressions
  Analyze Negating Chance Processes involving Algebraic Expressions
+ Analyze Negating Arrays involving Algebraic Expressions
  Analyze Exponentiating Numbers involving Algebraic Expressions
  Analyze Exponentiating Terms involving Algebraic Expressions
  Analyze Exponentiating Factors involving Algebraic Expressions
@@ -1199,6 +1392,7 @@ Read Volumes involving Algebraic Expressions
  Analyze Exponentiating Variables involving Algebraic Expressions
  Analyze Exponentiating Functions involving Algebraic Expressions
  Analyze Exponentiating Chance Processes involving Algebraic Expressions
+ Analyze Exponentiating Arrays involving Algebraic Expressions
  Analyze Grouping Numbers involving Algebraic Expressions
  Analyze Grouping Terms involving Algebraic Expressions
  Analyze Grouping Factors involving Algebraic Expressions
@@ -1207,3 +1401,4 @@ Read Volumes involving Algebraic Expressions
  Analyze Grouping Variables involving Algebraic Expressions
  Analyze Grouping Functions involving Algebraic Expressions
  Analyze Grouping Chance Processes involving Algebraic Expressions
+ Analyze Grouping Arrays involving Algebraic Expressions

@@ -4,8 +4,12 @@ Read	Volumes	involving Algebraic Expressions
  Read	Perimeters	involving Algebraic Expressions
  Read	Data	involving Algebraic Expressions
  Read	Surface Areas	involving Algebraic Expressions
+ Read	Congruence	involving Algebraic Expressions
+ Read	Similarity	involving Algebraic Expressions
+ Read	Proportions	involving Algebraic Expressions
  Read	Algebraic Equations	involving Algebraic Expressions
  Read	Algebraic Inequalities	involving Algebraic Expressions
+ Read	Lines	involving Algebraic Expressions
  Read	Linear Equations	involving Algebraic Expressions
  Read	Simultaneous Equations	involving Algebraic Expressions
  Read	Statistical Variability	involving Algebraic Expressions
@@ -13,6 +17,9 @@ Read	Volumes	involving Algebraic Expressions
  Read	Populations	involving Algebraic Expressions
  Read	Probability Models	involving Algebraic Expressions
  Read	Bivariate Data	involving Algebraic Expressions
+ Read	Sets	involving Algebraic Expressions
+ Read	Elements	involving Algebraic Expressions
+ Read	Experiments	involving Algebraic Expressions
  Read	Observations	involving Algebraic Expressions
  Read	Dependent Variables	involving Algebraic Expressions
  Read	Independent Variables	involving Algebraic Expressions
@@ -33,8 +40,12 @@ Read	Volumes	involving Algebraic Expressions
  Recite	Perimeters	involving Algebraic Expressions
  Recite	Data	involving Algebraic Expressions
  Recite	Surface Areas	involving Algebraic Expressions
+ Recite	Congruence	involving Algebraic Expressions
+ Recite	Similarity	involving Algebraic Expressions
+ Recite	Proportions	involving Algebraic Expressions
  Recite	Algebraic Equations	involving Algebraic Expressions
  Recite	Algebraic Inequalities	involving Algebraic Expressions
+ Recite	Lines	involving Algebraic Expressions
  Recite	Linear Equations	involving Algebraic Expressions
  Recite	Simultaneous Equations	involving Algebraic Expressions
  Recite	Statistical Variability	involving Algebraic Expressions
@@ -42,6 +53,9 @@ Read	Volumes	involving Algebraic Expressions
  Recite	Populations	involving Algebraic Expressions
  Recite	Probability Models	involving Algebraic Expressions
  Recite	Bivariate Data	involving Algebraic Expressions
+ Recite	Sets	involving Algebraic Expressions
+ Recite	Elements	involving Algebraic Expressions
+ Recite	Experiments	involving Algebraic Expressions
  Recite	Observations	involving Algebraic Expressions
  Recite	Dependent Variables	involving Algebraic Expressions
  Recite	Independent Variables	involving Algebraic Expressions
@@ -62,8 +76,12 @@ Read	Volumes	involving Algebraic Expressions
  Write	Perimeters	involving Algebraic Expressions
  Write	Data	involving Algebraic Expressions
  Write	Surface Areas	involving Algebraic Expressions
+ Write	Congruence	involving Algebraic Expressions
+ Write	Similarity	involving Algebraic Expressions
+ Write	Proportions	involving Algebraic Expressions
  Write	Algebraic Equations	involving Algebraic Expressions
  Write	Algebraic Inequalities	involving Algebraic Expressions
+ Write	Lines	involving Algebraic Expressions
  Write	Linear Equations	involving Algebraic Expressions
  Write	Simultaneous Equations	involving Algebraic Expressions
  Write	Statistical Variability	involving Algebraic Expressions
@@ -71,6 +89,9 @@ Read	Volumes	involving Algebraic Expressions
  Write	Populations	involving Algebraic Expressions
  Write	Probability Models	involving Algebraic Expressions
  Write	Bivariate Data	involving Algebraic Expressions
+ Write	Sets	involving Algebraic Expressions
+ Write	Elements	involving Algebraic Expressions
+ Write	Experiments	involving Algebraic Expressions
  Write	Observations	involving Algebraic Expressions
  Write	Dependent Variables	involving Algebraic Expressions
  Write	Independent Variables	involving Algebraic Expressions
@@ -91,8 +112,12 @@ Read	Volumes	involving Algebraic Expressions
  Represent	Perimeters	involving Algebraic Expressions
  Represent	Data	involving Algebraic Expressions
  Represent	Surface Areas	involving Algebraic Expressions
+ Represent	Congruence	involving Algebraic Expressions
+ Represent	Similarity	involving Algebraic Expressions
+ Represent	Proportions	involving Algebraic Expressions
  Represent	Algebraic Equations	involving Algebraic Expressions
  Represent	Algebraic Inequalities	involving Algebraic Expressions
+ Represent	Lines	involving Algebraic Expressions
  Represent	Linear Equations	involving Algebraic Expressions
  Represent	Simultaneous Equations	involving Algebraic Expressions
  Represent	Statistical Variability	involving Algebraic Expressions
@@ -100,6 +125,9 @@ Read	Volumes	involving Algebraic Expressions
  Represent	Populations	involving Algebraic Expressions
  Represent	Probability Models	involving Algebraic Expressions
  Represent	Bivariate Data	involving Algebraic Expressions
+ Represent	Sets	involving Algebraic Expressions
+ Represent	Elements	involving Algebraic Expressions
+ Represent	Experiments	involving Algebraic Expressions
  Represent	Observations	involving Algebraic Expressions
  Represent	Dependent Variables	involving Algebraic Expressions
  Represent	Independent Variables	involving Algebraic Expressions
@@ -120,8 +148,12 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with activities,	Perimeters	involving Algebraic Expressions
  Represent, with activities,	Data	involving Algebraic Expressions
  Represent, with activities,	Surface Areas	involving Algebraic Expressions
+ Represent, with activities,	Congruence	involving Algebraic Expressions
+ Represent, with activities,	Similarity	involving Algebraic Expressions
+ Represent, with activities,	Proportions	involving Algebraic Expressions
  Represent, with activities,	Algebraic Equations	involving Algebraic Expressions
  Represent, with activities,	Algebraic Inequalities	involving Algebraic Expressions
+ Represent, with activities,	Lines	involving Algebraic Expressions
  Represent, with activities,	Linear Equations	involving Algebraic Expressions
  Represent, with activities,	Simultaneous Equations	involving Algebraic Expressions
  Represent, with activities,	Statistical Variability	involving Algebraic Expressions
@@ -129,6 +161,9 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with activities,	Populations	involving Algebraic Expressions
  Represent, with activities,	Probability Models	involving Algebraic Expressions
  Represent, with activities,	Bivariate Data	involving Algebraic Expressions
+ Represent, with activities,	Sets	involving Algebraic Expressions
+ Represent, with activities,	Elements	involving Algebraic Expressions
+ Represent, with activities,	Experiments	involving Algebraic Expressions
  Represent, with activities,	Observations	involving Algebraic Expressions
  Represent, with activities,	Dependent Variables	involving Algebraic Expressions
  Represent, with activities,	Independent Variables	involving Algebraic Expressions
@@ -149,8 +184,12 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with words,	Perimeters	involving Algebraic Expressions
  Represent, with words,	Data	involving Algebraic Expressions
  Represent, with words,	Surface Areas	involving Algebraic Expressions
+ Represent, with words,	Congruence	involving Algebraic Expressions
+ Represent, with words,	Similarity	involving Algebraic Expressions
+ Represent, with words,	Proportions	involving Algebraic Expressions
  Represent, with words,	Algebraic Equations	involving Algebraic Expressions
  Represent, with words,	Algebraic Inequalities	involving Algebraic Expressions
+ Represent, with words,	Lines	involving Algebraic Expressions
  Represent, with words,	Linear Equations	involving Algebraic Expressions
  Represent, with words,	Simultaneous Equations	involving Algebraic Expressions
  Represent, with words,	Statistical Variability	involving Algebraic Expressions
@@ -158,6 +197,9 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with words,	Populations	involving Algebraic Expressions
  Represent, with words,	Probability Models	involving Algebraic Expressions
  Represent, with words,	Bivariate Data	involving Algebraic Expressions
+ Represent, with words,	Sets	involving Algebraic Expressions
+ Represent, with words,	Elements	involving Algebraic Expressions
+ Represent, with words,	Experiments	involving Algebraic Expressions
  Represent, with words,	Observations	involving Algebraic Expressions
  Represent, with words,	Dependent Variables	involving Algebraic Expressions
  Represent, with words,	Independent Variables	involving Algebraic Expressions
@@ -178,8 +220,12 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with symbols,	Perimeters	involving Algebraic Expressions
  Represent, with symbols,	Data	involving Algebraic Expressions
  Represent, with symbols,	Surface Areas	involving Algebraic Expressions
+ Represent, with symbols,	Congruence	involving Algebraic Expressions
+ Represent, with symbols,	Similarity	involving Algebraic Expressions
+ Represent, with symbols,	Proportions	involving Algebraic Expressions
  Represent, with symbols,	Algebraic Equations	involving Algebraic Expressions
  Represent, with symbols,	Algebraic Inequalities	involving Algebraic Expressions
+ Represent, with symbols,	Lines	involving Algebraic Expressions
  Represent, with symbols,	Linear Equations	involving Algebraic Expressions
  Represent, with symbols,	Simultaneous Equations	involving Algebraic Expressions
  Represent, with symbols,	Statistical Variability	involving Algebraic Expressions
@@ -187,6 +233,9 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with symbols,	Populations	involving Algebraic Expressions
  Represent, with symbols,	Probability Models	involving Algebraic Expressions
  Represent, with symbols,	Bivariate Data	involving Algebraic Expressions
+ Represent, with symbols,	Sets	involving Algebraic Expressions
+ Represent, with symbols,	Elements	involving Algebraic Expressions
+ Represent, with symbols,	Experiments	involving Algebraic Expressions
  Represent, with symbols,	Observations	involving Algebraic Expressions
  Represent, with symbols,	Dependent Variables	involving Algebraic Expressions
  Represent, with symbols,	Independent Variables	involving Algebraic Expressions
@@ -207,8 +256,12 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with graphs,	Perimeters	involving Algebraic Expressions
  Represent, with graphs,	Data	involving Algebraic Expressions
  Represent, with graphs,	Surface Areas	involving Algebraic Expressions
+ Represent, with graphs,	Congruence	involving Algebraic Expressions
+ Represent, with graphs,	Similarity	involving Algebraic Expressions
+ Represent, with graphs,	Proportions	involving Algebraic Expressions
  Represent, with graphs,	Algebraic Equations	involving Algebraic Expressions
  Represent, with graphs,	Algebraic Inequalities	involving Algebraic Expressions
+ Represent, with graphs,	Lines	involving Algebraic Expressions
  Represent, with graphs,	Linear Equations	involving Algebraic Expressions
  Represent, with graphs,	Simultaneous Equations	involving Algebraic Expressions
  Represent, with graphs,	Statistical Variability	involving Algebraic Expressions
@@ -216,6 +269,9 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with graphs,	Populations	involving Algebraic Expressions
  Represent, with graphs,	Probability Models	involving Algebraic Expressions
  Represent, with graphs,	Bivariate Data	involving Algebraic Expressions
+ Represent, with graphs,	Sets	involving Algebraic Expressions
+ Represent, with graphs,	Elements	involving Algebraic Expressions
+ Represent, with graphs,	Experiments	involving Algebraic Expressions
  Represent, with graphs,	Observations	involving Algebraic Expressions
  Represent, with graphs,	Dependent Variables	involving Algebraic Expressions
  Represent, with graphs,	Independent Variables	involving Algebraic Expressions
@@ -236,8 +292,12 @@ Read	Volumes	involving Algebraic Expressions
  Randomly sample	Perimeters	involving Algebraic Expressions
  Randomly sample	Data	involving Algebraic Expressions
  Randomly sample	Surface Areas	involving Algebraic Expressions
+ Randomly sample	Congruence	involving Algebraic Expressions
+ Randomly sample	Similarity	involving Algebraic Expressions
+ Randomly sample	Proportions	involving Algebraic Expressions
  Randomly sample	Algebraic Equations	involving Algebraic Expressions
  Randomly sample	Algebraic Inequalities	involving Algebraic Expressions
+ Randomly sample	Lines	involving Algebraic Expressions
  Randomly sample	Linear Equations	involving Algebraic Expressions
  Randomly sample	Simultaneous Equations	involving Algebraic Expressions
  Randomly sample	Statistical Variability	involving Algebraic Expressions
@@ -245,6 +305,9 @@ Read	Volumes	involving Algebraic Expressions
  Randomly sample	Populations	involving Algebraic Expressions
  Randomly sample	Probability Models	involving Algebraic Expressions
  Randomly sample	Bivariate Data	involving Algebraic Expressions
+ Randomly sample	Sets	involving Algebraic Expressions
+ Randomly sample	Elements	involving Algebraic Expressions
+ Randomly sample	Experiments	involving Algebraic Expressions
  Randomly sample	Observations	involving Algebraic Expressions
  Randomly sample	Dependent Variables	involving Algebraic Expressions
  Randomly sample	Independent Variables	involving Algebraic Expressions

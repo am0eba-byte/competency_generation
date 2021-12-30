@@ -544,8 +544,6 @@
             </xsl:call-template>
             
         
-        
-        
         <!--  <xsl:comment>####################################</xsl:comment>
             <xsl:comment>RATIONAL NUMBERS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
             <xsl:comment>####################################</xsl:comment>-->
@@ -703,6 +701,138 @@
                 <xsl:with-param name="param2" as="element()+" select="$MathOP_algexp"/>
                 <xsl:with-param name="param3" as="element()+" select="$QO_algexp"/>
                 <xsl:with-param name="scopeParam" as="xs:string" select="$algexpScopeString"/>
+            </xsl:call-template>
+            
+        </xsl:result-document>
+        
+        
+        
+        
+        
+        
+        <!--**************** SPACE SCOPE *********************************************-->
+        
+        <xsl:result-document method="text" href="space/text/spaceSeedOutput.txt">
+            <!-- <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>Formal Process Branch </xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            -->
+            <!--
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>SPACE: Formal Process + Process Predicate</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            
+            <xsl:variable name="FP_space" as="element()+">
+                
+                <xsl:for-each select="key('scopes', $space)">
+                    <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="PrPred_space" as="element()+">
+                <xsl:for-each select="key('scopes', $space)">
+                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="spaceScopeString" select="'Space'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$FP_space"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_space"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$spaceScopeString"/>
+            </xsl:call-template>
+            
+            
+            
+            <!--
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>SPACE: Formal Process + Math Operation + Quant Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            
+            <xsl:variable name="FP_space" as="element()+">
+                <xsl:for-each select="key('scopes', $space)">
+                    <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="MathOP_space" as="element()+">
+                <xsl:for-each select="key('scopes', $space)">
+                    <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="QO_space" as="element()+">
+                <xsl:for-each select="key('scopes', $space)">
+                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="spaceScopeString" select="'Space'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$FP_space"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_space"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_space"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$spaceScopeString"/>
+            </xsl:call-template>
+            
+            
+            
+            <!-- <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>Knowledge Process Branch </xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            
+            
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>SPACE: Knowledge Process + Process Pred</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            
+            <xsl:variable name="KP_space" as="element()+">
+                <xsl:for-each select="key('scopes', $space)">
+                    <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="PrPred_space" as="element()+">
+                <xsl:for-each select="key('scopes', $space)">
+                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="spaceScopeString" select="'Space'"/>
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$KP_space"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_space"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$spaceScopeString"/>
+            </xsl:call-template>
+            
+            
+            
+            
+            <!--  <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>SPACE: Knowledge Process + Math Operation + Quant Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            
+            <xsl:variable name="KP_space" as="element()+">
+                <xsl:for-each select="key('scopes', $space)">
+                    <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="MathOP_space" as="element()+">
+                <xsl:for-each select="key('scopes', $space)">
+                    <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="QO_space" as="element()+">
+                <xsl:for-each select="key('scopes', $space)">
+                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="spaceScopeString" select="'Space'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$KP_space"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_space"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_space"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$spaceScopeString"/>
             </xsl:call-template>
             
         </xsl:result-document>

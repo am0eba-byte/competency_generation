@@ -4,375 +4,438 @@ Read	Sequencing	Numbers	involving Integers
  Read	Sequencing	Algebraic Expressions	involving Integers
  Read	Sequencing	Variables	involving Integers
  Read	Sequencing	Functions	involving Integers
+ Read	Sequencing	Arrays	involving Integers
  Read	Ordering	Numbers	involving Integers
  Read	Ordering	Terms	involving Integers
  Read	Ordering	Factors	involving Integers
  Read	Ordering	Algebraic Expressions	involving Integers
  Read	Ordering	Variables	involving Integers
  Read	Ordering	Functions	involving Integers
+ Read	Ordering	Arrays	involving Integers
  Read	Adding	Numbers	involving Integers
  Read	Adding	Terms	involving Integers
  Read	Adding	Factors	involving Integers
  Read	Adding	Algebraic Expressions	involving Integers
  Read	Adding	Variables	involving Integers
  Read	Adding	Functions	involving Integers
+ Read	Adding	Arrays	involving Integers
  Read	Subtracting	Numbers	involving Integers
  Read	Subtracting	Terms	involving Integers
  Read	Subtracting	Factors	involving Integers
  Read	Subtracting	Algebraic Expressions	involving Integers
  Read	Subtracting	Variables	involving Integers
  Read	Subtracting	Functions	involving Integers
+ Read	Subtracting	Arrays	involving Integers
  Read	Multiplying	Numbers	involving Integers
  Read	Multiplying	Terms	involving Integers
  Read	Multiplying	Factors	involving Integers
  Read	Multiplying	Algebraic Expressions	involving Integers
  Read	Multiplying	Variables	involving Integers
  Read	Multiplying	Functions	involving Integers
+ Read	Multiplying	Arrays	involving Integers
  Read	Dividing	Numbers	involving Integers
  Read	Dividing	Terms	involving Integers
  Read	Dividing	Factors	involving Integers
  Read	Dividing	Algebraic Expressions	involving Integers
  Read	Dividing	Variables	involving Integers
  Read	Dividing	Functions	involving Integers
+ Read	Dividing	Arrays	involving Integers
  Read	Negating	Numbers	involving Integers
  Read	Negating	Terms	involving Integers
  Read	Negating	Factors	involving Integers
  Read	Negating	Algebraic Expressions	involving Integers
  Read	Negating	Variables	involving Integers
  Read	Negating	Functions	involving Integers
+ Read	Negating	Arrays	involving Integers
  Read	Exponentiating	Numbers	involving Integers
  Read	Exponentiating	Terms	involving Integers
  Read	Exponentiating	Factors	involving Integers
  Read	Exponentiating	Algebraic Expressions	involving Integers
  Read	Exponentiating	Variables	involving Integers
  Read	Exponentiating	Functions	involving Integers
+ Read	Exponentiating	Arrays	involving Integers
  Read	Grouping	Numbers	involving Integers
  Read	Grouping	Terms	involving Integers
  Read	Grouping	Factors	involving Integers
  Read	Grouping	Algebraic Expressions	involving Integers
  Read	Grouping	Variables	involving Integers
  Read	Grouping	Functions	involving Integers
+ Read	Grouping	Arrays	involving Integers
  Recite	Sequencing	Numbers	involving Integers
  Recite	Sequencing	Terms	involving Integers
  Recite	Sequencing	Factors	involving Integers
  Recite	Sequencing	Algebraic Expressions	involving Integers
  Recite	Sequencing	Variables	involving Integers
  Recite	Sequencing	Functions	involving Integers
+ Recite	Sequencing	Arrays	involving Integers
  Recite	Ordering	Numbers	involving Integers
  Recite	Ordering	Terms	involving Integers
  Recite	Ordering	Factors	involving Integers
  Recite	Ordering	Algebraic Expressions	involving Integers
  Recite	Ordering	Variables	involving Integers
  Recite	Ordering	Functions	involving Integers
+ Recite	Ordering	Arrays	involving Integers
  Recite	Adding	Numbers	involving Integers
  Recite	Adding	Terms	involving Integers
  Recite	Adding	Factors	involving Integers
  Recite	Adding	Algebraic Expressions	involving Integers
  Recite	Adding	Variables	involving Integers
  Recite	Adding	Functions	involving Integers
+ Recite	Adding	Arrays	involving Integers
  Recite	Subtracting	Numbers	involving Integers
  Recite	Subtracting	Terms	involving Integers
  Recite	Subtracting	Factors	involving Integers
  Recite	Subtracting	Algebraic Expressions	involving Integers
  Recite	Subtracting	Variables	involving Integers
  Recite	Subtracting	Functions	involving Integers
+ Recite	Subtracting	Arrays	involving Integers
  Recite	Multiplying	Numbers	involving Integers
  Recite	Multiplying	Terms	involving Integers
  Recite	Multiplying	Factors	involving Integers
  Recite	Multiplying	Algebraic Expressions	involving Integers
  Recite	Multiplying	Variables	involving Integers
  Recite	Multiplying	Functions	involving Integers
+ Recite	Multiplying	Arrays	involving Integers
  Recite	Dividing	Numbers	involving Integers
  Recite	Dividing	Terms	involving Integers
  Recite	Dividing	Factors	involving Integers
  Recite	Dividing	Algebraic Expressions	involving Integers
  Recite	Dividing	Variables	involving Integers
  Recite	Dividing	Functions	involving Integers
+ Recite	Dividing	Arrays	involving Integers
  Recite	Negating	Numbers	involving Integers
  Recite	Negating	Terms	involving Integers
  Recite	Negating	Factors	involving Integers
  Recite	Negating	Algebraic Expressions	involving Integers
  Recite	Negating	Variables	involving Integers
  Recite	Negating	Functions	involving Integers
+ Recite	Negating	Arrays	involving Integers
  Recite	Exponentiating	Numbers	involving Integers
  Recite	Exponentiating	Terms	involving Integers
  Recite	Exponentiating	Factors	involving Integers
  Recite	Exponentiating	Algebraic Expressions	involving Integers
  Recite	Exponentiating	Variables	involving Integers
  Recite	Exponentiating	Functions	involving Integers
+ Recite	Exponentiating	Arrays	involving Integers
  Recite	Grouping	Numbers	involving Integers
  Recite	Grouping	Terms	involving Integers
  Recite	Grouping	Factors	involving Integers
  Recite	Grouping	Algebraic Expressions	involving Integers
  Recite	Grouping	Variables	involving Integers
  Recite	Grouping	Functions	involving Integers
+ Recite	Grouping	Arrays	involving Integers
  Write	Sequencing	Numbers	involving Integers
  Write	Sequencing	Terms	involving Integers
  Write	Sequencing	Factors	involving Integers
  Write	Sequencing	Algebraic Expressions	involving Integers
  Write	Sequencing	Variables	involving Integers
  Write	Sequencing	Functions	involving Integers
+ Write	Sequencing	Arrays	involving Integers
  Write	Ordering	Numbers	involving Integers
  Write	Ordering	Terms	involving Integers
  Write	Ordering	Factors	involving Integers
  Write	Ordering	Algebraic Expressions	involving Integers
  Write	Ordering	Variables	involving Integers
  Write	Ordering	Functions	involving Integers
+ Write	Ordering	Arrays	involving Integers
  Write	Adding	Numbers	involving Integers
  Write	Adding	Terms	involving Integers
  Write	Adding	Factors	involving Integers
  Write	Adding	Algebraic Expressions	involving Integers
  Write	Adding	Variables	involving Integers
  Write	Adding	Functions	involving Integers
+ Write	Adding	Arrays	involving Integers
  Write	Subtracting	Numbers	involving Integers
  Write	Subtracting	Terms	involving Integers
  Write	Subtracting	Factors	involving Integers
  Write	Subtracting	Algebraic Expressions	involving Integers
  Write	Subtracting	Variables	involving Integers
  Write	Subtracting	Functions	involving Integers
+ Write	Subtracting	Arrays	involving Integers
  Write	Multiplying	Numbers	involving Integers
  Write	Multiplying	Terms	involving Integers
  Write	Multiplying	Factors	involving Integers
  Write	Multiplying	Algebraic Expressions	involving Integers
  Write	Multiplying	Variables	involving Integers
  Write	Multiplying	Functions	involving Integers
+ Write	Multiplying	Arrays	involving Integers
  Write	Dividing	Numbers	involving Integers
  Write	Dividing	Terms	involving Integers
  Write	Dividing	Factors	involving Integers
  Write	Dividing	Algebraic Expressions	involving Integers
  Write	Dividing	Variables	involving Integers
  Write	Dividing	Functions	involving Integers
+ Write	Dividing	Arrays	involving Integers
  Write	Negating	Numbers	involving Integers
  Write	Negating	Terms	involving Integers
  Write	Negating	Factors	involving Integers
  Write	Negating	Algebraic Expressions	involving Integers
  Write	Negating	Variables	involving Integers
  Write	Negating	Functions	involving Integers
+ Write	Negating	Arrays	involving Integers
  Write	Exponentiating	Numbers	involving Integers
  Write	Exponentiating	Terms	involving Integers
  Write	Exponentiating	Factors	involving Integers
  Write	Exponentiating	Algebraic Expressions	involving Integers
  Write	Exponentiating	Variables	involving Integers
  Write	Exponentiating	Functions	involving Integers
+ Write	Exponentiating	Arrays	involving Integers
  Write	Grouping	Numbers	involving Integers
  Write	Grouping	Terms	involving Integers
  Write	Grouping	Factors	involving Integers
  Write	Grouping	Algebraic Expressions	involving Integers
  Write	Grouping	Variables	involving Integers
  Write	Grouping	Functions	involving Integers
+ Write	Grouping	Arrays	involving Integers
  Represent	Sequencing	Numbers	involving Integers
  Represent	Sequencing	Terms	involving Integers
  Represent	Sequencing	Factors	involving Integers
  Represent	Sequencing	Algebraic Expressions	involving Integers
  Represent	Sequencing	Variables	involving Integers
  Represent	Sequencing	Functions	involving Integers
+ Represent	Sequencing	Arrays	involving Integers
  Represent	Ordering	Numbers	involving Integers
  Represent	Ordering	Terms	involving Integers
  Represent	Ordering	Factors	involving Integers
  Represent	Ordering	Algebraic Expressions	involving Integers
  Represent	Ordering	Variables	involving Integers
  Represent	Ordering	Functions	involving Integers
+ Represent	Ordering	Arrays	involving Integers
  Represent	Adding	Numbers	involving Integers
  Represent	Adding	Terms	involving Integers
  Represent	Adding	Factors	involving Integers
  Represent	Adding	Algebraic Expressions	involving Integers
  Represent	Adding	Variables	involving Integers
  Represent	Adding	Functions	involving Integers
+ Represent	Adding	Arrays	involving Integers
  Represent	Subtracting	Numbers	involving Integers
  Represent	Subtracting	Terms	involving Integers
  Represent	Subtracting	Factors	involving Integers
  Represent	Subtracting	Algebraic Expressions	involving Integers
  Represent	Subtracting	Variables	involving Integers
  Represent	Subtracting	Functions	involving Integers
+ Represent	Subtracting	Arrays	involving Integers
  Represent	Multiplying	Numbers	involving Integers
  Represent	Multiplying	Terms	involving Integers
  Represent	Multiplying	Factors	involving Integers
  Represent	Multiplying	Algebraic Expressions	involving Integers
  Represent	Multiplying	Variables	involving Integers
  Represent	Multiplying	Functions	involving Integers
+ Represent	Multiplying	Arrays	involving Integers
  Represent	Dividing	Numbers	involving Integers
  Represent	Dividing	Terms	involving Integers
  Represent	Dividing	Factors	involving Integers
  Represent	Dividing	Algebraic Expressions	involving Integers
  Represent	Dividing	Variables	involving Integers
  Represent	Dividing	Functions	involving Integers
+ Represent	Dividing	Arrays	involving Integers
  Represent	Negating	Numbers	involving Integers
  Represent	Negating	Terms	involving Integers
  Represent	Negating	Factors	involving Integers
  Represent	Negating	Algebraic Expressions	involving Integers
  Represent	Negating	Variables	involving Integers
  Represent	Negating	Functions	involving Integers
+ Represent	Negating	Arrays	involving Integers
  Represent	Exponentiating	Numbers	involving Integers
  Represent	Exponentiating	Terms	involving Integers
  Represent	Exponentiating	Factors	involving Integers
  Represent	Exponentiating	Algebraic Expressions	involving Integers
  Represent	Exponentiating	Variables	involving Integers
  Represent	Exponentiating	Functions	involving Integers
+ Represent	Exponentiating	Arrays	involving Integers
  Represent	Grouping	Numbers	involving Integers
  Represent	Grouping	Terms	involving Integers
  Represent	Grouping	Factors	involving Integers
  Represent	Grouping	Algebraic Expressions	involving Integers
  Represent	Grouping	Variables	involving Integers
  Represent	Grouping	Functions	involving Integers
+ Represent	Grouping	Arrays	involving Integers
  Represent, with specimens,	Sequencing	Numbers	involving Integers
  Represent, with specimens,	Sequencing	Terms	involving Integers
  Represent, with specimens,	Sequencing	Factors	involving Integers
  Represent, with specimens,	Sequencing	Algebraic Expressions	involving Integers
  Represent, with specimens,	Sequencing	Variables	involving Integers
  Represent, with specimens,	Sequencing	Functions	involving Integers
+ Represent, with specimens,	Sequencing	Arrays	involving Integers
  Represent, with specimens,	Ordering	Numbers	involving Integers
  Represent, with specimens,	Ordering	Terms	involving Integers
  Represent, with specimens,	Ordering	Factors	involving Integers
  Represent, with specimens,	Ordering	Algebraic Expressions	involving Integers
  Represent, with specimens,	Ordering	Variables	involving Integers
  Represent, with specimens,	Ordering	Functions	involving Integers
+ Represent, with specimens,	Ordering	Arrays	involving Integers
  Represent, with specimens,	Adding	Numbers	involving Integers
  Represent, with specimens,	Adding	Terms	involving Integers
  Represent, with specimens,	Adding	Factors	involving Integers
  Represent, with specimens,	Adding	Algebraic Expressions	involving Integers
  Represent, with specimens,	Adding	Variables	involving Integers
  Represent, with specimens,	Adding	Functions	involving Integers
+ Represent, with specimens,	Adding	Arrays	involving Integers
  Represent, with specimens,	Subtracting	Numbers	involving Integers
  Represent, with specimens,	Subtracting	Terms	involving Integers
  Represent, with specimens,	Subtracting	Factors	involving Integers
  Represent, with specimens,	Subtracting	Algebraic Expressions	involving Integers
  Represent, with specimens,	Subtracting	Variables	involving Integers
  Represent, with specimens,	Subtracting	Functions	involving Integers
+ Represent, with specimens,	Subtracting	Arrays	involving Integers
  Represent, with specimens,	Multiplying	Numbers	involving Integers
  Represent, with specimens,	Multiplying	Terms	involving Integers
  Represent, with specimens,	Multiplying	Factors	involving Integers
  Represent, with specimens,	Multiplying	Algebraic Expressions	involving Integers
  Represent, with specimens,	Multiplying	Variables	involving Integers
  Represent, with specimens,	Multiplying	Functions	involving Integers
+ Represent, with specimens,	Multiplying	Arrays	involving Integers
  Represent, with specimens,	Dividing	Numbers	involving Integers
  Represent, with specimens,	Dividing	Terms	involving Integers
  Represent, with specimens,	Dividing	Factors	involving Integers
  Represent, with specimens,	Dividing	Algebraic Expressions	involving Integers
  Represent, with specimens,	Dividing	Variables	involving Integers
  Represent, with specimens,	Dividing	Functions	involving Integers
+ Represent, with specimens,	Dividing	Arrays	involving Integers
  Represent, with specimens,	Negating	Numbers	involving Integers
  Represent, with specimens,	Negating	Terms	involving Integers
  Represent, with specimens,	Negating	Factors	involving Integers
  Represent, with specimens,	Negating	Algebraic Expressions	involving Integers
  Represent, with specimens,	Negating	Variables	involving Integers
  Represent, with specimens,	Negating	Functions	involving Integers
+ Represent, with specimens,	Negating	Arrays	involving Integers
  Represent, with specimens,	Exponentiating	Numbers	involving Integers
  Represent, with specimens,	Exponentiating	Terms	involving Integers
  Represent, with specimens,	Exponentiating	Factors	involving Integers
  Represent, with specimens,	Exponentiating	Algebraic Expressions	involving Integers
  Represent, with specimens,	Exponentiating	Variables	involving Integers
  Represent, with specimens,	Exponentiating	Functions	involving Integers
+ Represent, with specimens,	Exponentiating	Arrays	involving Integers
  Represent, with specimens,	Grouping	Numbers	involving Integers
  Represent, with specimens,	Grouping	Terms	involving Integers
  Represent, with specimens,	Grouping	Factors	involving Integers
  Represent, with specimens,	Grouping	Algebraic Expressions	involving Integers
  Represent, with specimens,	Grouping	Variables	involving Integers
  Represent, with specimens,	Grouping	Functions	involving Integers
+ Represent, with specimens,	Grouping	Arrays	involving Integers
  Represent, with body parts,	Sequencing	Numbers	involving Integers
  Represent, with body parts,	Sequencing	Terms	involving Integers
  Represent, with body parts,	Sequencing	Factors	involving Integers
  Represent, with body parts,	Sequencing	Algebraic Expressions	involving Integers
  Represent, with body parts,	Sequencing	Variables	involving Integers
  Represent, with body parts,	Sequencing	Functions	involving Integers
+ Represent, with body parts,	Sequencing	Arrays	involving Integers
  Represent, with body parts,	Ordering	Numbers	involving Integers
  Represent, with body parts,	Ordering	Terms	involving Integers
  Represent, with body parts,	Ordering	Factors	involving Integers
  Represent, with body parts,	Ordering	Algebraic Expressions	involving Integers
  Represent, with body parts,	Ordering	Variables	involving Integers
  Represent, with body parts,	Ordering	Functions	involving Integers
+ Represent, with body parts,	Ordering	Arrays	involving Integers
  Represent, with body parts,	Adding	Numbers	involving Integers
  Represent, with body parts,	Adding	Terms	involving Integers
  Represent, with body parts,	Adding	Factors	involving Integers
  Represent, with body parts,	Adding	Algebraic Expressions	involving Integers
  Represent, with body parts,	Adding	Variables	involving Integers
  Represent, with body parts,	Adding	Functions	involving Integers
+ Represent, with body parts,	Adding	Arrays	involving Integers
  Represent, with body parts,	Subtracting	Numbers	involving Integers
  Represent, with body parts,	Subtracting	Terms	involving Integers
  Represent, with body parts,	Subtracting	Factors	involving Integers
  Represent, with body parts,	Subtracting	Algebraic Expressions	involving Integers
  Represent, with body parts,	Subtracting	Variables	involving Integers
  Represent, with body parts,	Subtracting	Functions	involving Integers
+ Represent, with body parts,	Subtracting	Arrays	involving Integers
  Represent, with body parts,	Multiplying	Numbers	involving Integers
  Represent, with body parts,	Multiplying	Terms	involving Integers
  Represent, with body parts,	Multiplying	Factors	involving Integers
  Represent, with body parts,	Multiplying	Algebraic Expressions	involving Integers
  Represent, with body parts,	Multiplying	Variables	involving Integers
  Represent, with body parts,	Multiplying	Functions	involving Integers
+ Represent, with body parts,	Multiplying	Arrays	involving Integers
  Represent, with body parts,	Dividing	Numbers	involving Integers
  Represent, with body parts,	Dividing	Terms	involving Integers
  Represent, with body parts,	Dividing	Factors	involving Integers
  Represent, with body parts,	Dividing	Algebraic Expressions	involving Integers
  Represent, with body parts,	Dividing	Variables	involving Integers
  Represent, with body parts,	Dividing	Functions	involving Integers
+ Represent, with body parts,	Dividing	Arrays	involving Integers
  Represent, with body parts,	Negating	Numbers	involving Integers
  Represent, with body parts,	Negating	Terms	involving Integers
  Represent, with body parts,	Negating	Factors	involving Integers
  Represent, with body parts,	Negating	Algebraic Expressions	involving Integers
  Represent, with body parts,	Negating	Variables	involving Integers
  Represent, with body parts,	Negating	Functions	involving Integers
+ Represent, with body parts,	Negating	Arrays	involving Integers
  Represent, with body parts,	Exponentiating	Numbers	involving Integers
  Represent, with body parts,	Exponentiating	Terms	involving Integers
  Represent, with body parts,	Exponentiating	Factors	involving Integers
  Represent, with body parts,	Exponentiating	Algebraic Expressions	involving Integers
  Represent, with body parts,	Exponentiating	Variables	involving Integers
  Represent, with body parts,	Exponentiating	Functions	involving Integers
+ Represent, with body parts,	Exponentiating	Arrays	involving Integers
  Represent, with body parts,	Grouping	Numbers	involving Integers
  Represent, with body parts,	Grouping	Terms	involving Integers
  Represent, with body parts,	Grouping	Factors	involving Integers
  Represent, with body parts,	Grouping	Algebraic Expressions	involving Integers
  Represent, with body parts,	Grouping	Variables	involving Integers
  Represent, with body parts,	Grouping	Functions	involving Integers
+ Represent, with body parts,	Grouping	Arrays	involving Integers
  Represent, with words,	Sequencing	Numbers	involving Integers
  Represent, with words,	Sequencing	Terms	involving Integers
  Represent, with words,	Sequencing	Factors	involving Integers
  Represent, with words,	Sequencing	Algebraic Expressions	involving Integers
  Represent, with words,	Sequencing	Variables	involving Integers
  Represent, with words,	Sequencing	Functions	involving Integers
+ Represent, with words,	Sequencing	Arrays	involving Integers
  Represent, with words,	Ordering	Numbers	involving Integers
  Represent, with words,	Ordering	Terms	involving Integers
  Represent, with words,	Ordering	Factors	involving Integers
  Represent, with words,	Ordering	Algebraic Expressions	involving Integers
  Represent, with words,	Ordering	Variables	involving Integers
  Represent, with words,	Ordering	Functions	involving Integers
+ Represent, with words,	Ordering	Arrays	involving Integers
  Represent, with words,	Adding	Numbers	involving Integers
  Represent, with words,	Adding	Terms	involving Integers
  Represent, with words,	Adding	Factors	involving Integers
  Represent, with words,	Adding	Algebraic Expressions	involving Integers
  Represent, with words,	Adding	Variables	involving Integers
  Represent, with words,	Adding	Functions	involving Integers
+ Represent, with words,	Adding	Arrays	involving Integers
  Represent, with words,	Subtracting	Numbers	involving Integers
  Represent, with words,	Subtracting	Terms	involving Integers
  Represent, with words,	Subtracting	Factors	involving Integers
  Represent, with words,	Subtracting	Algebraic Expressions	involving Integers
  Represent, with words,	Subtracting	Variables	involving Integers
  Represent, with words,	Subtracting	Functions	involving Integers
+ Represent, with words,	Subtracting	Arrays	involving Integers
  Represent, with words,	Multiplying	Numbers	involving Integers
  Represent, with words,	Multiplying	Terms	involving Integers
  Represent, with words,	Multiplying	Factors	involving Integers
  Represent, with words,	Multiplying	Algebraic Expressions	involving Integers
  Represent, with words,	Multiplying	Variables	involving Integers
  Represent, with words,	Multiplying	Functions	involving Integers
+ Represent, with words,	Multiplying	Arrays	involving Integers
  Represent, with words,	Dividing	Numbers	involving Integers
  Represent, with words,	Dividing	Terms	involving Integers
  Represent, with words,	Dividing	Factors	involving Integers
  Represent, with words,	Dividing	Algebraic Expressions	involving Integers
  Represent, with words,	Dividing	Variables	involving Integers
  Represent, with words,	Dividing	Functions	involving Integers
+ Represent, with words,	Dividing	Arrays	involving Integers
  Represent, with words,	Negating	Numbers	involving Integers
  Represent, with words,	Negating	Terms	involving Integers
  Represent, with words,	Negating	Factors	involving Integers
  Represent, with words,	Negating	Algebraic Expressions	involving Integers
  Represent, with words,	Negating	Variables	involving Integers
  Represent, with words,	Negating	Functions	involving Integers
+ Represent, with words,	Negating	Arrays	involving Integers
  Represent, with words,	Exponentiating	Numbers	involving Integers
  Represent, with words,	Exponentiating	Terms	involving Integers
  Represent, with words,	Exponentiating	Factors	involving Integers
  Represent, with words,	Exponentiating	Algebraic Expressions	involving Integers
  Represent, with words,	Exponentiating	Variables	involving Integers
  Represent, with words,	Exponentiating	Functions	involving Integers
+ Represent, with words,	Exponentiating	Arrays	involving Integers
  Represent, with words,	Grouping	Numbers	involving Integers
  Represent, with words,	Grouping	Terms	involving Integers
  Represent, with words,	Grouping	Factors	involving Integers
  Represent, with words,	Grouping	Algebraic Expressions	involving Integers
  Represent, with words,	Grouping	Variables	involving Integers
  Represent, with words,	Grouping	Functions	involving Integers
+ Represent, with words,	Grouping	Arrays	involving Integers

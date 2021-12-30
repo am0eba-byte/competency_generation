@@ -15,6 +15,8 @@ Read	Numerical Expressions	involving Complex Numbers
  Read	Distributions	involving Complex Numbers
  Read	Probability Models	involving Complex Numbers
  Read	Bivariate Data	involving Complex Numbers
+ Read	Elements	involving Complex Numbers
+ Read	Observations	involving Complex Numbers
  Read	Dependent Variables	involving Complex Numbers
  Read	Independent Variables	involving Complex Numbers
  Read	Sums	involving Complex Numbers
@@ -40,6 +42,8 @@ Read	Numerical Expressions	involving Complex Numbers
  Write	Distributions	involving Complex Numbers
  Write	Probability Models	involving Complex Numbers
  Write	Bivariate Data	involving Complex Numbers
+ Write	Elements	involving Complex Numbers
+ Write	Observations	involving Complex Numbers
  Write	Dependent Variables	involving Complex Numbers
  Write	Independent Variables	involving Complex Numbers
  Write	Sums	involving Complex Numbers
@@ -65,6 +69,8 @@ Read	Numerical Expressions	involving Complex Numbers
  Represent	Distributions	involving Complex Numbers
  Represent	Probability Models	involving Complex Numbers
  Represent	Bivariate Data	involving Complex Numbers
+ Represent	Elements	involving Complex Numbers
+ Represent	Observations	involving Complex Numbers
  Represent	Dependent Variables	involving Complex Numbers
  Represent	Independent Variables	involving Complex Numbers
  Represent	Sums	involving Complex Numbers
@@ -90,6 +96,8 @@ Read	Numerical Expressions	involving Complex Numbers
  Represent, with activities,	Distributions	involving Complex Numbers
  Represent, with activities,	Probability Models	involving Complex Numbers
  Represent, with activities,	Bivariate Data	involving Complex Numbers
+ Represent, with activities,	Elements	involving Complex Numbers
+ Represent, with activities,	Observations	involving Complex Numbers
  Represent, with activities,	Dependent Variables	involving Complex Numbers
  Represent, with activities,	Independent Variables	involving Complex Numbers
  Represent, with activities,	Sums	involving Complex Numbers
@@ -115,6 +123,8 @@ Read	Numerical Expressions	involving Complex Numbers
  Represent, with words,	Distributions	involving Complex Numbers
  Represent, with words,	Probability Models	involving Complex Numbers
  Represent, with words,	Bivariate Data	involving Complex Numbers
+ Represent, with words,	Elements	involving Complex Numbers
+ Represent, with words,	Observations	involving Complex Numbers
  Represent, with words,	Dependent Variables	involving Complex Numbers
  Represent, with words,	Independent Variables	involving Complex Numbers
  Represent, with words,	Sums	involving Complex Numbers
