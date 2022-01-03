@@ -838,6 +838,140 @@
         </xsl:result-document>
         
         
+        
+        
+        
+        
+        
+        
+        
+        <!--**************** PLANE SCOPE *********************************************-->
+        
+        <xsl:result-document method="text" href="plane/text/planeSeedOutput.txt">
+            <!-- <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>Formal Process Branch </xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            -->
+            <!--
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>PLANE: Formal Process + Process Predicate</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            
+            <xsl:variable name="FP_plane" as="element()+">
+                
+                <xsl:for-each select="key('scopes', $plane)">
+                    <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="PrPred_plane" as="element()+">
+                <xsl:for-each select="key('scopes', $plane)">
+                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="planeScopeString" select="'The Plane'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$FP_plane"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_plane"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$planeScopeString"/>
+            </xsl:call-template>
+            
+            
+            
+            <!--
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>PLANE: Formal Process + Math Operation + Quant Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            
+            <xsl:variable name="FP_plane" as="element()+">
+                <xsl:for-each select="key('scopes', $plane)">
+                    <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="MathOP_plane" as="element()+">
+                <xsl:for-each select="key('scopes', $plane)">
+                    <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="QO_plane" as="element()+">
+                <xsl:for-each select="key('scopes', $plane)">
+                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="planeScopeString" select="'The Plane'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$FP_plane"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_plane"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_plane"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$planeScopeString"/>
+            </xsl:call-template>
+            
+            
+            
+            <!-- <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>Knowledge Process Branch </xsl:comment>
+            <xsl:comment>####################################</xsl:comment>
+            
+            
+            <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>PLANE: Knowledge Process + Process Pred</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            
+            <xsl:variable name="KP_plane" as="element()+">
+                <xsl:for-each select="key('scopes', $plane)">
+                    <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="PrPred_plane" as="element()+">
+                <xsl:for-each select="key('scopes', $plane)">
+                    <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="planeScopeString" select="'The Plane'"/>
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$KP_plane"/>
+                <xsl:with-param name="param2" as="element()+" select="$PrPred_plane"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$planeScopeString"/>
+            </xsl:call-template>
+            
+            
+            
+            
+            <!--  <xsl:comment>####################################</xsl:comment>
+            <xsl:comment>PLANE: Knowledge Process + Math Operation + Quant Object</xsl:comment>
+            <xsl:comment>####################################</xsl:comment>-->
+            
+            <xsl:variable name="KP_plane" as="element()+">
+                <xsl:for-each select="key('scopes', $plane)">
+                    <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="MathOP_plane" as="element()+">
+                <xsl:for-each select="key('scopes', $plane)">
+                    <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="QO_plane" as="element()+">
+                <xsl:for-each select="key('scopes', $plane)">
+                    <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:variable name="planeScopeString" select="'The Plane'"/>
+            
+            
+            <xsl:call-template name="sentenceWriter">
+                <xsl:with-param name="param1" as="element()+" select="$KP_plane"/>
+                <xsl:with-param name="param2" as="element()+" select="$MathOP_plane"/>
+                <xsl:with-param name="param3" as="element()+" select="$QO_plane"/>
+                <xsl:with-param name="scopeParam" as="xs:string" select="$planeScopeString"/>
+            </xsl:call-template>
+            
+        </xsl:result-document>
+        
         <!--</xml>-->
     </xsl:template>
     

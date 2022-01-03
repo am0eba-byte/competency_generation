@@ -6,8 +6,11 @@ Read Numerical Expressions involving Rational Numbers
  Read Common Factors involving Rational Numbers
  Read Multiples involving Rational Numbers
  Read Common Multiples involving Rational Numbers
+ Read Place Values involving Rational Numbers
  Read SI Units involving Rational Numbers
  Read Data involving Rational Numbers
+ Read Realia involving Rational Numbers
+ Read Models involving Rational Numbers
  Read Ratios involving Rational Numbers
  Read Proportions involving Rational Numbers
  Read Numerical Inequalities involving Rational Numbers
@@ -41,8 +44,11 @@ Read Numerical Expressions involving Rational Numbers
  Recite Common Factors involving Rational Numbers
  Recite Multiples involving Rational Numbers
  Recite Common Multiples involving Rational Numbers
+ Recite Place Values involving Rational Numbers
  Recite SI Units involving Rational Numbers
  Recite Data involving Rational Numbers
+ Recite Realia involving Rational Numbers
+ Recite Models involving Rational Numbers
  Recite Ratios involving Rational Numbers
  Recite Proportions involving Rational Numbers
  Recite Numerical Inequalities involving Rational Numbers
@@ -76,8 +82,11 @@ Read Numerical Expressions involving Rational Numbers
  Write Common Factors involving Rational Numbers
  Write Multiples involving Rational Numbers
  Write Common Multiples involving Rational Numbers
+ Write Place Values involving Rational Numbers
  Write SI Units involving Rational Numbers
  Write Data involving Rational Numbers
+ Write Realia involving Rational Numbers
+ Write Models involving Rational Numbers
  Write Ratios involving Rational Numbers
  Write Proportions involving Rational Numbers
  Write Numerical Inequalities involving Rational Numbers
@@ -111,8 +120,11 @@ Read Numerical Expressions involving Rational Numbers
  Represent Common Factors involving Rational Numbers
  Represent Multiples involving Rational Numbers
  Represent Common Multiples involving Rational Numbers
+ Represent Place Values involving Rational Numbers
  Represent SI Units involving Rational Numbers
  Represent Data involving Rational Numbers
+ Represent Realia involving Rational Numbers
+ Represent Models involving Rational Numbers
  Represent Ratios involving Rational Numbers
  Represent Proportions involving Rational Numbers
  Represent Numerical Inequalities involving Rational Numbers
@@ -146,8 +158,11 @@ Read Numerical Expressions involving Rational Numbers
  Represent, with activities, Common Factors involving Rational Numbers
  Represent, with activities, Multiples involving Rational Numbers
  Represent, with activities, Common Multiples involving Rational Numbers
+ Represent, with activities, Place Values involving Rational Numbers
  Represent, with activities, SI Units involving Rational Numbers
  Represent, with activities, Data involving Rational Numbers
+ Represent, with activities, Realia involving Rational Numbers
+ Represent, with activities, Models involving Rational Numbers
  Represent, with activities, Ratios involving Rational Numbers
  Represent, with activities, Proportions involving Rational Numbers
  Represent, with activities, Numerical Inequalities involving Rational Numbers
@@ -181,8 +196,11 @@ Read Numerical Expressions involving Rational Numbers
  Represent, with words, Common Factors involving Rational Numbers
  Represent, with words, Multiples involving Rational Numbers
  Represent, with words, Common Multiples involving Rational Numbers
+ Represent, with words, Place Values involving Rational Numbers
  Represent, with words, SI Units involving Rational Numbers
  Represent, with words, Data involving Rational Numbers
+ Represent, with words, Realia involving Rational Numbers
+ Represent, with words, Models involving Rational Numbers
  Represent, with words, Ratios involving Rational Numbers
  Represent, with words, Proportions involving Rational Numbers
  Represent, with words, Numerical Inequalities involving Rational Numbers
@@ -216,8 +234,11 @@ Read Numerical Expressions involving Rational Numbers
  Randomly sample Common Factors involving Rational Numbers
  Randomly sample Multiples involving Rational Numbers
  Randomly sample Common Multiples involving Rational Numbers
+ Randomly sample Place Values involving Rational Numbers
  Randomly sample SI Units involving Rational Numbers
  Randomly sample Data involving Rational Numbers
+ Randomly sample Realia involving Rational Numbers
+ Randomly sample Models involving Rational Numbers
  Randomly sample Ratios involving Rational Numbers
  Randomly sample Proportions involving Rational Numbers
  Randomly sample Numerical Inequalities involving Rational Numbers
@@ -755,8 +776,11 @@ Read Numerical Expressions involving Rational Numbers
  Remember Common Factors involving Rational Numbers
  Remember Multiples involving Rational Numbers
  Remember Common Multiples involving Rational Numbers
+ Remember Place Values involving Rational Numbers
  Remember SI Units involving Rational Numbers
  Remember Data involving Rational Numbers
+ Remember Realia involving Rational Numbers
+ Remember Models involving Rational Numbers
  Remember Ratios involving Rational Numbers
  Remember Proportions involving Rational Numbers
  Remember Numerical Inequalities involving Rational Numbers
@@ -790,8 +814,11 @@ Read Numerical Expressions involving Rational Numbers
  Evaluate Common Factors involving Rational Numbers
  Evaluate Multiples involving Rational Numbers
  Evaluate Common Multiples involving Rational Numbers
+ Evaluate Place Values involving Rational Numbers
  Evaluate SI Units involving Rational Numbers
  Evaluate Data involving Rational Numbers
+ Evaluate Realia involving Rational Numbers
+ Evaluate Models involving Rational Numbers
  Evaluate Ratios involving Rational Numbers
  Evaluate Proportions involving Rational Numbers
  Evaluate Numerical Inequalities involving Rational Numbers
@@ -825,8 +852,11 @@ Read Numerical Expressions involving Rational Numbers
  Create Common Factors involving Rational Numbers
  Create Multiples involving Rational Numbers
  Create Common Multiples involving Rational Numbers
+ Create Place Values involving Rational Numbers
  Create SI Units involving Rational Numbers
  Create Data involving Rational Numbers
+ Create Realia involving Rational Numbers
+ Create Models involving Rational Numbers
  Create Ratios involving Rational Numbers
  Create Proportions involving Rational Numbers
  Create Numerical Inequalities involving Rational Numbers
@@ -860,8 +890,11 @@ Read Numerical Expressions involving Rational Numbers
  Understand Common Factors involving Rational Numbers
  Understand Multiples involving Rational Numbers
  Understand Common Multiples involving Rational Numbers
+ Understand Place Values involving Rational Numbers
  Understand SI Units involving Rational Numbers
  Understand Data involving Rational Numbers
+ Understand Realia involving Rational Numbers
+ Understand Models involving Rational Numbers
  Understand Ratios involving Rational Numbers
  Understand Proportions involving Rational Numbers
  Understand Numerical Inequalities involving Rational Numbers
@@ -895,8 +928,11 @@ Read Numerical Expressions involving Rational Numbers
  Apply Common Factors involving Rational Numbers
  Apply Multiples involving Rational Numbers
  Apply Common Multiples involving Rational Numbers
+ Apply Place Values involving Rational Numbers
  Apply SI Units involving Rational Numbers
  Apply Data involving Rational Numbers
+ Apply Realia involving Rational Numbers
+ Apply Models involving Rational Numbers
  Apply Ratios involving Rational Numbers
  Apply Proportions involving Rational Numbers
  Apply Numerical Inequalities involving Rational Numbers
@@ -930,8 +966,11 @@ Read Numerical Expressions involving Rational Numbers
  Analyze Common Factors involving Rational Numbers
  Analyze Multiples involving Rational Numbers
  Analyze Common Multiples involving Rational Numbers
+ Analyze Place Values involving Rational Numbers
  Analyze SI Units involving Rational Numbers
  Analyze Data involving Rational Numbers
+ Analyze Realia involving Rational Numbers
+ Analyze Models involving Rational Numbers
  Analyze Ratios involving Rational Numbers
  Analyze Proportions involving Rational Numbers
  Analyze Numerical Inequalities involving Rational Numbers

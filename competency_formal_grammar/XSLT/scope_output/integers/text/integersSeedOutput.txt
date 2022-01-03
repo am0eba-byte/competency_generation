@@ -8,6 +8,8 @@ Read Numerical Expressions involving Integers
  Read Standard Units involving Integers
  Read SI Units involving Integers
  Read Data involving Integers
+ Read Realia involving Integers
+ Read Models involving Integers
  Read Ratios involving Integers
  Read Proportions involving Integers
  Read Numerical Inequalities involving Integers
@@ -36,6 +38,8 @@ Read Numerical Expressions involving Integers
  Recite Standard Units involving Integers
  Recite SI Units involving Integers
  Recite Data involving Integers
+ Recite Realia involving Integers
+ Recite Models involving Integers
  Recite Ratios involving Integers
  Recite Proportions involving Integers
  Recite Numerical Inequalities involving Integers
@@ -64,6 +68,8 @@ Read Numerical Expressions involving Integers
  Write Standard Units involving Integers
  Write SI Units involving Integers
  Write Data involving Integers
+ Write Realia involving Integers
+ Write Models involving Integers
  Write Ratios involving Integers
  Write Proportions involving Integers
  Write Numerical Inequalities involving Integers
@@ -92,6 +98,8 @@ Read Numerical Expressions involving Integers
  Represent Standard Units involving Integers
  Represent SI Units involving Integers
  Represent Data involving Integers
+ Represent Realia involving Integers
+ Represent Models involving Integers
  Represent Ratios involving Integers
  Represent Proportions involving Integers
  Represent Numerical Inequalities involving Integers
@@ -120,6 +128,8 @@ Read Numerical Expressions involving Integers
  Represent, with specimens, Standard Units involving Integers
  Represent, with specimens, SI Units involving Integers
  Represent, with specimens, Data involving Integers
+ Represent, with specimens, Realia involving Integers
+ Represent, with specimens, Models involving Integers
  Represent, with specimens, Ratios involving Integers
  Represent, with specimens, Proportions involving Integers
  Represent, with specimens, Numerical Inequalities involving Integers
@@ -148,6 +158,8 @@ Read Numerical Expressions involving Integers
  Represent, with body parts, Standard Units involving Integers
  Represent, with body parts, SI Units involving Integers
  Represent, with body parts, Data involving Integers
+ Represent, with body parts, Realia involving Integers
+ Represent, with body parts, Models involving Integers
  Represent, with body parts, Ratios involving Integers
  Represent, with body parts, Proportions involving Integers
  Represent, with body parts, Numerical Inequalities involving Integers
@@ -176,6 +188,8 @@ Read Numerical Expressions involving Integers
  Represent, with words, Standard Units involving Integers
  Represent, with words, SI Units involving Integers
  Represent, with words, Data involving Integers
+ Represent, with words, Realia involving Integers
+ Represent, with words, Models involving Integers
  Represent, with words, Ratios involving Integers
  Represent, with words, Proportions involving Integers
  Represent, with words, Numerical Inequalities involving Integers
@@ -645,6 +659,8 @@ Read Numerical Expressions involving Integers
  Remember Standard Units involving Integers
  Remember SI Units involving Integers
  Remember Data involving Integers
+ Remember Realia involving Integers
+ Remember Models involving Integers
  Remember Ratios involving Integers
  Remember Proportions involving Integers
  Remember Numerical Inequalities involving Integers
@@ -673,6 +689,8 @@ Read Numerical Expressions involving Integers
  Evaluate Standard Units involving Integers
  Evaluate SI Units involving Integers
  Evaluate Data involving Integers
+ Evaluate Realia involving Integers
+ Evaluate Models involving Integers
  Evaluate Ratios involving Integers
  Evaluate Proportions involving Integers
  Evaluate Numerical Inequalities involving Integers
@@ -701,6 +719,8 @@ Read Numerical Expressions involving Integers
  Create Standard Units involving Integers
  Create SI Units involving Integers
  Create Data involving Integers
+ Create Realia involving Integers
+ Create Models involving Integers
  Create Ratios involving Integers
  Create Proportions involving Integers
  Create Numerical Inequalities involving Integers
@@ -729,6 +749,8 @@ Read Numerical Expressions involving Integers
  Understand Standard Units involving Integers
  Understand SI Units involving Integers
  Understand Data involving Integers
+ Understand Realia involving Integers
+ Understand Models involving Integers
  Understand Ratios involving Integers
  Understand Proportions involving Integers
  Understand Numerical Inequalities involving Integers
@@ -757,6 +779,8 @@ Read Numerical Expressions involving Integers
  Apply Standard Units involving Integers
  Apply SI Units involving Integers
  Apply Data involving Integers
+ Apply Realia involving Integers
+ Apply Models involving Integers
  Apply Ratios involving Integers
  Apply Proportions involving Integers
  Apply Numerical Inequalities involving Integers
@@ -785,6 +809,8 @@ Read Numerical Expressions involving Integers
  Analyze Standard Units involving Integers
  Analyze SI Units involving Integers
  Analyze Data involving Integers
+ Analyze Realia involving Integers
+ Analyze Models involving Integers
  Analyze Ratios involving Integers
  Analyze Proportions involving Integers
  Analyze Numerical Inequalities involving Integers

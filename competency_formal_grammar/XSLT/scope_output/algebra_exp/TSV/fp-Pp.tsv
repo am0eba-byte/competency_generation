@@ -4,6 +4,8 @@ Read	Volumes	involving Algebraic Expressions
  Read	Perimeters	involving Algebraic Expressions
  Read	Data	involving Algebraic Expressions
  Read	Surface Areas	involving Algebraic Expressions
+ Read	Realia	involving Algebraic Expressions
+ Read	Models	involving Algebraic Expressions
  Read	Congruence	involving Algebraic Expressions
  Read	Similarity	involving Algebraic Expressions
  Read	Proportions	involving Algebraic Expressions
@@ -40,6 +42,8 @@ Read	Volumes	involving Algebraic Expressions
  Recite	Perimeters	involving Algebraic Expressions
  Recite	Data	involving Algebraic Expressions
  Recite	Surface Areas	involving Algebraic Expressions
+ Recite	Realia	involving Algebraic Expressions
+ Recite	Models	involving Algebraic Expressions
  Recite	Congruence	involving Algebraic Expressions
  Recite	Similarity	involving Algebraic Expressions
  Recite	Proportions	involving Algebraic Expressions
@@ -76,6 +80,8 @@ Read	Volumes	involving Algebraic Expressions
  Write	Perimeters	involving Algebraic Expressions
  Write	Data	involving Algebraic Expressions
  Write	Surface Areas	involving Algebraic Expressions
+ Write	Realia	involving Algebraic Expressions
+ Write	Models	involving Algebraic Expressions
  Write	Congruence	involving Algebraic Expressions
  Write	Similarity	involving Algebraic Expressions
  Write	Proportions	involving Algebraic Expressions
@@ -112,6 +118,8 @@ Read	Volumes	involving Algebraic Expressions
  Represent	Perimeters	involving Algebraic Expressions
  Represent	Data	involving Algebraic Expressions
  Represent	Surface Areas	involving Algebraic Expressions
+ Represent	Realia	involving Algebraic Expressions
+ Represent	Models	involving Algebraic Expressions
  Represent	Congruence	involving Algebraic Expressions
  Represent	Similarity	involving Algebraic Expressions
  Represent	Proportions	involving Algebraic Expressions
@@ -148,6 +156,8 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with activities,	Perimeters	involving Algebraic Expressions
  Represent, with activities,	Data	involving Algebraic Expressions
  Represent, with activities,	Surface Areas	involving Algebraic Expressions
+ Represent, with activities,	Realia	involving Algebraic Expressions
+ Represent, with activities,	Models	involving Algebraic Expressions
  Represent, with activities,	Congruence	involving Algebraic Expressions
  Represent, with activities,	Similarity	involving Algebraic Expressions
  Represent, with activities,	Proportions	involving Algebraic Expressions
@@ -184,6 +194,8 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with words,	Perimeters	involving Algebraic Expressions
  Represent, with words,	Data	involving Algebraic Expressions
  Represent, with words,	Surface Areas	involving Algebraic Expressions
+ Represent, with words,	Realia	involving Algebraic Expressions
+ Represent, with words,	Models	involving Algebraic Expressions
  Represent, with words,	Congruence	involving Algebraic Expressions
  Represent, with words,	Similarity	involving Algebraic Expressions
  Represent, with words,	Proportions	involving Algebraic Expressions
@@ -220,6 +232,8 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with symbols,	Perimeters	involving Algebraic Expressions
  Represent, with symbols,	Data	involving Algebraic Expressions
  Represent, with symbols,	Surface Areas	involving Algebraic Expressions
+ Represent, with symbols,	Realia	involving Algebraic Expressions
+ Represent, with symbols,	Models	involving Algebraic Expressions
  Represent, with symbols,	Congruence	involving Algebraic Expressions
  Represent, with symbols,	Similarity	involving Algebraic Expressions
  Represent, with symbols,	Proportions	involving Algebraic Expressions
@@ -256,6 +270,8 @@ Read	Volumes	involving Algebraic Expressions
  Represent, with graphs,	Perimeters	involving Algebraic Expressions
  Represent, with graphs,	Data	involving Algebraic Expressions
  Represent, with graphs,	Surface Areas	involving Algebraic Expressions
+ Represent, with graphs,	Realia	involving Algebraic Expressions
+ Represent, with graphs,	Models	involving Algebraic Expressions
  Represent, with graphs,	Congruence	involving Algebraic Expressions
  Represent, with graphs,	Similarity	involving Algebraic Expressions
  Represent, with graphs,	Proportions	involving Algebraic Expressions
@@ -292,6 +308,8 @@ Read	Volumes	involving Algebraic Expressions
  Randomly sample	Perimeters	involving Algebraic Expressions
  Randomly sample	Data	involving Algebraic Expressions
  Randomly sample	Surface Areas	involving Algebraic Expressions
+ Randomly sample	Realia	involving Algebraic Expressions
+ Randomly sample	Models	involving Algebraic Expressions
  Randomly sample	Congruence	involving Algebraic Expressions
  Randomly sample	Similarity	involving Algebraic Expressions
  Randomly sample	Proportions	involving Algebraic Expressions
