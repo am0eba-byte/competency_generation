@@ -156,6 +156,13 @@ The bulk XML output file for each scope competency is located within their respe
 Location: `competency_generation\competency_formal_grammar\XSLT\scope_output\[scope-name]\*.xml`
 
 
+#### Generates plain text (.txt) file:
+Location: `competency_generation\competency_formal_grammar\XSLT\oneTXT-scopes-compgenerator.xsl`
+
+## Plain Text (.txt) Output:
+Location: `competency_generation\competency_formal_grammar\XSLT\scope_output\[scope-name]\text\[scopeName]SeedOutput.txt`
+
+
 ### Generates scoped TSV files:
 XSLT script that does the same thing the XML generator above does, except instead of one big XML file with every sentence group inside, 
 it generates separate tab-separated values (TSV) files for each collection of different sentence structure groups using xsl:result-document.
