@@ -98,7 +98,7 @@
 
         <processBranch>
             <processPred>
-                <string class="wholenum">Volumes</string>
+                <string>Volumes</string>
                 <string class="wholenum">Numerical Expressions</string>
                 <string class="wholenum">Numerical Equations</string>
                 <string class="wholenum">Properties of Objects</string>
@@ -114,31 +114,31 @@
                 <string class="wholenum">Areas</string>
                 <string class="wholenum">Perimeters</string>
                 <string class="wholenum">Data</string>
-                <string class="wholenum">Shapes</string>
-                <string class="wholenum">Surface Areas</string>
+                <string>Shapes</string>
+                <string>Surface Areas</string>
                 <string class="wholenum">Realia</string>
                 <string class="wholenum">Models</string>
-                <string class="wholenum">Congruence</string>
-                <string class="wholenum">Similarity</string>
-                <string class="wholenum">Ratios</string>
-                <string class="wholenum">Proportions</string>
+                <string>Congruence</string>
+                <string>Similarity</string>
+                <string>Ratios</string>
+                <string>Proportions</string>
                 <string class="wholenum">Numerical Inequalities</string>
-                <string class="wholenum">Algebraic Equations</string>
-                <string class="wholenum">Algebraic Inequalities</string>
+                <string>Algebraic Equations</string>
+                <string>Algebraic Inequalities</string>
                 <string class="wholenum">Lines</string>
-                <string class="wholenum">Linear Equations</string>
-                <string class="wholenum">Simultaneous Equations</string>
-                <string class="wholenum">Statistical Variability</string>
-                <string class="wholenum">Distributions</string>
-                <string class="wholenum">Populations</string>
-                <string class="wholenum">Probability Models</string>
-                <string class="wholenum">Bivariate Data</string>
-                <string class="wholenum">Sets</string>
-                <string class="wholenum">Elements</string>
-                <string class="wholenum">Experiments</string>
+                <string>Linear Equations</string>
+                <string>Simultaneous Equations</string>
+                <string>Statistical Variability</string>
+                <string>Distributions</string>
+                <string>Populations</string>
+                <string>Probability Models</string>
+                <string>Bivariate Data</string>
+                <string>Sets</string>
+                <string>Elements</string>
+                <string>Experiments</string>
                 <string class="wholenum">Observations</string>
-                <string class="wholenum">Dependent Variables</string>
-                <string class="wholenum">Independent Variables</string>
+                <string>Dependent Variables</string>
+                <string>Independent Variables</string>
                 <string class="wholenum">Sums</string>
                 <string class="wholenum">Differences</string>
                 <string class="wholenum">Products</string>
@@ -151,8 +151,8 @@
                 <string class="wholenum">Qualitative Attributes</string>
                 <string>Plane Figures</string>
                 <string>Objects in Space</string>
-                <string class="wholenum">Samples</string>
-                <string class="wholenum">Random Samples</string>
+                <string>Samples</string>
+                <string>Random Samples</string>
                 <string>Prisms and Cylinders</string>
                 <string>Spheres</string>
                 <string>Cones</string>
@@ -180,7 +180,8 @@
             <mathOPobject>
                 <mathOperation>
                     <string class="wholenum">Naming</string>
-                    <string class="wholenum">Sequencing</string>
+                    <string class="wholenum">Counting</string>
+                    <string>Sequencing</string>
                     <string class="wholenum">Ordering</string>
                     <string class="wholenum">Adding</string>
                     <string class="wholenum">Subtracting</string>
@@ -197,13 +198,13 @@
                     <string class="wholenum">Numbers</string>
                     <string class="wholenum">Terms</string>
                     <string class="wholenum">Factors</string>
-                    <string class="wholenum">Angles</string>
+                    <string>Angles</string>
 
-                    <string class="wholenum">Algebraic Expressions</string>
-                    <string class="wholenum">Variables</string>
-                    <string class="wholenum">Functions</string>
-                    <string class="wholenum">Chance Processes</string>
-                    <string class="wholenum">Arrays</string>
+                    <string>Algebraic Expressions</string>
+                    <string>Variables</string>
+                    <string>Functions</string>
+                    <string>Chance Processes</string>
+                    <string>Arrays</string>
                 </quant>
             </mathOPobject>
 

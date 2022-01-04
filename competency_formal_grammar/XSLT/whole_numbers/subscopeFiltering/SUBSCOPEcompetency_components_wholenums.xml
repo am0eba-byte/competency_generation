@@ -233,15 +233,15 @@
         <subScope>
             <string class="wholenum" scopeClass="sing" id="0">0</string> <!-- (remove "Whole Numbers") => involving The Number 0? -->
             <string class="wholenum" scopeClass="sing" id="1">1</string> <!-- (remove "Whole Numbers") => involving The Number One? -->
-            <string class="wholenum" scopeClass="to" id="2">to 2</string>
-            <string class="wholenum" scopeClass="to" id="3">to 3</string>
-            <string class="wholenum" scopeClass="to" id="4">to 4</string>
-            <string class="wholenum" scopeClass="to" id="5">to 5</string>
-            <string class="wholenum" scopeClass="within" id="10">within 10</string>
-            <string class="wholenum" scopeClass="within" id="20">within 20</string>
-            <string class="wholenum" scopeClass="within" id="100">within 100</string>
-            <string class="wholenum" scopeClass="within" id="120">within 120</string>
-            <string class="wholenum" scopeClass="within" id="1000">within 1000</string>
+            <string class="wholenum" scopeClass="to" id="2" extends="1">to 2</string>
+            <string class="wholenum" scopeClass="to" id="3" extends="2">to 3</string>
+            <string class="wholenum" scopeClass="to" id="4" extends="3">to 4</string>
+            <string class="wholenum" scopeClass="to" id="5" extends="4">to 5</string>
+            <string class="wholenum" scopeClass="within" id="10" extends="5">within 10</string>
+            <string class="wholenum" scopeClass="within" id="20" extends="10">within 20</string>
+            <string class="wholenum" scopeClass="within" id="100" extends="20">within 100</string>
+            <string class="wholenum" scopeClass="within" id="120" extends="100">within 120</string>
+            <string class="wholenum" scopeClass="within" id="1000" extends="120">within 1000</string>
         </subScope>
 
     </compParts>
