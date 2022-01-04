@@ -10,7 +10,7 @@
  <!--
  METHOD: XSLT parameters and a single XSLT named template that processes a series of conditions depending on the 
  number of input parameters, goes and looks up the information from the source tree. 
- This XSLT generates, currently, 8 different kinds of sentence outputs based on 7 possible input parameters.
+ This XSLT generates, currently, 8 different kinds of whole numbers scope sentence outputs based on 7 possible input parameters.
  -->
     
     <xsl:output method="xml" indent="yes"/>
