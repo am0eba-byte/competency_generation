@@ -339,25 +339,40 @@ just as you would with the scopes variables:
 
 
 
+
 ## Considerations
 
 - Whole Numbers scope specifications
 - Filtering specific strings' exclusions (components that would never occur together if "x" string exists)
 - - create subsets of objects that wouldn't occur together 
-- Making Sense of the Nonsense output
-- creating separate XSLT generators for each scope
+- Add attributes to strings with learning level connotations (primary, secondary, etc)
+- Add attributes for SCOPE RELATIONSHIPS (`@extends="[this_child_scope_ID]`) => to be represented in output XML's sentence elements
+- Whole Numbers output:
+- - implementing the whole numbers subscopes as separate outputs? (separate filtering needs for each wholenums subscope?)
+- - notation objects + sub scopes? (some sub scopes do not make sense with notations, i.e. "0 in Base Ten")
+- output with Knowledge Subprocess (kp-sp-mathop) - get rid of math operation?
+- - example: from "Evaluate by adding to Adding Terms" (kp-sp-mathop) to "Evaluate Adding Terms by adding to" (kp-mathop-sp)
+
 
 ## Final Data Implementation
 
 
 
-### short term focus scopes:
+### K-5 focus lens:
+- whole numbers
+- numerical expressions
+- algebraic expressions
+- integers
+- rational numbers (+ filtered notation objects?)
+
+### scope competencies generated so far:
 
 - complex numbers + imaginary numbers
 - integers
 - rational numbers
 - algebraic expressions
 - space
+- the plane
 
 ### scopes to do:
 - real numbers 
@@ -368,9 +383,6 @@ just as you would with the scopes variables:
 - random numbers
 - expected values
 - probabilities
-- the plane
-- numerical expressions
-- whole numbers
 
 
 
