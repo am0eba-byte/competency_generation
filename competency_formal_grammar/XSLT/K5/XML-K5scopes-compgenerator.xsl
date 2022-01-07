@@ -11,29 +11,15 @@
 
     <xsl:param name="formal_process" as="xs:string" select="'formalProcess'"/>
     <xsl:param name="knowledge_process" as="xs:string" select="'knowledgeProcess'"/>
-
     <xsl:param name="processPred" as="xs:string" select="'processPred'"/>
-
     <!--<xsl:param name="specific_object" as="xs:string" select="'specificObject'"/>-->
-
     <xsl:param name="math_operation" as="xs:string" select="'mathOperation'"/>
     <xsl:param name="object" as="xs:string" select="'quant'"/>
+    <xsl:param name="notationObject" as="xs:string" select="'notationObject'"/>
 
-    <!-- SCOPE PARAMS -->
-    <xsl:param name="complex" as="xs:string" select="'complex'"/>
-    <xsl:param name="imag" as="xs:string" select="'imag'"/>
+    <!-- K-5 SCOPE PARAMS -->
     <xsl:param name="int" as="xs:string" select="'int'"/>
     <xsl:param name="rational" as="xs:string" select="'rational'"/>
-    <xsl:param name="real" as="xs:string" select="'real'"/>
-    <xsl:param name="unit" as="xs:string" select="'unit'"/>
-    <xsl:param name="vector" as="xs:string" select="'vector'"/>
-    <xsl:param name="matrix" as="xs:string" select="'matrix'"/>
-    <xsl:param name="infinite" as="xs:string" select="'infinite'"/>
-    <xsl:param name="random" as="xs:string" select="'random'"/>
-    <xsl:param name="expect" as="xs:string" select="'expect'"/>
-    <xsl:param name="prob" as="xs:string" select="'prob'"/>
-    <xsl:param name="plane" as="xs:string" select="'plane'"/>
-    <xsl:param name="space" as="xs:string" select="'space'"/>
     <xsl:param name="algexp" as="xs:string" select="'algexp'"/>
     <xsl:param name="numexp" as="xs:string" select="'numexp'"/>
     <xsl:param name="wholenum" as="xs:string" select="'wholenum'"/>
@@ -41,6 +27,13 @@
     <!-- KEYS -->
     <!-- SCOPE KEYS -->
     <xsl:key name="scopes" match="string" use="@class ! tokenize(., '\s+')"/>
+
+
+    <!-- NOTATION STRING KEY -->
+    <xsl:key name="notationKey" match="string" use="@subclass ! normalize-space()"/>
+    <!-- SUBCLASS NOTATION PARAMS -->
+    <xsl:param name="notation" as="xs:string" select="'notation'"/>
+    
 
     <!-- KEYS: all components -->
     <xsl:key name="elements" match="compParts" use="descendant::*"/>
@@ -53,7 +46,9 @@
         <xsl:param name="param1" as="element()+" required="yes"/>
         <xsl:param name="param2" as="element()+" required="yes"/>
         <xsl:param name="param3" as="element()*"/>
+        <xsl:param name="param4" as="element()*"/>
         <xsl:param name="scopeParam" as="xs:string"/>
+        <xsl:param name="NOparam3" as="element()*"/>
 
         <!-- MAX NUM OF PARAMS FOR ALL OTHER SCOPES: 3 -->
 
@@ -66,6 +61,8 @@
         <xsl:variable name="var1" as="xs:string+" select="$param1/parent::* ! name()"/>
         <xsl:variable name="var2" as="xs:string+" select="$param2/parent::* ! name()"/>
         <xsl:variable name="var3" as="xs:string*" select="$param3/parent::* ! name()"/>
+        <xsl:variable name="var4" as="xs:string*" select="$param4/parent::* ! name()"/>
+        <xsl:variable name="varNO" as="xs:string*" select="'notationObject'"/>
         <!-- add new variable(?) to insert scope string @ end of sentence -->
         <!--<xsl:variable name="scopeName" as="xs:string*" select="key('scopes', current())"/>-->
 
@@ -76,11 +73,41 @@
                 <xsl:variable name="currLevel2" as="xs:string?" select="current()"/>
 
                 <xsl:choose>
-                    <!-- CHOICE 1 -->
+                    
                     <xsl:when test="$param3">
                         <xsl:for-each select="$param3 ! normalize-space()">
                             <xsl:variable name="currLevel3" as="xs:string?" select="current()"/>
-                            <xsl:for-each select="$scopeParam">
+                           <xsl:choose>
+                               <xsl:when test="$param4"> <!-- 4 param branch: always have notation objects -->
+                                   <xsl:for-each select="$param4 ! normalize-space()">
+                                       <xsl:variable name="currLevel4" as="xs:string?"
+                                           select="current()"/>
+                                       <xsl:for-each select="$scopeParam">
+                                           <xsl:variable name="scopeInsert" as="xs:string"
+                                               select="current()"/>
+                                           <componentSentence>
+                                               <xsl:element name="{$var1}">
+                                                   <xsl:sequence select="$currLevel1"/>
+                                               </xsl:element>
+                                               <xsl:element name="{$var2}">
+                                                   <xsl:sequence select="$currLevel2"/>
+                                               </xsl:element>
+                                               <xsl:element name="{$var3}">
+                                                   <xsl:sequence select="$currLevel3"/>
+                                               </xsl:element>
+                                               <xsl:element name="scopeName">
+                                                   <xsl:sequence select="concat('involving ', $scopeInsert)"/>
+                                               </xsl:element>
+                                               <xsl:element name="{$var4}">
+                                                   <xsl:sequence select="$currLevel4"/>
+                                               </xsl:element>
+                                           </componentSentence>
+                                           
+                                       </xsl:for-each>
+                                   </xsl:for-each>
+                               </xsl:when>
+                               <xsl:otherwise> <!-- 3 param branch: without notation object -->
+                                  <xsl:for-each select="$scopeParam">
                                 <xsl:variable name="scopeInsert" as="xs:string" select="current()"/>
                                 <componentSentence>
                                     <xsl:element name="{$var1}">
@@ -97,10 +124,37 @@
                                     </xsl:element>
                                 </componentSentence>
                             </xsl:for-each>
+                              </xsl:otherwise>
+                           </xsl:choose>
                         </xsl:for-each>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:for-each select="$scopeParam">
+                        <xsl:choose>
+                            <xsl:when test="$NOparam3">
+                                <xsl:for-each select="$NOparam3">  <!-- 3 param branch: with notation object -->
+                                    <xsl:variable name="NO" as="xs:string?" select="current()"/>
+                                    <xsl:for-each select="$scopeParam">
+                                        <xsl:variable name="scopeInsert" as="xs:string" select="current()"/>
+                                        <componentSentence>
+                                            <xsl:element name="{$var1}">
+                                                <xsl:sequence select="$currLevel1"/>
+                                            </xsl:element>
+                                            <xsl:element name="{$var2}">
+                                                <xsl:sequence select="$currLevel2"/>
+                                            </xsl:element>
+                                            <xsl:element name="scopeName">
+                                                <xsl:sequence select="concat('involving ', $scopeInsert)"/>
+                                            </xsl:element>
+                                            <xsl:element name="{$varNO}">
+                                                <xsl:sequence select="$NO"/>
+                                            </xsl:element>
+                                        </componentSentence>
+                                        
+                                    </xsl:for-each>
+                                </xsl:for-each>
+                            </xsl:when>
+                            <xsl:otherwise> <!-- 2 param branch: never have notation objects -->
+                                <xsl:for-each select="$scopeParam">
                             <xsl:variable name="scopeInsert" as="xs:string" select="current()"/>
                             <componentSentence>
                                 <xsl:element name="{$var1}">
@@ -114,6 +168,8 @@
                                 </xsl:element>
                             </componentSentence>
                         </xsl:for-each>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </xsl:otherwise>
                 </xsl:choose>
 
@@ -131,6 +187,7 @@
                 <xsl:comment>####################################</xsl:comment>
                 <xsl:comment>Formal Process Branch </xsl:comment>
                 <xsl:comment>####################################</xsl:comment>
+                <xsl:comment>************* WITHOUT NOTATION OBJECTS ****************</xsl:comment>
                 <xsl:comment>####################################</xsl:comment>
                 <xsl:comment>INTEGERS: Formal Process + Process Predicate</xsl:comment>
                 <xsl:comment>####################################</xsl:comment>
@@ -184,6 +241,79 @@
                         <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
                     </xsl:call-template>
                 </sentenceGroup>
+                
+                
+                <xsl:comment>***********************************************</xsl:comment>
+                <xsl:comment>******** WITH NOTATION OBJECTS ****************</xsl:comment>
+                <xsl:comment>***********************************************</xsl:comment>
+                
+                <xsl:comment>####################################</xsl:comment>
+                <xsl:comment>INTEGERS: Formal Process (keyed to notation) + Process Predicate + Notation Object</xsl:comment>
+                <xsl:comment>####################################</xsl:comment>
+                
+                <xsl:variable name="FPint" as="element()+">
+                    
+                    <xsl:for-each select="key('scopes', $int) intersect key('notationKey', $notation)">
+                        <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="PrPredint" as="element()+">
+                    <xsl:for-each select="key('scopes', $int)">
+                        <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="NO_int" as="element()+">
+                    <xsl:for-each select="key('scopes', $int)">
+                        <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="intScopeString" select="'Integers'"/>
+                
+                <sentenceGroup xml:id="integers">
+                    <xsl:call-template name="sentenceWriter">
+                        <xsl:with-param name="param1" as="element()+" select="$FPint"/>
+                        <xsl:with-param name="param2" as="element()+" select="$PrPredint"/>
+                        <xsl:with-param name="NOparam3" as="element()+" select="$NO_int"/>
+                        <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
+                    </xsl:call-template>
+                </sentenceGroup>
+                <xsl:comment>####################################</xsl:comment>
+                <xsl:comment>INTEGERS: Formal Process (keyed to notation) + Math Operation + Quant Object + Notation Object</xsl:comment>
+                <xsl:comment>####################################</xsl:comment>
+                
+                <xsl:variable name="FPint" as="element()+">
+                    <xsl:for-each select="key('scopes', $int) intersect key('notationKey', $notation)">
+                        <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="MathOpint" as="element()+">
+                    <xsl:for-each select="key('scopes', $int)">
+                        <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="QOint" as="element()+">
+                    <xsl:for-each select="key('scopes', $int)">
+                        <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="NO_int" as="element()+">
+                    <xsl:for-each select="key('scopes', $int)">
+                        <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="intScopeString" select="'Integers'"/>
+                
+                <sentenceGroup xml:id="integers">
+                    <xsl:call-template name="sentenceWriter">
+                        <xsl:with-param name="param1" as="element()+" select="$FPint"/>
+                        <xsl:with-param name="param2" as="element()+" select="$MathOpint"/>
+                        <xsl:with-param name="param3" as="element()+" select="$QOint"/>
+                        <xsl:with-param name="param4" as="element()+" select="$NO_int"/>
+                        <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
+                    </xsl:call-template>
+                </sentenceGroup>
+
+                
                 <xsl:comment>####################################</xsl:comment>
                 <xsl:comment>Knowledge Process Branch </xsl:comment>
                 <xsl:comment>####################################</xsl:comment>
@@ -249,6 +379,7 @@
                 <xsl:comment>Formal Process Branch </xsl:comment>
                 <xsl:comment>####################################</xsl:comment>
 
+        <xsl:comment>**************** WITHOUT NOTATION OBJECTS **************************</xsl:comment>
 
                 <xsl:comment>####################################</xsl:comment>
                 <xsl:comment>RATIONAL NUMBERS: Formal Process + Process Predicate</xsl:comment>
@@ -308,6 +439,82 @@
                             select="$rationalScopeString"/>
                     </xsl:call-template>
                 </sentenceGroup>
+                
+                
+   <xsl:comment>************************ WITH NOTATION OBJECTS ********************************</xsl:comment>
+
+
+                <xsl:comment>####################################</xsl:comment>
+                <xsl:comment>RATIONAL NUMBERS: Formal Process (keyed to notation) + Process Predicate + Notation Object</xsl:comment>
+                <xsl:comment>####################################</xsl:comment>
+                
+                <xsl:variable name="FP_rational" as="element()+">
+                    
+                    <xsl:for-each select="key('scopes', $rational) intersect key('notationKey', $notation)">
+                        <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="PrPred_rational" as="element()+">
+                    <xsl:for-each select="key('scopes', $rational)">
+                        <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="NO_rational" as="element()+">
+                    <xsl:for-each select="key('scopes', $rational)">
+                        <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
+                
+                <sentenceGroup xml:id="rational">
+                    <xsl:call-template name="sentenceWriter">
+                        <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
+                        <xsl:with-param name="param2" as="element()+" select="$PrPred_rational"/>
+                        <xsl:with-param name="NOparam3" as="element()+" select="$NO_rational"/>
+                        <xsl:with-param name="scopeParam" as="xs:string"
+                            select="$rationalScopeString"/>
+                    </xsl:call-template>
+                </sentenceGroup>
+                
+                
+                
+                <xsl:comment>####################################</xsl:comment>
+                <xsl:comment>RATIONAL NUMBERS: Formal Process (keyed to notation) + Math Operation + Quant Object + Notation Object</xsl:comment>
+                <xsl:comment>####################################</xsl:comment>
+                
+                <xsl:variable name="FP_rational" as="element()+">
+                    <xsl:for-each select="key('scopes', $rational) intersect key('notationKey', $notation)">
+                        <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="MathOP_rational" as="element()+">
+                    <xsl:for-each select="key('scopes', $rational)">
+                        <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="QO_rational" as="element()+">
+                    <xsl:for-each select="key('scopes', $rational)">
+                        <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="NO_rational" as="element()+">
+                    <xsl:for-each select="key('scopes', $rational)">
+                        <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
+                
+                <sentenceGroup xml:id="rational">
+                    <xsl:call-template name="sentenceWriter">
+                        <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
+                        <xsl:with-param name="param2" as="element()+" select="$MathOP_rational"/>
+                        <xsl:with-param name="param3" as="element()+" select="$QO_rational"/>
+                        <xsl:with-param name="param4" as="element()+" select="$NO_rational"/>
+                        <xsl:with-param name="scopeParam" as="xs:string"
+                            select="$rationalScopeString"/>
+                    </xsl:call-template>
+                </sentenceGroup>
+
 
 
                 <xsl:comment>####################################</xsl:comment>

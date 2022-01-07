@@ -211,19 +211,26 @@
         
         <!-- specific object and notation object will never occur in the same sentence output -->
         
-        <!--<notationObject class="wholenum">
-            <string>Fractional Notations</string>
-            <string>Decimal Notations</string>
-            <string>Proportional Notation</string>
-            <string>Addition Notation</string>
-            <string>Subtraction Notation</string>
-            <string>Multiplication Notations</string>
-            <string>Division Notations</string>
-            <string>Radical Notation</string>
-            <string>Exponential Notation</string>
-            <string>Scientific Notation</string>
-            <string>Base Ten</string>
-        </notationObject>-->
+        <!-- RATIONAL + INTEGERS ONLY:
+                    fp-pp-scopeString-n 
+                    fp-mathop-scopeString-n   
+                    
+                    ONLY read & write formalProcess strings
+        -->
+        
+        <notationObject>
+            <string class="rational">in Fractional Notation</string>
+            <string class="rational">in Decimal Notation</string>
+            <string class="rational int">in Proportional Notation</string>
+            <string>in Addition Notation</string>
+            <string>in Subtraction Notation</string>
+            <string>in Multiplication Notation</string>
+            <string>in Division Notation</string>
+            <string class="rational int">in Radical Notation</string>
+            <string class="rational int">in Exponential Notation</string>
+            <string class="rational int">in Scientific Notation</string>
+            <string class="rational int">in Base Ten</string>
+        </notationObject>
         
     </compParts>
 </xml>
