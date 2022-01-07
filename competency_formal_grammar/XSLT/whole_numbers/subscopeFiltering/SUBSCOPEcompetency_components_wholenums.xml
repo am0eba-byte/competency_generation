@@ -231,8 +231,8 @@
         
        
         <subScope>
-            <string class="wholenum" scopeClass="sing" id="0">0</string> <!-- (remove "Whole Numbers") => involving The Number 0? -->
-            <string class="wholenum" scopeClass="sing" id="1">1</string> <!-- (remove "Whole Numbers") => involving The Number One? -->
+            <string class="wholenum" scopeClass="sing" id="0" extends="null">0</string> <!-- (remove "Whole Numbers") => involving The Number 0? -->
+            <string class="wholenum" scopeClass="sing" id="1" extends="null">1</string> <!-- (remove "Whole Numbers") => involving The Number One? -->
             <string class="wholenum" scopeClass="to" id="2" extends="1">to 2</string>
             <string class="wholenum" scopeClass="to" id="3" extends="2">to 3</string>
             <string class="wholenum" scopeClass="to" id="4" extends="3">to 4</string>

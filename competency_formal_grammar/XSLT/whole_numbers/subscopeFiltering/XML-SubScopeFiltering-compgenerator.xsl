@@ -110,12 +110,13 @@
                                                   select="current()"/>
                                                 <xsl:variable name="varSubScope" as="xs:string*"
                                                     select="//subScope/string[./text() = current()/text()]/@id"/>
+                                                <xsl:variable name="varExtends" as="xs:string*" select="//subScope/string[./text() = current()/text()]/@extends"/>
                                                 <xsl:choose>
                                                   <xsl:when test="$subProcessParam">
                                                   <xsl:for-each select="$subProcessParam">
                                                   <xsl:variable name="subProcessInsert"
                                                   as="xs:string" select="current()"/>
-                                                      <componentSentence id="{$varSubScope}">
+                                                      <componentSentence id="{$varSubScope}" extends="{$varExtends}">
 
                                                   <xsl:element name="{$var1}">
                                                   <xsl:sequence select="$currLevel1"/>
@@ -147,7 +148,7 @@
                                                   </xsl:for-each>
                                                   </xsl:when>
                                                   <xsl:otherwise>
-                                                      <componentSentence id="{$varSubScope}">
+                                                      <componentSentence id="{$varSubScope}" extends="{$varExtends}">
 
                                                   <xsl:element name="{$var1}">
                                                   <xsl:sequence select="$currLevel1"/>
@@ -188,12 +189,13 @@
                                                 select="current()"/>
                                             <xsl:variable name="varSubScope" as="xs:string*"
                                                 select="//subScope/string[./text() = current()/text()]/@id"/>
+                                            <xsl:variable name="varExtends" as="xs:string*" select="//subScope/string[./text() = current()/text()]/@extends"/>
                                             <xsl:choose>
                                                 <xsl:when test="$subProcessParam">
                                                   <xsl:for-each select="$subProcessParam">
                                                   <xsl:variable name="subProcessInsert"
                                                   as="xs:string" select="current()"/>
-                                                      <componentSentence id="{$varSubScope}">
+                                                      <componentSentence id="{$varSubScope}" extends="{$varExtends}">
 
                                                   <xsl:element name="{$var1}">
                                                     <xsl:sequence select="$currLevel1"/>
@@ -221,7 +223,7 @@
                                                   </xsl:for-each>
                                                 </xsl:when>
                                                 <xsl:otherwise>
-                                                    <componentSentence id="{$varSubScope}">
+                                                    <componentSentence id="{$varSubScope}" extends="{$varExtends}">
 
                                                   <xsl:element name="{$var1}">
                                                   <xsl:sequence select="$currLevel1"/>
@@ -260,12 +262,13 @@
                                     select="current()"/>
                                 <xsl:variable name="varSubScope" as="xs:string*"
                                     select="//subScope/string[./text() = current()/text()]/@id"/>
+                                <xsl:variable name="varExtends" as="xs:string*" select="//subScope/string[./text() = current()/text()]/@extends"/>
                                 <xsl:choose>
                                     <xsl:when test="$subProcessParam">
                                         <xsl:for-each select="$subProcessParam">
                                             <xsl:variable name="subProcessInsert" as="xs:string"
                                                 select="current()"/>
-                                            <componentSentence id="{$varSubScope}">
+                                            <componentSentence id="{$varSubScope}" extends="{$varExtends}">
 
                                                 <xsl:element name="{$var1}">
                                                   <xsl:sequence select="$currLevel1"/>
@@ -290,7 +293,7 @@
                                         </xsl:for-each>
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <componentSentence id="{$varSubScope}">
+                                        <componentSentence id="{$varSubScope}" extends="{$varExtends}">
 
                                             <xsl:element name="{$var1}">
                                                 <xsl:sequence select="$currLevel1"/>
