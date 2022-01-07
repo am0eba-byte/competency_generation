@@ -80,7 +80,7 @@
                                             <xsl:variable name="scopeInsert" as="xs:string"
                                                 select="current()"/>
                                             <xsl:sequence
-                                                select="concat($currLevel1, '&#x9;', $currLevel2, '&#x9;', $currLevel3, '&#x9;', 'involving ', $scopeInsert, '&#x9;', $currLevel4, '&#10;')"
+                                                select="concat($currLevel1, ' ', $currLevel2, ' ', $currLevel3, ' involving ', $scopeInsert, ' ', $currLevel4, '&#10;')"
                                             />
                                         </xsl:for-each>
                                     </xsl:for-each>
@@ -90,7 +90,7 @@
                                         <xsl:variable name="scopeInsert" as="xs:string"
                                             select="current()"/>
                                         <xsl:sequence
-                                            select="concat($currLevel1, '&#x9;', $currLevel2, '&#x9;', $currLevel3, '&#x9;', 'involving ', $scopeInsert, '&#10;')"
+                                            select="concat($currLevel1, ' ', $currLevel2, ' ', $currLevel3, ' involving ', $scopeInsert, '&#10;')"
                                         />
                                     </xsl:for-each>
                                 </xsl:otherwise>
@@ -106,7 +106,7 @@
                                    <xsl:for-each select="$scopeParam">
                                        <xsl:variable name="scopeInsert" as="xs:string" select="current()"/>
                                        <xsl:sequence
-                                           select="concat($currLevel1, '&#x9;', $currLevel2, '&#x9;', 'involving ', $scopeInsert, '&#x9;', $NO, '&#10;')"
+                                           select="concat($currLevel1, ' ', $currLevel2, ' involving ', $scopeInsert, ' ', $NO, '&#10;')"
                                        />
                                    </xsl:for-each>
                                </xsl:for-each>
