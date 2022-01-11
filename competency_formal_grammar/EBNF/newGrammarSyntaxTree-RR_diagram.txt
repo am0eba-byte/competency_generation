@@ -1,6 +1,8 @@
-scope_competency ::=  ( formal_process | knowledge_process ) (( math_operation ', ' quant_object ) | processPred ) 
+scope_competency ::=  ( formal_process | knowledge_process ) (( math_operation ', ' quant_object ) | processPred ) ' "involving" ' scope_object
 
-whole_number_competency ::= formal_process  (((math_operation ', ' quant_object  | processPred) (notation_object)?) )   |  knowledge_process ( ' “by” ' knowledge_subprocess )?  (( math_operation ', ' quant_object ) | processPred )
+/* whole_number_competency ::= formal_process (((math_operation ', ' quant_object | processPred) (notation_object)?)) | knowledge_process ( ' “by” ' knowledge_subprocess )? (( math_operation ', ' quant_object ) | processPred ) */
+
+whole_number_competency ::= ( formal_process (((math_operation ', ' quant_object | processPred) (notation_object)?)) ' "involving Whole Numbers" ' sub_scope ) | ( knowledge_process (( math_operation ', ' quant_object ) | processPred ) ' "involving Whole Numbers" ' sub_scope ( ' “by” ' knowledge_subprocess )? )
 
 formal_process ::= ' read ' | ' recite ' | ' write ' |  ' represent ' ( ' with ' representation )? | ' randomly sample '
 
