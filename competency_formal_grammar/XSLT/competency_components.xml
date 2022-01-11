@@ -2,13 +2,13 @@
 <xml>
     <!--<domains>
         <scopes>
-            <string>Whole Numbers <insert idref="#sub_scope"/></string>
+            <string>Whole Numbers <insert idref="#sub_scope"/></string> = class="wholenum"
             <string>Integers</string>
             <string>Unit Fractions</string>
             <string>Rational Numbers</string>
             <string>Real Numbers</string>
-            <string>Imaginary Numbers</string>
-            <string>Complex Numbers</string>
+            <string>Imaginary Numbers</string> = class="imag"
+            <string>Complex Numbers</string> = class="complex"
             <string>Vectors</string>
             <string>Matrices</string>
             <string>Infinite Numbers</string>
@@ -35,134 +35,131 @@
             <string>within 1000</string>
         </sub_scope>
     </domains>-->
+    
+    
+    <!-- ANYTHING FILTERING WHOLENUMS ONLY - DON'T WORRY ABOOT IT FOR NOW -->
+    
+    
+    
+    
+    <!-- dont you heckin dare snakelcase - un-snakelcase the things-->
+    
+    
     <compParts>
-        <process>
-            <formal_process>
-                <string>read</string>
-                <string>recite</string>
-                <string>write</string>
-                <string>represent</string>
-                <string sub="models">represent with images</string>
-                <string sub="models">represent with sounds</string>
-                <string sub="models">represent with activities</string>
-                <string sub="realia">represent with specimens</string>
-                <string sub="realia">represent with body parts</string>
-                
-                <string sub="glyphs">represent with words</string>
-                <string sub="glyphs">represent with symbols</string>
-                <string sub="glyphs">represent with drawings</string>
-                <string sub="glyphs">represent with graphs</string>
-               
-                <string>randomly sample</string>
-            </formal_process>
-
-            <knowledge>
-                <knowledge_process>
-                    <string>remembering</string>
-                    <string>evaluating</string>
-                    <string>creating</string>
-                    <string sub="strategizing">understanding</string>
-                    <string sub="strategizing">applying</string>
-                    <string>analyzing</string>
-                    <whole_numbers_knowledge_subprocess>
-                        <string>by putting together</string>
-                        <string>by adding to</string>
-                        <string>by taking apart</string>
-                        <string>by taking from</string>
-                    </whole_numbers_knowledge_subprocess>
-                </knowledge_process>
-            </knowledge>
-        </process>
-
-        <object_choice>
-            <mathOP_object>
-                <math_operation>
-                    <string>Name</string>
-                    <string>Sequence</string>
-                    <string>Order</string>
-                    <string>Add</string>
-                    <string>Subtract</string>
-                    <string>Multiply</string>
-                    <string>Divide</string>
-                    <string>Negate</string>
-                    <string>Exponentiate</string>
-                    <string>Group</string>
-                    <!-- Operations -->
-                    <!--<string>Order Operations</string>-->
-                </math_operation>
-
-                <object>
-                    <string>Numbers</string>
-                    <string>Numerical Expressions</string>
-                    <string>Numerical Equations</string>
-                    <string>Terms</string>
-                    <string>Properties of Objects</string>
-                    <string>Properties of math_operations</string>
-                    <string>Patterns</string>
-                    <string>Factors</string>
-                    <string> Common Factors </string>
-                    <string>Multiples</string>
-                    <string>Common Multiples</string>
-                    <string>Place Value</string>
-                    <string>Attributes</string>
-                    <string>Standard Units</string>
-                    <string>SI Units</string>
-                    <string>Area</string>
-                    <string>Perimeter</string>
-                    <string>Data</string>
-                    <string>Angles</string>
-                    <string>Volume</string>
-                    <string>Shapes</string>
-                    <string>Surface Area</string>
-                    <string>Realia</string>
-                    <string>Models</string>
-                    <string>Congruence</string>
-                    <string>Similarity</string>
-                    <string>Ratios</string>
-                    <string>Proportions</string>
-                    <string>Algebraic Expressions</string>
-                    <string>Variables</string>
-                    <string>Numerical Inequalities</string>
-                    <string>Algebraic Equations</string>
-                    <string>Algebraic Inequalities</string>
-                    <string>Lines</string>
-                    <string>Linear Equations</string>
-                    <string>Simultaneous Equations</string>
-                    <string>Functions</string>
-                    <string>Statistical Variability</string>
-                    <string>Distributions</string>
-                    <string>Populations</string>
-                    <string>Chance Processes</string>
-                    <string>Probability Models</string>
-                    <string>Bivariate Data</string>
-                    <string>Sets</string>
-                    <string>Elements</string>
-                    <string>Experiments</string>
-                    <string>Observations</string>
-                    <string>Dependent Variables</string>
-                    <string>Independent Variables</string>
-                    <string>Sum</string>
-                    <string>Difference</string>
-                    <string>Product</string>
-                    <string>Quotient</string>
-                    <string>Remainder</string>
-                    <string>Groups</string>
-                    <string>Length</string>
-                    <string>Width</string>
-                    <string>Depth or Height</string>
-                    <string>Qualitative Attributes</string>
-                    <string>Arrays</string>
-                    <string>Plane Figures</string>
-                    <string>Objects in Space</string>
-                    <string>Sample</string>
-                    <string>Random Sample</string>
-                    <string>Prisms and Cylinders</string>
-                    <string>Spheres</string>
-                    <string>Cones</string>
-                    <string>Quantitative Stories</string>
-                </object>
-            </mathOP_object>
-            <specific_object>
+        <processGroup>
+            <process>
+                <!-- SUBCLASS attribute values should be filtered according to the component this string will go with,
+            the rest of the strings will not have the subclass attribute value-->
+                <formalProcess>
+                    <string class="complex imag int rational algexp plane" subclass="notation">Read</string>
+                    <string class="int rational algexp">Recite</string>
+                    <string class="complex imag int rational algexp space plane" subclass="notation">Write</string>
+                    <string class="complex imag int rational algexp space plane">Represent</string>
+                    <string class="space plane" sub="models">Represent, with images,</string>
+                    <string sub="models">Represent, with sounds,</string>
+                    <string class="complex imag rational algexp space plane" sub="models">Represent, with activities,</string>
+                    <string class="int" sub="realia">Represent, with specimens,</string>
+                    <string class="int" sub="realia">Represent, with body parts,</string>
+                    <string class="complex imag int rational algexp" sub="glyphs">Represent, with words,</string>
+                    <string class="algexp" sub="glyphs">Represent, with symbols,</string>
+                    <string class="space plane" sub="glyphs">Represent, with drawings,</string>
+                    <string class="algexp space plane" sub="glyphs">Represent, with graphs,</string>
+                    <string class="rational algexp">Randomly sample</string>
+                </formalProcess>
+                <!-- NO notations with knowledge process sentences -->
+                <knowledge>
+                    <knowledgeProcess>
+                        <string class="complex imag int rational space">Remember</string>
+                        <string class="complex imag int rational algexp space plane">Evaluate</string>
+                        <string class="complex imag int rational space plane">Create</string>
+                        <string class="complex imag int rational algexp space" sub="strategizing plane">Understand</string>
+                        <string class="complex imag int rational algexp space" sub="strategizing plane">Apply</string>
+                        <string class="complex imag int rational algexp space plane">Analyze</string>
+                        <!-- <whole_numbers_knowledge_subprocess>
+                        <string class="wholenum">by putting together</string>
+                        <string class="wholenum">by adding to</string>
+                        <string class="wholenum">by taking apart</string>
+                        <string class="wholenum">by taking from</string>
+                    </whole_numbers_knowledge_subprocess>-->
+                    </knowledgeProcess>
+                </knowledge>
+            </process>
+            <!--BRANCHES HERE 
+                2 options: knowledge OR formal with processPred or specific_object => end of chain
+                knowledge OR formal -> mathopObject (quant) -> notation?-->
+            
+        </processGroup>
+        <!-- END OF CHAIN -->
+        
+        
+        <processBranch>
+            <processPred>
+                <string class="algexp space plane">Volumes</string>
+                <string class="complex imag int rational plane">Numerical Expressions</string>
+                <string class="complex imag int rational plane">Numerical Equations</string>
+                <string class="complex imag int rational space">Properties of Objects</string>
+                <string class="complex imag int rational">Properties of Operations</string>
+                <string class="rational algexp space">Patterns</string>
+                <string class="complex imag rational">Common Factors</string>
+                <string class="complex imag int rational">Multiples</string>
+                <string class="complex imag int rational">Common Multiples</string>
+                <string class="rational int">Place Values</string>
+                <string class="space">Attributes</string>
+                <string class="int space">Standard Units</string>
+                <string class="int rational">SI Units</string>
+                <string class="algexp space plane">Areas</string>
+                <string class="algexp space plane">Perimeters</string>
+                <string class="int rational algexp space plane">Data</string>
+                <string class="space plane">Shapes</string>
+                <string class="algexp space plane">Surface Areas</string>
+                <string class="rational int algexp space plane">Realia</string>
+                <string class="rational int algexp space plane">Models</string>
+                <string class="complex imag algexp space plane">Congruence</string>
+                <string class="complex imag algexp space plane">Similarity</string>
+                <string class="int rational">Ratios</string>
+                <string class="rational int algexp">Proportions</string>
+                <string class="complex imag int rational">Numerical Inequalities</string>
+                <string class="complex imag int rational algexp space">Algebraic Equations</string>
+                <string class="complex imag int rational algexp">Algebraic Inequalities</string>
+                <string class="int rational algexp space plane">Lines</string>
+                <string class="int rational algexp space plane">Linear Equations</string>
+                <string class="complex imag int rational algexp">Simultaneous Equations</string>
+                <string class="complex imag rational algexp">Statistical Variability</string>
+                <string class="complex imag rational algexp">Distributions</string>
+                <string class="rational algexp">Populations</string>
+                <string class="complex imag rational algexp">Probability Models</string>
+                <string class="complex imag rational algexp">Bivariate Data</string>
+                <string class="space algexp rational int">Sets</string>
+                <string class="complex imag int rational algexp space">Elements</string>
+                <string class="algexp">Experiments</string>
+                <string class="complex imag rational algexp space plane">Observations</string>
+                <string class="complex imag rational algexp space plane">Dependent Variables</string>
+                <string class="complex imag int rational algexp space plane">Independent Variables</string>
+                <string class="complex imag int rational algexp space plane">Sums</string>
+                <string class="complex imag int rational algexp space plane">Differences</string>
+                <string class="complex imag int rational algexp">Products</string>
+                <string class="complex imag int rational algexp">Quotients</string>
+                <string class="complex imag int rational algexp">Remainders</string>
+                <string class="algexp space plane">Groups</string>
+                <string class="algexp space plane">Length</string>
+                <string class="algexp space plane">Width</string>
+                <string class="algexp space plane">Depth or Height</string>
+                <string class="space plane">Qualitative Attributes</string>
+                <string class="space plane">Plane Figures</string>
+                <string class="space plane">Objects in Space</string>
+                <string class="complex imag int rational algexp">Samples</string>
+                <string class="int rational algexp">Random Samples</string>
+                <string class="space">Prisms and Cylinders</string>
+                <string class="space">Spheres</string>
+                <string class="space">Cones</string>
+                <string class="space plane">Quantitative Stories</string>
+            </processPred>
+            <!-- REVIEW SPECIFIC OBJECT SCOPE ALIGNMENTS WITH TIM/MATH TEAM -->
+            
+            
+            <!-- ignore further specific object generations - take specific object out of the filtering/generation (use bulk/unfiltered gen) -->
+            
+            <specificObject>
                 <string>Pythagorean Theorem</string>
                 <string>Standard Algorithm for Addition</string>
                 <string>Standard Algorithm for Subtraction</string>
@@ -174,10 +171,46 @@
                 <string>Distributive Property</string>
                 <string>Commutative Property</string>
                 <string>Associative Property</string>
-            </specific_object>
-        </object_choice>
-
-        <notation_object>
+            </specificObject>
+            
+            <mathOPobject>
+                <mathOperation>
+                    <string class="complex imag algexp">Naming</string>
+                    <string class="complex imag int rational">Sequencing</string>
+                    <string class="complex imag int rational">Ordering</string>
+                    <string class="complex imag int rational algexp space plane">Adding</string>
+                    <string class="complex imag int rational algexp space plane">Subtracting</string>
+                    <string class="complex imag int rational algexp space plane">Multiplying</string>
+                    <string class="complex imag int rational algexp space plane">Dividing</string>
+                    <string class="complex imag int rational algexp space plane">Negating</string>
+                    <string class="complex imag int rational algexp space plane">Exponentiating</string>
+                    <string class="complex imag int rational algexp space plane">Grouping</string>
+                    <!-- Operations -->
+                    <!--<string>Order Operations</string>-->
+                </mathOperation>
+                <!-- -->
+                <quant>
+                    <string class="complex imag int rational algexp space plane">Numbers</string>
+                    <!-- putting the name of the scope INSIDE the string outputs -->
+                    <string class="complex imag int rational algexp plane">Terms</string>
+                    <string class="complex imag int rational algexp plane">Factors</string>
+                    <string class="rational algexp space plane">Angles</string>
+                    
+                    <string class="complex imag int rational algexp space plane">Algebraic Expressions</string>
+                    <string class="complex imag int rational algexp space plane">Variables</string>
+                    <string class="complex imag int rational algexp space plane">Functions</string>
+                    <string class="algexp">Chance Processes</string>
+                    <string class="algexp int rational">Arrays</string>
+                </quant>
+            </mathOPobject>
+            
+        </processBranch>
+        
+        
+        
+        <!-- specific object and notation object will never occur in the same sentence output -->
+        
+        <!--<notationObject class="wholenum">
             <string>Fractional Notations</string>
             <string>Decimal Notations</string>
             <string>Proportional Notation</string>
@@ -189,7 +222,7 @@
             <string>Exponential Notation</string>
             <string>Scientific Notation</string>
             <string>Base Ten</string>
-        </notation_object>
-
+        </notationObject>-->
+        
     </compParts>
 </xml>

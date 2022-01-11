@@ -1,0 +1,957 @@
+Read Numerical Expressions involving Complex Numbers
+ Read Numerical Equations involving Complex Numbers
+ Read Properties of Objects involving Complex Numbers
+ Read Properties of Operations involving Complex Numbers
+ Read Common Factors involving Complex Numbers
+ Read Multiples involving Complex Numbers
+ Read Common Multiples involving Complex Numbers
+ Read Congruence involving Complex Numbers
+ Read Similarity involving Complex Numbers
+ Read Numerical Inequalities involving Complex Numbers
+ Read Algebraic Equations involving Complex Numbers
+ Read Algebraic Inequalities involving Complex Numbers
+ Read Simultaneous Equations involving Complex Numbers
+ Read Statistical Variability involving Complex Numbers
+ Read Distributions involving Complex Numbers
+ Read Probability Models involving Complex Numbers
+ Read Bivariate Data involving Complex Numbers
+ Read Elements involving Complex Numbers
+ Read Observations involving Complex Numbers
+ Read Dependent Variables involving Complex Numbers
+ Read Independent Variables involving Complex Numbers
+ Read Sums involving Complex Numbers
+ Read Differences involving Complex Numbers
+ Read Products involving Complex Numbers
+ Read Quotients involving Complex Numbers
+ Read Remainders involving Complex Numbers
+ Read Samples involving Complex Numbers
+ Write Numerical Expressions involving Complex Numbers
+ Write Numerical Equations involving Complex Numbers
+ Write Properties of Objects involving Complex Numbers
+ Write Properties of Operations involving Complex Numbers
+ Write Common Factors involving Complex Numbers
+ Write Multiples involving Complex Numbers
+ Write Common Multiples involving Complex Numbers
+ Write Congruence involving Complex Numbers
+ Write Similarity involving Complex Numbers
+ Write Numerical Inequalities involving Complex Numbers
+ Write Algebraic Equations involving Complex Numbers
+ Write Algebraic Inequalities involving Complex Numbers
+ Write Simultaneous Equations involving Complex Numbers
+ Write Statistical Variability involving Complex Numbers
+ Write Distributions involving Complex Numbers
+ Write Probability Models involving Complex Numbers
+ Write Bivariate Data involving Complex Numbers
+ Write Elements involving Complex Numbers
+ Write Observations involving Complex Numbers
+ Write Dependent Variables involving Complex Numbers
+ Write Independent Variables involving Complex Numbers
+ Write Sums involving Complex Numbers
+ Write Differences involving Complex Numbers
+ Write Products involving Complex Numbers
+ Write Quotients involving Complex Numbers
+ Write Remainders involving Complex Numbers
+ Write Samples involving Complex Numbers
+ Represent Numerical Expressions involving Complex Numbers
+ Represent Numerical Equations involving Complex Numbers
+ Represent Properties of Objects involving Complex Numbers
+ Represent Properties of Operations involving Complex Numbers
+ Represent Common Factors involving Complex Numbers
+ Represent Multiples involving Complex Numbers
+ Represent Common Multiples involving Complex Numbers
+ Represent Congruence involving Complex Numbers
+ Represent Similarity involving Complex Numbers
+ Represent Numerical Inequalities involving Complex Numbers
+ Represent Algebraic Equations involving Complex Numbers
+ Represent Algebraic Inequalities involving Complex Numbers
+ Represent Simultaneous Equations involving Complex Numbers
+ Represent Statistical Variability involving Complex Numbers
+ Represent Distributions involving Complex Numbers
+ Represent Probability Models involving Complex Numbers
+ Represent Bivariate Data involving Complex Numbers
+ Represent Elements involving Complex Numbers
+ Represent Observations involving Complex Numbers
+ Represent Dependent Variables involving Complex Numbers
+ Represent Independent Variables involving Complex Numbers
+ Represent Sums involving Complex Numbers
+ Represent Differences involving Complex Numbers
+ Represent Products involving Complex Numbers
+ Represent Quotients involving Complex Numbers
+ Represent Remainders involving Complex Numbers
+ Represent Samples involving Complex Numbers
+ Represent, with activities, Numerical Expressions involving Complex Numbers
+ Represent, with activities, Numerical Equations involving Complex Numbers
+ Represent, with activities, Properties of Objects involving Complex Numbers
+ Represent, with activities, Properties of Operations involving Complex Numbers
+ Represent, with activities, Common Factors involving Complex Numbers
+ Represent, with activities, Multiples involving Complex Numbers
+ Represent, with activities, Common Multiples involving Complex Numbers
+ Represent, with activities, Congruence involving Complex Numbers
+ Represent, with activities, Similarity involving Complex Numbers
+ Represent, with activities, Numerical Inequalities involving Complex Numbers
+ Represent, with activities, Algebraic Equations involving Complex Numbers
+ Represent, with activities, Algebraic Inequalities involving Complex Numbers
+ Represent, with activities, Simultaneous Equations involving Complex Numbers
+ Represent, with activities, Statistical Variability involving Complex Numbers
+ Represent, with activities, Distributions involving Complex Numbers
+ Represent, with activities, Probability Models involving Complex Numbers
+ Represent, with activities, Bivariate Data involving Complex Numbers
+ Represent, with activities, Elements involving Complex Numbers
+ Represent, with activities, Observations involving Complex Numbers
+ Represent, with activities, Dependent Variables involving Complex Numbers
+ Represent, with activities, Independent Variables involving Complex Numbers
+ Represent, with activities, Sums involving Complex Numbers
+ Represent, with activities, Differences involving Complex Numbers
+ Represent, with activities, Products involving Complex Numbers
+ Represent, with activities, Quotients involving Complex Numbers
+ Represent, with activities, Remainders involving Complex Numbers
+ Represent, with activities, Samples involving Complex Numbers
+ Represent, with words, Numerical Expressions involving Complex Numbers
+ Represent, with words, Numerical Equations involving Complex Numbers
+ Represent, with words, Properties of Objects involving Complex Numbers
+ Represent, with words, Properties of Operations involving Complex Numbers
+ Represent, with words, Common Factors involving Complex Numbers
+ Represent, with words, Multiples involving Complex Numbers
+ Represent, with words, Common Multiples involving Complex Numbers
+ Represent, with words, Congruence involving Complex Numbers
+ Represent, with words, Similarity involving Complex Numbers
+ Represent, with words, Numerical Inequalities involving Complex Numbers
+ Represent, with words, Algebraic Equations involving Complex Numbers
+ Represent, with words, Algebraic Inequalities involving Complex Numbers
+ Represent, with words, Simultaneous Equations involving Complex Numbers
+ Represent, with words, Statistical Variability involving Complex Numbers
+ Represent, with words, Distributions involving Complex Numbers
+ Represent, with words, Probability Models involving Complex Numbers
+ Represent, with words, Bivariate Data involving Complex Numbers
+ Represent, with words, Elements involving Complex Numbers
+ Represent, with words, Observations involving Complex Numbers
+ Represent, with words, Dependent Variables involving Complex Numbers
+ Represent, with words, Independent Variables involving Complex Numbers
+ Represent, with words, Sums involving Complex Numbers
+ Represent, with words, Differences involving Complex Numbers
+ Represent, with words, Products involving Complex Numbers
+ Represent, with words, Quotients involving Complex Numbers
+ Represent, with words, Remainders involving Complex Numbers
+ Represent, with words, Samples involving Complex Numbers
+ Read Naming Numbers involving Complex Numbers
+ Read Naming Terms involving Complex Numbers
+ Read Naming Factors involving Complex Numbers
+ Read Naming Algebraic Expressions involving Complex Numbers
+ Read Naming Variables involving Complex Numbers
+ Read Naming Functions involving Complex Numbers
+ Read Sequencing Numbers involving Complex Numbers
+ Read Sequencing Terms involving Complex Numbers
+ Read Sequencing Factors involving Complex Numbers
+ Read Sequencing Algebraic Expressions involving Complex Numbers
+ Read Sequencing Variables involving Complex Numbers
+ Read Sequencing Functions involving Complex Numbers
+ Read Ordering Numbers involving Complex Numbers
+ Read Ordering Terms involving Complex Numbers
+ Read Ordering Factors involving Complex Numbers
+ Read Ordering Algebraic Expressions involving Complex Numbers
+ Read Ordering Variables involving Complex Numbers
+ Read Ordering Functions involving Complex Numbers
+ Read Adding Numbers involving Complex Numbers
+ Read Adding Terms involving Complex Numbers
+ Read Adding Factors involving Complex Numbers
+ Read Adding Algebraic Expressions involving Complex Numbers
+ Read Adding Variables involving Complex Numbers
+ Read Adding Functions involving Complex Numbers
+ Read Subtracting Numbers involving Complex Numbers
+ Read Subtracting Terms involving Complex Numbers
+ Read Subtracting Factors involving Complex Numbers
+ Read Subtracting Algebraic Expressions involving Complex Numbers
+ Read Subtracting Variables involving Complex Numbers
+ Read Subtracting Functions involving Complex Numbers
+ Read Multiplying Numbers involving Complex Numbers
+ Read Multiplying Terms involving Complex Numbers
+ Read Multiplying Factors involving Complex Numbers
+ Read Multiplying Algebraic Expressions involving Complex Numbers
+ Read Multiplying Variables involving Complex Numbers
+ Read Multiplying Functions involving Complex Numbers
+ Read Dividing Numbers involving Complex Numbers
+ Read Dividing Terms involving Complex Numbers
+ Read Dividing Factors involving Complex Numbers
+ Read Dividing Algebraic Expressions involving Complex Numbers
+ Read Dividing Variables involving Complex Numbers
+ Read Dividing Functions involving Complex Numbers
+ Read Negating Numbers involving Complex Numbers
+ Read Negating Terms involving Complex Numbers
+ Read Negating Factors involving Complex Numbers
+ Read Negating Algebraic Expressions involving Complex Numbers
+ Read Negating Variables involving Complex Numbers
+ Read Negating Functions involving Complex Numbers
+ Read Exponentiating Numbers involving Complex Numbers
+ Read Exponentiating Terms involving Complex Numbers
+ Read Exponentiating Factors involving Complex Numbers
+ Read Exponentiating Algebraic Expressions involving Complex Numbers
+ Read Exponentiating Variables involving Complex Numbers
+ Read Exponentiating Functions involving Complex Numbers
+ Read Grouping Numbers involving Complex Numbers
+ Read Grouping Terms involving Complex Numbers
+ Read Grouping Factors involving Complex Numbers
+ Read Grouping Algebraic Expressions involving Complex Numbers
+ Read Grouping Variables involving Complex Numbers
+ Read Grouping Functions involving Complex Numbers
+ Write Naming Numbers involving Complex Numbers
+ Write Naming Terms involving Complex Numbers
+ Write Naming Factors involving Complex Numbers
+ Write Naming Algebraic Expressions involving Complex Numbers
+ Write Naming Variables involving Complex Numbers
+ Write Naming Functions involving Complex Numbers
+ Write Sequencing Numbers involving Complex Numbers
+ Write Sequencing Terms involving Complex Numbers
+ Write Sequencing Factors involving Complex Numbers
+ Write Sequencing Algebraic Expressions involving Complex Numbers
+ Write Sequencing Variables involving Complex Numbers
+ Write Sequencing Functions involving Complex Numbers
+ Write Ordering Numbers involving Complex Numbers
+ Write Ordering Terms involving Complex Numbers
+ Write Ordering Factors involving Complex Numbers
+ Write Ordering Algebraic Expressions involving Complex Numbers
+ Write Ordering Variables involving Complex Numbers
+ Write Ordering Functions involving Complex Numbers
+ Write Adding Numbers involving Complex Numbers
+ Write Adding Terms involving Complex Numbers
+ Write Adding Factors involving Complex Numbers
+ Write Adding Algebraic Expressions involving Complex Numbers
+ Write Adding Variables involving Complex Numbers
+ Write Adding Functions involving Complex Numbers
+ Write Subtracting Numbers involving Complex Numbers
+ Write Subtracting Terms involving Complex Numbers
+ Write Subtracting Factors involving Complex Numbers
+ Write Subtracting Algebraic Expressions involving Complex Numbers
+ Write Subtracting Variables involving Complex Numbers
+ Write Subtracting Functions involving Complex Numbers
+ Write Multiplying Numbers involving Complex Numbers
+ Write Multiplying Terms involving Complex Numbers
+ Write Multiplying Factors involving Complex Numbers
+ Write Multiplying Algebraic Expressions involving Complex Numbers
+ Write Multiplying Variables involving Complex Numbers
+ Write Multiplying Functions involving Complex Numbers
+ Write Dividing Numbers involving Complex Numbers
+ Write Dividing Terms involving Complex Numbers
+ Write Dividing Factors involving Complex Numbers
+ Write Dividing Algebraic Expressions involving Complex Numbers
+ Write Dividing Variables involving Complex Numbers
+ Write Dividing Functions involving Complex Numbers
+ Write Negating Numbers involving Complex Numbers
+ Write Negating Terms involving Complex Numbers
+ Write Negating Factors involving Complex Numbers
+ Write Negating Algebraic Expressions involving Complex Numbers
+ Write Negating Variables involving Complex Numbers
+ Write Negating Functions involving Complex Numbers
+ Write Exponentiating Numbers involving Complex Numbers
+ Write Exponentiating Terms involving Complex Numbers
+ Write Exponentiating Factors involving Complex Numbers
+ Write Exponentiating Algebraic Expressions involving Complex Numbers
+ Write Exponentiating Variables involving Complex Numbers
+ Write Exponentiating Functions involving Complex Numbers
+ Write Grouping Numbers involving Complex Numbers
+ Write Grouping Terms involving Complex Numbers
+ Write Grouping Factors involving Complex Numbers
+ Write Grouping Algebraic Expressions involving Complex Numbers
+ Write Grouping Variables involving Complex Numbers
+ Write Grouping Functions involving Complex Numbers
+ Represent Naming Numbers involving Complex Numbers
+ Represent Naming Terms involving Complex Numbers
+ Represent Naming Factors involving Complex Numbers
+ Represent Naming Algebraic Expressions involving Complex Numbers
+ Represent Naming Variables involving Complex Numbers
+ Represent Naming Functions involving Complex Numbers
+ Represent Sequencing Numbers involving Complex Numbers
+ Represent Sequencing Terms involving Complex Numbers
+ Represent Sequencing Factors involving Complex Numbers
+ Represent Sequencing Algebraic Expressions involving Complex Numbers
+ Represent Sequencing Variables involving Complex Numbers
+ Represent Sequencing Functions involving Complex Numbers
+ Represent Ordering Numbers involving Complex Numbers
+ Represent Ordering Terms involving Complex Numbers
+ Represent Ordering Factors involving Complex Numbers
+ Represent Ordering Algebraic Expressions involving Complex Numbers
+ Represent Ordering Variables involving Complex Numbers
+ Represent Ordering Functions involving Complex Numbers
+ Represent Adding Numbers involving Complex Numbers
+ Represent Adding Terms involving Complex Numbers
+ Represent Adding Factors involving Complex Numbers
+ Represent Adding Algebraic Expressions involving Complex Numbers
+ Represent Adding Variables involving Complex Numbers
+ Represent Adding Functions involving Complex Numbers
+ Represent Subtracting Numbers involving Complex Numbers
+ Represent Subtracting Terms involving Complex Numbers
+ Represent Subtracting Factors involving Complex Numbers
+ Represent Subtracting Algebraic Expressions involving Complex Numbers
+ Represent Subtracting Variables involving Complex Numbers
+ Represent Subtracting Functions involving Complex Numbers
+ Represent Multiplying Numbers involving Complex Numbers
+ Represent Multiplying Terms involving Complex Numbers
+ Represent Multiplying Factors involving Complex Numbers
+ Represent Multiplying Algebraic Expressions involving Complex Numbers
+ Represent Multiplying Variables involving Complex Numbers
+ Represent Multiplying Functions involving Complex Numbers
+ Represent Dividing Numbers involving Complex Numbers
+ Represent Dividing Terms involving Complex Numbers
+ Represent Dividing Factors involving Complex Numbers
+ Represent Dividing Algebraic Expressions involving Complex Numbers
+ Represent Dividing Variables involving Complex Numbers
+ Represent Dividing Functions involving Complex Numbers
+ Represent Negating Numbers involving Complex Numbers
+ Represent Negating Terms involving Complex Numbers
+ Represent Negating Factors involving Complex Numbers
+ Represent Negating Algebraic Expressions involving Complex Numbers
+ Represent Negating Variables involving Complex Numbers
+ Represent Negating Functions involving Complex Numbers
+ Represent Exponentiating Numbers involving Complex Numbers
+ Represent Exponentiating Terms involving Complex Numbers
+ Represent Exponentiating Factors involving Complex Numbers
+ Represent Exponentiating Algebraic Expressions involving Complex Numbers
+ Represent Exponentiating Variables involving Complex Numbers
+ Represent Exponentiating Functions involving Complex Numbers
+ Represent Grouping Numbers involving Complex Numbers
+ Represent Grouping Terms involving Complex Numbers
+ Represent Grouping Factors involving Complex Numbers
+ Represent Grouping Algebraic Expressions involving Complex Numbers
+ Represent Grouping Variables involving Complex Numbers
+ Represent Grouping Functions involving Complex Numbers
+ Represent, with activities, Naming Numbers involving Complex Numbers
+ Represent, with activities, Naming Terms involving Complex Numbers
+ Represent, with activities, Naming Factors involving Complex Numbers
+ Represent, with activities, Naming Algebraic Expressions involving Complex Numbers
+ Represent, with activities, Naming Variables involving Complex Numbers
+ Represent, with activities, Naming Functions involving Complex Numbers
+ Represent, with activities, Sequencing Numbers involving Complex Numbers
+ Represent, with activities, Sequencing Terms involving Complex Numbers
+ Represent, with activities, Sequencing Factors involving Complex Numbers
+ Represent, with activities, Sequencing Algebraic Expressions involving Complex Numbers
+ Represent, with activities, Sequencing Variables involving Complex Numbers
+ Represent, with activities, Sequencing Functions involving Complex Numbers
+ Represent, with activities, Ordering Numbers involving Complex Numbers
+ Represent, with activities, Ordering Terms involving Complex Numbers
+ Represent, with activities, Ordering Factors involving Complex Numbers
+ Represent, with activities, Ordering Algebraic Expressions involving Complex Numbers
+ Represent, with activities, Ordering Variables involving Complex Numbers
+ Represent, with activities, Ordering Functions involving Complex Numbers
+ Represent, with activities, Adding Numbers involving Complex Numbers
+ Represent, with activities, Adding Terms involving Complex Numbers
+ Represent, with activities, Adding Factors involving Complex Numbers
+ Represent, with activities, Adding Algebraic Expressions involving Complex Numbers
+ Represent, with activities, Adding Variables involving Complex Numbers
+ Represent, with activities, Adding Functions involving Complex Numbers
+ Represent, with activities, Subtracting Numbers involving Complex Numbers
+ Represent, with activities, Subtracting Terms involving Complex Numbers
+ Represent, with activities, Subtracting Factors involving Complex Numbers
+ Represent, with activities, Subtracting Algebraic Expressions involving Complex Numbers
+ Represent, with activities, Subtracting Variables involving Complex Numbers
+ Represent, with activities, Subtracting Functions involving Complex Numbers
+ Represent, with activities, Multiplying Numbers involving Complex Numbers
+ Represent, with activities, Multiplying Terms involving Complex Numbers
+ Represent, with activities, Multiplying Factors involving Complex Numbers
+ Represent, with activities, Multiplying Algebraic Expressions involving Complex Numbers
+ Represent, with activities, Multiplying Variables involving Complex Numbers
+ Represent, with activities, Multiplying Functions involving Complex Numbers
+ Represent, with activities, Dividing Numbers involving Complex Numbers
+ Represent, with activities, Dividing Terms involving Complex Numbers
+ Represent, with activities, Dividing Factors involving Complex Numbers
+ Represent, with activities, Dividing Algebraic Expressions involving Complex Numbers
+ Represent, with activities, Dividing Variables involving Complex Numbers
+ Represent, with activities, Dividing Functions involving Complex Numbers
+ Represent, with activities, Negating Numbers involving Complex Numbers
+ Represent, with activities, Negating Terms involving Complex Numbers
+ Represent, with activities, Negating Factors involving Complex Numbers
+ Represent, with activities, Negating Algebraic Expressions involving Complex Numbers
+ Represent, with activities, Negating Variables involving Complex Numbers
+ Represent, with activities, Negating Functions involving Complex Numbers
+ Represent, with activities, Exponentiating Numbers involving Complex Numbers
+ Represent, with activities, Exponentiating Terms involving Complex Numbers
+ Represent, with activities, Exponentiating Factors involving Complex Numbers
+ Represent, with activities, Exponentiating Algebraic Expressions involving Complex Numbers
+ Represent, with activities, Exponentiating Variables involving Complex Numbers
+ Represent, with activities, Exponentiating Functions involving Complex Numbers
+ Represent, with activities, Grouping Numbers involving Complex Numbers
+ Represent, with activities, Grouping Terms involving Complex Numbers
+ Represent, with activities, Grouping Factors involving Complex Numbers
+ Represent, with activities, Grouping Algebraic Expressions involving Complex Numbers
+ Represent, with activities, Grouping Variables involving Complex Numbers
+ Represent, with activities, Grouping Functions involving Complex Numbers
+ Represent, with words, Naming Numbers involving Complex Numbers
+ Represent, with words, Naming Terms involving Complex Numbers
+ Represent, with words, Naming Factors involving Complex Numbers
+ Represent, with words, Naming Algebraic Expressions involving Complex Numbers
+ Represent, with words, Naming Variables involving Complex Numbers
+ Represent, with words, Naming Functions involving Complex Numbers
+ Represent, with words, Sequencing Numbers involving Complex Numbers
+ Represent, with words, Sequencing Terms involving Complex Numbers
+ Represent, with words, Sequencing Factors involving Complex Numbers
+ Represent, with words, Sequencing Algebraic Expressions involving Complex Numbers
+ Represent, with words, Sequencing Variables involving Complex Numbers
+ Represent, with words, Sequencing Functions involving Complex Numbers
+ Represent, with words, Ordering Numbers involving Complex Numbers
+ Represent, with words, Ordering Terms involving Complex Numbers
+ Represent, with words, Ordering Factors involving Complex Numbers
+ Represent, with words, Ordering Algebraic Expressions involving Complex Numbers
+ Represent, with words, Ordering Variables involving Complex Numbers
+ Represent, with words, Ordering Functions involving Complex Numbers
+ Represent, with words, Adding Numbers involving Complex Numbers
+ Represent, with words, Adding Terms involving Complex Numbers
+ Represent, with words, Adding Factors involving Complex Numbers
+ Represent, with words, Adding Algebraic Expressions involving Complex Numbers
+ Represent, with words, Adding Variables involving Complex Numbers
+ Represent, with words, Adding Functions involving Complex Numbers
+ Represent, with words, Subtracting Numbers involving Complex Numbers
+ Represent, with words, Subtracting Terms involving Complex Numbers
+ Represent, with words, Subtracting Factors involving Complex Numbers
+ Represent, with words, Subtracting Algebraic Expressions involving Complex Numbers
+ Represent, with words, Subtracting Variables involving Complex Numbers
+ Represent, with words, Subtracting Functions involving Complex Numbers
+ Represent, with words, Multiplying Numbers involving Complex Numbers
+ Represent, with words, Multiplying Terms involving Complex Numbers
+ Represent, with words, Multiplying Factors involving Complex Numbers
+ Represent, with words, Multiplying Algebraic Expressions involving Complex Numbers
+ Represent, with words, Multiplying Variables involving Complex Numbers
+ Represent, with words, Multiplying Functions involving Complex Numbers
+ Represent, with words, Dividing Numbers involving Complex Numbers
+ Represent, with words, Dividing Terms involving Complex Numbers
+ Represent, with words, Dividing Factors involving Complex Numbers
+ Represent, with words, Dividing Algebraic Expressions involving Complex Numbers
+ Represent, with words, Dividing Variables involving Complex Numbers
+ Represent, with words, Dividing Functions involving Complex Numbers
+ Represent, with words, Negating Numbers involving Complex Numbers
+ Represent, with words, Negating Terms involving Complex Numbers
+ Represent, with words, Negating Factors involving Complex Numbers
+ Represent, with words, Negating Algebraic Expressions involving Complex Numbers
+ Represent, with words, Negating Variables involving Complex Numbers
+ Represent, with words, Negating Functions involving Complex Numbers
+ Represent, with words, Exponentiating Numbers involving Complex Numbers
+ Represent, with words, Exponentiating Terms involving Complex Numbers
+ Represent, with words, Exponentiating Factors involving Complex Numbers
+ Represent, with words, Exponentiating Algebraic Expressions involving Complex Numbers
+ Represent, with words, Exponentiating Variables involving Complex Numbers
+ Represent, with words, Exponentiating Functions involving Complex Numbers
+ Represent, with words, Grouping Numbers involving Complex Numbers
+ Represent, with words, Grouping Terms involving Complex Numbers
+ Represent, with words, Grouping Factors involving Complex Numbers
+ Represent, with words, Grouping Algebraic Expressions involving Complex Numbers
+ Represent, with words, Grouping Variables involving Complex Numbers
+ Represent, with words, Grouping Functions involving Complex Numbers
+ Remember Numerical Expressions involving Complex Numbers
+ Remember Numerical Equations involving Complex Numbers
+ Remember Properties of Objects involving Complex Numbers
+ Remember Properties of Operations involving Complex Numbers
+ Remember Common Factors involving Complex Numbers
+ Remember Multiples involving Complex Numbers
+ Remember Common Multiples involving Complex Numbers
+ Remember Congruence involving Complex Numbers
+ Remember Similarity involving Complex Numbers
+ Remember Numerical Inequalities involving Complex Numbers
+ Remember Algebraic Equations involving Complex Numbers
+ Remember Algebraic Inequalities involving Complex Numbers
+ Remember Simultaneous Equations involving Complex Numbers
+ Remember Statistical Variability involving Complex Numbers
+ Remember Distributions involving Complex Numbers
+ Remember Probability Models involving Complex Numbers
+ Remember Bivariate Data involving Complex Numbers
+ Remember Elements involving Complex Numbers
+ Remember Observations involving Complex Numbers
+ Remember Dependent Variables involving Complex Numbers
+ Remember Independent Variables involving Complex Numbers
+ Remember Sums involving Complex Numbers
+ Remember Differences involving Complex Numbers
+ Remember Products involving Complex Numbers
+ Remember Quotients involving Complex Numbers
+ Remember Remainders involving Complex Numbers
+ Remember Samples involving Complex Numbers
+ Evaluate Numerical Expressions involving Complex Numbers
+ Evaluate Numerical Equations involving Complex Numbers
+ Evaluate Properties of Objects involving Complex Numbers
+ Evaluate Properties of Operations involving Complex Numbers
+ Evaluate Common Factors involving Complex Numbers
+ Evaluate Multiples involving Complex Numbers
+ Evaluate Common Multiples involving Complex Numbers
+ Evaluate Congruence involving Complex Numbers
+ Evaluate Similarity involving Complex Numbers
+ Evaluate Numerical Inequalities involving Complex Numbers
+ Evaluate Algebraic Equations involving Complex Numbers
+ Evaluate Algebraic Inequalities involving Complex Numbers
+ Evaluate Simultaneous Equations involving Complex Numbers
+ Evaluate Statistical Variability involving Complex Numbers
+ Evaluate Distributions involving Complex Numbers
+ Evaluate Probability Models involving Complex Numbers
+ Evaluate Bivariate Data involving Complex Numbers
+ Evaluate Elements involving Complex Numbers
+ Evaluate Observations involving Complex Numbers
+ Evaluate Dependent Variables involving Complex Numbers
+ Evaluate Independent Variables involving Complex Numbers
+ Evaluate Sums involving Complex Numbers
+ Evaluate Differences involving Complex Numbers
+ Evaluate Products involving Complex Numbers
+ Evaluate Quotients involving Complex Numbers
+ Evaluate Remainders involving Complex Numbers
+ Evaluate Samples involving Complex Numbers
+ Create Numerical Expressions involving Complex Numbers
+ Create Numerical Equations involving Complex Numbers
+ Create Properties of Objects involving Complex Numbers
+ Create Properties of Operations involving Complex Numbers
+ Create Common Factors involving Complex Numbers
+ Create Multiples involving Complex Numbers
+ Create Common Multiples involving Complex Numbers
+ Create Congruence involving Complex Numbers
+ Create Similarity involving Complex Numbers
+ Create Numerical Inequalities involving Complex Numbers
+ Create Algebraic Equations involving Complex Numbers
+ Create Algebraic Inequalities involving Complex Numbers
+ Create Simultaneous Equations involving Complex Numbers
+ Create Statistical Variability involving Complex Numbers
+ Create Distributions involving Complex Numbers
+ Create Probability Models involving Complex Numbers
+ Create Bivariate Data involving Complex Numbers
+ Create Elements involving Complex Numbers
+ Create Observations involving Complex Numbers
+ Create Dependent Variables involving Complex Numbers
+ Create Independent Variables involving Complex Numbers
+ Create Sums involving Complex Numbers
+ Create Differences involving Complex Numbers
+ Create Products involving Complex Numbers
+ Create Quotients involving Complex Numbers
+ Create Remainders involving Complex Numbers
+ Create Samples involving Complex Numbers
+ Understand Numerical Expressions involving Complex Numbers
+ Understand Numerical Equations involving Complex Numbers
+ Understand Properties of Objects involving Complex Numbers
+ Understand Properties of Operations involving Complex Numbers
+ Understand Common Factors involving Complex Numbers
+ Understand Multiples involving Complex Numbers
+ Understand Common Multiples involving Complex Numbers
+ Understand Congruence involving Complex Numbers
+ Understand Similarity involving Complex Numbers
+ Understand Numerical Inequalities involving Complex Numbers
+ Understand Algebraic Equations involving Complex Numbers
+ Understand Algebraic Inequalities involving Complex Numbers
+ Understand Simultaneous Equations involving Complex Numbers
+ Understand Statistical Variability involving Complex Numbers
+ Understand Distributions involving Complex Numbers
+ Understand Probability Models involving Complex Numbers
+ Understand Bivariate Data involving Complex Numbers
+ Understand Elements involving Complex Numbers
+ Understand Observations involving Complex Numbers
+ Understand Dependent Variables involving Complex Numbers
+ Understand Independent Variables involving Complex Numbers
+ Understand Sums involving Complex Numbers
+ Understand Differences involving Complex Numbers
+ Understand Products involving Complex Numbers
+ Understand Quotients involving Complex Numbers
+ Understand Remainders involving Complex Numbers
+ Understand Samples involving Complex Numbers
+ Apply Numerical Expressions involving Complex Numbers
+ Apply Numerical Equations involving Complex Numbers
+ Apply Properties of Objects involving Complex Numbers
+ Apply Properties of Operations involving Complex Numbers
+ Apply Common Factors involving Complex Numbers
+ Apply Multiples involving Complex Numbers
+ Apply Common Multiples involving Complex Numbers
+ Apply Congruence involving Complex Numbers
+ Apply Similarity involving Complex Numbers
+ Apply Numerical Inequalities involving Complex Numbers
+ Apply Algebraic Equations involving Complex Numbers
+ Apply Algebraic Inequalities involving Complex Numbers
+ Apply Simultaneous Equations involving Complex Numbers
+ Apply Statistical Variability involving Complex Numbers
+ Apply Distributions involving Complex Numbers
+ Apply Probability Models involving Complex Numbers
+ Apply Bivariate Data involving Complex Numbers
+ Apply Elements involving Complex Numbers
+ Apply Observations involving Complex Numbers
+ Apply Dependent Variables involving Complex Numbers
+ Apply Independent Variables involving Complex Numbers
+ Apply Sums involving Complex Numbers
+ Apply Differences involving Complex Numbers
+ Apply Products involving Complex Numbers
+ Apply Quotients involving Complex Numbers
+ Apply Remainders involving Complex Numbers
+ Apply Samples involving Complex Numbers
+ Analyze Numerical Expressions involving Complex Numbers
+ Analyze Numerical Equations involving Complex Numbers
+ Analyze Properties of Objects involving Complex Numbers
+ Analyze Properties of Operations involving Complex Numbers
+ Analyze Common Factors involving Complex Numbers
+ Analyze Multiples involving Complex Numbers
+ Analyze Common Multiples involving Complex Numbers
+ Analyze Congruence involving Complex Numbers
+ Analyze Similarity involving Complex Numbers
+ Analyze Numerical Inequalities involving Complex Numbers
+ Analyze Algebraic Equations involving Complex Numbers
+ Analyze Algebraic Inequalities involving Complex Numbers
+ Analyze Simultaneous Equations involving Complex Numbers
+ Analyze Statistical Variability involving Complex Numbers
+ Analyze Distributions involving Complex Numbers
+ Analyze Probability Models involving Complex Numbers
+ Analyze Bivariate Data involving Complex Numbers
+ Analyze Elements involving Complex Numbers
+ Analyze Observations involving Complex Numbers
+ Analyze Dependent Variables involving Complex Numbers
+ Analyze Independent Variables involving Complex Numbers
+ Analyze Sums involving Complex Numbers
+ Analyze Differences involving Complex Numbers
+ Analyze Products involving Complex Numbers
+ Analyze Quotients involving Complex Numbers
+ Analyze Remainders involving Complex Numbers
+ Analyze Samples involving Complex Numbers
+ Remember Naming Numbers involving Complex Numbers
+ Remember Naming Terms involving Complex Numbers
+ Remember Naming Factors involving Complex Numbers
+ Remember Naming Algebraic Expressions involving Complex Numbers
+ Remember Naming Variables involving Complex Numbers
+ Remember Naming Functions involving Complex Numbers
+ Remember Sequencing Numbers involving Complex Numbers
+ Remember Sequencing Terms involving Complex Numbers
+ Remember Sequencing Factors involving Complex Numbers
+ Remember Sequencing Algebraic Expressions involving Complex Numbers
+ Remember Sequencing Variables involving Complex Numbers
+ Remember Sequencing Functions involving Complex Numbers
+ Remember Ordering Numbers involving Complex Numbers
+ Remember Ordering Terms involving Complex Numbers
+ Remember Ordering Factors involving Complex Numbers
+ Remember Ordering Algebraic Expressions involving Complex Numbers
+ Remember Ordering Variables involving Complex Numbers
+ Remember Ordering Functions involving Complex Numbers
+ Remember Adding Numbers involving Complex Numbers
+ Remember Adding Terms involving Complex Numbers
+ Remember Adding Factors involving Complex Numbers
+ Remember Adding Algebraic Expressions involving Complex Numbers
+ Remember Adding Variables involving Complex Numbers
+ Remember Adding Functions involving Complex Numbers
+ Remember Subtracting Numbers involving Complex Numbers
+ Remember Subtracting Terms involving Complex Numbers
+ Remember Subtracting Factors involving Complex Numbers
+ Remember Subtracting Algebraic Expressions involving Complex Numbers
+ Remember Subtracting Variables involving Complex Numbers
+ Remember Subtracting Functions involving Complex Numbers
+ Remember Multiplying Numbers involving Complex Numbers
+ Remember Multiplying Terms involving Complex Numbers
+ Remember Multiplying Factors involving Complex Numbers
+ Remember Multiplying Algebraic Expressions involving Complex Numbers
+ Remember Multiplying Variables involving Complex Numbers
+ Remember Multiplying Functions involving Complex Numbers
+ Remember Dividing Numbers involving Complex Numbers
+ Remember Dividing Terms involving Complex Numbers
+ Remember Dividing Factors involving Complex Numbers
+ Remember Dividing Algebraic Expressions involving Complex Numbers
+ Remember Dividing Variables involving Complex Numbers
+ Remember Dividing Functions involving Complex Numbers
+ Remember Negating Numbers involving Complex Numbers
+ Remember Negating Terms involving Complex Numbers
+ Remember Negating Factors involving Complex Numbers
+ Remember Negating Algebraic Expressions involving Complex Numbers
+ Remember Negating Variables involving Complex Numbers
+ Remember Negating Functions involving Complex Numbers
+ Remember Exponentiating Numbers involving Complex Numbers
+ Remember Exponentiating Terms involving Complex Numbers
+ Remember Exponentiating Factors involving Complex Numbers
+ Remember Exponentiating Algebraic Expressions involving Complex Numbers
+ Remember Exponentiating Variables involving Complex Numbers
+ Remember Exponentiating Functions involving Complex Numbers
+ Remember Grouping Numbers involving Complex Numbers
+ Remember Grouping Terms involving Complex Numbers
+ Remember Grouping Factors involving Complex Numbers
+ Remember Grouping Algebraic Expressions involving Complex Numbers
+ Remember Grouping Variables involving Complex Numbers
+ Remember Grouping Functions involving Complex Numbers
+ Evaluate Naming Numbers involving Complex Numbers
+ Evaluate Naming Terms involving Complex Numbers
+ Evaluate Naming Factors involving Complex Numbers
+ Evaluate Naming Algebraic Expressions involving Complex Numbers
+ Evaluate Naming Variables involving Complex Numbers
+ Evaluate Naming Functions involving Complex Numbers
+ Evaluate Sequencing Numbers involving Complex Numbers
+ Evaluate Sequencing Terms involving Complex Numbers
+ Evaluate Sequencing Factors involving Complex Numbers
+ Evaluate Sequencing Algebraic Expressions involving Complex Numbers
+ Evaluate Sequencing Variables involving Complex Numbers
+ Evaluate Sequencing Functions involving Complex Numbers
+ Evaluate Ordering Numbers involving Complex Numbers
+ Evaluate Ordering Terms involving Complex Numbers
+ Evaluate Ordering Factors involving Complex Numbers
+ Evaluate Ordering Algebraic Expressions involving Complex Numbers
+ Evaluate Ordering Variables involving Complex Numbers
+ Evaluate Ordering Functions involving Complex Numbers
+ Evaluate Adding Numbers involving Complex Numbers
+ Evaluate Adding Terms involving Complex Numbers
+ Evaluate Adding Factors involving Complex Numbers
+ Evaluate Adding Algebraic Expressions involving Complex Numbers
+ Evaluate Adding Variables involving Complex Numbers
+ Evaluate Adding Functions involving Complex Numbers
+ Evaluate Subtracting Numbers involving Complex Numbers
+ Evaluate Subtracting Terms involving Complex Numbers
+ Evaluate Subtracting Factors involving Complex Numbers
+ Evaluate Subtracting Algebraic Expressions involving Complex Numbers
+ Evaluate Subtracting Variables involving Complex Numbers
+ Evaluate Subtracting Functions involving Complex Numbers
+ Evaluate Multiplying Numbers involving Complex Numbers
+ Evaluate Multiplying Terms involving Complex Numbers
+ Evaluate Multiplying Factors involving Complex Numbers
+ Evaluate Multiplying Algebraic Expressions involving Complex Numbers
+ Evaluate Multiplying Variables involving Complex Numbers
+ Evaluate Multiplying Functions involving Complex Numbers
+ Evaluate Dividing Numbers involving Complex Numbers
+ Evaluate Dividing Terms involving Complex Numbers
+ Evaluate Dividing Factors involving Complex Numbers
+ Evaluate Dividing Algebraic Expressions involving Complex Numbers
+ Evaluate Dividing Variables involving Complex Numbers
+ Evaluate Dividing Functions involving Complex Numbers
+ Evaluate Negating Numbers involving Complex Numbers
+ Evaluate Negating Terms involving Complex Numbers
+ Evaluate Negating Factors involving Complex Numbers
+ Evaluate Negating Algebraic Expressions involving Complex Numbers
+ Evaluate Negating Variables involving Complex Numbers
+ Evaluate Negating Functions involving Complex Numbers
+ Evaluate Exponentiating Numbers involving Complex Numbers
+ Evaluate Exponentiating Terms involving Complex Numbers
+ Evaluate Exponentiating Factors involving Complex Numbers
+ Evaluate Exponentiating Algebraic Expressions involving Complex Numbers
+ Evaluate Exponentiating Variables involving Complex Numbers
+ Evaluate Exponentiating Functions involving Complex Numbers
+ Evaluate Grouping Numbers involving Complex Numbers
+ Evaluate Grouping Terms involving Complex Numbers
+ Evaluate Grouping Factors involving Complex Numbers
+ Evaluate Grouping Algebraic Expressions involving Complex Numbers
+ Evaluate Grouping Variables involving Complex Numbers
+ Evaluate Grouping Functions involving Complex Numbers
+ Create Naming Numbers involving Complex Numbers
+ Create Naming Terms involving Complex Numbers
+ Create Naming Factors involving Complex Numbers
+ Create Naming Algebraic Expressions involving Complex Numbers
+ Create Naming Variables involving Complex Numbers
+ Create Naming Functions involving Complex Numbers
+ Create Sequencing Numbers involving Complex Numbers
+ Create Sequencing Terms involving Complex Numbers
+ Create Sequencing Factors involving Complex Numbers
+ Create Sequencing Algebraic Expressions involving Complex Numbers
+ Create Sequencing Variables involving Complex Numbers
+ Create Sequencing Functions involving Complex Numbers
+ Create Ordering Numbers involving Complex Numbers
+ Create Ordering Terms involving Complex Numbers
+ Create Ordering Factors involving Complex Numbers
+ Create Ordering Algebraic Expressions involving Complex Numbers
+ Create Ordering Variables involving Complex Numbers
+ Create Ordering Functions involving Complex Numbers
+ Create Adding Numbers involving Complex Numbers
+ Create Adding Terms involving Complex Numbers
+ Create Adding Factors involving Complex Numbers
+ Create Adding Algebraic Expressions involving Complex Numbers
+ Create Adding Variables involving Complex Numbers
+ Create Adding Functions involving Complex Numbers
+ Create Subtracting Numbers involving Complex Numbers
+ Create Subtracting Terms involving Complex Numbers
+ Create Subtracting Factors involving Complex Numbers
+ Create Subtracting Algebraic Expressions involving Complex Numbers
+ Create Subtracting Variables involving Complex Numbers
+ Create Subtracting Functions involving Complex Numbers
+ Create Multiplying Numbers involving Complex Numbers
+ Create Multiplying Terms involving Complex Numbers
+ Create Multiplying Factors involving Complex Numbers
+ Create Multiplying Algebraic Expressions involving Complex Numbers
+ Create Multiplying Variables involving Complex Numbers
+ Create Multiplying Functions involving Complex Numbers
+ Create Dividing Numbers involving Complex Numbers
+ Create Dividing Terms involving Complex Numbers
+ Create Dividing Factors involving Complex Numbers
+ Create Dividing Algebraic Expressions involving Complex Numbers
+ Create Dividing Variables involving Complex Numbers
+ Create Dividing Functions involving Complex Numbers
+ Create Negating Numbers involving Complex Numbers
+ Create Negating Terms involving Complex Numbers
+ Create Negating Factors involving Complex Numbers
+ Create Negating Algebraic Expressions involving Complex Numbers
+ Create Negating Variables involving Complex Numbers
+ Create Negating Functions involving Complex Numbers
+ Create Exponentiating Numbers involving Complex Numbers
+ Create Exponentiating Terms involving Complex Numbers
+ Create Exponentiating Factors involving Complex Numbers
+ Create Exponentiating Algebraic Expressions involving Complex Numbers
+ Create Exponentiating Variables involving Complex Numbers
+ Create Exponentiating Functions involving Complex Numbers
+ Create Grouping Numbers involving Complex Numbers
+ Create Grouping Terms involving Complex Numbers
+ Create Grouping Factors involving Complex Numbers
+ Create Grouping Algebraic Expressions involving Complex Numbers
+ Create Grouping Variables involving Complex Numbers
+ Create Grouping Functions involving Complex Numbers
+ Understand Naming Numbers involving Complex Numbers
+ Understand Naming Terms involving Complex Numbers
+ Understand Naming Factors involving Complex Numbers
+ Understand Naming Algebraic Expressions involving Complex Numbers
+ Understand Naming Variables involving Complex Numbers
+ Understand Naming Functions involving Complex Numbers
+ Understand Sequencing Numbers involving Complex Numbers
+ Understand Sequencing Terms involving Complex Numbers
+ Understand Sequencing Factors involving Complex Numbers
+ Understand Sequencing Algebraic Expressions involving Complex Numbers
+ Understand Sequencing Variables involving Complex Numbers
+ Understand Sequencing Functions involving Complex Numbers
+ Understand Ordering Numbers involving Complex Numbers
+ Understand Ordering Terms involving Complex Numbers
+ Understand Ordering Factors involving Complex Numbers
+ Understand Ordering Algebraic Expressions involving Complex Numbers
+ Understand Ordering Variables involving Complex Numbers
+ Understand Ordering Functions involving Complex Numbers
+ Understand Adding Numbers involving Complex Numbers
+ Understand Adding Terms involving Complex Numbers
+ Understand Adding Factors involving Complex Numbers
+ Understand Adding Algebraic Expressions involving Complex Numbers
+ Understand Adding Variables involving Complex Numbers
+ Understand Adding Functions involving Complex Numbers
+ Understand Subtracting Numbers involving Complex Numbers
+ Understand Subtracting Terms involving Complex Numbers
+ Understand Subtracting Factors involving Complex Numbers
+ Understand Subtracting Algebraic Expressions involving Complex Numbers
+ Understand Subtracting Variables involving Complex Numbers
+ Understand Subtracting Functions involving Complex Numbers
+ Understand Multiplying Numbers involving Complex Numbers
+ Understand Multiplying Terms involving Complex Numbers
+ Understand Multiplying Factors involving Complex Numbers
+ Understand Multiplying Algebraic Expressions involving Complex Numbers
+ Understand Multiplying Variables involving Complex Numbers
+ Understand Multiplying Functions involving Complex Numbers
+ Understand Dividing Numbers involving Complex Numbers
+ Understand Dividing Terms involving Complex Numbers
+ Understand Dividing Factors involving Complex Numbers
+ Understand Dividing Algebraic Expressions involving Complex Numbers
+ Understand Dividing Variables involving Complex Numbers
+ Understand Dividing Functions involving Complex Numbers
+ Understand Negating Numbers involving Complex Numbers
+ Understand Negating Terms involving Complex Numbers
+ Understand Negating Factors involving Complex Numbers
+ Understand Negating Algebraic Expressions involving Complex Numbers
+ Understand Negating Variables involving Complex Numbers
+ Understand Negating Functions involving Complex Numbers
+ Understand Exponentiating Numbers involving Complex Numbers
+ Understand Exponentiating Terms involving Complex Numbers
+ Understand Exponentiating Factors involving Complex Numbers
+ Understand Exponentiating Algebraic Expressions involving Complex Numbers
+ Understand Exponentiating Variables involving Complex Numbers
+ Understand Exponentiating Functions involving Complex Numbers
+ Understand Grouping Numbers involving Complex Numbers
+ Understand Grouping Terms involving Complex Numbers
+ Understand Grouping Factors involving Complex Numbers
+ Understand Grouping Algebraic Expressions involving Complex Numbers
+ Understand Grouping Variables involving Complex Numbers
+ Understand Grouping Functions involving Complex Numbers
+ Apply Naming Numbers involving Complex Numbers
+ Apply Naming Terms involving Complex Numbers
+ Apply Naming Factors involving Complex Numbers
+ Apply Naming Algebraic Expressions involving Complex Numbers
+ Apply Naming Variables involving Complex Numbers
+ Apply Naming Functions involving Complex Numbers
+ Apply Sequencing Numbers involving Complex Numbers
+ Apply Sequencing Terms involving Complex Numbers
+ Apply Sequencing Factors involving Complex Numbers
+ Apply Sequencing Algebraic Expressions involving Complex Numbers
+ Apply Sequencing Variables involving Complex Numbers
+ Apply Sequencing Functions involving Complex Numbers
+ Apply Ordering Numbers involving Complex Numbers
+ Apply Ordering Terms involving Complex Numbers
+ Apply Ordering Factors involving Complex Numbers
+ Apply Ordering Algebraic Expressions involving Complex Numbers
+ Apply Ordering Variables involving Complex Numbers
+ Apply Ordering Functions involving Complex Numbers
+ Apply Adding Numbers involving Complex Numbers
+ Apply Adding Terms involving Complex Numbers
+ Apply Adding Factors involving Complex Numbers
+ Apply Adding Algebraic Expressions involving Complex Numbers
+ Apply Adding Variables involving Complex Numbers
+ Apply Adding Functions involving Complex Numbers
+ Apply Subtracting Numbers involving Complex Numbers
+ Apply Subtracting Terms involving Complex Numbers
+ Apply Subtracting Factors involving Complex Numbers
+ Apply Subtracting Algebraic Expressions involving Complex Numbers
+ Apply Subtracting Variables involving Complex Numbers
+ Apply Subtracting Functions involving Complex Numbers
+ Apply Multiplying Numbers involving Complex Numbers
+ Apply Multiplying Terms involving Complex Numbers
+ Apply Multiplying Factors involving Complex Numbers
+ Apply Multiplying Algebraic Expressions involving Complex Numbers
+ Apply Multiplying Variables involving Complex Numbers
+ Apply Multiplying Functions involving Complex Numbers
+ Apply Dividing Numbers involving Complex Numbers
+ Apply Dividing Terms involving Complex Numbers
+ Apply Dividing Factors involving Complex Numbers
+ Apply Dividing Algebraic Expressions involving Complex Numbers
+ Apply Dividing Variables involving Complex Numbers
+ Apply Dividing Functions involving Complex Numbers
+ Apply Negating Numbers involving Complex Numbers
+ Apply Negating Terms involving Complex Numbers
+ Apply Negating Factors involving Complex Numbers
+ Apply Negating Algebraic Expressions involving Complex Numbers
+ Apply Negating Variables involving Complex Numbers
+ Apply Negating Functions involving Complex Numbers
+ Apply Exponentiating Numbers involving Complex Numbers
+ Apply Exponentiating Terms involving Complex Numbers
+ Apply Exponentiating Factors involving Complex Numbers
+ Apply Exponentiating Algebraic Expressions involving Complex Numbers
+ Apply Exponentiating Variables involving Complex Numbers
+ Apply Exponentiating Functions involving Complex Numbers
+ Apply Grouping Numbers involving Complex Numbers
+ Apply Grouping Terms involving Complex Numbers
+ Apply Grouping Factors involving Complex Numbers
+ Apply Grouping Algebraic Expressions involving Complex Numbers
+ Apply Grouping Variables involving Complex Numbers
+ Apply Grouping Functions involving Complex Numbers
+ Analyze Naming Numbers involving Complex Numbers
+ Analyze Naming Terms involving Complex Numbers
+ Analyze Naming Factors involving Complex Numbers
+ Analyze Naming Algebraic Expressions involving Complex Numbers
+ Analyze Naming Variables involving Complex Numbers
+ Analyze Naming Functions involving Complex Numbers
+ Analyze Sequencing Numbers involving Complex Numbers
+ Analyze Sequencing Terms involving Complex Numbers
+ Analyze Sequencing Factors involving Complex Numbers
+ Analyze Sequencing Algebraic Expressions involving Complex Numbers
+ Analyze Sequencing Variables involving Complex Numbers
+ Analyze Sequencing Functions involving Complex Numbers
+ Analyze Ordering Numbers involving Complex Numbers
+ Analyze Ordering Terms involving Complex Numbers
+ Analyze Ordering Factors involving Complex Numbers
+ Analyze Ordering Algebraic Expressions involving Complex Numbers
+ Analyze Ordering Variables involving Complex Numbers
+ Analyze Ordering Functions involving Complex Numbers
+ Analyze Adding Numbers involving Complex Numbers
+ Analyze Adding Terms involving Complex Numbers
+ Analyze Adding Factors involving Complex Numbers
+ Analyze Adding Algebraic Expressions involving Complex Numbers
+ Analyze Adding Variables involving Complex Numbers
+ Analyze Adding Functions involving Complex Numbers
+ Analyze Subtracting Numbers involving Complex Numbers
+ Analyze Subtracting Terms involving Complex Numbers
+ Analyze Subtracting Factors involving Complex Numbers
+ Analyze Subtracting Algebraic Expressions involving Complex Numbers
+ Analyze Subtracting Variables involving Complex Numbers
+ Analyze Subtracting Functions involving Complex Numbers
+ Analyze Multiplying Numbers involving Complex Numbers
+ Analyze Multiplying Terms involving Complex Numbers
+ Analyze Multiplying Factors involving Complex Numbers
+ Analyze Multiplying Algebraic Expressions involving Complex Numbers
+ Analyze Multiplying Variables involving Complex Numbers
+ Analyze Multiplying Functions involving Complex Numbers
+ Analyze Dividing Numbers involving Complex Numbers
+ Analyze Dividing Terms involving Complex Numbers
+ Analyze Dividing Factors involving Complex Numbers
+ Analyze Dividing Algebraic Expressions involving Complex Numbers
+ Analyze Dividing Variables involving Complex Numbers
+ Analyze Dividing Functions involving Complex Numbers
+ Analyze Negating Numbers involving Complex Numbers
+ Analyze Negating Terms involving Complex Numbers
+ Analyze Negating Factors involving Complex Numbers
+ Analyze Negating Algebraic Expressions involving Complex Numbers
+ Analyze Negating Variables involving Complex Numbers
+ Analyze Negating Functions involving Complex Numbers
+ Analyze Exponentiating Numbers involving Complex Numbers
+ Analyze Exponentiating Terms involving Complex Numbers
+ Analyze Exponentiating Factors involving Complex Numbers
+ Analyze Exponentiating Algebraic Expressions involving Complex Numbers
+ Analyze Exponentiating Variables involving Complex Numbers
+ Analyze Exponentiating Functions involving Complex Numbers
+ Analyze Grouping Numbers involving Complex Numbers
+ Analyze Grouping Terms involving Complex Numbers
+ Analyze Grouping Factors involving Complex Numbers
+ Analyze Grouping Algebraic Expressions involving Complex Numbers
+ Analyze Grouping Variables involving Complex Numbers
+ Analyze Grouping Functions involving Complex Numbers

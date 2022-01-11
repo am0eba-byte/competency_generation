@@ -1,0 +1,104 @@
+scope_competency ::=  ( formal_process | knowledge_process ) (( math_operation ', ' quant_object ) | processPred ) 
+
+whole_number_competency ::= formal_process  (((math_operation ', ' quant_object  | processPred) (notation_object)?) )   |  knowledge_process ( ' “by” ' knowledge_subprocess )?  (( math_operation ', ' quant_object ) | processPred )
+
+formal_process ::= ' read ' | ' recite ' | ' write ' |  ' represent ' ( ' with ' representation )? | ' randomly sample '
+
+representation ::= models | realia | glyphs 
+
+models ::= ' “images” ' | ' “sounds” ' | ' “activities” ' 
+
+realia ::= ' “specimens” ' | ' “body parts” ' 
+
+glyphs ::= ' “words” ' | ' “symbols” ' | ' “drawings” ' | ' “graphs” '
+
+ 
+
+knowledge_process ::= ' "remember" ' | ' "understand" ' | ' "apply" ' | ' "analyze" ' | '"evaluate" ' | ' "create" ' 
+
+
+knowledge_subprocess ::= ' "putting together" ' | ' "adding to" ' | ' "taking apart" ' | ' "taking from"  '
+/*WHOLE NUMBERS ONLY ^^ (*these are strategies*) ==> turn these into Tags ? */
+/* ex: putting together scope = addition */
+
+
+math_practice_competency ::= ' “Make Sense of Problems” ' | ' “Persevere in Solving Problems” ' | ' “Reason Abstractly” ' | ' “Reason Quantitatively” ' | ' “Construct Viable Arguments” ' | ' “Critique Reasoning” ' | ' “Model Problems” ' | ' “Use Tools Strategically” ' | ' “Attend to Precision” ' | ' “Look for Structure” ' | ' “Make Use of Structure” ' | ' “Look for Regularity in Repeated Reasoning” ' | ' “Express Regularity in Repeated Reasoning” ' 
+
+
+math_operation ::= ' “naming” ' | ' “sequencing” ' | ' “ordering” ' | ' “adding” ' | ' “subtracting” ' | ' “multiplying” ' | ' “dividing” ' | ' “negating” ' | ' “exponentiating” ' | ' “grouping” ' 
+/* specific to scope domains */
+
+quant_object ::= ' "Numbers" ' | ' "Terms" ' | ' "Factors" ' | ' "Angles" ' | ' "Algebraic Expressions" ' | ' "Variables" ' | ' "Functions" ' | ' "Chance Processes" ' | ' "Arrays" '
+
+processPred ::= 
+' "Volumes" ' |
+' "Numerical Expressions" ' |
+' "Numerical Equations" ' |
+' "Properties of Objects" ' |
+' "Properties of Operations" ' |
+' "Patterns" ' |
+' "Common Factors" ' |
+' "Multiples" ' |
+' "Common Multiples" ' |
+' "Place Values" ' |
+' "Attributes" ' |
+' "Standard Units" ' |
+' "SI Units" ' |
+' "Areas" ' |
+' "Perimeters" ' |
+' "Data" ' |
+' "Shapes" ' |
+' "Surface Areas" ' |
+' "Realia" ' |
+' "Models" ' |
+' "Congruence" ' |
+' "Similarity" ' |
+' "Ratios" ' |
+' "Proportions" ' |
+' "Numerical Inequalities" ' |
+' "Algebraic Equations" ' |
+' "Algebraic Inequalities" ' |
+' "Lines" ' |
+' "Linear Equations" ' |
+' "Simultaneous Equations" ' |
+' "Statistical Variability" ' |
+' "Distributions" ' |
+' "Populations" ' |
+' "Probability Models" ' |
+' "Bivariate Data" ' |
+' "Sets" ' |
+' "Elements" ' |
+' "Experiments" ' |
+' "Observations" ' |
+' "Dependent Variables" ' |
+' "Independent Variables" ' |
+' "Sums" ' |
+' "Differences" ' |
+' "Products" ' |
+' "Quotients" ' |
+' "Remainders" ' |
+' "Groups" ' |
+' "Length" ' |
+' "Width" ' |
+' "Depth or Height" ' |
+' "Qualitative Attributes" ' |
+' "Plane Figures" ' |
+' "Objects in Space" ' |
+' "Samples" ' |
+' "Random Samples" ' |
+' "Prisms and Cylinders" ' |
+' "Spheres" ' |
+' "Cones" ' |
+' "Quantitative Stories" '
+
+specific_object ::= ' “Pythagorean Theorem” ' | ' “Standard Algorithm for Addition” ' | ' “Standard Algorithm for Subtraction” '  |  ' “Standard Algorithm for Multiplication” ' | ' “Standard Algorithm for Division” ' | ' “European Algorithm for Subtraction” ' | ' “Lattice Algorithm for Multiplication” ' | ' “Common Factors” ' | ' “Distributive Property” ' | ' “Commutative Property” ' | ' “Associative Property” '
+
+
+scope_object ::=  (' "Whole Numbers" ' ( sub_scope )? ) | ' “Integers” ' | ' “Unit Fractions” ' | ' “Rational Numbers” ' | ' “Real Numbers” ' | ' “Imaginary Numbers” ' | ' “Complex Numbers” ' | ' “Vectors” ' | ' “Matrices” ' | ' “Infinite Numbers” ' | ' “Random Numbers” ' | ' “Expected Values” ' | ' “Probabilities” ' | ' “The Plane” ' | ' “Space” ' | ' “Algebraic Expressions” ' | ' “Numerical Expressions” '
+
+
+notation_object ::= ' “in” ' ( ' “Fractional Notations” ' | ' “Decimal Notations” ' | ' “Proportional Notation” ' | ' “Addition Notation” ' | ' “Subtraction Notation” ' | ' “Multiplication Notations” ' | ' “Division Notations” ' | ' “Radical Notation” ' | ' “Exponential Notation” ' | ' “Scientific Notation” ' | ' “Base Ten” ' ) 
+
+
+
+sub_scope ::= ' “0” ' | ' “1” ' | ' “to 2” ' | ' “to 3” ' | ' “to 4” ' | ' “to 5” ' | ' “within 10” ' | ' “within 20” ' | ' “within 100” ' | ' “within 120” ' | ' “within 1000” ' 
