@@ -63,6 +63,11 @@ The XSLT generator scripts have two basic components:
     
     <xsl:param name="math_operation" as="xs:string" select="'math_operation'"/>
     <xsl:param name="object" as="xs:string" select="'quant'"/> 
+    
+    <xsl:param name="notationObject" as="xs:string" select="'notationObject'"/>
+    <!-- The notationObject param is only used in three scopes: Rational Numbers, Integers, and Whole Numbers. -->
+    <!-- notationObejcts can only occur in competency sentences where there is a formalProcess component "Read" or "Write". -->
+    <!-- See more about xsl:key intersect implementations in the Scope Filtering section below. -->
 ```
     
     
@@ -142,6 +147,66 @@ on our sentence writer template:
             </xsl:call-template>
 ```
 
+### How to filter a competency component by string AND scope - combining two xsl:keys with INTERSECT
+
+There are some competency sentence scenarios where the presence of one sentence component determines whether or not
+certain strings within another component will output. i.e., only a select few strings within a given component set
+will output when a different component is generated in that sentence group as well. 
+
+In these cases, we must call on two `xsl:keys` using the `intersect` conjunction when creating the co-dependent 
+component variable in order to tell the generator to filter that component using BOTH parameters. 
+
+##### Scopes where xsl:key intersection filtering occurs
+
+- Whole Numbers
+- Rational Numbers
+- Integers
+
+#### Example: Scope Key INTERSECT Notation Key
+
+In scopes that can have a Notation Object component in their competency sentences, the presence of the Notation object
+requires there to be a Formal Process in the sentence - but only TWO of the Formal Process strings can be output with
+a notation object: "Read" and "Write". In the input XML, those two string elements contain an `@subclass="notation"` 
+attribute value alongside the `@class` attribute for scope filtering. 
+See the "Notation Object Filtering" section below for more details how the notation `xsl:key` works.
+
+Say you want to generate competencies in the Integers scope that contain a Formal Process (keyed to notation), a Process
+Predicate, and a Notation Object.
+
+To apply both keys to the Formal Process variable, you need to add the `intersect` conjunction with the second key-value pair 
+to the `xsl:for-each select="key('scopes', $int)"` selector within the FPint (Formal Process Integers) variable:
+
+```
+                <xsl:variable name="FPint" as="element()+">
+                    <xsl:for-each select="key('scopes', $int) intersect key('notationKey', $notation)">
+                        <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+```
+
+
+Since only the Formal Process component is affected by the presence of the Notation Object, that is the only variable
+you will need to use both the Scope Key and the Notation Key. All other components remain filtered through ONLY the `$imag`
+param scope key:
+
+```
+                <xsl:variable name="FPint" as="element()+">
+                    <xsl:for-each select="key('scopes', $int) intersect key('notationKey', $notation)">
+                        <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="PrPredint" as="element()+">
+                    <xsl:for-each select="key('scopes', $int)">
+                        <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="NO_int" as="element()+">
+                    <xsl:for-each select="key('scopes', $int)">
+                        <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+```
+
 
 ## File Locations: 
 ### Generates scoped XML file:
@@ -181,13 +246,32 @@ The TSV files are separated by which competency sentence components each group o
 
 ##### Formal Process Branch
 - `fp-Pp` = Formal Process + Process Predicate (object subset)
-- `fp-so` = Formal Process + Specific Object
+- `fp-Pp-n` = Formal Process(keyed to notation) + Process Predicate + Notation Object
 - `fp-mathop` = Formal Process + Math Operation + Quantitative Object (object subset)
+- `fp-mathop-n` = Formal Process(keyed to notation) + Math Operation + Quantitative Object + Notation Object
+- `fp-so` = Formal Process + Specific Object
 
 ##### Knowledge Process Branch
 - `kp-Pp` = Knowledge Process + Process Predicate (object subset)
 - `kp-so` = Knowledge Process + Specific Object
 - `kp-mathop` = Knowledge Process + Math Operation + Quantitative Object (object subset)
+
+
+# K-5 Scope Generator
+
+Scopes limited to grades K-5 have their own separate working directory containing the K-5 input XML, the K-5 scope 
+focused XSLT generator scripts, and the K-5 competency output folder containing separate folders for each K-5 scope output.
+
+### Scopes generated for ONLY K-5:
+- Rational Numbers
+- Integers
+- Algebraic Expressions
+- Numerical Expressions
+
+#### K-5 Directory Location: 
+
+` competency_generation\competency_formal_grammar\XSLT\K5\ `
+
 
 
 # Whole Numbers Scope Competency - Separate Workflow
@@ -241,9 +325,9 @@ The TSV files are separated by which competency sentence components each group o
 
 ##### Knowledge Process Branch
 - `kp-Pp` = Knowledge Process + Process Predicate (object subset)
-- `kp-sp-Pp` = Knowledge Process + Knowledge Subprocess + Process Predicate
+- `kp-Pp-sp` = Knowledge Process + Knowledge Subprocess + Process Predicate
 - `kp-mathop` = Knowledge Process + Math Operation + Quantitative Object (object subset)
-- `kp-sp-mathop` = Knowledge Process + Knowledge Subprocess + Math Operation + Quantitative Object
+- `kp-mathop-sp` = Knowledge Process + Knowledge Subprocess + Math Operation + Quantitative Object
 
 
 
