@@ -1,0 +1,58 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<xml>
+    <sentenceGroup xml:id="numexp">
+       
+        <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <processPred>Volumes</processPred>
+            <scopeName>involving Numerical Expressions</scopeName>
+        </componentSentence>
+        <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <processPred>Depth or Height</processPred>
+            <scopeName>involving Numerical Expressions</scopeName>
+        </componentSentence>
+    </sentenceGroup>    <!--####################################-->    <!--NUMERICAL EXPRESSIONS: Formal Process + Math Operation + Quant Object-->    <!--####################################-->
+    <sentenceGroup xml:id="numexp">
+        <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <mathOperation>Adding</mathOperation>
+            <quant>Numbers</quant>
+            <scopeName>involving Numerical Expressions</scopeName>
+        </componentSentence>
+    </sentenceGroup>    <!--####################################-->    <!--Knowledge Process Branch -->    <!--####################################-->    <!--####################################-->    <!--NUMERICAL EXPRESSIONS: Knowledge Process + Process Pred-->    <!--####################################-->
+    <sentenceGroup xml:id="numexp">
+        
+        <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <processPred>Linear Equations</processPred>
+            <scopeName>involving Numerical Expressions</scopeName>
+        </componentSentence>
+        
+        <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <processPred>Perimeters</processPred>
+            <scopeName>involving Numerical Expressions</scopeName>
+        </componentSentence>
+        
+        <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <processPred>Depth or Height</processPred>
+            <scopeName>involving Numerical Expressions</scopeName>
+        </componentSentence>
+    </sentenceGroup>    <!--####################################-->    <!--NUMERICAL EXPRESSIONS: Knowledge Process + Math Operation + Quant Object-->    <!--####################################-->
+    <sentenceGroup xml:id="numexp">
+        <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <mathOperation>Adding</mathOperation>
+            <quant>Numbers</quant>
+            <scopeName>involving Numerical Expressions</scopeName>
+        </componentSentence>
+        <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <mathOperation>Multiplying</mathOperation>
+            <quant>Numbers</quant>
+            <scopeName>involving Numerical Expressions</scopeName>
+        </componentSentence>
+    </sentenceGroup>
+</xml>

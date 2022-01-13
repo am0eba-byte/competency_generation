@@ -1,0 +1,22 @@
+{
+            
+            "compColl" : { "competency" :[{
+                    
+            "Token" : "this-is-a-test",
+            "Title" : {
+                    "id" : "alkdjfe",
+        
+            "lang" : "en-us",
+            "text" : "This Is A Test"
+                    }
+                    },{
+                    
+            "Token" : "this-is-another-test",
+            "Title" : {
+                    "id" : "sgfbiet",
+        
+            "lang" : "en-us",
+            "text" : "This Is Another Test"
+                    }
+                    }] }}
+        

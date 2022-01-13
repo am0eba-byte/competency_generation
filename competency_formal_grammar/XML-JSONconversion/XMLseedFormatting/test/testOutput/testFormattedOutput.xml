@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compColl>
+   <competency>
+      <Token>represent-volumes-involving-numerical-expressions</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e6">
+         <lang>en-us</lang>
+         <text>Represent Volumes involving Numerical Expressions</text>
+      </Title>
+      <Definition id="d1e6">
+         <lang>en-us</lang>
+         <text>Represent Volumes involving Numerical Expressions</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent,-with-graphs,-depth-or-height-involving-numerical-expressions</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e15">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Depth or Height involving Numerical Expressions</text>
+      </Title>
+      <Definition id="d1e15">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Depth or Height involving Numerical Expressions</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>read-adding-numbers-involving-numerical-expressions</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e33">
+         <lang>en-us</lang>
+         <text>Read Adding Numbers involving Numerical Expressions</text>
+      </Title>
+      <Definition id="d1e33">
+         <lang>en-us</lang>
+         <text>Read Adding Numbers involving Numerical Expressions</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-linear-equations-involving-numerical-expressions</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e60">
+         <lang>en-us</lang>
+         <text>Evaluate Linear Equations involving Numerical Expressions</text>
+      </Title>
+      <Definition id="d1e60">
+         <lang>en-us</lang>
+         <text>Evaluate Linear Equations involving Numerical Expressions</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-perimeters-involving-numerical-expressions</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e69">
+         <lang>en-us</lang>
+         <text>Apply Perimeters involving Numerical Expressions</text>
+      </Title>
+      <Definition id="d1e69">
+         <lang>en-us</lang>
+         <text>Apply Perimeters involving Numerical Expressions</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-depth-or-height-involving-numerical-expressions</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e78">
+         <lang>en-us</lang>
+         <text>Analyze Depth or Height involving Numerical Expressions</text>
+      </Title>
+      <Definition id="d1e78">
+         <lang>en-us</lang>
+         <text>Analyze Depth or Height involving Numerical Expressions</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-adding-numbers-involving-numerical-expressions</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e96">
+         <lang>en-us</lang>
+         <text>Evaluate Adding Numbers involving Numerical Expressions</text>
+      </Title>
+      <Definition id="d1e96">
+         <lang>en-us</lang>
+         <text>Evaluate Adding Numbers involving Numerical Expressions</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-multiplying-numbers-involving-numerical-expressions</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e107">
+         <lang>en-us</lang>
+         <text>Analyze Multiplying Numbers involving Numerical Expressions</text>
+      </Title>
+      <Definition id="d1e107">
+         <lang>en-us</lang>
+         <text>Analyze Multiplying Numbers involving Numerical Expressions</text>
+      </Definition>
+   </competency>
+</compColl>

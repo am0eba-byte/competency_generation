@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compColl>
+    <competency>
+        <Token>this-is-a-test</Token>
+        <Title id="alkdjfe">
+            <lang>en-us</lang>
+            <text>This Is A Test</text>
+        </Title>
+    </competency>
+    <competency>
+        <Token>this-is-another-test</Token>
+        <Title id="sgfbiet">
+            <lang>en-us</lang>
+            <text>This Is Another Test</text>
+        </Title>
+    </competency>
+</compColl>
