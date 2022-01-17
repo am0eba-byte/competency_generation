@@ -4,6 +4,13 @@
     exclude-result-prefixes="xs"
     version="3.0">
     
+    
+    <!-- TEST INPUT FILE:  
+        testinput.xml
+        testFormattedOutput.xml -->
+    <!-- TEST OUTPUT FILE: 
+        testOutput.json
+        testFormattedSeedOutput.json -->
  
         <xsl:output method="text"/>
         

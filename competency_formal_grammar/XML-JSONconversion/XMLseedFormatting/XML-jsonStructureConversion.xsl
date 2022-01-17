@@ -4,6 +4,9 @@
     exclude-result-prefixes="xs"
     version="3.0">
     
+    <!-- TEST INPUT FILE: TESTnumericExpNestedInput.xml -->
+    <!-- TEST OUTPUT FILE: testFormattedOutput.xml -->
+    
     <xsl:output method="xml" indent="yes"/>
     
     <xsl:template match="/">
@@ -17,7 +20,17 @@
     <xsl:template match="componentSentence">
       <xsl:for-each select=".">
         <competency>
-            <Token><xsl:apply-templates select="string-join(descendant::*/tokenize(lower-case(text()), '\s+'), '-')"/></Token>
+            <Token><!-- \W?\s+       [,?\s+] -->
+                <xsl:choose>
+                    <xsl:when test="descendant::*/text()[contains(., ',')]">
+                        <xsl:apply-templates select="string-join(descendant::*/tokenize(translate(lower-case(text()), '[a-z0-9_]+?,', '[a-z0-9_]'), '\s+'), '-')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates select="string-join(descendant::*/tokenize(lower-case(text()), '\s+'), '-')"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+                
+            </Token>
             <Creator>Big Ideas Learning</Creator>
             <Title id="{generate-id(.)}">
                 <lang>en-us</lang>
