@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compColl>
+   <competency>
+      <Token>make-sense-of-problems</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e3">
+         <lang>en-us</lang>
+         <text>Make Sense of Problems</text>
+      </Title>
+      <Definition id="d1e3">
+         <lang>en-us</lang>
+         <text>Make Sense of Problems</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>persevere-in-solving-problems</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e8">
+         <lang>en-us</lang>
+         <text>Persevere in Solving Problems</text>
+      </Title>
+      <Definition id="d1e8">
+         <lang>en-us</lang>
+         <text>Persevere in Solving Problems</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>reason-abstractly</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e13">
+         <lang>en-us</lang>
+         <text>Reason Abstractly</text>
+      </Title>
+      <Definition id="d1e13">
+         <lang>en-us</lang>
+         <text>Reason Abstractly</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>reason-quantitatively</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e18">
+         <lang>en-us</lang>
+         <text>Reason Quantitatively</text>
+      </Title>
+      <Definition id="d1e18">
+         <lang>en-us</lang>
+         <text>Reason Quantitatively</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>construct-viable-arguments</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e23">
+         <lang>en-us</lang>
+         <text>Construct Viable Arguments</text>
+      </Title>
+      <Definition id="d1e23">
+         <lang>en-us</lang>
+         <text>Construct Viable Arguments</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>critique-reasoning</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e29">
+         <lang>en-us</lang>
+         <text>Critique Reasoning</text>
+      </Title>
+      <Definition id="d1e29">
+         <lang>en-us</lang>
+         <text>Critique Reasoning</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>model-problems</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e34">
+         <lang>en-us</lang>
+         <text>Model Problems</text>
+      </Title>
+      <Definition id="d1e34">
+         <lang>en-us</lang>
+         <text>Model Problems</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>use-tools-strategically</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e39">
+         <lang>en-us</lang>
+         <text>Use Tools Strategically</text>
+      </Title>
+      <Definition id="d1e39">
+         <lang>en-us</lang>
+         <text>Use Tools Strategically</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>attend-to-precision</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e44">
+         <lang>en-us</lang>
+         <text>Attend to Precision</text>
+      </Title>
+      <Definition id="d1e44">
+         <lang>en-us</lang>
+         <text>Attend to Precision</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>look-for-structure</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e49">
+         <lang>en-us</lang>
+         <text>Look for Structure</text>
+      </Title>
+      <Definition id="d1e49">
+         <lang>en-us</lang>
+         <text>Look for Structure</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>make-use-of-structure</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e54">
+         <lang>en-us</lang>
+         <text>Make Use of Structure</text>
+      </Title>
+      <Definition id="d1e54">
+         <lang>en-us</lang>
+         <text>Make Use of Structure</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>look-for-regularity-in-repeated-reasoning</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e60">
+         <lang>en-us</lang>
+         <text>Look for Regularity in Repeated Reasoning</text>
+      </Title>
+      <Definition id="d1e60">
+         <lang>en-us</lang>
+         <text>Look for Regularity in Repeated Reasoning</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>express-regularity-in-repeated-reasoning</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e65">
+         <lang>en-us</lang>
+         <text>Express Regularity in Repeated Reasoning</text>
+      </Title>
+      <Definition id="d1e65">
+         <lang>en-us</lang>
+         <text>Express Regularity in Repeated Reasoning</text>
+      </Definition>
+   </competency>
+</compColl>

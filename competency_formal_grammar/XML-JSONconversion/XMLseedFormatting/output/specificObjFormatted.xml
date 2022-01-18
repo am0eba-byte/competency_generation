@@ -1,0 +1,2643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compColl>
+   <competency>
+      <Token>read-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e8">
+         <lang>en-us</lang>
+         <text>Read the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e8">
+         <lang>en-us</lang>
+         <text>Read the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>read-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e15">
+         <lang>en-us</lang>
+         <text>Read Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e15">
+         <lang>en-us</lang>
+         <text>Read Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>read-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e22">
+         <lang>en-us</lang>
+         <text>Read Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e22">
+         <lang>en-us</lang>
+         <text>Read Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>read-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e29">
+         <lang>en-us</lang>
+         <text>Read Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e29">
+         <lang>en-us</lang>
+         <text>Read Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>read-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e36">
+         <lang>en-us</lang>
+         <text>Read Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e36">
+         <lang>en-us</lang>
+         <text>Read Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>read-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e44">
+         <lang>en-us</lang>
+         <text>Read European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e44">
+         <lang>en-us</lang>
+         <text>Read European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>read-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e51">
+         <lang>en-us</lang>
+         <text>Read Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e51">
+         <lang>en-us</lang>
+         <text>Read Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>read-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e58">
+         <lang>en-us</lang>
+         <text>Read Common Factors</text>
+      </Title>
+      <Definition id="d1e58">
+         <lang>en-us</lang>
+         <text>Read Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>read-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e65">
+         <lang>en-us</lang>
+         <text>Read Distributive Property</text>
+      </Title>
+      <Definition id="d1e65">
+         <lang>en-us</lang>
+         <text>Read Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>read-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e72">
+         <lang>en-us</lang>
+         <text>Read Commutative Property</text>
+      </Title>
+      <Definition id="d1e72">
+         <lang>en-us</lang>
+         <text>Read Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>read-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e79">
+         <lang>en-us</lang>
+         <text>Read Associative Property</text>
+      </Title>
+      <Definition id="d1e79">
+         <lang>en-us</lang>
+         <text>Read Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>recite-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e87">
+         <lang>en-us</lang>
+         <text>Recite the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e87">
+         <lang>en-us</lang>
+         <text>Recite the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>recite-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e94">
+         <lang>en-us</lang>
+         <text>Recite Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e94">
+         <lang>en-us</lang>
+         <text>Recite Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>recite-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e101">
+         <lang>en-us</lang>
+         <text>Recite Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e101">
+         <lang>en-us</lang>
+         <text>Recite Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>recite-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e108">
+         <lang>en-us</lang>
+         <text>Recite Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e108">
+         <lang>en-us</lang>
+         <text>Recite Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>recite-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e115">
+         <lang>en-us</lang>
+         <text>Recite Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e115">
+         <lang>en-us</lang>
+         <text>Recite Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>recite-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e122">
+         <lang>en-us</lang>
+         <text>Recite European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e122">
+         <lang>en-us</lang>
+         <text>Recite European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>recite-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e130">
+         <lang>en-us</lang>
+         <text>Recite Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e130">
+         <lang>en-us</lang>
+         <text>Recite Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>recite-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e137">
+         <lang>en-us</lang>
+         <text>Recite Common Factors</text>
+      </Title>
+      <Definition id="d1e137">
+         <lang>en-us</lang>
+         <text>Recite Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>recite-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e144">
+         <lang>en-us</lang>
+         <text>Recite Distributive Property</text>
+      </Title>
+      <Definition id="d1e144">
+         <lang>en-us</lang>
+         <text>Recite Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>recite-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e151">
+         <lang>en-us</lang>
+         <text>Recite Commutative Property</text>
+      </Title>
+      <Definition id="d1e151">
+         <lang>en-us</lang>
+         <text>Recite Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>recite-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e158">
+         <lang>en-us</lang>
+         <text>Recite Associative Property</text>
+      </Title>
+      <Definition id="d1e158">
+         <lang>en-us</lang>
+         <text>Recite Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>write-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e165">
+         <lang>en-us</lang>
+         <text>Write the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e165">
+         <lang>en-us</lang>
+         <text>Write the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>write-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e173">
+         <lang>en-us</lang>
+         <text>Write Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e173">
+         <lang>en-us</lang>
+         <text>Write Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>write-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e180">
+         <lang>en-us</lang>
+         <text>Write Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e180">
+         <lang>en-us</lang>
+         <text>Write Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>write-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e187">
+         <lang>en-us</lang>
+         <text>Write Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e187">
+         <lang>en-us</lang>
+         <text>Write Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>write-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e194">
+         <lang>en-us</lang>
+         <text>Write Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e194">
+         <lang>en-us</lang>
+         <text>Write Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>write-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e201">
+         <lang>en-us</lang>
+         <text>Write European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e201">
+         <lang>en-us</lang>
+         <text>Write European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>write-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e208">
+         <lang>en-us</lang>
+         <text>Write Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e208">
+         <lang>en-us</lang>
+         <text>Write Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>write-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e216">
+         <lang>en-us</lang>
+         <text>Write Common Factors</text>
+      </Title>
+      <Definition id="d1e216">
+         <lang>en-us</lang>
+         <text>Write Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>write-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e223">
+         <lang>en-us</lang>
+         <text>Write Distributive Property</text>
+      </Title>
+      <Definition id="d1e223">
+         <lang>en-us</lang>
+         <text>Write Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>write-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e230">
+         <lang>en-us</lang>
+         <text>Write Commutative Property</text>
+      </Title>
+      <Definition id="d1e230">
+         <lang>en-us</lang>
+         <text>Write Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>write-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e237">
+         <lang>en-us</lang>
+         <text>Write Associative Property</text>
+      </Title>
+      <Definition id="d1e237">
+         <lang>en-us</lang>
+         <text>Write Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e244">
+         <lang>en-us</lang>
+         <text>Represent the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e244">
+         <lang>en-us</lang>
+         <text>Represent the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e251">
+         <lang>en-us</lang>
+         <text>Represent Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e251">
+         <lang>en-us</lang>
+         <text>Represent Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e259">
+         <lang>en-us</lang>
+         <text>Represent Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e259">
+         <lang>en-us</lang>
+         <text>Represent Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e266">
+         <lang>en-us</lang>
+         <text>Represent Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e266">
+         <lang>en-us</lang>
+         <text>Represent Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e273">
+         <lang>en-us</lang>
+         <text>Represent Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e273">
+         <lang>en-us</lang>
+         <text>Represent Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e280">
+         <lang>en-us</lang>
+         <text>Represent European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e280">
+         <lang>en-us</lang>
+         <text>Represent European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e287">
+         <lang>en-us</lang>
+         <text>Represent Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e287">
+         <lang>en-us</lang>
+         <text>Represent Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e294">
+         <lang>en-us</lang>
+         <text>Represent Common Factors</text>
+      </Title>
+      <Definition id="d1e294">
+         <lang>en-us</lang>
+         <text>Represent Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e302">
+         <lang>en-us</lang>
+         <text>Represent Distributive Property</text>
+      </Title>
+      <Definition id="d1e302">
+         <lang>en-us</lang>
+         <text>Represent Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e309">
+         <lang>en-us</lang>
+         <text>Represent Commutative Property</text>
+      </Title>
+      <Definition id="d1e309">
+         <lang>en-us</lang>
+         <text>Represent Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e316">
+         <lang>en-us</lang>
+         <text>Represent Associative Property</text>
+      </Title>
+      <Definition id="d1e316">
+         <lang>en-us</lang>
+         <text>Represent Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-images-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e323">
+         <lang>en-us</lang>
+         <text>Represent, with images, the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e323">
+         <lang>en-us</lang>
+         <text>Represent, with images, the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-images-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e330">
+         <lang>en-us</lang>
+         <text>Represent, with images, Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e330">
+         <lang>en-us</lang>
+         <text>Represent, with images, Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-images-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e337">
+         <lang>en-us</lang>
+         <text>Represent, with images, Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e337">
+         <lang>en-us</lang>
+         <text>Represent, with images, Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-images-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e345">
+         <lang>en-us</lang>
+         <text>Represent, with images, Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e345">
+         <lang>en-us</lang>
+         <text>Represent, with images, Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-images-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e352">
+         <lang>en-us</lang>
+         <text>Represent, with images, Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e352">
+         <lang>en-us</lang>
+         <text>Represent, with images, Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-images-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e359">
+         <lang>en-us</lang>
+         <text>Represent, with images, European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e359">
+         <lang>en-us</lang>
+         <text>Represent, with images, European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-images-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e366">
+         <lang>en-us</lang>
+         <text>Represent, with images, Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e366">
+         <lang>en-us</lang>
+         <text>Represent, with images, Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-images-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e373">
+         <lang>en-us</lang>
+         <text>Represent, with images, Common Factors</text>
+      </Title>
+      <Definition id="d1e373">
+         <lang>en-us</lang>
+         <text>Represent, with images, Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-images-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e380">
+         <lang>en-us</lang>
+         <text>Represent, with images, Distributive Property</text>
+      </Title>
+      <Definition id="d1e380">
+         <lang>en-us</lang>
+         <text>Represent, with images, Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-images-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e388">
+         <lang>en-us</lang>
+         <text>Represent, with images, Commutative Property</text>
+      </Title>
+      <Definition id="d1e388">
+         <lang>en-us</lang>
+         <text>Represent, with images, Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-images-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e395">
+         <lang>en-us</lang>
+         <text>Represent, with images, Associative Property</text>
+      </Title>
+      <Definition id="d1e395">
+         <lang>en-us</lang>
+         <text>Represent, with images, Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-sounds-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e402">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e402">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-sounds-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e409">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e409">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-sounds-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e416">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e416">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-sounds-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e423">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e423">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-sounds-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e431">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e431">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-sounds-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e438">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e438">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-sounds-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e445">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e445">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-sounds-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e452">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Common Factors</text>
+      </Title>
+      <Definition id="d1e452">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-sounds-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e459">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Distributive Property</text>
+      </Title>
+      <Definition id="d1e459">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-sounds-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e466">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Commutative Property</text>
+      </Title>
+      <Definition id="d1e466">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-sounds-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e474">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Associative Property</text>
+      </Title>
+      <Definition id="d1e474">
+         <lang>en-us</lang>
+         <text>Represent, with sounds, Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-activities-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e481">
+         <lang>en-us</lang>
+         <text>Represent, with activities, the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e481">
+         <lang>en-us</lang>
+         <text>Represent, with activities, the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-activities-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e488">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e488">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-activities-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e495">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e495">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-activities-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e502">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e502">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-activities-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e509">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e509">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-activities-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e517">
+         <lang>en-us</lang>
+         <text>Represent, with activities, European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e517">
+         <lang>en-us</lang>
+         <text>Represent, with activities, European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-activities-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e524">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e524">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-activities-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e531">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Common Factors</text>
+      </Title>
+      <Definition id="d1e531">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-activities-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e538">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Distributive Property</text>
+      </Title>
+      <Definition id="d1e538">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-activities-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e545">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Commutative Property</text>
+      </Title>
+      <Definition id="d1e545">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-activities-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e552">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Associative Property</text>
+      </Title>
+      <Definition id="d1e552">
+         <lang>en-us</lang>
+         <text>Represent, with activities, Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-specimens-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e560">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e560">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-specimens-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e567">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e567">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-specimens-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e574">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e574">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-specimens-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e581">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e581">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-specimens-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e588">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e588">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-specimens-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e595">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e595">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-specimens-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e603">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e603">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-specimens-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e610">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Common Factors</text>
+      </Title>
+      <Definition id="d1e610">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-specimens-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e617">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Distributive Property</text>
+      </Title>
+      <Definition id="d1e617">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-specimens-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e624">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Commutative Property</text>
+      </Title>
+      <Definition id="d1e624">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-specimens-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e631">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Associative Property</text>
+      </Title>
+      <Definition id="d1e631">
+         <lang>en-us</lang>
+         <text>Represent, with specimens, Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-body-parts-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e638">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e638">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-body-parts-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e646">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e646">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-body-parts-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e653">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e653">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-body-parts-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e660">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e660">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-body-parts-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e667">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e667">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-body-parts-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e674">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e674">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-body-parts-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e681">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e681">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-body-parts-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e689">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Common Factors</text>
+      </Title>
+      <Definition id="d1e689">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-body-parts-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e696">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Distributive Property</text>
+      </Title>
+      <Definition id="d1e696">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-body-parts-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e703">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Commutative Property</text>
+      </Title>
+      <Definition id="d1e703">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-body-parts-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e710">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Associative Property</text>
+      </Title>
+      <Definition id="d1e710">
+         <lang>en-us</lang>
+         <text>Represent, with body parts, Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-words-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e717">
+         <lang>en-us</lang>
+         <text>Represent, with words, the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e717">
+         <lang>en-us</lang>
+         <text>Represent, with words, the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-words-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e724">
+         <lang>en-us</lang>
+         <text>Represent, with words, Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e724">
+         <lang>en-us</lang>
+         <text>Represent, with words, Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-words-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e732">
+         <lang>en-us</lang>
+         <text>Represent, with words, Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e732">
+         <lang>en-us</lang>
+         <text>Represent, with words, Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-words-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e739">
+         <lang>en-us</lang>
+         <text>Represent, with words, Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e739">
+         <lang>en-us</lang>
+         <text>Represent, with words, Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-words-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e746">
+         <lang>en-us</lang>
+         <text>Represent, with words, Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e746">
+         <lang>en-us</lang>
+         <text>Represent, with words, Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-words-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e753">
+         <lang>en-us</lang>
+         <text>Represent, with words, European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e753">
+         <lang>en-us</lang>
+         <text>Represent, with words, European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-words-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e760">
+         <lang>en-us</lang>
+         <text>Represent, with words, Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e760">
+         <lang>en-us</lang>
+         <text>Represent, with words, Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-words-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e767">
+         <lang>en-us</lang>
+         <text>Represent, with words, Common Factors</text>
+      </Title>
+      <Definition id="d1e767">
+         <lang>en-us</lang>
+         <text>Represent, with words, Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-words-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e775">
+         <lang>en-us</lang>
+         <text>Represent, with words, Distributive Property</text>
+      </Title>
+      <Definition id="d1e775">
+         <lang>en-us</lang>
+         <text>Represent, with words, Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-words-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e782">
+         <lang>en-us</lang>
+         <text>Represent, with words, Commutative Property</text>
+      </Title>
+      <Definition id="d1e782">
+         <lang>en-us</lang>
+         <text>Represent, with words, Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-words-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e789">
+         <lang>en-us</lang>
+         <text>Represent, with words, Associative Property</text>
+      </Title>
+      <Definition id="d1e789">
+         <lang>en-us</lang>
+         <text>Represent, with words, Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-symbols-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e796">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e796">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-symbols-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e803">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e803">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-symbols-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e810">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e810">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-symbols-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e818">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e818">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-symbols-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e825">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e825">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-symbols-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e832">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e832">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-symbols-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e839">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e839">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-symbols-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e846">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Common Factors</text>
+      </Title>
+      <Definition id="d1e846">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-symbols-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e853">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Distributive Property</text>
+      </Title>
+      <Definition id="d1e853">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-symbols-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e861">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Commutative Property</text>
+      </Title>
+      <Definition id="d1e861">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-symbols-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e868">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Associative Property</text>
+      </Title>
+      <Definition id="d1e868">
+         <lang>en-us</lang>
+         <text>Represent, with symbols, Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-drawings-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e875">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e875">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-drawings-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e882">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e882">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-drawings-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e889">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e889">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-drawings-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e896">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e896">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-drawings-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e904">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e904">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-drawings-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e911">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e911">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-drawings-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e918">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e918">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-drawings-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e925">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Common Factors</text>
+      </Title>
+      <Definition id="d1e925">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-drawings-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e932">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Distributive Property</text>
+      </Title>
+      <Definition id="d1e932">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-drawings-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e939">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Commutative Property</text>
+      </Title>
+      <Definition id="d1e939">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-drawings-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e947">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Associative Property</text>
+      </Title>
+      <Definition id="d1e947">
+         <lang>en-us</lang>
+         <text>Represent, with drawings, Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-graphs-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e954">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e954">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-graphs-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e961">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e961">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-graphs-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e968">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e968">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-graphs-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e975">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e975">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-graphs-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e982">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e982">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-graphs-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e990">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e990">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-graphs-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e997">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e997">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-graphs-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1004">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Common Factors</text>
+      </Title>
+      <Definition id="d1e1004">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-graphs-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1011">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Distributive Property</text>
+      </Title>
+      <Definition id="d1e1011">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-graphs-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1018">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Commutative Property</text>
+      </Title>
+      <Definition id="d1e1018">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>represent-with-graphs-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1025">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Associative Property</text>
+      </Title>
+      <Definition id="d1e1025">
+         <lang>en-us</lang>
+         <text>Represent, with graphs, Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>randomly-sample-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1033">
+         <lang>en-us</lang>
+         <text>Randomly sample the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e1033">
+         <lang>en-us</lang>
+         <text>Randomly sample the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>randomly-sample-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1040">
+         <lang>en-us</lang>
+         <text>Randomly sample Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e1040">
+         <lang>en-us</lang>
+         <text>Randomly sample Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>randomly-sample-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1047">
+         <lang>en-us</lang>
+         <text>Randomly sample Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1047">
+         <lang>en-us</lang>
+         <text>Randomly sample Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>randomly-sample-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1054">
+         <lang>en-us</lang>
+         <text>Randomly sample Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1054">
+         <lang>en-us</lang>
+         <text>Randomly sample Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>randomly-sample-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1061">
+         <lang>en-us</lang>
+         <text>Randomly sample Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e1061">
+         <lang>en-us</lang>
+         <text>Randomly sample Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>randomly-sample-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1068">
+         <lang>en-us</lang>
+         <text>Randomly sample European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1068">
+         <lang>en-us</lang>
+         <text>Randomly sample European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>randomly-sample-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1076">
+         <lang>en-us</lang>
+         <text>Randomly sample Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1076">
+         <lang>en-us</lang>
+         <text>Randomly sample Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>randomly-sample-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1083">
+         <lang>en-us</lang>
+         <text>Randomly sample Common Factors</text>
+      </Title>
+      <Definition id="d1e1083">
+         <lang>en-us</lang>
+         <text>Randomly sample Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>randomly-sample-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1090">
+         <lang>en-us</lang>
+         <text>Randomly sample Distributive Property</text>
+      </Title>
+      <Definition id="d1e1090">
+         <lang>en-us</lang>
+         <text>Randomly sample Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>randomly-sample-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1097">
+         <lang>en-us</lang>
+         <text>Randomly sample Commutative Property</text>
+      </Title>
+      <Definition id="d1e1097">
+         <lang>en-us</lang>
+         <text>Randomly sample Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>randomly-sample-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1104">
+         <lang>en-us</lang>
+         <text>Randomly sample Associative Property</text>
+      </Title>
+      <Definition id="d1e1104">
+         <lang>en-us</lang>
+         <text>Randomly sample Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>remember-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1121">
+         <lang>en-us</lang>
+         <text>Remember the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e1121">
+         <lang>en-us</lang>
+         <text>Remember the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>remember-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1128">
+         <lang>en-us</lang>
+         <text>Remember Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e1128">
+         <lang>en-us</lang>
+         <text>Remember Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>remember-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1135">
+         <lang>en-us</lang>
+         <text>Remember Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1135">
+         <lang>en-us</lang>
+         <text>Remember Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>remember-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1142">
+         <lang>en-us</lang>
+         <text>Remember Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1142">
+         <lang>en-us</lang>
+         <text>Remember Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>remember-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1149">
+         <lang>en-us</lang>
+         <text>Remember Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e1149">
+         <lang>en-us</lang>
+         <text>Remember Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>remember-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1157">
+         <lang>en-us</lang>
+         <text>Remember European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1157">
+         <lang>en-us</lang>
+         <text>Remember European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>remember-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1164">
+         <lang>en-us</lang>
+         <text>Remember Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1164">
+         <lang>en-us</lang>
+         <text>Remember Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>remember-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1171">
+         <lang>en-us</lang>
+         <text>Remember Common Factors</text>
+      </Title>
+      <Definition id="d1e1171">
+         <lang>en-us</lang>
+         <text>Remember Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>remember-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1178">
+         <lang>en-us</lang>
+         <text>Remember Distributive Property</text>
+      </Title>
+      <Definition id="d1e1178">
+         <lang>en-us</lang>
+         <text>Remember Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>remember-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1185">
+         <lang>en-us</lang>
+         <text>Remember Commutative Property</text>
+      </Title>
+      <Definition id="d1e1185">
+         <lang>en-us</lang>
+         <text>Remember Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>remember-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1192">
+         <lang>en-us</lang>
+         <text>Remember Associative Property</text>
+      </Title>
+      <Definition id="d1e1192">
+         <lang>en-us</lang>
+         <text>Remember Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1200">
+         <lang>en-us</lang>
+         <text>Evaluate the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e1200">
+         <lang>en-us</lang>
+         <text>Evaluate the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1207">
+         <lang>en-us</lang>
+         <text>Evaluate Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e1207">
+         <lang>en-us</lang>
+         <text>Evaluate Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1214">
+         <lang>en-us</lang>
+         <text>Evaluate Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1214">
+         <lang>en-us</lang>
+         <text>Evaluate Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1221">
+         <lang>en-us</lang>
+         <text>Evaluate Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1221">
+         <lang>en-us</lang>
+         <text>Evaluate Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1228">
+         <lang>en-us</lang>
+         <text>Evaluate Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e1228">
+         <lang>en-us</lang>
+         <text>Evaluate Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1235">
+         <lang>en-us</lang>
+         <text>Evaluate European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1235">
+         <lang>en-us</lang>
+         <text>Evaluate European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1243">
+         <lang>en-us</lang>
+         <text>Evaluate Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1243">
+         <lang>en-us</lang>
+         <text>Evaluate Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1250">
+         <lang>en-us</lang>
+         <text>Evaluate Common Factors</text>
+      </Title>
+      <Definition id="d1e1250">
+         <lang>en-us</lang>
+         <text>Evaluate Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1257">
+         <lang>en-us</lang>
+         <text>Evaluate Distributive Property</text>
+      </Title>
+      <Definition id="d1e1257">
+         <lang>en-us</lang>
+         <text>Evaluate Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1264">
+         <lang>en-us</lang>
+         <text>Evaluate Commutative Property</text>
+      </Title>
+      <Definition id="d1e1264">
+         <lang>en-us</lang>
+         <text>Evaluate Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>evaluate-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1271">
+         <lang>en-us</lang>
+         <text>Evaluate Associative Property</text>
+      </Title>
+      <Definition id="d1e1271">
+         <lang>en-us</lang>
+         <text>Evaluate Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>create-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1278">
+         <lang>en-us</lang>
+         <text>Create the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e1278">
+         <lang>en-us</lang>
+         <text>Create the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>create-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1286">
+         <lang>en-us</lang>
+         <text>Create Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e1286">
+         <lang>en-us</lang>
+         <text>Create Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>create-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1293">
+         <lang>en-us</lang>
+         <text>Create Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1293">
+         <lang>en-us</lang>
+         <text>Create Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>create-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1300">
+         <lang>en-us</lang>
+         <text>Create Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1300">
+         <lang>en-us</lang>
+         <text>Create Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>create-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1307">
+         <lang>en-us</lang>
+         <text>Create Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e1307">
+         <lang>en-us</lang>
+         <text>Create Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>create-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1314">
+         <lang>en-us</lang>
+         <text>Create European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1314">
+         <lang>en-us</lang>
+         <text>Create European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>create-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1321">
+         <lang>en-us</lang>
+         <text>Create Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1321">
+         <lang>en-us</lang>
+         <text>Create Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>create-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1329">
+         <lang>en-us</lang>
+         <text>Create Common Factors</text>
+      </Title>
+      <Definition id="d1e1329">
+         <lang>en-us</lang>
+         <text>Create Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>create-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1336">
+         <lang>en-us</lang>
+         <text>Create Distributive Property</text>
+      </Title>
+      <Definition id="d1e1336">
+         <lang>en-us</lang>
+         <text>Create Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>create-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1343">
+         <lang>en-us</lang>
+         <text>Create Commutative Property</text>
+      </Title>
+      <Definition id="d1e1343">
+         <lang>en-us</lang>
+         <text>Create Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>create-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1350">
+         <lang>en-us</lang>
+         <text>Create Associative Property</text>
+      </Title>
+      <Definition id="d1e1350">
+         <lang>en-us</lang>
+         <text>Create Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>understand-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1357">
+         <lang>en-us</lang>
+         <text>Understand the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e1357">
+         <lang>en-us</lang>
+         <text>Understand the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>understand-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1364">
+         <lang>en-us</lang>
+         <text>Understand Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e1364">
+         <lang>en-us</lang>
+         <text>Understand Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>understand-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1372">
+         <lang>en-us</lang>
+         <text>Understand Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1372">
+         <lang>en-us</lang>
+         <text>Understand Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>understand-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1379">
+         <lang>en-us</lang>
+         <text>Understand Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1379">
+         <lang>en-us</lang>
+         <text>Understand Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>understand-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1386">
+         <lang>en-us</lang>
+         <text>Understand Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e1386">
+         <lang>en-us</lang>
+         <text>Understand Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>understand-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1393">
+         <lang>en-us</lang>
+         <text>Understand European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1393">
+         <lang>en-us</lang>
+         <text>Understand European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>understand-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1400">
+         <lang>en-us</lang>
+         <text>Understand Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1400">
+         <lang>en-us</lang>
+         <text>Understand Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>understand-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1407">
+         <lang>en-us</lang>
+         <text>Understand Common Factors</text>
+      </Title>
+      <Definition id="d1e1407">
+         <lang>en-us</lang>
+         <text>Understand Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>understand-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1415">
+         <lang>en-us</lang>
+         <text>Understand Distributive Property</text>
+      </Title>
+      <Definition id="d1e1415">
+         <lang>en-us</lang>
+         <text>Understand Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>understand-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1422">
+         <lang>en-us</lang>
+         <text>Understand Commutative Property</text>
+      </Title>
+      <Definition id="d1e1422">
+         <lang>en-us</lang>
+         <text>Understand Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>understand-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1429">
+         <lang>en-us</lang>
+         <text>Understand Associative Property</text>
+      </Title>
+      <Definition id="d1e1429">
+         <lang>en-us</lang>
+         <text>Understand Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1436">
+         <lang>en-us</lang>
+         <text>Apply the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e1436">
+         <lang>en-us</lang>
+         <text>Apply the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1443">
+         <lang>en-us</lang>
+         <text>Apply Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e1443">
+         <lang>en-us</lang>
+         <text>Apply Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1450">
+         <lang>en-us</lang>
+         <text>Apply Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1450">
+         <lang>en-us</lang>
+         <text>Apply Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1458">
+         <lang>en-us</lang>
+         <text>Apply Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1458">
+         <lang>en-us</lang>
+         <text>Apply Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1465">
+         <lang>en-us</lang>
+         <text>Apply Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e1465">
+         <lang>en-us</lang>
+         <text>Apply Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1472">
+         <lang>en-us</lang>
+         <text>Apply European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1472">
+         <lang>en-us</lang>
+         <text>Apply European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1479">
+         <lang>en-us</lang>
+         <text>Apply Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1479">
+         <lang>en-us</lang>
+         <text>Apply Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1486">
+         <lang>en-us</lang>
+         <text>Apply Common Factors</text>
+      </Title>
+      <Definition id="d1e1486">
+         <lang>en-us</lang>
+         <text>Apply Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1493">
+         <lang>en-us</lang>
+         <text>Apply Distributive Property</text>
+      </Title>
+      <Definition id="d1e1493">
+         <lang>en-us</lang>
+         <text>Apply Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1501">
+         <lang>en-us</lang>
+         <text>Apply Commutative Property</text>
+      </Title>
+      <Definition id="d1e1501">
+         <lang>en-us</lang>
+         <text>Apply Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>apply-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1508">
+         <lang>en-us</lang>
+         <text>Apply Associative Property</text>
+      </Title>
+      <Definition id="d1e1508">
+         <lang>en-us</lang>
+         <text>Apply Associative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-the-pythagorean-theorem</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1515">
+         <lang>en-us</lang>
+         <text>Analyze the Pythagorean Theorem</text>
+      </Title>
+      <Definition id="d1e1515">
+         <lang>en-us</lang>
+         <text>Analyze the Pythagorean Theorem</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-standard-algorithm-for-addition</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1522">
+         <lang>en-us</lang>
+         <text>Analyze Standard Algorithm for Addition</text>
+      </Title>
+      <Definition id="d1e1522">
+         <lang>en-us</lang>
+         <text>Analyze Standard Algorithm for Addition</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-standard-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1529">
+         <lang>en-us</lang>
+         <text>Analyze Standard Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1529">
+         <lang>en-us</lang>
+         <text>Analyze Standard Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-standard-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1536">
+         <lang>en-us</lang>
+         <text>Analyze Standard Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1536">
+         <lang>en-us</lang>
+         <text>Analyze Standard Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-standard-algorithm-for-division</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1544">
+         <lang>en-us</lang>
+         <text>Analyze Standard Algorithm for Division</text>
+      </Title>
+      <Definition id="d1e1544">
+         <lang>en-us</lang>
+         <text>Analyze Standard Algorithm for Division</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-european-algorithm-for-subtraction</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1551">
+         <lang>en-us</lang>
+         <text>Analyze European Algorithm for Subtraction</text>
+      </Title>
+      <Definition id="d1e1551">
+         <lang>en-us</lang>
+         <text>Analyze European Algorithm for Subtraction</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-lattice-algorithm-for-multiplication</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1558">
+         <lang>en-us</lang>
+         <text>Analyze Lattice Algorithm for Multiplication</text>
+      </Title>
+      <Definition id="d1e1558">
+         <lang>en-us</lang>
+         <text>Analyze Lattice Algorithm for Multiplication</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-common-factors</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1565">
+         <lang>en-us</lang>
+         <text>Analyze Common Factors</text>
+      </Title>
+      <Definition id="d1e1565">
+         <lang>en-us</lang>
+         <text>Analyze Common Factors</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-distributive-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1572">
+         <lang>en-us</lang>
+         <text>Analyze Distributive Property</text>
+      </Title>
+      <Definition id="d1e1572">
+         <lang>en-us</lang>
+         <text>Analyze Distributive Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-commutative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1579">
+         <lang>en-us</lang>
+         <text>Analyze Commutative Property</text>
+      </Title>
+      <Definition id="d1e1579">
+         <lang>en-us</lang>
+         <text>Analyze Commutative Property</text>
+      </Definition>
+   </competency>
+   <competency>
+      <Token>analyze-associative-property</Token>
+      <Creator>Big Ideas Learning</Creator>
+      <Title id="d1e1587">
+         <lang>en-us</lang>
+         <text>Analyze Associative Property</text>
+      </Title>
+      <Definition id="d1e1587">
+         <lang>en-us</lang>
+         <text>Analyze Associative Property</text>
+      </Definition>
+   </competency>
+</compColl>

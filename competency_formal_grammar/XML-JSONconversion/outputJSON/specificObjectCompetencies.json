@@ -1,0 +1,2865 @@
+
+        [
+        
+                {
+                "Token": "read-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Read the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Read the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "read-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Read Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Read Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "read-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Read Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Read Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "read-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Read Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Read Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "read-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Read Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Read Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "read-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Read European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Read European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "read-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Read Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Read Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "read-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Read Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Read Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "read-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Read Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Read Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "read-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Read Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Read Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "read-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Read Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Read Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "recite-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Recite the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Recite the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "recite-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Recite Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Recite Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "recite-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Recite Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Recite Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "recite-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Recite Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Recite Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "recite-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Recite Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Recite Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "recite-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Recite European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Recite European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "recite-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Recite Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Recite Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "recite-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Recite Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Recite Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "recite-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Recite Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Recite Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "recite-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Recite Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Recite Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "recite-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Recite Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Recite Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "write-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Write the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Write the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "write-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Write Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Write Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "write-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Write Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Write Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "write-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Write Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Write Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "write-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Write Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Write Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "write-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Write European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Write European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "write-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Write Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Write Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "write-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Write Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Write Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "write-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Write Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Write Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "write-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Write Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Write Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "write-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Write Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Write Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "represent-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "represent-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "represent-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "represent-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-images-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-images-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-images-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-images-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-images-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-images-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-images-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-images-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-images-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-images-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-images-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with images, Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-sounds-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-sounds-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-sounds-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-sounds-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-sounds-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-sounds-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-sounds-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-sounds-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-sounds-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-sounds-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-sounds-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with sounds, Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-activities-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-activities-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-activities-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-activities-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-activities-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-activities-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-activities-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-activities-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-activities-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-activities-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-activities-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with activities, Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-specimens-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-specimens-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-specimens-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-specimens-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-specimens-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-specimens-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-specimens-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-specimens-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-specimens-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-specimens-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-specimens-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with specimens, Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-body-parts-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-body-parts-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-body-parts-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-body-parts-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-body-parts-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-body-parts-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-body-parts-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-body-parts-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-body-parts-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-body-parts-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-body-parts-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with body parts, Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-words-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-words-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-words-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-words-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-words-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-words-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-words-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-words-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-words-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-words-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-words-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with words, Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-symbols-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-symbols-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-symbols-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-symbols-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-symbols-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-symbols-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-symbols-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-symbols-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-symbols-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-symbols-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-symbols-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with symbols, Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-drawings-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-drawings-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-drawings-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-drawings-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-drawings-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-drawings-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-drawings-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-drawings-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-drawings-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-drawings-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-drawings-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with drawings, Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-graphs-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-graphs-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-graphs-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-graphs-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-graphs-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-graphs-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-graphs-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-graphs-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-graphs-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-graphs-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "represent-with-graphs-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Represent, with graphs, Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "randomly-sample-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Randomly sample the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Randomly sample the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "randomly-sample-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "randomly-sample-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "randomly-sample-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "randomly-sample-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "randomly-sample-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Randomly sample European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Randomly sample European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "randomly-sample-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "randomly-sample-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "randomly-sample-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "randomly-sample-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "randomly-sample-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Randomly sample Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "remember-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Remember the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Remember the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "remember-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Remember Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Remember Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "remember-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Remember Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Remember Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "remember-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Remember Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Remember Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "remember-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Remember Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Remember Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "remember-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Remember European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Remember European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "remember-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Remember Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Remember Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "remember-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Remember Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Remember Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "remember-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Remember Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Remember Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "remember-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Remember Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Remember Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "remember-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Remember Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Remember Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "evaluate-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Evaluate the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Evaluate the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "evaluate-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Evaluate Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Evaluate Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "evaluate-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Evaluate Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Evaluate Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "evaluate-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Evaluate Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Evaluate Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "evaluate-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Evaluate Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Evaluate Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "evaluate-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Evaluate European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Evaluate European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "evaluate-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Evaluate Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Evaluate Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "evaluate-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Evaluate Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Evaluate Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "evaluate-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Evaluate Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Evaluate Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "evaluate-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Evaluate Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Evaluate Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "evaluate-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Evaluate Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Evaluate Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "create-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Create the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Create the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "create-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Create Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Create Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "create-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Create Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Create Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "create-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Create Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Create Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "create-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Create Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Create Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "create-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Create European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Create European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "create-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Create Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Create Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "create-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Create Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Create Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "create-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Create Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Create Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "create-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Create Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Create Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "create-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Create Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Create Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "understand-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Understand the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Understand the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "understand-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Understand Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Understand Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "understand-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Understand Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Understand Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "understand-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Understand Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Understand Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "understand-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Understand Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Understand Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "understand-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Understand European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Understand European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "understand-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Understand Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Understand Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "understand-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Understand Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Understand Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "understand-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Understand Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Understand Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "understand-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Understand Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Understand Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "understand-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Understand Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Understand Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "apply-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Apply the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Apply the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "apply-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Apply Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Apply Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "apply-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Apply Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Apply Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "apply-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Apply Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Apply Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "apply-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Apply Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Apply Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "apply-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Apply European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Apply European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "apply-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Apply Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Apply Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "apply-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Apply Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Apply Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "apply-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Apply Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Apply Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "apply-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Apply Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Apply Commutative Property"
+                }]
+                },
+            
+                {
+                "Token": "apply-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Apply Associative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Apply Associative Property"
+                }]
+                },
+            
+                {
+                "Token": "analyze-the-pythagorean-theorem",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Analyze the Pythagorean Theorem"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Analyze the Pythagorean Theorem"
+                }]
+                },
+            
+                {
+                "Token": "analyze-standard-algorithm-for-addition",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Analyze Standard Algorithm for Addition"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Analyze Standard Algorithm for Addition"
+                }]
+                },
+            
+                {
+                "Token": "analyze-standard-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Analyze Standard Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Analyze Standard Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "analyze-standard-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Analyze Standard Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Analyze Standard Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "analyze-standard-algorithm-for-division",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Analyze Standard Algorithm for Division"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Analyze Standard Algorithm for Division"
+                }]
+                },
+            
+                {
+                "Token": "analyze-european-algorithm-for-subtraction",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Analyze European Algorithm for Subtraction"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Analyze European Algorithm for Subtraction"
+                }]
+                },
+            
+                {
+                "Token": "analyze-lattice-algorithm-for-multiplication",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Analyze Lattice Algorithm for Multiplication"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Analyze Lattice Algorithm for Multiplication"
+                }]
+                },
+            
+                {
+                "Token": "analyze-common-factors",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Analyze Common Factors"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Analyze Common Factors"
+                }]
+                },
+            
+                {
+                "Token": "analyze-distributive-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Analyze Distributive Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Analyze Distributive Property"
+                }]
+                },
+            
+                {
+                "Token": "analyze-commutative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                    "lang": "en-us",
+                "text": "Analyze Commutative Property"
+                }],
+                "Definition": [{
+                    "lang": "en-us",
+                "text": "Analyze Commutative Property"
+                }]
+                },
+            
+               {
+               "Token": "analyze-associative-property",
+                "Creator": "Big Ideas Learning",
+                "Title": [{
+                "lang": "en-us",
+                "text": "Analyze Associative Property"
+                }],
+                "Definition": [{
+                "lang": "en-us",
+                "text": "Analyze Associative Property"
+                }]
+                }
+            
+        ]
+    

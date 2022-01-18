@@ -160,7 +160,7 @@
             <!-- ignore further specific object generations - take specific object out of the filtering/generation (use bulk/unfiltered gen) -->
             
             <specificObject>
-                <string>Pythagorean Theorem</string>
+                <string>the Pythagorean Theorem</string>
                 <string>Standard Algorithm for Addition</string>
                 <string>Standard Algorithm for Subtraction</string>
                 <string>Standard Algorithm for Multiplication</string>
