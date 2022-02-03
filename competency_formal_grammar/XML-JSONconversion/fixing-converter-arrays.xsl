@@ -14,6 +14,11 @@
         testOutput.json
         testFormattedSeedOutput.json -->
     
+    <!-- WHOLENUMS INPUT FILE:
+                wholenumsSSIDFormatted.xml
+        WHOLENUMS OUTPUT FILE:
+                wholenumsCompetencies.json-->
+    
     <xsl:output method="text"/>
     
     
@@ -36,11 +41,11 @@
                         "Creator": "<xsl:apply-templates select="Creator"/>",
                         "Title": [{
                         "lang": "<xsl:apply-templates select="child::Title/lang"/>",
-                        "text": "<xsl:apply-templates select="child::Title/text"/>"
+                        "text": "<xsl:apply-templates select="child::Title/text => normalize-space()"/>"
                         }],
                         "Definition": [{
                         "lang": "<xsl:apply-templates select="child::Definition/lang"/>",
-                        "text": "<xsl:apply-templates select="child::Definition/text"/>"
+                        "text": "<xsl:apply-templates select="child::Definition/text => normalize-space()"/>"
                         }]
                         },
                     </xsl:when>
@@ -52,11 +57,11 @@
                         "Creator": "<xsl:apply-templates select="Creator"/>",
                         "Title": [{
                         "lang": "<xsl:apply-templates select="child::Title/lang"/>",
-                        "text": "<xsl:apply-templates select="child::Title/text"/>"
+                        "text": "<xsl:apply-templates select="child::Title/text => normalize-space()"/>"
                         }],
                         "Definition": [{
                         "lang": "<xsl:apply-templates select="child::Definition/lang"/>",
-                        "text": "<xsl:apply-templates select="child::Definition/text"/>"
+                        "text": "<xsl:apply-templates select="child::Definition/text => normalize-space()"/>"
                         }]
                         }
                     </xsl:otherwise>
@@ -70,11 +75,11 @@
                 "Creator": "<xsl:apply-templates select="Creator"/>",
                 "Title": [{
                     "lang": "<xsl:apply-templates select="child::Title/lang"/>",
-                "text": "<xsl:apply-templates select="child::Title/text"/>"
+                "text": "<xsl:apply-templates select="child::Title/text => normalize-space()"/>"
                 }],
                 "Definition": [{
                     "lang": "<xsl:apply-templates select="child::Definition/lang"/>",
-                "text": "<xsl:apply-templates select="child::Definition/text"/>"
+                "text": "<xsl:apply-templates select="child::Definition/text => normalize-space()"/>"
                 }]
                 },
             </xsl:when>
@@ -84,11 +89,11 @@
                 "Creator": "<xsl:apply-templates select="Creator"/>",
                 "Title": [{
                 "lang": "<xsl:apply-templates select="child::Title/lang"/>",
-                "text": "<xsl:apply-templates select="child::Title/text"/>"
+                "text": "<xsl:apply-templates select="child::Title/text => normalize-space()"/>"
                 }],
                 "Definition": [{
                 "lang": "<xsl:apply-templates select="child::Definition/lang"/>",
-                "text": "<xsl:apply-templates select="child::Definition/text"/>"
+                "text": "<xsl:apply-templates select="child::Definition/text => normalize-space()"/>"
                 }]
                 }
             </xsl:otherwise>
