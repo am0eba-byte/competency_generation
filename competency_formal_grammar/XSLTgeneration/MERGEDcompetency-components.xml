@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <!--<domains>
+        <scopes>
+            <string>Whole Numbers <insert idref="#sub_scope"/></string> = class="wholenum"
+            <string>Integers</string>
+            <string>Unit Fractions</string>
+            <string>Rational Numbers</string>
+            <string>Real Numbers</string>
+            <string>Imaginary Numbers</string> = class="imag"
+            <string>Complex Numbers</string> = class="complex"
+            <string>Vectors</string>
+            <string>Matrices</string>
+            <string>Infinite Numbers</string>
+            <string>Random Numbers</string>
+            <string>Expected Values</string>
+            <string>Probabilities</string>
+            <string>The Plane</string>
+            <string>Space</string>
+            <string>Algebraic Expressions</string>
+            <string>Numerical Expressions</string>
+        </scopes>
+
+        <sub_scope xml:id="sub_scope">
+            <string>0</string>
+            <string>1</string>
+            <string>to 2</string>
+            <string>to 3</string>
+            <string>to 4</string>
+            <string>to 5</string>
+            <string>within 10</string>
+            <string>within 20</string>
+            <string>within 100</string>
+            <string>within 120</string>
+            <string>within 1000</string>
+        </sub_scope>
+    </domains>-->
+
+
+    <!-- Consideration: creating separate subscope classes to be filtered in XSLT -->
+
+
+    <!-- dont you heckin dare snakelcase - un-snakelcase the things-->
+
+
+    <compParts>
+        <processGroup>
+            <process>
+                <!-- SUBCLASS attribute values should be filtered according to the component this string will go with,
+            the rest of the strings will not have the subclass attribute value-->
+                <formalProcess>
+                    <string class="wholenum int rational algexp numexp complex imag plane"
+                        subclass="notation" specObj="true">Read</string>
+                    <string class="wholenum int rational" subclass="noNot" specObj="true"
+                        >Recite</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane"
+                        subclass="notation" specObj="true">Write</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane"
+                        subclass="noNot" specObj="true">Represent</string>
+                    <string class="wholenum space plane" subclass="noNot" specObj="true">Represent,
+                        with images,</string>
+                    <string class="wholenum" subclass="noNot" specObj="true">Represent, with
+                        sounds,</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane"
+                        subclass="noNot" specObj="true">Represent, with activities,</string>
+                    <string class="wholenum" subclass="noNot" specObj="true">Represent, with
+                        specimens,</string>
+                    <string class="wholenum" subclass="noNot" specObj="true">Represent, with body
+                        parts,</string>
+                    <string class="wholenum int rational complex imag" subclass="noNot"
+                        specObj="true">Represent, with words,</string>
+                    <string class="wholenum algexp numexp" subclass="noNot" specObj="true"
+                        >Represent, with symbols,</string>
+                    <string class="wholenum space plane" subclass="noNot" specObj="true">Represent,
+                        with drawings,</string>
+                    <string class="wholenum algexp numexp space plane" subclass="noNot"
+                        specObj="true">Represent, with graphs,</string>
+                    <string class="wholenum int rational" subclass="noNot" specObj="true">Randomly
+                        sample</string>
+                </formalProcess>
+                <!-- NO notations with knowledge process sentences -->
+                <knowledge>
+                    <knowledgeProcess>
+                        <string class="wholenum int rational complex imag space" specObj="true"
+                            mathop="true">Remember</string>
+                        <string class="wholenum int rational algexp numexp complex imag space plane"
+                            specObj="true" mathop="true">Evaluate</string>
+                        <string class="wholenum int rational complex imag space plane"
+                            specObj="true">Create</string>
+                        <string class="wholenum int rational algexp numexp complex imag space"
+                            specObj="true" mathop="true">Understand</string>
+                        <string class="wholenum int rational algexp numexp complex imag space"
+                            specObj="true" mathop="true">Apply</string>
+                        <string class="wholenum int rational algexp numexp complex imag space plane"
+                            specObj="true" mathop="true">Analyze</string>
+                        <knowledgeSubprocess>
+                            <string class="wholenum">by Putting Together</string>
+                            <string class="wholenum">by Adding To</string>
+                            <string class="wholenum">by Taking Apart</string>
+                            <string class="wholenum">by Taking From</string>
+                        </knowledgeSubprocess>
+                    </knowledgeProcess>
+                </knowledge>
+            </process>
+            <!--BRANCHES HERE 
+                2 options: knowledge OR formal with processPred or specific_object => end of chain
+                knowledge OR formal -> mathopObject (quant) -> notation?-->
+
+        </processGroup>
+
+        <!-- FURTHER DEFINE FILTERING RULES BASED ON SUBSCOPE ID VALUES -->
+
+
+        <processBranch>
+            <processPred>
+                <string class="algexp numexp space plane">Volumes</string>
+                <string class="wholenum int rational numexp complex imag plane">Numerical
+                    Expressions</string>
+                <string class="wholenum int rational numexp complex imag plane">Numerical
+                    Equations</string>
+                <string class="wholenum int rational complex imag space">Properties of
+                    Objects</string>
+                <string class="wholenum algexp numexp complex imag">Properties of
+                    Operations</string>
+                <string class="wholenum int rational algexp numexp space">Patterns</string>
+                <string class="wholenum int rational complex imag">Common Factors</string>
+                <string class="wholenum int rational complex imag">Multiples</string>
+                <string class="wholenum int rational complex imag">Common Multiples</string>
+                <string class="wholenum rational int">Place Values</string>
+                <string class="wholenum space">Attributes</string>
+                <string class="wholenum int rational">Standard Units</string>
+                <string class="wholenum int rational">SI Units</string>
+                <string class="wholenum algexp numexp space plane">Areas</string>
+                <string class="wholenum algexp numexp space plane">Perimeters</string>
+                <string class="wholenum int rational algexp numexp space plane">Data</string>
+                <string class="space plane">Shapes</string>
+                <string class="algexp numexp space plane">Surface Areas</string>
+                <string class="wholenum rational int algexp numexp space plane">Realia</string>
+                <string class="wholenum rational int algexp numexp space plane">Models</string>
+                <string class="complex imag space plane">Congruence</string>
+                <string class="complex imag space plane">Similarity</string>
+                <string class="wholenum int rational">Ratios</string>
+                <string class="rational int algexp">Proportions</string>
+                <string class="wholenum int rational numexp complex imag">Numerical
+                    Inequalities</string>
+                <string class="int rational algexp complex imag space">Algebraic Equations</string>
+                <string class="int rational algexp complex imag">Algebraic Inequalities</string>
+                <string class="wholenum int rational algexp numexp space plane">Lines</string>
+                <string class="int rational algexp numexp space plane">Linear Equations</string>
+                <string class="int rational algexp complex imag">Simultaneous Equations</string>
+                <string class="algexp numexp complex imag">Statistical Variability</string>
+                <string class="algexp numexp complex imag">Distributions</string>
+                <string class="algexp numexp">Populations</string>
+                <string class="algexp numexp complex imag">Probability Models</string>
+                <string class="algexp complex imag">Bivariate Data</string>
+                <string class="space">Sets</string>
+                <string class="complex imag space">Elements</string>
+                <string class="algexp complex imag space">Experiments</string>
+                <string class="wholenum complex imag space plane">Observations</string>
+                <string class="algexp complex imag space plane">Dependent Variables</string>
+                <string class="algexp complex imag space plane">Independent Variables</string>
+                <string class="wholenum int rational algexp numexp complex imag space plane"
+                    >Sums</string>
+                <string class="wholenum int rational algexp numexp complex imag space plane"
+                    >Differences</string>
+                <string class="wholenum int rational algexp numexp complex imag">Products</string>
+                <string class="wholenum int rational algexp numexp complex imag">Quotients</string>
+                <string class="wholenum int rational algexp numexp complex imag">Remainders</string>
+                <string class="wholenum algexp numexp space plane">Groups</string>
+                <string class="wholenum algexp numexp space plane">Length</string>
+                <string class="wholenum algexp numexp space plane">Width</string>
+                <string class="wholenum algexp numexp space plane">Depth or Height</string>
+                <string class="wholenum space plane">Qualitative Attributes</string>
+                <string class="space plane">Plane Figures</string>
+                <string class="space plane">Objects in Space</string>
+                <string class="int rational algexp complex imag">Samples</string>
+                <string class="int rational algexp">Random Samples</string>
+                <string class="space">Prisms and Cylinders</string>
+                <string class="space">Spheres</string>
+                <string class="space">Cones</string>
+                <string class="wholenum space plane">Quantitative Stories</string>
+            </processPred>
+
+
+
+            <!-- ignore further specific object generations - take specific object out of the filtering/generation (use bulk/unfiltered gen) -->
+
+            <specificObject>
+                <string specObj="true">the Pythagorean Theorem</string>
+                <string specObj="true">the Standard Algorithm for Addition</string>
+                <string specObj="true">the Standard Algorithm for Subtraction</string>
+                <string specObj="true">the Standard Algorithm for Multiplication</string>
+                <string specObj="true">the Standard Algorithm for Division</string>
+                <string specObj="true">the European Algorithm for Subtraction</string>
+                <string specObj="true">the Lattice Algorithm for Multiplication</string>
+                <string specObj="true">Common Factors</string>
+                <string specObj="true">the Distributive Property</string>
+                <string specObj="true">the Commutative Property</string>
+                <string specObj="true">the Associative Property</string>
+            </specificObject>
+
+            <mathOPobject>
+                <mathOperation>
+                    <string class="wholenum complex imag">Naming</string>
+                    <string class="wholenum">Counting</string>
+                    <string class="int rational complex imag">Sequencing</string>
+                    <string class="wholenum int rational complex imag">Ordering</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane"
+                        >Adding</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane"
+                        >Subtracting</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane"
+                        >Multiplying</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane"
+                        >Dividing</string>
+                    <string class="wholenum int rational algexp numexp complex imag"
+                        >Negating</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane"
+                        >Exponentiating</string>
+                    <string class="wholenum int rational algexp numexp complex imag"
+                        >Grouping</string>
+                    <!-- Operations -->
+                    <!--<string>Order Operations</string>-->
+                </mathOperation>
+
+                <quant>
+                    <string class="wholenum int rational algexp numexp complex imag space plane"
+                        >Numbers</string>
+                    <string class="wholenum int rational algexp numexp complex imag">Terms</string>
+                    <string class="wholenum int rational algexp complex imag">Factors</string>
+                    <string class="algexp numexp space plane">Angles</string>
+
+                    <string class="int rational algexp complex imag space plane">Algebraic
+                        Expressions</string>
+                    <string class="int rational algexp complex imag space plane">Variables</string>
+                    <string class="int rational algexp numexp complex imag space plane"
+                        >Functions</string>
+                    <string class="algexp numexp">Chance Processes</string>
+                    <string class="rational int numexp">Arrays</string>
+                </quant>
+            </mathOPobject>
+
+        </processBranch>
+
+
+
+        <!-- specific object and notation object will never occur in the same sentence output -->
+
+        <notationObject>
+            <string class="wholenum rational">in Fractional Notation</string>
+            <string class="wholenum rational">in Decimal Notation</string>
+            <string class="wholenum rational int">in Proportional Notation</string>
+            <string class="wholenum">in Addition Notation</string>
+            <string class="wholenum">in Subtraction Notation</string>
+            <string class="wholenum">in Multiplication Notation</string>
+            <string class="wholenum">in Division Notation</string>
+            <string class="wholenum rational int">in Radical Notation</string>
+            <string class="wholenum rational int">in Exponential Notation</string>
+            <string class="wholenum rational int">in Scientific Notation</string>
+            <string class="wholenum rational int">in Base Ten</string>
+        </notationObject>
+
+
+        <subScope>
+            <string class="wholenum" scopeClass="sing" id="0" extends="null">0</string>
+            <!-- (remove "Whole Numbers") => involving The Number 0? -->
+            <string class="wholenum" scopeClass="sing" id="1" extends="null">1</string>
+            <!-- (remove "Whole Numbers") => involving The Number One? -->
+            <string class="wholenum" scopeClass="to" id="2" extends="1">to 2</string>
+            <string class="wholenum" scopeClass="to" id="3" extends="2">to 3</string>
+            <string class="wholenum" scopeClass="to" id="4" extends="3">to 4</string>
+            <string class="wholenum" scopeClass="to" id="5" extends="4">to 5</string>
+            <string class="wholenum" scopeClass="within" id="10" extends="5">within 10</string>
+            <string class="wholenum" scopeClass="within" id="20" extends="10">within 20</string>
+            <string class="wholenum" scopeClass="within" id="100" extends="20">within 100</string>
+            <string class="wholenum" scopeClass="within" id="120" extends="100">within 120</string>
+            <string class="wholenum" scopeClass="within" id="1000" extends="120">within
+                1000</string>
+        </subScope>
+
+
+
+        <mathPractComp>
+            <string MPC="true">Make Sense of Problems</string>
+            <string MPC="true">Persevere in Solving Problems</string>
+            <string MPC="true">Reason Abstractly</string>
+            <string MPC="true">Reason Quantitatively</string>
+            <string MPC="true">Construct Viable Arguments</string>
+            <string MPC="true">Critique Reasoning</string>
+            <string MPC="true">Model Problems</string>
+            <string MPC="true">Use Tools Strategically</string>
+            <string MPC="true">Attend to Precision</string>
+            <string MPC="true">Look for Structure</string>
+            <string MPC="true">Make Use of Structure</string>
+            <string MPC="true">Look for Regularity in Repeated Reasoning</string>
+            <string MPC="true">Express Regularity in Repeated Reasoning</string>
+        </mathPractComp>
+
+
+    </compParts>
+</xml>

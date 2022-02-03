@@ -52,30 +52,30 @@
                 <!-- SUBCLASS attribute values should be filtered according to the component this string will go with,
             the rest of the strings will not have the subclass attribute value-->
                 <formalProcess>
-                    <string class="int rational algexp numexp" subclass="notation">Read</string>
+                    <string class="int rational algexp numexp complex imag plane" subclass="notation">Read</string>
                     <string class="int rational">Recite</string>
-                    <string class="int rational algexp numexp" subclass="notation">Write</string>
-                    <string class="int rational algexp numexp">Represent</string>
-                    <string sub="models">Represent, with images,</string>
+                    <string class="int rational algexp numexp complex imag space plane" subclass="notation">Write</string>
+                    <string class="int rational algexp numexp complex imag space plane">Represent</string>
+                    <string class="space plane" sub="models">Represent, with images,</string>
                     <string sub="models">Represent, with sounds,</string>
-                    <string class="int rational algexp numexp" sub="models">Represent, with activities,</string>
+                    <string class="int rational algexp numexp complex imag space plane" sub="models">Represent, with activities,</string>
                     <string sub="realia">Represent, with specimens,</string>
                     <string sub="realia">Represent, with body parts,</string>
-                    <string class="int rational" sub="glyphs">Represent, with words,</string>
+                    <string class="int rational complex imag" sub="glyphs">Represent, with words,</string>
                     <string class="algexp numexp" sub="glyphs">Represent, with symbols,</string>
-                    <string sub="glyphs">Represent, with drawings,</string>
-                    <string class="algexp numexp" sub="glyphs">Represent, with graphs,</string>
+                    <string class="space plane" sub="glyphs">Represent, with drawings,</string>
+                    <string class="algexp numexp space plane" sub="glyphs">Represent, with graphs,</string>
                     <string>Randomly sample</string>
                 </formalProcess>
                 <!-- NO notations with knowledge process sentences -->
                 <knowledge>
                     <knowledgeProcess>
-                        <string class="int rational">Remember</string>
-                        <string class="int rational algexp numexp">Evaluate</string>
-                        <string class="int rational">Create</string>
-                        <string class="int rational algexp numexp" sub="strategizing">Understand</string>
-                        <string class="int rational algexp numexp" sub="strategizing">Apply</string>
-                        <string class="int rational algexp numexp">Analyze</string>
+                        <string class="int rational complex imag space">Remember</string>
+                        <string class="int rational algexp numexp complex imag space plane">Evaluate</string>
+                        <string class="int rational complex imag space plane">Create</string>
+                        <string class="int rational algexp numexp complex imag space" sub="strategizing">Understand</string>
+                        <string class="int rational algexp numexp complex imag space" sub="strategizing">Apply</string>
+                        <string class="int rational algexp numexp complex imag space plane">Analyze</string>
                         <!-- <whole_numbers_knowledge_subprocess>
                         <string class="wholenum">by putting together</string>
                         <string class="wholenum">by adding to</string>
@@ -95,65 +95,65 @@
         
         <processBranch>
             <processPred>
-                <string class="algexp numexp">Volumes</string>
-                <string class="int rational numexp">Numerical Expressions</string>
-                <string class="int rational numexp">Numerical Equations</string>
-                <string class="int rational">Properties of Objects</string>
-                <string class="algexp numexp">Properties of Operations</string>
-                <string class="int rational algexp numexp">Patterns</string>
-                <string class="int rational">Common Factors</string>
-                <string class="int rational">Multiples</string>
-                <string class="int rational">Common Multiples</string>
+                <string class="algexp numexp space plane">Volumes</string>
+                <string class="int rational numexp complex imag plane">Numerical Expressions</string>
+                <string class="int rational numexp complex imag plane">Numerical Equations</string>
+                <string class="int rational complex imag space">Properties of Objects</string>
+                <string class="algexp numexp complex imag">Properties of Operations</string>
+                <string class="int rational algexp numexp space">Patterns</string>
+                <string class="int rational complex imag">Common Factors</string>
+                <string class="int rational complex imag">Multiples</string>
+                <string class="int rational complex imag">Common Multiples</string>
                 <string class="rational int">Place Values</string>
-                <string>Attributes</string>
+                <string class="space">Attributes</string>
                 <string class="int rational">Standard Units</string>
                 <string class="int rational">SI Units</string>
-                <string class="algexp numexp">Areas</string>
-                <string class="algexp numexp">Perimeters</string>
-                <string class="int rational algexp numexp">Data</string>
-                <string>Shapes</string>
-                <string class="algexp numexp">Surface Areas</string>
-                <string class="rational int algexp numexp">Realia</string>
-                <string class="rational int algexp numexp">Models</string>
-                <string>Congruence</string>
-                <string>Similarity</string>
+                <string class="algexp numexp space plane">Areas</string>
+                <string class="algexp numexp space plane">Perimeters</string>
+                <string class="int rational algexp numexp space plane">Data</string>
+                <string class="space plane">Shapes</string>
+                <string class="algexp numexp space plane">Surface Areas</string>
+                <string class="rational int algexp numexp space plane">Realia</string>
+                <string class="rational int algexp numexp space plane">Models</string>
+                <string class="complex imag space plane">Congruence</string>
+                <string class="complex imag space plane">Similarity</string>
                 <string class="int rational">Ratios</string>
                 <string class="rational int algexp">Proportions</string>
-                <string class="int rational numexp">Numerical Inequalities</string>
-                <string class="int rational algexp">Algebraic Equations</string>
-                <string class="int rational algexp">Algebraic Inequalities</string>
-                <string class="int rational algexp numexp">Lines</string>
-                <string class="int rational algexp numexp">Linear Equations</string>
-                <string class="int rational algexp">Simultaneous Equations</string>
-                <string class="algexp numexp">Statistical Variability</string>
-                <string class="algexp numexp">Distributions</string>
+                <string class="int rational numexp complex imag">Numerical Inequalities</string>
+                <string class="int rational algexp complex imag space">Algebraic Equations</string>
+                <string class="int rational algexp complex imag">Algebraic Inequalities</string>
+                <string class="int rational algexp numexp space plane">Lines</string>
+                <string class="int rational algexp numexp space plane">Linear Equations</string>
+                <string class="int rational algexp complex imag">Simultaneous Equations</string>
+                <string class="algexp numexp complex imag">Statistical Variability</string>
+                <string class="algexp numexp complex imag">Distributions</string>
                 <string class="algexp numexp">Populations</string>
-                <string class="algexp numexp">Probability Models</string>
-                <string class="algexp">Bivariate Data</string>
-                <string>Sets</string>
-                <string>Elements</string>
+                <string class="algexp numexp complex imag">Probability Models</string>
+                <string class="algexp complex imag">Bivariate Data</string>
+                <string class="space">Sets</string>
+                <string class="complex imag space">Elements</string>
                 <string>Experiments</string>
-                <string>Observations</string>
-                <string class="algexp">Dependent Variables</string>
-                <string class="algexp">Independent Variables</string>
-                <string class="int rational algexp numexp">Sums</string>
-                <string class="int rational algexp numexp">Differences</string>
-                <string class="int rational algexp numexp">Products</string>
-                <string class="int rational algexp numexp">Quotients</string>
-                <string class="int rational algexp numexp">Remainders</string>
-                <string class="algexp numexp">Groups</string>
-                <string class="algexp numexp">Length</string>
-                <string class="algexp numexp">Width</string>
-                <string class="algexp numexp">Depth or Height</string>
-                <string>Qualitative Attributes</string>
-                <string>Plane Figures</string>
-                <string>Objects in Space</string>
-                <string class="int rational algexp">Samples</string>
+                <string class="complex imag space plane">Observations</string>
+                <string class="algexp complex imag space plane">Dependent Variables</string>
+                <string class="algexp complex imag space plane">Independent Variables</string>
+                <string class="int rational algexp numexp complex imag space plane">Sums</string>
+                <string class="int rational algexp numexp complex imag space plane">Differences</string>
+                <string class="int rational algexp numexp complex imag">Products</string>
+                <string class="int rational algexp numexp complex imag">Quotients</string>
+                <string class="int rational algexp numexp complex imag">Remainders</string>
+                <string class="algexp numexp space plane">Groups</string>
+                <string class="algexp numexp space plane">Length</string>
+                <string class="algexp numexp space plane">Width</string>
+                <string class="algexp numexp space plane">Depth or Height</string>
+                <string class="space plane">Qualitative Attributes</string>
+                <string class="space plane">Plane Figures</string>
+                <string class="space plane">Objects in Space</string>
+                <string class="int rational algexp complex imag">Samples</string>
                 <string class="int rational algexp">Random Samples</string>
-                <string>Prisms and Cylinders</string>
-                <string>Spheres</string>
-                <string>Cones</string>
-                <string>Quantitative Stories</string>
+                <string class="space">Prisms and Cylinders</string>
+                <string class="space">Spheres</string>
+                <string class="space">Cones</string>
+                <string class="space plane">Quantitative Stories</string>
             </processPred>
             <!-- REVIEW SPECIFIC OBJECT SCOPE ALIGNMENTS WITH TIM/MATH TEAM -->
             
@@ -176,30 +176,30 @@
             
             <mathOPobject>
                 <mathOperation>
-                    <string>Naming</string>
-                    <string class="int rational">Sequencing</string>
-                    <string class="int rational">Ordering</string>
-                    <string class="int rational algexp numexp">Adding</string>
-                    <string class="int rational algexp numexp">Subtracting</string>
-                    <string class="int rational algexp numexp">Multiplying</string>
-                    <string class="int rational algexp numexp">Dividing</string>
-                    <string class="int rational algexp numexp">Negating</string>
-                    <string class="int rational algexp numexp">Exponentiating</string>
-                    <string class="int rational algexp numexp">Grouping</string>
+                    <string class="complex imag">Naming</string>
+                    <string class="int rational complex imag">Sequencing</string>
+                    <string class="int rational complex imag">Ordering</string>
+                    <string class="int rational algexp numexp complex imag space plane">Adding</string>
+                    <string class="int rational algexp numexp complex imag space plane">Subtracting</string>
+                    <string class="int rational algexp numexp complex imag space plane">Multiplying</string>
+                    <string class="int rational algexp numexp complex imag space plane">Dividing</string>
+                    <string class="int rational algexp numexp complex imag space plane">Negating</string>
+                    <string class="int rational algexp numexp complex imag space plane">Exponentiating</string>
+                    <string class="int rational algexp numexp complex imag space plane">Grouping</string>
                     <!-- Operations -->
                     <!--<string>Order Operations</string>-->
                 </mathOperation>
                 <!-- -->
                 <quant>
-                    <string class="int rational algexp numexp">Numbers</string>
+                    <string class="int rational algexp numexp complex imag space plane">Numbers</string>
                     <!-- putting the name of the scope INSIDE the string outputs -->
-                    <string class="int rational algexp numexp">Terms</string>
-                    <string class="int rational algexp">Factors</string>
-                    <string>Angles</string>
+                    <string class="int rational algexp numexp complex imag plane">Terms</string>
+                    <string class="int rational algexp complex imag plane">Factors</string>
+                    <string class="space plane">Angles</string>
                     
-                    <string class="int rational algexp">Algebraic Expressions</string>
-                    <string class="int rational algexp">Variables</string>
-                    <string class="int rational algexp numexp">Functions</string>
+                    <string class="int rational algexp complex imag space plane">Algebraic Expressions</string>
+                    <string class="int rational algexp complex imag space plane">Variables</string>
+                    <string class="int rational algexp numexp complex imag space plane">Functions</string>
                     <string>Chance Processes</string>
                     <string>Arrays</string>
                 </quant>

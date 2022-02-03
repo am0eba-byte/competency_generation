@@ -26,7 +26,73 @@
     <xsl:template match="competency">
         <xsl:choose>
             <xsl:when test="count(following-sibling::competency) > 0">
-                <!--"competency": -->{
+                {
+                "Token": "<xsl:apply-templates select="Token"/>",
+                "Creator": "<xsl:apply-templates select="Creator"/>",
+                "Title": [{
+                "lang": "<xsl:apply-templates select="child::Title/lang"/>",
+                "text": "<xsl:apply-templates select="child::Title/text"/>"
+                }],
+                "Definition": [{
+                "lang": "<xsl:apply-templates select="child::Definition/lang"/>",
+                "text": "<xsl:apply-templates select="child::Definition/text"/>"
+                }]
+                },
+            </xsl:when>
+            <xsl:otherwise>
+                {
+                "Token": "<xsl:apply-templates select="Token"/>",
+                "Creator": "<xsl:apply-templates select="Creator"/>",
+                "Title": [{
+                "lang": "<xsl:apply-templates select="child::Title/lang"/>",
+                "text": "<xsl:apply-templates select="child::Title/text"/>"
+                }],
+                "Definition": [{
+                "lang": "<xsl:apply-templates select="child::Definition/lang"/>",
+                "text": "<xsl:apply-templates select="child::Definition/text"/>"
+                }]
+                }
+            </xsl:otherwise>
+           <!-- <xsl:when test="child::ssID">
+                <xsl:choose>
+                    <xsl:when test="count(following-sibling::competency) > 0">
+                        <!-\-"competency": -\->{
+                        "Token": "<xsl:apply-templates select="Token"/>",
+                        "ssID": "<xsl:apply-templates select="ssID"/>",
+                        "ssExtends": "<xsl:apply-templates select="ssExtends"/>",
+                        "Creator": "<xsl:apply-templates select="Creator"/>",
+                        "Title": [{
+                        "lang": "<xsl:apply-templates select="child::Title/lang"/>",
+                        "text": "<xsl:apply-templates select="child::Title/text"/>"
+                        }],
+                        "Definition": [{
+                        "lang": "<xsl:apply-templates select="child::Definition/lang"/>",
+                        "text": "<xsl:apply-templates select="child::Definition/text"/>"
+                        }]
+                        },
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <!-\-"competency": -\->{
+                        "Token": "<xsl:apply-templates select="Token"/>",
+                        "ssID": "<xsl:apply-templates select="ssID"/>",
+                        "ssExtends": "<xsl:apply-templates select="ssExtends"/>",
+                        "Creator": "<xsl:apply-templates select="Creator"/>",
+                        "Title": [{
+                        "lang": "<xsl:apply-templates select="child::Title/lang"/>",
+                        "text": "<xsl:apply-templates select="child::Title/text"/>"
+                        }],
+                        "Definition": [{
+                        "lang": "<xsl:apply-templates select="child::Definition/lang"/>",
+                        "text": "<xsl:apply-templates select="child::Definition/text"/>"
+                        }]
+                        }
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:choose>
+            <xsl:when test="count(following-sibling::competency) > 0">
+                <!-\-"competency": -\->{
                 "Token": "<xsl:apply-templates select="Token"/>",
                 "Creator": "<xsl:apply-templates select="Creator"/>",
                 "Title": [{
@@ -40,7 +106,7 @@
                 },
             </xsl:when>
             <xsl:otherwise>
-               <!--"competency": -->{
+               <!-\-"competency": -\->{
                "Token": "<xsl:apply-templates select="Token"/>",
                 "Creator": "<xsl:apply-templates select="Creator"/>",
                 "Title": [{
@@ -53,6 +119,8 @@
                 }]
                 }
             </xsl:otherwise>
+        </xsl:choose>
+            </xsl:otherwise>-->
         </xsl:choose>
     </xsl:template>
     
