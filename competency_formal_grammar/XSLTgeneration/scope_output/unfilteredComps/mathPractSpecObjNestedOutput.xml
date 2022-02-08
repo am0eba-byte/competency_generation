@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml><!--####################################--><!--Math Practice (unfiltered) Competencies--><!--####################################-->
+   <compGroup id="mathPractice">
+      <sentenceGroup id="flat-strings">
+         <componentSentence>
+            <mathPractComp>Make Sense of Problems</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Persevere in Solving Problems</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Reason Abstractly</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Reason Quantitatively</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Construct Viable Arguments</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Critique Reasoning</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Model Problems</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Use Tools Strategically</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Attend to Precision</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Look for Structure</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Make Use of Structure</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Look for Regularity in Repeated Reasoning</mathPractComp>
+         </componentSentence>
+         <componentSentence>
+            <mathPractComp>Express Regularity in Repeated Reasoning</mathPractComp>
+         </componentSentence>
+      </sentenceGroup>
+   </compGroup>
+   <!--####################################-->
+   <!--Specific Object Competencies-->
+   <!--####################################-->
+   <compGroup id="specificObject"><!--####################################--><!--Formal Process + Specific Object--><!--####################################-->
+      <sentenceGroup id="fp-sp">
+         <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Read</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Recite</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Recite</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Recite</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Recite</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Recite</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Recite</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Recite</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Recite</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Recite</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Recite</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Recite</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Write</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Write</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Write</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Write</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Write</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Write</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Write</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Write</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Write</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Write</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Write</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with images,</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with images,</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with images,</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with images,</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with images,</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with images,</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with images,</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with images,</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with images,</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with images,</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with images,</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with sounds,</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with sounds,</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with sounds,</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with sounds,</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with sounds,</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with sounds,</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with sounds,</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with sounds,</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with sounds,</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with sounds,</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with sounds,</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with activities,</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with activities,</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with activities,</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with activities,</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with activities,</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with activities,</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with activities,</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with activities,</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with activities,</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with activities,</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with activities,</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with specimens,</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with specimens,</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with specimens,</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with specimens,</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with specimens,</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with specimens,</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with specimens,</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with specimens,</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with specimens,</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with specimens,</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with specimens,</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with body parts,</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with body parts,</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with body parts,</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with body parts,</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with body parts,</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with body parts,</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with body parts,</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with body parts,</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with body parts,</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with body parts,</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with body parts,</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with words,</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with words,</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with words,</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with words,</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with words,</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with words,</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with words,</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with words,</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with words,</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with words,</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with words,</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with symbols,</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with symbols,</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with symbols,</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with symbols,</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with symbols,</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with symbols,</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with symbols,</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with symbols,</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with symbols,</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with symbols,</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with symbols,</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with drawings,</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with drawings,</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with drawings,</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with drawings,</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with drawings,</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with drawings,</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with drawings,</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with drawings,</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with drawings,</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with drawings,</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with drawings,</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Represent, with graphs,</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Randomly sample</formalProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Randomly sample</formalProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Randomly sample</formalProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Randomly sample</formalProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Randomly sample</formalProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Randomly sample</formalProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Randomly sample</formalProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Randomly sample</formalProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Randomly sample</formalProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Randomly sample</formalProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <formalProcess>Randomly sample</formalProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+      </sentenceGroup>
+      <!--####################################-->
+      <!--Knowledge Process + Specific Object-->
+      <!--####################################-->
+      <sentenceGroup id="kp-sp">
+         <componentSentence>
+            <knowledgeProcess>Remember</knowledgeProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Remember</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Remember</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Remember</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Remember</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Remember</knowledgeProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Remember</knowledgeProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Remember</knowledgeProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Remember</knowledgeProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Remember</knowledgeProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Remember</knowledgeProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Evaluate</knowledgeProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Create</knowledgeProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Create</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Create</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Create</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Create</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Create</knowledgeProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Create</knowledgeProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Create</knowledgeProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Create</knowledgeProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Create</knowledgeProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Create</knowledgeProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Understand</knowledgeProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Understand</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Understand</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Understand</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Understand</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Understand</knowledgeProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Understand</knowledgeProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Understand</knowledgeProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Understand</knowledgeProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Understand</knowledgeProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Understand</knowledgeProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Apply</knowledgeProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <specificObject>the Pythagorean Theorem</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Addition</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <specificObject>the Standard Algorithm for Division</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <specificObject>the European Algorithm for Subtraction</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <specificObject>the Lattice Algorithm for Multiplication</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <specificObject>Common Factors</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <specificObject>the Distributive Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <specificObject>the Commutative Property</specificObject>
+         </componentSentence>
+         <componentSentence>
+            <knowledgeProcess>Analyze</knowledgeProcess>
+            <specificObject>the Associative Property</specificObject>
+         </componentSentence>
+      </sentenceGroup>
+   </compGroup>
+</xml>

@@ -126,43 +126,4 @@
     
     
     
-    
-    
-    <!--
-    <xsl:template match="/">{
-        <xsl:apply-templates select="*"/>}
-    </xsl:template>
-    
-    <!-\- Object or Element Property-\->
-    <xsl:template match="*">
-        "<xsl:value-of select="name()"/>" : <xsl:call-template name="Properties"/>
-    </xsl:template>
-    
-    <!-\- Array Element -\->
-    <xsl:template match="*" mode="ArrayElement">
-        <xsl:call-template name="Properties"/>
-    </xsl:template>
-    
-    <!-\- Object Properties -\->
-    <xsl:template name="Properties">
-        <xsl:variable name="childName" select="name(*[1])"/>
-        <xsl:variable name="lang" select="name(*[name() = 'lang'])"/>
-        <xsl:variable name="text" select="name(*[name() = 'text'])"/>
-        <xsl:choose>
-            <xsl:when test="not(*|@*)">"<xsl:value-of select="."/>"</xsl:when>
-            <xsl:when test="*[not(child::text())]">{ "<xsl:value-of select="name(current())"/>" :[<xsl:apply-templates select="competency" mode="ArrayElement"/>] }</xsl:when>
-            <xsl:otherwise>{
-                <xsl:apply-templates select="@*"/>
-                <xsl:apply-templates select="*"/>
-                }</xsl:otherwise>
-        </xsl:choose>
-        <xsl:if test="following-sibling::*">,</xsl:if>
-    </xsl:template>
-    
-    <!-\- Attribute Property -\->
-    <xsl:template match="@*">"<xsl:value-of select="name()"/>" : "<xsl:value-of select="."/>",
-    </xsl:template>
-    -->
-    
-    
 </xsl:stylesheet>

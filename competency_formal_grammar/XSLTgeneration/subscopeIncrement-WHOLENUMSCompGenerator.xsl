@@ -387,11 +387,11 @@
                         <xsl:sequence select=".[parent::* ! name() = 'subScope']"/>
                     </xsl:for-each>
                 </xsl:variable>
-                <xsl:variable name="subScopeCountvar" as="text()+">
+              <!--  <xsl:variable name="subScopeCountvar" as="text()+">
                     <xsl:for-each select="key('scopes', $wholenum)[parent::* ! name() = 'subScope']/@id">
                         <xsl:sequence><xsl:value-of select="./position() + 1"/></xsl:sequence>
                     </xsl:for-each>
-                </xsl:variable>
+                </xsl:variable>-->
                 
                 <sentenceGroup id="fp-pp-no">
                     <xsl:call-template name="wholenumSentenceWriter">
