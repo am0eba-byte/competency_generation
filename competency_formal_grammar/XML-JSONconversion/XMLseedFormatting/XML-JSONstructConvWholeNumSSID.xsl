@@ -7,6 +7,8 @@
     <!-- wholenums input: wholenumsSSIDNestedComps-delSG.xml -->
     <!-- wholenums output: wholenumsSSIDFormatted.xml -->
     
+    <!-- USE THIS XSLT TO CONVERT WHOLENUMS COMPS ONLY -->
+    
     <xsl:output method="xml" indent="yes"/>
     
     

@@ -346,6 +346,7 @@
             <xsl:comment>****************************************************</xsl:comment>
 
             <scopeGroup id="integers">
+                <parent type="transitive">
                 <xsl:comment>INTEGERS: Formal Process(noNotObj) + Process Predicate</xsl:comment>
 
                 <xsl:variable name="FPint" as="element()+">
@@ -359,41 +360,16 @@
                     </xsl:for-each>
                 </xsl:variable>
                 <xsl:variable name="intScopeString" select="'Integers'"/>
-
+                <parentGroup match="fp-pp">
+                    <xsl:call-template name="sentenceWriter">
+                        <xsl:with-param name="param1" as="element()+" select="$FPint"/>
+                        <xsl:with-param name="param2" as="element()+" select="$PrPredint"/>
+                    </xsl:call-template>
+                </parentGroup>
                 <sentenceGroup id="fp-pp">
                     <xsl:call-template name="sentenceWriter">
                         <xsl:with-param name="param1" as="element()+" select="$FPint"/>
                         <xsl:with-param name="param2" as="element()+" select="$PrPredint"/>
-                        <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
-                    </xsl:call-template>
-                </sentenceGroup>
-
-                <xsl:comment>####################################</xsl:comment>
-                <xsl:comment>INTEGERS: Formal Process + Math Operation + Quant Object</xsl:comment>
-                <xsl:comment>####################################</xsl:comment>
-
-                <xsl:variable name="FPint" as="element()+">
-                    <xsl:for-each select="key('scopes', $int)">
-                        <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
-                    </xsl:for-each>
-                </xsl:variable>
-                <xsl:variable name="MathOpint" as="element()+">
-                    <xsl:for-each select="key('scopes', $int)">
-                        <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
-                    </xsl:for-each>
-                </xsl:variable>
-                <xsl:variable name="QOint" as="element()+">
-                    <xsl:for-each select="key('scopes', $int)">
-                        <xsl:sequence select=".[parent::* ! name() = $object]"/>
-                    </xsl:for-each>
-                </xsl:variable>
-                <xsl:variable name="intScopeString" select="'Integers'"/>
-
-                <sentenceGroup id="fp-mathop">
-                    <xsl:call-template name="sentenceWriter">
-                        <xsl:with-param name="param1" as="element()+" select="$FPint"/>
-                        <xsl:with-param name="param2" as="element()+" select="$MathOpint"/>
-                        <xsl:with-param name="param3" as="element()+" select="$QOint"/>
                         <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
                     </xsl:call-template>
                 </sentenceGroup>
@@ -421,7 +397,15 @@
                     </xsl:for-each>
                 </xsl:variable>
                 <xsl:variable name="intScopeString" select="'Integers'"/>
-
+                    
+                <notationParent>
+                    <parentGroup match="fp-pp-no">
+                    <xsl:call-template name="sentenceWriter">
+                        <xsl:with-param name="param1" as="element()+" select="$FPint"/>
+                        <xsl:with-param name="param2" as="element()+" select="$PrPredint"/>
+                        <xsl:with-param name="NOparam3" as="element()+" select="$NO_int"/>
+                    </xsl:call-template>
+                    </parentGroup>
                 <sentenceGroup id="fp-pp-no">
                     <xsl:call-template name="sentenceWriter">
                         <xsl:with-param name="param1" as="element()+" select="$FPint"/>
@@ -430,6 +414,51 @@
                         <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
                     </xsl:call-template>
                 </sentenceGroup>
+                    
+                </notationParent>
+                    
+                </parent>
+                
+                <parent>
+                <xsl:comment>####################################</xsl:comment>
+                <xsl:comment>INTEGERS: Formal Process + Math Operation + Quant Object</xsl:comment>
+                <xsl:comment>####################################</xsl:comment>
+                
+                <xsl:variable name="FPint" as="element()+">
+                    <xsl:for-each select="key('scopes', $int)">
+                        <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="MathOpint" as="element()+">
+                    <xsl:for-each select="key('scopes', $int)">
+                        <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="QOint" as="element()+">
+                    <xsl:for-each select="key('scopes', $int)">
+                        <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="intScopeString" select="'Integers'"/>
+                
+                
+                <parentGroup match="fp-mathop">
+                    <xsl:call-template name="sentenceWriter">
+                        <xsl:with-param name="param1" as="element()+" select="$FPint"/>
+                        <xsl:with-param name="param2" as="element()+" select="$MathOpint"/>
+                        <xsl:with-param name="param3" as="element()+" select="$QOint"/>
+                    </xsl:call-template>
+                </parentGroup>
+                <sentenceGroup id="fp-mathop">
+                    <xsl:call-template name="sentenceWriter">
+                        <xsl:with-param name="param1" as="element()+" select="$FPint"/>
+                        <xsl:with-param name="param2" as="element()+" select="$MathOpint"/>
+                        <xsl:with-param name="param3" as="element()+" select="$QOint"/>
+                        <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
+                    </xsl:call-template>
+                </sentenceGroup>
+                
+                
                 <xsl:comment>####################################</xsl:comment>
                 <xsl:comment>INTEGERS: Formal Process (keyed to notation) + Math Operation + Quant Object + Notation Object</xsl:comment>
                 <xsl:comment>####################################</xsl:comment>
@@ -456,7 +485,15 @@
                     </xsl:for-each>
                 </xsl:variable>
                 <xsl:variable name="intScopeString" select="'Integers'"/>
-
+<notationParent>
+    <parentGroup match="fp-mathop-no">
+        <xsl:call-template name="sentenceWriter">
+            <xsl:with-param name="param1" as="element()+" select="$FPint"/>
+            <xsl:with-param name="param2" as="element()+" select="$MathOpint"/>
+            <xsl:with-param name="param3" as="element()+" select="$QOint"/>
+            <xsl:with-param name="param4" as="element()+" select="$NO_int"/>
+        </xsl:call-template>
+    </parentGroup>
                 <sentenceGroup id="fp-mathop-no">
                     <xsl:call-template name="sentenceWriter">
                         <xsl:with-param name="param1" as="element()+" select="$FPint"/>
@@ -466,7 +503,8 @@
                         <xsl:with-param name="scopeParam" as="xs:string" select="$intScopeString"/>
                     </xsl:call-template>
                 </sentenceGroup>
-
+</notationParent>
+</parent>
 
                 <xsl:comment>####################################</xsl:comment>
                 <xsl:comment>INTEGERS: Knowledge Process + Process Pred</xsl:comment>
@@ -521,7 +559,8 @@
                     </xsl:call-template>
                 </sentenceGroup>
             </scopeGroup>
-</xml></xsl:result-document>
+</xml>
+        </xsl:result-document>
 
 
         <xsl:result-document method="xml" indent="yes" href="rational_nums/rationalNestedOutput.xml">
