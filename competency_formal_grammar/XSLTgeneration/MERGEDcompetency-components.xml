@@ -113,7 +113,7 @@
 
         <processBranch>
             <processPred>
-                <string class="algexp numexp space plane unit">Volumes</string>
+                <string class="algexp numexp space unit">Volumes</string>
                 <string class="wholenum int rational numexp complex imag plane real unit">Numerical
                     Expressions</string>
                 <string class="wholenum int rational numexp complex imag plane real unit">Numerical

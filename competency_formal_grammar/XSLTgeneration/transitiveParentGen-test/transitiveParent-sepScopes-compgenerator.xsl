@@ -89,7 +89,7 @@
     <!-- NON-WHOLE NUMBERS SENTENCE WRITER -->
 
     <xsl:template name="sentenceWriter" as="element()+">
-        <xsl:param name="param1" as="element()+" required="yes"/>
+        <xsl:param name="param1" as="element()*"/><!--  required="yes" -->
         <xsl:param name="param2" as="element()*"/>
         <xsl:param name="param3" as="element()*"/>
         <xsl:param name="param4" as="element()*"/>
@@ -128,8 +128,8 @@
                                                 <xsl:variable name="currLevel4" as="xs:string?"
                                                   select="current()"/>
                                                 <xsl:choose>
-                                                    <xsl:when test="$scopeParam">
-                                                        <xsl:for-each select="$scopeParam">
+                                                  <xsl:when test="$scopeParam">
+                                                  <xsl:for-each select="$scopeParam">
                                                   <xsl:variable name="scopeInsert" as="xs:string"
                                                   select="current()"/>
                                                   <componentSentence>
@@ -151,24 +151,24 @@
                                                   </xsl:element>
                                                   </componentSentence>
 
-                                                </xsl:for-each>
-                                                    </xsl:when>
-                                                    <xsl:otherwise>
-                                                        <componentSentence>
-                                                            <xsl:element name="{$var1}">
-                                                                <xsl:sequence select="$currLevel1"/>
-                                                            </xsl:element>
-                                                            <xsl:element name="{$var2}">
-                                                                <xsl:sequence select="$currLevel2"/>
-                                                            </xsl:element>
-                                                            <xsl:element name="{$var3}">
-                                                                <xsl:sequence select="$currLevel3"/>
-                                                            </xsl:element>
-                                                            <xsl:element name="{$var4}">
-                                                                <xsl:sequence select="$currLevel4"/>
-                                                            </xsl:element>
-                                                        </componentSentence>
-                                                    </xsl:otherwise>
+                                                  </xsl:for-each>
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
+                                                  <componentSentence>
+                                                  <xsl:element name="{$var1}">
+                                                  <xsl:sequence select="$currLevel1"/>
+                                                  </xsl:element>
+                                                  <xsl:element name="{$var2}">
+                                                  <xsl:sequence select="$currLevel2"/>
+                                                  </xsl:element>
+                                                  <xsl:element name="{$var3}">
+                                                  <xsl:sequence select="$currLevel3"/>
+                                                  </xsl:element>
+                                                  <xsl:element name="{$var4}">
+                                                  <xsl:sequence select="$currLevel4"/>
+                                                  </xsl:element>
+                                                  </componentSentence>
+                                                  </xsl:otherwise>
                                                 </xsl:choose>
                                             </xsl:for-each>
                                         </xsl:when>
@@ -176,10 +176,10 @@
                                             <!-- 3 param branch: without notation object -->
                                             <xsl:choose>
                                                 <xsl:when test="$scopeParam">
-                                                    <xsl:for-each select="$scopeParam">
-                                                <xsl:variable name="scopeInsert" as="xs:string"
+                                                  <xsl:for-each select="$scopeParam">
+                                                  <xsl:variable name="scopeInsert" as="xs:string"
                                                   select="current()"/>
-                                                <componentSentence>
+                                                  <componentSentence>
                                                   <xsl:element name="{$var1}">
                                                   <xsl:sequence select="$currLevel1"/>
                                                   </xsl:element>
@@ -193,22 +193,23 @@
                                                   <xsl:sequence
                                                   select="concat('involving ', $scopeInsert)"/>
                                                   </xsl:element>
-                                                </componentSentence>
-                                            </xsl:for-each>
+                                                  </componentSentence>
+                                                  </xsl:for-each>
                                                 </xsl:when>
-                                                <xsl:otherwise> <!-- 3-PARAM PARENT COMP (no scope string) -->
-                                                    <componentSentence>
-                                                        <xsl:element name="{$var1}">
-                                                            <xsl:sequence select="$currLevel1"/>
-                                                        </xsl:element>
-                                                        <xsl:element name="{$var2}">
-                                                            <xsl:sequence select="$currLevel2"/>
-                                                        </xsl:element>
-                                                        <xsl:element name="{$var3}">
-                                                            <xsl:sequence select="$currLevel3"/>
-                                                        </xsl:element>
-                                                    
-                                                    </componentSentence>
+                                                <xsl:otherwise>
+                                                  <!-- 3-PARAM PARENT COMP (no scope string) -->
+                                                  <componentSentence>
+                                                  <xsl:element name="{$var1}">
+                                                  <xsl:sequence select="$currLevel1"/>
+                                                  </xsl:element>
+                                                  <xsl:element name="{$var2}">
+                                                  <xsl:sequence select="$currLevel2"/>
+                                                  </xsl:element>
+                                                  <xsl:element name="{$var3}">
+                                                  <xsl:sequence select="$currLevel3"/>
+                                                  </xsl:element>
+
+                                                  </componentSentence>
                                                 </xsl:otherwise>
                                             </xsl:choose>
                                         </xsl:otherwise>
@@ -266,8 +267,8 @@
                                                 </xsl:for-each>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                               
-                                        <!-- Specific Object Comp Path OR Parent Comp (no scopename) -->
+
+                                                <!-- Specific Object Comp Path OR Parent Comp (no scopename) -->
                                                 <componentSentence>
                                                   <xsl:element name="{$var1}">
                                                   <xsl:sequence select="$currLevel1"/>
@@ -302,7 +303,7 @@
         <!-- <xml>-->
 
         <!-- UNFILTERED (no scope keys) COMPETENCIES -->
- <!--       
+        <!--       
         <xsl:result-document method="xml" indent="yes"
             href="unfilteredComps/mathPractSpecObjNestedOutput.xml">
             <xml>
@@ -377,17 +378,14 @@
 
         <!-- ************************* K-5 COMPETENCIES ******************************* -->
 
-        <!--   <xsl:comment>####################################</xsl:comment>
-            <xsl:comment>K-5 Scope Competencies</xsl:comment>
-            <xsl:comment>####################################</xsl:comment>-->
-        <xsl:result-document method="xml" indent="yes" href="integers/transitiveTEST/integersNestedParentOutput.xml">
+        <xsl:result-document method="xml" indent="yes" href="integers/integersNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>****************************************************</xsl:comment>
                 <xsl:comment>*************** INTEGERS SCOPE *****************</xsl:comment>
                 <xsl:comment>****************************************************</xsl:comment>
 
                 <scopeGroup id="integers">
-                    <parent group="fp-pp" type="transitive">
+                    <parent group="fp-pp">
                         <xsl:comment>INTEGERS: Formal Process(noNotObj) + Process Predicate</xsl:comment>
 
                         <xsl:variable name="FPint" as="element()+">
@@ -446,8 +444,7 @@
                                     <xsl:with-param name="param1" as="element()+" select="$FPint"/>
                                     <xsl:with-param name="param2" as="element()+"
                                         select="$PrPredint"/>
-                                    <xsl:with-param name="param3" as="element()+" select="$NO_int"
-                                    />
+                                    <xsl:with-param name="param3" as="element()+" select="$NO_int"/>
                                 </xsl:call-template>
                             </parentGroup>
                             <compGroup id="fp-pp-no">
@@ -465,7 +462,7 @@
 
                     </parent>
 
-                    <parent group="fp-mathop" type="transitive">
+                    <parent group="fp-mathop">
                         <xsl:comment>####################################</xsl:comment>
                         <xsl:comment>INTEGERS: Formal Process + Math Operation + Quant Object</xsl:comment>
                         <xsl:comment>####################################</xsl:comment>
@@ -572,7 +569,7 @@
                     </xsl:variable>
                     <xsl:variable name="intScopeString" select="'Integers'"/>
 
-                    <parent group="kp-pp" type="transitive">
+                    <parent group="kp-pp">
                         <parentGroup match="kp-pp" lvl="1">
                             <xsl:call-template name="sentenceWriter">
                                 <xsl:with-param name="param1" as="element()+" select="$KP_int"/>
@@ -611,7 +608,7 @@
                     </xsl:variable>
                     <xsl:variable name="intScopeString" select="'Integers'"/>
 
-                    <parent group="kp-mathop" type="transitive">
+                    <parent group="kp-mathop">
                         <parentGroup match="kp-mathop" lvl="1">
                             <xsl:call-template name="sentenceWriter">
                                 <xsl:with-param name="param1" as="element()+" select="$KP_int"/>
@@ -633,8 +630,8 @@
             </xml>
         </xsl:result-document>
 
-<!--
-        <xsl:result-document method="xml" indent="yes" href="rational_nums/rationalNestedOutput.xml">
+
+        <xsl:result-document method="xml" indent="yes" href="rational_nums/rationalNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>********************************************************</xsl:comment>
                 <xsl:comment>************** RATIONAL NUMBERS SCOPE ******************</xsl:comment>
@@ -657,15 +654,71 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
+                    <parent group="fp-pp">
+                        <parentGroup match="fp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_rational"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_rational"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$rationalScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
 
-                    <sentenceGroup id="fp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_rational"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$rationalScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+
+                        <xsl:comment>####################################</xsl:comment>
+                        <xsl:comment>RATIONAL NUMBERS: Formal Process (keyed to notation) + Process Predicate + Notation Object</xsl:comment>
+                        <xsl:comment>####################################</xsl:comment>
+
+                        <xsl:variable name="FP_rational" as="element()+">
+                            <xsl:for-each
+                                select="key('scopes', $rational) intersect key('notationKey', $notation)">
+                                <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="PrPred_rational" as="element()+">
+                            <xsl:for-each select="key('scopes', $rational)">
+                                <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="NO_rational" as="element()+">
+                            <xsl:for-each select="key('scopes', $rational)">
+                                <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
+                        <notationParent>
+                            <parentGroup match="fp-pp-no" lvl="2">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+"
+                                        select="$FP_rational"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$PrPred_rational"/>
+                                    <xsl:with-param name="param3" as="element()+"
+                                        select="$NO_rational"/>
+                                </xsl:call-template>
+                            </parentGroup>
+                            <compGroup id="fp-pp-no">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+"
+                                        select="$FP_rational"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$PrPred_rational"/>
+                                    <xsl:with-param name="NOparam3" as="element()+"
+                                        select="$NO_rational"/>
+                                    <xsl:with-param name="scopeParam" as="xs:string"
+                                        select="$rationalScopeString"/>
+                                </xsl:call-template>
+                            </compGroup>
+                        </notationParent>
+                    </parent>
 
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>RATIONAL NUMBERS: Formal Process + Math Operation + Quant Object</xsl:comment>
@@ -687,93 +740,86 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
-
-                    <sentenceGroup id="fp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_rational"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_rational"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$rationalScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
-
-                    <xsl:comment>****************** FP WITH NOTATION OBJECTS *****************</xsl:comment>
-
-
-                    <xsl:comment>####################################</xsl:comment>
-                    <xsl:comment>RATIONAL NUMBERS: Formal Process (keyed to notation) + Process Predicate + Notation Object</xsl:comment>
-                    <xsl:comment>####################################</xsl:comment>
-
-                    <xsl:variable name="FP_rational" as="element()+">
-
-                        <xsl:for-each
-                            select="key('scopes', $rational) intersect key('notationKey', $notation)">
-                            <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="PrPred_rational" as="element()+">
-                        <xsl:for-each select="key('scopes', $rational)">
-                            <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="NO_rational" as="element()+">
-                        <xsl:for-each select="key('scopes', $rational)">
-                            <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
-
-                    <sentenceGroup id="fp-pp-no">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_rational"/>
-                            <xsl:with-param name="NOparam3" as="element()+" select="$NO_rational"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$rationalScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="fp-mathop">
+                        <parentGroup match="fp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_rational"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_rational"
+                                />
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_rational"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_rational"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$rationalScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
 
 
 
-                    <xsl:comment>####################################</xsl:comment>
-                    <xsl:comment>RATIONAL NUMBERS: Formal Process (keyed to notation) + Math Operation + Quant Object + Notation Object</xsl:comment>
-                    <xsl:comment>####################################</xsl:comment>
+                        <xsl:comment>####################################</xsl:comment>
+                        <xsl:comment>RATIONAL NUMBERS: Formal Process (keyed to notation) + Math Operation + Quant Object + Notation Object</xsl:comment>
+                        <xsl:comment>####################################</xsl:comment>
 
-                    <xsl:variable name="FP_rational" as="element()+">
-                        <xsl:for-each
-                            select="key('scopes', $rational) intersect key('notationKey', $notation)">
-                            <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="MathOP_rational" as="element()+">
-                        <xsl:for-each select="key('scopes', $rational)">
-                            <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="QO_rational" as="element()+">
-                        <xsl:for-each select="key('scopes', $rational)">
-                            <xsl:sequence select=".[parent::* ! name() = $object]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="NO_rational" as="element()+">
-                        <xsl:for-each select="key('scopes', $rational)">
-                            <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
+                        <xsl:variable name="FP_rational" as="element()+">
+                            <xsl:for-each
+                                select="key('scopes', $rational) intersect key('notationKey', $notation)">
+                                <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="MathOP_rational" as="element()+">
+                            <xsl:for-each select="key('scopes', $rational)">
+                                <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="QO_rational" as="element()+">
+                            <xsl:for-each select="key('scopes', $rational)">
+                                <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="NO_rational" as="element()+">
+                            <xsl:for-each select="key('scopes', $rational)">
+                                <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
+                        <notationParent>
+                            <parentGroup match="fp-mathop-no" lvl="2">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+"
+                                        select="$FP_rational"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$MathOP_rational"/>
+                                    <xsl:with-param name="param3" as="element()+"
+                                        select="$QO_rational"/>
+                                    <xsl:with-param name="param4" as="element()+"
+                                        select="$NO_rational"/>
+                                </xsl:call-template>
+                            </parentGroup>
+                            <compGroup id="fp-mathop-no">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+"
+                                        select="$FP_rational"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$MathOP_rational"/>
+                                    <xsl:with-param name="param3" as="element()+"
+                                        select="$QO_rational"/>
+                                    <xsl:with-param name="param4" as="element()+"
+                                        select="$NO_rational"/>
+                                    <xsl:with-param name="scopeParam" as="xs:string"
+                                        select="$rationalScopeString"/>
+                                </xsl:call-template>
+                            </compGroup>
+                        </notationParent>
+                    </parent>
 
-                    <sentenceGroup id="fp-mathop-no">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_rational"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_rational"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_rational"/>
-                            <xsl:with-param name="param4" as="element()+" select="$NO_rational"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$rationalScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+
 
 
                     <xsl:comment>####################################</xsl:comment>
@@ -791,15 +837,24 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
-                    <sentenceGroup id="kp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_rational"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_rational"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$rationalScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="kp-pp">
+                        <parentGroup match="kp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_rational"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_rational"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_rational"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_rational"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$rationalScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
 
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>RATIONAL NUMBERS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
@@ -822,22 +877,33 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="rationalScopeString" select="'Rational Numbers'"/>
-
-                    <sentenceGroup id="kp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_rational"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_rational"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_rational"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$rationalScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="kp-mathop">
+                        <parentGroup match="kp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_rational"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_rational"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_rational"
+                                />
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_rational"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_rational"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_rational"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$rationalScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                 </scopeGroup>
             </xml>
         </xsl:result-document>
 
 
-        <xsl:result-document method="xml" indent="yes" href="algebra_exp/algebraExpNestedOutput.xml">
+        <xsl:result-document method="xml" indent="yes" href="algebra_exp/algebraExpNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>**************************************************************</xsl:comment>
                 <xsl:comment>**************** ALGEBRAIC EXPRESSIONS SCOPE ***********</xsl:comment>
@@ -859,16 +925,24 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="algexpScopeString" select="'Algebraic Expressions'"/>
-
-                    <sentenceGroup id="fp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_algexp"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_algexp"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$algexpScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="fp-pp">
+                        <parentGroup match="fp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_algexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_algexp"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_algexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_algexp"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$algexpScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>ALGEBRAIC EXPRESSIONS: Formal Process + Math Operation + Quant Object</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -889,17 +963,26 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="algexpScopeString" select="'Algebraic Expressions'"/>
-
-                    <sentenceGroup id="fp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_algexp"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_algexp"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_algexp"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$algexpScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="fp-mathop">
+                        <parentGroup match="fp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_algexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_algexp"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_algexp"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_algexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_algexp"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_algexp"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$algexpScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>ALGEBRAIC EXPRESSIONS: Knowledge Process + Process Pred</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -915,15 +998,24 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="algexpScopeString" select="'Algebraic Expressions'"/>
-                    <sentenceGroup id="kp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_algexp"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_algexp"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$algexpScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="kp-pp">
+                        <parentGroup match="kp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_algexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_algexp"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_algexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_algexp"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$algexpScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>ALGEBRAIC EXPRESSIONS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -944,23 +1036,33 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="algexpScopeString" select="'Algebraic Expressions'"/>
-
-                    <sentenceGroup id="kp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_algexp"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_algexp"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_algexp"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$algexpScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="kp-mathop">
+                        <parentGroup match="kp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_algexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_algexp"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_algexp"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_algexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_algexp"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_algexp"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$algexpScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                 </scopeGroup>
             </xml>
         </xsl:result-document>
 
 
 
-        <xsl:result-document method="xml" indent="yes" href="numeric_exp/numericExpNestedOutput.xml">
+        <xsl:result-document method="xml" indent="yes" href="numeric_exp/numericExpNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>*************************************************************************</xsl:comment>
                 <xsl:comment>**************** NUMERICAL EXPRESSIONS SCOPE ***************</xsl:comment>
@@ -982,17 +1084,25 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="numexpScopeString" select="'Numerical Expressions'"/>
+                    <parent group="fp-pp">
+                        <parentGroup match="fp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_numexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_numexp"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_numexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_numexp"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$numexpScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
 
-                    <sentenceGroup id="fp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_numexp"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_numexp"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$numexpScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
-
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>NUMERICAL EXPRESSIONS: Formal Process + Math Operation + Quant Object</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1013,17 +1123,26 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="numexpScopeString" select="'Numerical Expressions'"/>
-
-                    <sentenceGroup id="fp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_numexp"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_numexp"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_numexp"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$numexpScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="fp-mathop">
+                        <parentGroup match="fp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_numexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_numexp"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_numexp"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_numexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_numexp"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_numexp"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$numexpScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>NUMERICAL EXPRESSIONS: Knowledge Process + Process Pred</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1039,14 +1158,24 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="numexpScopeString" select="'Numerical Expressions'"/>
-                    <sentenceGroup id="kp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_numexp"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_numexp"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$numexpScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="kp-pp">
+                        <parentGroup match="kp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_numexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_numexp"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_numexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_numexp"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$numexpScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
 
 
                     <xsl:comment>####################################</xsl:comment>
@@ -1069,26 +1198,36 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="numexpScopeString" select="'Numerical Expressions'"/>
-
-                    <sentenceGroup id="kp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_numexp"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_numexp"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_numexp"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$numexpScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="kp-mathop">
+                        <parentGroup match="kp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_numexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_numexp"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_numexp"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_numexp"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_numexp"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_numexp"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$numexpScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                 </scopeGroup>
             </xml>
         </xsl:result-document>
 
 
-        <!-\- **************** ALL OTHER SCOPES (NOT K-5) *********************************** -\->
+        <!-- **************** ALL OTHER SCOPES (NOT K-5) *********************************** -->
 
-        <!-\-   <xsl:comment>~~~~~~~~~~~~~~~~~~~~~~~~~ NON-K5 SCOPES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</xsl:comment>-\->
+        <!--   <xsl:comment>~~~~~~~~~~~~~~~~~~~~~~~~~ NON-K5 SCOPES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</xsl:comment>-->
 
-        <xsl:result-document method="xml" indent="yes" href="complex_nums/complexNestedOutput.xml">
+        <xsl:result-document method="xml" indent="yes" href="complex_nums/complexNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>*******************************************************</xsl:comment>
                 <xsl:comment>**************** COMPLEX NUMBERS SCOPE **************************</xsl:comment>
@@ -1099,7 +1238,7 @@
                     <xsl:comment>COMPLEX NUMBERS: Formal Process + Process Predicate</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:variable name="FPcomplex" as="element()+">
-                        <!-\-  intersect key('scopes', $imag) -\->
+                        <!--  intersect key('scopes', $imag) -->
                         <xsl:for-each select="key('scopes', $complex)">
                             <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                         </xsl:for-each>
@@ -1110,16 +1249,24 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="complexScopeString" select="'Complex Numbers'"/>
-
-                    <sentenceGroup id="fp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPredcomplex"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$complexScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="fp-pp">
+                        <parentGroup match="fp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPredcomplex"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPredcomplex"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$complexScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>COMPLEX NUMBERS: Formal Process + Math Operation + Quant Object</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1139,17 +1286,26 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="complexScopeString" select="'Complex Numbers'"/>
-
-                    <sentenceGroup id="fp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOpcomplex"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QOcomplex"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$complexScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="fp-mathop">
+                        <parentGroup match="fp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOpcomplex"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOcomplex"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPcomplex"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOpcomplex"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOcomplex"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$complexScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
 
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>COMPLEX NUMBERS: Knowledge Process + Process Pred</xsl:comment>
@@ -1165,15 +1321,24 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="complexScopeString" select="'Complex Numbers'"/>
-                    <sentenceGroup id="kp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_complex"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPredcomplex"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$complexScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="kp-pp">
+                        <parentGroup match="kp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_complex"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPredcomplex"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_complex"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPredcomplex"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$complexScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>COMPLEX NUMBERS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1195,22 +1360,32 @@
                     </xsl:variable>
                     <xsl:variable name="complexScopeString" select="'Complex Numbers'"/>
 
-                    <sentenceGroup id="kp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_complex"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOpcomplex"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QOcomplex"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$complexScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="kp-mathop">
+                        <parentGroup match="kp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_complex"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOpcomplex"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOcomplex"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_complex"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOpcomplex"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOcomplex"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$complexScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                 </scopeGroup>
             </xml>
         </xsl:result-document>
 
 
-        <xsl:result-document method="xml" indent="yes"
-            href="imaginary_nums/imaginaryNestedOutput.xml">
+        <xsl:result-document method="xml" indent="yes" href="imaginary_nums/imaginaryNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>****************************************************************</xsl:comment>
                 <xsl:comment>************** IMAGINARY NUMBERS SCOPE *****************</xsl:comment>
@@ -1232,15 +1407,22 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="imagScopeString" select="'Imaginary Numbers'"/>
-
-                    <sentenceGroup id="fp-pp">
+<parent group="fp-pp">
+                    <parentGroup match="fp-pp" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$FPimag"/>
+                            <xsl:with-param name="param2" as="element()+" select="$PrPredimag"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="fp-pp">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$FPimag"/>
                             <xsl:with-param name="param2" as="element()+" select="$PrPredimag"/>
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$imagScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
+                    </compGroup>
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>IMAGINARY NUMBERS: Formal Process + Math Operation + Quant Object </xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1261,8 +1443,15 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="imagScopeString" select="'Imaginary Numbers'"/>
-
-                    <sentenceGroup id="fp-mathop">
+<parent group="fp-mathop">
+                    <parentGroup match="fp-mathop" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$FPimag"/>
+                            <xsl:with-param name="param2" as="element()+" select="$MathOpimag"/>
+                            <xsl:with-param name="param3" as="element()+" select="$QOimag"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="fp-mathop">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$FPimag"/>
                             <xsl:with-param name="param2" as="element()+" select="$MathOpimag"/>
@@ -1270,8 +1459,8 @@
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$imagScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
-
+                    </compGroup>
+</parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>IMAGINARY NUMBERS: Knowledge Process + Process Pred</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1287,14 +1476,22 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="imagScopeString" select="'Imaginary Numbers'"/>
-                    <sentenceGroup id="kp-pp">
+                    <parent group="kp-pp">
+                    <parentGroup match="kp-pp" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$KP_imag"/>
+                            <xsl:with-param name="param2" as="element()+" select="$PrPredimag"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="kp-pp">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$KP_imag"/>
                             <xsl:with-param name="param2" as="element()+" select="$PrPredimag"/>
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$imagScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
+                    </compGroup>
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>IMAGINARY NUMBERS: Knowledge Process + Math Operation + Quant Object </xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1316,8 +1513,15 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="imagScopeString" select="'Imaginary Numbers'"/>
-
-                    <sentenceGroup id="kp-mathop">
+<parent group="kp-mathop">
+                    <parentGroup match="kp-mathop" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$KP_imag"/>
+                            <xsl:with-param name="param2" as="element()+" select="$MathOpimag"/>
+                            <xsl:with-param name="param3" as="element()+" select="$QOimag"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="kp-mathop">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$KP_imag"/>
                             <xsl:with-param name="param2" as="element()+" select="$MathOpimag"/>
@@ -1325,14 +1529,14 @@
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$imagScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
-
+                    </compGroup>
+</parent>
                 </scopeGroup>
             </xml>
         </xsl:result-document>
 
 
-        <xsl:result-document method="xml" indent="yes" href="space/spaceNestedOutput.xml">
+        <xsl:result-document method="xml" indent="yes" href="space/spaceNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>**************************************************************</xsl:comment>
                 <xsl:comment>**************** SPACE SCOPE **************************</xsl:comment>
@@ -1355,16 +1559,22 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="spaceScopeString" select="'Space'"/>
-
-                    <sentenceGroup id="fp-pp">
+<parent group="fp-pp">
+                    <parentGroup match="fp-pp" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$FP_space"/>
+                            <xsl:with-param name="param2" as="element()+" select="$PrPred_space"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="fp-pp">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$FP_space"/>
                             <xsl:with-param name="param2" as="element()+" select="$PrPred_space"/>
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$spaceScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
-
+                    </compGroup>
+</parent>
 
 
                     <xsl:comment>####################################</xsl:comment>
@@ -1387,8 +1597,15 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="spaceScopeString" select="'Space'"/>
-
-                    <sentenceGroup id="fp-mathop">
+<parent group="fp-mathop">
+                    <parentGroup match="fp-mathop" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$FP_space"/>
+                            <xsl:with-param name="param2" as="element()+" select="$MathOP_space"/>
+                            <xsl:with-param name="param3" as="element()+" select="$QO_space"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="fp-mathop">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$FP_space"/>
                             <xsl:with-param name="param2" as="element()+" select="$MathOP_space"/>
@@ -1396,8 +1613,8 @@
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$spaceScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
-
+                    </compGroup>
+</parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>SPACE: Knowledge Process + Process Pred</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1413,15 +1630,22 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="spaceScopeString" select="'Space'"/>
-                    <sentenceGroup id="kp-pp">
+                    <parent group="kp-pp">
+                    <parentGroup match="kp-pp" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$KP_space"/>
+                            <xsl:with-param name="param2" as="element()+" select="$PrPred_space"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="kp-pp">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$KP_space"/>
                             <xsl:with-param name="param2" as="element()+" select="$PrPred_space"/>
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$spaceScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
-
+                    </compGroup>
+</parent>
 
 
                     <xsl:comment>####################################</xsl:comment>
@@ -1445,8 +1669,15 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="spaceScopeString" select="'Space'"/>
-
-                    <sentenceGroup id="kp-mathop">
+<parent group="kp-mathop">
+                    <parentGroup match="kp-mathop" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$KP_space"/>
+                            <xsl:with-param name="param2" as="element()+" select="$MathOP_space"/>
+                            <xsl:with-param name="param3" as="element()+" select="$QO_space"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="kp-mathop">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$KP_space"/>
                             <xsl:with-param name="param2" as="element()+" select="$MathOP_space"/>
@@ -1454,13 +1685,14 @@
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$spaceScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
+                    </compGroup>
+                    </parent>
                 </scopeGroup>
             </xml>
         </xsl:result-document>
 
 
-        <xsl:result-document method="xml" indent="yes" href="plane/planeNestedOutput.xml">
+        <xsl:result-document method="xml" indent="yes" href="plane/planeNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>*************************************************************</xsl:comment>
                 <xsl:comment>**************** PLANE SCOPE **************************</xsl:comment>
@@ -1483,16 +1715,22 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="planeScopeString" select="'the Plane'"/>
-
-                    <sentenceGroup id="fp-pp">
+<parent group="fp-pp">
+                    <parentGroup match="fp-pp" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$FP_plane"/>
+                            <xsl:with-param name="param2" as="element()+" select="$PrPred_plane"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="fp-pp">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$FP_plane"/>
                             <xsl:with-param name="param2" as="element()+" select="$PrPred_plane"/>
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$planeScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
-
+                    </compGroup>
+</parent>
 
 
                     <xsl:comment>####################################</xsl:comment>
@@ -1515,8 +1753,15 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="planeScopeString" select="'the Plane'"/>
-
-                    <sentenceGroup id="fp-mathop">
+<parent group="fp-mathop">
+                    <parentGroup match="fp-mathop" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$FP_plane"/>
+                            <xsl:with-param name="param2" as="element()+" select="$MathOP_plane"/>
+                            <xsl:with-param name="param3" as="element()+" select="$QO_plane"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="fp-mathop">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$FP_plane"/>
                             <xsl:with-param name="param2" as="element()+" select="$MathOP_plane"/>
@@ -1524,8 +1769,8 @@
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$planeScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
-
+                    </compGroup>
+</parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>PLANE: Knowledge Process + Process Pred</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1541,15 +1786,22 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="planeScopeString" select="'the Plane'"/>
-                    <sentenceGroup id="kp-pp">
+                    <parent group="kp-pp">
+                    <parentGroup match="kp-pp" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$KP_plane"/>
+                            <xsl:with-param name="param2" as="element()+" select="$PrPred_plane"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="kp-pp">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$KP_plane"/>
                             <xsl:with-param name="param2" as="element()+" select="$PrPred_plane"/>
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$planeScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
-
+                    </compGroup>
+</parent>
 
 
                     <xsl:comment>####################################</xsl:comment>
@@ -1573,8 +1825,15 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="planeScopeString" select="'the Plane'"/>
-
-                    <sentenceGroup id="kp-mathop">
+<parent group="kp-mathop">
+                    <parentGroup match="kp-mathop" lvl="1">
+                        <xsl:call-template name="sentenceWriter">
+                            <xsl:with-param name="param1" as="element()+" select="$KP_plane"/>
+                            <xsl:with-param name="param2" as="element()+" select="$MathOP_plane"/>
+                            <xsl:with-param name="param3" as="element()+" select="$QO_plane"/>
+                        </xsl:call-template>
+                    </parentGroup>
+                    <compGroup id="kp-mathop">
                         <xsl:call-template name="sentenceWriter">
                             <xsl:with-param name="param1" as="element()+" select="$KP_plane"/>
                             <xsl:with-param name="param2" as="element()+" select="$MathOP_plane"/>
@@ -1582,14 +1841,15 @@
                             <xsl:with-param name="scopeParam" as="xs:string"
                                 select="$planeScopeString"/>
                         </xsl:call-template>
-                    </sentenceGroup>
+                    </compGroup>
+</parent>
                 </scopeGroup>
             </xml>
         </xsl:result-document>
 
 
 
-        <xsl:result-document method="xml" indent="yes" href="real_nums/realNestedOutput.xml">
+        <xsl:result-document method="xml" indent="yes" href="real_nums/realNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>****************************************************</xsl:comment>
                 <xsl:comment>*************** REAL NUMBERS SCOPE *****************</xsl:comment>
@@ -1609,15 +1869,69 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="realScopeString" select="'Real Numbers'"/>
+                    <parent group="fp-pp">
+                        <parentGroup match="fp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPredreal"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPredreal"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$realScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
 
-                    <sentenceGroup id="fp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPredreal"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$realScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+
+                        <xsl:comment>####################################</xsl:comment>
+                        <xsl:comment>REAL NUMBERS: Formal Process (keyed to notation) + Process Predicate + Notation Object</xsl:comment>
+                        <xsl:comment>####################################</xsl:comment>
+
+                        <xsl:variable name="FPreal" as="element()+">
+
+                            <xsl:for-each
+                                select="key('scopes', $real) intersect key('notationKey', $notation)">
+                                <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="PrPredreal" as="element()+">
+                            <xsl:for-each select="key('scopes', $real)">
+                                <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="NO_real" as="element()+">
+                            <xsl:for-each select="key('scopes', $real)">
+                                <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="realScopeString" select="'Real Numbers'"/>
+
+                        <notationParent>
+                            <parentGroup match="fp-pp-no" lvl="2">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$PrPredreal"/>
+                                    <xsl:with-param name="param3" as="element()+"
+                                        select="$NO_real"/>
+                                </xsl:call-template>
+                            </parentGroup>
+                            <compGroup id="fp-pp-no">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$PrPredreal"/>
+                                    <xsl:with-param name="NOparam3" as="element()+"
+                                        select="$NO_real"/>
+                                    <xsl:with-param name="scopeParam" as="xs:string"
+                                        select="$realScopeString"/>
+                                </xsl:call-template>
+                            </compGroup>
+                        </notationParent>
+                    </parent>
 
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>REAL NUMBERS: Formal Process + Math Operation + Quant Object</xsl:comment>
@@ -1639,88 +1953,75 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="realScopeString" select="'Real Numbers'"/>
+                    <parent group="fp-mathop">
+                        <parentGroup match="fp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOpreal"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOreal"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOpreal"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOreal"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$realScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
 
-                    <sentenceGroup id="fp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOpreal"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QOreal"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$realScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
 
+                        <xsl:comment>####################################</xsl:comment>
+                        <xsl:comment>REAL NUMBERS: Formal Process (keyed to notation) + Math Operation + Quant Object + Notation Object</xsl:comment>
+                        <xsl:comment>####################################</xsl:comment>
 
-                    <xsl:comment>####################################</xsl:comment>
-                    <xsl:comment>REAL NUMBERS: Formal Process (keyed to notation) + Process Predicate + Notation Object</xsl:comment>
-                    <xsl:comment>####################################</xsl:comment>
-
-                    <xsl:variable name="FPreal" as="element()+">
-
-                        <xsl:for-each
-                            select="key('scopes', $real) intersect key('notationKey', $notation)">
-                            <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="PrPredreal" as="element()+">
-                        <xsl:for-each select="key('scopes', $real)">
-                            <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="NO_real" as="element()+">
-                        <xsl:for-each select="key('scopes', $real)">
-                            <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="realScopeString" select="'Real Numbers'"/>
-
-                    <sentenceGroup id="fp-pp-no">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPredreal"/>
-                            <xsl:with-param name="NOparam3" as="element()+" select="$NO_real"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$realScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-                    <xsl:comment>####################################</xsl:comment>
-                    <xsl:comment>REAL NUMBERS: Formal Process (keyed to notation) + Math Operation + Quant Object + Notation Object</xsl:comment>
-                    <xsl:comment>####################################</xsl:comment>
-
-                    <xsl:variable name="FPreal" as="element()+">
-                        <xsl:for-each
-                            select="key('scopes', $real) intersect key('notationKey', $notation)">
-                            <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="MathOpreal" as="element()+">
-                        <xsl:for-each select="key('scopes', $real)">
-                            <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="QOreal" as="element()+">
-                        <xsl:for-each select="key('scopes', $real)">
-                            <xsl:sequence select=".[parent::* ! name() = $object]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="NO_real" as="element()+">
-                        <xsl:for-each select="key('scopes', $real)">
-                            <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="realScopeString" select="'Real Numbers'"/>
-
-                    <sentenceGroup id="fp-mathop-no">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOpreal"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QOreal"/>
-                            <xsl:with-param name="param4" as="element()+" select="$NO_real"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$realScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                        <xsl:variable name="FPreal" as="element()+">
+                            <xsl:for-each
+                                select="key('scopes', $real) intersect key('notationKey', $notation)">
+                                <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="MathOpreal" as="element()+">
+                            <xsl:for-each select="key('scopes', $real)">
+                                <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="QOreal" as="element()+">
+                            <xsl:for-each select="key('scopes', $real)">
+                                <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="NO_real" as="element()+">
+                            <xsl:for-each select="key('scopes', $real)">
+                                <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="realScopeString" select="'Real Numbers'"/>
+                        <notationParent>
+                            <parentGroup match="fp-mathop-no" lvl="2">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$MathOpreal"/>
+                                    <xsl:with-param name="param3" as="element()+" select="$QOreal"/>
+                                    <xsl:with-param name="param4" as="element()+" select="$NO_real"
+                                    />
+                                </xsl:call-template>
+                            </parentGroup>
+                            <compGroup id="fp-mathop-no">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+" select="$FPreal"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$MathOpreal"/>
+                                    <xsl:with-param name="param3" as="element()+" select="$QOreal"/>
+                                    <xsl:with-param name="param4" as="element()+" select="$NO_real"/>
+                                    <xsl:with-param name="scopeParam" as="xs:string"
+                                        select="$realScopeString"/>
+                                </xsl:call-template>
+                            </compGroup>
+                        </notationParent>
+                    </parent>
 
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>REAL NUMBERS: Knowledge Process + Process Pred</xsl:comment>
@@ -1737,14 +2038,22 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="realScopeString" select="'Real Numbers'"/>
-                    <sentenceGroup id="kp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_real"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPredreal"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$realScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="kp-pp">
+                        <parentGroup match="kp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_real"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPredreal"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_real"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPredreal"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$realScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>REAL NUMBERS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1766,22 +2075,30 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="realScopeString" select="'Real Numbers'"/>
-
-                    <sentenceGroup id="kp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_real"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOpreal"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QOreal"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$realScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="kp-mathop">
+                        <parentGroup match="kp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_real"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOpreal"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOreal"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_real"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOpreal"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOreal"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$realScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                 </scopeGroup>
             </xml>
         </xsl:result-document>
 
 
-        <xsl:result-document method="xml" indent="yes" href="expect_vals/expectValNestedOutput.xml">
+        <xsl:result-document method="xml" indent="yes" href="expect_vals/expectValNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>*************************************************************</xsl:comment>
                 <xsl:comment>**************** EXPECTED VALUES SCOPE **************************</xsl:comment>
@@ -1804,16 +2121,24 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="expectScopeString" select="'Expected Values'"/>
-
-                    <sentenceGroup id="fp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_expect"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_expect"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$expectScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="fp-pp">
+                        <parentGroup match="fp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_expect"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_expect"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_expect"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_expect"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$expectScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
 
 
                     <xsl:comment>####################################</xsl:comment>
@@ -1836,17 +2161,26 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="expectScopeString" select="'Expected Values'"/>
-
-                    <sentenceGroup id="fp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_expect"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_expect"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_expect"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$expectScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="fp-mathop">
+                        <parentGroup match="fp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_expect"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_expect"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_expect"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_expect"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_expect"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_expect"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$expectScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>EXPECTED VALUES: Knowledge Process + Process Pred</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1862,15 +2196,24 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="expectScopeString" select="'Expected Values'"/>
-                    <sentenceGroup id="kp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_expect"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_expect"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$expectScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="kp-pp">
+                        <parentGroup match="kp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_expect"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_expect"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_expect"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_expect"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$expectScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
 
 
                     <xsl:comment>####################################</xsl:comment>
@@ -1894,22 +2237,32 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="expectScopeString" select="'Expected Values'"/>
-
-                    <sentenceGroup id="kp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_expect"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_expect"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_expect"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$expectScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="kp-mathop">
+                        <parentGroup match="kp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_expect"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_expect"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_expect"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_expect"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_expect"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_expect"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$expectScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                 </scopeGroup>
             </xml>
         </xsl:result-document>
 
 
-        <xsl:result-document method="xml" indent="yes" href="unit_fract/unitFractNestedOutput.xml">
+        <xsl:result-document method="xml" indent="yes" href="unit_fract/unitFractNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>**************************************************************</xsl:comment>
                 <xsl:comment>**************** UNIT FRACTIONS SCOPE **************************</xsl:comment>
@@ -1932,16 +2285,23 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="unitScopeString" select="'Unit Fractions'"/>
-
-                    <sentenceGroup id="fp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_unit"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_unit"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$unitScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="fp-pp">
+                        <parentGroup match="fp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_unit"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPred_unit"
+                                />
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_unit"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPred_unit"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$unitScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
 
 
                     <xsl:comment>####################################</xsl:comment>
@@ -1964,17 +2324,24 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="unitScopeString" select="'Unit Fractions'"/>
-
-                    <sentenceGroup id="fp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_unit"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_unit"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_unit"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$unitScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
+                    <parent group="fp-mathop">
+                        <parentGroup match="fp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_unit"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOP_unit"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_unit"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_unit"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOP_unit"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_unit"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$unitScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>UNIT FRACTIONS: Knowledge Process + Process Pred</xsl:comment>
                     <xsl:comment>####################################</xsl:comment>
@@ -1990,16 +2357,23 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="unitScopeString" select="'Unit Fractions'"/>
-                    <sentenceGroup id="kp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_unit"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_unit"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$unitScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
-
+                    <parent group="kp-pp">
+                        <parentGroup match="kp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_unit"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPred_unit"
+                                />
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_unit"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPred_unit"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$unitScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
 
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>UNIT FRACTIONS: Knowledge Process + Math Operation + Quant Object </xsl:comment>
@@ -2022,23 +2396,31 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="unitScopeString" select="'Unit Fractions'"/>
-
-                    <sentenceGroup id="kp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_unit"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_unit"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_unit"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$unitScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="kp-mathop">
+                        <parentGroup match="kp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_unit"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOP_unit"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_unit"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_unit"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOP_unit"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_unit"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$unitScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                 </scopeGroup>
             </xml>
         </xsl:result-document>
 
 
 
-        <xsl:result-document method="xml" indent="yes" href="vectors/vectorsNestedOutput.xml">
+        <xsl:result-document method="xml" indent="yes" href="vectors/vectorsNestedOutput-TP.xml">
             <xml>
                 <xsl:comment>**************************************************************</xsl:comment>
                 <xsl:comment>**************** VECTORS SCOPE **************************</xsl:comment>
@@ -2061,17 +2443,25 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="vectorScopeString" select="'Vectors'"/>
+                    <parent group="fp-pp">
+                        <parentGroup match="fp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_vector"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_vector"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_vector"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_vector"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$vectorScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
 
-                    <sentenceGroup id="fp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_vector"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_vector"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$vectorScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
-
-
+                    </parent>
 
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>VECTORS: Formal Process + Math Operation + Quant Object</xsl:comment>
@@ -2093,16 +2483,26 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="vectorScopeString" select="'Vectors'"/>
-
-                    <sentenceGroup id="fp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$FP_vector"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_vector"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_vector"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$vectorScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="fp-mathop">
+                        <parentGroup match="fp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_vector"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_vector"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_vector"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_vector"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_vector"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_vector"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$vectorScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
 
                     <xsl:comment>####################################</xsl:comment>
                     <xsl:comment>VECTORS: Knowledge Process + Process Pred</xsl:comment>
@@ -2119,14 +2519,24 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="vectorScopeString" select="'Vectors'"/>
-                    <sentenceGroup id="kp-pp">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_vector"/>
-                            <xsl:with-param name="param2" as="element()+" select="$PrPred_vector"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$vectorScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="kp-pp">
+                        <parentGroup match="kp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_vector"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_vector"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_vector"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_vector"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$vectorScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
 
 
 
@@ -2151,23 +2561,33 @@
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:variable name="vectorScopeString" select="'Vectors'"/>
-
-                    <sentenceGroup id="kp-mathop">
-                        <xsl:call-template name="sentenceWriter">
-                            <xsl:with-param name="param1" as="element()+" select="$KP_vector"/>
-                            <xsl:with-param name="param2" as="element()+" select="$MathOP_vector"/>
-                            <xsl:with-param name="param3" as="element()+" select="$QO_vector"/>
-                            <xsl:with-param name="scopeParam" as="xs:string"
-                                select="$vectorScopeString"/>
-                        </xsl:call-template>
-                    </sentenceGroup>
+                    <parent group="kp-mathop">
+                        <parentGroup match="kp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_vector"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_vector"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_vector"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_vector"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_vector"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_vector"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$vectorScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
                 </scopeGroup>
 
             </xml>
         </xsl:result-document>
 
--->
-        <!--</xml>-->
+
+        <!--   </xml>-->
     </xsl:template>
 
 
