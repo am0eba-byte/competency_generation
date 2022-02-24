@@ -297,8 +297,8 @@
     
     <!-- 2nd tier LOWEST LEVEL COMPS -->
     <xsl:template match="competency" mode="low2">
-        <xsl:variable name="tIDcurrent" select="./tID/text()"/>
-        <xsl:variable name="tIDparent" select="ancestor::subgroup/parentCompColl[@lvl = '2']/competency[Token/text() = current()/Token/text() ! replace(., '-involving-integers', '')]/tID/text()"/>
+        <xsl:variable name="tIDcurrent" select="./tID/text()"/> <!--                tokenize(., 'involving-.+?-')] -->
+        <xsl:variable name="tIDparent" select="ancestor::subgroup/parentCompColl[@lvl = '2']/competency[Token/text() = current()/Token/text() ! replace(., '(.+?)involving-(.+?-)(in.+)', '$1$3')]/tID/text()"/>
         <!--  [count(preceding-sibling::competency) = count(current()/preceding-sibling::competency)]   -->
        <!-- <xsl:variable name="tIDparent">
             
