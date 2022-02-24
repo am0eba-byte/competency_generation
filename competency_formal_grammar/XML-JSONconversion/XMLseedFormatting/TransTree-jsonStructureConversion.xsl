@@ -51,7 +51,7 @@
     </scope>
 </xsl:template>
 
-    <xsl:template match="//parent[child::notationParent]" mode="subgroup">
+    <xsl:template match="parent[child::notationParent]" mode="subgroup">
       
         <parentCompColl lvl="1">
             <xsl:apply-templates select="parentGroup/componentSentence" mode="top"/>
@@ -81,7 +81,7 @@
     
     
     
-    <xsl:template match="//parent[not(child::notationParent)]" mode="nosub">
+    <xsl:template match="parent[not(child::notationParent)]" mode="nosub">
         <parentCompColl lvl="1">
             <xsl:apply-templates select="parentGroup/componentSentence" mode="top"/>
         </parentCompColl>
