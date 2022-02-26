@@ -53,6 +53,11 @@
     <!-- SUBCLASS NOTATION PARAMS -->
     <xsl:param name="notation" as="xs:string" select="'notation'"/>
     <xsl:param name="noNot" as="xs:string" select="'noNot'"/>
+    
+    <!-- Mathop + Knowledge Process filtering key -->
+    <xsl:key name="MathOpProcessFilter" match="string" use="@mathop ! normalize-space()"/>
+    <xsl:param name="KPMathOp" as="xs:string" select="'true'"/>
+    
 
 
     <!-- KEYS: all components -->
@@ -411,7 +416,7 @@
             <xsl:comment>####################################</xsl:comment>
             
             <xsl:variable name="FP_noNot" as="element()+">
-                <xsl:for-each select="key('notationKey', $noNot)">
+                <xsl:for-each select="key('scopes', $wholenum)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
@@ -448,7 +453,7 @@
             <xsl:comment>####################################</xsl:comment>
 
             <xsl:variable name="FP_notation" as="element()+">
-                <xsl:for-each select="key('notationKey', $notation)">
+                <xsl:for-each select="key('notationKey', $notation) intersect key('scopes', $wholenum)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
@@ -496,7 +501,7 @@
             <xsl:comment>####################################</xsl:comment>
             
             <xsl:variable name="FP_noNot" as="element()+">
-                <xsl:for-each select="key('notationKey', $noNot)">
+                <xsl:for-each select="key('scopes', $wholenum)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
@@ -542,7 +547,7 @@
             <xsl:comment>####################################</xsl:comment>
 
             <xsl:variable name="FP_notation" as="element()+">
-                <xsl:for-each select="key('notationKey', $notation)">
+                <xsl:for-each select="key('notationKey', $notation) intersect key('scopes', $wholenum)">
                     <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
                 </xsl:for-each>
             </xsl:variable>
@@ -687,7 +692,7 @@
             <xsl:comment>####################################</xsl:comment>
 
             <xsl:variable name="KP" as="element()+">
-                <xsl:for-each select="key('scopes', $wholenum)">
+                <xsl:for-each select="key('scopes', $wholenum) intersect key('MathOpProcessFilter', $KPMathOp)">
                     <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                 </xsl:for-each>
             </xsl:variable>
@@ -732,7 +737,7 @@
             <xsl:comment>####################################</xsl:comment>
             
                 <xsl:variable name="KP" as="element()+">
-                    <xsl:for-each select="key('scopes', $wholenum)">
+                    <xsl:for-each select="key('scopes', $wholenum) intersect key('MathOpProcessFilter', $KPMathOp)">
                         <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
                     </xsl:for-each>
                 </xsl:variable>
