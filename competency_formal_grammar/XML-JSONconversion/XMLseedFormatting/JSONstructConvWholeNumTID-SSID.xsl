@@ -72,33 +72,8 @@
     
     <xsl:template match="componentSentence" mode="top">
        
-            <xsl:variable name="ssid" select="@id"/>
-            <xsl:variable name="pos">
-                   
-              <xsl:value-of select="count(preceding::componentSentence[@id = current()/@id])"/>
-  
-            </xsl:variable>
-            <xsl:variable name="ssIDiter" select="concat($ssid, '-', $pos)"/>
-            
-            <xsl:variable name="extID" select="@extends"/>
-            <xsl:variable name="extIDiter" select="concat($extID, '-', $pos)"/>
             <competency>
-              <!--  <ssID>
-                    <xsl:apply-templates select="$ssIDiter"/>
-                </ssID>
-                <ssExtends>
-                   <xsl:choose> 
-                       <xsl:when test="@extends = 'null'">
-                           <xsl:apply-templates select="$extID"/>
-                       </xsl:when>
-                      <xsl:otherwise> 
-                          <xsl:apply-templates select="$extIDiter"/>
-                      </xsl:otherwise>
-                   </xsl:choose>
-                </ssExtends>-->
-                
                 <Token>
-                    
                     <xsl:choose>
                         <xsl:when test="descendant::*/text()[contains(., ',')]">
                             <xsl:apply-templates
@@ -141,33 +116,8 @@
     
     <xsl:template match="componentSentence" mode="mid">
         
-        <xsl:variable name="ssid" select="@id"/>
-        <xsl:variable name="pos">
-            
-            <xsl:value-of select="count(preceding::componentSentence[@id = current()/@id])"/>
-            
-        </xsl:variable>
-        <xsl:variable name="ssIDiter" select="concat($ssid, '-', $pos)"/>
-        
-        <xsl:variable name="extID" select="@extends"/>
-        <xsl:variable name="extIDiter" select="concat($extID, '-', $pos)"/>
         <competency>
-         <!--   <ssID>
-                <xsl:apply-templates select="$ssIDiter"/>
-            </ssID>
-            <ssExtends>
-                <xsl:choose> 
-                    <xsl:when test="@extends = 'null'">
-                        <xsl:apply-templates select="$extID"/>
-                    </xsl:when>
-                    <xsl:otherwise> 
-                        <xsl:apply-templates select="$extIDiter"/>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </ssExtends>
-            -->
             <Token>
-                
                 <xsl:choose>
                     <xsl:when test="descendant::*/text()[contains(., ',')]">
                         <xsl:apply-templates
@@ -210,13 +160,13 @@
     
     <xsl:template match="componentSentence" mode="low">
         
-        <xsl:variable name="ssid" select="@id"/>
+        <xsl:variable name="ssid" select="@id"/> 
         <xsl:variable name="pos">
             
-            <xsl:value-of select="count(preceding::componentSentence[@id = current()/@id])"/>
+            <xsl:value-of select="count(preceding::componentSentence[@id = current()/@id])"/> <!-- find the positiion of current comp by counting preceding comps whose @ids are the same (same sub-scope) -->
             
         </xsl:variable>
-        <xsl:variable name="ssIDiter" select="concat($ssid, '-', $pos)"/>
+        <xsl:variable name="ssIDiter" select="concat($ssid, '-', $pos)"/> <!-- progressive parent ID constructor -->
         
         <xsl:variable name="extID" select="@extends"/>
         <xsl:variable name="extIDiter" select="concat($extID, '-', $pos)"/>
