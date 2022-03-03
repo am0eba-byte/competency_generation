@@ -1,212 +1,440 @@
 <xml>
+    <group lvl="1" type="domain">
+        <Domain>Counting and Cardinality</Domain>
+        <group lvl="2" type="subdomain">
+            <subDomain>Know number names and the count sequence.</subDomain>
+            <group lvl="3" type="minor">
+                <minorDomain>Count to 100 by ones and tens.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Count by ones.</competency>	
+                    <competency>Count by tens.</competency>	
+                    <competency>Count by tens and ones.</competency>	
+                    <competency>Count within 5.</competency>	
+                    <competency>Count within 10.</competency>	
+                    <competency>Count within 20.</competency>	
+                    <competency>Count within 30.</competency>	
+                    <competency>Count within 50.</competency>	
+                    <competency>Count within 100.</competency>	
+                    <competency>Count backward starting at a given number.</competency>
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Count forward from a given number.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Count forward starting at 1.</competency>	
+                    <competency>Count forward starting at a given number.</competency>
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Write numbers from 0 to 20.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Write the number 0.</competency>	
+                    <competency>Write the number 1.</competency>	
+                    <competency>Write the number 2.</competency>	
+                    <competency>Write the number 3.</competency>	
+                    <competency>Write the number 4.</competency>	
+                    <competency>Write the number 5.</competency>	
+                    <competency>Write the number 6.</competency>	
+                    <competency>Write the number 7.</competency>	
+                    <competency>Write the number 8.</competency>	
+                    <competency>Write the number 9.</competency>	
+                    <competency>Write the number 10.</competency>	
+                    <competency>Write the number 11.</competency>	
+                    <competency>Write the number 12.</competency>	
+                    <competency>Write the number 13.</competency>	
+                    <competency>Write the number 14.</competency>	
+                    <competency>Write the number 15.</competency>	
+                    <competency>Write the number 16.</competency>	
+                    <competency>Write the number 17.</competency>	
+                    <competency>Write the number 18.</competency>	
+                    <competency>Write the number 19.</competency>	
+                    <competency>Write the number 20.</competency>	
+                    <competency>Represent a number of objects with a written numeral 0-20.</competency>
+                </group>
+            </group>
+        </group>
+        <group lvl="2" type="subdomain">
+            <subDomain>Count to tell the number of objects.</subDomain>
+            <group lvl="3" type="minor">
+                <minorDomain>Understand the relationship between numbers and quantities.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Count 1 object.</competency>	
+                    <competency>Count 2 objects.</competency>	
+                    <competency>Count 3 objects.</competency>	
+                    <competency>Count 4 objects.</competency>	
+                    <competency>Count 5 objects.</competency>	
+                    <competency>Count 6 objects.</competency>	
+                    <competency>Count 7 objects.</competency>	
+                    <competency>Count 8 objects.</competency>	
+                    <competency>Count 9 objects.</competency>	
+                    <competency>Count 10 objects.</competency>	
+                    <competency>Count 11 objects.</competency>	
+                    <competency>Count 12 objects.</competency>	
+                    <competency>Count 13 objects.</competency>	
+                    <competency>Count 14 objects.</competency>	
+                    <competency>Count 15 objects.</competency>	
+                    <competency>Count 16 objects.</competency>	
+                    <competency>Count 17 objects.</competency>	
+                    <competency>Count 18 objects.</competency>	
+                    <competency>Count 19 objects.</competency>	
+                    <competency>Count 20 objects.</competency>	
+                    <competency>Count objects using a one-to-one correspondence. </competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Count to tell how many for up to 20 objects.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Count objects arranged in a line.</competency>	
+                    <competency>Count objects arranged in a rectangular array.</competency>	
+                    <competency>Count objects arranged in a circle.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Count to tell how many for up to 10 objects.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Count objects in a scattered configuration.</competency>
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Count out a given number of objects.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Given a number 1-20, count out that many objects.</competency>
+                </group>
+            </group>
+        </group>
+        <group lvl="2" type="subdomain">
+            <subDomain>Compare numbers.</subDomain>
+            <group lvl="3" type="minor">
+                <minorDomain>Compare two groups of objects.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Tell whether the number of objects in one group is equal or not equal to the number of objects in another group.</competency>	
+                    <competency>Match objects from two groups of up to 5 objects to compare.</competency>	
+                    <competency>Match objects from two groups of up to 10 objects to compare.</competency>	
+                    <competency>Tell whether the number of objects in one group is greater than, less than, or equal to the number of objects in another group.</competency>	
+                    <competency>Count to compare two groups of up to 5 objects.</competency>	
+                    <competency>Count to compare two groups of up to 10 objects.</competency>	
+                    <competency>Count to compare two groups of up to 20 objects.</competency>
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Compare two numbers.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Compare two written numerals up to 5.</competency>	
+                    <competency>Compare two written numerals up to 10.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Order numbers.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Order up to 5 numbers within 5.</competency>	
+                    <competency>Order up to 4 numbers within 10.</competency>	
+                    <competency>Order up to 4 numbers within 20.</competency>	
+                </group>
+            </group>
+        </group>
+    </group>
+    <group lvl="1" type="domain">
+        <Domain>Operations and Algebraic Thinking</Domain>
+        <group lvl="2" type="subdomain">
+            <subDomain>Understand addition as putting together and adding to.</subDomain>
+            <group lvl="3" type="minor">
+                <minorDomain>Model addition.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Represent addition with objects, fingers, drawings, sounds, or actions.</competency>	
+                    <competency>Represent addition with a number bond.</competency>	
+                    <competency>Represent addition with a ten frame.</competency>	
+                    <competency>Represent addition with a sentence.	<notes>Sentence: __ and __ is __ in all.</notes></competency>
+                    <competency>Represent addition with an expression.	<notes>Expression: __ + __</notes></competency>
+                    <competency>Represent addition with an equation.	<notes>"Equation: __ + __ = __ (also called an""addition sentence"")"</notes></competency>
+                    <competency>Identify the parts and the whole for a representation of numbers to 5.</competency>	
+                    <competency>Identify the parts and the whole for a representation of the number 6.</competency>	
+                    <competency>Identify the parts and the whole for a representation of the number 7.</competency>	
+                    <competency>Identify the parts and the whole for a representation of the number 8.</competency>	
+                    <competency>Identify the parts and the whole for a representation of the number 9.</competency>	
+                    <competency>Identify the parts and the whole for a representation of the number 10.</competency>	
+                    <competency>Use a number bond to represent numbers to 5.</competency>	
+                    <competency>Use a number bond to represent the number 6.</competency>	
+                    <competency>Use a number bond to represent the number 7.</competency>	
+                    <competency>Use a number bond to represent the number 8.</competency>	
+                    <competency>Use a number bond to represent the number 9.</competency>	
+                    <competency>Use a number bond to represent the number 10.</competency>	
+                    <competency>Identify the partner number to 5 that makes a given whole number 6-10.</competency>	
+                    <competency>Use a ten frame to represent numbers 6-10.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Solve addition word problems within 10.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Solve add to addition word problems.	<notes>Word problem = pictures in K</notes></competency>
+                    <competency>Solve put together addition word problems.</competency>	
+                    <competency>Identify the starting number and number being added in an add to addition word problem.</competency>	
+                    <competency>Identify the numbers being added in a put together addition word problem.</competency>
+                    
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Add within 10.</minorDomain>
+                <group lvl="4" type="comps">
+                    <competency>Add two numbers within a sum of 5.</competency>	
+                    <competency>Add two numbers within a sum of 10.</competency>	
+                    <competency>Use a group of 5 to add within 10.</competency>	
+                    <competency>Given a one-digit number, identify the missing number that makes a sum of 10.</competency>	
+                    <competency>Given a number 10 or less, identify two numbers that sum to the given number.</competency>	
+                    <competency>Identify patterns when adding 0.</competency>	
+                    <competency>Identify patterns when adding 1.</competency>	
+                </group>
+            </group>
+        </group>
+        <group lvl="2" type="subdomain">
+            <subDomain>Understand subtraction as taking apart and taking from.</subDomain>
+            <group lvl="3" type="minor">
+                <minorDomain>Model subtraction</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Represent subtraction with objects, fingers, drawings, sounds, or actions.</competency>	
+                    <competency>Represent subtraction with a number bond.</competency>	
+                    <competency>Represent subtraction with a ten frame.</competency>	
+                    <competency>Represent subtraction with a sentence.	<notes>Sentence: __ take away __ is __ .</notes></competency>
+                    <competency>Represent subtraction with an expression.	<notes>Expression: __ - __</notes></competency>
+                    <competency>Represent subtraction with an equation.	<notes>"Equation: __ - __ = __ (also called a ""subtraction sentence"")"</notes></competency>
+                    
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Solve subtraction word problems within 10.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Solve take from subtraction word problems.	<notes>Word problem = pictures in K</notes></competency>
+                    <competency>Solve take apart subtraction word problems.</competency>	
+                    <competency>Identify the starting number and number being subtracted in a take from subtraction word problem.</competency>	
+                    <competency>Identify the whole and the parts in a take apart subtraction word problem.</competency>
+                    
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Subtract within 10.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Subtract two numbers within 5.</competency>	
+                    <competency>Subtract two numbers within 10.</competency>	
+                    <competency>Use a group of 5 to subtract within 10.</competency>	
+                    <competency>Identify patterns when subtracting 0.</competency>	
+                    <competency>Identify patterns when subtracting 1.</competency>	
+                    <competency>Identify patterns when subtracting all.</competency>	
+                </group>
+            </group>
+        </group>
+        <group lvl="2" type="subdomain">
+            <subDomain>Understand addition and subtraction.</subDomain>
+            <group lvl="3" type="minor">
+                <minorDomain>Relate addition and subtraction within 5.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Tell whether a word problem represents addition or subtraction.</competency>
+                    <competency>Write related addition and subtraction facts.</competency>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group lvl="1" type="domain">
+        <Domain>Numbers and Operations in Base Ten</Domain>
+        <group lvl="2" type="subdomain">
+            <subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>
+            <group lvl="3" type="minor">
+                <minorDomain>Model the numbers 11-19.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Represent the number 11 as 10 ones and 1 one.</competency>	
+                    <competency>Represent the number 11 using ten frames.</competency>	
+                    <competency>Represent the number 11 as an equation, 11 = 10 + 1.</competency>	
+                    <competency>Represent the number 12 as 10 ones and 2 ones.</competency>	
+                    <competency>Represent the number 12 using ten frames.</competency>	
+                    <competency>Represent the number 12 as an equation, 12 = 10 + 2.</competency>	
+                    <competency>Represent the number 13 as 10 ones and 3 ones.</competency>	
+                    <competency>Represent the number 13 using ten frames.</competency>	
+                    <competency>Represent the number 13 as an equation, 13 = 10 + 3.</competency>	
+                    <competency>Represent the number 14 as 10 ones and 4 ones.</competency>	
+                    <competency>Represent the number 14 using ten frames.</competency>	
+                    <competency>Represent the number 14 as an equation, 14 = 10 + 4.</competency>	
+                    <competency>Represent the number 15 as 10 ones and 5 ones.</competency>	
+                    <competency>Represent the number 15 using ten frames.</competency>	
+                    <competency>Represent the number 15 as an equation, 15 = 10 + 5.</competency>	
+                    <competency>Represent the number 16 as 10 ones and 6 ones.</competency>	
+                    <competency>Represent the number 16 using ten frames.</competency>	
+                    <competency>Represent the number 16 as an equation, 16 = 10 + 6.</competency>	
+                    <competency>Represent the number 17 as 10 ones and 7 ones.</competency>	
+                    <competency>Represent the number 17 using ten frames.</competency>	
+                    <competency>Represent the number 17 as an equation, 17 = 10 + 7.</competency>	
+                    <competency>Represent the number 18 as 10 ones and 8 ones.</competency>	
+                    <competency>Represent the number 18 using ten frames.</competency>	
+                    <competency>Represent the number 18 as an equation, 18 = 10 + 8.</competency>	
+                    <competency>Represent the number 19 as 10 ones and 9 ones.</competency>	
+                    <competency>Represent the number 19 using ten frames.</competency>	
+                    <competency>Represent the number 19 as an equation, 19 = 10 + 9.</competency>	
+                </group>
+            </group>
+        </group>
+    </group>
+    <group lvl="1" type="domain">
+        <Domain>Measurement and Data</Domain>
+        <group lvl="2" type="subdomain">
+            <subDomain>Describe and compare measureable attributes.</subDomain>
+            <group lvl="3" type="minor">
+                <minorDomain>Compare the heights of two objects.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Tell when one object is taller than another object.</competency>	
+                    <competency>Tell when one object is shorter (in height) than another object.</competency>	
+                    <competency>Tell when two objects are the same height.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Compare the lengths of two objects.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Tell when one object is longer than another object.</competency>	
+                    <competency>Tell when one object is shorter (in length) than another object.</competency>	
+                    <competency>Tell when two objects are the same length.</competency>	
+                    <competency>Use a tool (linking cubes) to compare lengths.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Compare the weights of two objects.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Tell when one object is heavier than another object.</competency>	
+                    <competency>Tell when one object is lighter than another object.</competency>	
+                    <competency>Tell when two objects are the same weight.</competency>	
+                    <competency>Use a tool (linking cubes) to compare weights.</competency>	
+                    <competency>Use a tool (balance scale) to compare weights.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Compare the compacities of two objects.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Tell when one object holds more than another object.</competency>	
+                    <competency>Tell when one object holds less than another object.</competency>	
+                    <competency>Tell when two objects hold the same amount.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Describe measureable attributes.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Identify when the length or height of an object can be measured.</competency>	
+                    <competency>Identify when the weight of an object can be measured.</competency>	
+                    <competency>Identify when the capacity of an object can be measured.</competency>	
+                    <competency>Identify all of the measureable attributes of an object.</competency>	
+                </group>
+            </group>
+        </group>
+        <group lvl="2" type="subdomain">
+            <subDomain>Classify objects and count the number of objects in each
+                category.</subDomain>
+            <group lvl="3" type="minor">
+                <minorDomain>Classify objects.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Identify objects that belong to a given category.</competency>	
+                    <competency>Identify objects that do not belong to a given category.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Count objects in categories.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Count the number of objects (up to 10) in a given category.</competency>	
+                    <competency>Compare the number of objects in two categories.</competency>	
+                </group>
+            </group>
+        </group>
+    </group>
+    <group lvl="1" type="domain">
+        <Domain>Geometry</Domain>
+        <group lvl="2" type="subdomain">
+            <subDomain>Identify and describe shapes.</subDomain>
+            <group lvl="3" type="minor">
+                <minorDomain>Identify two-dimensional shapes.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Identify a triangle.</competency>	
+                    <competency>Identify a rectangle.</competency>	
+                    <competency>Identify a square.</competency>	
+                    <competency>Identify a hexagon.</competency>	
+                    <competency>Identify a circle.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Describe two-dimensional shapes.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Describe features of a triangle (3 sides and 3 vertices).</competency>	
+                    <competency>Describe features of a rectangle(4 sides and 4 L-shaped vertices).</competency>	
+                    <competency>Describe features of a square (4 sides of equal length and 4 L-shaped vertices).</competency>	
+                    <competency>Describe features of a hexagon (6 sides and 6 vertices).</competency>	
+                    <competency>Describe features of a circle (has curved sides/no straight sides and no vertices).</competency>	
+                    
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Identify three-dimensional shapes.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Identify a cube.</competency>	
+                    <competency>Identify a sphere.</competency>	
+                    <competency>Identify a cone.</competency>	
+                    <competency>Identify a cylinder.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Describe three-dimensional shapes.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Describe features of a cube (has flat, square surfaces).</competency>	
+                    <competency>Describe features of a sphere (has a curved surfac/no flat surfaces).</competency>	
+                    <competency>Describe features of a cone (has a curved surface, a flat surface, and a vertex).</competency>	
+                    <competency>Describe features of a cylinder (has a curved surface and two flat surfaces).</competency>	
+                    
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Distinguish between two- and three-dimensional shapes.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Identify two-dimensional shapes (flat).</competency>	
+                    <competency>Identify three-dimensional shapes (solid).</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Describe positions of objects in the enviroment.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Describe the position of an object as being above or below another object.</competency>	
+                    <competency>Describe the position of an object as being in front of or behind another object.</competency>	
+                    <competency>Describe the position of an object as being beside or next to another object.</competency>	
+                    
+                </group>
+            </group>
+        </group>
+        <group lvl="2" type="subdomain">
+            <subDomain>Analyze, compare, create, and compose shapes.</subDomain>
+            <group lvl="3" type="minor">
+                <minorDomain>Analyze and compare two-dimensional shapes.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Describe the sides of two-dimensional shapes (curved or straight).</competency>	
+                    <competency>Compare the number of sides of two-dimensional shapes.</competency>	
+                    <competency>Compare the number of vertices of two-dimensional shapes.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Analyze and compare three-dimensional shapes.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Identify three-dimensional shapes that roll (curved surface).</competency>	
+                    <competency>Identify three-dimensional shapes that stack (multiple flat surfaces).</competency>	
+                    <competency>Identify three-dimensional shapes that slide (flat surface).</competency>	
+                    
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Create and compose two-dimensional shapes.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Combine two-dimensional shapes to form a larger shape.</competency>	
+                    <competency>Use materials (sticks and clay balls) to create two-dimensional shapes.</competency>	
+                    <competency>Draw two-dimensionals shapes.</competency>	
+                </group>
+            </group>
+            <group lvl="3" type="minor">
+                <minorDomain>Create and compose three-dimensional shapes.</minorDomain>
+                <group lvl="4" type="comp">
+                    <competency>Combine three-dimensional shapes to form a larger shape.</competency>	
+                    <competency>Use materials (sticks and clay balls) to create three-dimensional shapes.</competency>
+                </group>
+            </group>
+        </group>
+    </group>
 
 
-
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count to 100 by ones and tens.</minorDomain>	<competency>Count by ones.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count to 100 by ones and tens.</minorDomain>	<competency>Count by tens.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count to 100 by ones and tens.</minorDomain>	<competency>Count by tens and ones.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count to 100 by ones and tens.</minorDomain>	<competency>Count within 5.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count to 100 by ones and tens.</minorDomain>	<competency>Count within 10.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count to 100 by ones and tens.</minorDomain>	<competency>Count within 20.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count to 100 by ones and tens.</minorDomain>	<competency>Count within 30.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count to 100 by ones and tens.</minorDomain>	<competency>Count within 50.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count to 100 by ones and tens.</minorDomain>	<competency>Count within 100.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count to 100 by ones and tens.</minorDomain>	<competency>Count backward starting at a given number.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count forward from a given number.</minorDomain>	<competency>Count forward starting at 1.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Count forward from a given number.</minorDomain>	<competency>Count forward starting at a given number.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 0.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 1.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 2.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 3.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 4.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 5.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 6.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 7.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 8.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 9.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 10.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 11.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 12.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 13.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 14.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 15.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 16.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 17.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 18.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 19.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Write the number 20.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Know number names and the count sequence.</subDomain>	<minorDomain>Write numbers from 0 to 20.</minorDomain>	<competency>Represent a number of objects with a written numeral 0-20.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 1 object.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 2 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 3 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 4 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 5 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 6 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 7 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 8 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 9 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 10 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 11 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 12 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 13 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 14 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 15 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 16 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 17 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 18 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 19 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count 20 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	<competency>Count objects using a one-to-one correspondence. </competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Count to tell how many for up to 20 objects.</minorDomain>	<competency>Count objects arranged in a line.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Count to tell how many for up to 20 objects.</minorDomain>	<competency>Count objects arranged in a rectangular array.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Count to tell how many for up to 20 objects.</minorDomain>	<competency>Count objects arranged in a circle.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Count to tell how many for up to 10 objects.</minorDomain>	<competency>Count objects in a scattered configuration.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Count to tell the number of objects.</subDomain>	<minorDomain>Count out a given number of objects.</minorDomain>	<competency>Given a number 1-20, count out that many objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Compare two groups of objects.</minorDomain>	<competency>Tell whether the number of objects in one group is equal or not equal to the number of objects in another group.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Compare two groups of objects.</minorDomain>	<competency>Match objects from two groups of up to 5 objects to compare.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Compare two groups of objects.</minorDomain>	<competency>Match objects from two groups of up to 10 objects to compare.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Compare two groups of objects.</minorDomain>	<competency>Tell whether the number of objects in one group is greater than, less than, or equal to the number of objects in another group.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Compare two groups of objects.</minorDomain>	<competency>Count to compare two groups of up to 5 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Compare two groups of objects.</minorDomain>	<competency>Count to compare two groups of up to 10 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Compare two groups of objects.</minorDomain>	<competency>Count to compare two groups of up to 20 objects.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Compare two numbers.</minorDomain>	<competency>Compare two written numerals up to 5.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Compare two numbers.</minorDomain>	<competency>Compare two written numerals up to 10.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Order numbers.</minorDomain>	<competency>Order up to 5 numbers within 5.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Order numbers.</minorDomain>	<competency>Order up to 4 numbers within 10.</competency>	
-<grade>K</grade><ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>	<subDomain>Compare numbers.</subDomain>	<minorDomain>Order numbers.</minorDomain>	<competency>Order up to 4 numbers within 20.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Represent addition with objects, fingers, drawings, sounds, or actions.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Represent addition with a number bond.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Represent addition with a ten frame.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Represent addition with a sentence.</competency>	<notes>Sentence: __ and __ is __ in all.</notes>
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Represent addition with an expression.</competency>	<notes>Expression: __ + __</notes>
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Represent addition with an equation.</competency>	<notes>"Equation: __ + __ = __</notes>
-(also called an""addition sentence"")"
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Identify the parts and the whole for a representation of numbers to 5.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Identify the parts and the whole for a representation of the number 6.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Identify the parts and the whole for a representation of the number 7.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Identify the parts and the whole for a representation of the number 8.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Identify the parts and the whole for a representation of the number 9.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Identify the parts and the whole for a representation of the number 10.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Use a number bond to represent numbers to 5.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Use a number bond to represent the number 6.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Use a number bond to represent the number 7.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Use a number bond to represent the number 8.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Use a number bond to represent the number 9.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Use a number bond to represent the number 10.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Identify the partner number to 5 that makes a given whole number 6-10.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Model addition.</minorDomain>	<competency>Use a ten frame to represent numbers 6-10.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Solve addition word problems within 10.</minorDomain>	<competency>Solve add to addition word problems.</competency>	<notes>Word problem = pictures in K</notes>
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Solve addition word problems within 10.</minorDomain>	<competency>Solve put together addition word problems.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Solve addition word problems within 10.</minorDomain>	<competency>Identify the starting number and number being added in an add to addition word problem.</competency>	
-<ccDomain>OA</ccDomain><Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Solve addition word problems within 10.</minorDomain>	<competency>Identify the numbers being added in a put together addition word problem.</competency>
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Add within 10.</minorDomain>	<competency>Add two numbers within a sum of 5.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Add within 10.</minorDomain>	<competency>Add two numbers within a sum of 10.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Add within 10.</minorDomain>	<competency>Use a group of 5 to add within 10.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Add within 10.</minorDomain>	<competency>Given a one-digit number, identify the missing number that makes a sum of 10.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Add within 10.</minorDomain>	<competency>Given a number 10 or less, identify two numbers that sum to the given number.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Add within 10.</minorDomain>	<competency>Identify patterns when adding 0.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition as putting together and adding to.</subDomain>	<minorDomain>Add within 10.</minorDomain>	<competency>Identify patterns when adding 1.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Model subtraction</minorDomain>	<competency>Represent subtraction with objects, fingers, drawings, sounds, or actions.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Model subtraction</minorDomain>	<competency>Represent subtraction with a number bond.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Model subtraction</minorDomain>	<competency>Represent subtraction with a ten frame.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Model subtraction</minorDomain>	<competency>Represent subtraction with a sentence.</competency>	<notes>Sentence: __ take away __ is __ .</notes>
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Model subtraction</minorDomain>	<competency>Represent subtraction with an expression.</competency>	<notes>Expression: __ - __</notes>
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Model subtraction</minorDomain>	<competency>Represent subtraction with an equation.</competency>	<notes>"Equation: __ - __ = __</notes>
-(also called a ""subtraction sentence"")"
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Solve subtraction word problems within 10.</minorDomain>	<competency>Solve take from subtraction word problems.</competency>	<notes>Word problem = pictures in K</notes>
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Solve subtraction word problems within 10.</minorDomain>	<competency>Solve take apart subtraction word problems.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Solve subtraction word problems within 10.</minorDomain>	<competency>Identify the starting number and number being subtracted in a take from subtraction word problem.</competency>	
-<ccDomain>OA</ccDomain><Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Solve subtraction word problems within 10.</minorDomain>	<competency>Identify the whole and the parts in a take apart subtraction word problem.</competency>
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Subtract within 10.</minorDomain>	<competency>Subtract two numbers within 5.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Subtract within 10.</minorDomain>	<competency>Subtract two numbers within 10.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Subtract within 10.</minorDomain>	<competency>Use a group of 5 to subtract within 10.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Subtract within 10.</minorDomain>	<competency>Identify patterns when subtracting 0.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Subtract within 10.</minorDomain>	<competency>Identify patterns when subtracting 1.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand subtraction as taking apart and taking from.</subDomain>	<minorDomain>Subtract within 10.</minorDomain>	<competency>Identify patterns when subtracting all.</competency>	
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition and subtraction.</subDomain>	<minorDomain>Relate addition and subtraction within 5.</minorDomain>	<competency>Tell whether a word problem represents addition or subtraction.</competency>	<notes>Word problem = pictures in K</notes>
-<grade>K</grade><ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>	<subDomain>Understand addition and subtraction.</subDomain>	<minorDomain>Relate addition and subtraction within 5.</minorDomain>	<competency>Write related addition and subtraction facts.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 11 as 10 ones and 1 one.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 11 using ten frames.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 11 as an equation, 11 = 10 + 1.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 12 as 10 ones and 2 ones.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 12 using ten frames.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 12 as an equation, 12 = 10 + 2.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 13 as 10 ones and 3 ones.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 13 using ten frames.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 13 as an equation, 13 = 10 + 3.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 14 as 10 ones and 4 ones.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 14 using ten frames.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 14 as an equation, 14 = 10 + 4.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 15 as 10 ones and 5 ones.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 15 using ten frames.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 15 as an equation, 15 = 10 + 5.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 16 as 10 ones and 6 ones.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 16 using ten frames.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 16 as an equation, 16 = 10 + 6.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 17 as 10 ones and 7 ones.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 17 using ten frames.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 17 as an equation, 17 = 10 + 7.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 18 as 10 ones and 8 ones.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 18 using ten frames.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 18 as an equation, 18 = 10 + 8.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 19 as 10 ones and 9 ones.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 19 using ten frames.</competency>	
-<grade>K</grade><ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>	<subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	<minorDomain>Model the numbers 11-19.</minorDomain>	<competency>Represent the number 19 as an equation, 19 = 10 + 9.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the heights of two objects.</minorDomain>	<competency>Tell when one object is taller than another object.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the heights of two objects.</minorDomain>	<competency>Tell when one object is shorter (in height) than another object.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the heights of two objects.</minorDomain>	<competency>Tell when two objects are the same height.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the lengths of two objects.</minorDomain>	<competency>Tell when one object is longer than another object.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the lengths of two objects.</minorDomain>	<competency>Tell when one object is shorter (in length) than another object.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the lengths of two objects.</minorDomain>	<competency>Tell when two objects are the same length.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the lengths of two objects.</minorDomain>	<competency>Use a tool (linking cubes) to compare lengths.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the weights of two objects.</minorDomain>	<competency>Tell when one object is heavier than another object.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the weights of two objects.</minorDomain>	<competency>Tell when one object is lighter than another object.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the weights of two objects.</minorDomain>	<competency>Tell when two objects are the same weight.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the weights of two objects.</minorDomain>	<competency>Use a tool (linking cubes) to compare weights.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the weights of two objects.</minorDomain>	<competency>Use a tool (balance scale) to compare weights.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the compacities of two objects.</minorDomain>	<competency>Tell when one object holds more than another object.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the compacities of two objects.</minorDomain>	<competency>Tell when one object holds less than another object.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Compare the compacities of two objects.</minorDomain>	<competency>Tell when two objects hold the same amount.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Describe measureable attributes.</minorDomain>	<competency>Identify when the length or height of an object can be measured.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Describe measureable attributes.</minorDomain>	<competency>Identify when the weight of an object can be measured.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Describe measureable attributes.</minorDomain>	<competency>Identify when the capacity of an object can be measured.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Describe and compare measureable attributes.</subDomain>	<minorDomain>Describe measureable attributes.</minorDomain>	<competency>Identify all of the measureable attributes of an object.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Classify objects and count the number of objects in each category.</subDomain>	<minorDomain>Classify objects.</minorDomain>	<competency>Identify objects that belong to a given category.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Classify objects and count the number of objects in each category.</subDomain>	<minorDomain>Classify objects.</minorDomain>	<competency>Identify objects that do not belong to a given category.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Classify objects and count the number of objects in each category.</subDomain>	<minorDomain>Count objects in categories.</minorDomain>	<competency>Count the number of objects (up to 10) in a given category.</competency>	
-<grade>K</grade><ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	<subDomain>Classify objects and count the number of objects in each category.</subDomain>	<minorDomain>Count objects in categories.</minorDomain>	<competency>Compare the number of objects in two categories.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Identify two-dimensional shapes.</minorDomain>	<competency>Identify a triangle.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Identify two-dimensional shapes.</minorDomain>	<competency>Identify a rectangle.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Identify two-dimensional shapes.</minorDomain>	<competency>Identify a square.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Identify two-dimensional shapes.</minorDomain>	<competency>Identify a hexagon.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Identify two-dimensional shapes.</minorDomain>	<competency>Identify a circle.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe two-dimensional shapes.</minorDomain>	<competency>Describe features of a triangle (3 sides and 3 vertices).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe two-dimensional shapes.</minorDomain>	<competency>Describe features of a rectangle(4 sides and 4 L-shaped vertices).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe two-dimensional shapes.</minorDomain>	<competency>Describe features of a square (4 sides of equal length and 4 L-shaped vertices).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe two-dimensional shapes.</minorDomain>	<competency>Describe features of a hexagon (6 sides and 6 vertices).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe two-dimensional shapes.</minorDomain>	<competency>Describe features of a circle (has curved sides/no straight sides and no vertices).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Identify three-dimensional shapes.</minorDomain>	<competency>Identify a cube.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Identify three-dimensional shapes.</minorDomain>	<competency>Identify a sphere.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Identify three-dimensional shapes.</minorDomain>	<competency>Identify a cone.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Identify three-dimensional shapes.</minorDomain>	<competency>Identify a cylinder.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe three-dimensional shapes.</minorDomain>	<competency>Describe features of a cube (has flat, square surfaces).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe three-dimensional shapes.</minorDomain>	<competency>Describe features of a sphere (has a curved surfac/no flat surfaces).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe three-dimensional shapes.</minorDomain>	<competency>Describe features of a cone (has a curved surface, a flat surface, and a vertex).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe three-dimensional shapes.</minorDomain>	<competency>Describe features of a cylinder (has a curved surface and two flat surfaces).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Distinguish between two- and three-dimensional shapes.</minorDomain>	<competency>Identify two-dimensional shapes (flat).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Distinguish between two- and three-dimensional shapes.</minorDomain>	<competency>Identify three-dimensional shapes (solid).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe positions of objects in the enviroment.</minorDomain>	<competency>Describe the position of an object as being above or below another object.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe positions of objects in the enviroment.</minorDomain>	<competency>Describe the position of an object as being in front of or behind another object.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Identify and describe shapes.</subDomain>	<minorDomain>Describe positions of objects in the enviroment.</minorDomain>	<competency>Describe the position of an object as being beside or next to another object.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Analyze, compare, create, and compose shapes.</subDomain>	<minorDomain>Analyze and compare two-dimensional shapes.</minorDomain>	<competency>Describe the sides of two-dimensional shapes (curved or straight).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Analyze, compare, create, and compose shapes.</subDomain>	<minorDomain>Analyze and compare two-dimensional shapes.</minorDomain>	<competency>Compare the number of sides of two-dimensional shapes.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Analyze, compare, create, and compose shapes.</subDomain>	<minorDomain>Analyze and compare two-dimensional shapes.</minorDomain>	<competency>Compare the number of vertices of two-dimensional shapes.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Analyze, compare, create, and compose shapes.</subDomain>	<minorDomain>Analyze and compare three-dimensional shapes.</minorDomain>	<competency>Identify three-dimensional shapes that roll (curved surface).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Analyze, compare, create, and compose shapes.</subDomain>	<minorDomain>Analyze and compare three-dimensional shapes.</minorDomain>	<competency>Identify three-dimensional shapes that stack (multiple flat surfaces).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Analyze, compare, create, and compose shapes.</subDomain>	<minorDomain>Analyze and compare three-dimensional shapes.</minorDomain>	<competency>Identify three-dimensional shapes that slide (flat surface).</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Analyze, compare, create, and compose shapes.</subDomain>	<minorDomain>Create and compose two-dimensional shapes.</minorDomain>	<competency>Combine two-dimensional shapes to form a larger shape.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Analyze, compare, create, and compose shapes.</subDomain>	<minorDomain>Create and compose two-dimensional shapes.</minorDomain>	<competency>Use materials (sticks and clay balls) to create two-dimensional shapes.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Analyze, compare, create, and compose shapes.</subDomain>	<minorDomain>Create and compose two-dimensional shapes.</minorDomain>	<competency>Draw two-dimensionals shapes.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Analyze, compare, create, and compose shapes.</subDomain>	<minorDomain>Create and compose three-dimensional shapes.</minorDomain>	<competency>Combine three-dimensional shapes to form a larger shape.</competency>	
-<grade>K</grade><ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	<subDomain>Analyze, compare, create, and compose shapes.</subDomain>	<minorDomain>Create and compose three-dimensional shapes.</minorDomain>	<competency>Use materials (sticks and clay balls) to create three-dimensional shapes.</competency>	
 </xml>

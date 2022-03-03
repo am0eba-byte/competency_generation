@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    
+   <Domain>Counting and Cardinality</Domain>	
+    <subDomain>Know number names and the count sequence.</subDomain>	
+    <minorDomain>Count to 100 by ones and tens.</minorDomain>	
+        <competency>Count by ones.</competency>	
+    	<competency>Count by tens.</competency>	
+    	<competency>Count by tens and ones.</competency>	
+    	<competency>Count within 5.</competency>	
+    	<competency>Count within 10.</competency>	
+    	<competency>Count within 20.</competency>	
+    	<competency>Count within 30.</competency>	
+    	<competency>Count within 50.</competency>	
+    	<competency>Count within 100.</competency>	
+    	<competency>Count backward starting at a given number.</competency>	
+    
+    <minorDomain>Count forward from a given number.</minorDomain>	
+        <competency>Count forward starting at 1.</competency>	
+    	<competency>Count forward starting at a given number.</competency>	
+    
+    <minorDomain>Write numbers from 0 to 20.</minorDomain>	
+        <competency>Write the number 0.</competency>	
+    	<competency>Write the number 1.</competency>	
+    	<competency>Write the number 2.</competency>	
+    	<competency>Write the number 3.</competency>	
+    	<competency>Write the number 4.</competency>	
+    	<competency>Write the number 5.</competency>	
+    	<competency>Write the number 6.</competency>	
+    	<competency>Write the number 7.</competency>	
+    	<competency>Write the number 8.</competency>	
+    	<competency>Write the number 9.</competency>	
+    	<competency>Write the number 10.</competency>	
+    	<competency>Write the number 11.</competency>	
+    	<competency>Write the number 12.</competency>	
+    	<competency>Write the number 13.</competency>	
+    	<competency>Write the number 14.</competency>	
+    	<competency>Write the number 15.</competency>	
+    	<competency>Write the number 16.</competency>	
+    	<competency>Write the number 17.</competency>	
+    	<competency>Write the number 18.</competency>	
+    	<competency>Write the number 19.</competency>	
+    	<competency>Write the number 20.</competency>	
+    	<competency>Represent a number of objects with a written numeral 0-20.</competency>	
+    
+    <Domain>Counting and Cardinality</Domain>	
+    <subDomain>Count to tell the number of objects.</subDomain>	
+    <minorDomain>Understand the relationship between numbers and quantities.</minorDomain>	
+        <competency>Count 1 object.</competency>	
+    	<competency>Count 2 objects.</competency>	
+    	<competency>Count 3 objects.</competency>	
+    	<competency>Count 4 objects.</competency>	
+    	<competency>Count 5 objects.</competency>	
+    	<competency>Count 6 objects.</competency>	
+    	<competency>Count 7 objects.</competency>	
+    	<competency>Count 8 objects.</competency>	
+    	<competency>Count 9 objects.</competency>	
+    	<competency>Count 10 objects.</competency>	
+    	<competency>Count 11 objects.</competency>	
+    	<competency>Count 12 objects.</competency>	
+    	<competency>Count 13 objects.</competency>	
+    	<competency>Count 14 objects.</competency>	
+    	<competency>Count 15 objects.</competency>	
+    	<competency>Count 16 objects.</competency>	
+    	<competency>Count 17 objects.</competency>	
+    	<competency>Count 18 objects.</competency>	
+    	<competency>Count 19 objects.</competency>	
+    	<competency>Count 20 objects.</competency>	
+    	<competency>Count objects using a one-to-one correspondence. </competency>	
+    
+    <minorDomain>Count to tell how many for up to 20 objects.</minorDomain>	
+        <competency>Count objects arranged in a line.</competency>	
+    	<competency>Count objects arranged in a rectangular array.</competency>	
+    	<competency>Count objects arranged in a circle.</competency>	
+    
+    <minorDomain>Count to tell how many for up to 10 objects.</minorDomain>	
+        <competency>Count objects in a scattered configuration.</competency>	
+    
+    <minorDomain>Count out a given number of objects.</minorDomain>	
+        <competency>Given a number 1-20, count out that many objects.</competency>	
+    
+    
+    <ccDomain>CC</ccDomain>	<Domain>Counting and Cardinality</Domain>
+    <subDomain>Compare numbers.</subDomain>	
+    <minorDomain>Compare two groups of objects.</minorDomain>	
+        <competency>Tell whether the number of objects in one group is equal or not equal to the number of objects in another group.</competency>	
+    	<competency>Match objects from two groups of up to 5 objects to compare.</competency>	
+    	<competency>Match objects from two groups of up to 10 objects to compare.</competency>	
+    	<competency>Tell whether the number of objects in one group is greater than, less than, or equal to the number of objects in another group.</competency>	
+    	<competency>Count to compare two groups of up to 5 objects.</competency>	
+    	<competency>Count to compare two groups of up to 10 objects.</competency>	
+    	<competency>Count to compare two groups of up to 20 objects.</competency>	
+    
+    <minorDomain>Compare two numbers.</minorDomain>	
+        <competency>Compare two written numerals up to 5.</competency>	
+        <competency>Compare two written numerals up to 10.</competency>	
+    
+    <minorDomain>Order numbers.</minorDomain>	
+        <competency>Order up to 5 numbers within 5.</competency>	
+    	<competency>Order up to 4 numbers within 10.</competency>	
+    	<competency>Order up to 4 numbers within 20.</competency>	
+    
+    
+    
+    
+    
+    <ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>
+    <subDomain>Understand addition as putting together and adding to.</subDomain>	
+    <minorDomain>Model addition.</minorDomain>	
+        <competency>Represent addition with objects, fingers, drawings, sounds, or actions.</competency>	
+    	<competency>Represent addition with a number bond.</competency>	
+    	<competency>Represent addition with a ten frame.</competency>	
+    	<competency>Represent addition with a sentence.</competency>	<notes>Sentence: __ and __ is __ in all.</notes>
+    	<competency>Represent addition with an expression.</competency>	<notes>Expression: __ + __</notes>
+    	<competency>Represent addition with an equation.</competency>	<notes>"Equation: __ + __ = __ (also called an""addition sentence"")"</notes>
+    	<competency>Identify the parts and the whole for a representation of numbers to 5.</competency>	
+    	<competency>Identify the parts and the whole for a representation of the number 6.</competency>	
+    	<competency>Identify the parts and the whole for a representation of the number 7.</competency>	
+    	<competency>Identify the parts and the whole for a representation of the number 8.</competency>	
+    	<competency>Identify the parts and the whole for a representation of the number 9.</competency>	
+    	<competency>Identify the parts and the whole for a representation of the number 10.</competency>	
+    	<competency>Use a number bond to represent numbers to 5.</competency>	
+    	<competency>Use a number bond to represent the number 6.</competency>	
+    	<competency>Use a number bond to represent the number 7.</competency>	
+    	<competency>Use a number bond to represent the number 8.</competency>	
+    	<competency>Use a number bond to represent the number 9.</competency>	
+    	<competency>Use a number bond to represent the number 10.</competency>	
+    	<competency>Identify the partner number to 5 that makes a given whole number 6-10.</competency>	
+    	<competency>Use a ten frame to represent numbers 6-10.</competency>	
+    
+    <minorDomain>Solve addition word problems within 10.</minorDomain>	
+        <competency>Solve add to addition word problems.</competency>	<notes>Word problem = pictures in K</notes>
+    	<competency>Solve put together addition word problems.</competency>	
+    	<competency>Identify the starting number and number being added in an add to addition word problem.</competency>	
+    	<competency>Identify the numbers being added in a put together addition word problem.</competency>
+    
+    <minorDomain>Add within 10.</minorDomain>	
+        <competency>Add two numbers within a sum of 5.</competency>	
+    	<competency>Add two numbers within a sum of 10.</competency>	
+    	<competency>Use a group of 5 to add within 10.</competency>	
+    	<competency>Given a one-digit number, identify the missing number that makes a sum of 10.</competency>	
+    	<competency>Given a number 10 or less, identify two numbers that sum to the given number.</competency>	
+    	<competency>Identify patterns when adding 0.</competency>	
+    	<competency>Identify patterns when adding 1.</competency>	
+    
+    
+    
+    <ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>
+    <subDomain>Understand subtraction as taking apart and taking from.</subDomain>	
+    <minorDomain>Model subtraction</minorDomain>	
+        <competency>Represent subtraction with objects, fingers, drawings, sounds, or actions.</competency>	
+    	<competency>Represent subtraction with a number bond.</competency>	
+    	<competency>Represent subtraction with a ten frame.</competency>	
+    	<competency>Represent subtraction with a sentence.</competency>	<notes>Sentence: __ take away __ is __ .</notes>
+    	<competency>Represent subtraction with an expression.</competency>	<notes>Expression: __ - __</notes>
+    	<competency>Represent subtraction with an equation.</competency>	<notes>"Equation: __ - __ = __ (also called a ""subtraction sentence"")"</notes>
+    
+    <minorDomain>Solve subtraction word problems within 10.</minorDomain>	
+        <competency>Solve take from subtraction word problems.</competency>	<notes>Word problem = pictures in K</notes>
+    	<competency>Solve take apart subtraction word problems.</competency>	
+    	<competency>Identify the starting number and number being subtracted in a take from subtraction word problem.</competency>	
+    	<competency>Identify the whole and the parts in a take apart subtraction word problem.</competency>
+    
+    <minorDomain>Subtract within 10.</minorDomain>	
+        <competency>Subtract two numbers within 5.</competency>	
+    	<competency>Subtract two numbers within 10.</competency>	
+    	<competency>Use a group of 5 to subtract within 10.</competency>	
+    	<competency>Identify patterns when subtracting 0.</competency>	
+    	<competency>Identify patterns when subtracting 1.</competency>	
+    	<competency>Identify patterns when subtracting all.</competency>	
+    
+    <!-- DONE WITH THIS ONE -->
+    <ccDomain>OA</ccDomain>	<Domain>Operations and Algebraic Thinking</Domain>
+    <subDomain>Understand addition and subtraction.</subDomain>	
+    <minorDomain>Relate addition and subtraction within 5.</minorDomain>	<competency>Tell whether a word problem represents addition or subtraction.</competency>	<notes>Word problem = pictures in K</notes>
+    <minorDomain>Relate addition and subtraction within 5.</minorDomain>	<competency>Write related addition and subtraction facts.</competency>	
+    <!-- ^ DONE WITH THIS ONE ^ -->
+    
+    
+    
+    
+    
+    <ccDomain>NBT</ccDomain>	<Domain>Numbers and Operations in Base Ten</Domain>
+    <subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>	
+    <minorDomain>Model the numbers 11-19.</minorDomain>	
+        <competency>Represent the number 11 as 10 ones and 1 one.</competency>	
+    	<competency>Represent the number 11 using ten frames.</competency>	
+    	<competency>Represent the number 11 as an equation, 11 = 10 + 1.</competency>	
+    	<competency>Represent the number 12 as 10 ones and 2 ones.</competency>	
+    	<competency>Represent the number 12 using ten frames.</competency>	
+    	<competency>Represent the number 12 as an equation, 12 = 10 + 2.</competency>	
+    	<competency>Represent the number 13 as 10 ones and 3 ones.</competency>	
+    	<competency>Represent the number 13 using ten frames.</competency>	
+    	<competency>Represent the number 13 as an equation, 13 = 10 + 3.</competency>	
+    	<competency>Represent the number 14 as 10 ones and 4 ones.</competency>	
+    	<competency>Represent the number 14 using ten frames.</competency>	
+    	<competency>Represent the number 14 as an equation, 14 = 10 + 4.</competency>	
+    	<competency>Represent the number 15 as 10 ones and 5 ones.</competency>	
+    	<competency>Represent the number 15 using ten frames.</competency>	
+    	<competency>Represent the number 15 as an equation, 15 = 10 + 5.</competency>	
+    	<competency>Represent the number 16 as 10 ones and 6 ones.</competency>	
+    	<competency>Represent the number 16 using ten frames.</competency>	
+    	<competency>Represent the number 16 as an equation, 16 = 10 + 6.</competency>	
+    	<competency>Represent the number 17 as 10 ones and 7 ones.</competency>	
+    	<competency>Represent the number 17 using ten frames.</competency>	
+    	<competency>Represent the number 17 as an equation, 17 = 10 + 7.</competency>	
+    	<competency>Represent the number 18 as 10 ones and 8 ones.</competency>	
+    	<competency>Represent the number 18 using ten frames.</competency>	
+    	<competency>Represent the number 18 as an equation, 18 = 10 + 8.</competency>	
+    	<competency>Represent the number 19 as 10 ones and 9 ones.</competency>	
+    	<competency>Represent the number 19 using ten frames.</competency>	
+    	<competency>Represent the number 19 as an equation, 19 = 10 + 9.</competency>	
+    
+    
+    
+    
+    
+    
+    <ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	
+    <subDomain>Describe and compare measureable attributes.</subDomain>	
+    <minorDomain>Compare the heights of two objects.</minorDomain>	
+        <competency>Tell when one object is taller than another object.</competency>	
+    	<competency>Tell when one object is shorter (in height) than another object.</competency>	
+    	<competency>Tell when two objects are the same height.</competency>	
+    
+    <minorDomain>Compare the lengths of two objects.</minorDomain>	
+        <competency>Tell when one object is longer than another object.</competency>	
+    	<competency>Tell when one object is shorter (in length) than another object.</competency>	
+    	<competency>Tell when two objects are the same length.</competency>	
+    	<competency>Use a tool (linking cubes) to compare lengths.</competency>	
+    
+    <minorDomain>Compare the weights of two objects.</minorDomain>	
+        <competency>Tell when one object is heavier than another object.</competency>	
+    	<competency>Tell when one object is lighter than another object.</competency>	
+    	<competency>Tell when two objects are the same weight.</competency>	
+    	<competency>Use a tool (linking cubes) to compare weights.</competency>	
+    	<competency>Use a tool (balance scale) to compare weights.</competency>	
+    
+    <minorDomain>Compare the compacities of two objects.</minorDomain>	
+        <competency>Tell when one object holds more than another object.</competency>	
+    	<competency>Tell when one object holds less than another object.</competency>	
+    	<competency>Tell when two objects hold the same amount.</competency>	
+    
+    <minorDomain>Describe measureable attributes.</minorDomain>	
+        <competency>Identify when the length or height of an object can be measured.</competency>	
+    	<competency>Identify when the weight of an object can be measured.</competency>	
+    	<competency>Identify when the capacity of an object can be measured.</competency>	
+    	<competency>Identify all of the measureable attributes of an object.</competency>	
+    
+    
+    <ccDomain>MD</ccDomain>	<Domain>Measurement and Data</Domain>	
+    <subDomain>Classify objects and count the number of objects in each category.</subDomain>	
+    <minorDomain>Classify objects.</minorDomain>	
+        <competency>Identify objects that belong to a given category.</competency>	
+    	<competency>Identify objects that do not belong to a given category.</competency>	
+    
+    <minorDomain>Count objects in categories.</minorDomain>	
+        <competency>Count the number of objects (up to 10) in a given category.</competency>	
+    	<competency>Compare the number of objects in two categories.</competency>	
+    
+    
+    
+    
+    
+    
+    
+    <ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	
+    <subDomain>Identify and describe shapes.</subDomain>	
+    <minorDomain>Identify two-dimensional shapes.</minorDomain>	
+        <competency>Identify a triangle.</competency>	
+    	<competency>Identify a rectangle.</competency>	
+    	<competency>Identify a square.</competency>	
+    	<competency>Identify a hexagon.</competency>	
+    	<competency>Identify a circle.</competency>	
+    
+    <minorDomain>Describe two-dimensional shapes.</minorDomain>	
+        <competency>Describe features of a triangle (3 sides and 3 vertices).</competency>	
+    	<competency>Describe features of a rectangle(4 sides and 4 L-shaped vertices).</competency>	
+    	<competency>Describe features of a square (4 sides of equal length and 4 L-shaped vertices).</competency>	
+    	<competency>Describe features of a hexagon (6 sides and 6 vertices).</competency>	
+    	<competency>Describe features of a circle (has curved sides/no straight sides and no vertices).</competency>	
+    
+    <minorDomain>Identify three-dimensional shapes.</minorDomain>	
+        <competency>Identify a cube.</competency>	
+    	<competency>Identify a sphere.</competency>	
+    	<competency>Identify a cone.</competency>	
+    	<competency>Identify a cylinder.</competency>	
+    
+    <minorDomain>Describe three-dimensional shapes.</minorDomain>	
+        <competency>Describe features of a cube (has flat, square surfaces).</competency>	
+    	<competency>Describe features of a sphere (has a curved surfac/no flat surfaces).</competency>	
+    	<competency>Describe features of a cone (has a curved surface, a flat surface, and a vertex).</competency>	
+    	<competency>Describe features of a cylinder (has a curved surface and two flat surfaces).</competency>	
+    
+    <minorDomain>Distinguish between two- and three-dimensional shapes.</minorDomain>	
+        <competency>Identify two-dimensional shapes (flat).</competency>	
+    	<competency>Identify three-dimensional shapes (solid).</competency>	
+    
+    <minorDomain>Describe positions of objects in the enviroment.</minorDomain>	
+        <competency>Describe the position of an object as being above or below another object.</competency>	
+    	<competency>Describe the position of an object as being in front of or behind another object.</competency>	
+    	<competency>Describe the position of an object as being beside or next to another object.</competency>	
+    
+    
+    <ccDomain>G</ccDomain>	<Domain>Geometry</Domain>	
+    <subDomain>Analyze, compare, create, and compose shapes.</subDomain>	
+    <minorDomain>Analyze and compare two-dimensional shapes.</minorDomain>	
+        <competency>Describe the sides of two-dimensional shapes (curved or straight).</competency>	
+    	<competency>Compare the number of sides of two-dimensional shapes.</competency>	
+    	<competency>Compare the number of vertices of two-dimensional shapes.</competency>	
+    
+    <minorDomain>Analyze and compare three-dimensional shapes.</minorDomain>	
+        <competency>Identify three-dimensional shapes that roll (curved surface).</competency>	
+    	<competency>Identify three-dimensional shapes that stack (multiple flat surfaces).</competency>	
+    	<competency>Identify three-dimensional shapes that slide (flat surface).</competency>	
+    
+    <minorDomain>Create and compose two-dimensional shapes.</minorDomain>	
+        <competency>Combine two-dimensional shapes to form a larger shape.</competency>	
+    	<competency>Use materials (sticks and clay balls) to create two-dimensional shapes.</competency>	
+    	<competency>Draw two-dimensionals shapes.</competency>	
+    
+    <minorDomain>Create and compose three-dimensional shapes.</minorDomain>
+        <competency>Combine three-dimensional shapes to form a larger shape.</competency>	
+    	<competency>Use materials (sticks and clay balls) to create three-dimensional shapes.</competency>	
+    
+</xml>
