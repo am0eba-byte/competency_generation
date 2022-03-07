@@ -1,20 +1,20 @@
 <xml>
-    <group lvl="1" type="domain">
+    <group lvl="1" type="domain" cc="CC">
         <Domain>Counting and Cardinality</Domain>
         <group lvl="2" type="subdomain">
             <subDomain>Know number names and the count sequence.</subDomain>
             <group lvl="3" type="minor">
                 <minorDomain>Count to 100 by ones and tens.</minorDomain>
                 <group lvl="4" type="comp">
-                    <competency>Count by ones.</competency>	
-                    <competency>Count by tens.</competency>	
-                    <competency>Count by tens and ones.</competency>	
-                    <competency>Count within 5.</competency>	
-                    <competency>Count within 10.</competency>	
-                    <competency>Count within 20.</competency>	
-                    <competency>Count within 30.</competency>	
-                    <competency>Count within 50.</competency>	
-                    <competency>Count within 100.</competency>	
+                    <competency id="cb1" extends="null">Count by ones.</competency>	
+                    <competency id="cb10" extends="cb1">Count by tens.</competency>	
+                    <competency id="cb110" extends="cb10">Count by tens and ones.</competency>	
+                    <competency id="cw5" extends="null">Count within 5.</competency>	
+                    <competency id="cw10" extends="cw5">Count within 10.</competency>	
+                    <competency id="cw20" extends="cw10">Count within 20.</competency>	
+                    <competency id="cw30" extends="cw20">Count within 30.</competency>	
+                    <competency id="cw50" extends="cw30">Count within 50.</competency>	
+                    <competency id="cw100" extends="cw50">Count within 100.</competency>	
                     <competency>Count backward starting at a given number.</competency>
                 </group>
             </group>
@@ -28,27 +28,27 @@
             <group lvl="3" type="minor">
                 <minorDomain>Write numbers from 0 to 20.</minorDomain>
                 <group lvl="4" type="comp">
-                    <competency>Write the number 0.</competency>	
-                    <competency>Write the number 1.</competency>	
-                    <competency>Write the number 2.</competency>	
-                    <competency>Write the number 3.</competency>	
-                    <competency>Write the number 4.</competency>	
-                    <competency>Write the number 5.</competency>	
-                    <competency>Write the number 6.</competency>	
-                    <competency>Write the number 7.</competency>	
-                    <competency>Write the number 8.</competency>	
-                    <competency>Write the number 9.</competency>	
-                    <competency>Write the number 10.</competency>	
-                    <competency>Write the number 11.</competency>	
-                    <competency>Write the number 12.</competency>	
-                    <competency>Write the number 13.</competency>	
-                    <competency>Write the number 14.</competency>	
-                    <competency>Write the number 15.</competency>	
-                    <competency>Write the number 16.</competency>	
-                    <competency>Write the number 17.</competency>	
-                    <competency>Write the number 18.</competency>	
-                    <competency>Write the number 19.</competency>	
-                    <competency>Write the number 20.</competency>	
+                    <competency id="w0" extends="null">Write the number 0.</competency>	
+                    <competency id="w1" extends="w0">Write the number 1.</competency>	
+                    <competency id="w2" extends="w1">Write the number 2.</competency>	
+                    <competency id="w3" extends="w2">Write the number 3.</competency>	
+                    <competency id="w4" extends="w3">Write the number 4.</competency>	
+                    <competency id="w5" extends="w4">Write the number 5.</competency>	
+                    <competency id="w6" extends="w5">Write the number 6.</competency>	
+                    <competency id="w7" extends="w6">Write the number 7.</competency>	
+                    <competency id="w8" extends="w7">Write the number 8.</competency>	
+                    <competency id="w9" extends="w8">Write the number 9.</competency>	
+                    <competency id="w10" extends="w9">Write the number 10.</competency>	
+                    <competency id="w11" extends="w10">Write the number 11.</competency>	
+                    <competency id="w12" extends="w11">Write the number 12.</competency>	
+                    <competency id="w13" extends="w12">Write the number 13.</competency>	
+                    <competency id="w14" extends="w13">Write the number 14.</competency>	
+                    <competency id="w15" extends="w14">Write the number 15.</competency>	
+                    <competency id="w16" extends="w15">Write the number 16.</competency>	
+                    <competency id="w17" extends="w16">Write the number 17.</competency>	
+                    <competency id="w18" extends="w17">Write the number 18.</competency>	
+                    <competency id="w19" extends="w18">Write the number 19.</competency>	
+                    <competency id="w20" extends="w19">Write the number 20.</competency>	
                     <competency>Represent a number of objects with a written numeral 0-20.</competency>
                 </group>
             </group>
@@ -58,26 +58,26 @@
             <group lvl="3" type="minor">
                 <minorDomain>Understand the relationship between numbers and quantities.</minorDomain>
                 <group lvl="4" type="comp">
-                    <competency>Count 1 object.</competency>	
-                    <competency>Count 2 objects.</competency>	
-                    <competency>Count 3 objects.</competency>	
-                    <competency>Count 4 objects.</competency>	
-                    <competency>Count 5 objects.</competency>	
-                    <competency>Count 6 objects.</competency>	
-                    <competency>Count 7 objects.</competency>	
-                    <competency>Count 8 objects.</competency>	
-                    <competency>Count 9 objects.</competency>	
-                    <competency>Count 10 objects.</competency>	
-                    <competency>Count 11 objects.</competency>	
-                    <competency>Count 12 objects.</competency>	
-                    <competency>Count 13 objects.</competency>	
-                    <competency>Count 14 objects.</competency>	
-                    <competency>Count 15 objects.</competency>	
-                    <competency>Count 16 objects.</competency>	
-                    <competency>Count 17 objects.</competency>	
-                    <competency>Count 18 objects.</competency>	
-                    <competency>Count 19 objects.</competency>	
-                    <competency>Count 20 objects.</competency>	
+                    <competency id="c1" extends="null">Count 1 object.</competency>	
+                    <competency id="c2" extends="c1">Count 2 objects.</competency>	
+                    <competency id="c3" extends="c2">Count 3 objects.</competency>	
+                    <competency id="c4" extends="c3">Count 4 objects.</competency>	
+                    <competency id="c5" extends="c4">Count 5 objects.</competency>	
+                    <competency id="c6" extends="c5">Count 6 objects.</competency>	
+                    <competency id="c7" extends="c6">Count 7 objects.</competency>	
+                    <competency id="c8" extends="c7">Count 8 objects.</competency>	
+                    <competency id="c9" extends="c8">Count 9 objects.</competency>	
+                    <competency id="c10" extends="c9">Count 10 objects.</competency>	
+                    <competency id="c11" extends="c10">Count 11 objects.</competency>	
+                    <competency id="c12" extends="c11">Count 12 objects.</competency>	
+                    <competency id="c13" extends="c12">Count 13 objects.</competency>	
+                    <competency id="c14" extends="c13">Count 14 objects.</competency>	
+                    <competency id="c15" extends="c14">Count 15 objects.</competency>	
+                    <competency id="c16" extends="c15">Count 16 objects.</competency>	
+                    <competency id="c17" extends="c16">Count 17 objects.</competency>	
+                    <competency id="c18" extends="c17">Count 18 objects.</competency>	
+                    <competency id="c19" extends="c18">Count 19 objects.</competency>	
+                    <competency id="c20" extends="c19">Count 20 objects.</competency>	
                     <competency>Count objects using a one-to-one correspondence. </competency>	
                 </group>
             </group>
@@ -107,33 +107,33 @@
             <group lvl="3" type="minor">
                 <minorDomain>Compare two groups of objects.</minorDomain>
                 <group lvl="4" type="comp">
-                    <competency>Tell whether the number of objects in one group is equal or not equal to the number of objects in another group.</competency>	
-                    <competency>Match objects from two groups of up to 5 objects to compare.</competency>	
-                    <competency>Match objects from two groups of up to 10 objects to compare.</competency>	
-                    <competency>Tell whether the number of objects in one group is greater than, less than, or equal to the number of objects in another group.</competency>	
-                    <competency>Count to compare two groups of up to 5 objects.</competency>	
-                    <competency>Count to compare two groups of up to 10 objects.</competency>	
-                    <competency>Count to compare two groups of up to 20 objects.</competency>
+                    <competency id="e1" extends="null">Tell whether the number of objects in one group is equal or not equal to the number of objects in another group.</competency>	
+                    <competency id="m5" extends="null">Match objects from two groups of up to 5 objects to compare.</competency>	
+                    <competency id="m10" extends="m5">Match objects from two groups of up to 10 objects to compare.</competency>	
+                    <competency id="e2" extends="e1">Tell whether the number of objects in one group is greater than, less than, or equal to the number of objects in another group.</competency>	
+                    <competency id="g5" extends="null">Count to compare two groups of up to 5 objects.</competency>	
+                    <competency id="g10" extends="g5">Count to compare two groups of up to 10 objects.</competency>	
+                    <competency id="g20" extends="g10">Count to compare two groups of up to 20 objects.</competency>
                 </group>
             </group>
             <group lvl="3" type="minor">
                 <minorDomain>Compare two numbers.</minorDomain>
                 <group lvl="4" type="comp">
-                    <competency>Compare two written numerals up to 5.</competency>	
-                    <competency>Compare two written numerals up to 10.</competency>	
+                    <competency id="n5" extends="null">Compare two written numerals up to 5.</competency>	
+                    <competency id="n10" extends="n5">Compare two written numerals up to 10.</competency>	
                 </group>
             </group>
             <group lvl="3" type="minor">
                 <minorDomain>Order numbers.</minorDomain>
                 <group lvl="4" type="comp">
-                    <competency>Order up to 5 numbers within 5.</competency>	
-                    <competency>Order up to 4 numbers within 10.</competency>	
-                    <competency>Order up to 4 numbers within 20.</competency>	
+                    <competency id="o5" extends="null">Order up to 5 numbers within 5.</competency>	
+                    <competency id="o10" extends="o5">Order up to 4 numbers within 10.</competency>	
+                    <competency id="o20" extends="o10">Order up to 4 numbers within 20.</competency>	
                 </group>
             </group>
         </group>
     </group>
-    <group lvl="1" type="domain">
+    <group lvl="1" type="domain" cc="OA">
         <Domain>Operations and Algebraic Thinking</Domain>
         <group lvl="2" type="subdomain">
             <subDomain>Understand addition as putting together and adding to.</subDomain>
@@ -146,18 +146,18 @@
                     <competency>Represent addition with a sentence.	<notes>Sentence: __ and __ is __ in all.</notes></competency>
                     <competency>Represent addition with an expression.	<notes>Expression: __ + __</notes></competency>
                     <competency>Represent addition with an equation.	<notes>"Equation: __ + __ = __ (also called an""addition sentence"")"</notes></competency>
-                    <competency>Identify the parts and the whole for a representation of numbers to 5.</competency>	
-                    <competency>Identify the parts and the whole for a representation of the number 6.</competency>	
-                    <competency>Identify the parts and the whole for a representation of the number 7.</competency>	
-                    <competency>Identify the parts and the whole for a representation of the number 8.</competency>	
-                    <competency>Identify the parts and the whole for a representation of the number 9.</competency>	
-                    <competency>Identify the parts and the whole for a representation of the number 10.</competency>	
-                    <competency>Use a number bond to represent numbers to 5.</competency>	
-                    <competency>Use a number bond to represent the number 6.</competency>	
-                    <competency>Use a number bond to represent the number 7.</competency>	
-                    <competency>Use a number bond to represent the number 8.</competency>	
-                    <competency>Use a number bond to represent the number 9.</competency>	
-                    <competency>Use a number bond to represent the number 10.</competency>	
+                    <competency id="i5" extends="null">Identify the parts and the whole for a representation of numbers to 5.</competency>	
+                    <competency id="i6" extends="i5">Identify the parts and the whole for a representation of the number 6.</competency>	
+                    <competency id="i7" extends="i6">Identify the parts and the whole for a representation of the number 7.</competency>	
+                    <competency id="i8" extends="i7">Identify the parts and the whole for a representation of the number 8.</competency>	
+                    <competency id="i9" extends="i8">Identify the parts and the whole for a representation of the number 9.</competency>	
+                    <competency id="i10" extends="i9">Identify the parts and the whole for a representation of the number 10.</competency>	
+                    <competency id="r5" extends="null">Use a number bond to represent numbers to 5.</competency>	
+                    <competency id="r6" extends="r5">Use a number bond to represent the number 6.</competency>	
+                    <competency id="r7" extends="r6">Use a number bond to represent the number 7.</competency>	
+                    <competency id="r8" extends="r7">Use a number bond to represent the number 8.</competency>	
+                    <competency id="r9" extends="r8">Use a number bond to represent the number 9.</competency>	
+                    <competency id="r10" extends="r9">Use a number bond to represent the number 10.</competency>	
                     <competency>Identify the partner number to 5 that makes a given whole number 6-10.</competency>	
                     <competency>Use a ten frame to represent numbers 6-10.</competency>	
                 </group>
@@ -175,13 +175,13 @@
             <group lvl="3" type="minor">
                 <minorDomain>Add within 10.</minorDomain>
                 <group lvl="4" type="comps">
-                    <competency>Add two numbers within a sum of 5.</competency>	
-                    <competency>Add two numbers within a sum of 10.</competency>	
+                    <competency id="a5" extends="null">Add two numbers within a sum of 5.</competency>	
+                    <competency id="a10" extends="a5">Add two numbers within a sum of 10.</competency>	
                     <competency>Use a group of 5 to add within 10.</competency>	
                     <competency>Given a one-digit number, identify the missing number that makes a sum of 10.</competency>	
                     <competency>Given a number 10 or less, identify two numbers that sum to the given number.</competency>	
-                    <competency>Identify patterns when adding 0.</competency>	
-                    <competency>Identify patterns when adding 1.</competency>	
+                    <competency id="ipa0" extends="null">Identify patterns when adding 0.</competency>	
+                    <competency id="ipa1" extends="ipa0">Identify patterns when adding 1.</competency>	
                 </group>
             </group>
         </group>
@@ -212,12 +212,12 @@
             <group lvl="3" type="minor">
                 <minorDomain>Subtract within 10.</minorDomain>
                 <group lvl="4" type="comp">
-                    <competency>Subtract two numbers within 5.</competency>	
-                    <competency>Subtract two numbers within 10.</competency>	
+                    <competency id="s5" extends="null">Subtract two numbers within 5.</competency>	
+                    <competency id="s10" extends="s5">Subtract two numbers within 10.</competency>	
                     <competency>Use a group of 5 to subtract within 10.</competency>	
-                    <competency>Identify patterns when subtracting 0.</competency>	
-                    <competency>Identify patterns when subtracting 1.</competency>	
-                    <competency>Identify patterns when subtracting all.</competency>	
+                    <competency id="ips0" extends="null">Identify patterns when subtracting 0.</competency>	
+                    <competency id="ips1" extends="ips0">Identify patterns when subtracting 1.</competency>	
+                    <competency id="ips2" extends="ips1">Identify patterns when subtracting all.</competency>	
                 </group>
             </group>
         </group>
@@ -232,45 +232,45 @@
             </group>
         </group>
     </group>
-    <group lvl="1" type="domain">
+    <group lvl="1" type="domain" cc="NBT">
         <Domain>Numbers and Operations in Base Ten</Domain>
         <group lvl="2" type="subdomain">
             <subDomain>Work with numbers 11-19 to gain foundations for place value.</subDomain>
             <group lvl="3" type="minor">
                 <minorDomain>Model the numbers 11-19.</minorDomain>
                 <group lvl="4" type="comp">
-                    <competency>Represent the number 11 as 10 ones and 1 one.</competency>	
-                    <competency>Represent the number 11 using ten frames.</competency>	
-                    <competency>Represent the number 11 as an equation, 11 = 10 + 1.</competency>	
-                    <competency>Represent the number 12 as 10 ones and 2 ones.</competency>	
-                    <competency>Represent the number 12 using ten frames.</competency>	
-                    <competency>Represent the number 12 as an equation, 12 = 10 + 2.</competency>	
-                    <competency>Represent the number 13 as 10 ones and 3 ones.</competency>	
-                    <competency>Represent the number 13 using ten frames.</competency>	
-                    <competency>Represent the number 13 as an equation, 13 = 10 + 3.</competency>	
-                    <competency>Represent the number 14 as 10 ones and 4 ones.</competency>	
-                    <competency>Represent the number 14 using ten frames.</competency>	
-                    <competency>Represent the number 14 as an equation, 14 = 10 + 4.</competency>	
-                    <competency>Represent the number 15 as 10 ones and 5 ones.</competency>	
-                    <competency>Represent the number 15 using ten frames.</competency>	
-                    <competency>Represent the number 15 as an equation, 15 = 10 + 5.</competency>	
-                    <competency>Represent the number 16 as 10 ones and 6 ones.</competency>	
-                    <competency>Represent the number 16 using ten frames.</competency>	
-                    <competency>Represent the number 16 as an equation, 16 = 10 + 6.</competency>	
-                    <competency>Represent the number 17 as 10 ones and 7 ones.</competency>	
-                    <competency>Represent the number 17 using ten frames.</competency>	
-                    <competency>Represent the number 17 as an equation, 17 = 10 + 7.</competency>	
-                    <competency>Represent the number 18 as 10 ones and 8 ones.</competency>	
-                    <competency>Represent the number 18 using ten frames.</competency>	
-                    <competency>Represent the number 18 as an equation, 18 = 10 + 8.</competency>	
-                    <competency>Represent the number 19 as 10 ones and 9 ones.</competency>	
-                    <competency>Represent the number 19 using ten frames.</competency>	
-                    <competency>Represent the number 19 as an equation, 19 = 10 + 9.</competency>	
+                    <competency id="rn11" extends="null">Represent the number 11 as 10 ones and 1 one.</competency>	
+                    <competency id="rnf11" extends="null">Represent the number 11 using ten frames.</competency>	
+                    <competency id="rne11" extends="null">Represent the number 11 as an equation, 11 = 10 + 1.</competency>	
+                    <competency id="rn12" extends="rn11">Represent the number 12 as 10 ones and 2 ones.</competency>	
+                    <competency id="rnf12" extends="rnf11">Represent the number 12 using ten frames.</competency>	
+                    <competency id="rne12" extends="rne11">Represent the number 12 as an equation, 12 = 10 + 2.</competency>	
+                    <competency id="rn13" extends="rn12">Represent the number 13 as 10 ones and 3 ones.</competency>	
+                    <competency id="rnf13" extends="rnf12">Represent the number 13 using ten frames.</competency>	
+                    <competency id="rne13" extends="rne12">Represent the number 13 as an equation, 13 = 10 + 3.</competency>	
+                    <competency id="rn14" extends="rn13">Represent the number 14 as 10 ones and 4 ones.</competency>	
+                    <competency id="rnf14" extends="rnf13">Represent the number 14 using ten frames.</competency>	
+                    <competency id="rne14" extends="rne13">Represent the number 14 as an equation, 14 = 10 + 4.</competency>	
+                    <competency id="rn15" extends="rn14">Represent the number 15 as 10 ones and 5 ones.</competency>	
+                    <competency id="rnf15" extends="rnf14">Represent the number 15 using ten frames.</competency>	
+                    <competency id="rne15" extends="rne14">Represent the number 15 as an equation, 15 = 10 + 5.</competency>	
+                    <competency id="rn16" extends="rn15">Represent the number 16 as 10 ones and 6 ones.</competency>	
+                    <competency id="rnf16" extends="rnf15">Represent the number 16 using ten frames.</competency>	
+                    <competency id="rne16" extends="rne15">Represent the number 16 as an equation, 16 = 10 + 6.</competency>	
+                    <competency id="rn17" extends="rn16">Represent the number 17 as 10 ones and 7 ones.</competency>	
+                    <competency id="rnf17" extends="rnf16">Represent the number 17 using ten frames.</competency>	
+                    <competency id="rne17" extends="rne16">Represent the number 17 as an equation, 17 = 10 + 7.</competency>	
+                    <competency id="rn18" extends="rn17">Represent the number 18 as 10 ones and 8 ones.</competency>	
+                    <competency id="rnf18" extends="rnf17">Represent the number 18 using ten frames.</competency>	
+                    <competency id="rne18" extends="rne17">Represent the number 18 as an equation, 18 = 10 + 8.</competency>	
+                    <competency id="rn19" extends="rn18">Represent the number 19 as 10 ones and 9 ones.</competency>	
+                    <competency id="rnf19" extends="rnf18">Represent the number 19 using ten frames.</competency>	
+                    <competency id="rne19" extends="rne18">Represent the number 19 as an equation, 19 = 10 + 9.</competency>	
                 </group>
             </group>
         </group>
     </group>
-    <group lvl="1" type="domain">
+    <group lvl="1" type="domain" cc="MD">
         <Domain>Measurement and Data</Domain>
         <group lvl="2" type="subdomain">
             <subDomain>Describe and compare measureable attributes.</subDomain>
@@ -338,7 +338,7 @@
             </group>
         </group>
     </group>
-    <group lvl="1" type="domain">
+    <group lvl="1" type="domain" cc="G">
         <Domain>Geometry</Domain>
         <group lvl="2" type="subdomain">
             <subDomain>Identify and describe shapes.</subDomain>
