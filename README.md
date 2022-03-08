@@ -8,9 +8,60 @@ Experimentation on competency formal grammar syntax rules and generation of comp
 
 [Click Here to see the Full Interactive Competency Grammar Syntax Diagram](https://am0eba-byte.github.io/competency_generation/)
 
+**Table of Contents**
+- [Competency Generation XSLT - Process Documentation](#competency-generation-xslt---process-documentation)
+  - [General competency syntax for all scopes:](#general-competency-syntax-for-all-scopes)
+- [**1st Processing Stage**: Competency Sentence Generation and Construction (**Part 1. Non-Whole Numbers**)](#1st-processing-stage-competency-sentence-generation-and-construction-part-1-non-whole-numbers)
+  - [File Locations](#file-locations)
+    - [The Input](#the-input)
+      - [Math K-5 Competency Input (from Math team - no sentence generation required)](#math-k-5-competency-input-from-math-team---no-sentence-generation-required)
+    - [XSLT Generator - raw unformatted XML file with competencies for each scope EXCEPT whole numbers:](#xslt-generator---raw-unformatted-xml-file-with-competencies-for-each-scope-except-whole-numbers)
+  - [XML Output](#xml-output)
+    - [Fully Prepared XML Seed Data Output (K-5) (not wholenums):](#fully-prepared-xml-seed-data-output-k-5-not-wholenums)
+  - [About the XSLT Competency Generators](#about-the-xslt-competency-generators)
+  - [Global Component Params:](#global-component-params)
+- [Scope Filtering](#scope-filtering)
+  - [Global Scope Params:](#global-scope-params)
+  - [Scope Filtering - `xsl:key` Generator Implementations:](#scope-filtering---xslkey-generator-implementations)
+    - [How to use `xsl:key` and `xsl:param` to filter specific scope strings/handling instructions:](#how-to-use-xslkey-and-xslparam-to-filter-specific-scope-stringshandling-instructions)
+    - [Example of a Filtering Variable using an `xsl:key`:](#example-of-a-filtering-variable-using-an-xslkey)
+    - [How to filter a competency component by string AND scope - combining two `xsl:keys` with `INTERSECT`](#how-to-filter-a-competency-component-by-string-and-scope---combining-two-xslkeys-with-intersect)
+        - [Scopes where xsl:key intersection filtering occurs](#scopes-where-xslkey-intersection-filtering-occurs)
+    - [Example: Scope Key `INTERSECT` Notation Key](#example-scope-key-intersect-notation-key)
+    - [Sentence Construction Combination Type Legend:](#sentence-construction-combination-type-legend)
+      - [Formal Process Branch](#formal-process-branch)
+      - [Knowledge Process Branch](#knowledge-process-branch)
+- [Part 2. Whole Numbers Scope Competency Generation - Separate Workflow](#part-2-whole-numbers-scope-competency-generation---separate-workflow)
+    - [Whole Numbers Scope competency syntax:](#whole-numbers-scope-competency-syntax)
+    - [Whole Numbers Sub-Scope Set:](#whole-numbers-sub-scope-set)
+  - [File Locations](#file-locations-1)
+    - [The Input](#the-input-1)
+    - [Whole Numbers Sentence Combination Group Legend](#whole-numbers-sentence-combination-group-legend)
+      - [Formal Process Branch](#formal-process-branch-1)
+      - [Knowledge Process Branch](#knowledge-process-branch-1)
+    - [Global Whole Numbers Component Params:](#global-whole-numbers-component-params)
+  - [Wholenums `xsl:key` Filtering](#wholenums-xslkey-filtering)
+    - [Notation Object Filtering - Special Formal Process String Keys](#notation-object-filtering---special-formal-process-string-keys)
+      - [How to use Notation Object key to filter Formal Process strings:](#how-to-use-notation-object-key-to-filter-formal-process-strings)
+- [**2nd Processing Stage:** Seed Data JSON-Structure Conversion](#2nd-processing-stage-seed-data-json-structure-conversion)
+  - [File Locations](#file-locations-2)
+      - [The Input:](#the-input-2)
+      - [The JSON-Structure Converter XSLTs:](#the-json-structure-converter-xslts)
+      - [Formatted JSON-Strucured XML Output:](#formatted-json-strucured-xml-output)
+  - [About the JSON-Structure Converters](#about-the-json-structure-converters)
+    - [Structure Transformation Example](#structure-transformation-example)
+- [**Final Processing Stage:** XML-to-JSON Conversion](#final-processing-stage-xml-to-json-conversion)
+  - [File Locations](#file-locations-3)
+    - [The Input](#the-input-3)
+    - [The XML-JSON Converter XSLT](#the-xml-json-converter-xslt)
+    - [Final JSON Output](#final-json-output)
+- [Developer Notes](#developer-notes)
+    - [Considerations](#considerations)
+    - [Final Data Implementation](#final-data-implementation)
+      - [Scope competencies generated so far](#scope-competencies-generated-so-far)
+  - [Tools](#tools)
 
-
-# **1st Processing Stage**: Competency Sentence Generation and Construction (Part 1. Non-Whole Numbers)
+# **1st Processing Stage**: Competency Sentence Generation and Construction (**Part 1. Non-Whole Numbers**)
 
 ## File Locations
 
@@ -105,7 +156,7 @@ These are the `<xsl:params>` that capture the buckets competency component strin
    -  See more about `xsl:key intersect` implementations in the Scope Filtering section below.
     
 # Scope Filtering
-### Scope Key:
+**Scope Key:**
 ```
 <xsl:key name="scopes" match="string" use="@class ! tokenize(., '\s+')"/>
 ```
@@ -288,20 +339,16 @@ Whole Numbers has its own special XSLT generator that will apply different filte
 - within 120
 - within 1000
 
-## The Input
-
-### Competency sentence components input XML
-input file location (same as all other scopes): `competency_generation\competency_formal_grammar\XSLTgeneration\MERGEDcompetency_components.xml`
 
 
-## XSLT Generator
+## File Locations
 
-### File Locations
-#### Generates raw wholenum seed XML file
-location: `competency_generation\competency_formal_grammar\XSLTgeneration\transParentSSID-WHOLENUMS-compgenerator`
+### The Input
+- input file location (same as all other scopes): `competency_generation\competency_formal_grammar\XSLTgeneration\MERGEDcompetency_components.xml`
+- **XSLT Generates raw wholenum seed XML file location:**
+  - `competency_generation\competency_formal_grammar\XSLTgeneration\transParentSSID-WHOLENUMS-compgenerator.xsl`
 
-#### Wholenum Generator Output Location
-Whole Numbers seed output at:
+- **Wholenum Generator Output Location:**
 `competency_generation\competency_formal_grammar\XSLTgeneration\scope_output\K5scopes\wholenumTIDSSID\wholenumsNestedParentOutput.xml`
 
 
@@ -341,12 +388,14 @@ The groups of competencies are separated by whichever competency sentence compon
     
 ```
 
-#### Scope Key:
+## Wholenums `xsl:key` Filtering
+
+**Scope Key:**
 ```
  <xsl:key name="scopes" match="string" use="@class ! tokenize(., '\s+')"/>
  ```
 
-#### Scope Param:
+**Scope Param:**
 ```
 <xsl:param name="wholenum" as="xs:string" select="'wholenum'"/>
  ```
@@ -356,16 +405,16 @@ Since only two of the formalProcess strings will occur with a Notation Object st
 Whole Numbers Competency sentences, the Formal process string elements have attributes which
 define whether or not they go with a notation object, to be picked up by the following keys.
 
-formalProcess strings that DO have notation obejcts are tagged with a `` @subclass="notation" `` attribute
+- formalProcess strings that DO have notation obejcts are tagged with a `` @subclass="notation" `` attribute
 
-formalProcess strings that do NOT have notation objects are tagged with a `` @subclass="noNot" `` attribute
+- formalProcess strings that do NOT have notation objects are tagged with a `` @subclass="noNot" `` attribute
 
-#### Specific Formal Process + Notation String Key:
+**Specific Formal Process + Notation String Key:**
 ```
  <xsl:key name="notationKey" match="string" use="@subclass ! normalize-space()"/> 
  ```
 
-#### Subclass Notation Params:
+**Subclass Notation Params:**
 
 ``` 
     <xsl:param name="notation" as="xs:string" select="'notation'"/>
@@ -501,9 +550,9 @@ The JSON-Structure Converter XSLT takes this input:
 
 
 
+# Developer Notes
 
-
-## Considerations
+### Considerations
 
 - Whole Numbers scope specifications
 - Filtering specific strings' exclusions (components that would never occur together if "x" string exists)
@@ -517,20 +566,24 @@ The JSON-Structure Converter XSLT takes this input:
 - - example: from "Evaluate by adding to Adding Terms" (kp-sp-mathop) to "Evaluate Adding Terms by adding to" (kp-mathop-sp)
 
 
-## Final Data Implementation
+### Final Data Implementation
 
 
 
-### K-5 focus lens:
+
+
+#### Scope competencies generated so far
+
+**K-5 focus lens:**
 - whole numbers
 - numerical expressions
 - algebraic expressions
 - integers
 - rational numbers
-
-### scope competencies generated so far:
-
-- complex numbers + imaginary numbers
+  
+**others**
+- complex numbers
+- imaginary numbers
 - integers
 - rational numbers
 - algebraic expressions
@@ -541,7 +594,7 @@ The JSON-Structure Converter XSLT takes this input:
 - expected values
 - vectors
 
-### scopes still to do:
+**scopes still to do:**
 
 - matrices
 - infinite numbers
@@ -549,33 +602,10 @@ The JSON-Structure Converter XSLT takes this input:
 - probabilities
 
 
-
-
-
-
-
-
-
-## Tools:
+## Tools
 [BNFgen](https://baturin.org/tools/bnfgen/) 
 
 [Railroad Syntax Diagram Generator](https://bottlecaps.de/rr/ui#_CharCode)
 
 
-
-# Competency Generation options
-
-Schematron:
-specific scope competencies: excludes [insert list of things that this scope doesn't contain here]
-
-
-XSLT xsl:keys
-
-or
-
-Python 
-- lxml etree
-    - XMLPullParser   
-
-- XML Schema and [generate.DS](https://pypi.org/project/generateDS/) can be used to generate Python data structures from an XML schema and generates parsers that load an XML document into those data structures. We could use to define competency grammar, then load the competency_components.xml into. In addition, a separate file containing subclasses (stubs) is optionally generated. We could possibly use this to create scope filtering subclasses, and then we can add methods to the subclasses in order to process the contents of the XML document to generate output.
 
