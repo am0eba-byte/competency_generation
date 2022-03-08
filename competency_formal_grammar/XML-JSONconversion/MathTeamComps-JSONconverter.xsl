@@ -24,7 +24,7 @@
         <xsl:apply-templates select="//subgroup[@type='minorD']/parentCompColl[@lvl='3']/competency" mode="minD"/><!-- 3rd-LEVEL minor domain comps -->
         <xsl:apply-templates select="//children[@type='comps']/competency[child::ssID]" mode="compsSSID"/> <!-- lowest-lvl comps WITH SSIDS -->
         <xsl:apply-templates select="//children[@type='comps']/competency[child::Notes]" mode="compsNOTES"/> <!-- lowest-lvl comps WITH NOTES -->
-        <xsl:apply-templates select="//children[@type='comps']/competency" mode="comps"/><!-- LOWEST-LEVEL competencies (no Notes nor ssID) -->
+        <xsl:apply-templates select="//children[@type='comps']/competency[not(child::Notes) and not(child::ssID)]" mode="comps"/><!-- LOWEST-LEVEL competencies (no Notes nor ssID) -->
         ]
     </xsl:template>
     
@@ -168,7 +168,7 @@
     
     
     <!-- LOWEST-LEVEL COMPS (no ssID nor Notes) -->
-    <xsl:template match="competency" mode="comps">
+    <xsl:template match="competency[not(child::Notes) and not(child::ssID)]" mode="comps">
         <xsl:variable name="tIDcurrent" select="./tID/text()"/>
         <xsl:variable name="tIDparent" select="ancestor::subgroup[@type='minorD']/parentCompColl[@lvl = '3']/competency/tID/text()"/> <!-- grab minor domain parent's tID -->
         <xsl:variable name="tIDsubD" select="ancestor::subgroup[@type='subD']/parentCompColl[@lvl='2']/competency/tID/text()"/> <!-- grab subdomain ancestor's tID -->
@@ -196,8 +196,6 @@
             <xsl:otherwise>
                 {
                 "Token": "<xsl:apply-templates select="Token"/>",
-                "ssID": "<xsl:apply-templates select="ssID"/>",
-                "ssExtends": "<xsl:apply-templates select="ssExtends"/>",
                 "tID": "<xsl:apply-templates select="$tIDiter"/>",
                 "tFrom": "<xsl:apply-templates select="$tIDiterParent"/>",
                 "Creator": "<xsl:apply-templates select="Creator"/>",
