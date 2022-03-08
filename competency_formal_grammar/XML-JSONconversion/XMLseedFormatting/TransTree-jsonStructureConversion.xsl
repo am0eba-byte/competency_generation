@@ -10,15 +10,16 @@
 
     <xsl:output method="xml" indent="yes"/>
 
-<xsl:template match="/">
+    <!-- overarching hierarchy template - based on sentence combination types -->
+<xsl:template match="/"> 
     <scope>
         <group type="fp-pp">
             <xsl:choose>
                 <xsl:when test="//parent[@group='fp-pp']/notationParent">
-                    <xsl:apply-templates select="//parent[@group='fp-pp']" mode="subgroup"/> <!-- Notation Object -->
+                    <xsl:apply-templates select="//parent[@group='fp-pp']" mode="subgroup"/> <!-- Notation Object comps -->
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:apply-templates select="//parent[@group='fp-pp']" mode="nosub"/> <!-- No Notation Object -->
+                    <xsl:apply-templates select="//parent[@group='fp-pp']" mode="nosub"/> <!-- No Notation Object comps -->
                 </xsl:otherwise>
             </xsl:choose>
             
@@ -26,10 +27,10 @@
         <group type="fp-mathop"> 
             <xsl:choose>
                 <xsl:when test="//parent[@group='fp-mathop']/notationParent">
-                    <xsl:apply-templates select="//parent[@group='fp-mathop']" mode="subgroup"/> <!-- Notation Object -->
+                    <xsl:apply-templates select="//parent[@group='fp-mathop']" mode="subgroup"/> <!-- Notation Object comps -->
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:apply-templates select="//parent[@group='fp-mathop']" mode="nosub"/> <!-- No Notation Object -->
+                    <xsl:apply-templates select="//parent[@group='fp-mathop']" mode="nosub"/> <!-- No Notation Object comps -->
                 </xsl:otherwise>
             </xsl:choose>
           
@@ -44,18 +45,16 @@
     </scope>
 </xsl:template>
 
+
+<!-- fp-mathop-no and fp-pp-no comp group structures  -->
     <xsl:template match="parent[child::notationParent]" mode="subgroup">
       
         <parentCompColl lvl="1">
             <xsl:apply-templates select="parentGroup/componentSentence" mode="top"/> <!-- top-level parent comps -->
         </parentCompColl>
         <compColl>
-
             <xsl:apply-templates select="compGroup/componentSentence" mode="low"/> <!-- lower-level comps -->
-
         </compColl>
-<xsl:choose>        
-        <xsl:when test="child::notationParent">
          <subgroup type="no">
         <parentCompColl lvl="2">
             <xsl:apply-templates select="notationParent/parentGroup/componentSentence" mode="mid"/> <!-- 2nd level parent comps (parents with notation objects) -->
@@ -64,30 +63,24 @@
                 <xsl:apply-templates select="notationParent/compGroup/componentSentence" mode="low"/> <!-- lowest-level comps -->
             </compColl>
        </subgroup>
-        </xsl:when>
-    <xsl:otherwise>
-        
-    </xsl:otherwise>
-        </xsl:choose>
         
     </xsl:template>
     
     
-    
-    <xsl:template match="parent[not(child::notationParent)]" mode="nosub"> <!-- -->
+    <!-- all other comp group structures (no notation object = no 2nd level parent = no subgroup) -->
+    <xsl:template match="parent[not(child::notationParent)]" mode="nosub"> 
         <parentCompColl lvl="1">
             <xsl:apply-templates select="parentGroup/componentSentence" mode="top"/> <!-- top-level parent comps -->
         </parentCompColl>
         <compColl>
-            
             <xsl:apply-templates select="compGroup/componentSentence" mode="low"/> <!-- lower-level comps without notation objects -->
-            
         </compColl>
-        
-        
     </xsl:template>
     
     
+    <!-- COMPETENCY JSON-STRUCTURE CONVERSION TEMPLATES -->
+    
+    <!-- top-level parent comps -->
     <xsl:template match="componentSentence" mode="top">
         
         <competency>
@@ -105,9 +98,12 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </Token>
-            <tID>                                                        <!-- create the individual TID by counting from all preceding same-level comps -->
+            <!-- create the individual TID by counting from all preceding same-level comps -->
+            <tID> 
                 <xsl:apply-templates select="count(preceding::componentSentence[parent::parentGroup[@lvl = 1]])"/>  
-            </tID>                      <!-- the next XSLT script, the JSON converter, will string together values from matching parents to complete lower-level comp TIDs -->
+            </tID>                      
+            <!-- the next XSLT script, the JSON converter, will string together values from matching parents to complete lower-level comp TIDs -->
+            <!-- next stage of processing will also generate tFrom values -->
             <Creator>Big Ideas Learning</Creator>
             <Title>
                 <lang>en-us</lang>
@@ -128,9 +124,8 @@
     </xsl:template>
     
     
-    
+    <!-- 2nd-level parent comps -->
     <xsl:template match="componentSentence" mode="mid">
-        
         <competency>
             <Token>
                 <xsl:choose>
@@ -168,7 +163,7 @@
         
     </xsl:template>
     
-    
+    <!-- lower-level comps -->
     <xsl:template match="componentSentence" mode="low">
         <competency>
             <Token>
