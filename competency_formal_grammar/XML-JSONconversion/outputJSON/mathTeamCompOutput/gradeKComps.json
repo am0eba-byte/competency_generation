@@ -2848,8 +2848,8 @@
                         "Notes": [{
                             "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Sentence: __ and __ is __ in all.",
-                            "UserID": "BIL",
-                            "ID": "d1e337"
+                            "UserID": "BIL"
+                           
                         }]
                         },
      
@@ -2869,8 +2869,8 @@
                         "Notes": [{
                             "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Expression: __ + __",
-                            "UserID": "BIL",
-                            "ID": "d1e341"
+                            "UserID": "BIL"
+                           
                         }]
                         },
      
@@ -2890,8 +2890,8 @@
                         "Notes": [{
                             "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Equation: __ + __ = __ (also called an 'addition sentence')",
-                            "UserID": "BIL",
-                            "ID": "d1e346"
+                            "UserID": "BIL"
+                           
                         }]
                         },
      
@@ -2911,8 +2911,8 @@
                         "Notes": [{
                             "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Word problem = pictures in K",
-                            "UserID": "BIL",
-                            "ID": "d1e400"
+                            "UserID": "BIL"
+                           
                         }]
                         },
      
@@ -2932,8 +2932,8 @@
                         "Notes": [{
                             "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Sentence: __ take away __ is __ .",
-                            "UserID": "BIL",
-                            "ID": "d1e456"
+                            "UserID": "BIL"
+                           
                         }]
                         },
      
@@ -2953,8 +2953,8 @@
                         "Notes": [{
                             "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Expression: __ - __",
-                            "UserID": "BIL",
-                            "ID": "d1e460"
+                            "UserID": "BIL"
+                           
                         }]
                         },
      
@@ -2974,8 +2974,8 @@
                         "Notes": [{
                             "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Equation: __ - __ = __ (also called a 'subtraction sentence')",
-                            "UserID": "BIL",
-                            "ID": "d1e465"
+                            "UserID": "BIL"
+                           
                         }]
                         },
      
@@ -2995,8 +2995,8 @@
                         "Notes": [{
                             "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Word problem = pictures in K",
-                            "UserID": "BIL",
-                            "ID": "d1e477"
+                            "UserID": "BIL"
+                           
                         }]
                         },
     
