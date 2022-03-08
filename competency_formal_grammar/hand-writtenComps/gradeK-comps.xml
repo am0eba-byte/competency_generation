@@ -143,9 +143,9 @@
                     <competency>Represent addition with objects, fingers, drawings, sounds, or actions.</competency>	
                     <competency>Represent addition with a number bond.</competency>	
                     <competency>Represent addition with a ten frame.</competency>	
-                    <competency>Represent addition with a sentence.	<notes>Sentence: __ and __ is __ in all.</notes></competency>
-                    <competency>Represent addition with an expression.	<notes>Expression: __ + __</notes></competency>
-                    <competency>Represent addition with an equation.	<notes>"Equation: __ + __ = __ (also called an""addition sentence"")"</notes></competency>
+                    <competency>Represent addition with a sentence.<notes>Sentence: __ and __ is __ in all.</notes></competency>
+                    <competency>Represent addition with an expression.<notes>Expression: __ + __</notes></competency>
+                    <competency>Represent addition with an equation.<notes>Equation: __ + __ = __ (also called an 'addition sentence')</notes></competency>
                     <competency id="i5" extends="null">Identify the parts and the whole for a representation of numbers to 5.</competency>	
                     <competency id="i6" extends="i5">Identify the parts and the whole for a representation of the number 6.</competency>	
                     <competency id="i7" extends="i6">Identify the parts and the whole for a representation of the number 7.</competency>	
@@ -165,7 +165,7 @@
             <group lvl="3" type="minor">
                 <minorDomain>Solve addition word problems within 10.</minorDomain>
                 <group lvl="4" type="comp">
-                    <competency>Solve add to addition word problems.	<notes>Word problem = pictures in K</notes></competency>
+                    <competency>Solve add to addition word problems.<notes>Word problem = pictures in K</notes></competency>
                     <competency>Solve put together addition word problems.</competency>	
                     <competency>Identify the starting number and number being added in an add to addition word problem.</competency>	
                     <competency>Identify the numbers being added in a put together addition word problem.</competency>
@@ -193,16 +193,16 @@
                     <competency>Represent subtraction with objects, fingers, drawings, sounds, or actions.</competency>	
                     <competency>Represent subtraction with a number bond.</competency>	
                     <competency>Represent subtraction with a ten frame.</competency>	
-                    <competency>Represent subtraction with a sentence.	<notes>Sentence: __ take away __ is __ .</notes></competency>
-                    <competency>Represent subtraction with an expression.	<notes>Expression: __ - __</notes></competency>
-                    <competency>Represent subtraction with an equation.	<notes>"Equation: __ - __ = __ (also called a ""subtraction sentence"")"</notes></competency>
+                    <competency>Represent subtraction with a sentence.<notes>Sentence: __ take away __ is __ .</notes></competency>
+                    <competency>Represent subtraction with an expression.<notes>Expression: __ - __</notes></competency>
+                    <competency>Represent subtraction with an equation.<notes>Equation: __ - __ = __ (also called a 'subtraction sentence')</notes></competency>
                     
                 </group>
             </group>
             <group lvl="3" type="minor">
                 <minorDomain>Solve subtraction word problems within 10.</minorDomain>
                 <group lvl="4" type="comp">
-                    <competency>Solve take from subtraction word problems.	<notes>Word problem = pictures in K</notes></competency>
+                    <competency>Solve take from subtraction word problems.<notes>Word problem = pictures in K</notes></competency>
                     <competency>Solve take apart subtraction word problems.</competency>	
                     <competency>Identify the starting number and number being subtracted in a take from subtraction word problem.</competency>	
                     <competency>Identify the whole and the parts in a take apart subtraction word problem.</competency>

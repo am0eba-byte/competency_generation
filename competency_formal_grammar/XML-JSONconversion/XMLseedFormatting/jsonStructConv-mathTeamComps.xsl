@@ -31,44 +31,46 @@
     </xsl:template>
 
 
-    <!-- TOP-LEVEL -->
+    <!-- TOP-LEVEL grouping hierarchy -->
     <xsl:template match="group[@lvl = '1']" mode="LVL1">
+       
         <parentCompColl lvl="1">
             <xsl:apply-templates select="Domain" mode="dom"/>
         </parentCompColl>
-        <subgroup type="subD">
+        <children type="subD" lvl="2">
             <xsl:apply-templates select="group[@lvl = '2']" mode="LVL2"/>
-        </subgroup>
+        </children>
+        
     </xsl:template>
 
-    <!-- 2nd LEVEL SUBDOMAIN -->
+    <!-- 2nd LEVEL SUBDOMAIN grouping hierarchy -->
     <xsl:template match="group[@lvl = '2']" mode="LVL2">
-
+<subgroup type="subD">
         <parentCompColl lvl="2">
             <xsl:apply-templates select="subDomain" mode="subD"/>
         </parentCompColl>
-        <subgroup type="minorD">
+        <children type="minorD" lvl="3">
             <xsl:apply-templates select="group[@lvl = '3']" mode="LVL3"/>
-        </subgroup>
-
+        </children>
+</subgroup>
     </xsl:template>
 
-    <!-- 3rd LEVEL MINOR DOMAIN -->
+    <!-- 3rd LEVEL MINOR DOMAIN grouping hierarchy -->
     <xsl:template match="group[@lvl = '3']" mode="LVL3">
-
+<subgroup type="minorD">
         <parentCompColl lvl="3">
             <xsl:apply-templates select="minorDomain" mode="minD"/>
         </parentCompColl>
-        <subgroup type="comps">
+        <children type="comps" lvl="4">
             <!-- LOWEST-LEVEL COMPETENCIES -->
             <xsl:apply-templates select="group[@lvl = '4']" mode="comps"/>
-        </subgroup>
-
+        </children>
+</subgroup>
     </xsl:template>
 
 
 
-    <!-- 1st lvl Parent Comp -->
+    <!-- 1st lvl Parent DOMAIN Comps TEMPLATE -->
     <xsl:template match="Domain" mode="dom">
 
         <competency>
@@ -89,7 +91,7 @@
 
             </Token>
             <tID>
-                <xsl:apply-templates select="count(preceding::Domain)"/>
+                <xsl:value-of select="count(preceding::Domain)"/>
             </tID>
             <Creator>Big Ideas Learning</Creator>
             <Title>
@@ -111,7 +113,7 @@
     </xsl:template>
 
 
-    <!-- 2nd Level Subdomain Comps -->
+    <!-- 2nd Level Subdomain Comps TEMPLATE  -->
     <xsl:template match="subDomain" mode="subD">
 
         <competency>
@@ -131,7 +133,7 @@
                 </xsl:choose>
             </Token>
             <tID>
-                <xsl:apply-templates select="count(preceding::subDomain[ancestor::group[@lvl = 1]])"
+                <xsl:value-of select="count(preceding::subDomain[ancestor::group[@lvl = 1]])"
                 />
             </tID>
             <!-- the tFrom value will be generated in the next stage of XSLT processing by capturing the tID of the corresponding parent -->
@@ -155,6 +157,7 @@
     </xsl:template>
 
 
+    <!-- 3rd LEVEL MINOR DOMAIN COMPS TEMPLATE  -->
     <xsl:template match="minorDomain" mode="minD">
 
         <competency>
@@ -174,7 +177,7 @@
                 </xsl:choose>
             </Token>
             <tID>
-                <xsl:apply-templates
+                <xsl:value-of
                     select="count(preceding::minorDomain[ancestor::group[@lvl = 2]])"/>
             </tID>
             <!-- the tFrom value will be generated in the next stage of XSLT processing by capturing the tID of the corresponding parent -->
@@ -194,26 +197,11 @@
 
             </Definition>
         </competency>
-
-
     </xsl:template>
 
 
+    <!-- LOWEST-LEVEL COMPETENCIES TEMPLATE  -->
     <xsl:template match="group[@lvl = '4']" mode="comps">
-<!--
-        <xsl:variable name="ssid" select="@id"/>
-        <xsl:variable name="pos">
-
-            <xsl:value-of select="count(preceding::componentSentence[@id = current()/@id])"/>
-            <!-\- find the positiion of current comp by counting preceding comps whose @ids are the same (same sub-scope) -\->
-
-        </xsl:variable>
-        <xsl:variable name="ssIDiter" select="concat($ssid, '-', $pos)"/>
-        <!-\- progressive parent ID constructor -\->
-
-        <xsl:variable name="extID" select="@extends"/>
-        <xsl:variable name="extIDiter" select="concat($extID, '-', $pos)"/>
--->
 
         <xsl:for-each select="competency">
             <xsl:choose>
@@ -246,24 +234,23 @@
                                     </xsl:choose>
                                 </Token>
                                 <tID>
-                                    <xsl:apply-templates
-                                        select="count(preceding::competency[parent::group[@lvl = '3']])"
+                                    <xsl:value-of
+                                        select="count(preceding::competency[parent::group[@lvl = '4']])"
                                     />
                                 </tID>
+                                <!-- tFrom transitive parent ID will be placed here in next stage of XSLT processing -->
                                 <Creator>Big Ideas Learning</Creator>
                                 <Title>
                                     <lang>en-us</lang>
                                     <text>
                                         <xsl:apply-templates select="text()"/>
                                     </text>
-
                                 </Title>
                                 <Definition>
                                     <lang>en-us</lang>
                                     <text>
                                         <xsl:apply-templates select="text()"/>
                                     </text>
-
                                 </Definition>
                                 <Notes>
                                     <Timestamp>
@@ -274,7 +261,7 @@
                                     </text>
                                     <UserID/>
                                     <ID>
-                                        <xsl:value-of select="generate-id(current()/node())"/>
+                                        <xsl:value-of select="generate-id()"/>
                                     </ID>
                                 </Notes>
                             </competency>
@@ -306,24 +293,23 @@
                                     </xsl:choose>
                                 </Token>
                                 <tID>
-                                    <xsl:apply-templates
-                                        select="count(preceding::competency[parent::group[@lvl = '3']])"
+                                    <xsl:value-of
+                                        select="count(preceding::competency[parent::group[@lvl = '4']])"
                                     />
                                 </tID>
+                                <!-- tFrom transitive parent ID will be placed here in next stage of XSLT processing -->
                                 <Creator>Big Ideas Learning</Creator>
                                 <Title>
                                     <lang>en-us</lang>
                                     <text>
                                         <xsl:apply-templates select="text()"/>
                                     </text>
-
                                 </Title>
                                 <Definition>
                                     <lang>en-us</lang>
                                     <text>
                                         <xsl:apply-templates select="text()"/>
                                     </text>
-
                                 </Definition>
                             </competency>
                         </xsl:otherwise>
@@ -352,24 +338,23 @@
                                     </xsl:choose>
                                 </Token>
                                 <tID>
-                                    <xsl:apply-templates
-                                        select="count(preceding::competency[parent::group[@lvl = '3']])"
+                                    <xsl:value-of
+                                        select="count(preceding::competency[parent::group[@lvl = '4']])"
                                     />
                                 </tID>
+                                <!-- tFrom transitive parent ID will be placed here in next stage of XSLT processing -->
                                 <Creator>Big Ideas Learning</Creator>
                                 <Title>
                                     <lang>en-us</lang>
                                     <text>
                                         <xsl:apply-templates select="text()"/>
                                     </text>
-
                                 </Title>
                                 <Definition>
                                     <lang>en-us</lang>
                                     <text>
                                         <xsl:apply-templates select="text()"/>
                                     </text>
-
                                 </Definition>
                                 <Notes>
                                     <Timestamp>
@@ -380,7 +365,7 @@
                                     </text>
                                     <UserID/>
                                     <ID>
-                                        <xsl:value-of select="generate-id(current()/node())"/>
+                                        <xsl:value-of select="generate-id()"/>
                                     </ID>
                                 </Notes>
                             </competency>
@@ -406,24 +391,23 @@
                                     </xsl:choose>
                                 </Token>
                                 <tID>
-                                    <xsl:apply-templates
-                                        select="count(preceding::competency[parent::group[@lvl = '3']])"
+                                    <xsl:value-of
+                                        select="count(preceding::competency[parent::group[@lvl = '4']])"
                                     />
                                 </tID>
+                                <!-- tFrom transitive parent ID will be placed here in next stage of XSLT processing -->
                                 <Creator>Big Ideas Learning</Creator>
                                 <Title>
                                     <lang>en-us</lang>
                                     <text>
                                         <xsl:apply-templates select="text()"/>
                                     </text>
-
                                 </Title>
                                 <Definition>
                                     <lang>en-us</lang>
                                     <text>
                                         <xsl:apply-templates select="text()"/>
                                     </text>
-
                                 </Definition>
                             </competency>
                         </xsl:otherwise>
