@@ -2846,10 +2846,8 @@
                         "text": "Represent addition with a sentence."
                         }],
                         "Notes": [{
-                            "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Sentence: __ and __ is __ in all.",
                             "UserID": "BIL"
-                           
                         }]
                         },
      
@@ -2867,10 +2865,8 @@
                         "text": "Represent addition with an expression."
                         }],
                         "Notes": [{
-                            "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Expression: __ + __",
                             "UserID": "BIL"
-                           
                         }]
                         },
      
@@ -2888,10 +2884,8 @@
                         "text": "Represent addition with an equation."
                         }],
                         "Notes": [{
-                            "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Equation: __ + __ = __ (also called an 'addition sentence')",
                             "UserID": "BIL"
-                           
                         }]
                         },
      
@@ -2909,10 +2903,8 @@
                         "text": "Solve add to addition word problems."
                         }],
                         "Notes": [{
-                            "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Word problem = pictures in K",
                             "UserID": "BIL"
-                           
                         }]
                         },
      
@@ -2930,10 +2922,8 @@
                         "text": "Represent subtraction with a sentence."
                         }],
                         "Notes": [{
-                            "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Sentence: __ take away __ is __ .",
                             "UserID": "BIL"
-                           
                         }]
                         },
      
@@ -2951,10 +2941,8 @@
                         "text": "Represent subtraction with an expression."
                         }],
                         "Notes": [{
-                            "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Expression: __ - __",
                             "UserID": "BIL"
-                           
                         }]
                         },
      
@@ -2972,10 +2960,8 @@
                         "text": "Represent subtraction with an equation."
                         }],
                         "Notes": [{
-                            "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Equation: __ - __ = __ (also called a 'subtraction sentence')",
                             "UserID": "BIL"
-                           
                         }]
                         },
      
@@ -2993,10 +2979,8 @@
                         "text": "Solve take from subtraction word problems."
                         }],
                         "Notes": [{
-                            "Timestamp": "2022-03-08T09:20:31.592897-05:00",
                             "text": "Word problem = pictures in K",
                             "UserID": "BIL"
-                           
                         }]
                         },
     
@@ -3061,7 +3045,7 @@
                 },
             
                 {
-                "Token": "count-objects-using-a-one-to-one-correspondence-",
+                "Token": "count-objects-using-a-one-to-one-correspondence",
                 "tID": "0.1.3-54",
                 "tFrom": "0.1.3",
                 "Creator": "Big Ideas Learning",
@@ -4021,17 +4005,17 @@
                 },
             
                 {
-                "Token": "describe-features-of-a-sphere-(has-a-curved-surfac/no-flat-surfaces)",
+                "Token": "describe-features-of-a-sphere-(has-a-curved-surface/no-flat-surfaces)",
                 "tID": "4.9.28-186",
                 "tFrom": "4.9.28",
                 "Creator": "Big Ideas Learning",
                 "Title": [{
                 "lang": "en-us",
-                "text": "Describe features of a sphere (has a curved surfac/no flat surfaces)."
+                "text": "Describe features of a sphere (has a curved surface/no flat surfaces)."
                 }],
                 "Definition": [{
                 "lang": "en-us",
-                "text": "Describe features of a sphere (has a curved surfac/no flat surfaces)."
+                "text": "Describe features of a sphere (has a curved surface/no flat surfaces)."
                 }]
                 },
             

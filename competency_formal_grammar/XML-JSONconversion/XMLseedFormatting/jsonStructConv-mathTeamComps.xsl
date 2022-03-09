@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="3.0">
 
     <!-- handwritten comps input: gradeK-comps.xml -->
-    <!-- handwritten comps output: gradeK-formatted.xml -->
+    <!-- handwritten comps output: gradeKCompsFormatted.xml -->
 
     <!-- USE THIS XSLT TO CONVERT MATH TEAM'S HANDWRITTEN COMPS ONLY -->
 
@@ -79,13 +79,13 @@
                 <xsl:choose>
                     <xsl:when test="./text()[contains(., ',') or contains(., '.')]">
                         <xsl:apply-templates
-                            select=". ! string-join(tokenize(translate(lower-case(text()), '[.,]', ''), '\s+'), '-')"
+                            select=". ! string-join(tokenize(translate(lower-case(normalize-space(text())), '[.,]', ''), '\s+'), '-')"
                         />
                     </xsl:when>
                     <xsl:otherwise>
                         <!-- lower-case the text, tokenize it on whitespaces, then join the strings together with "-" -->
                         <xsl:apply-templates
-                            select=". ! string-join(tokenize(lower-case(text()), '\s+'), '-')"/>
+                            select=". ! string-join(tokenize(lower-case(normalize-space(text())), '\s+'), '-')"/>
                     </xsl:otherwise>
                 </xsl:choose>
 
@@ -122,13 +122,13 @@
                     <!-- prevent competencies with punctuation from malforming the token by removing them from text -->
                     <xsl:when test="./text()[contains(., ',') or contains(., '.')]">
                         <xsl:apply-templates
-                            select=". ! string-join(tokenize(translate(lower-case(text()), '[.,]', ''), '\s+'), '-')"
+                            select=". ! string-join(tokenize(translate(lower-case(normalize-space(text())), '[.,]', ''), '\s+'), '-')"
                         />
                     </xsl:when>
                     <xsl:otherwise>
                         <!-- lower-case the text, tokenize it on whitespaces, then join the strings together with "-" -->
                         <xsl:apply-templates
-                            select=". ! string-join(tokenize(lower-case(text()), '\s+'), '-')"/>
+                            select=". ! string-join(tokenize(lower-case(normalize-space(text())), '\s+'), '-')"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </Token>
@@ -166,13 +166,13 @@
                     <!-- prevent competencies with punctuation from malforming the token by removing them from text -->
                     <xsl:when test="./text()[contains(., ',') or contains(., '.')]">
                         <xsl:apply-templates
-                            select=". ! string-join(tokenize(translate(lower-case(text()), '[.,]', ''), '\s+'), '-')"
+                            select=". ! string-join(tokenize(translate(lower-case(normalize-space(text())), '[.,]', ''), '\s+'), '-')"
                         />
                     </xsl:when>
                     <xsl:otherwise>
                         <!-- lower-case the text, tokenize it on whitespaces, then join the strings together with "-" -->
                         <xsl:apply-templates
-                            select=". ! string-join(tokenize(lower-case(text()), '\s+'), '-')"/>
+                            select=". ! string-join(tokenize(lower-case(normalize-space(text())), '\s+'), '-')"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </Token>
@@ -222,13 +222,13 @@
                                         <xsl:when
                                             test="./text()[contains(., ',') or contains(., '.')]">
                                             <xsl:apply-templates
-                                                select=". ! string-join(tokenize(translate(lower-case(text()), '[.,]', ''), '\s+'), '-')"
+                                                select=". ! string-join(tokenize(translate(lower-case(normalize-space(text())), '[.,]', ''), '\s+'), '-')"
                                             />
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <!-- lower-case the text, tokenize it on whitespaces, then join the strings together with "-" -->
                                             <xsl:apply-templates
-                                                select=". ! string-join(tokenize(lower-case(text()), '\s+'), '-')"
+                                                select=". ! string-join(tokenize(lower-case(normalize-space(text())), '\s+'), '-')"
                                             />
                                         </xsl:otherwise>
                                     </xsl:choose>
@@ -253,16 +253,10 @@
                                     </text>
                                 </Definition>
                                 <Notes>
-                                    <Timestamp>
-                                        <xsl:value-of select="current-dateTime()"/>
-                                    </Timestamp>
                                     <text>
                                         <xsl:apply-templates select="./notes/text()"/>
                                     </text>
-                                    <UserID/>
-                                    <ID>
-                                        <xsl:value-of select="generate-id()"/>
-                                    </ID>
+                                    <UserID>BIL</UserID>
                                 </Notes>
                             </competency>
                         </xsl:when>
@@ -281,13 +275,13 @@
                                         <xsl:when
                                             test="./text()[contains(., ',') or contains(., '.')]">
                                             <xsl:apply-templates
-                                                select=". ! string-join(tokenize(translate(lower-case(text()), '[.,]', ''), '\s+'), '-')"
+                                                select=". ! string-join(tokenize(translate(lower-case(normalize-space(text())), '[.,]', ''), '\s+'), '-')"
                                             />
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <!-- lower-case the text, tokenize it on whitespaces, then join the strings together with "-" -->
                                             <xsl:apply-templates
-                                                select=". ! string-join(tokenize(lower-case(text()), '\s+'), '-')"
+                                                select=". ! string-join(tokenize(lower-case(normalize-space(text())), '\s+'), '-')"
                                             />
                                         </xsl:otherwise>
                                     </xsl:choose>
@@ -357,16 +351,10 @@
                                     </text>
                                 </Definition>
                                 <Notes>
-                                    <Timestamp>
-                                        <xsl:value-of select="current-dateTime()"/>
-                                    </Timestamp>
                                     <text>
                                         <xsl:apply-templates select="./notes/text()"/>
                                     </text>
-                                    <UserID/>
-                                    <ID>
-                                        <xsl:value-of select="generate-id()"/>
-                                    </ID>
+                                    <UserID>BIL</UserID>
                                 </Notes>
                             </competency>
                         </xsl:when>
@@ -379,13 +367,13 @@
                                         <xsl:when
                                             test="./text()[contains(., ',') or contains(., '.')]">
                                             <xsl:apply-templates
-                                                select=". ! string-join(tokenize(translate(lower-case(text()), '[.,]', ''), '\s+'), '-')"
+                                                select=". ! string-join(tokenize(translate(lower-case(normalize-space(text())), '[.,]', ''), '\s+'), '-')"
                                             />
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <!-- lower-case the text, tokenize it on whitespaces, then join the strings together with "-" -->
                                             <xsl:apply-templates
-                                                select=". ! string-join(tokenize(lower-case(text()), '\s+'), '-')"
+                                                select=". ! string-join(tokenize(lower-case(normalize-space(text())), '\s+'), '-')"
                                             />
                                         </xsl:otherwise>
                                     </xsl:choose>

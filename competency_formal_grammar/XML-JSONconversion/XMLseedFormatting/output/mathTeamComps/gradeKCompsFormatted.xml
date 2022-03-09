@@ -930,7 +930,7 @@
                         </Definition>
                      </competency>
                      <competency>
-                        <Token>count-objects-using-a-one-to-one-correspondence-</Token>
+                        <Token>count-objects-using-a-one-to-one-correspondence</Token>
                         <tID>54</tID>
                         <Creator>Big Ideas Learning</Creator>
                         <Title>
@@ -1429,10 +1429,8 @@
                            <text>Represent addition with a sentence.</text>
                         </Definition>
                         <Notes>
-                           <Timestamp>2022-03-08T09:20:31.592897-05:00</Timestamp>
                            <text>Sentence: __ and __ is __ in all.</text>
-                           <UserID/>
-                           <ID>d1e337</ID>
+                           <UserID>BIL</UserID>
                         </Notes>
                      </competency>
                      <competency>
@@ -1448,10 +1446,8 @@
                            <text>Represent addition with an expression.</text>
                         </Definition>
                         <Notes>
-                           <Timestamp>2022-03-08T09:20:31.592897-05:00</Timestamp>
                            <text>Expression: __ + __</text>
-                           <UserID/>
-                           <ID>d1e341</ID>
+                           <UserID>BIL</UserID>
                         </Notes>
                      </competency>
                      <competency>
@@ -1467,10 +1463,8 @@
                            <text>Represent addition with an equation.</text>
                         </Definition>
                         <Notes>
-                           <Timestamp>2022-03-08T09:20:31.592897-05:00</Timestamp>
                            <text>Equation: __ + __ = __ (also called an 'addition sentence')</text>
-                           <UserID/>
-                           <ID>d1e346</ID>
+                           <UserID>BIL</UserID>
                         </Notes>
                      </competency>
                      <competency>
@@ -1711,10 +1705,8 @@
                            <text>Solve add to addition word problems.</text>
                         </Definition>
                         <Notes>
-                           <Timestamp>2022-03-08T09:20:31.592897-05:00</Timestamp>
                            <text>Word problem = pictures in K</text>
-                           <UserID/>
-                           <ID>d1e400</ID>
+                           <UserID>BIL</UserID>
                         </Notes>
                      </competency>
                      <competency>
@@ -1964,10 +1956,8 @@
                            <text>Represent subtraction with a sentence.</text>
                         </Definition>
                         <Notes>
-                           <Timestamp>2022-03-08T09:20:31.592897-05:00</Timestamp>
                            <text>Sentence: __ take away __ is __ .</text>
-                           <UserID/>
-                           <ID>d1e456</ID>
+                           <UserID>BIL</UserID>
                         </Notes>
                      </competency>
                      <competency>
@@ -1983,10 +1973,8 @@
                            <text>Represent subtraction with an expression.</text>
                         </Definition>
                         <Notes>
-                           <Timestamp>2022-03-08T09:20:31.592897-05:00</Timestamp>
                            <text>Expression: __ - __</text>
-                           <UserID/>
-                           <ID>d1e460</ID>
+                           <UserID>BIL</UserID>
                         </Notes>
                      </competency>
                      <competency>
@@ -2002,10 +1990,8 @@
                            <text>Represent subtraction with an equation.</text>
                         </Definition>
                         <Notes>
-                           <Timestamp>2022-03-08T09:20:31.592897-05:00</Timestamp>
                            <text>Equation: __ - __ = __ (also called a 'subtraction sentence')</text>
-                           <UserID/>
-                           <ID>d1e465</ID>
+                           <UserID>BIL</UserID>
                         </Notes>
                      </competency>
                   </children>
@@ -2040,10 +2026,8 @@
                            <text>Solve take from subtraction word problems.</text>
                         </Definition>
                         <Notes>
-                           <Timestamp>2022-03-08T09:20:31.592897-05:00</Timestamp>
                            <text>Word problem = pictures in K</text>
-                           <UserID/>
-                           <ID>d1e477</ID>
+                           <UserID>BIL</UserID>
                         </Notes>
                      </competency>
                      <competency>
@@ -3519,16 +3503,16 @@
                         </Definition>
                      </competency>
                      <competency>
-                        <Token>describe-features-of-a-sphere-(has-a-curved-surfac/no-flat-surfaces)</Token>
+                        <Token>describe-features-of-a-sphere-(has-a-curved-surface/no-flat-surfaces)</Token>
                         <tID>186</tID>
                         <Creator>Big Ideas Learning</Creator>
                         <Title>
                            <lang>en-us</lang>
-                           <text>Describe features of a sphere (has a curved surfac/no flat surfaces).</text>
+                           <text>Describe features of a sphere (has a curved surface/no flat surfaces).</text>
                         </Title>
                         <Definition>
                            <lang>en-us</lang>
-                           <text>Describe features of a sphere (has a curved surfac/no flat surfaces).</text>
+                           <text>Describe features of a sphere (has a curved surface/no flat surfaces).</text>
                         </Definition>
                      </competency>
                      <competency>

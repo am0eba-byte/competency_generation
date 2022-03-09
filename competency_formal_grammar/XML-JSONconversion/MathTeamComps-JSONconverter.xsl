@@ -124,10 +124,8 @@
                         "text": "<xsl:apply-templates select="child::Definition/text => normalize-space()"/>"
                         }],
                         "Notes": [{
-                            "Timestamp": "<xsl:apply-templates select="child::Notes/Timestamp"/>",
                             "text": "<xsl:apply-templates select="child::Notes/text => normalize-space()"/>",
-                            "UserID": "BIL"
-                           <!-- "ID": "<xsl:apply-templates select="child::Notes/ID"/>"-->
+                            "UserID": "<xsl:apply-templates select="child::Notes/UserID"/>"
                         }]
                         },
     </xsl:template>
