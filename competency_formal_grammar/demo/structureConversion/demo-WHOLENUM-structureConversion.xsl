@@ -90,6 +90,7 @@
                             />
                         </xsl:when>
                         <xsl:otherwise>
+            <!-- lower-case the text, tokenize it on whitespaces, then join the strings together with "-" -->
                             <xsl:apply-templates
                                 select="string-join(descendant::*/tokenize(lower-case(text()), '\s+'), '-')"
                             />

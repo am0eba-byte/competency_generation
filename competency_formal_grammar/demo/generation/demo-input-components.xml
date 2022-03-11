@@ -4,8 +4,10 @@
     <compParts>
         <processGroup>
         
-                <!-- SUBCLASS attribute values should be filtered according to the component this string will go with,
-            the rest of the strings will not have the subclass attribute value-->
+                <!-- SUBCLASS attribute values in the formalProcess bucket will tell the xsl:key 'notation'
+                    which of these strings should be processed with a notationObject substring attached to
+                    the end of the sentence. 
+                        Those with the @subclass value of 'noNot' are processed without a notation object.-->
                 <formalProcess>
                     <string class="wholenum int rational algexp numexp complex imag plane expect real unit"
                         subclass="notation">Read</string>
@@ -26,7 +28,7 @@
                            >Apply</string>
                         <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
                            >Analyze</string>
-                        <knowledgeSubprocess> <!-- this bucket is pulled from only in whole numbers generation -->
+                        <knowledgeSubprocess> <!-- the knowledgeSubprocess bucket is only pulled from in whole numbers comp generation -->
                             <string class="wholenum">by Putting Together</string>
                             <string class="wholenum">by Taking Apart</string>
                         </knowledgeSubprocess>
@@ -116,7 +118,7 @@
         </notationObject>
 
 
- <!-- this bucket is pulled from only in whole numbers comp generation -->
+ <!-- the subScope bucket is pulled from only in whole numbers comp generation -->
         <!-- the @id and @extends values are used to create a variable for the 
                 ssID and ssExtends for progressive relationships, 
                  and the string itself is tacked onto the end of the sentence -->
