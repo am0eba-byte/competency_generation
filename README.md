@@ -57,6 +57,7 @@ Experimentation on competency formal grammar syntax rules and generation of comp
     - [The XML-JSON Converter XSLT](#the-xml-json-converter-xslt)
     - [Final JSON Output](#final-json-output)
   - [About the XML-JSON Converter XSLT](#about-the-xml-json-converter-xslt)
+    - [Example of JSON transformation](#example-of-json-transformation)
 - [Developer Notes](#developer-notes)
     - [Considerations](#considerations)
     - [Final Data Implementation](#final-data-implementation)
@@ -305,11 +306,14 @@ and applies a key-value `` xsl:param `` set to a string value of the scope or sp
 Say you want to output a set competency sentences in the Imaginary Numbers scope that contains
 a Knowledge Process (``knowledgeProcess`` strings in the input xml) and a Process Predicate(``processPred`` strings in input xml).
 
-Each of the strings in a component element is tagged with a `@class` that has attribute values corresponding to
-each of the scopes where that string may occur. To output ONLY the knowledgeProcess and processPred strings that 
+- Each of the strings in a component element is tagged with a `@class` that has attribute values corresponding to
+each of the scopes where that string may occur. 
+
+- To output ONLY the knowledgeProcess and processPred strings that 
 can occur in Imaginary Numbers, we need two variables that call on the key of `scopes` and match
 the `$imag` global param which selects the imaginary numbers attribute value. 
-For each string that has an `@class` attribute value of `imag`, we tell it to call on a sequence of those strings
+
+- For each string that has an `@class` attribute value of `imag`, we tell it to call on a sequence of those strings
 within a component whose node name is equal to a global component param:
 
 **Knowledge Process component variable:**
@@ -363,7 +367,7 @@ requires there to be a Formal Process in the sentence - but only TWO of the Form
 a notation object: "Read" and "Write". 
 
 In the input XML, those two string elements contain an `@subclass="notation"` attribute value alongside the `@class` attribute for scope filtering. 
-(See the "Notation Object Filtering" section below for more details how the notation `xsl:key` works.)
+(See the [Notation Object Filtering - Special Formal Process String Keys](#notation-object-filtering---special-formal-process-string-keys) section below for more details how the notation `xsl:key` works.)
 
 Say you want to generate competencies in the Integers scope that contain a Formal Process (keyed to notation), a Process
 Predicate, and a Notation Object.
@@ -385,21 +389,21 @@ you will need to use both the Scope Key and the Notation Key. All other componen
 param scope key:
 
 ```
-                <xsl:variable name="FPint" as="element()+">
-                    <xsl:for-each select="key('scopes', $int) intersect key('notationKey', $notation)">
-                        <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
-                    </xsl:for-each>
-                </xsl:variable>
-                <xsl:variable name="PrPredint" as="element()+">
-                    <xsl:for-each select="key('scopes', $int)">
-                        <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
-                    </xsl:for-each>
-                </xsl:variable>
-                <xsl:variable name="NO_int" as="element()+">
-                    <xsl:for-each select="key('scopes', $int)">
-                        <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
-                    </xsl:for-each>
-                </xsl:variable>
+<xsl:variable name="FPint" as="element()+">
+    <xsl:for-each select="key('scopes', $int) intersect key('notationKey', $notation)">
+         <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+     </xsl:for-each>
+</xsl:variable>
+<xsl:variable name="PrPredint" as="element()+">
+    <xsl:for-each select="key('scopes', $int)">
+        <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+   </xsl:for-each>
+</xsl:variable>
+<xsl:variable name="NO_int" as="element()+">
+    <xsl:for-each select="key('scopes', $int)">
+         <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+    </xsl:for-each>
+</xsl:variable>
 ```
 
 
@@ -652,7 +656,46 @@ The JSON-Structure Converter XSLT takes this input:
 
 ## About the XML-JSON Converter XSLT
 
+This is the final processing stage, which transforms the formatted XML output from the previous XSLT into JSON. 
 
+The XML-to-JSON converter also completes the production of transitive IDs
+and `tFrom` transitive parent IDs.
+
+### Example of JSON transformation
+
+ Turning this...
+```
+<competency>
+    <Token>read-numerical-expressions-involving-integers-in-proportional-notation</Token>
+    <tID>203</tID>
+    <Creator>Big Ideas Learning</Creator>
+    <Title>
+        <lang>en-us</lang>
+        <text>Read Numerical Expressions involving Integers in Proportional Notation</text>
+    </Title>
+    <Definition>
+        <lang>en-us</lang>
+        <text>Read Numerical Expressions involving Integers in Proportional Notation</text>
+    </Definition>
+</competency>
+```
+into this:
+```
+{
+     "Token": "read-numerical-expressions-involving-integers-in-proportional-notation",
+     "tID": "0.0-203",
+     "tFrom": "0.0",
+    "Creator": "Big Ideas Learning",
+     "Title": [{
+        "lang": "en-us",
+        "text": "Read Numerical Expressions involving Integers in Proportional Notation"
+     }],
+    "Definition": [{
+        "lang": "en-us",
+        "text": "Read Numerical Expressions involving Integers in Proportional Notation"
+     }]
+},
+```
 
 
 
@@ -714,4 +757,60 @@ The JSON-Structure Converter XSLT takes this input:
 [Railroad Syntax Diagram Generator](https://bottlecaps.de/rr/ui#_CharCode)
 
 
+
+**Table of Contents**
+- [Competency Generation XSLT - Process Documentation](#competency-generation-xslt---process-documentation)
+  - [General competency syntax for all scopes:](#general-competency-syntax-for-all-scopes)
+- [**1st Processing Stage**: Competency Sentence Generation and Construction (**Part 1. Non-Whole Numbers**)](#1st-processing-stage-competency-sentence-generation-and-construction-part-1-non-whole-numbers)
+  - [File Locations](#file-locations)
+    - [The Input](#the-input)
+      - [Math K-5 Competency Input (from Math team - no sentence generation required)](#math-k-5-competency-input-from-math-team---no-sentence-generation-required)
+    - [XSLT Generator - raw unformatted XML file with competencies for each scope EXCEPT whole numbers:](#xslt-generator---raw-unformatted-xml-file-with-competencies-for-each-scope-except-whole-numbers)
+  - [XML Output](#xml-output)
+    - [Fully Prepared XML Seed Data Output (K-5) (not wholenums):](#fully-prepared-xml-seed-data-output-k-5-not-wholenums)
+- [About the XSLT Competency Generators](#about-the-xslt-competency-generators)
+    - [Global Component Params:](#global-component-params)
+- [Generating Parent Competencies and Low-Level Competencies - Grouped Hierarchies](#generating-parent-competencies-and-low-level-competencies---grouped-hierarchies)
+  - [Scope Filtering](#scope-filtering)
+    - [Global Scope Params:](#global-scope-params)
+  - [`xsl:key` Generator Implementations:](#xslkey-generator-implementations)
+    - [How to use `xsl:key` and `xsl:param` to filter specific scope strings/handling instructions:](#how-to-use-xslkey-and-xslparam-to-filter-specific-scope-stringshandling-instructions)
+    - [Example of a Filtering Variable using an `xsl:key`:](#example-of-a-filtering-variable-using-an-xslkey)
+    - [How to filter a competency component by string AND scope - combining two `xsl:keys` with `INTERSECT`](#how-to-filter-a-competency-component-by-string-and-scope---combining-two-xslkeys-with-intersect)
+        - [Scopes where xsl:key intersection filtering occurs](#scopes-where-xslkey-intersection-filtering-occurs)
+    - [Example: Scope Key `INTERSECT` Notation Key](#example-scope-key-intersect-notation-key)
+    - [Sentence Construction Combination Type Legend:](#sentence-construction-combination-type-legend)
+      - [Formal Process Branch](#formal-process-branch)
+      - [Knowledge Process Branch](#knowledge-process-branch)
+- [Part 2. Whole Numbers Scope Competency Generation - Separate Workflow](#part-2-whole-numbers-scope-competency-generation---separate-workflow)
+    - [Whole Numbers Scope competency syntax:](#whole-numbers-scope-competency-syntax)
+    - [Whole Numbers Sub-Scope Set:](#whole-numbers-sub-scope-set)
+  - [File Locations](#file-locations-1)
+    - [The Input](#the-input-1)
+    - [Whole Numbers Sentence Combination Group Legend](#whole-numbers-sentence-combination-group-legend)
+      - [Formal Process Branch](#formal-process-branch-1)
+      - [Knowledge Process Branch](#knowledge-process-branch-1)
+    - [Global Whole Numbers Component Params:](#global-whole-numbers-component-params)
+  - [Wholenums `xsl:key` Filtering](#wholenums-xslkey-filtering)
+    - [Notation Object Filtering - Special Formal Process String Keys](#notation-object-filtering---special-formal-process-string-keys)
+      - [How to use Notation Object key to filter Formal Process strings:](#how-to-use-notation-object-key-to-filter-formal-process-strings)
+- [**2nd Processing Stage:** Seed Data JSON-Structure Conversion](#2nd-processing-stage-seed-data-json-structure-conversion)
+  - [File Locations](#file-locations-2)
+      - [The Input:](#the-input-2)
+      - [The JSON-Structure Converter XSLTs:](#the-json-structure-converter-xslts)
+      - [Formatted JSON-Strucured XML Output:](#formatted-json-strucured-xml-output)
+  - [About the JSON-Structure Converters](#about-the-json-structure-converters)
+    - [Structure Transformation Example](#structure-transformation-example)
+- [**Final Processing Stage:** XML-to-JSON Conversion](#final-processing-stage-xml-to-json-conversion)
+  - [File Locations](#file-locations-3)
+    - [The Input](#the-input-3)
+    - [The XML-JSON Converter XSLT](#the-xml-json-converter-xslt)
+    - [Final JSON Output](#final-json-output)
+  - [About the XML-JSON Converter XSLT](#about-the-xml-json-converter-xslt)
+    - [Example of JSON transformation](#example-of-json-transformation)
+- [Developer Notes](#developer-notes)
+    - [Considerations](#considerations)
+    - [Final Data Implementation](#final-data-implementation)
+      - [Scope competencies generated so far](#scope-competencies-generated-so-far)
+  - [Tools](#tools)
 
