@@ -18,11 +18,12 @@ Experimentation on competency formal grammar syntax rules and generation of comp
     - [XSLT Generator - raw unformatted XML file with competencies for each scope EXCEPT whole numbers:](#xslt-generator---raw-unformatted-xml-file-with-competencies-for-each-scope-except-whole-numbers)
   - [XML Output](#xml-output)
     - [Fully Prepared XML Seed Data Output (K-5) (not wholenums):](#fully-prepared-xml-seed-data-output-k-5-not-wholenums)
-  - [About the XSLT Competency Generators](#about-the-xslt-competency-generators)
-  - [Global Component Params:](#global-component-params)
-- [Scope Filtering](#scope-filtering)
-  - [Global Scope Params:](#global-scope-params)
-  - [Scope Filtering - `xsl:key` Generator Implementations:](#scope-filtering---xslkey-generator-implementations)
+- [About the XSLT Competency Generators](#about-the-xslt-competency-generators)
+    - [Global Component Params:](#global-component-params)
+- [Generating Parent Competencies and Low-Level Competencies - Grouped Hierarchies](#generating-parent-competencies-and-low-level-competencies---grouped-hierarchies)
+  - [Scope Filtering](#scope-filtering)
+    - [Global Scope Params:](#global-scope-params)
+  - [`xsl:key` Generator Implementations:](#xslkey-generator-implementations)
     - [How to use `xsl:key` and `xsl:param` to filter specific scope strings/handling instructions:](#how-to-use-xslkey-and-xslparam-to-filter-specific-scope-stringshandling-instructions)
     - [Example of a Filtering Variable using an `xsl:key`:](#example-of-a-filtering-variable-using-an-xslkey)
     - [How to filter a competency component by string AND scope - combining two `xsl:keys` with `INTERSECT`](#how-to-filter-a-competency-component-by-string-and-scope---combining-two-xslkeys-with-intersect)
@@ -55,6 +56,7 @@ Experimentation on competency formal grammar syntax rules and generation of comp
     - [The Input](#the-input-3)
     - [The XML-JSON Converter XSLT](#the-xml-json-converter-xslt)
     - [Final JSON Output](#final-json-output)
+  - [About the XML-JSON Converter XSLT](#about-the-xml-json-converter-xslt)
 - [Developer Notes](#developer-notes)
     - [Considerations](#considerations)
     - [Final Data Implementation](#final-data-implementation)
@@ -94,7 +96,7 @@ The XML output file for each scope competency is located within their respective
 `competency_generation\competency_formal_grammar\XSLTgeneration\scope_output\K5scopes\[scopeName]\[scopeName]NestedOutput-TP.xml`
 
 
-## About the XSLT Competency Generators
+# About the XSLT Competency Generators
 
 The XSLT generator scripts have two basic components:
  1) **The `sentenceWriter` Named Template Function handles the sentence construction**: 
@@ -129,7 +131,7 @@ The XSLT generator scripts have two basic components:
      - We use `<xsl:call-templates>` to invoke the named template function, and inside, we deliver
      what keyed variables we need to construct a sentence using `<xsl:with-param select="$keyedVariable">`. 
      
-## Global Component Params:
+### Global Component Params:
 
 These are the `<xsl:params>` that capture the buckets competency component strings, based on the name of the container element.
   
@@ -155,13 +157,111 @@ These are the `<xsl:params>` that capture the buckets competency component strin
    -  `notationObejct` can only occur in competency sentences where there is a `formalProcess` component "Read" or "Write".
    -  See more about `xsl:key intersect` implementations in the Scope Filtering section below.
     
-# Scope Filtering
+
+# Generating Parent Competencies and Low-Level Competencies - Grouped Hierarchies
+
+All subsequent stages of processing the seed data depend upon a specific hierarchy of nested competency group nodes in order to properly identify, capture, and transform a parent competency, a sub-parent competency, and low-level competencies.
+
+Here's an abridged overview of the XML data structure our competency generator XSLT should produce:
+
+**NOTE: Following example is from wholenumsNestedParentOutput.xml** - *no other scopes will have kp-mathop-sp
+knowledge subprocess 2nd-level parent nodes, but some will still contain the "fp" formal process notationParent sub-parent level nodes.*
+```
+<xml>
+    <parent group="fp-pp">
+        <parentGroup lvl="1>
+            <!-- collection of top-level parent competencies here  -->
+        </parentGroup>
+        <compGroup>
+            <!-- collection of 1st-level specific competencies here -->
+        </compGroup>
+        <notationParent group="fp-pp-no">
+            <parentGroup lvl="2">
+                <!-- collection of 2nd-level parent competencies here -->
+            </parentGroup>
+            <compGroup>
+                <!-- collection of lowest-level specific competencies here -->
+            </compGroup>
+        </notationParent>
+    </parent>
+    <parent group="kp-mathop">
+        <parentGroup lvl="1>
+            <!-- collection of top-level parent competencies here  -->
+        </parentGroup>
+        <compGroup>
+            <!-- collection of 1st-level specific competencies here -->
+        </compGroup>
+        <subParent group="kp-mathop-sp">
+            <parentGroup lvl="2">
+                <!-- collection of 2nd-level parent competencies here -->
+            </parentGroup>
+            <compGroup>
+                <!-- collection of lowest-level specific competencies here -->
+            </compGroup>
+        </notationParent>
+    </parent>
+</xml>
+```
+
+- To attain this hierarchical structure in our xsl:templates, we have to construct our `xsl:call-templates` within a structure that mirrors what our output needs to look like.
+
+**Example**:
+```
+<xsl:template match="/">
+    <xml>
+        <xsl:variable name="chunk1">
+            <!-- place for-each key scope filter selector and <xsl:sequence> selecting required chunk's global $param-->
+        </xsl:variable>
+        <xsl:variable name="chunk2">
+            <!-- ^^ -->
+        </xsl:variable>
+        <xsl:variable name="scopeString" select="'involving [Scope Name Here]'"/>
+        <xsl:variable name="subScopeString">
+            <!-- place an xsl:sequence retrieving each child node of the 'subScope' parent bucket to capture sub-scope strings -->
+        </xsl:variable>
+
+        <parent group="combo-id-here">
+            <parentGroup lvl="1">
+                <xsl:call-template name="parentWriter">
+                    <xsl:with-param name="param1" select="$chunk1"/>
+                    <xsl:with-param name="param2" select="$chunk2"/>
+                </xsl:call-template>
+            </parentGroup>
+            <compGroup>
+                <xsl:call-template name="sentenceWriter>
+                    <xsl:with-param name="param1" select="$chunk1"/>
+                    <xsl:with-param name="param2" select="$chunk2"/>
+                    <xsl:with-param name="scopeParam" select="$scopeString"/>
+                    <xsl:with-param name="subScopeParam" select="$subScopeString"/>
+                </xsl:call-template>
+            </compGroup>
+
+            <!-- variables for filtering notation object or knowledge subprocess word chunk buckets here using key(...) INTERSECT key(...) to filter on both scope key and the other desired filter key, for next level of parent/comp groups -->
+
+            <subParent group="combo-id-here">
+                <parentGroup lvl="2">
+                    <xsl:call-template name="parentWriter">
+                        <!-- xsl:with-params for parent comp chunks here -->
+                    </xsl:call-template>
+                </parentGroup>
+                <compGroup>
+                    <!-- xsl:call-template sentenceWriter with lowest-level comp chunks selected here -->
+                </compGroup>
+            </subParent>
+        </parent>
+
+    </xml>
+</xsl:template>
+```
+
+
+## Scope Filtering
 **Scope Key:**
 ```
 <xsl:key name="scopes" match="string" use="@class ! tokenize(., '\s+')"/>
 ```
 
-## Global Scope Params:
+### Global Scope Params:
 These params are used when the `scope` key is called upon in a competency component variable within a given scope's template rules.
 ``` 
 <!-- K-5 -->
@@ -194,7 +294,7 @@ These params are used when the `scope` key is called upon in a competency compon
 - The `wholenum` scope param is only applied in the separate Whole Numbers scope competency generation workflow, and is not used in the XSLT stylesheet that generates all other scopes. (see Whole Numbers Competency Generation Workflow section below for more details.    
 
 
-## Scope Filtering - `xsl:key` Generator Implementations:
+## `xsl:key` Generator Implementations:
 
 ### How to use `xsl:key` and `xsl:param` to filter specific scope strings/handling instructions:
 
@@ -509,7 +609,7 @@ The JSON-Structure Converter XSLT takes this input:
     <notationObject>in Proportional Notation</notationObject>
 </componentSentence>
 ```
-... and transforms it into this structure, adding transitive IDs:
+... and transforms it into this structure, implementing a portion current node's transitive ID by counting all of the preceding competecies from the same tree-level:
 ```
 <competency>
     <Token>read-numerical-expressions-involving-integers-in-proportional-notation</Token>
@@ -525,6 +625,8 @@ The JSON-Structure Converter XSLT takes this input:
     </Definition>
 </competency>
 ```
+- **NOTE:** The `tID` numbers generated in the Structure Converter will be used in the next stage of processing to create the complete `tID`s of 2nd, 3rd, and 4th-level competencies by concatenating the `tID`s of the current comp's parents onto the beginning of the existing `tID`. 
+
 
 # **Final Processing Stage:** XML-to-JSON Conversion
 
@@ -545,6 +647,10 @@ The JSON-Structure Converter XSLT takes this input:
 - **Fully Implemented tIDs/ssIDs and Ready for Final Node-Converter Implementation Output Folder:**
 `competency_generation\competency_formal_grammar\XML-JSONconversion\outputJSON\separatedScopeOutput\K5Output\tIDcompsK5`
 
+- **Math Team's Hand-written Comps Final Output:** 
+  `competency_generation\competency_formal_grammar\XML-JSONconversion\outputJSON\mathTeamCompOutput\gradeKComps.json`
+
+## About the XML-JSON Converter XSLT
 
 
 

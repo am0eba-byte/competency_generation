@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+    <compParts>
+        <processGroup>
+        
+                <!-- SUBCLASS attribute values should be filtered according to the component this string will go with,
+            the rest of the strings will not have the subclass attribute value-->
+                <formalProcess>
+                    <string class="wholenum int rational algexp numexp complex imag plane expect real unit"
+                        subclass="notation">Read</string>
+                    <string class="wholenum int rational real unit" subclass="noNot"
+                        >Recite</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                        subclass="notation">Write</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                        subclass="noNot">Represent</string>
+                
+                </formalProcess>
+                <!-- NO notations with knowledge process sentences -->
+                <knowledge>
+                    <knowledgeProcess>
+                        <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                           >Evaluate</string>
+                        <string class="wholenum int rational algexp numexp complex imag space expect real unit vector"
+                           >Apply</string>
+                        <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                           >Analyze</string>
+                        <knowledgeSubprocess> <!-- this bucket is pulled from only in whole numbers generation -->
+                            <string class="wholenum">by Putting Together</string>
+                            <string class="wholenum">by Taking Apart</string>
+                        </knowledgeSubprocess>
+                    </knowledgeProcess>
+                </knowledge>
+            
+        </processGroup>
+        
+        
+        
+        <!--BRANCHES HERE -->
+
+
+        <objBranch>
+            <!-- object option 1 -->
+            <processPred>
+                <string class="wholenum int rational complex imag real unit">Common Factors</string>
+                <string class="wholenum int rational complex imag real unit">Multiples</string>
+                <string class="wholenum int rational unit">Standard Units</string>
+                <string class="wholenum algexp numexp space plane">Areas</string>
+                <string class="wholenum algexp numexp space plane">Perimeters</string>
+                <string class="algexp numexp space plane unit">Surface Areas</string>
+                <string class="wholenum int rational algexp numexp complex imag space plane real unit vector"
+                    >Sums</string>
+                <string class="wholenum int rational algexp numexp complex imag space plane real unit vector"
+                    >Differences</string>
+                <string class="wholenum int rational algexp numexp complex imag real vector">Products</string>
+                <string class="wholenum int rational algexp numexp complex imag real vector">Quotients</string>
+                <string class="wholenum algexp numexp space plane unit vector">Length</string>
+                <string class="wholenum algexp numexp space plane unit vector">Width</string>
+                <string class="wholenum algexp numexp space plane unit vector">Depth or Height</string>
+            </processPred>
+
+            <!-- object option 2 -->
+            <!-- the specific object component bucket is not pulled from within any scope context
+                - it is generated as a separate specificObject comp seed data file -->
+            <specificObject>
+                <string>the Pythagorean Theorem</string>
+                <string>the Standard Algorithm for Addition</string>
+                <string>the Standard Algorithm for Subtraction</string>
+                <string>the Standard Algorithm for Multiplication</string>
+                <string>the Standard Algorithm for Division</string>
+                <string>the Distributive Property</string>
+                <string>the Commutative Property</string>
+                <string>the Associative Property</string>
+            </specificObject>
+
+            <!-- object option 3 (mathOperation + quant) -->
+            <mathOPobject>
+                <mathOperation>
+                    <string class="wholenum unit">Counting</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                        >Adding</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                        >Subtracting</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                        >Multiplying</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                        >Dividing</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real vector"
+                        >Exponentiating</string>
+                </mathOperation>
+
+                <quant>
+                    <string class="wholenum int rational algexp numexp complex imag space plane real unit"
+                        >Numbers</string>
+                    <string class="wholenum int rational algexp numexp complex imag expect real unit vector">Terms</string>
+                    <string class="wholenum int rational algexp complex imag real unit vector">Factors</string>
+                    <string class="int rational algexp complex imag space plane expect unit vector">Algebraic
+                        Expressions</string>
+                    <string class="int rational algexp complex imag space plane expect unit vector">Variables</string>
+                    <string class="int rational algexp numexp complex imag space plane expect real"
+                        >Functions</string>
+                    <string class="rational int numexp expect real">Arrays</string>
+                </quant>
+            </mathOPobject>
+
+        </objBranch>
+
+
+            <!-- next segment: optional notation string attachment -->
+        <notationObject>
+            <string class="wholenum rational real">in Fractional Notation</string>
+            <string class="wholenum rational real">in Decimal Notation</string>
+            <string class="wholenum rational int real">in Scientific Notation</string>
+            <string class="wholenum rational int">in Base Ten</string>
+        </notationObject>
+
+
+ <!-- this bucket is pulled from only in whole numbers comp generation -->
+        <!-- the @id and @extends values are used to create a variable for the 
+                ssID and ssExtends for progressive relationships, 
+                 and the string itself is tacked onto the end of the sentence -->
+        <subScope>
+            <string class="wholenum" id="0" extends="null">0</string>
+            <string class="wholenum" id="1" extends="null">1</string>
+            <string class="wholenum" id="2" extends="1">to 2</string>
+            <string class="wholenum" id="3" extends="2">to 3</string>
+            <string class="wholenum" id="4" extends="3">to 4</string>
+            <string class="wholenum" id="5" extends="4">to 5</string>
+            <string class="wholenum" id="10" extends="5">within 10</string>
+            <string class="wholenum" id="20" extends="10">within 20</string>
+            <string class="wholenum" id="100" extends="20">within 100</string>
+        </subScope>
+
+
+
+    </compParts>
+</xml>
