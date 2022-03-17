@@ -63,8 +63,8 @@
             </processPred>
 
             <!-- object option 2 -->
-            <!-- the specific object component bucket is not pulled from within any scope context
-                - it is generated as a separate specificObject comp seed data file -->
+            <!-- the specific object component bucket is not pulled from within any scope context (no scope xsl:key filtering)
+                        - it is generated as a separate specificObject comp seed data file -->
             <specificObject>
                 <string>the Pythagorean Theorem</string>
                 <string>the Standard Algorithm for Addition</string>
@@ -105,8 +105,8 @@
                     <string class="rational int numexp expect real">Arrays</string>
                 </quant>
             </mathOPobject>
-
         </objBranch>
+
 
 
             <!-- next segment: optional notation string attachment -->
@@ -116,6 +116,7 @@
             <string class="wholenum rational int real">in Scientific Notation</string>
             <string class="wholenum rational int">in Base Ten</string>
         </notationObject>
+
 
 
  <!-- the subScope bucket is pulled from only in whole numbers comp generation -->

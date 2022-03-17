@@ -43,7 +43,6 @@
           <xsl:param name="rational" as="xs:string" select="'rational'"/>
           <xsl:param name="algexp" as="xs:string" select="'algexp'"/>
           <xsl:param name="numexp" as="xs:string" select="'numexp'"/>
- 
      <!-- Other scopes -->
          <xsl:param name="complex" as="xs:string" select="'complex'"/>
           <xsl:param name="imag" as="xs:string" select="'imag'"/>
@@ -53,7 +52,6 @@
            <xsl:param name="real" as="xs:string" select="'real'"/>
          <xsl:param name="unit" as="xs:string" select="'unit'"/>
           <xsl:param name="vector" as="xs:string" select="'vector'"/>
-
      <!-- scopes not filtered yet -->
          <xsl:param name="matrix" as="xs:string" select="'matrix'"/>
          <xsl:param name="infinite" as="xs:string" select="'infinite'"/>
@@ -349,7 +347,7 @@
 
 
 
-    <!-- 1st and 2nd-level PARENT competency writer. 
+  <!-- 1st and 2nd-level PARENT COMP WRITER
         This template function does not process scope strings or subscope strings, 
             and therefore does not need the same kind of nested when/otherwise xsl:choose structure as low-level competencies.-->
     <xsl:template name="parentWriter" as="element()+">
@@ -433,13 +431,10 @@
 
 
     <!-- this template match on the entire document "/" is where the string components from the input XML are filtered through and 
-            captured, based on which scope is keyed, then sent up to the sentence writers as input params 
-                to be put together as a sentence.
-            
-            This template also formats the output document's structure hierarchy for the competencies based on groups of parent comps,
+             captured, based on which scope is keyed, then sent up to the sentence writers as input params 
+                    to be put together as a sentence. -->
+           <!-- This template also formats the output document's structure hierarchy for the competencies based on groups of parent comps,
             their immediate low-level children comps, 2nd-level parents, and their immediate lowest-level children.-->
-
-
     <xsl:template match="/">
         <xml>
 

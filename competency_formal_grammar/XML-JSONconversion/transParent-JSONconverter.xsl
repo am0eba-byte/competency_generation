@@ -82,7 +82,9 @@
         
         <xsl:variable name="tIDiter" select="concat($tIDparent, '-', $tIDcurrent)"/>
         
-       
+        <xsl:choose> <!--  or count(parent::*/following-sibling::*) > 0 or count(ancestor::group/following-sibling::group) > 0 -->
+            <xsl:when test="count(following-sibling::competency) > 0 or ancestor::group[@type='fp-mathop'] or ancestor::group[@type='fp-pp'] or count(following-sibling::competency[ancestor::group[@type='kp-mathop']]) > 0 or ancestor::group[@type='kp-pp']">
+                
                {
                 "Token": "<xsl:apply-templates select="Token"/>",
                 "tID": "<xsl:apply-templates select="$tIDiter"/>",
@@ -97,6 +99,24 @@
                 "text": "<xsl:apply-templates select="child::Definition/text => normalize-space()"/>"
                 }]
                 },
+            </xsl:when>
+            <xsl:otherwise>
+                {
+                "Token": "<xsl:apply-templates select="Token"/>",
+                "tID": "<xsl:apply-templates select="$tIDiter"/>",
+                "tFrom": "<xsl:apply-templates select="$tIDparent"/>",
+                "Creator": "<xsl:apply-templates select="Creator"/>",
+                "Title": [{
+                "lang": "<xsl:apply-templates select="child::Title/lang"/>",
+                "text": "<xsl:apply-templates select="child::Title/text => normalize-space()"/>"
+                }],
+                "Definition": [{
+                "lang": "<xsl:apply-templates select="child::Definition/lang"/>",
+                "text": "<xsl:apply-templates select="child::Definition/text => normalize-space()"/>"
+                }]
+                }
+            </xsl:otherwise>
+        </xsl:choose>
             
     </xsl:template>
     

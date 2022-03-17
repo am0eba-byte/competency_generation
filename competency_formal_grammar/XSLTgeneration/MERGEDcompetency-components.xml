@@ -10,8 +10,8 @@
             <string>Imaginary Numbers</string> = class="imag"
             <string>Complex Numbers</string> = class="complex"
             <string>Vectors</string> = class="vector"
-            <string>Matrices</string>
-            <string>Infinite Numbers</string>
+            <string>Matrices</string> = class="matrix"
+            <string>Infinite Numbers</string> = class="infinite"
             <string>Random Numbers</string>
             <string>Expected Values</string> = class="expect"
             <string>Probabilities</string>
@@ -49,31 +49,31 @@
                 <!-- SUBCLASS attribute values should be filtered according to the component this string will go with,
             the rest of the strings will not have the subclass attribute value-->
                 <formalProcess>
-                    <string class="wholenum int rational algexp numexp complex imag plane expect real unit"
+                    <string class="wholenum int rational algexp numexp complex imag plane expect real unit matrix infinite"
                         subclass="notation" specObj="true">Read</string>
                     <string class="wholenum int rational real unit" subclass="noNot" specObj="true"
                         >Recite</string>
-                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector matrix infinite"
                         subclass="notation" specObj="true">Write</string>
-                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector matrix infinite"
                         subclass="noNot" specObj="true">Represent</string>
                     <string class="wholenum space plane unit vector" subclass="noNot" specObj="true">Represent,
                         with images,</string>
                     <string class="wholenum" subclass="noNot" specObj="true">Represent, with
                         sounds,</string>
-                    <string class="wholenum int rational algexp numexp complex imag space plane real unit vector"
+                    <string class="wholenum int rational algexp numexp complex imag space plane real unit vector matrix infinite"
                         subclass="noNot" specObj="true">Represent, with activities,</string>
                     <string class="wholenum" subclass="noNot" specObj="true">Represent, with
                         specimens,</string>
                     <string class="wholenum" subclass="noNot" specObj="true">Represent, with body
                         parts,</string>
-                    <string class="wholenum int rational complex imag unit" subclass="noNot"
+                    <string class="wholenum int rational complex imag unit infinite" subclass="noNot"
                         specObj="true">Represent, with words,</string>
-                    <string class="wholenum algexp numexp unit vector" subclass="noNot" specObj="true"
+                    <string class="wholenum algexp numexp unit vector matrix infinite" subclass="noNot" specObj="true"
                         >Represent, with symbols,</string>
                     <string class="wholenum space plane unit" subclass="noNot" specObj="true">Represent,
                         with drawings,</string>
-                    <string class="wholenum algexp numexp space plane expect vector" subclass="noNot"
+                    <string class="wholenum algexp numexp space plane expect vector matrix" subclass="noNot"
                         specObj="true">Represent, with graphs,</string>
                     <string class="wholenum int rational expect real" subclass="noNot" specObj="true">Randomly
                         sample</string>
@@ -81,17 +81,17 @@
                 <!-- NO notations with knowledge process sentences -->
                 <knowledge>
                     <knowledgeProcess>
-                        <string class="wholenum int rational complex imag space real unit" specObj="true"
+                        <string class="wholenum int rational complex imag space real unit infinite" specObj="true"
                             mathop="true">Remember</string>
-                        <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                        <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector matrix infinite"
                             specObj="true" mathop="true">Evaluate</string>
-                        <string class="wholenum int rational complex imag space plane real unit"
+                        <string class="wholenum int rational complex imag space plane real unit infinite"
                             specObj="true">Create</string>
-                        <string class="wholenum int rational algexp numexp complex imag space expect real unit"
+                        <string class="wholenum int rational algexp numexp complex imag space expect real unit matrix infinite"
                             specObj="true" mathop="true">Understand</string>
-                        <string class="wholenum int rational algexp numexp complex imag space expect real unit vector"
+                        <string class="wholenum int rational algexp numexp complex imag space expect real unit vector matrix infinite"
                             specObj="true" mathop="true">Apply</string>
-                        <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                        <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector matrix infinite"
                             specObj="true" mathop="true">Analyze</string>
                         <knowledgeSubprocess>
                             <string class="wholenum">by Putting Together</string>
@@ -114,71 +114,71 @@
         <processBranch>
             <processPred>
                 <string class="algexp numexp space unit">Volumes</string>
-                <string class="wholenum int rational numexp complex imag plane real unit">Numerical
+                <string class="wholenum int rational numexp complex imag plane real unit matrix infinite">Numerical
                     Expressions</string>
-                <string class="wholenum int rational numexp complex imag plane real unit">Numerical
+                <string class="wholenum int rational numexp complex imag plane real unit matrix infinite">Numerical
                     Equations</string>
                 <string class="wholenum int rational complex imag space real unit vector">Properties of
                     Objects</string>
-                <string class="wholenum algexp numexp complex imag expect real vector">Properties of
+                <string class="wholenum algexp numexp complex imag expect real vector matrix">Properties of
                     Operations</string>
-                <string class="wholenum int rational algexp numexp space expect real">Patterns</string>
+                <string class="wholenum int rational algexp numexp space expect real matrix">Patterns</string>
                 <string class="wholenum int rational complex imag real unit">Common Factors</string>
-                <string class="wholenum int rational complex imag real unit">Multiples</string>
-                <string class="wholenum int rational complex imag real">Common Multiples</string>
-                <string class="wholenum rational int real">Place Values</string>
+                <string class="wholenum int rational complex imag real unit matrix">Multiples</string>
+                <string class="wholenum int rational complex imag real matrix">Common Multiples</string>
+                <string class="wholenum rational int real infinite">Place Values</string>
                 <string class="wholenum space expect unit">Attributes</string>
                 <string class="wholenum int rational unit">Standard Units</string>
                 <string class="wholenum int rational unit">SI Units</string>
                 <string class="wholenum algexp numexp space plane">Areas</string>
-                <string class="wholenum algexp numexp space plane">Perimeters</string>
-                <string class="wholenum int rational algexp numexp space plane expect real">Data</string>
-                <string class="space plane expect unit vector">Shapes</string>
+                <string class="wholenum algexp numexp space plane matrix">Perimeters</string>
+                <string class="wholenum int rational algexp numexp space plane expect real matrix infinite">Data</string>
+                <string class="space plane expect unit vector matrix">Shapes</string>
                 <string class="algexp numexp space plane unit">Surface Areas</string>
                 <string class="wholenum rational int algexp numexp space plane expect unit vector">Realia</string>
-                <string class="wholenum rational int algexp numexp space plane expect unit vector">Models</string>
-                <string class="complex imag space plane vector">Congruence</string>
-                <string class="complex imag space plane vector">Similarity</string>
-                <string class="wholenum int rational expect">Ratios</string>
-                <string class="rational int algexp expect unit">Proportions</string>
-                <string class="wholenum int rational numexp complex imag expect real unit vector">Numerical
+                <string class="wholenum rational int algexp numexp space plane expect unit vector matrix infinite">Models</string>
+                <string class="complex imag space plane vector matrix">Congruence</string>
+                <string class="complex imag space plane vector matrix">Similarity</string>
+                <string class="wholenum int rational expect matrix">Ratios</string>
+                <string class="rational int algexp expect unit matrix">Proportions</string>
+                <string class="wholenum int rational numexp complex imag expect real unit vector infinite">Numerical
                     Inequalities</string>
-                <string class="int rational algexp complex imag space expect vector">Algebraic Equations</string>
-                <string class="int rational algexp complex imag expect unit vector">Algebraic Inequalities</string>
-                <string class="wholenum int rational algexp numexp space plane real unit vector">Lines</string>
-                <string class="int rational algexp numexp space plane real unit">Linear Equations</string>
-                <string class="int rational algexp complex imag expect">Simultaneous Equations</string>
-                <string class="algexp numexp complex imag expect">Statistical Variability</string>
+                <string class="int rational algexp complex imag space expect vector matrix infinite">Algebraic Equations</string>
+                <string class="int rational algexp complex imag expect unit vector infinite">Algebraic Inequalities</string>
+                <string class="wholenum int rational algexp numexp space plane real unit vector infinite">Lines</string>
+                <string class="int rational algexp numexp space plane real unit matrix infinite">Linear Equations</string>
+                <string class="int rational algexp complex imag expect matrix">Simultaneous Equations</string>
+                <string class="algexp numexp complex imag expect infinite">Statistical Variability</string>
                 <string class="algexp numexp complex imag expect unit">Distributions</string>
-                <string class="algexp numexp unit">Populations</string>
-                <string class="algexp numexp complex imag expect">Probability Models</string>
+                <string class="algexp numexp unit matrix">Populations</string>
+                <string class="algexp numexp complex imag expect infinite">Probability Models</string>
                 <string class="algexp complex imag expect">Bivariate Data</string>
-                <string class="space expect real rational int unit">Sets</string>
-                <string class="complex imag space expect real">Elements</string>
-                <string class="algexp complex imag space expect unit">Experiments</string>
-                <string class="wholenum complex imag space plane expect real unit">Observations</string>
-                <string class="algexp complex imag space plane expect real vector">Dependent Variables</string>
-                <string class="algexp complex imag space plane expect real vector">Independent Variables</string>
-                <string class="wholenum int rational algexp numexp complex imag space plane real unit vector"
+                <string class="space expect real rational int unit matrix">Sets</string>
+                <string class="complex imag space expect real matrix">Elements</string>
+                <string class="algexp complex imag space expect unit infinite">Experiments</string>
+                <string class="wholenum complex imag space plane expect real unit infinite">Observations</string>
+                <string class="algexp complex imag space plane expect real vector infinite">Dependent Variables</string>
+                <string class="algexp complex imag space plane expect real vector infinite">Independent Variables</string>
+                <string class="wholenum int rational algexp numexp complex imag space plane real unit vector matrix infinite"
                     >Sums</string>
-                <string class="wholenum int rational algexp numexp complex imag space plane real unit vector"
+                <string class="wholenum int rational algexp numexp complex imag space plane real unit vector matrix infinite"
                     >Differences</string>
-                <string class="wholenum int rational algexp numexp complex imag real vector">Products</string>
-                <string class="wholenum int rational algexp numexp complex imag real vector">Quotients</string>
-                <string class="wholenum int rational algexp numexp complex imag real unit vector">Remainders</string>
-                <string class="wholenum algexp numexp space plane expect unit">Groups</string>
-                <string class="wholenum algexp numexp space plane unit vector">Length</string>
-                <string class="wholenum algexp numexp space plane unit vector">Width</string>
-                <string class="wholenum algexp numexp space plane unit vector">Depth or Height</string>
-                <string class="wholenum space plane">Qualitative Attributes</string>
-                <string class="space plane vector">Plane Figures</string>
-                <string class="space plane vector">Objects in Space</string>
+                <string class="wholenum int rational algexp numexp complex imag real vector matrix infinite">Products</string>
+                <string class="wholenum int rational algexp numexp complex imag real vector matrix infinite">Quotients</string>
+                <string class="wholenum int rational algexp numexp complex imag real unit vector matrix infinite">Remainders</string>
+                <string class="wholenum algexp numexp space plane expect unit matrix">Groups</string>
+                <string class="wholenum algexp numexp space plane unit vector matrix">Length</string>
+                <string class="wholenum algexp numexp space plane unit vector matrix">Width</string>
+                <string class="wholenum algexp numexp space plane unit vector matrix">Depth or Height</string>
+                <string class="wholenum space plane infinite">Qualitative Attributes</string>
+                <string class="space plane vector matrix">Plane Figures</string>
+                <string class="space plane vector matrix">Objects in Space</string>
                 <string class="int rational algexp complex imag expect real unit">Samples</string>
                 <string class="int rational algexp expect">Random Samples</string>
                 <string class="space">Prisms and Cylinders</string>
                 <string class="space">Spheres</string>
                 <string class="space">Cones</string>
-                <string class="wholenum space plane expect unit real">Quantitative Stories</string>
+                <string class="wholenum space plane expect unit real infinite">Quantitative Stories</string>
             </processPred>
 
 
@@ -203,40 +203,40 @@
                 <mathOperation>
                     <string class="wholenum complex imag real unit">Naming</string>
                     <string class="wholenum unit">Counting</string>
-                    <string class="int rational complex imag real unit">Sequencing</string>
-                    <string class="wholenum int rational complex imag real unit">Ordering</string>
-                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                    <string class="int rational complex imag real unit infinite">Sequencing</string>
+                    <string class="wholenum int rational complex imag real unit infinite">Ordering</string>
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector matrix infinite"
                         >Adding</string>
-                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector matrix infinite"
                         >Subtracting</string>
-                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector matrix infinite"
                         >Multiplying</string>
-                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector"
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real unit vector matrix infinite"
                         >Dividing</string>
-                    <string class="wholenum int rational algexp numexp complex imag expect real unit vector"
+                    <string class="wholenum int rational algexp numexp complex imag expect real unit vector matrix infinite"
                         >Negating</string>
-                    <string class="wholenum int rational algexp numexp complex imag space plane expect real vector"
+                    <string class="wholenum int rational algexp numexp complex imag space plane expect real vector matrix infinite"
                         >Exponentiating</string>
-                    <string class="wholenum int rational algexp numexp complex imag expect real unit"
+                    <string class="wholenum int rational algexp numexp complex imag expect real unit matrix"
                         >Grouping</string>
                     <!-- Operations -->
                     <!--<string>Order Operations</string>-->
                 </mathOperation>
 
                 <quant>
-                    <string class="wholenum int rational algexp numexp complex imag space plane real unit"
+                    <string class="wholenum int rational algexp numexp complex imag space plane real unit matrix infinite"
                         >Numbers</string>
-                    <string class="wholenum int rational algexp numexp complex imag expect real unit vector">Terms</string>
-                    <string class="wholenum int rational algexp complex imag real unit vector">Factors</string>
-                    <string class="algexp numexp space plane vector">Angles</string>
+                    <string class="wholenum int rational algexp numexp complex imag expect real unit vector matrix infinite">Terms</string>
+                    <string class="wholenum int rational algexp complex imag real unit vector matrix infinite">Factors</string>
+                    <string class="algexp numexp space plane vector matrix">Angles</string>
 
-                    <string class="int rational algexp complex imag space plane expect unit vector">Algebraic
+                    <string class="int rational algexp complex imag space plane expect unit vector matrix infinite">Algebraic
                         Expressions</string>
-                    <string class="int rational algexp complex imag space plane expect unit vector">Variables</string>
-                    <string class="int rational algexp numexp complex imag space plane expect real"
+                    <string class="int rational algexp complex imag space plane expect unit vector matrix infinite">Variables</string>
+                    <string class="int rational algexp numexp complex imag space plane expect real matrix infinite"
                         >Functions</string>
-                    <string class="algexp numexp expect">Chance Processes</string>
-                    <string class="rational int numexp expect real">Arrays</string>
+                    <string class="algexp numexp expect infinite">Chance Processes</string>
+                    <string class="rational int numexp expect real matrix">Arrays</string>
                 </quant>
             </mathOPobject>
 
@@ -248,15 +248,15 @@
 
         <notationObject>
             <string class="wholenum rational real">in Fractional Notation</string>
-            <string class="wholenum rational real">in Decimal Notation</string>
+            <string class="wholenum rational real infinite">in Decimal Notation</string>
             <string class="wholenum rational int real">in Proportional Notation</string>
             <string class="wholenum">in Addition Notation</string>
             <string class="wholenum">in Subtraction Notation</string>
             <string class="wholenum">in Multiplication Notation</string>
             <string class="wholenum">in Division Notation</string>
-            <string class="wholenum rational int real">in Radical Notation</string>
-            <string class="wholenum rational int real">in Exponential Notation</string>
-            <string class="wholenum rational int real">in Scientific Notation</string>
+            <string class="wholenum rational int real infinite">in Radical Notation</string>
+            <string class="wholenum rational int real infinite">in Exponential Notation</string>
+            <string class="wholenum rational int real infinite">in Scientific Notation</string>
             <string class="wholenum rational int">in Base Ten</string>
         </notationObject>
 

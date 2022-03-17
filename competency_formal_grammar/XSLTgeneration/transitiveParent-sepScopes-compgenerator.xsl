@@ -51,10 +51,9 @@
     <xsl:param name="unit" as="xs:string" select="'unit'"/>
     <xsl:param name="vector" as="xs:string" select="'vector'"/>
     <!-- scopes in progress -->
-
-    <!-- scopes not filtered yet -->
     <xsl:param name="matrix" as="xs:string" select="'matrix'"/>
     <xsl:param name="infinite" as="xs:string" select="'infinite'"/>
+    <!-- scopes not filtered yet -->
     <xsl:param name="random" as="xs:string" select="'random'"/>
     <xsl:param name="prob" as="xs:string" select="'prob'"/>
 
@@ -2584,6 +2583,424 @@
             </xml>
         </xsl:result-document>
 
+
+
+        <xsl:result-document method="xml" indent="yes" href="matrices/matricesNestedOutput-TP.xml">
+            <xml>
+                <xsl:comment>**************************************************************</xsl:comment>
+                <xsl:comment>**************** MATRICES SCOPE **************************</xsl:comment>
+                <xsl:comment>***************************************************************</xsl:comment>
+                
+                <scopeGroup id="matrix">
+                    <xsl:comment>####################################</xsl:comment>
+                    <xsl:comment>MATRICES: Formal Process + Process Predicate</xsl:comment>
+                    <xsl:comment>####################################</xsl:comment>
+                    
+                    <xsl:variable name="FP_matrix" as="element()+">
+                        
+                        <xsl:for-each select="key('scopes', $matrix)">
+                            <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="PrPred_matrix" as="element()+">
+                        <xsl:for-each select="key('scopes', $matrix)">
+                            <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="matrixScopeString" select="'Matrices'"/>
+                    <parent group="fp-pp">
+                        <parentGroup match="fp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_matrix"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_matrix"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_matrix"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_matrix"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$matrixScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                        
+                    </parent>
+                    
+                    <xsl:comment>####################################</xsl:comment>
+                    <xsl:comment>MATRICES: Formal Process + Math Operation + Quant Object</xsl:comment>
+                    <xsl:comment>####################################</xsl:comment>
+                    
+                    <xsl:variable name="FP_matrix" as="element()+">
+                        <xsl:for-each select="key('scopes', $matrix)">
+                            <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="MathOP_matrix" as="element()+">
+                        <xsl:for-each select="key('scopes', $matrix)">
+                            <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="QO_matrix" as="element()+">
+                        <xsl:for-each select="key('scopes', $matrix)">
+                            <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="matrixScopeString" select="'Matrices'"/>
+                    <parent group="fp-mathop">
+                        <parentGroup match="fp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_matrix"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_matrix"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_matrix"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FP_matrix"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_matrix"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_matrix"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$matrixScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
+                    
+                    <xsl:comment>####################################</xsl:comment>
+                    <xsl:comment>MATRICES: Knowledge Process + Process Pred</xsl:comment>
+                    <xsl:comment>####################################</xsl:comment>
+                    
+                    <xsl:variable name="KP_matrix" as="element()+">
+                        <xsl:for-each select="key('scopes', $matrix)">
+                            <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="PrPred_matrix" as="element()+">
+                        <xsl:for-each select="key('scopes', $matrix)">
+                            <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="matrixScopeString" select="'Matrices'"/>
+                    <parent group="kp-pp">
+                        <parentGroup match="kp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_matrix"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_matrix"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_matrix"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$PrPred_matrix"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$matrixScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
+                    
+                    
+                    
+                    <xsl:comment>####################################</xsl:comment>
+                    <xsl:comment>MATRICES: Knowledge Process + Math Operation + Quant Object </xsl:comment>
+                    <xsl:comment>####################################</xsl:comment>
+                    
+                    <xsl:variable name="KP_matrix" as="element()+">
+                        <xsl:for-each
+                            select="key('scopes', $matrix) intersect key('MathOpProcessFilter', $KPMathOp)">
+                            <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="MathOP_matrix" as="element()+">
+                        <xsl:for-each select="key('scopes', $matrix)">
+                            <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="QO_matrix" as="element()+">
+                        <xsl:for-each select="key('scopes', $matrix)">
+                            <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="matrixScopeString" select="'Matrices'"/>
+                    <parent group="kp-mathop">
+                        <parentGroup match="kp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_matrix"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_matrix"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_matrix"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_matrix"/>
+                                <xsl:with-param name="param2" as="element()+"
+                                    select="$MathOP_matrix"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QO_matrix"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$matrixScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
+                </scopeGroup>
+                
+            </xml>
+        </xsl:result-document>
+
+
+
+        <xsl:result-document method="xml" indent="yes" href="infinite_nums/infiniteNestedOutput-TP.xml">
+            <xml>
+                <xsl:comment>****************************************************</xsl:comment>
+                <xsl:comment>*************** INFINITE NUMBERS SCOPE *****************</xsl:comment>
+                <xsl:comment>****************************************************</xsl:comment>
+                
+                <scopeGroup id="infiniteNums">
+                    <xsl:comment>INFINITE NUMBERS: Formal Process(noNotObj) + Process Predicate</xsl:comment>
+                    
+                    <xsl:variable name="FPinfinite" as="element()+">
+                        <xsl:for-each select="key('scopes', $infinite)">
+                            <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="PrPredinfinite" as="element()+">
+                        <xsl:for-each select="key('scopes', $infinite)">
+                            <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="infiniteScopeString" select="'Infinite Numbers'"/>
+                    <parent group="fp-pp">
+                        <parentGroup match="fp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPinfinite"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPredinfinite"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPinfinite"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPredinfinite"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$infiniteScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                        
+                        
+                        <xsl:comment>####################################</xsl:comment>
+                        <xsl:comment>INFINITE NUMBERS: Formal Process (keyed to notation) + Process Predicate + Notation Object</xsl:comment>
+                        <xsl:comment>####################################</xsl:comment>
+                        
+                        <xsl:variable name="FPinfinite" as="element()+">
+                            
+                            <xsl:for-each
+                                select="key('scopes', $infinite) intersect key('notationKey', $notation)">
+                                <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="PrPredinfinite" as="element()+">
+                            <xsl:for-each select="key('scopes', $infinite)">
+                                <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="NO_infinite" as="element()+">
+                            <xsl:for-each select="key('scopes', $infinite)">
+                                <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="infiniteScopeString" select="'Infinite Numbers'"/>
+                        
+                        <notationParent>
+                            <parentGroup match="fp-pp-no" lvl="2">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+" select="$FPinfinite"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$PrPredinfinite"/>
+                                    <xsl:with-param name="param3" as="element()+"
+                                        select="$NO_infinite"/>
+                                </xsl:call-template>
+                            </parentGroup>
+                            <compGroup id="fp-pp-no">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+" select="$FPinfinite"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$PrPredinfinite"/>
+                                    <xsl:with-param name="NOparam3" as="element()+"
+                                        select="$NO_infinite"/>
+                                    <xsl:with-param name="scopeParam" as="xs:string"
+                                        select="$infiniteScopeString"/>
+                                </xsl:call-template>
+                            </compGroup>
+                        </notationParent>
+                    </parent>
+                    
+                    <xsl:comment>####################################</xsl:comment>
+                    <xsl:comment>INFINITE NUMBERS: Formal Process + Math Operation + Quant Object</xsl:comment>
+                    <xsl:comment>####################################</xsl:comment>
+                    
+                    <xsl:variable name="FPinfinite" as="element()+">
+                        <xsl:for-each select="key('scopes', $infinite)">
+                            <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="MathOpinfinite" as="element()+">
+                        <xsl:for-each select="key('scopes', $infinite)">
+                            <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="QOinfinite" as="element()+">
+                        <xsl:for-each select="key('scopes', $infinite)">
+                            <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="infiniteScopeString" select="'Infinite Numbers'"/>
+                    <parent group="fp-mathop">
+                        <parentGroup match="fp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPinfinite"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOpinfinite"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOinfinite"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="fp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$FPinfinite"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOpinfinite"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOinfinite"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$infiniteScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                        
+                        
+                        <xsl:comment>####################################</xsl:comment>
+                        <xsl:comment>INFINITE NUMBERS: Formal Process (keyed to notation) + Math Operation + Quant Object + Notation Object</xsl:comment>
+                        <xsl:comment>####################################</xsl:comment>
+                        
+                        <xsl:variable name="FPinfinite" as="element()+">
+                            <xsl:for-each
+                                select="key('scopes', $infinite) intersect key('notationKey', $notation)">
+                                <xsl:sequence select=".[parent::* ! name() = $formal_process]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="MathOpinfinite" as="element()+">
+                            <xsl:for-each select="key('scopes', $infinite)">
+                                <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="QOinfinite" as="element()+">
+                            <xsl:for-each select="key('scopes', $infinite)">
+                                <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="NO_infinite" as="element()+">
+                            <xsl:for-each select="key('scopes', $infinite)">
+                                <xsl:sequence select=".[parent::* ! name() = $notationObject]"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="infiniteScopeString" select="'Infinite Numbers'"/>
+                        <notationParent>
+                            <parentGroup match="fp-mathop-no" lvl="2">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+" select="$FPinfinite"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$MathOpinfinite"/>
+                                    <xsl:with-param name="param3" as="element()+" select="$QOinfinite"/>
+                                    <xsl:with-param name="param4" as="element()+" select="$NO_infinite"
+                                    />
+                                </xsl:call-template>
+                            </parentGroup>
+                            <compGroup id="fp-mathop-no">
+                                <xsl:call-template name="sentenceWriter">
+                                    <xsl:with-param name="param1" as="element()+" select="$FPinfinite"/>
+                                    <xsl:with-param name="param2" as="element()+"
+                                        select="$MathOpinfinite"/>
+                                    <xsl:with-param name="param3" as="element()+" select="$QOinfinite"/>
+                                    <xsl:with-param name="param4" as="element()+" select="$NO_infinite"/>
+                                    <xsl:with-param name="scopeParam" as="xs:string"
+                                        select="$infiniteScopeString"/>
+                                </xsl:call-template>
+                            </compGroup>
+                        </notationParent>
+                    </parent>
+                    
+                    <xsl:comment>####################################</xsl:comment>
+                    <xsl:comment>INFINITE NUMBERS: Knowledge Process + Process Pred</xsl:comment>
+                    <xsl:comment>####################################</xsl:comment>
+                    
+                    <xsl:variable name="KP_infinite" as="element()+">
+                        <xsl:for-each select="key('scopes', $infinite)">
+                            <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="PrPredinfinite" as="element()+">
+                        <xsl:for-each select="key('scopes', $infinite)">
+                            <xsl:sequence select=".[parent::* ! name() = $processPred]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="infiniteScopeString" select="'Infinite Numbers'"/>
+                    <parent group="kp-pp">
+                        <parentGroup match="kp-pp" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_infinite"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPredinfinite"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-pp">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_infinite"/>
+                                <xsl:with-param name="param2" as="element()+" select="$PrPredinfinite"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$infiniteScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
+                    <xsl:comment>####################################</xsl:comment>
+                    <xsl:comment>INFINITE NUMBERS: Knowledge Process + Math Operation + Quant Object</xsl:comment>
+                    <xsl:comment>####################################</xsl:comment>
+                    
+                    <xsl:variable name="KP_infinite" as="element()+">
+                        <xsl:for-each
+                            select="key('scopes', $infinite) intersect key('MathOpProcessFilter', $KPMathOp)">
+                            <xsl:sequence select=".[parent::* ! name() = $knowledge_process]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="MathOpinfinite" as="element()+">
+                        <xsl:for-each select="key('scopes', $infinite)">
+                            <xsl:sequence select=".[parent::* ! name() = $math_operation]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="QOinfinite" as="element()+">
+                        <xsl:for-each select="key('scopes', $infinite)">
+                            <xsl:sequence select=".[parent::* ! name() = $object]"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="infiniteScopeString" select="'Infinite Numbers'"/>
+                    <parent group="kp-mathop">
+                        <parentGroup match="kp-mathop" lvl="1">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_infinite"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOpinfinite"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOinfinite"/>
+                            </xsl:call-template>
+                        </parentGroup>
+                        <compGroup id="kp-mathop">
+                            <xsl:call-template name="sentenceWriter">
+                                <xsl:with-param name="param1" as="element()+" select="$KP_infinite"/>
+                                <xsl:with-param name="param2" as="element()+" select="$MathOpinfinite"/>
+                                <xsl:with-param name="param3" as="element()+" select="$QOinfinite"/>
+                                <xsl:with-param name="scopeParam" as="xs:string"
+                                    select="$infiniteScopeString"/>
+                            </xsl:call-template>
+                        </compGroup>
+                    </parent>
+                </scopeGroup>
+            </xml>
+        </xsl:result-document>
+        
     </xsl:template>
 
 </xsl:stylesheet>
