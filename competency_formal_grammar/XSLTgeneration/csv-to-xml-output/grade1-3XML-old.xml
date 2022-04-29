@@ -385,19 +385,24 @@
          <group lvl="3" type="minor">
             <minorDomain>Determine the total number of objects in an array.</minorDomain>
             <group lvl="4" type="competency">
-               <competency>Identify the total number of rows.<notes>Arrays limited to 5 rows and 5 columns</notes></competency>
+               <competency>Identify the total number of rows.<notes>Arrays limited to 5 rows and 5 columns</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Identify the total number of columns (number in each row).<notes>Arrays limited to 5 rows and 5 columns</notes></competency>
+               <competency>Identify the total number of columns (number in each row).<notes>Arrays limited to 5 rows and 5 columns</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Identify the total number of objects in an array.<notes>Arrays limited to 5 rows and 5 columns</notes></competency>
+               <competency>Identify the total number of objects in an array.<notes>Arrays limited to 5 rows and 5 columns</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Write a repeated addition equation to represent objects in an array.<notes>Arrays limited to 5 rows and 5 columns</notes></competency>
+               <competency>Write a repeated addition equation to represent objects in an array.<notes>Arrays limited to 5 rows and 5 columns</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Make an array.<notes>Arrays limited to 5 rows and 5 columns</notes></competency>
+               <competency>Make an array.<notes>Arrays limited to 5 rows and 5 columns</notes>
+               </competency>
             </group>
          </group>
       </group>
@@ -478,10 +483,12 @@
          <group lvl="3" type="minor">
             <minorDomain>Multiply within 144.</minorDomain>
             <group lvl="4" type="competency">
-               <competency>Multiply a number (0-12) by 11.<notes>FL MA.3.NSO.2.4</notes></competency>
+               <competency>Multiply a number (0-12) by 11.<notes>FL MA.3.NSO.2.4</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Multiply a number (0-12) by 12.<notes>FL MA.3.NSO.2.4</notes></competency>
+               <competency>Multiply a number (0-12) by 12.<notes>FL MA.3.NSO.2.4</notes>
+               </competency>
             </group>
          </group>
          <group lvl="3" type="minor">
@@ -544,7 +551,8 @@
                <competency>Write a division equation.</competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Write a division equation more than one way. <notes>division sign and long division bar</notes></competency>
+               <competency>Write a division equation more than one way. <notes>division sign and long division bar</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
                <competency>Identify the dividend in a division equation.</competency>
@@ -568,10 +576,12 @@
          <group lvl="3" type="minor">
             <minorDomain>Divide within 144.</minorDomain>
             <group lvl="4" type="competency">
-               <competency>Divide a number by 11.<notes>FL MA.3.NSO.2.4</notes></competency>
+               <competency>Divide a number by 11.<notes>FL MA.3.NSO.2.4</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Divide a number by 12.<notes>FL MA.3.NSO.2.4</notes></competency>
+               <competency>Divide a number by 12.<notes>FL MA.3.NSO.2.4</notes>
+               </competency>
             </group>
          </group>
       </group>
@@ -628,16 +638,20 @@
                <competency>Use multiplication to divide.</competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Tell when an equation with up to 4 terms involving multiplication and/or division is true.<notes>"FL MA.3.AR.2.2 limited to multiplication/division facts within 144"</notes></competency>
+               <competency>Tell when an equation with up to 4 terms involving multiplication and/or division is true.<notes>"FL MA.3.AR.2.2 limited to multiplication/division facts within 144"</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Tell when an equation with up to 4 terms involving multiplication and/or division is false.<notes>"FL MA.3.AR.2.2 limited to multiplication/division facts within 144"</notes></competency>
+               <competency>Tell when an equation with up to 4 terms involving multiplication and/or division is false.<notes>"FL MA.3.AR.2.2 limited to multiplication/division facts within 144"</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Explain why an equation with up to 4 terms involving multiplication and/or division is true.<notes>"FL MA.3.AR.2.2 limited to multiplication/division facts within 144"</notes></competency>
+               <competency>Explain why an equation with up to 4 terms involving multiplication and/or division is true.<notes>"FL MA.3.AR.2.2 limited to multiplication/division facts within 144"</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Explain why an equation with up to 4 terms involving multiplication and/or division is false.<notes>"FL MA.3.AR.2.2 limited to multiplication/division facts within 144"</notes></competency>
+               <competency>Explain why an equation with up to 4 terms involving multiplication and/or division is false.<notes>"FL MA.3.AR.2.2 limited to multiplication/division facts within 144"</notes>
+               </competency>
             </group>
          </group>
       </group>
@@ -709,7 +723,8 @@
                <competency>Solve word problems involving arrays where the number of rows is unknown.</competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Solve word problems involving arrays where the number of columns is unknown.<notes>columns = number in each row</notes></competency>
+               <competency>Solve word problems involving arrays where the number of columns is unknown.<notes>columns = number in each row</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
                <competency>Solve word problems involving measurement where the total is unknown.</competency>
@@ -844,25 +859,31 @@
          <group lvl="3" type="minor">
             <minorDomain>Identify a pattern in a set of 4 or more numbers.</minorDomain>
             <group lvl="4" type="competency">
-               <competency>Write a rule for the pattern.<notes>FL MA.3.AR.3.3</notes></competency>
+               <competency>Write a rule for the pattern.<notes>FL MA.3.AR.3.3</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Write the next few numbers to extend the pattern.<notes>FL MA.3.AR.3.3</notes></competency>
+               <competency>Write the next few numbers to extend the pattern.<notes>FL MA.3.AR.3.3</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Fill in missing numbers in the pattern.<notes>FL MA.3.AR.3.3</notes></competency>
+               <competency>Fill in missing numbers in the pattern.<notes>FL MA.3.AR.3.3</notes>
+               </competency>
             </group>
          </group>
          <group lvl="3" type="minor">
             <minorDomain>Create a number pattern.</minorDomain>
             <group lvl="4" type="competency">
-               <competency>Write a set of numbers given a rule for a pattern and a starting number.<notes>FL MA.3.AR.3.3</notes></competency>
+               <competency>Write a set of numbers given a rule for a pattern and a starting number.<notes>FL MA.3.AR.3.3</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Identify the position of a number within a number sequence.<notes>FL MA.3.AR.3.3</notes></competency>
+               <competency>Identify the position of a number within a number sequence.<notes>FL MA.3.AR.3.3</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Identify the number in a given position within a number sequence.<notes>FL MA.3.AR.3.3</notes></competency>
+               <competency>Identify the number in a given position within a number sequence.<notes>FL MA.3.AR.3.3</notes>
+               </competency>
             </group>
          </group>
       </group>
@@ -1030,7 +1051,8 @@
                <competency>Write numbers modeled by tens.</competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Write numbers modeled by hundreds, tens, and ones.<notes>models: base-ten blocks</notes></competency>
+               <competency>Write numbers modeled by hundreds, tens, and ones.<notes>models: base-ten blocks</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
                <competency>Use drawings (quick sketches) to model three-digit numbers.</competency>
@@ -1123,49 +1145,63 @@
          <group lvl="3" type="minor">
             <minorDomain>Determine whether a number (up to 1,000) is even or odd.</minorDomain>
             <group lvl="4" type="competency">
-               <competency>Identify an even number.<notes>FL MA.3.AR.3.1</notes></competency>
+               <competency>Identify an even number.<notes>FL MA.3.AR.3.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Identify an odd number.<notes>FL MA.3.AR.3.1</notes></competency>
+               <competency>Identify an odd number.<notes>FL MA.3.AR.3.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Explain why a number is even.<notes>FL MA.3.AR.3.1</notes></competency>
+               <competency>Explain why a number is even.<notes>FL MA.3.AR.3.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Explain why a number is odd.<notes>FL MA.3.AR.3.1</notes></competency>
+               <competency>Explain why a number is odd.<notes>FL MA.3.AR.3.1</notes>
+               </competency>
             </group>
          </group>
          <group lvl="3" type="minor">
             <minorDomain>Read and write four-digit numbers.</minorDomain>
             <group lvl="4" type="competency">
-               <competency>Identify the value of the ones digit in a four-digit number.<notes>FL MA.3.NSO.1.1</notes></competency>
+               <competency>Identify the value of the ones digit in a four-digit number.<notes>FL MA.3.NSO.1.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Identify the value of the tens digit in a four-digit number.<notes>FL MA.3.NSO.1.1</notes></competency>
+               <competency>Identify the value of the tens digit in a four-digit number.<notes>FL MA.3.NSO.1.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Identify the value of the hundreds digit in a four-digit number.<notes>FL MA.3.NSO.1.1</notes></competency>
+               <competency>Identify the value of the hundreds digit in a four-digit number.<notes>FL MA.3.NSO.1.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Identify the value of the thousands digit in a four-digit number.<notes>FL MA.3.NSO.1.1</notes></competency>
+               <competency>Identify the value of the thousands digit in a four-digit number.<notes>FL MA.3.NSO.1.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Read a four-digit number in standard form.<notes>FL MA.3.NSO.1.1</notes></competency>
+               <competency>Read a four-digit number in standard form.<notes>FL MA.3.NSO.1.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Read a four-digit number in expanded form.<notes>FL MA.3.NSO.1.1</notes></competency>
+               <competency>Read a four-digit number in expanded form.<notes>FL MA.3.NSO.1.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Read a four-digit number in word form.<notes>FL MA.3.NSO.1.1</notes></competency>
+               <competency>Read a four-digit number in word form.<notes>FL MA.3.NSO.1.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Write a four-digit number in standard form.<notes>FL MA.3.NSO.1.1</notes></competency>
+               <competency>Write a four-digit number in standard form.<notes>FL MA.3.NSO.1.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Write a four-digit number in expanded form.<notes>FL MA.3.NSO.1.1</notes></competency>
+               <competency>Write a four-digit number in expanded form.<notes>FL MA.3.NSO.1.1</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Write a four-digit number in word form.<notes>FL MA.3.NSO.1.1</notes></competency>
+               <competency>Write a four-digit number in word form.<notes>FL MA.3.NSO.1.1</notes>
+               </competency>
             </group>
          </group>
          <group lvl="3" type="minor">
@@ -1561,7 +1597,8 @@
          <group lvl="3" type="minor">
             <minorDomain>Measure lengths using like objects.</minorDomain>
             <group lvl="4" type="competency">
-               <competency>Align like objects from the start to the end of the object being measured.<notes>Examples of like objects: color tiles, paper clips</notes></competency>
+               <competency>Align like objects from the start to the end of the object being measured.<notes>Examples of like objects: color tiles, paper clips</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
                <competency>Align like objects without any gaps or overlaps.</competency>
@@ -1681,7 +1718,8 @@
                <competency>Represent data in a picture graph using a single-unit scale.</competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Represent data in a bar graph using a single-unit scale.<notes>Bar graphs can be horizontal or vertical.</notes></competency>
+               <competency>Represent data in a bar graph using a single-unit scale.<notes>Bar graphs can be horizontal or vertical.</notes>
+               </competency>
             </group>
          </group>
          <group lvl="3" type="minor">
@@ -1867,7 +1905,8 @@
                <competency>Tell the value of one symbol.</competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Tell the value of a half-symbol.<notes>Full symbol must represent an even number.</notes></competency>
+               <competency>Tell the value of a half-symbol.<notes>Full symbol must represent an even number.</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
                <competency>Tell how many data points are in a category.</competency>
@@ -2743,7 +2782,8 @@
                <competency>Identify all of the names for a given quadrilateral.</competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Identify attributes of a trapezoid (exactly 1 pair of parallel sides).<notes>This is the exclusive definition of trapezoid. Some states use the inclusive definition (at least one pair of parallel sides).</notes></competency>
+               <competency>Identify attributes of a trapezoid (exactly 1 pair of parallel sides).<notes>This is the exclusive definition of trapezoid. Some states use the inclusive definition (at least one pair of parallel sides).</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
                <competency>Identify attributes of a parallelogram (2 pairs of parallel sides).</competency>
@@ -2947,7 +2987,8 @@
          <group lvl="3" type="minor">
             <minorDomain>Compare fractions.</minorDomain>
             <group lvl="4" type="competency">
-               <competency>Use models to compare two fractions that have the same denominator.<notes>Models: fraction strips</notes></competency>
+               <competency>Use models to compare two fractions that have the same denominator.<notes>Models: fraction strips</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
                <competency>Use a number line to compare two fractions that have the same denominator.</competency>
@@ -2974,7 +3015,8 @@
                <competency>Compare two fractions with a denominator of 8.</competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Use models to compare two fractions that have the same numerator.<notes>Models: fraction strips</notes></competency>
+               <competency>Use models to compare two fractions that have the same numerator.<notes>Models: fraction strips</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
                <competency>Use number lines to compare two fractions that have the same numerator.</competency>
@@ -3028,7 +3070,8 @@
                <competency>Tell the area of a shape in square units.</competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Identify the standard unit a unit square represents. <notes>Standard units: square inches, square feet, square centimeters, square meters</notes></competency>
+               <competency>Identify the standard unit a unit square represents. <notes>Standard units: square inches, square feet, square centimeters, square meters</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
                <competency>Tell the area of a shape in standard units.</competency>
@@ -3046,7 +3089,8 @@
                <competency>Use repeated addition to find the area of a rectangle in standard units.</competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Multiply to find the area of a rectangle in standard units.<notes>one-digit whole-number side lengths</notes></competency>
+               <competency>Multiply to find the area of a rectangle in standard units.<notes>one-digit whole-number side lengths</notes>
+               </competency>
             </group>
             <group lvl="4" type="competency">
                <competency>Use unit squares to show why the area of a rectangle can be found by multiplying side lengths.</competency>
@@ -3085,7 +3129,8 @@
                <competency>Identify the standard unit represented by the side length of a unit square.</competency>
             </group>
             <group lvl="4" type="competency">
-               <competency>Tell the perimeter of a shape in standard units.<notes>Standard units: inches, feet, centimeters, meters</notes></competency>
+               <competency>Tell the perimeter of a shape in standard units.<notes>Standard units: inches, feet, centimeters, meters</notes>
+               </competency>
             </group>
          </group>
          <group lvl="3" type="minor">

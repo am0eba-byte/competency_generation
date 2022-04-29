@@ -43,14 +43,14 @@
 
     <xsl:template match="minorDomain" mode="#default">
         <minorDomain><xsl:apply-templates select="./text()"/></minorDomain>
+         <group lvl="4" type="comps">
     <!-- here, begin spitting out for-each on competencies (and note?) for each line matching the current minor domain  -->
                  <xsl:for-each select="//line[./minorDomain/text() = current()/text()]">
-                        <group lvl="4" type="competency">
                            
-                           <xsl:apply-templates select="./competency"/>
-                            
-                        </group>
+                           <xsl:apply-templates select="./competency"/>      
+            
                 </xsl:for-each>
+        </group>
     </xsl:template>
 
 

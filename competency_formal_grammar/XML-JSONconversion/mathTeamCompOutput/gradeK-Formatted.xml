@@ -1,0 +1,4162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+   <group lvl="1" cc="CC">
+      <parentCompColl lvl="1">
+         <competency>
+            <Token>counting-and-cardinality</Token>
+            <tID>0</tID>
+            <tFrom>
+                root
+            </tFrom>
+            <tso>1</tso>
+            <Creator>Big Ideas Learning</Creator>
+            <Title>
+               <lang>en-US</lang>
+               <text>Counting and Cardinality</text>
+            </Title>
+            <Definition>
+               <lang>en-US</lang>
+               <text>Counting and Cardinality</text>
+            </Definition>
+         </competency>
+      </parentCompColl>
+      <children type="subD" lvl="2">
+         <subgroup type="subD">
+            <parentCompColl lvl="2">
+               <competency>
+                  <Token>know-number-names-and-the-count-sequence</Token>
+                  <tID>0</tID>
+                  <tso>1</tso>
+                  <Creator>Big Ideas Learning</Creator>
+                  <Title>
+                     <lang>en-US</lang>
+                     <text>Know number names and the count sequence.</text>
+                  </Title>
+                  <Definition>
+                     <lang>en-US</lang>
+                     <text>Know number names and the count sequence.</text>
+                  </Definition>
+               </competency>
+            </parentCompColl>
+            <children type="minorD" lvl="3">
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>count-to-100-by-ones-and-tens</Token>
+                        <tID>0</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count to 100 by ones and tens.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count to 100 by ones and tens.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <ssID>cb1</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>count-by-ones</Token>
+                        <tID>0</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count by ones.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count by ones.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>cb10</ssID>
+                        <ssExtends>cb1</ssExtends>
+                        <Token>count-by-tens</Token>
+                        <tID>1</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count by tens.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count by tens.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>cb110</ssID>
+                        <ssExtends>cb10</ssExtends>
+                        <Token>count-by-tens-and-ones</Token>
+                        <tID>2</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count by tens and ones.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count by tens and ones.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>cw5</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>count-within-5</Token>
+                        <tID>3</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count within 5.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count within 5.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>cw10</ssID>
+                        <ssExtends>cw5</ssExtends>
+                        <Token>count-within-10</Token>
+                        <tID>4</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count within 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count within 10.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>cw20</ssID>
+                        <ssExtends>cw10</ssExtends>
+                        <Token>count-within-20</Token>
+                        <tID>5</tID>
+                        <tso>6</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count within 20.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count within 20.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>cw30</ssID>
+                        <ssExtends>cw20</ssExtends>
+                        <Token>count-within-30</Token>
+                        <tID>6</tID>
+                        <tso>7</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count within 30.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count within 30.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>cw50</ssID>
+                        <ssExtends>cw30</ssExtends>
+                        <Token>count-within-50</Token>
+                        <tID>7</tID>
+                        <tso>8</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count within 50.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count within 50.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>cw100</ssID>
+                        <ssExtends>cw50</ssExtends>
+                        <Token>count-within-100</Token>
+                        <tID>8</tID>
+                        <tso>9</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count within 100.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count within 100.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>count-backward-starting-at-a-given-number</Token>
+                        <tID>9</tID>
+                        <tso>10</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count backward starting at a given number.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count backward starting at a given number.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>count-forward-from-a-given-number</Token>
+                        <tID>1</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count forward from a given number.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count forward from a given number.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>count-forward-starting-at-1</Token>
+                        <tID>10</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count forward starting at 1.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count forward starting at 1.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>count-forward-starting-at-a-given-number</Token>
+                        <tID>11</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count forward starting at a given number.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count forward starting at a given number.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>write-numbers-from-0-to-20</Token>
+                        <tID>2</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write numbers from 0 to 20.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write numbers from 0 to 20.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <ssID>w0</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>write-the-number-0</Token>
+                        <tID>12</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 0.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 0.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w1</ssID>
+                        <ssExtends>w0</ssExtends>
+                        <Token>write-the-number-1</Token>
+                        <tID>13</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 1.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 1.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w2</ssID>
+                        <ssExtends>w1</ssExtends>
+                        <Token>write-the-number-2</Token>
+                        <tID>14</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 2.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 2.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w3</ssID>
+                        <ssExtends>w2</ssExtends>
+                        <Token>write-the-number-3</Token>
+                        <tID>15</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 3.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 3.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w4</ssID>
+                        <ssExtends>w3</ssExtends>
+                        <Token>write-the-number-4</Token>
+                        <tID>16</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 4.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 4.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w5</ssID>
+                        <ssExtends>w4</ssExtends>
+                        <Token>write-the-number-5</Token>
+                        <tID>17</tID>
+                        <tso>6</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 5.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 5.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w6</ssID>
+                        <ssExtends>w5</ssExtends>
+                        <Token>write-the-number-6</Token>
+                        <tID>18</tID>
+                        <tso>7</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 6.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 6.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w7</ssID>
+                        <ssExtends>w6</ssExtends>
+                        <Token>write-the-number-7</Token>
+                        <tID>19</tID>
+                        <tso>8</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 7.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 7.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w8</ssID>
+                        <ssExtends>w7</ssExtends>
+                        <Token>write-the-number-8</Token>
+                        <tID>20</tID>
+                        <tso>9</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 8.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 8.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w9</ssID>
+                        <ssExtends>w8</ssExtends>
+                        <Token>write-the-number-9</Token>
+                        <tID>21</tID>
+                        <tso>10</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 9.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 9.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w10</ssID>
+                        <ssExtends>w9</ssExtends>
+                        <Token>write-the-number-10</Token>
+                        <tID>22</tID>
+                        <tso>11</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 10.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w11</ssID>
+                        <ssExtends>w10</ssExtends>
+                        <Token>write-the-number-11</Token>
+                        <tID>23</tID>
+                        <tso>12</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 11.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 11.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w12</ssID>
+                        <ssExtends>w11</ssExtends>
+                        <Token>write-the-number-12</Token>
+                        <tID>24</tID>
+                        <tso>13</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 12.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 12.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w13</ssID>
+                        <ssExtends>w12</ssExtends>
+                        <Token>write-the-number-13</Token>
+                        <tID>25</tID>
+                        <tso>14</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 13.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 13.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w14</ssID>
+                        <ssExtends>w13</ssExtends>
+                        <Token>write-the-number-14</Token>
+                        <tID>26</tID>
+                        <tso>15</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 14.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 14.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w15</ssID>
+                        <ssExtends>w14</ssExtends>
+                        <Token>write-the-number-15</Token>
+                        <tID>27</tID>
+                        <tso>16</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 15.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 15.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w16</ssID>
+                        <ssExtends>w15</ssExtends>
+                        <Token>write-the-number-16</Token>
+                        <tID>28</tID>
+                        <tso>17</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 16.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 16.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w17</ssID>
+                        <ssExtends>w16</ssExtends>
+                        <Token>write-the-number-17</Token>
+                        <tID>29</tID>
+                        <tso>18</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 17.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 17.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w18</ssID>
+                        <ssExtends>w17</ssExtends>
+                        <Token>write-the-number-18</Token>
+                        <tID>30</tID>
+                        <tso>19</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 18.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 18.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w19</ssID>
+                        <ssExtends>w18</ssExtends>
+                        <Token>write-the-number-19</Token>
+                        <tID>31</tID>
+                        <tso>20</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 19.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 19.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>w20</ssID>
+                        <ssExtends>w19</ssExtends>
+                        <Token>write-the-number-20</Token>
+                        <tID>32</tID>
+                        <tso>21</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write the number 20.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write the number 20.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>represent-a-number-of-objects-with-a-written-numeral-0-20</Token>
+                        <tID>33</tID>
+                        <tso>22</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent a number of objects with a written numeral 0-20.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent a number of objects with a written numeral 0-20.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+            </children>
+         </subgroup>
+         <subgroup type="subD">
+            <parentCompColl lvl="2">
+               <competency>
+                  <Token>count-to-tell-the-number-of-objects</Token>
+                  <tID>1</tID>
+                  <tso>2</tso>
+                  <Creator>Big Ideas Learning</Creator>
+                  <Title>
+                     <lang>en-US</lang>
+                     <text>Count to tell the number of objects.</text>
+                  </Title>
+                  <Definition>
+                     <lang>en-US</lang>
+                     <text>Count to tell the number of objects.</text>
+                  </Definition>
+               </competency>
+            </parentCompColl>
+            <children type="minorD" lvl="3">
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>understand-the-relationship-between-numbers-and-quantities</Token>
+                        <tID>3</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Understand the relationship between numbers and quantities.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Understand the relationship between numbers and quantities.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <ssID>c1</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>count-1-object</Token>
+                        <tID>34</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 1 object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 1 object.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c2</ssID>
+                        <ssExtends>c1</ssExtends>
+                        <Token>count-2-objects</Token>
+                        <tID>35</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 2 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 2 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c3</ssID>
+                        <ssExtends>c2</ssExtends>
+                        <Token>count-3-objects</Token>
+                        <tID>36</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 3 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 3 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c4</ssID>
+                        <ssExtends>c3</ssExtends>
+                        <Token>count-4-objects</Token>
+                        <tID>37</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 4 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 4 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c5</ssID>
+                        <ssExtends>c4</ssExtends>
+                        <Token>count-5-objects</Token>
+                        <tID>38</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 5 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 5 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c6</ssID>
+                        <ssExtends>c5</ssExtends>
+                        <Token>count-6-objects</Token>
+                        <tID>39</tID>
+                        <tso>6</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 6 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 6 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c7</ssID>
+                        <ssExtends>c6</ssExtends>
+                        <Token>count-7-objects</Token>
+                        <tID>40</tID>
+                        <tso>7</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 7 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 7 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c8</ssID>
+                        <ssExtends>c7</ssExtends>
+                        <Token>count-8-objects</Token>
+                        <tID>41</tID>
+                        <tso>8</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 8 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 8 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c9</ssID>
+                        <ssExtends>c8</ssExtends>
+                        <Token>count-9-objects</Token>
+                        <tID>42</tID>
+                        <tso>9</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 9 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 9 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c10</ssID>
+                        <ssExtends>c9</ssExtends>
+                        <Token>count-10-objects</Token>
+                        <tID>43</tID>
+                        <tso>10</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 10 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 10 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c11</ssID>
+                        <ssExtends>c10</ssExtends>
+                        <Token>count-11-objects</Token>
+                        <tID>44</tID>
+                        <tso>11</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 11 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 11 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c12</ssID>
+                        <ssExtends>c11</ssExtends>
+                        <Token>count-12-objects</Token>
+                        <tID>45</tID>
+                        <tso>12</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 12 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 12 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c13</ssID>
+                        <ssExtends>c12</ssExtends>
+                        <Token>count-13-objects</Token>
+                        <tID>46</tID>
+                        <tso>13</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 13 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 13 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c14</ssID>
+                        <ssExtends>c13</ssExtends>
+                        <Token>count-14-objects</Token>
+                        <tID>47</tID>
+                        <tso>14</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 14 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 14 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c15</ssID>
+                        <ssExtends>c14</ssExtends>
+                        <Token>count-15-objects</Token>
+                        <tID>48</tID>
+                        <tso>15</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 15 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 15 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c16</ssID>
+                        <ssExtends>c15</ssExtends>
+                        <Token>count-16-objects</Token>
+                        <tID>49</tID>
+                        <tso>16</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 16 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 16 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c17</ssID>
+                        <ssExtends>c16</ssExtends>
+                        <Token>count-17-objects</Token>
+                        <tID>50</tID>
+                        <tso>17</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 17 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 17 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c18</ssID>
+                        <ssExtends>c17</ssExtends>
+                        <Token>count-18-objects</Token>
+                        <tID>51</tID>
+                        <tso>18</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 18 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 18 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c19</ssID>
+                        <ssExtends>c18</ssExtends>
+                        <Token>count-19-objects</Token>
+                        <tID>52</tID>
+                        <tso>19</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 19 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 19 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>c20</ssID>
+                        <ssExtends>c19</ssExtends>
+                        <Token>count-20-objects</Token>
+                        <tID>53</tID>
+                        <tso>20</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count 20 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count 20 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>count-objects-using-a-one-to-one-correspondence</Token>
+                        <tID>54</tID>
+                        <tso>21</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count objects using a one-to-one correspondence. </text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count objects using a one-to-one correspondence. </text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>count-to-tell-how-many-for-up-to-20-objects</Token>
+                        <tID>4</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count to tell how many for up to 20 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count to tell how many for up to 20 objects.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>count-objects-arranged-in-a-line</Token>
+                        <tID>55</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count objects arranged in a line.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count objects arranged in a line.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>count-objects-arranged-in-a-rectangular-array</Token>
+                        <tID>56</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count objects arranged in a rectangular array.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count objects arranged in a rectangular array.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>count-objects-arranged-in-a-circle</Token>
+                        <tID>57</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count objects arranged in a circle.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count objects arranged in a circle.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>count-to-tell-how-many-for-up-to-10-objects</Token>
+                        <tID>5</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count to tell how many for up to 10 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count to tell how many for up to 10 objects.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>count-objects-in-a-scattered-configuration</Token>
+                        <tID>58</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count objects in a scattered configuration.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count objects in a scattered configuration.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>count-out-a-given-number-of-objects</Token>
+                        <tID>6</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count out a given number of objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count out a given number of objects.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>given-a-number-1-20-count-out-that-many-objects</Token>
+                        <tID>59</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Given a number 1-20, count out that many objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Given a number 1-20, count out that many objects.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+            </children>
+         </subgroup>
+         <subgroup type="subD">
+            <parentCompColl lvl="2">
+               <competency>
+                  <Token>compare-numbers</Token>
+                  <tID>2</tID>
+                  <tso>3</tso>
+                  <Creator>Big Ideas Learning</Creator>
+                  <Title>
+                     <lang>en-US</lang>
+                     <text>Compare numbers.</text>
+                  </Title>
+                  <Definition>
+                     <lang>en-US</lang>
+                     <text>Compare numbers.</text>
+                  </Definition>
+               </competency>
+            </parentCompColl>
+            <children type="minorD" lvl="3">
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>compare-two-groups-of-objects</Token>
+                        <tID>7</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Compare two groups of objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Compare two groups of objects.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <ssID>e1</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>tell-whether-the-number-of-objects-in-one-group-is-equal-or-not-equal-to-the-number-of-objects-in-another-group</Token>
+                        <tID>60</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell whether the number of objects in one group is equal or not equal to the number of objects in another group.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell whether the number of objects in one group is equal or not equal to the number of objects in another group.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>m5</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>match-objects-from-two-groups-of-up-to-5-objects-to-compare</Token>
+                        <tID>61</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Match objects from two groups of up to 5 objects to compare.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Match objects from two groups of up to 5 objects to compare.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>m10</ssID>
+                        <ssExtends>m5</ssExtends>
+                        <Token>match-objects-from-two-groups-of-up-to-10-objects-to-compare</Token>
+                        <tID>62</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Match objects from two groups of up to 10 objects to compare.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Match objects from two groups of up to 10 objects to compare.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>e2</ssID>
+                        <ssExtends>e1</ssExtends>
+                        <Token>tell-whether-the-number-of-objects-in-one-group-is-greater-than-less-than-or-equal-to-the-number-of-objects-in-another-group</Token>
+                        <tID>63</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell whether the number of objects in one group is greater than, less than, or equal to the number of objects in another group.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell whether the number of objects in one group is greater than, less than, or equal to the number of objects in another group.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>g5</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>count-to-compare-two-groups-of-up-to-5-objects</Token>
+                        <tID>64</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count to compare two groups of up to 5 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count to compare two groups of up to 5 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>g10</ssID>
+                        <ssExtends>g5</ssExtends>
+                        <Token>count-to-compare-two-groups-of-up-to-10-objects</Token>
+                        <tID>65</tID>
+                        <tso>6</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count to compare two groups of up to 10 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count to compare two groups of up to 10 objects.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>g20</ssID>
+                        <ssExtends>g10</ssExtends>
+                        <Token>count-to-compare-two-groups-of-up-to-20-objects</Token>
+                        <tID>66</tID>
+                        <tso>7</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count to compare two groups of up to 20 objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count to compare two groups of up to 20 objects.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>compare-two-numbers</Token>
+                        <tID>8</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Compare two numbers.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Compare two numbers.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <ssID>n5</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>compare-two-written-numerals-up-to-5</Token>
+                        <tID>67</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Compare two written numerals up to 5.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Compare two written numerals up to 5.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>n10</ssID>
+                        <ssExtends>n5</ssExtends>
+                        <Token>compare-two-written-numerals-up-to-10</Token>
+                        <tID>68</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Compare two written numerals up to 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Compare two written numerals up to 10.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>order-numbers</Token>
+                        <tID>9</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Order numbers.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Order numbers.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <ssID>o5</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>order-up-to-5-numbers-within-5</Token>
+                        <tID>69</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Order up to 5 numbers within 5.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Order up to 5 numbers within 5.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>o10</ssID>
+                        <ssExtends>o5</ssExtends>
+                        <Token>order-up-to-4-numbers-within-10</Token>
+                        <tID>70</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Order up to 4 numbers within 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Order up to 4 numbers within 10.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>o20</ssID>
+                        <ssExtends>o10</ssExtends>
+                        <Token>order-up-to-4-numbers-within-20</Token>
+                        <tID>71</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Order up to 4 numbers within 20.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Order up to 4 numbers within 20.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+            </children>
+         </subgroup>
+      </children>
+   </group>
+   <group lvl="1" cc="OA">
+      <parentCompColl lvl="1">
+         <competency>
+            <Token>operations-and-algebraic-thinking</Token>
+            <tID>1</tID>
+            <tFrom>
+                root
+            </tFrom>
+            <tso>2</tso>
+            <Creator>Big Ideas Learning</Creator>
+            <Title>
+               <lang>en-US</lang>
+               <text>Operations and Algebraic Thinking</text>
+            </Title>
+            <Definition>
+               <lang>en-US</lang>
+               <text>Operations and Algebraic Thinking</text>
+            </Definition>
+         </competency>
+      </parentCompColl>
+      <children type="subD" lvl="2">
+         <subgroup type="subD">
+            <parentCompColl lvl="2">
+               <competency>
+                  <Token>understand-addition-as-putting-together-and-adding-to</Token>
+                  <tID>3</tID>
+                  <tso>1</tso>
+                  <Creator>Big Ideas Learning</Creator>
+                  <Title>
+                     <lang>en-US</lang>
+                     <text>Understand addition as putting together and adding to.</text>
+                  </Title>
+                  <Definition>
+                     <lang>en-US</lang>
+                     <text>Understand addition as putting together and adding to.</text>
+                  </Definition>
+               </competency>
+            </parentCompColl>
+            <children type="minorD" lvl="3">
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>model-addition</Token>
+                        <tID>10</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Model addition.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Model addition.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>represent-addition-with-objects-fingers-drawings-sounds-or-actions</Token>
+                        <tID>72</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent addition with objects, fingers, drawings, sounds, or actions.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent addition with objects, fingers, drawings, sounds, or actions.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>represent-addition-with-a-number-bond</Token>
+                        <tID>73</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent addition with a number bond.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent addition with a number bond.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>represent-addition-with-a-ten-frame</Token>
+                        <tID>74</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent addition with a ten frame.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent addition with a ten frame.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>represent-addition-with-a-sentence</Token>
+                        <tID>75</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent addition with a sentence.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent addition with a sentence.</text>
+                        </Definition>
+                        <Notes>
+                           <text>Sentence: __ and __ is __ in all.</text>
+                           <UserID>BIL</UserID>
+                        </Notes>
+                     </competency>
+                     <competency>
+                        <Token>represent-addition-with-an-expression</Token>
+                        <tID>76</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent addition with an expression.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent addition with an expression.</text>
+                        </Definition>
+                        <Notes>
+                           <text>Expression: __ + __</text>
+                           <UserID>BIL</UserID>
+                        </Notes>
+                     </competency>
+                     <competency>
+                        <Token>represent-addition-with-an-equation</Token>
+                        <tID>77</tID>
+                        <tso>6</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent addition with an equation.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent addition with an equation.</text>
+                        </Definition>
+                        <Notes>
+                           <text>Equation: __ + __ = __ (also called an 'addition sentence')</text>
+                           <UserID>BIL</UserID>
+                        </Notes>
+                     </competency>
+                     <competency>
+                        <ssID>i5</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>identify-the-parts-and-the-whole-for-a-representation-of-numbers-to-5</Token>
+                        <tID>78</tID>
+                        <tso>7</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of numbers to 5.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of numbers to 5.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>i6</ssID>
+                        <ssExtends>i5</ssExtends>
+                        <Token>identify-the-parts-and-the-whole-for-a-representation-of-the-number-6</Token>
+                        <tID>79</tID>
+                        <tso>8</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of the number 6.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of the number 6.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>i7</ssID>
+                        <ssExtends>i6</ssExtends>
+                        <Token>identify-the-parts-and-the-whole-for-a-representation-of-the-number-7</Token>
+                        <tID>80</tID>
+                        <tso>9</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of the number 7.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of the number 7.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>i8</ssID>
+                        <ssExtends>i7</ssExtends>
+                        <Token>identify-the-parts-and-the-whole-for-a-representation-of-the-number-8</Token>
+                        <tID>81</tID>
+                        <tso>10</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of the number 8.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of the number 8.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>i9</ssID>
+                        <ssExtends>i8</ssExtends>
+                        <Token>identify-the-parts-and-the-whole-for-a-representation-of-the-number-9</Token>
+                        <tID>82</tID>
+                        <tso>11</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of the number 9.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of the number 9.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>i10</ssID>
+                        <ssExtends>i9</ssExtends>
+                        <Token>identify-the-parts-and-the-whole-for-a-representation-of-the-number-10</Token>
+                        <tID>83</tID>
+                        <tso>12</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of the number 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify the parts and the whole for a representation of the number 10.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>r5</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>use-a-number-bond-to-represent-numbers-to-5</Token>
+                        <tID>84</tID>
+                        <tso>13</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent numbers to 5.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent numbers to 5.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>r6</ssID>
+                        <ssExtends>r5</ssExtends>
+                        <Token>use-a-number-bond-to-represent-the-number-6</Token>
+                        <tID>85</tID>
+                        <tso>14</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent the number 6.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent the number 6.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>r7</ssID>
+                        <ssExtends>r6</ssExtends>
+                        <Token>use-a-number-bond-to-represent-the-number-7</Token>
+                        <tID>86</tID>
+                        <tso>15</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent the number 7.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent the number 7.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>r8</ssID>
+                        <ssExtends>r7</ssExtends>
+                        <Token>use-a-number-bond-to-represent-the-number-8</Token>
+                        <tID>87</tID>
+                        <tso>16</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent the number 8.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent the number 8.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>r9</ssID>
+                        <ssExtends>r8</ssExtends>
+                        <Token>use-a-number-bond-to-represent-the-number-9</Token>
+                        <tID>88</tID>
+                        <tso>17</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent the number 9.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent the number 9.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>r10</ssID>
+                        <ssExtends>r9</ssExtends>
+                        <Token>use-a-number-bond-to-represent-the-number-10</Token>
+                        <tID>89</tID>
+                        <tso>18</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent the number 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a number bond to represent the number 10.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-the-partner-number-to-5-that-makes-a-given-whole-number-6-10</Token>
+                        <tID>90</tID>
+                        <tso>19</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify the partner number to 5 that makes a given whole number 6-10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify the partner number to 5 that makes a given whole number 6-10.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>use-a-ten-frame-to-represent-numbers-6-10</Token>
+                        <tID>91</tID>
+                        <tso>20</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a ten frame to represent numbers 6-10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a ten frame to represent numbers 6-10.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>solve-addition-word-problems-within-10</Token>
+                        <tID>11</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Solve addition word problems within 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Solve addition word problems within 10.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>solve-add-to-addition-word-problems</Token>
+                        <tID>92</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Solve add to addition word problems.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Solve add to addition word problems.</text>
+                        </Definition>
+                        <Notes>
+                           <text>Word problem = pictures in K</text>
+                           <UserID>BIL</UserID>
+                        </Notes>
+                     </competency>
+                     <competency>
+                        <Token>solve-put-together-addition-word-problems</Token>
+                        <tID>93</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Solve put together addition word problems.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Solve put together addition word problems.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-the-starting-number-and-number-being-added-in-an-add-to-addition-word-problem</Token>
+                        <tID>94</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify the starting number and number being added in an add to addition word problem.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify the starting number and number being added in an add to addition word problem.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-the-numbers-being-added-in-a-put-together-addition-word-problem</Token>
+                        <tID>95</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify the numbers being added in a put together addition word problem.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify the numbers being added in a put together addition word problem.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>add-within-10</Token>
+                        <tID>12</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Add within 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Add within 10.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <ssID>a5</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>add-two-numbers-within-a-sum-of-5</Token>
+                        <tID>96</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Add two numbers within a sum of 5.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Add two numbers within a sum of 5.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>a10</ssID>
+                        <ssExtends>a5</ssExtends>
+                        <Token>add-two-numbers-within-a-sum-of-10</Token>
+                        <tID>97</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Add two numbers within a sum of 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Add two numbers within a sum of 10.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>use-a-group-of-5-to-add-within-10</Token>
+                        <tID>98</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a group of 5 to add within 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a group of 5 to add within 10.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>given-a-one-digit-number-identify-the-missing-number-that-makes-a-sum-of-10</Token>
+                        <tID>99</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Given a one-digit number, identify the missing number that makes a sum of 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Given a one-digit number, identify the missing number that makes a sum of 10.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>given-a-number-10-or-less-identify-two-numbers-that-sum-to-the-given-number</Token>
+                        <tID>100</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Given a number 10 or less, identify two numbers that sum to the given number.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Given a number 10 or less, identify two numbers that sum to the given number.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>ipa0</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>identify-patterns-when-adding-0</Token>
+                        <tID>101</tID>
+                        <tso>6</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify patterns when adding 0.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify patterns when adding 0.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>ipa1</ssID>
+                        <ssExtends>ipa0</ssExtends>
+                        <Token>identify-patterns-when-adding-1</Token>
+                        <tID>102</tID>
+                        <tso>7</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify patterns when adding 1.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify patterns when adding 1.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+            </children>
+         </subgroup>
+         <subgroup type="subD">
+            <parentCompColl lvl="2">
+               <competency>
+                  <Token>understand-subtraction-as-taking-apart-and-taking-from</Token>
+                  <tID>4</tID>
+                  <tso>2</tso>
+                  <Creator>Big Ideas Learning</Creator>
+                  <Title>
+                     <lang>en-US</lang>
+                     <text>Understand subtraction as taking apart and taking from.</text>
+                  </Title>
+                  <Definition>
+                     <lang>en-US</lang>
+                     <text>Understand subtraction as taking apart and taking from.</text>
+                  </Definition>
+               </competency>
+            </parentCompColl>
+            <children type="minorD" lvl="3">
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>model-subtraction</Token>
+                        <tID>13</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Model subtraction</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Model subtraction</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>represent-subtraction-with-objects-fingers-drawings-sounds-or-actions</Token>
+                        <tID>103</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with objects, fingers, drawings, sounds, or actions.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with objects, fingers, drawings, sounds, or actions.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>represent-subtraction-with-a-number-bond</Token>
+                        <tID>104</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with a number bond.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with a number bond.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>represent-subtraction-with-a-ten-frame</Token>
+                        <tID>105</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with a ten frame.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with a ten frame.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>represent-subtraction-with-a-sentence</Token>
+                        <tID>106</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with a sentence.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with a sentence.</text>
+                        </Definition>
+                        <Notes>
+                           <text>Sentence: __ take away __ is __ .</text>
+                           <UserID>BIL</UserID>
+                        </Notes>
+                     </competency>
+                     <competency>
+                        <Token>represent-subtraction-with-an-expression</Token>
+                        <tID>107</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with an expression.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with an expression.</text>
+                        </Definition>
+                        <Notes>
+                           <text>Expression: __ - __</text>
+                           <UserID>BIL</UserID>
+                        </Notes>
+                     </competency>
+                     <competency>
+                        <Token>represent-subtraction-with-an-equation</Token>
+                        <tID>108</tID>
+                        <tso>6</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with an equation.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent subtraction with an equation.</text>
+                        </Definition>
+                        <Notes>
+                           <text>Equation: __ - __ = __ (also called a 'subtraction sentence')</text>
+                           <UserID>BIL</UserID>
+                        </Notes>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>solve-subtraction-word-problems-within-10</Token>
+                        <tID>14</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Solve subtraction word problems within 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Solve subtraction word problems within 10.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>solve-take-from-subtraction-word-problems</Token>
+                        <tID>109</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Solve take from subtraction word problems.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Solve take from subtraction word problems.</text>
+                        </Definition>
+                        <Notes>
+                           <text>Word problem = pictures in K</text>
+                           <UserID>BIL</UserID>
+                        </Notes>
+                     </competency>
+                     <competency>
+                        <Token>solve-take-apart-subtraction-word-problems</Token>
+                        <tID>110</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Solve take apart subtraction word problems.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Solve take apart subtraction word problems.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-the-starting-number-and-number-being-subtracted-in-a-take-from-subtraction-word-problem</Token>
+                        <tID>111</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify the starting number and number being subtracted in a take from subtraction word problem.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify the starting number and number being subtracted in a take from subtraction word problem.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-the-whole-and-the-parts-in-a-take-apart-subtraction-word-problem</Token>
+                        <tID>112</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify the whole and the parts in a take apart subtraction word problem.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify the whole and the parts in a take apart subtraction word problem.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>subtract-within-10</Token>
+                        <tID>15</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Subtract within 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Subtract within 10.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <ssID>s5</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>subtract-two-numbers-within-5</Token>
+                        <tID>113</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Subtract two numbers within 5.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Subtract two numbers within 5.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>s10</ssID>
+                        <ssExtends>s5</ssExtends>
+                        <Token>subtract-two-numbers-within-10</Token>
+                        <tID>114</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Subtract two numbers within 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Subtract two numbers within 10.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>use-a-group-of-5-to-subtract-within-10</Token>
+                        <tID>115</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a group of 5 to subtract within 10.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a group of 5 to subtract within 10.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>ips0</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>identify-patterns-when-subtracting-0</Token>
+                        <tID>116</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify patterns when subtracting 0.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify patterns when subtracting 0.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>ips1</ssID>
+                        <ssExtends>ips0</ssExtends>
+                        <Token>identify-patterns-when-subtracting-1</Token>
+                        <tID>117</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify patterns when subtracting 1.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify patterns when subtracting 1.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>ips2</ssID>
+                        <ssExtends>ips1</ssExtends>
+                        <Token>identify-patterns-when-subtracting-all</Token>
+                        <tID>118</tID>
+                        <tso>6</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify patterns when subtracting all.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify patterns when subtracting all.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+            </children>
+         </subgroup>
+         <subgroup type="subD">
+            <parentCompColl lvl="2">
+               <competency>
+                  <Token>understand-addition-and-subtraction</Token>
+                  <tID>5</tID>
+                  <tso>3</tso>
+                  <Creator>Big Ideas Learning</Creator>
+                  <Title>
+                     <lang>en-US</lang>
+                     <text>Understand addition and subtraction.</text>
+                  </Title>
+                  <Definition>
+                     <lang>en-US</lang>
+                     <text>Understand addition and subtraction.</text>
+                  </Definition>
+               </competency>
+            </parentCompColl>
+            <children type="minorD" lvl="3">
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>relate-addition-and-subtraction-within-5</Token>
+                        <tID>16</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Relate addition and subtraction within 5.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Relate addition and subtraction within 5.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>tell-whether-a-word-problem-represents-addition-or-subtraction</Token>
+                        <tID>119</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell whether a word problem represents addition or subtraction.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell whether a word problem represents addition or subtraction.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>write-related-addition-and-subtraction-facts</Token>
+                        <tID>120</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Write related addition and subtraction facts.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Write related addition and subtraction facts.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+            </children>
+         </subgroup>
+      </children>
+   </group>
+   <group lvl="1" cc="NBT">
+      <parentCompColl lvl="1">
+         <competency>
+            <Token>numbers-and-operations-in-base-ten</Token>
+            <tID>2</tID>
+            <tFrom>
+                root
+            </tFrom>
+            <tso>3</tso>
+            <Creator>Big Ideas Learning</Creator>
+            <Title>
+               <lang>en-US</lang>
+               <text>Numbers and Operations in Base Ten</text>
+            </Title>
+            <Definition>
+               <lang>en-US</lang>
+               <text>Numbers and Operations in Base Ten</text>
+            </Definition>
+         </competency>
+      </parentCompColl>
+      <children type="subD" lvl="2">
+         <subgroup type="subD">
+            <parentCompColl lvl="2">
+               <competency>
+                  <Token>work-with-numbers-11-19-to-gain-foundations-for-place-value</Token>
+                  <tID>6</tID>
+                  <tso>1</tso>
+                  <Creator>Big Ideas Learning</Creator>
+                  <Title>
+                     <lang>en-US</lang>
+                     <text>Work with numbers 11-19 to gain foundations for place value.</text>
+                  </Title>
+                  <Definition>
+                     <lang>en-US</lang>
+                     <text>Work with numbers 11-19 to gain foundations for place value.</text>
+                  </Definition>
+               </competency>
+            </parentCompColl>
+            <children type="minorD" lvl="3">
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>model-the-numbers-11-19</Token>
+                        <tID>17</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Model the numbers 11-19.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Model the numbers 11-19.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <ssID>rn11</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>represent-the-number-11-as-10-ones-and-1-one</Token>
+                        <tID>121</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 11 as 10 ones and 1 one.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 11 as 10 ones and 1 one.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rnf11</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>represent-the-number-11-using-ten-frames</Token>
+                        <tID>122</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 11 using ten frames.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 11 using ten frames.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rne11</ssID>
+                        <ssExtends>null</ssExtends>
+                        <Token>represent-the-number-11-as-an-equation-11-=-10-+-1</Token>
+                        <tID>123</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 11 as an equation, 11 = 10 + 1.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 11 as an equation, 11 = 10 + 1.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rn12</ssID>
+                        <ssExtends>rn11</ssExtends>
+                        <Token>represent-the-number-12-as-10-ones-and-2-ones</Token>
+                        <tID>124</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 12 as 10 ones and 2 ones.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 12 as 10 ones and 2 ones.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rnf12</ssID>
+                        <ssExtends>rnf11</ssExtends>
+                        <Token>represent-the-number-12-using-ten-frames</Token>
+                        <tID>125</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 12 using ten frames.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 12 using ten frames.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rne12</ssID>
+                        <ssExtends>rne11</ssExtends>
+                        <Token>represent-the-number-12-as-an-equation-12-=-10-+-2</Token>
+                        <tID>126</tID>
+                        <tso>6</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 12 as an equation, 12 = 10 + 2.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 12 as an equation, 12 = 10 + 2.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rn13</ssID>
+                        <ssExtends>rn12</ssExtends>
+                        <Token>represent-the-number-13-as-10-ones-and-3-ones</Token>
+                        <tID>127</tID>
+                        <tso>7</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 13 as 10 ones and 3 ones.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 13 as 10 ones and 3 ones.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rnf13</ssID>
+                        <ssExtends>rnf12</ssExtends>
+                        <Token>represent-the-number-13-using-ten-frames</Token>
+                        <tID>128</tID>
+                        <tso>8</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 13 using ten frames.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 13 using ten frames.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rne13</ssID>
+                        <ssExtends>rne12</ssExtends>
+                        <Token>represent-the-number-13-as-an-equation-13-=-10-+-3</Token>
+                        <tID>129</tID>
+                        <tso>9</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 13 as an equation, 13 = 10 + 3.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 13 as an equation, 13 = 10 + 3.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rn14</ssID>
+                        <ssExtends>rn13</ssExtends>
+                        <Token>represent-the-number-14-as-10-ones-and-4-ones</Token>
+                        <tID>130</tID>
+                        <tso>10</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 14 as 10 ones and 4 ones.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 14 as 10 ones and 4 ones.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rnf14</ssID>
+                        <ssExtends>rnf13</ssExtends>
+                        <Token>represent-the-number-14-using-ten-frames</Token>
+                        <tID>131</tID>
+                        <tso>11</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 14 using ten frames.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 14 using ten frames.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rne14</ssID>
+                        <ssExtends>rne13</ssExtends>
+                        <Token>represent-the-number-14-as-an-equation-14-=-10-+-4</Token>
+                        <tID>132</tID>
+                        <tso>12</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 14 as an equation, 14 = 10 + 4.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 14 as an equation, 14 = 10 + 4.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rn15</ssID>
+                        <ssExtends>rn14</ssExtends>
+                        <Token>represent-the-number-15-as-10-ones-and-5-ones</Token>
+                        <tID>133</tID>
+                        <tso>13</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 15 as 10 ones and 5 ones.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 15 as 10 ones and 5 ones.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rnf15</ssID>
+                        <ssExtends>rnf14</ssExtends>
+                        <Token>represent-the-number-15-using-ten-frames</Token>
+                        <tID>134</tID>
+                        <tso>14</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 15 using ten frames.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 15 using ten frames.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rne15</ssID>
+                        <ssExtends>rne14</ssExtends>
+                        <Token>represent-the-number-15-as-an-equation-15-=-10-+-5</Token>
+                        <tID>135</tID>
+                        <tso>15</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 15 as an equation, 15 = 10 + 5.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 15 as an equation, 15 = 10 + 5.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rn16</ssID>
+                        <ssExtends>rn15</ssExtends>
+                        <Token>represent-the-number-16-as-10-ones-and-6-ones</Token>
+                        <tID>136</tID>
+                        <tso>16</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 16 as 10 ones and 6 ones.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 16 as 10 ones and 6 ones.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rnf16</ssID>
+                        <ssExtends>rnf15</ssExtends>
+                        <Token>represent-the-number-16-using-ten-frames</Token>
+                        <tID>137</tID>
+                        <tso>17</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 16 using ten frames.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 16 using ten frames.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rne16</ssID>
+                        <ssExtends>rne15</ssExtends>
+                        <Token>represent-the-number-16-as-an-equation-16-=-10-+-6</Token>
+                        <tID>138</tID>
+                        <tso>18</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 16 as an equation, 16 = 10 + 6.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 16 as an equation, 16 = 10 + 6.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rn17</ssID>
+                        <ssExtends>rn16</ssExtends>
+                        <Token>represent-the-number-17-as-10-ones-and-7-ones</Token>
+                        <tID>139</tID>
+                        <tso>19</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 17 as 10 ones and 7 ones.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 17 as 10 ones and 7 ones.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rnf17</ssID>
+                        <ssExtends>rnf16</ssExtends>
+                        <Token>represent-the-number-17-using-ten-frames</Token>
+                        <tID>140</tID>
+                        <tso>20</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 17 using ten frames.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 17 using ten frames.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rne17</ssID>
+                        <ssExtends>rne16</ssExtends>
+                        <Token>represent-the-number-17-as-an-equation-17-=-10-+-7</Token>
+                        <tID>141</tID>
+                        <tso>21</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 17 as an equation, 17 = 10 + 7.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 17 as an equation, 17 = 10 + 7.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rn18</ssID>
+                        <ssExtends>rn17</ssExtends>
+                        <Token>represent-the-number-18-as-10-ones-and-8-ones</Token>
+                        <tID>142</tID>
+                        <tso>22</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 18 as 10 ones and 8 ones.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 18 as 10 ones and 8 ones.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rnf18</ssID>
+                        <ssExtends>rnf17</ssExtends>
+                        <Token>represent-the-number-18-using-ten-frames</Token>
+                        <tID>143</tID>
+                        <tso>23</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 18 using ten frames.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 18 using ten frames.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rne18</ssID>
+                        <ssExtends>rne17</ssExtends>
+                        <Token>represent-the-number-18-as-an-equation-18-=-10-+-8</Token>
+                        <tID>144</tID>
+                        <tso>24</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 18 as an equation, 18 = 10 + 8.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 18 as an equation, 18 = 10 + 8.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rn19</ssID>
+                        <ssExtends>rn18</ssExtends>
+                        <Token>represent-the-number-19-as-10-ones-and-9-ones</Token>
+                        <tID>145</tID>
+                        <tso>25</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 19 as 10 ones and 9 ones.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 19 as 10 ones and 9 ones.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rnf19</ssID>
+                        <ssExtends>rnf18</ssExtends>
+                        <Token>represent-the-number-19-using-ten-frames</Token>
+                        <tID>146</tID>
+                        <tso>26</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 19 using ten frames.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 19 using ten frames.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <ssID>rne19</ssID>
+                        <ssExtends>rne18</ssExtends>
+                        <Token>represent-the-number-19-as-an-equation-19-=-10-+-9</Token>
+                        <tID>147</tID>
+                        <tso>27</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Represent the number 19 as an equation, 19 = 10 + 9.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Represent the number 19 as an equation, 19 = 10 + 9.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+            </children>
+         </subgroup>
+      </children>
+   </group>
+   <group lvl="1" cc="MD">
+      <parentCompColl lvl="1">
+         <competency>
+            <Token>measurement-and-data</Token>
+            <tID>3</tID>
+            <tFrom>
+                root
+            </tFrom>
+            <tso>4</tso>
+            <Creator>Big Ideas Learning</Creator>
+            <Title>
+               <lang>en-US</lang>
+               <text>Measurement and Data</text>
+            </Title>
+            <Definition>
+               <lang>en-US</lang>
+               <text>Measurement and Data</text>
+            </Definition>
+         </competency>
+      </parentCompColl>
+      <children type="subD" lvl="2">
+         <subgroup type="subD">
+            <parentCompColl lvl="2">
+               <competency>
+                  <Token>describe-and-compare-measureable-attributes</Token>
+                  <tID>7</tID>
+                  <tso>1</tso>
+                  <Creator>Big Ideas Learning</Creator>
+                  <Title>
+                     <lang>en-US</lang>
+                     <text>Describe and compare measureable attributes.</text>
+                  </Title>
+                  <Definition>
+                     <lang>en-US</lang>
+                     <text>Describe and compare measureable attributes.</text>
+                  </Definition>
+               </competency>
+            </parentCompColl>
+            <children type="minorD" lvl="3">
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>compare-the-heights-of-two-objects</Token>
+                        <tID>18</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Compare the heights of two objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Compare the heights of two objects.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>tell-when-one-object-is-taller-than-another-object</Token>
+                        <tID>148</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is taller than another object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is taller than another object.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>tell-when-one-object-is-shorter-(in-height)-than-another-object</Token>
+                        <tID>149</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is shorter (in height) than another object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is shorter (in height) than another object.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>tell-when-two-objects-are-the-same-height</Token>
+                        <tID>150</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when two objects are the same height.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when two objects are the same height.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>compare-the-lengths-of-two-objects</Token>
+                        <tID>19</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Compare the lengths of two objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Compare the lengths of two objects.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>tell-when-one-object-is-longer-than-another-object</Token>
+                        <tID>151</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is longer than another object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is longer than another object.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>tell-when-one-object-is-shorter-(in-length)-than-another-object</Token>
+                        <tID>152</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is shorter (in length) than another object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is shorter (in length) than another object.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>tell-when-two-objects-are-the-same-length</Token>
+                        <tID>153</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when two objects are the same length.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when two objects are the same length.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>use-a-tool-(linking-cubes)-to-compare-lengths</Token>
+                        <tID>154</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a tool (linking cubes) to compare lengths.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a tool (linking cubes) to compare lengths.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>compare-the-weights-of-two-objects</Token>
+                        <tID>20</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Compare the weights of two objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Compare the weights of two objects.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>tell-when-one-object-is-heavier-than-another-object</Token>
+                        <tID>155</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is heavier than another object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is heavier than another object.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>tell-when-one-object-is-lighter-than-another-object</Token>
+                        <tID>156</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is lighter than another object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when one object is lighter than another object.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>tell-when-two-objects-are-the-same-weight</Token>
+                        <tID>157</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when two objects are the same weight.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when two objects are the same weight.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>use-a-tool-(linking-cubes)-to-compare-weights</Token>
+                        <tID>158</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a tool (linking cubes) to compare weights.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a tool (linking cubes) to compare weights.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>use-a-tool-(balance-scale)-to-compare-weights</Token>
+                        <tID>159</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use a tool (balance scale) to compare weights.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use a tool (balance scale) to compare weights.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>compare-the-compacities-of-two-objects</Token>
+                        <tID>21</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Compare the compacities of two objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Compare the compacities of two objects.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>tell-when-one-object-holds-more-than-another-object</Token>
+                        <tID>160</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when one object holds more than another object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when one object holds more than another object.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>tell-when-one-object-holds-less-than-another-object</Token>
+                        <tID>161</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when one object holds less than another object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when one object holds less than another object.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>tell-when-two-objects-hold-the-same-amount</Token>
+                        <tID>162</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Tell when two objects hold the same amount.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Tell when two objects hold the same amount.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>describe-measureable-attributes</Token>
+                        <tID>22</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe measureable attributes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe measureable attributes.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>identify-when-the-length-or-height-of-an-object-can-be-measured</Token>
+                        <tID>163</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify when the length or height of an object can be measured.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify when the length or height of an object can be measured.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-when-the-weight-of-an-object-can-be-measured</Token>
+                        <tID>164</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify when the weight of an object can be measured.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify when the weight of an object can be measured.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-when-the-capacity-of-an-object-can-be-measured</Token>
+                        <tID>165</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify when the capacity of an object can be measured.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify when the capacity of an object can be measured.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-all-of-the-measureable-attributes-of-an-object</Token>
+                        <tID>166</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify all of the measureable attributes of an object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify all of the measureable attributes of an object.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+            </children>
+         </subgroup>
+         <subgroup type="subD">
+            <parentCompColl lvl="2">
+               <competency>
+                  <Token>classify-objects-and-count-the-number-of-objects-in-each-category</Token>
+                  <tID>8</tID>
+                  <tso>2</tso>
+                  <Creator>Big Ideas Learning</Creator>
+                  <Title>
+                     <lang>en-US</lang>
+                     <text>Classify objects and count the number of objects in each
+                category.</text>
+                  </Title>
+                  <Definition>
+                     <lang>en-US</lang>
+                     <text>Classify objects and count the number of objects in each
+                category.</text>
+                  </Definition>
+               </competency>
+            </parentCompColl>
+            <children type="minorD" lvl="3">
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>classify-objects</Token>
+                        <tID>23</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Classify objects.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Classify objects.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>identify-objects-that-belong-to-a-given-category</Token>
+                        <tID>167</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify objects that belong to a given category.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify objects that belong to a given category.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-objects-that-do-not-belong-to-a-given-category</Token>
+                        <tID>168</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify objects that do not belong to a given category.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify objects that do not belong to a given category.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>count-objects-in-categories</Token>
+                        <tID>24</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count objects in categories.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count objects in categories.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>count-the-number-of-objects-(up-to-10)-in-a-given-category</Token>
+                        <tID>169</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Count the number of objects (up to 10) in a given category.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Count the number of objects (up to 10) in a given category.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>compare-the-number-of-objects-in-two-categories</Token>
+                        <tID>170</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Compare the number of objects in two categories.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Compare the number of objects in two categories.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+            </children>
+         </subgroup>
+      </children>
+   </group>
+   <group lvl="1" cc="G">
+      <parentCompColl lvl="1">
+         <competency>
+            <Token>geometry</Token>
+            <tID>4</tID>
+            <tFrom>
+                root
+            </tFrom>
+            <tso>5</tso>
+            <Creator>Big Ideas Learning</Creator>
+            <Title>
+               <lang>en-US</lang>
+               <text>Geometry</text>
+            </Title>
+            <Definition>
+               <lang>en-US</lang>
+               <text>Geometry</text>
+            </Definition>
+         </competency>
+      </parentCompColl>
+      <children type="subD" lvl="2">
+         <subgroup type="subD">
+            <parentCompColl lvl="2">
+               <competency>
+                  <Token>identify-and-describe-shapes</Token>
+                  <tID>9</tID>
+                  <tso>1</tso>
+                  <Creator>Big Ideas Learning</Creator>
+                  <Title>
+                     <lang>en-US</lang>
+                     <text>Identify and describe shapes.</text>
+                  </Title>
+                  <Definition>
+                     <lang>en-US</lang>
+                     <text>Identify and describe shapes.</text>
+                  </Definition>
+               </competency>
+            </parentCompColl>
+            <children type="minorD" lvl="3">
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>identify-two-dimensional-shapes</Token>
+                        <tID>25</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify two-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify two-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>identify-a-triangle</Token>
+                        <tID>171</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify a triangle.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify a triangle.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-a-rectangle</Token>
+                        <tID>172</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify a rectangle.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify a rectangle.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-a-square</Token>
+                        <tID>173</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify a square.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify a square.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-a-hexagon</Token>
+                        <tID>174</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify a hexagon.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify a hexagon.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-a-circle</Token>
+                        <tID>175</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify a circle.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify a circle.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>describe-two-dimensional-shapes</Token>
+                        <tID>26</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe two-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe two-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>describe-features-of-a-triangle-(3-sides-and-3-vertices)</Token>
+                        <tID>176</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe features of a triangle (3 sides and 3 vertices).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe features of a triangle (3 sides and 3 vertices).</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>describe-features-of-a-rectangle(4-sides-and-4-l-shaped-vertices)</Token>
+                        <tID>177</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe features of a rectangle(4 sides and 4 L-shaped vertices).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe features of a rectangle(4 sides and 4 L-shaped vertices).</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>describe-features-of-a-square-(4-sides-of-equal-length-and-4-l-shaped-vertices)</Token>
+                        <tID>178</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe features of a square (4 sides of equal length and 4 L-shaped vertices).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe features of a square (4 sides of equal length and 4 L-shaped vertices).</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>describe-features-of-a-hexagon-(6-sides-and-6-vertices)</Token>
+                        <tID>179</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe features of a hexagon (6 sides and 6 vertices).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe features of a hexagon (6 sides and 6 vertices).</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>describe-features-of-a-circle-(has-curved-sides/no-straight-sides-and-no-vertices)</Token>
+                        <tID>180</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe features of a circle (has curved sides/no straight sides and no vertices).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe features of a circle (has curved sides/no straight sides and no vertices).</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>identify-three-dimensional-shapes</Token>
+                        <tID>27</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify three-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify three-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>identify-a-cube</Token>
+                        <tID>181</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify a cube.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify a cube.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-a-sphere</Token>
+                        <tID>182</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify a sphere.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify a sphere.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-a-cone</Token>
+                        <tID>183</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify a cone.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify a cone.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-a-cylinder</Token>
+                        <tID>184</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify a cylinder.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify a cylinder.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>describe-three-dimensional-shapes</Token>
+                        <tID>28</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe three-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe three-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>describe-features-of-a-cube-(has-flat-square-surfaces)</Token>
+                        <tID>185</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe features of a cube (has flat, square surfaces).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe features of a cube (has flat, square surfaces).</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>describe-features-of-a-sphere-(has-a-curved-surface/no-flat-surfaces)</Token>
+                        <tID>186</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe features of a sphere (has a curved surface/no flat surfaces).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe features of a sphere (has a curved surface/no flat surfaces).</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>describe-features-of-a-cone-(has-a-curved-surface-a-flat-surface-and-a-vertex)</Token>
+                        <tID>187</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe features of a cone (has a curved surface, a flat surface, and a vertex).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe features of a cone (has a curved surface, a flat surface, and a vertex).</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>describe-features-of-a-cylinder-(has-a-curved-surface-and-two-flat-surfaces)</Token>
+                        <tID>188</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe features of a cylinder (has a curved surface and two flat surfaces).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe features of a cylinder (has a curved surface and two flat surfaces).</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>distinguish-between-two--and-three-dimensional-shapes</Token>
+                        <tID>29</tID>
+                        <tso>5</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Distinguish between two- and three-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Distinguish between two- and three-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>identify-two-dimensional-shapes-(flat)</Token>
+                        <tID>189</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify two-dimensional shapes (flat).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify two-dimensional shapes (flat).</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-three-dimensional-shapes-(solid)</Token>
+                        <tID>190</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify three-dimensional shapes (solid).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify three-dimensional shapes (solid).</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>describe-positions-of-objects-in-the-enviroment</Token>
+                        <tID>30</tID>
+                        <tso>6</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe positions of objects in the enviroment.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe positions of objects in the enviroment.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>describe-the-position-of-an-object-as-being-above-or-below-another-object</Token>
+                        <tID>191</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe the position of an object as being above or below another object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe the position of an object as being above or below another object.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>describe-the-position-of-an-object-as-being-in-front-of-or-behind-another-object</Token>
+                        <tID>192</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe the position of an object as being in front of or behind another object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe the position of an object as being in front of or behind another object.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>describe-the-position-of-an-object-as-being-beside-or-next-to-another-object</Token>
+                        <tID>193</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe the position of an object as being beside or next to another object.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe the position of an object as being beside or next to another object.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+            </children>
+         </subgroup>
+         <subgroup type="subD">
+            <parentCompColl lvl="2">
+               <competency>
+                  <Token>analyze-compare-create-and-compose-shapes</Token>
+                  <tID>10</tID>
+                  <tso>2</tso>
+                  <Creator>Big Ideas Learning</Creator>
+                  <Title>
+                     <lang>en-US</lang>
+                     <text>Analyze, compare, create, and compose shapes.</text>
+                  </Title>
+                  <Definition>
+                     <lang>en-US</lang>
+                     <text>Analyze, compare, create, and compose shapes.</text>
+                  </Definition>
+               </competency>
+            </parentCompColl>
+            <children type="minorD" lvl="3">
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>analyze-and-compare-two-dimensional-shapes</Token>
+                        <tID>31</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Analyze and compare two-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Analyze and compare two-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>describe-the-sides-of-two-dimensional-shapes-(curved-or-straight)</Token>
+                        <tID>194</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Describe the sides of two-dimensional shapes (curved or straight).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Describe the sides of two-dimensional shapes (curved or straight).</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>compare-the-number-of-sides-of-two-dimensional-shapes</Token>
+                        <tID>195</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Compare the number of sides of two-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Compare the number of sides of two-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>compare-the-number-of-vertices-of-two-dimensional-shapes</Token>
+                        <tID>196</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Compare the number of vertices of two-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Compare the number of vertices of two-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>analyze-and-compare-three-dimensional-shapes</Token>
+                        <tID>32</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Analyze and compare three-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Analyze and compare three-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>identify-three-dimensional-shapes-that-roll-(curved-surface)</Token>
+                        <tID>197</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify three-dimensional shapes that roll (curved surface).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify three-dimensional shapes that roll (curved surface).</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-three-dimensional-shapes-that-stack-(multiple-flat-surfaces)</Token>
+                        <tID>198</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify three-dimensional shapes that stack (multiple flat surfaces).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify three-dimensional shapes that stack (multiple flat surfaces).</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>identify-three-dimensional-shapes-that-slide-(flat-surface)</Token>
+                        <tID>199</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Identify three-dimensional shapes that slide (flat surface).</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Identify three-dimensional shapes that slide (flat surface).</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>create-and-compose-two-dimensional-shapes</Token>
+                        <tID>33</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Create and compose two-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Create and compose two-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>combine-two-dimensional-shapes-to-form-a-larger-shape</Token>
+                        <tID>200</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Combine two-dimensional shapes to form a larger shape.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Combine two-dimensional shapes to form a larger shape.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>use-materials-(sticks-and-clay-balls)-to-create-two-dimensional-shapes</Token>
+                        <tID>201</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use materials (sticks and clay balls) to create two-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use materials (sticks and clay balls) to create two-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>draw-two-dimensionals-shapes</Token>
+                        <tID>202</tID>
+                        <tso>3</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Draw two-dimensionals shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Draw two-dimensionals shapes.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+               <subgroup type="minorD">
+                  <parentCompColl lvl="3">
+                     <competency>
+                        <Token>create-and-compose-three-dimensional-shapes</Token>
+                        <tID>34</tID>
+                        <tso>4</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Create and compose three-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Create and compose three-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                  </parentCompColl>
+                  <children type="comps" lvl="4">
+                     <competency>
+                        <Token>combine-three-dimensional-shapes-to-form-a-larger-shape</Token>
+                        <tID>203</tID>
+                        <tso>1</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Combine three-dimensional shapes to form a larger shape.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Combine three-dimensional shapes to form a larger shape.</text>
+                        </Definition>
+                     </competency>
+                     <competency>
+                        <Token>use-materials-(sticks-and-clay-balls)-to-create-three-dimensional-shapes</Token>
+                        <tID>204</tID>
+                        <tso>2</tso>
+                        <Creator>Big Ideas Learning</Creator>
+                        <Title>
+                           <lang>en-US</lang>
+                           <text>Use materials (sticks and clay balls) to create three-dimensional shapes.</text>
+                        </Title>
+                        <Definition>
+                           <lang>en-US</lang>
+                           <text>Use materials (sticks and clay balls) to create three-dimensional shapes.</text>
+                        </Definition>
+                     </competency>
+                  </children>
+               </subgroup>
+            </children>
+         </subgroup>
+      </children>
+   </group>
+</xml>
