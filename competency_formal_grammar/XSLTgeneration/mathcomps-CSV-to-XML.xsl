@@ -9,7 +9,7 @@
     <xsl:template match="/">
         <xml>
       
-        <!-- for-each <line> with matching <domain> text --> <!-- != following::line/Domain/text() --> <!-- ./Domain/text() => distinct-values() -->
+        <!-- for-each <line> with matching <domain> text -->
         <xsl:for-each select="//line[not(./Domain/text() = preceding::line/Domain/text())]">
             <group lvl="1" type="domain">
                 <xsl:apply-templates select="./Domain"/>
@@ -34,14 +34,33 @@
          <subDomain><xsl:apply-templates select="./text()"/></subDomain>
                     
                     <!-- for each <line> with matching <domain>, <subDomain>, and <minorDomain> -->
+                    <xsl:for-each select="//line[not(./minorDomain/text() = preceding::line/minorDomain/text()) and ./subDomain/text() = current()/text()]">
                     <group lvl="3" type="minor">
-                        <minorDomain><!-- insert minorDomain --></minorDomain>
-                        
-                        <group lvl="4" type="competency">
-                            <!-- here, begin spitting out for-each on competencies (and note?) for each line  -->
-                            <competency><!--xsl:apply-templates --></competency>
-                        </group>
+                        <xsl:apply-templates select="./minorDomain"/>
                     </group>
+                    </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template match="minorDomain" mode="#default">
+        <minorDomain><xsl:apply-templates select="./text()"/></minorDomain>
+    <!-- here, begin spitting out for-each on competencies (and note?) for each line matching the current minor domain  -->
+                 <xsl:for-each select="//line[./minorDomain/text() = current()/text()]">
+                        <group lvl="4" type="competency">
+                           
+                           <xsl:apply-templates select="./competency"/>
+                            
+                        </group>
+                </xsl:for-each>
+    </xsl:template>
+
+
+    <xsl:template match="competency" mode="#default">
+        <competency><xsl:apply-templates select="./text()"/>
+        <xsl:if test="following-sibling::note">
+             <notes><xsl:apply-templates select="following-sibling::note/text()"/></notes>
+        </xsl:if>
+       
+        </competency>
     </xsl:template>
     
     
