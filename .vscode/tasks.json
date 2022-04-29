@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "xslt-js",
+			"label": "convert math team comps from CSV format to ordered XML",
+			"xsltFile": "competency_formal_grammar/XSLTgeneration/mathcomps-CSV-to-XML.xsl",
+			"xmlSource": "${file}",
+			"resultPath": "competency_formal_grammar/XSLTgeneration/csv-to-xml-output/grade1-3XML.xml",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt-js"
+			]
+		}
+	]
+}

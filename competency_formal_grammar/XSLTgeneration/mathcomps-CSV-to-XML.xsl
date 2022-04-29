@@ -8,15 +8,30 @@
     
     <xsl:template match="/">
         <xml>
-        <xsl:apply-templates select="/head"/>
-        <!-- for-each <line> with matching <domain> text -->
-        <xsl:for-each select="line[Domain/text() = current()/Domain/text()]">
-            <group lvl="1" type="domain" cc="{}">
-                <xsl:apply-templates select="Domain"/>
+      
+        <!-- for-each <line> with matching <domain> text --> <!-- != following::line/Domain/text() --> <!-- ./Domain/text() => distinct-values() -->
+        <xsl:for-each select="//line[not(./Domain/text() = preceding::line/Domain/text())]">
+            <group lvl="1" type="domain">
+                <xsl:apply-templates select="./Domain"/>
                 
-                <!-- for each <line> with matching <domain> AND <subDomain> -->
+                
+            </group>
+        </xsl:for-each> 
+        </xml>
+    </xsl:template>
+
+    <xsl:template match="Domain">
+        <Domain><xsl:apply-templates select="./text()"/></Domain>
+        <!-- for each <line> with matching <domain> AND <subDomain> -->
+        <xsl:for-each select="//line[not(./subDomain/text() = preceding::line/subDomain/text()) and ./Domain/text() = current()/text()]">
                 <group lvl="2" type="subdomain">
-                    <subDomain><!-- insert subdomain --></subDomain>
+                   <xsl:apply-templates select="./subDomain"/>
+                </group>
+         </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template match="subDomain" mode="#default">
+         <subDomain><xsl:apply-templates select="./text()"/></subDomain>
                     
                     <!-- for each <line> with matching <domain>, <subDomain>, and <minorDomain> -->
                     <group lvl="3" type="minor">
@@ -27,10 +42,6 @@
                             <competency><!--xsl:apply-templates --></competency>
                         </group>
                     </group>
-                </group>
-            </group>
-        </xsl:for-each> 
-        </xml>
     </xsl:template>
     
     

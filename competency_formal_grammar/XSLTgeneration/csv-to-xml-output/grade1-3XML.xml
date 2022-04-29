@@ -1,2 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xml/>
+<xml>
+   <group lvl="1" type="domain">
+      <Domain>Operations and Algebraic Thinking</Domain>
+      <group lvl="2" type="subdomain">
+         <subDomain>Represent and solve problems involving addition and subtraction.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Add and subtract within 20.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Apply properties of operations as strategies to add and subtract.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Work with addition and subtraction equations.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Work with equal groups of objects to prepare for multiplication.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Multiply and divide within 144.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Use properties of multiplication and the relationship between multiplication and division.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Represent and solve problems involving multiplication and division.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Solve two-step word problems.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Identify and explain arithmetic patterns.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+   </group>
+   <group lvl="1" type="domain">
+      <Domain>Numbers and Operations in Base Ten</Domain>
+      <group lvl="2" type="subdomain">
+         <subDomain>Extend the counting sequence.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Understand place value.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Add and subtract within 100.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Add and subtract within 1,000.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Multiply by multiples of 10.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+   </group>
+   <group lvl="1" type="domain">
+      <Domain>Measurement and Data</Domain>
+      <group lvl="2" type="subdomain">
+         <subDomain>Measure lengths indirectly.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Measure lengths.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Tell and write time.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Represent and interpret data.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Measure and estimate lengths in standard units.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Relate addition and subtraction to length.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Work with money.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Measure elapsed time.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Measure and estimate liquid volumes.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Measure and estimate masses.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Solve one-step word problems involving liquid volume.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Solve one-step word problems involving mass.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+   </group>
+   <group lvl="1" type="domain">
+      <Domain>Geometry</Domain>
+      <group lvl="2" type="subdomain">
+         <subDomain>Reason with shapes and their attributes.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+   </group>
+   <group lvl="1" type="domain">
+      <Domain>Numbers and Operations - Fractions</Domain>
+      <group lvl="2" type="subdomain">
+         <subDomain>Develop an understanding of fractions as numbers.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+   </group>
+   <group lvl="1" type="domain">
+      <Domain>Geometric Measurement</Domain>
+      <group lvl="2" type="subdomain">
+         <subDomain>Understand concepts of area.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Relate area to multiplication and addition.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Understand concepts of perimeter.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+      <group lvl="2" type="subdomain">
+         <subDomain>Relate perimeter and area.</subDomain>
+         <group lvl="3" type="minor">
+            <minorDomain/>
+            <group lvl="4" type="competency">
+               <competency/>
+            </group>
+         </group>
+      </group>
+   </group>
+</xml>
